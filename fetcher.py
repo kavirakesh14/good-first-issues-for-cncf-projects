@@ -14,7 +14,6 @@ def get_live_cncf_repos():
     print("Fetching CNCF landscape source directly from GitHub (Bypassing Cloudflare)...")
     
     try:
-        # Bypassing the Cloudflare-protected website by hitting the raw GitHub repo
         response = requests.get("https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml")
         if response.status_code != 200:
             print(f"Failed to fetch YAML: {response.status_code}")
@@ -27,25 +26,24 @@ def get_live_cncf_repos():
 
     repos = {}
     
-    # Traverse the nested YAML structure
-    if "landscape" in landscape_data:
-        for category in landscape_data["landscape"]:
-            for subcategory in category.get("subcategories", []):
-                for item in subcategory.get("items", []):
+    # FIX: Added `or []` to protect against NoneType (null) values in the CNCF YAML
+    for category in landscape_data.get("landscape") or []:
+        for subcategory in category.get("subcategories") or []:
+            for item in subcategory.get("items") or []:
+                
+                project_tier = item.get("project")
+                # We only care about official CNCF projects
+                if project_tier in ["graduated", "incubating", "sandbox"]:
+                    repo_url = item.get("repo_url", "")
                     
-                    project_tier = item.get("project")
-                    # We only care about official CNCF projects
-                    if project_tier in ["graduated", "incubating", "sandbox"]:
-                        repo_url = item.get("repo_url", "")
+                    if repo_url and repo_url.startswith("https://github.com/"):
+                        # Clean the URL to get just "org/repo"
+                        repo_path = repo_url.replace("https://github.com/", "").strip("/").replace(".git", "")
                         
-                        if repo_url and repo_url.startswith("https://github.com/"):
-                            # Clean the URL to get just "org/repo"
-                            repo_path = repo_url.replace("https://github.com/", "").strip("/").replace(".git", "")
-                            
-                            repos[repo_path] = {
-                                "tier": project_tier.capitalize(),
-                                "lang": "Unknown" # We will fetch this directly from the GitHub API below
-                            }
+                        repos[repo_path] = {
+                            "tier": project_tier.capitalize(),
+                            "lang": "Unknown" # We will fetch this directly from the GitHub API below
+                        }
                             
     print(f"Discovered {len(repos)} official CNCF GitHub repositories.")
     return repos
