@@ -1,43 +1,50 @@
-name: Fetch CNCF Issues
+name: Auto-Sync CNCF Good First Issues
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight UTC
-  workflow_dispatch: # Allows you to trigger it manually from GitHub
+    # Runs every 6 hours (At minute 0 of every 6th hour)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows you to manually trigger the pipeline anytime from the GitHub UI
 
-# 1. FIXES THE NODE.JS WARNING
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
-
-# 2. FIXES ERROR 128 (Allows the bot to push code)
+# Explicitly grant write access so the runner can push data.json back to the repo
 permissions:
-  contents: write 
+  contents: write
 
 jobs:
-  update-data:
+  sync-ecosystem:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout Repository Code
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Initialize Python Environment
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-node-version: '3.10'
+          cache: 'pip'
 
-      - name: Install Dependencies
-        run: pip install requests
+      - name: Install Project Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
-      - name: Fetch Latest Issues
+      - name: Execute Auto-Discovery Engine
+        # This injects the token cleanly into the step's runtime environment
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python fetcher.py
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Updated Data Artifacts
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Only stage, commit, and push if data.json actually changed
           git add data.json
-          git commit -m "Auto-update CNCF good first issues" || echo "No changes to commit"
-          git push
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: automated sync of CNCF issue database [skip ci]"
+            git push origin main
+          else
+            echo "No database changes detected during this synchronization window."
+          fi
