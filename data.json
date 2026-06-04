@@ -2520,32 +2520,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[CI] Remove deleted deployment_yamls manifest from provider URL sync check",
-        "url": "https://github.com/meshery/meshery/issues/19859",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-06-03T18:51:09Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Addition of Remote Provider: OD10",
-        "url": "https://github.com/meshery/meshery/issues/19857",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "component/server"
-        ],
-        "created_at": "2026-06-03T15:53:16Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Add a glossary page for common Meshery terms",
         "url": "https://github.com/meshery/meshery/issues/19775",
         "labels": [
@@ -2856,6 +2830,17 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:47Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Server] CreateK8sResource returns an error after a successful force recreate",
+        "url": "https://github.com/meshery/meshery/issues/18976",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-04-29T03:30:45Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -7049,19 +7034,6 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Support]: How to configure to renewal OAuth2-proxy from IAM",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3268",
-        "labels": [
-            "help wanted",
-            "configuration",
-            "Stale"
-        ],
-        "created_at": "2025-11-20T08:49:29Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Bug]: CSRF validation not working for parallel requests ",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3258",
         "labels": [
@@ -7166,6 +7138,18 @@
             "help wanted"
         ],
         "created_at": "2025-09-03T17:02:45Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: Update default endpoints / URLs for (default) google provider?",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3181",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2025-09-01T09:52:27Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -15465,10 +15449,25 @@
             "type/bug",
             "help wanted",
             "good first issue",
-            "backport/v3.4",
-            "backport/v3.5"
+            "backport/v3.5",
+            "backport/v3.6"
         ],
         "created_at": "2025-10-05T16:59:57Z"
+    },
+    {
+        "repo": "etcd-io/etcd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Bump `golang.org/x/crypto@v0.52.0` to resolve several CVEs",
+        "url": "https://github.com/etcd-io/etcd/issues/21896",
+        "labels": [
+            "help wanted",
+            "area/security",
+            "release/v3.6",
+            "release/v3.5",
+            "release/v3.7"
+        ],
+        "created_at": "2026-06-03T13:14:42Z"
     },
     {
         "repo": "etcd-io/etcd",
@@ -17624,6 +17623,17 @@
         "repo": "higress-group/higress",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "HIgress\u662f\u5426\u80fd\u652f\u6301Nginx-ingress\u7684SSI\u7279\u6027 || Can HIgress support the SSI feature of Nginx-ingress?",
+        "url": "https://github.com/higress-group/higress/issues/3913",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-06-04T01:41:49Z"
+    },
+    {
+        "repo": "higress-group/higress",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Support OpenAI Responses API affinity across multiple providers/deployments",
         "url": "https://github.com/higress-group/higress/issues/3841",
         "labels": [
@@ -17983,19 +17993,6 @@
             "area/ai"
         ],
         "created_at": "2025-02-05T09:47:27Z"
-    },
-    {
-        "repo": "higress-group/higress",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Implement claude LLM mock server & e2e test case",
-        "url": "https://github.com/higress-group/higress/issues/1719",
-        "labels": [
-            "help wanted",
-            "area/e2e",
-            "area/ai"
-        ],
-        "created_at": "2025-02-05T09:47:23Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -22014,7 +22011,8 @@
         "labels": [
             "help wanted",
             "bug",
-            "good first issue"
+            "good first issue",
+            "Stale"
         ],
         "created_at": "2022-09-08T16:01:46Z"
     },
@@ -24410,21 +24408,6 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "ApplicationSet hard to debug error with matrix generator with scmProvider and git when we have invalid yaml",
-        "url": "https://github.com/argoproj/argo-cd/issues/19982",
-        "labels": [
-            "bug",
-            "good first issue",
-            "component:application-sets",
-            "version:2.11",
-            "component:appset/generator"
-        ],
-        "created_at": "2024-09-18T13:02:08Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Add warning log if ARGOCD_CONTROLLER_REPLICAS greater than configured replicas",
         "url": "https://github.com/argoproj/argo-cd/issues/19928",
         "labels": [
@@ -24609,6 +24592,18 @@
             "bug/priority:low"
         ],
         "created_at": "2023-02-02T10:08:00Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "`/terminal` endpoint assumes cookie auth and does not support bearer token auth, unlike other endpoints",
+        "url": "https://github.com/argoproj/argo-cd/issues/11068",
+        "labels": [
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2022-10-26T06:39:23Z"
     },
     {
         "repo": "fluxcd/flux2",
