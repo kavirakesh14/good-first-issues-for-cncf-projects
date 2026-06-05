@@ -5371,6 +5371,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Client hostname in the consent scope list (CIMD)",
+        "url": "https://github.com/keycloak/keycloak/issues/49214",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-21T12:42:08Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Refresh token reuse counter not reverted on transaction rollback, causing permanent session revocation on transient DB failures",
         "url": "https://github.com/keycloak/keycloak/issues/49213",
         "labels": [
@@ -5420,6 +5437,23 @@
             "status/auto-bump"
         ],
         "created_at": "2026-05-19T01:32:07Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "SAML signature verification fails in Shibboleth when KeyName is present in KeyInfo in Keycloaks metadata",
+        "url": "https://github.com/keycloak/keycloak/issues/49034",
+        "labels": [
+            "area/saml",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-16T13:02:53Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5699,41 +5733,6 @@
             "priority/normal"
         ],
         "created_at": "2026-04-09T08:46:14Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Keycloak port included in some but not all OIDC endpoints",
-        "url": "https://github.com/keycloak/keycloak/issues/47817",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "team/core-clients",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-04-07T12:36:15Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Internal server error on login form submission with oversized input",
-        "url": "https://github.com/keycloak/keycloak/issues/47802",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/login/ui",
-            "team/core-clients",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-authn"
-        ],
-        "created_at": "2026-04-07T09:17:50Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10466,6 +10465,19 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Socket communication with an IP *.*.*.1 fails",
+        "url": "https://github.com/podman-container-tools/podman/issues/28863",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "network"
+        ],
+        "created_at": "2026-06-04T19:40:57Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Podman-manifest-push have no retry option",
         "url": "https://github.com/podman-container-tools/podman/issues/28590",
         "labels": [
@@ -12481,18 +12493,6 @@
             "question"
         ],
         "created_at": "2020-09-11T05:56:46Z"
-    },
-    {
-        "repo": "fluid-cloudnative/fluid",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[BUG]When runtime scale in , the status of dataset can't update immediately",
-        "url": "https://github.com/fluid-cloudnative/fluid/issues/623",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2021-03-10T00:48:09Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -23236,6 +23236,18 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Too long error message overflows from Adding the registry dialog",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/16666",
+        "labels": [
+            "good first issue",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2026-03-17T17:03:02Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "When Podman Desktop is installed with Hyper-V, Podman Machines still chose WSL as default",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/16657",
         "labels": [
@@ -23368,6 +23380,21 @@
             "hacktoberfest"
         ],
         "created_at": "2025-08-08T10:13:11Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Podman Setup/Create page cannot find krunkit",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/13482",
+        "labels": [
+            "good first issue",
+            "area/settings \u2699\ufe0f",
+            "engine/podman \ud83e\uddad",
+            "os/macOS \ud83c\udf4e",
+            "area/brew"
+        ],
+        "created_at": "2025-08-02T01:44:09Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -24747,17 +24774,6 @@
             "Type/Bug"
         ],
         "created_at": "2026-03-20T07:46:06Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "fix: sanitize Authorization header before routing to k8s API in cluster-agent",
-        "url": "https://github.com/openchoreo/openchoreo/issues/2724",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-03-15T13:31:45Z"
     },
     {
         "repo": "openchoreo/openchoreo",
