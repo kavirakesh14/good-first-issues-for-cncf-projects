@@ -5511,12 +5511,12 @@
         "title": "SAML broker: Assertions without a Conditions element are accepted unconditionally",
         "url": "https://github.com/keycloak/keycloak/issues/48878",
         "labels": [
-            "kind/bug",
             "help wanted",
             "area/identity-brokering",
             "team/core-iam",
             "status/auto-bump",
-            "priority/normal"
+            "priority/normal",
+            "kind/weakness"
         ],
         "created_at": "2026-05-11T11:40:59Z"
     },
@@ -5583,12 +5583,12 @@
         "title": "SAML Identity Provider settings in the Admin UI are not asking for signatures by default",
         "url": "https://github.com/keycloak/keycloak/issues/48717",
         "labels": [
-            "kind/bug",
             "help wanted",
             "area/identity-brokering",
             "team/core-iam",
             "status/auto-bump",
-            "priority/normal"
+            "priority/normal",
+            "kind/weakness"
         ],
         "created_at": "2026-05-05T14:20:56Z"
     },
@@ -10133,18 +10133,6 @@
             "lifecycle/needs-review"
         ],
         "created_at": "2026-06-04T16:45:41Z"
-    },
-    {
-        "repo": "hyperlight-dev/hyperlight",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Guard test fails on windows CI",
-        "url": "https://github.com/hyperlight-dev/hyperlight/issues/1507",
-        "labels": [
-            "good first issue",
-            "lifecycle/needs-review"
-        ],
-        "created_at": "2026-06-04T16:22:44Z"
     },
     {
         "repo": "hyperlight-dev/hyperlight",
