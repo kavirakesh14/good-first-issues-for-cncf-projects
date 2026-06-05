@@ -5442,6 +5442,22 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "NullPointerException in ResourceIndicatorsPostProcessor when access token audience is null",
+        "url": "https://github.com/keycloak/keycloak/issues/49077",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-18T21:19:28Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "SAML signature verification fails in Shibboleth when KeyName is present in KeyInfo in Keycloaks metadata",
         "url": "https://github.com/keycloak/keycloak/issues/49034",
         "labels": [
@@ -5459,6 +5475,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Fix SAML XML Digital Signature namespace prefix: dsig: to ds:",
+        "url": "https://github.com/keycloak/keycloak/issues/49019",
+        "labels": [
+            "area/saml",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-15T12:54:55Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "[OID4VCI] Pre-Authorized Code Replay",
         "url": "https://github.com/keycloak/keycloak/issues/48902",
         "labels": [
@@ -5470,6 +5503,22 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-12T02:29:50Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "SAML broker: Assertions without a Conditions element are accepted unconditionally",
+        "url": "https://github.com/keycloak/keycloak/issues/48878",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-05-11T11:40:59Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5526,6 +5575,22 @@
             "team/core-authn"
         ],
         "created_at": "2026-05-06T15:47:54Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "SAML Identity Provider settings in the Admin UI are not asking for signatures by default",
+        "url": "https://github.com/keycloak/keycloak/issues/48717",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-05-05T14:20:56Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5664,75 +5729,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-04-17T10:23:17Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Custom Required Actions cannot be removed via PUT /admin/realms/{realm}/users/{id}",
-        "url": "https://github.com/keycloak/keycloak/issues/48144",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-04-16T13:23:00Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[OID4VCI] c_nonce Replay",
-        "url": "https://github.com/keycloak/keycloak/issues/48043",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/oid4vc",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-04-14T13:22:18Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "CORS Header missing when accessing /account endpoint with an expired session",
-        "url": "https://github.com/keycloak/keycloak/issues/47934",
-        "labels": [
-            "kind/bug",
-            "area/account/api",
-            "help wanted",
-            "team/core-clients",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-04-10T09:42:59Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "User LDAP Filter is applied to Group lookups in `getFilterById()`, causing Group Members tab to return empty results",
-        "url": "https://github.com/keycloak/keycloak/issues/47891",
-        "labels": [
-            "kind/bug",
-            "area/ldap",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-04-09T08:46:14Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10470,7 +10466,8 @@
         "labels": [
             "Good First Issue",
             "kind/bug",
-            "network"
+            "network",
+            "triaged"
         ],
         "created_at": "2026-06-04T19:40:57Z"
     },
@@ -19387,6 +19384,19 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "UI: Break the ui-lib checkbox circular dependency",
+        "url": "https://github.com/openeverest/openeverest/issues/2334",
+        "labels": [
+            "good first issue",
+            "chore",
+            "ui"
+        ],
+        "created_at": "2026-06-05T13:33:14Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "UI: expose `spec.proxy.config` in the Advanced Configuration step",
         "url": "https://github.com/openeverest/openeverest/issues/2093",
         "labels": [
@@ -26193,19 +26203,6 @@
             "good first issue"
         ],
         "created_at": "2025-11-20T13:55:48Z"
-    },
-    {
-        "repo": "krkn-chaos/krkn",
-        "tier": "Sandbox",
-        "lang": "Python",
-        "title": "Power Outage Rollback Feature",
-        "url": "https://github.com/krkn-chaos/krkn/issues/917",
-        "labels": [
-            "good first issue",
-            "good-first-issue",
-            "hacktoberfest"
-        ],
-        "created_at": "2025-10-01T18:52:30Z"
     },
     {
         "repo": "krkn-chaos/krkn",
