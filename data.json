@@ -18622,6 +18622,7 @@
         "url": "https://github.com/istio/istio/issues/54020",
         "labels": [
             "kind/enhancement",
+            "lifecycle/stale",
             "help wanted"
         ],
         "created_at": "2024-11-21T23:59:53Z"
