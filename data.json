@@ -6885,18 +6885,6 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Bug]: Upgrading from docker image nginx:1.29.6-alpine to nginx:1.29.7-alpine breaks everything",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3397",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-04-03T08:16:50Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Bug]: PUT method fails with content exceeding 60MB",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3389",
         "labels": [
@@ -7042,19 +7030,6 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Support]: How to get the full \"authentication\" header with using NGINX in auth_request mode ?",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3210",
-        "labels": [
-            "help wanted",
-            "configuration",
-            "Stale"
-        ],
-        "created_at": "2025-09-27T17:56:13Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Bug]: Cookie domain not set when using OAUTH2_PROXY_COOKIE_DOMAIN  instead of --cookie-domain",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3209",
         "labels": [
@@ -7134,6 +7109,31 @@
             "help wanted"
         ],
         "created_at": "2025-09-01T09:52:27Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: Authentik OIDC \"Error redeeming code during OAuth2 callback: could not verify id_token\"",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3174",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2025-08-25T03:09:00Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "keycloak-odic issues with allowed-group in dedicated setup",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3173",
+        "labels": [
+            "help wanted",
+            "configuration",
+            "Stale"
+        ],
+        "created_at": "2025-08-22T21:54:11Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -11821,20 +11821,6 @@
             "kind/cleanup"
         ],
         "created_at": "2026-05-31T20:42:18Z"
-    },
-    {
-        "repo": "agones-dev/agones",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "chore: Upgrade website to Docsy 0.15.0",
-        "url": "https://github.com/agones-dev/agones/issues/4586",
-        "labels": [
-            "kind/feature",
-            "help wanted",
-            "good first issue",
-            "area/site"
-        ],
-        "created_at": "2026-05-31T20:18:55Z"
     },
     {
         "repo": "agones-dev/agones",
