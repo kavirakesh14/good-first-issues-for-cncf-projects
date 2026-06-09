@@ -5207,6 +5207,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "26.6.x upgrade runs unbounded OFFLINE_CLIENT_SESSION REALM_ID backfill, blocking startup on large data sets",
+        "url": "https://github.com/keycloak/keycloak/issues/49830",
+        "labels": [
+            "kind/bug",
+            "area/storage",
+            "help wanted",
+            "team/production-readiness",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-06-09T12:30:30Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Firefox stuck on \"Loading the Administration Console\"",
         "url": "https://github.com/keycloak/keycloak/issues/49752",
         "labels": [
@@ -5269,24 +5286,6 @@
             "priority/normal"
         ],
         "created_at": "2026-06-04T00:33:01Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Azure/Aurora \"Upload flaky tests\" fails with 409 Conflict on duplicate artifact name",
-        "url": "https://github.com/keycloak/keycloak/issues/49577",
-        "labels": [
-            "kind/bug",
-            "area/ci",
-            "help wanted",
-            "team/cloud-native",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/continuous-delivery"
-        ],
-        "created_at": "2026-06-02T10:42:38Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -15703,6 +15702,42 @@
             "FEATURE-v2"
         ],
         "created_at": "2021-02-09T15:24:19Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Improve helm chart for klusterlet",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1510",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-05-05T13:57:11Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "CI Checks Flaky Error",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1402",
+        "labels": [
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2026-02-26T02:29:35Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "configurable healthcheck process port in klusterlet",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1032",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2025-06-11T09:02:37Z"
     },
     {
         "repo": "OpenFunction/OpenFunction",
@@ -26727,18 +26762,6 @@
         "repo": "litmuschaos/litmus",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Show exclamation icon in square box for partially completed experiments in ChaosCenter",
-        "url": "https://github.com/litmuschaos/litmus/issues/5257",
-        "labels": [
-            "good first issue",
-            "kind/enhancement"
-        ],
-        "created_at": "2025-10-23T13:16:09Z"
-    },
-    {
-        "repo": "litmuschaos/litmus",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Update Litmus logo on login page and main dashboard in ChaosCenter",
         "url": "https://github.com/litmuschaos/litmus/issues/5255",
         "labels": [
@@ -27978,6 +28001,21 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "[chore]: Remove fswatcher dependency",
+        "url": "https://github.com/jaegertracing/jaeger/issues/8748",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "good first issue",
+            "area/storage",
+            "storage/elasticsearch"
+        ],
+        "created_at": "2026-06-09T16:11:27Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Investigate the path to replace olivere/elastic driver",
         "url": "https://github.com/jaegertracing/jaeger/issues/7612",
         "labels": [
@@ -27993,7 +28031,7 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "[Feature]: Add support to query for dependencies in api/v3 API",
+        "title": "[Feature]: Add support for GetDependencies in api/v3 API",
         "url": "https://github.com/jaegertracing/jaeger/issues/7595",
         "labels": [
             "enhancement",
@@ -28367,17 +28405,6 @@
         "created_at": "2020-01-17T12:10:12Z"
     },
     {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Support optional query param \"spanKind\" when get operations for given service",
-        "url": "https://github.com/jaegertracing/jaeger/issues/1920",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2019-11-12T23:44:15Z"
-    },
-    {
         "repo": "k8sgpt-ai/k8sgpt",
         "tier": "Sandbox",
         "lang": "Go",
@@ -28548,20 +28575,6 @@
             "pinned"
         ],
         "created_at": "2020-12-18T17:28:29Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Removing the Core Package completely from shared",
-        "url": "https://github.com/perses/perses/issues/4085",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "ui",
-            "dependencies"
-        ],
-        "created_at": "2026-05-27T18:33:03Z"
     },
     {
         "repo": "perses/perses",
