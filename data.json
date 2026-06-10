@@ -200,6 +200,18 @@
         "repo": "runatlantis/atlantis",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Improve Redis configuration options to allow the use of non default user or connection string",
+        "url": "https://github.com/runatlantis/atlantis/issues/3610",
+        "labels": [
+            "feature",
+            "help wanted"
+        ],
+        "created_at": "2023-07-17T20:48:56Z"
+    },
+    {
+        "repo": "runatlantis/atlantis",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Drift Detection",
         "url": "https://github.com/runatlantis/atlantis/issues/3245",
         "labels": [
@@ -541,18 +553,6 @@
             "help wanted"
         ],
         "created_at": "2022-03-01T22:27:16Z"
-    },
-    {
-        "repo": "runatlantis/atlantis",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Feature Request - allow atlantis to be less strict on commenting",
-        "url": "https://github.com/runatlantis/atlantis/issues/1752",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2021-08-10T20:06:10Z"
     },
     {
         "repo": "cadence-workflow/cadence",
@@ -2325,21 +2325,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[CI] Globally and permanently disable ST1005 lint checks",
-        "url": "https://github.com/meshery/meshery/issues/16867",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/ci",
-            "language/go",
-            "go"
-        ],
-        "created_at": "2026-01-07T04:43:05Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Out-of-Cluster Meshery Server: Cluster Access and Connectivity Requirements",
         "url": "https://github.com/meshery/meshery/issues/15862",
         "labels": [
@@ -2516,6 +2501,22 @@
             "type/visual-design"
         ],
         "created_at": "2024-10-28T14:33:32Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Template] Create a Service blueprint template ",
+        "url": "https://github.com/meshery/meshery/issues/12497",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:19:57Z"
     },
     {
         "repo": "meshery/meshery",
@@ -5207,6 +5208,37 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "SCIM endpoint returns 500 instead of 404 for unknown resource types",
+        "url": "https://github.com/keycloak/keycloak/issues/49847",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "area/scim"
+        ],
+        "created_at": "2026-06-10T02:08:13Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "SCIM: ServiceProviderConfig endpoint returns filter.maxResults: 0 instead of 100",
+        "url": "https://github.com/keycloak/keycloak/issues/49841",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "priority/normal"
+        ],
+        "created_at": "2026-06-10T00:54:56Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "26.6.x upgrade runs unbounded OFFLINE_CLIENT_SESSION REALM_ID backfill, blocking startup on large data sets",
         "url": "https://github.com/keycloak/keycloak/issues/49830",
         "labels": [
@@ -5684,38 +5716,6 @@
             "team/core-authn"
         ],
         "created_at": "2026-05-06T15:47:54Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "SAML Identity Provider settings in the Admin UI are not asking for signatures by default",
-        "url": "https://github.com/keycloak/keycloak/issues/48717",
-        "labels": [
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal",
-            "kind/weakness"
-        ],
-        "created_at": "2026-05-05T14:20:56Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Missing Nonce Drops Connection (HTTP 502) OIDC Identity Provider fails with IdentityBrokerException",
-        "url": "https://github.com/keycloak/keycloak/issues/48694",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-04T17:09:57Z"
     },
     {
         "repo": "keylime/keylime",
@@ -7101,14 +7101,13 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "keycloak-odic issues with allowed-group in dedicated setup",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3173",
+        "title": "Audience Claim missing from Authorize endpoint (despite trying login_url, oidc_audience_claims, etc) - Auth0",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3159",
         "labels": [
-            "help wanted",
-            "configuration",
-            "Stale"
+            "bug",
+            "help wanted"
         ],
-        "created_at": "2025-08-22T21:54:11Z"
+        "created_at": "2025-08-17T12:15:12Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -9648,6 +9647,19 @@
             "good-first-issue"
         ],
         "created_at": "2025-02-27T08:14:44Z"
+    },
+    {
+        "repo": "rook/rook",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Allow versioning to be enabled via ObjectBucketClaim",
+        "url": "https://github.com/rook/rook/issues/17318",
+        "labels": [
+            "feature",
+            "help wanted",
+            "needs-design-document"
+        ],
+        "created_at": "2026-04-07T04:45:04Z"
     },
     {
         "repo": "velero-io/velero",
