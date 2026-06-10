@@ -5209,6 +5209,22 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Concurrent first-broker-login throws an unhandled duplicate-key violation in addFederatedIdentity (BROKER_LINK PK)",
+        "url": "https://github.com/keycloak/keycloak/issues/49769",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-06-08T09:46:48Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Firefox stuck on \"Loading the Administration Console\"",
         "url": "https://github.com/keycloak/keycloak/issues/49752",
         "labels": [
@@ -5238,6 +5254,57 @@
             "team/core-protocols"
         ],
         "created_at": "2026-06-05T16:05:39Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Identity provider details causes double API call",
+        "url": "https://github.com/keycloak/keycloak/issues/49721",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-06-05T13:52:25Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "[OID4VCI] Update proof documentation once using identity providers",
+        "url": "https://github.com/keycloak/keycloak/issues/49716",
+        "labels": [
+            "help wanted",
+            "kind/task",
+            "area/oid4vc",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-06-05T10:11:55Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "UserSelect component limits the search results during autocompletion lookup",
+        "url": "https://github.com/keycloak/keycloak/issues/49702",
+        "labels": [
+            "area/authorization-services",
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-iam",
+            "team/core-shared",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-06-05T00:12:59Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5620,71 +5687,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-16T13:02:53Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Fix SAML XML Digital Signature namespace prefix: dsig: to ds:",
-        "url": "https://github.com/keycloak/keycloak/issues/49019",
-        "labels": [
-            "area/saml",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-15T12:54:55Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[OID4VCI] Pre-Authorized Code Replay",
-        "url": "https://github.com/keycloak/keycloak/issues/48902",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/oid4vc",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-12T02:29:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "SAML broker: Assertions without a Conditions element are accepted unconditionally",
-        "url": "https://github.com/keycloak/keycloak/issues/48878",
-        "labels": [
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal",
-            "kind/weakness"
-        ],
-        "created_at": "2026-05-11T11:40:59Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": " 'view-clients' bypasses 'view-users' restriction via 'client-scoped' endpoints",
-        "url": "https://github.com/keycloak/keycloak/issues/48858",
-        "labels": [
-            "kind/bug",
-            "area/admin/fine-grained-permissions",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-09T23:50:59Z"
     },
     {
         "repo": "keylime/keylime",
@@ -11269,6 +11271,19 @@
         "repo": "WasmEdge/WasmEdge",
         "tier": "Sandbox",
         "lang": "C++",
+        "title": "feat: provide option to not write to .bashrc",
+        "url": "https://github.com/WasmEdge/WasmEdge/issues/4955",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "c-Installer"
+        ],
+        "created_at": "2026-06-10T12:41:53Z"
+    },
+    {
+        "repo": "WasmEdge/WasmEdge",
+        "tier": "Sandbox",
+        "lang": "C++",
         "title": "[WASI-Crypto] Implement remaining functions",
         "url": "https://github.com/WasmEdge/WasmEdge/issues/2669",
         "labels": [
@@ -13210,7 +13225,6 @@
         "labels": [
             "bug",
             "good first issue",
-            "Stale",
             "component/autopilot"
         ],
         "created_at": "2025-11-28T15:23:48Z"
@@ -18802,6 +18816,19 @@
         "repo": "kgateway-dev/kgateway",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Refactor controller suite to use stdlib testing",
+        "url": "https://github.com/kgateway-dev/kgateway/issues/10971",
+        "labels": [
+            "Type: Tech Debt",
+            "Good First Issue",
+            "stale"
+        ],
+        "created_at": "2025-03-28T20:25:13Z"
+    },
+    {
+        "repo": "kgateway-dev/kgateway",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Bump Gateway API Echo Image Tag",
         "url": "https://github.com/kgateway-dev/kgateway/issues/10291",
         "labels": [
@@ -18852,6 +18879,7 @@
         "title": "Support for the XBackendTrafficPolicy experimental API",
         "url": "https://github.com/kgateway-dev/kgateway/issues/12557",
         "labels": [
+            "stale",
             "help wanted"
         ],
         "created_at": "2025-10-08T19:40:29Z"
@@ -18863,6 +18891,7 @@
         "title": "Large PUT requests result in 0KB files on first attempt, succeed on retry",
         "url": "https://github.com/kgateway-dev/kgateway/issues/12512",
         "labels": [
+            "stale",
             "help wanted"
         ],
         "created_at": "2025-10-04T08:13:40Z"
@@ -20038,6 +20067,30 @@
             "help wanted"
         ],
         "created_at": "2023-07-07T03:15:53Z"
+    },
+    {
+        "repo": "cloudnative-pg/cloudnative-pg",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Chore]: Cancel superseded in-progress CI runs on pull requests",
+        "url": "https://github.com/cloudnative-pg/cloudnative-pg/issues/10861",
+        "labels": [
+            "good first issue",
+            "chore"
+        ],
+        "created_at": "2026-06-10T10:05:54Z"
+    },
+    {
+        "repo": "cloudnative-pg/cloudnative-pg",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Chore]: Reduce the unit-test Kubernetes matrix on pull requests",
+        "url": "https://github.com/cloudnative-pg/cloudnative-pg/issues/10860",
+        "labels": [
+            "good first issue",
+            "chore"
+        ],
+        "created_at": "2026-06-10T09:49:39Z"
     },
     {
         "repo": "cloudnative-pg/cloudnative-pg",
@@ -24238,6 +24291,22 @@
             "hacktoberfest"
         ],
         "created_at": "2023-09-08T13:53:41Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Implement option to view rootful containers on Linux \ud83d\udc27",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/2861",
+        "labels": [
+            "help wanted",
+            "area/dashboard \ud83d\udcca",
+            "os/linux \ud83d\udc27",
+            "area/extension/podman \ud83e\uddad",
+            "lifecycle/stale",
+            "domain/containers/inreview"
+        ],
+        "created_at": "2023-06-14T16:33:54Z"
     },
     {
         "repo": "getporter/porter",
