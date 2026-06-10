@@ -5192,53 +5192,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "[UX Review] Optimize the initial page of Keys in OIDC client",
-        "url": "https://github.com/keycloak/keycloak/issues/17762",
-        "labels": [
-            "kind/enhancement",
-            "area/admin/ui",
-            "good first issue",
-            "help wanted",
-            "team/core-shared",
-            "action/priority-low"
-        ],
-        "created_at": "2021-12-16T07:28:21Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "SCIM endpoint returns 500 instead of 404 for unknown resource types",
-        "url": "https://github.com/keycloak/keycloak/issues/49847",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "area/scim"
-        ],
-        "created_at": "2026-06-10T02:08:13Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "SCIM: ServiceProviderConfig endpoint returns filter.maxResults: 0 instead of 100",
-        "url": "https://github.com/keycloak/keycloak/issues/49841",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "priority/normal"
-        ],
-        "created_at": "2026-06-10T00:54:56Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "26.6.x upgrade runs unbounded OFFLINE_CLIENT_SESSION REALM_ID backfill, blocking startup on large data sets",
         "url": "https://github.com/keycloak/keycloak/issues/49830",
         "labels": [
@@ -5318,6 +5271,62 @@
             "priority/normal"
         ],
         "created_at": "2026-06-04T00:33:01Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "[OID4VCI] Documentation for credential request",
+        "url": "https://github.com/keycloak/keycloak/issues/49504",
+        "labels": [
+            "help wanted",
+            "kind/task",
+            "area/oid4vc",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-29T15:30:45Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "[OID4VCI] Documentation of client settings",
+        "url": "https://github.com/keycloak/keycloak/issues/49502",
+        "labels": [
+            "help wanted",
+            "kind/task",
+            "area/oid4vc",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-29T15:17:57Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "[OID4VCI] documentation of OID4VCI mappers",
+        "url": "https://github.com/keycloak/keycloak/issues/49501",
+        "labels": [
+            "help wanted",
+            "kind/task",
+            "area/oid4vc",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-29T15:14:36Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "[OID4VCI] Documentation of the OID4VCI client scope configuration",
+        "url": "https://github.com/keycloak/keycloak/issues/49499",
+        "labels": [
+            "help wanted",
+            "kind/task",
+            "area/oid4vc",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-29T15:13:29Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5676,46 +5685,6 @@
             "priority/normal"
         ],
         "created_at": "2026-05-09T23:50:59Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Choosing locale with READ_ONLY ldap isn\u2019t handled gracefully",
-        "url": "https://github.com/keycloak/keycloak/issues/48850",
-        "labels": [
-            "kind/bug",
-            "area/account/ui",
-            "area/ldap",
-            "help wanted",
-            "team/core-iam",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-09T05:04:46Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Kubernetes Identity Provider does not reflect defaults and required fields",
-        "url": "https://github.com/keycloak/keycloak/issues/48767",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/ui",
-            "area/identity-brokering",
-            "team/core-iam",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-authn"
-        ],
-        "created_at": "2026-05-06T15:47:54Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10725,19 +10694,6 @@
         "repo": "lima-vm/lima",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "FillDefault enables containerd.user for macOS guests on aarch64 \u2014 nerdctl unnecessarily downloaded",
-        "url": "https://github.com/lima-vm/lima/issues/5037",
-        "labels": [
-            "bug",
-            "good first issue",
-            "guest/macOS"
-        ],
-        "created_at": "2026-05-25T21:08:44Z"
-    },
-    {
-        "repo": "lima-vm/lima",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Improve logging of essential and optional requirements in hostagent logs",
         "url": "https://github.com/lima-vm/lima/issues/4553",
         "labels": [
@@ -14156,6 +14112,19 @@
         "repo": "koordinator-sh/koordinator",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[BUG] Reservation does not support NominatedNodeName",
+        "url": "https://github.com/koordinator-sh/koordinator/issues/3069",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "concept/reservation"
+        ],
+        "created_at": "2026-06-10T08:45:23Z"
+    },
+    {
+        "repo": "koordinator-sh/koordinator",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Asynchronous Preemption",
         "url": "https://github.com/koordinator-sh/koordinator/issues/2857",
         "labels": [
@@ -15998,20 +15967,6 @@
             "priority/important-soon"
         ],
         "created_at": "2023-04-01T08:16:52Z"
-    },
-    {
-        "repo": "volcano-sh/volcano",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Publish signed Volcano release artifacts and provenance",
-        "url": "https://github.com/volcano-sh/volcano/issues/5376",
-        "labels": [
-            "help wanted",
-            "area/deploy",
-            "area/security",
-            "area/ci"
-        ],
-        "created_at": "2026-06-04T07:43:04Z"
     },
     {
         "repo": "volcano-sh/volcano",
