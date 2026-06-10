@@ -2798,17 +2798,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Server] Skip namespace creation for cluster-scoped resources during pattern apply",
-        "url": "https://github.com/meshery/meshery/issues/18977",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:47Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Server] CreateK8sResource returns an error after a successful force recreate",
         "url": "https://github.com/meshery/meshery/issues/18976",
         "labels": [
@@ -2843,6 +2832,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-04-18T07:57:49Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Add resizability to the Sidebar component in Meshery Docs",
+        "url": "https://github.com/meshery/meshery/issues/18804",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-04-17T23:57:12Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -10602,7 +10605,7 @@
         "url": "https://github.com/hyperlight-dev/hyperlight/issues/1508",
         "labels": [
             "good first issue",
-            "lifecycle/needs-review"
+            "lifecycle/confirmed"
         ],
         "created_at": "2026-06-04T16:45:41Z"
     },
@@ -18824,19 +18827,6 @@
             "stale"
         ],
         "created_at": "2025-03-28T20:25:13Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Bump Gateway API Echo Image Tag",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/10291",
-        "labels": [
-            "Type: Tech Debt",
-            "Good First Issue",
-            "stale"
-        ],
-        "created_at": "2024-11-07T16:06:22Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
