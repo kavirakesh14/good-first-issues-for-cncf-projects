@@ -2507,6 +2507,22 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Display \"not latest documentation\" banner",
+        "url": "https://github.com/meshery/meshery/issues/20025",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "language/html",
+            "language/css",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-12T14:20:43Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] 404 Error for codespaces in docs",
         "url": "https://github.com/meshery/meshery/issues/20006",
         "labels": [
@@ -2803,20 +2819,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-04-25T10:39:27Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Bug(UI): Pagination links disappear on hover in light mode",
-        "url": "https://github.com/meshery/meshery/issues/18806",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-04-18T07:57:49Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -5488,6 +5490,21 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Client secret rotation feature. Client Secret and Secret Rotated are always the same",
+        "url": "https://github.com/keycloak/keycloak/issues/49342",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-26T13:38:01Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "GET /broker/{alias}/token returns expired external IDP access token when refresh_token is available",
         "url": "https://github.com/keycloak/keycloak/issues/49341",
         "labels": [
@@ -5656,22 +5673,6 @@
             "status/auto-bump"
         ],
         "created_at": "2026-05-19T01:32:07Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "NullPointerException in ResourceIndicatorsPostProcessor when access token audience is null",
-        "url": "https://github.com/keycloak/keycloak/issues/49077",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-18T21:19:28Z"
     },
     {
         "repo": "keylime/keylime",
