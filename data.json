@@ -938,20 +938,6 @@
         "repo": "kairos-io/kairos",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": ":book: Document flavors which support systemd-sysext",
-        "url": "https://github.com/kairos-io/kairos/issues/477",
-        "labels": [
-            "documentation",
-            "help wanted",
-            "good first issue",
-            "hacktoberfest"
-        ],
-        "created_at": "2022-11-22T16:08:23Z"
-    },
-    {
-        "repo": "kairos-io/kairos",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "kairos-agent upgrade list-releases lists kubernetes downgrades",
         "url": "https://github.com/kairos-io/kairos/issues/3382",
         "labels": [
@@ -2521,6 +2507,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] 404 Error for codespaces in docs",
+        "url": "https://github.com/meshery/meshery/issues/20006",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-12T04:33:43Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Add a glossary page for common Meshery terms",
         "url": "https://github.com/meshery/meshery/issues/19775",
         "labels": [
@@ -2817,20 +2817,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-04-18T07:57:49Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Add resizability to the Sidebar component in Meshery Docs",
-        "url": "https://github.com/meshery/meshery/issues/18804",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-04-17T23:57:12Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -26876,6 +26862,18 @@
             "good-first-issue"
         ],
         "created_at": "2025-10-01T18:46:28Z"
+    },
+    {
+        "repo": "krkn-chaos/krkn",
+        "tier": "Sandbox",
+        "lang": "Python",
+        "title": "test: migrate container_scenarios functional test to tests_v2",
+        "url": "https://github.com/krkn-chaos/krkn/issues/1399",
+        "labels": [
+            "enhancement",
+            "good-first-issue"
+        ],
+        "created_at": "2026-06-12T04:34:15Z"
     },
     {
         "repo": "opencost/opencost",
