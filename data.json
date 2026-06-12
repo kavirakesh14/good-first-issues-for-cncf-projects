@@ -16474,20 +16474,6 @@
         "repo": "projectcontour/contour",
         "tier": "Incubating",
         "lang": "HTML",
-        "title": "Document how HTTPProxy route/include match condition precedence works",
-        "url": "https://github.com/projectcontour/contour/issues/5774",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/httpproxy",
-            "area/documentation"
-        ],
-        "created_at": "2023-09-22T19:39:37Z"
-    },
-    {
-        "repo": "projectcontour/contour",
-        "tier": "Incubating",
-        "lang": "HTML",
         "title": "How to setup contour as level 2 proxy",
         "url": "https://github.com/projectcontour/contour/issues/5598",
         "labels": [
@@ -16496,18 +16482,6 @@
             "good first issue"
         ],
         "created_at": "2023-07-27T15:16:35Z"
-    },
-    {
-        "repo": "projectcontour/contour",
-        "tier": "Incubating",
-        "lang": "HTML",
-        "title": "Query parameter matching: case sensitivity",
-        "url": "https://github.com/projectcontour/contour/issues/5071",
-        "labels": [
-            "help wanted",
-            "good first issue"
-        ],
-        "created_at": "2023-02-09T00:34:24Z"
     },
     {
         "repo": "projectcontour/contour",
@@ -17125,6 +17099,18 @@
             "contribfest"
         ],
         "created_at": "2023-02-13T17:24:51Z"
+    },
+    {
+        "repo": "projectcontour/contour",
+        "tier": "Incubating",
+        "lang": "HTML",
+        "title": "To proxy 100-continue http status code to pods",
+        "url": "https://github.com/projectcontour/contour/issues/5074",
+        "labels": [
+            "kind/feature",
+            "help wanted"
+        ],
+        "created_at": "2023-02-09T17:45:03Z"
     },
     {
         "repo": "envoyproxy/envoy",
