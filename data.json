@@ -2507,6 +2507,46 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "ResponsiveImage component is duplicated",
+        "url": "https://github.com/meshery/meshery/issues/20040",
+        "labels": [
+            "help wanted",
+            "language/javascript",
+            "component/ui",
+            "framework/react"
+        ],
+        "created_at": "2026-06-13T00:34:13Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Whats the security reporting mail ?",
+        "url": "https://github.com/meshery/meshery/issues/20039",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-13T00:29:00Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "UnifiedCardContainer component is duplicated",
+        "url": "https://github.com/meshery/meshery/issues/20036",
+        "labels": [
+            "help wanted",
+            "component/ui"
+        ],
+        "created_at": "2026-06-12T23:34:32Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Display \"not latest documentation\" banner",
         "url": "https://github.com/meshery/meshery/issues/20025",
         "labels": [
@@ -2805,20 +2845,6 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:45Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Migrate Schemas Readme to doc.meshery.io",
-        "url": "https://github.com/meshery/meshery/issues/18932",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-04-25T10:39:27Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -8523,7 +8549,8 @@
         "url": "https://github.com/spiffe/spire/issues/6127",
         "labels": [
             "help wanted",
-            "priority/backlog"
+            "priority/backlog",
+            "stale"
         ],
         "created_at": "2025-06-11T19:20:38Z"
     },
@@ -8645,7 +8672,8 @@
         "url": "https://github.com/spiffe/spire/issues/5197",
         "labels": [
             "help wanted",
-            "priority/backlog"
+            "priority/backlog",
+            "stale"
         ],
         "created_at": "2024-06-06T19:02:33Z"
     },
@@ -13741,7 +13769,8 @@
         "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/901",
         "labels": [
             "enhancement",
-            "good first issue"
+            "good first issue",
+            "stale"
         ],
         "created_at": "2026-01-19T19:54:44Z"
     },
@@ -14444,19 +14473,6 @@
         "repo": "kube-rs/kube",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "Support `tls-server-name` field of the kubeconfig cluster configuration",
-        "url": "https://github.com/kube-rs/kube/issues/991",
-        "labels": [
-            "help wanted",
-            "config",
-            "openssl"
-        ],
-        "created_at": "2022-08-24T21:08:15Z"
-    },
-    {
-        "repo": "kube-rs/kube",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "Add client wasm support",
         "url": "https://github.com/kube-rs/kube/issues/848",
         "labels": [
@@ -15001,22 +15017,6 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "docker credential JSON: validate non UTF-8 characters",
-        "url": "https://github.com/kubernetes/kubernetes/issues/131982",
-        "labels": [
-            "kind/bug",
-            "priority/backlog",
-            "sig/node",
-            "help wanted",
-            "sig/security",
-            "triage/accepted"
-        ],
-        "created_at": "2025-05-27T14:06:46Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Implement checking apiserver memory limit below threshold in list benchmarks",
         "url": "https://github.com/kubernetes/kubernetes/issues/131885",
         "labels": [
@@ -15140,6 +15140,21 @@
             "triage/accepted"
         ],
         "created_at": "2025-02-10T15:37:37Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "k8s.io/apiserver/pkg/util: proxy TestStreamTranslator_TTYResizeChannel failing in `pull-kubernetes-unit`",
+        "url": "https://github.com/kubernetes/kubernetes/issues/130018",
+        "labels": [
+            "priority/backlog",
+            "sig/api-machinery",
+            "kind/flake",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-02-06T21:15:31Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -30664,7 +30679,8 @@
         "labels": [
             "good first issue",
             "kserve/control-plane",
-            "stale-warning-1"
+            "stale-warning-1",
+            "stale-warning-2"
         ],
         "created_at": "2022-08-22T18:21:12Z"
     },
