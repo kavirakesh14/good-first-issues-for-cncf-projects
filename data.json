@@ -11592,18 +11592,6 @@
         "repo": "WasmEdge/WasmEdge",
         "tier": "Sandbox",
         "lang": "C++",
-        "title": "Get involved with WinterCG and implement Web Platform API's",
-        "url": "https://github.com/WasmEdge/WasmEdge/issues/1624",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2022-07-05T12:06:11Z"
-    },
-    {
-        "repo": "WasmEdge/WasmEdge",
-        "tier": "Sandbox",
-        "lang": "C++",
         "title": "Feat: Add Logging /Metrics/Tracing Capabilities",
         "url": "https://github.com/WasmEdge/WasmEdge/issues/290",
         "labels": [
