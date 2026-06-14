@@ -20036,18 +20036,6 @@
         "created_at": "2026-06-05T13:33:14Z"
     },
     {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "UI: expose `spec.proxy.config` in the Advanced Configuration step",
-        "url": "https://github.com/openeverest/openeverest/issues/2093",
-        "labels": [
-            "good first issue",
-            "ui"
-        ],
-        "created_at": "2026-04-30T07:32:00Z"
-    },
-    {
         "repo": "openGemini/openGemini",
         "tier": "Sandbox",
         "lang": "Go",
@@ -21323,6 +21311,7 @@
         "url": "https://github.com/backstage/backstage/issues/32747",
         "labels": [
             "good first issue",
+            "stale",
             "needs:triage"
         ],
         "created_at": "2026-02-08T15:11:17Z"
@@ -21361,6 +21350,7 @@
         "labels": [
             "area:documentation",
             "good first issue",
+            "stale",
             "domain:docs",
             "needs:triage"
         ],
@@ -21416,7 +21406,8 @@
             "type:suggestion",
             "good first issue",
             "priority:contrib-needed",
-            "area:catalog"
+            "area:catalog",
+            "stale"
         ],
         "created_at": "2025-07-03T19:59:31Z"
     },
@@ -21442,7 +21433,8 @@
         "labels": [
             "good first issue",
             "priority:contrib-needed",
-            "area:catalog"
+            "area:catalog",
+            "stale"
         ],
         "created_at": "2023-11-03T09:36:12Z"
     },
