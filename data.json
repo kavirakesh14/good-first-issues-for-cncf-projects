@@ -10782,18 +10782,6 @@
         "repo": "lima-vm/lima",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Various LIMA_CIDATA_* variables are not documented",
-        "url": "https://github.com/lima-vm/lima/issues/2791",
-        "labels": [
-            "documentation",
-            "good first issue"
-        ],
-        "created_at": "2024-10-24T00:19:42Z"
-    },
-    {
-        "repo": "lima-vm/lima",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Lima docs should be generated from the release, not from `master`",
         "url": "https://github.com/lima-vm/lima/issues/3996",
         "labels": [
@@ -12275,6 +12263,18 @@
             "awaiting-maintainer"
         ],
         "created_at": "2019-07-13T19:01:19Z"
+    },
+    {
+        "repo": "agones-dev/agones",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[build] Print debug information on helm failure to install",
+        "url": "https://github.com/agones-dev/agones/issues/4617",
+        "labels": [
+            "help wanted",
+            "area/build-tools"
+        ],
+        "created_at": "2026-06-13T21:24:19Z"
     },
     {
         "repo": "agones-dev/agones",
@@ -27963,6 +27963,20 @@
             "gadgets/snapshot/socket"
         ],
         "created_at": "2021-10-28T10:04:59Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "ClickHouse e2e tests spurious failures",
+        "url": "https://github.com/jaegertracing/jaeger/issues/8780",
+        "labels": [
+            "bug",
+            "help wanted",
+            "good first issue",
+            "area/storage"
+        ],
+        "created_at": "2026-06-13T21:03:13Z"
     },
     {
         "repo": "jaegertracing/jaeger",
