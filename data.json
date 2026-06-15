@@ -3499,17 +3499,6 @@
         "created_at": "2025-04-30T03:08:49Z"
     },
     {
-        "repo": "dragonflyoss/dragonfly",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "K3s \u90e8\u7f72\u95ee\u9898",
-        "url": "https://github.com/dragonflyoss/dragonfly/issues/4815",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-06-10T14:32:10Z"
-    },
-    {
         "repo": "goharbor/harbor",
         "tier": "Graduated",
         "lang": "Go",
@@ -3546,19 +3535,6 @@
             "help wanted"
         ],
         "created_at": "2026-04-27T08:51:43Z"
-    },
-    {
-        "repo": "goharbor/harbor",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Azure ACR replication adapter does not support chunked/resumable blob uploads (413 error)",
-        "url": "https://github.com/goharbor/harbor/issues/23015",
-        "labels": [
-            "help wanted",
-            "Stale",
-            "replication/adapters"
-        ],
-        "created_at": "2026-03-19T13:15:30Z"
     },
     {
         "repo": "goharbor/harbor",
@@ -3839,6 +3815,19 @@
             "kind/requirement"
         ],
         "created_at": "2020-10-29T12:09:17Z"
+    },
+    {
+        "repo": "goharbor/harbor",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Feature request to export scan results both automated and from the UI",
+        "url": "https://github.com/goharbor/harbor/issues/6683",
+        "labels": [
+            "help wanted",
+            "area/vulnerability-scan",
+            "kind/requirement"
+        ],
+        "created_at": "2019-01-02T17:14:09Z"
     },
     {
         "repo": "project-zot/zot",
@@ -5807,6 +5796,18 @@
             "help wanted"
         ],
         "created_at": "2022-11-07T20:46:31Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "docs: Update docs for nodeSelector hostname labels",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2669",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-06-15T03:50:58Z"
     },
     {
         "repo": "kubearmor/kubearmor",
@@ -20018,6 +20019,18 @@
             "LFX Mentorship"
         ],
         "created_at": "2025-06-23T12:38:35Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Allow to set requests and limits separately",
+        "url": "https://github.com/openeverest/openeverest/issues/2360",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-06-11T15:46:53Z"
     },
     {
         "repo": "openeverest/openeverest",
