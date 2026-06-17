@@ -4661,6 +4661,20 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "\"How to get Involved\" section on ESO website is very outdated",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6486",
+        "labels": [
+            "good first issue",
+            "kind/bug",
+            "area/documentation",
+            "size/s"
+        ],
+        "created_at": "2026-06-17T09:10:22Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Custom CA support for the Fortanix provider",
         "url": "https://github.com/external-secrets/external-secrets/issues/6400",
         "labels": [
