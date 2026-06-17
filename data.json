@@ -5211,6 +5211,24 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Binding authentication flow leads to \"flow.undefined\" showing in admin ui",
+        "url": "https://github.com/keycloak/keycloak/issues/50014",
+        "labels": [
+            "area/authentication",
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-authn"
+        ],
+        "created_at": "2026-06-15T13:42:48Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "client-policies: secure-redirect-uris-enforcer does not work with empty logout redirect URIs list",
         "url": "https://github.com/keycloak/keycloak/issues/49911",
         "labels": [
@@ -5694,23 +5712,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-18T21:19:28Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "SAML signature verification fails in Shibboleth when KeyName is present in KeyInfo in Keycloaks metadata",
-        "url": "https://github.com/keycloak/keycloak/issues/49034",
-        "labels": [
-            "area/saml",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-16T13:02:53Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10961,6 +10962,65 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Libpod docs prompt to view a latest stable goes to a 404",
+        "url": "https://github.com/podman-container-tools/podman/issues/28546",
+        "labels": [
+            "Good First Issue",
+            "documentation",
+            "volunteers-wanted",
+            "triaged",
+            "Contribfest"
+        ],
+        "created_at": "2026-04-20T00:09:04Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Documentation: Share `--reload-systemd` option between `podman quadlet install` and `podman quadlet rm` manpages",
+        "url": "https://github.com/podman-container-tools/podman/issues/28370",
+        "labels": [
+            "Good First Issue",
+            "kind/documentation",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2026-03-26T07:35:59Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Run `go fix` against Mac specific portions of the project using MacOS hosts",
+        "url": "https://github.com/podman-container-tools/podman/issues/28367",
+        "labels": [
+            "Good First Issue",
+            "kind/cleanup",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2026-03-26T07:23:18Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "podman events --format json returns null via remote api",
+        "url": "https://github.com/podman-container-tools/podman/issues/28325",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted",
+            "bugweek",
+            "triaged",
+            "Contribfest"
+        ],
+        "created_at": "2026-03-19T13:26:12Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "podman --remote exec ignores empty detach keys",
         "url": "https://github.com/podman-container-tools/podman/issues/28193",
         "labels": [
@@ -10975,6 +11035,66 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "journald log driver: support --log-opt labels to promote container labels as structured journal fields",
+        "url": "https://github.com/podman-container-tools/podman/issues/28187",
+        "labels": [
+            "Good First Issue",
+            "kind/feature",
+            "volunteers-wanted",
+            "triaged",
+            "Contribfest"
+        ],
+        "created_at": "2026-03-03T21:10:46Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Publishing a privileged port on specific IP address fails on Mac",
+        "url": "https://github.com/podman-container-tools/podman/issues/28009",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "macos",
+            "volunteers-wanted",
+            "machine",
+            "triaged",
+            "Contribfest"
+        ],
+        "created_at": "2026-02-02T09:36:33Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Podman Socket API exceeds file name limit when passing seccomp profile, where Docker would succeed",
+        "url": "https://github.com/podman-container-tools/podman/issues/27710",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted",
+            "bugweek",
+            "Contribfest"
+        ],
+        "created_at": "2025-12-08T04:15:18Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Incorrect documentation for `--image-volume` option in podman run",
+        "url": "https://github.com/podman-container-tools/podman/issues/27674",
+        "labels": [
+            "Good First Issue",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2025-12-03T23:32:52Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "podman machine: image override files need user-write access",
         "url": "https://github.com/podman-container-tools/podman/issues/27576",
         "labels": [
@@ -10984,6 +11104,22 @@
             "triaged"
         ],
         "created_at": "2025-11-20T21:23:50Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "`podman play kube` - Need Container Name as well as ID when Container Fails to Start",
+        "url": "https://github.com/podman-container-tools/podman/issues/27196",
+        "labels": [
+            "Good First Issue",
+            "kind/feature",
+            "stale-issue",
+            "volunteers-wanted",
+            "triaged",
+            "Contribfest"
+        ],
+        "created_at": "2025-09-30T13:56:03Z"
     },
     {
         "repo": "containers/podman",
@@ -11015,6 +11151,22 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Containers in the same pod binding to same port cause runtime failure without warning",
+        "url": "https://github.com/podman-container-tools/podman/issues/26622",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted",
+            "bugweek",
+            "triaged",
+            "Contribfest"
+        ],
+        "created_at": "2025-07-12T14:36:52Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "feat(kube play): flag to specify resources (pods, secrets, volumes) labels",
         "url": "https://github.com/podman-container-tools/podman/issues/26450",
         "labels": [
@@ -11041,6 +11193,78 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[docs] Distinguish between lazy pulling and partial pulling",
+        "url": "https://github.com/podman-container-tools/podman/issues/24947",
+        "labels": [
+            "Good First Issue",
+            "documentation",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2025-01-06T20:26:14Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Manifest create has poor error message on conflict with image",
+        "url": "https://github.com/podman-container-tools/podman/issues/24537",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2024-11-12T00:28:36Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "parsing of `--volume` option `idmap` succeeds but parsing of option `idmap=true` fails with `Error: unknown option \"true\"`",
+        "url": "https://github.com/podman-container-tools/podman/issues/24249",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted",
+            "bugweek",
+            "Contribfest"
+        ],
+        "created_at": "2024-10-13T06:28:59Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ImageSearch and ImageSearchLibPod are specified incorrectly in swagger docs",
+        "url": "https://github.com/podman-container-tools/podman/issues/23741",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "documentation",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2024-08-25T06:57:21Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "pull --all-tags : confusing documentation",
+        "url": "https://github.com/podman-container-tools/podman/issues/23625",
+        "labels": [
+            "Good First Issue",
+            "documentation",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2024-08-14T20:04:02Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "`docker login` with docker.io creds  \"successfully\" logs-into `registry.fedoraproject.org` then fails to push to `registry-1.docker.io`",
         "url": "https://github.com/podman-container-tools/podman/issues/22400",
         "labels": [
@@ -11048,6 +11272,35 @@
             "kind/bug"
         ],
         "created_at": "2024-04-16T21:00:44Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Manifests: No tests for doing API manifests/imagename&images=foo",
+        "url": "https://github.com/podman-container-tools/podman/issues/22258",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2024-04-04T12:49:48Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Docs]: More Differentiation between save/load and import/export",
+        "url": "https://github.com/podman-container-tools/podman/issues/22155",
+        "labels": [
+            "Good First Issue",
+            "kind/feature",
+            "documentation",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2024-03-25T12:59:55Z"
     },
     {
         "repo": "containers/podman",
@@ -11067,24 +11320,44 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Support local volumes with a lifetime longer than that of the podman host",
-        "url": "https://github.com/podman-container-tools/podman/issues/18075",
+        "title": "PUT /containers/{id}/archive behaves differently to docker.",
+        "url": "https://github.com/podman-container-tools/podman/issues/21861",
         "labels": [
-            "Good First Issue"
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted",
+            "bugweek",
+            "Contribfest"
         ],
-        "created_at": "2023-04-05T21:03:08Z"
+        "created_at": "2024-02-28T13:59:51Z"
     },
     {
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Distribution API seems missing",
-        "url": "https://github.com/podman-container-tools/podman/issues/17726",
+        "title": "Allow consistent exclusion filters between 'podman container list' & 'podman image list'",
+        "url": "https://github.com/podman-container-tools/podman/issues/21398",
         "labels": [
             "Good First Issue",
-            "kind/bug"
+            "kind/feature",
+            "volunteers-wanted",
+            "Contribfest"
         ],
-        "created_at": "2023-03-09T15:32:05Z"
+        "created_at": "2024-01-28T13:59:05Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Turn --authfile into an alias for --auth-file",
+        "url": "https://github.com/podman-container-tools/podman/issues/20693",
+        "labels": [
+            "Good First Issue",
+            "kind/feature",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2023-11-15T16:52:15Z"
     },
     {
         "repo": "urunc-dev/urunc",
@@ -19991,18 +20264,6 @@
         "repo": "cloudnative-pg/cloudnative-pg",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Chore]: Cancel superseded in-progress CI runs on pull requests",
-        "url": "https://github.com/cloudnative-pg/cloudnative-pg/issues/10861",
-        "labels": [
-            "good first issue",
-            "chore"
-        ],
-        "created_at": "2026-06-10T10:05:54Z"
-    },
-    {
-        "repo": "cloudnative-pg/cloudnative-pg",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Chore]: Reduce the unit-test Kubernetes matrix on pull requests",
         "url": "https://github.com/cloudnative-pg/cloudnative-pg/issues/10860",
         "labels": [
@@ -21477,19 +21738,6 @@
             "status/ready"
         ],
         "created_at": "2026-02-26T11:46:40Z"
-    },
-    {
-        "repo": "buildpacks/pack",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "pack buildpack yank command fails",
-        "url": "https://github.com/buildpacks/pack/issues/2461",
-        "labels": [
-            "type/bug",
-            "good first issue",
-            "status/ready"
-        ],
-        "created_at": "2025-11-06T18:15:20Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -25404,18 +25652,6 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Builds are Pending even though it is failed",
-        "url": "https://github.com/openchoreo/openchoreo/issues/2948",
-        "labels": [
-            "good first issue",
-            "Type/Bug"
-        ],
-        "created_at": "2026-03-23T05:11:52Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Actions are not collapsed in role listing and role editing pages in Backstage",
         "url": "https://github.com/openchoreo/openchoreo/issues/2907",
         "labels": [
@@ -28440,6 +28676,19 @@
         "created_at": "2024-02-16T10:11:24Z"
     },
     {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Track] Call for Machine/Device Sponsorship",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/1906",
+        "labels": [
+            "kind/feature",
+            "help wanted",
+            "discussion"
+        ],
+        "created_at": "2025-01-08T01:34:27Z"
+    },
+    {
         "repo": "kuberhealthy/kuberhealthy",
         "tier": "Sandbox",
         "lang": "Go",
@@ -30595,6 +30844,17 @@
             "good first issue"
         ],
         "created_at": "2025-07-17T16:55:48Z"
+    },
+    {
+        "repo": "kserve/kserve",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Helm chart: kserve.storage.resources values not applied to inferenceservice-config configmap (LLMInferenceService uses old hardcoded 1Gi memory limit)",
+        "url": "https://github.com/kserve/kserve/issues/5412",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-04-16T23:18:05Z"
     },
     {
         "repo": "kserve/kserve",
