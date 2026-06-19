@@ -5216,23 +5216,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Client Secret Rotation docs incorrectly mark feature as experimental instead of preview",
-        "url": "https://github.com/keycloak/keycloak/issues/50139",
-        "labels": [
-            "kind/bug",
-            "area/docs",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn"
-        ],
-        "created_at": "2026-06-18T16:29:51Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "client-policies: secure-redirect-uris-enforcer does not work with empty logout redirect URIs list",
         "url": "https://github.com/keycloak/keycloak/issues/49911",
         "labels": [
@@ -5503,21 +5486,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Client secret rotation feature. Client Secret and Secret Rotated are always the same",
-        "url": "https://github.com/keycloak/keycloak/issues/49342",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "priority/normal",
-            "team/core-authn"
-        ],
-        "created_at": "2026-05-26T13:38:01Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "GET /broker/{alias}/token returns expired external IDP access token when refresh_token is available",
         "url": "https://github.com/keycloak/keycloak/issues/49341",
         "labels": [
@@ -5719,6 +5687,38 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-15T12:54:55Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "[OID4VCI] Pre-Authorized Code Replay",
+        "url": "https://github.com/keycloak/keycloak/issues/48902",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/oid4vc",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-12T02:29:50Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "SAML broker: Assertions without a Conditions element are accepted unconditionally",
+        "url": "https://github.com/keycloak/keycloak/issues/48878",
+        "labels": [
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal",
+            "kind/weakness"
+        ],
+        "created_at": "2026-05-11T11:40:59Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10512,6 +10512,17 @@
         "repo": "cri-o/cri-o",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Flaky test: container memory metrics uses exact comparison subject to race",
+        "url": "https://github.com/cri-o/cri-o/issues/10055",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-06-19T11:19:58Z"
+    },
+    {
+        "repo": "cri-o/cri-o",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Bump held-back dependencies from #9929",
         "url": "https://github.com/cri-o/cri-o/issues/9934",
         "labels": [
@@ -10709,6 +10720,19 @@
             "help wanted"
         ],
         "created_at": "2023-09-06T03:11:36Z"
+    },
+    {
+        "repo": "lima-vm/lima",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[QEMU] Support running in a macos VM using VZ (fall back from `hvf` to `tcg` automatically)",
+        "url": "https://github.com/lima-vm/lima/issues/5133",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component/qemu"
+        ],
+        "created_at": "2026-06-19T09:51:01Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -21205,6 +21229,18 @@
             "Component: CLI"
         ],
         "created_at": "2022-09-01T10:20:29Z"
+    },
+    {
+        "repo": "nats-io/nats-server",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "JetStream dynamic MaxStore shrinks after restart because it is recomputed from current free disk (Bavail), causing previously valid stream limits to fail",
+        "url": "https://github.com/nats-io/nats-server/issues/8322",
+        "labels": [
+            "good first issue",
+            "defect"
+        ],
+        "created_at": "2026-06-16T21:36:36Z"
     },
     {
         "repo": "tremor-rs/tremor-runtime",
