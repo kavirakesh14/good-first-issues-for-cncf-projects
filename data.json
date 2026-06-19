@@ -3926,18 +3926,6 @@
         "created_at": "2025-02-14T19:04:44Z"
     },
     {
-        "repo": "project-zot/zot",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "`zli`: use a default named config when `--url` / `--config` are omitted",
-        "url": "https://github.com/project-zot/zot/issues/129",
-        "labels": [
-            "feature",
-            "good first issue"
-        ],
-        "created_at": "2020-09-03T23:26:19Z"
-    },
-    {
         "repo": "bank-vaults/bank-vaults",
         "tier": "Sandbox",
         "lang": "Go",
@@ -22886,8 +22874,7 @@
         "labels": [
             "help wanted",
             "bug",
-            "good first issue",
-            "Stale"
+            "good first issue"
         ],
         "created_at": "2022-09-08T16:01:46Z"
     },
