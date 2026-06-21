@@ -25765,6 +25765,18 @@
         "repo": "pipe-cd/pipecd",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "ci: add timeout-minutes to scheduled workflow jobs",
+        "url": "https://github.com/pipe-cd/pipecd/issues/6902",
+        "labels": [
+            "kind/enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-06-07T21:23:39Z"
+    },
+    {
+        "repo": "pipe-cd/pipecd",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "docs: Add AI Usage Policy and Guidelines to CONTRIBUTING.md",
         "url": "https://github.com/pipe-cd/pipecd/issues/6813",
         "labels": [
