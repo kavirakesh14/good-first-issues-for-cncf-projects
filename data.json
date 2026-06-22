@@ -5292,24 +5292,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "UserSelect component limits the search results during autocompletion lookup",
-        "url": "https://github.com/keycloak/keycloak/issues/49702",
-        "labels": [
-            "area/authorization-services",
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-iam",
-            "team/core-shared",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-06-05T00:12:59Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Refreshing the page causes the app to go to login screen again when not on same domain",
         "url": "https://github.com/keycloak/keycloak/issues/49691",
         "labels": [
@@ -5409,6 +5391,22 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "[CIMD] secure-redirect-uris-enforcer is not enforced for CIMD public clients during authorization requests",
+        "url": "https://github.com/keycloak/keycloak/issues/49456",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-29T02:55:45Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Admin UI: Workflows menu link visible to users without sufficient permissions to use it",
         "url": "https://github.com/keycloak/keycloak/issues/49452",
         "labels": [
@@ -5490,23 +5488,6 @@
             "priority/normal"
         ],
         "created_at": "2026-05-25T13:53:04Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "PAR authorization request with prompt=create does not open registration page",
-        "url": "https://github.com/keycloak/keycloak/issues/49255",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-22T16:48:40Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5713,6 +5694,27 @@
             "priority/normal"
         ],
         "created_at": "2026-05-09T05:04:46Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Kubernetes Identity Provider does not reflect defaults and required fields",
+        "url": "https://github.com/keycloak/keycloak/issues/48767",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/ui",
+            "area/identity-brokering",
+            "team/core-iam",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-authn"
+        ],
+        "created_at": "2026-05-06T15:47:54Z"
     },
     {
         "repo": "keylime/keylime",
@@ -9285,6 +9287,7 @@
         "labels": [
             "kind/feature",
             "good first issue",
+            "priority/1",
             "require/doc",
             "require/manual-test-plan",
             "area/distro-platform-arch",
@@ -10719,19 +10722,6 @@
         "repo": "lima-vm/lima",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[QEMU] Support running in a macos VM using VZ (fall back from `hvf` to `tcg` automatically)",
-        "url": "https://github.com/lima-vm/lima/issues/5133",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "component/qemu"
-        ],
-        "created_at": "2026-06-19T09:51:01Z"
-    },
-    {
-        "repo": "lima-vm/lima",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Test scripts such as `hack/test-template.sh` should fail early when prerequisites (`timeout`, `socat`, etc.) are not installed on the host",
         "url": "https://github.com/lima-vm/lima/issues/5038",
         "labels": [
@@ -11012,23 +11002,6 @@
             "Contribfest"
         ],
         "created_at": "2026-03-03T21:10:46Z"
-    },
-    {
-        "repo": "containers/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Publishing a privileged port on specific IP address fails on Mac",
-        "url": "https://github.com/podman-container-tools/podman/issues/28009",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "macos",
-            "volunteers-wanted",
-            "machine",
-            "triaged",
-            "Contribfest"
-        ],
-        "created_at": "2026-02-02T09:36:33Z"
     },
     {
         "repo": "containers/podman",
@@ -11346,21 +11319,6 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Docs]: More Differentiation between save/load and import/export",
-        "url": "https://github.com/podman-container-tools/podman/issues/22155",
-        "labels": [
-            "Good First Issue",
-            "kind/feature",
-            "documentation",
-            "volunteers-wanted",
-            "Contribfest"
-        ],
-        "created_at": "2024-03-25T12:59:55Z"
-    },
-    {
-        "repo": "containers/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "kube playbook doesn't contain healthchecks",
         "url": "https://github.com/podman-container-tools/podman/issues/22095",
         "labels": [
@@ -11370,6 +11328,35 @@
             "volunteers-wanted"
         ],
         "created_at": "2024-03-20T10:18:29Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "PUT /containers/{id}/archive behaves differently to docker.",
+        "url": "https://github.com/podman-container-tools/podman/issues/21861",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted",
+            "bugweek",
+            "Contribfest"
+        ],
+        "created_at": "2024-02-28T13:59:51Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Allow consistent exclusion filters between 'podman container list' & 'podman image list'",
+        "url": "https://github.com/podman-container-tools/podman/issues/21398",
+        "labels": [
+            "Good First Issue",
+            "kind/feature",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2024-01-28T13:59:05Z"
     },
     {
         "repo": "urunc-dev/urunc",
@@ -15442,18 +15429,6 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[outreach] LFX Mentorship program \u2014 contributor pipeline gap, Q3 2026 window open",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3826",
-        "labels": [
-            "help wanted",
-            "outreach"
-        ],
-        "created_at": "2026-06-08T13:17:08Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[outreach] GitHub Discussions reactivation \u2014 3yr dormant, key CNCF community signal",
         "url": "https://github.com/kubestellar/kubestellar/issues/3823",
         "labels": [
@@ -15769,6 +15744,18 @@
             "help wanted"
         ],
         "created_at": "2026-05-08T14:45:19Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "doc: [TASK] Document Automated Testing Policy to satisfy OpenSSF Best Practices",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3771",
+        "labels": [
+            "help wanted",
+            "kind/documentation"
+        ],
+        "created_at": "2026-05-07T05:10:48Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -17378,6 +17365,20 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "stats: Allow overriding default tag extractors in stats_tags without disabling defaults",
+        "url": "https://github.com/envoyproxy/envoy/issues/44373",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/stats",
+            "area/admin"
+        ],
+        "created_at": "2026-04-10T14:44:27Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "node.extensions does not distinguish between compiled-in and configured bootstrap extensions",
         "url": "https://github.com/envoyproxy/envoy/issues/44333",
         "labels": [
@@ -17722,18 +17723,6 @@
             "area/matching"
         ],
         "created_at": "2025-09-23T01:58:09Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "HTTP access log formatters for dynamic metadata written by Listener/Network level filters",
-        "url": "https://github.com/envoyproxy/envoy/issues/41116",
-        "labels": [
-            "help wanted",
-            "area/access_log"
-        ],
-        "created_at": "2025-09-17T20:26:54Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -18866,7 +18855,6 @@
         "url": "https://github.com/kgateway-dev/kgateway/issues/13637",
         "labels": [
             "Good First Issue",
-            "stale",
             "Area: CI/CD",
             "help wanted"
         ],
@@ -21585,6 +21573,21 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[PushFeedback] - Consider Adjusting Title for Azure Integration Sidebar Item",
+        "url": "https://github.com/backstage/backstage/issues/31542",
+        "labels": [
+            "area:documentation",
+            "good first issue",
+            "stale",
+            "domain:docs",
+            "needs:triage"
+        ],
+        "created_at": "2025-10-29T14:52:06Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[PushFeedback] - Remove Old Migrating to RJSF v5 Page",
         "url": "https://github.com/backstage/backstage/issues/31541",
         "labels": [
@@ -24032,6 +24035,19 @@
             "lifecycle/frozen"
         ],
         "created_at": "2021-02-02T20:05:09Z"
+    },
+    {
+        "repo": "oras-project/oras",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Simple Lint Problem",
+        "url": "https://github.com/oras-project/oras/issues/2092",
+        "labels": [
+            "bug",
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2026-06-22T12:10:33Z"
     },
     {
         "repo": "oras-project/oras",
