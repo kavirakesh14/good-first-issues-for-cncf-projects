@@ -8681,19 +8681,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "make images fails for rootless docker in docker",
-        "url": "https://github.com/spiffe/spire/issues/5140",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "stale"
-        ],
-        "created_at": "2024-05-10T22:35:14Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Spire will create CAs that are longer lived than the upstream CA",
         "url": "https://github.com/spiffe/spire/issues/5097",
         "labels": [
@@ -8701,19 +8688,6 @@
             "priority/backlog"
         ],
         "created_at": "2024-04-26T20:13:43Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "spire-{agent,server}: allow more gRPC connection configuration",
-        "url": "https://github.com/spiffe/spire/issues/4990",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "stale"
-        ],
-        "created_at": "2024-03-18T07:38:26Z"
     },
     {
         "repo": "spiffe/spire",
@@ -8775,6 +8749,31 @@
             "priority/backlog"
         ],
         "created_at": "2023-03-30T19:41:49Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "FIPS compliant images",
+        "url": "https://github.com/spiffe/spire/issues/4009",
+        "labels": [
+            "help wanted",
+            "priority/backlog",
+            "unscoped"
+        ],
+        "created_at": "2023-03-21T21:37:33Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "SPIRE Server should enforce agent IDs reside in the agent namespace",
+        "url": "https://github.com/spiffe/spire/issues/2712",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2022-01-31T19:43:11Z"
     },
     {
         "repo": "carina-io/carina",
@@ -28217,21 +28216,6 @@
             "area/storage"
         ],
         "created_at": "2026-06-13T21:03:13Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "[chore]: Remove fswatcher dependency",
-        "url": "https://github.com/jaegertracing/jaeger/issues/8748",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue",
-            "area/storage",
-            "storage/elasticsearch"
-        ],
-        "created_at": "2026-06-09T16:11:27Z"
     },
     {
         "repo": "jaegertracing/jaeger",
