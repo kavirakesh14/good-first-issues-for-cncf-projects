@@ -2742,20 +2742,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Site breaks when navigating to invalid/non-existent route (404 page not handled properly)",
-        "url": "https://github.com/meshery/meshery/issues/19142",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-05-06T20:47:29Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] typo in favicon sizes attribute",
         "url": "https://github.com/meshery/meshery/issues/19110",
         "labels": [
@@ -8659,8 +8645,7 @@
         "url": "https://github.com/spiffe/spire/issues/5140",
         "labels": [
             "help wanted",
-            "priority/backlog",
-            "stale"
+            "priority/backlog"
         ],
         "created_at": "2024-05-10T22:35:14Z"
     },
@@ -8684,8 +8669,7 @@
         "url": "https://github.com/spiffe/spire/issues/4990",
         "labels": [
             "help wanted",
-            "priority/backlog",
-            "stale"
+            "priority/backlog"
         ],
         "created_at": "2024-03-18T07:38:26Z"
     },
@@ -17352,15 +17336,14 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "Stat for total duration blocked by watermarks",
-        "url": "https://github.com/envoyproxy/envoy/issues/45723",
+        "title": "Expose TLS peer certificate validation status in CEL context etc.",
+        "url": "https://github.com/envoyproxy/envoy/issues/45660",
         "labels": [
             "enhancement",
             "help wanted",
-            "area/http",
-            "area/stats"
+            "area/cel"
         ],
-        "created_at": "2026-06-20T16:28:40Z"
+        "created_at": "2026-06-16T08:50:55Z"
     },
     {
         "repo": "envoyproxy/envoy",
@@ -19042,18 +19025,6 @@
             "help wanted"
         ],
         "created_at": "2026-02-02T16:54:58Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Support for the XBackendTrafficPolicy experimental API",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/12557",
-        "labels": [
-            "stale",
-            "help wanted"
-        ],
-        "created_at": "2025-10-08T19:40:29Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -21593,7 +21564,6 @@
         "labels": [
             "area:documentation",
             "good first issue",
-            "stale",
             "domain:docs",
             "needs:triage"
         ],
@@ -21621,6 +21591,7 @@
         "labels": [
             "area:documentation",
             "good first issue",
+            "stale",
             "domain:docs",
             "needs:triage"
         ],
@@ -30966,7 +30937,8 @@
             "help wanted",
             "good first issue",
             "area/engprod",
-            "kfserving/storage"
+            "kfserving/storage",
+            "stale-warning-1"
         ],
         "created_at": "2020-05-19T11:41:30Z"
     },
