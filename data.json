@@ -5193,6 +5193,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Scope-based permission accepts a scope not associated with the selected resource (Admin REST API)",
+        "url": "https://github.com/keycloak/keycloak/issues/50178",
+        "labels": [
+            "area/authorization-services",
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-06-19T21:46:13Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "client-policies: secure-redirect-uris-enforcer does not work with empty logout redirect URIs list",
         "url": "https://github.com/keycloak/keycloak/issues/49911",
         "labels": [
@@ -5259,20 +5276,6 @@
             "status/auto-bump"
         ],
         "created_at": "2026-06-05T13:52:25Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[OID4VCI] Update proof documentation once using identity providers",
-        "url": "https://github.com/keycloak/keycloak/issues/49716",
-        "labels": [
-            "help wanted",
-            "kind/task",
-            "area/oid4vc",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-06-05T10:11:55Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5372,24 +5375,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-29T09:17:16Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Admin UI: Workflows menu link visible to users without sufficient permissions to use it",
-        "url": "https://github.com/keycloak/keycloak/issues/49452",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "area/workflows"
-        ],
-        "created_at": "2026-05-28T19:28:03Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5703,6 +5688,25 @@
         "created_at": "2026-05-04T17:09:57Z"
     },
     {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "`ORGANIZATION_MEMBERSHIP` event with `ACTION` operation is missing `representation` and `detail` fields",
+        "url": "https://github.com/keycloak/keycloak/issues/48645",
+        "labels": [
+            "kind/bug",
+            "area/admin/api",
+            "help wanted",
+            "team/core-iam",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "area/organizations"
+        ],
+        "created_at": "2026-05-01T04:06:55Z"
+    },
+    {
         "repo": "keylime/keylime",
         "tier": "Sandbox",
         "lang": "Python",
@@ -5819,6 +5823,18 @@
             "help wanted"
         ],
         "created_at": "2022-11-07T20:46:31Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "fix trivy scan vulnerabilities",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2701",
+        "labels": [
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2026-06-23T11:33:42Z"
     },
     {
         "repo": "kubearmor/kubearmor",
@@ -10919,33 +10935,6 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Socket communication with an IP *.*.*.1 fails",
-        "url": "https://github.com/podman-container-tools/podman/issues/28863",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "network",
-            "triaged"
-        ],
-        "created_at": "2026-06-04T19:40:57Z"
-    },
-    {
-        "repo": "containers/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Podman-manifest-push have no retry option",
-        "url": "https://github.com/podman-container-tools/podman/issues/28590",
-        "labels": [
-            "Good First Issue",
-            "kind/feature",
-            "triaged"
-        ],
-        "created_at": "2026-04-27T08:06:04Z"
-    },
-    {
-        "repo": "containers/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "podman events --format json returns null via remote api",
         "url": "https://github.com/podman-container-tools/podman/issues/28325",
         "labels": [
@@ -11341,6 +11330,33 @@
             "Contribfest"
         ],
         "created_at": "2024-01-28T13:59:05Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Non-actionable error message: 'Error: unsupported transport \"docker\" for looking up local images'",
+        "url": "https://github.com/podman-container-tools/podman/issues/20775",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted"
+        ],
+        "created_at": "2023-11-24T21:07:33Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Turn --authfile into an alias for --auth-file",
+        "url": "https://github.com/podman-container-tools/podman/issues/20693",
+        "labels": [
+            "Good First Issue",
+            "kind/feature",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2023-11-15T16:52:15Z"
     },
     {
         "repo": "urunc-dev/urunc",
@@ -27588,20 +27604,6 @@
             "help wanted"
         ],
         "created_at": "2020-09-24T21:15:50Z"
-    },
-    {
-        "repo": "kubernetes-sigs/headlamp",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "frontend: RestartButton: Fix `react-hooks/rules-of-hooks` \u2014 `useState`, `useLocation`, `useTranslation`, and `useEventCallback` are called conditionally (after a guard clause). Move all hook calls to the top of the component before any conditional returns. File: `frontend/src/components/common/Resource/RestartButton.tsx`",
-        "url": "https://github.com/kubernetes-sigs/headlamp/issues/5190",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "frontend",
-            "quality"
-        ],
-        "created_at": "2026-04-23T04:53:21Z"
     },
     {
         "repo": "kubernetes-sigs/headlamp",
