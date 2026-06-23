@@ -2089,6 +2089,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Missing Extension Icon Before Kanvas Title",
+        "url": "https://github.com/meshery/meshery/issues/20208",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-23T17:56:36Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] YouTube video fails to load with Error 153 in 'The Cloud Native Playground' modal",
         "url": "https://github.com/meshery/meshery/issues/20118",
         "labels": [
@@ -2513,17 +2528,15 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Template] Create a DFD Level 1 template",
-        "url": "https://github.com/meshery/meshery/issues/12501",
+        "title": "[Docs] Sidebar Button Clicks Automatically Scroll Page to Top",
+        "url": "https://github.com/meshery/meshery/issues/20209",
         "labels": [
-            "kind/enhancement",
             "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
         ],
-        "created_at": "2024-10-28T14:37:00Z"
+        "created_at": "2026-06-23T18:51:33Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2856,17 +2869,6 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:49Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Server] CreateK8sResource returns an error after a successful force recreate",
-        "url": "https://github.com/meshery/meshery/issues/18976",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:45Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -17352,6 +17354,19 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "Support request header match for custom response filter",
+        "url": "https://github.com/envoyproxy/envoy/issues/45713",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/custom_response"
+        ],
+        "created_at": "2026-06-19T15:44:02Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "Expose TLS peer certificate validation status in CEL context etc.",
         "url": "https://github.com/envoyproxy/envoy/issues/45660",
         "labels": [
@@ -17724,19 +17739,6 @@
             "area/lua"
         ],
         "created_at": "2025-09-26T06:39:19Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "Enable per-user concurrency limits by supporting negative cost in the rate limiting protocol",
-        "url": "https://github.com/envoyproxy/envoy/issues/41219",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/ratelimit"
-        ],
-        "created_at": "2025-09-25T06:12:19Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -21528,6 +21530,7 @@
         "url": "https://github.com/backstage/backstage/issues/32748",
         "labels": [
             "good first issue",
+            "stale",
             "needs:triage"
         ],
         "created_at": "2026-02-08T15:12:46Z"
@@ -26022,18 +26025,6 @@
             "good first issue"
         ],
         "created_at": "2025-08-04T14:16:42Z"
-    },
-    {
-        "repo": "flatcar/Flatcar",
-        "tier": "Incubating",
-        "lang": "Python",
-        "title": "Update contributing documentation and templates in all repos to reflect the new standardized workflow",
-        "url": "https://github.com/flatcar/Flatcar/issues/1816",
-        "labels": [
-            "good first issue",
-            "area/CNCF"
-        ],
-        "created_at": "2025-07-16T11:41:15Z"
     },
     {
         "repo": "flatcar/Flatcar",
