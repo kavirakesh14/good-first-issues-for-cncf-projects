@@ -2104,21 +2104,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] readme: add bluesky social shield",
-        "url": "https://github.com/meshery/meshery/issues/20218",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-24T03:17:14Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Missing Extension Icon Before Kanvas Title",
         "url": "https://github.com/meshery/meshery/issues/20208",
         "labels": [
@@ -2526,6 +2511,22 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Template] Create a Brainstorming template",
+        "url": "https://github.com/meshery/meshery/issues/12503",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:47:23Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[CI]",
         "url": "https://github.com/meshery/meshery/issues/20225",
         "labels": [
@@ -2850,6 +2851,17 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[mesheryctl] Align model init output-format help with actual CSV support",
+        "url": "https://github.com/meshery/meshery/issues/18981",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-04-29T03:30:53Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4909,19 +4921,6 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Support for selecting a single property when using dataFrom.find",
-        "url": "https://github.com/external-secrets/external-secrets/issues/4851",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "track/core"
-        ],
-        "created_at": "2025-05-29T07:46:34Z"
-    },
-    {
-        "repo": "external-secrets/external-secrets",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Provider: Add New \"Sakura Cloud\" Provider",
         "url": "https://github.com/external-secrets/external-secrets/issues/4687",
         "labels": [
@@ -5176,6 +5175,24 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "NumberFormatException for PAR request URI lifespan",
+        "url": "https://github.com/keycloak/keycloak/issues/50308",
+        "labels": [
+            "kind/bug",
+            "area/admin/api",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-06-24T12:57:09Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Scope-based permission accepts a scope not associated with the selected resource (Admin REST API)",
         "url": "https://github.com/keycloak/keycloak/issues/50178",
         "labels": [
@@ -5240,6 +5257,22 @@
             "team/core-protocols"
         ],
         "created_at": "2026-06-07T14:15:41Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Creating a new realm from json using kcadm gives a PK violation on KEYCLOAK_ROLE despite it only being defined once in the JSON.",
+        "url": "https://github.com/keycloak/keycloak/issues/49731",
+        "labels": [
+            "kind/bug",
+            "area/storage",
+            "help wanted",
+            "team/core-iam",
+            "team/core-shared",
+            "priority/normal"
+        ],
+        "created_at": "2026-06-05T17:22:50Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5518,24 +5551,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Error while removing expired entries from database",
-        "url": "https://github.com/keycloak/keycloak/issues/49083",
-        "labels": [
-            "kind/bug",
-            "area/storage",
-            "help wanted",
-            "team/core-iam",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-05-19T01:32:07Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "NullPointerException in ResourceIndicatorsPostProcessor when access token audience is null",
         "url": "https://github.com/keycloak/keycloak/issues/49077",
         "labels": [
@@ -5671,25 +5686,6 @@
         "created_at": "2026-05-04T17:09:57Z"
     },
     {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "`ORGANIZATION_MEMBERSHIP` event with `ACTION` operation is missing `representation` and `detail` fields",
-        "url": "https://github.com/keycloak/keycloak/issues/48645",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "help wanted",
-            "team/core-iam",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "area/organizations"
-        ],
-        "created_at": "2026-05-01T04:06:55Z"
-    },
-    {
         "repo": "keylime/keylime",
         "tier": "Sandbox",
         "lang": "Python",
@@ -5806,18 +5802,6 @@
             "help wanted"
         ],
         "created_at": "2022-11-07T20:46:31Z"
-    },
-    {
-        "repo": "kubearmor/kubearmor",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "fix trivy scan vulnerabilities",
-        "url": "https://github.com/kubearmor/KubeArmor/issues/2701",
-        "labels": [
-            "bug",
-            "good first issue"
-        ],
-        "created_at": "2026-06-23T11:33:42Z"
     },
     {
         "repo": "kubearmor/kubearmor",
@@ -10917,19 +10901,6 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "machine: respect `--quiet` flag on `podman machine start`",
-        "url": "https://github.com/podman-container-tools/podman/issues/29020",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "machine"
-        ],
-        "created_at": "2026-06-24T08:32:52Z"
-    },
-    {
-        "repo": "containers/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "podman events --format json returns null via remote api",
         "url": "https://github.com/podman-container-tools/podman/issues/28325",
         "labels": [
@@ -11338,6 +11309,20 @@
             "volunteers-wanted"
         ],
         "created_at": "2023-11-24T21:07:33Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Turn --authfile into an alias for --auth-file",
+        "url": "https://github.com/podman-container-tools/podman/issues/20693",
+        "labels": [
+            "Good First Issue",
+            "kind/feature",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2023-11-15T16:52:15Z"
     },
     {
         "repo": "urunc-dev/urunc",
@@ -21697,7 +21682,8 @@
             "type/bug",
             "help wanted",
             "good first issue",
-            "status/ready"
+            "status/ready",
+            "runtime/containerd"
         ],
         "created_at": "2024-10-21T11:11:57Z"
     },
@@ -21780,7 +21766,8 @@
         "labels": [
             "type/bug",
             "good first issue",
-            "status/ready"
+            "status/ready",
+            "runtime/podman"
         ],
         "created_at": "2021-05-07T17:35:29Z"
     },
@@ -21847,7 +21834,8 @@
         "labels": [
             "type/bug",
             "help wanted",
-            "status/ready"
+            "status/ready",
+            "runtime/podman"
         ],
         "created_at": "2025-04-24T21:01:11Z"
     },
@@ -21860,7 +21848,8 @@
         "labels": [
             "type/bug",
             "help wanted",
-            "status/ready"
+            "status/ready",
+            "runtime/podman"
         ],
         "created_at": "2025-04-22T20:02:16Z"
     },
@@ -21886,7 +21875,8 @@
         "labels": [
             "type/bug",
             "help wanted",
-            "status/ready"
+            "status/ready",
+            "runtime/podman"
         ],
         "created_at": "2025-03-10T10:33:42Z"
     },
@@ -25573,18 +25563,6 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Actions are not collapsed in role listing and role editing pages in Backstage",
-        "url": "https://github.com/openchoreo/openchoreo/issues/2907",
-        "labels": [
-            "good first issue",
-            "Type/Bug"
-        ],
-        "created_at": "2026-03-20T07:46:06Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Improve logging of backstage plugins",
         "url": "https://github.com/openchoreo/openchoreo/issues/364",
         "labels": [
@@ -27561,20 +27539,6 @@
             "help wanted"
         ],
         "created_at": "2020-09-24T21:15:50Z"
-    },
-    {
-        "repo": "kubernetes-sigs/headlamp",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "frontend: AuthVisible: Fix `react-hooks/rules-of-hooks` \u2014 `useQuery` and `useEffect` are called after an early `return` statement, violating the rule that hooks must be called in the same order every render. Move hooks above all early returns. File: `frontend/src/components/common/Resource/AuthVisible.tsx`",
-        "url": "https://github.com/kubernetes-sigs/headlamp/issues/5187",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "frontend",
-            "quality"
-        ],
-        "created_at": "2026-04-23T04:53:06Z"
     },
     {
         "repo": "kubernetes-sigs/headlamp",
