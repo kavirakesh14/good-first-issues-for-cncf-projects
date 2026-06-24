@@ -2528,6 +2528,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Improve code block copy button feedback and spacing",
+        "url": "https://github.com/meshery/meshery/issues/20213",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-23T21:02:32Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Sidebar Button Clicks Automatically Scroll Page to Top",
         "url": "https://github.com/meshery/meshery/issues/20209",
         "labels": [
@@ -2858,17 +2872,6 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:50Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Performance] Prevent double-unlock panic in startNighthawkServer",
-        "url": "https://github.com/meshery/meshery/issues/18978",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:49Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -9028,6 +9031,22 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
+        "title": "[BUG] Volume expansion snapshot CR name expand-<size> collides across volumes",
+        "url": "https://github.com/longhorn/longhorn/issues/13386",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "component/longhorn-manager",
+            "reproduce/always",
+            "require/qa-review-coverage",
+            "require/backport"
+        ],
+        "created_at": "2026-06-23T14:49:56Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
         "title": "[BUG] Restore Encrypted Volume Backup to Unencrypted Volume Gets Stuck in Attached State",
         "url": "https://github.com/longhorn/longhorn/issues/13234",
         "labels": [
@@ -9509,23 +9528,6 @@
             "priority/1"
         ],
         "created_at": "2023-06-01T11:00:50Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
-        "title": "[FEATURE] Configurable system backup timeout",
-        "url": "https://github.com/longhorn/longhorn/issues/5022",
-        "labels": [
-            "kind/feature",
-            "good first issue",
-            "component/longhorn-manager",
-            "priority/0",
-            "area/system-backup-restore",
-            "area/setting",
-            "require/important-note"
-        ],
-        "created_at": "2022-12-08T02:24:38Z"
     },
     {
         "repo": "openebs/openebs",
@@ -22896,6 +22898,17 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "fix: `TestStatusWaitForDelete` flakes due to `WaitForDelete` informer initialization race",
+        "url": "https://github.com/helm/helm/issues/32261",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-06-23T20:31:07Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Helm doesn't wait for Custom Resources on new releases using `upgrade --install`.",
         "url": "https://github.com/helm/helm/issues/32066",
         "labels": [
@@ -23221,19 +23234,6 @@
             "keep open"
         ],
         "created_at": "2022-03-07T13:51:22Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Helm pre-delete hooks Remove Chart Metadata on Failure",
-        "url": "https://github.com/helm/helm/issues/9700",
-        "labels": [
-            "help wanted",
-            "keep open",
-            "bug"
-        ],
-        "created_at": "2021-05-14T21:05:08Z"
     },
     {
         "repo": "ko-build/ko",
@@ -25485,19 +25485,6 @@
             "good first issue"
         ],
         "created_at": "2022-10-26T06:39:23Z"
-    },
-    {
-        "repo": "fluxcd/flux2",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Add categories to the CRDs",
-        "url": "https://github.com/fluxcd/flux2/issues/5947",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "area/api"
-        ],
-        "created_at": "2026-06-18T12:01:35Z"
     },
     {
         "repo": "fluxcd/flux2",
