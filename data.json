@@ -1240,6 +1240,17 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Good First Issues Backlog",
+        "url": "https://github.com/kptdev/kpt/issues/4602",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-06-25T13:17:44Z"
+    },
+    {
+        "repo": "kptdev/kpt",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Ability to customize DefaultImagePrefix at runtime",
         "url": "https://github.com/kptdev/kpt/issues/4595",
         "labels": [
@@ -1639,20 +1650,6 @@
             "p2"
         ],
         "created_at": "2021-06-22T23:30:47Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Feature request: Ability to format `kpt pkg tree` output as json",
-        "url": "https://github.com/kptdev/kpt/issues/2098",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "area/pkg",
-            "triaged"
-        ],
-        "created_at": "2021-05-25T16:24:09Z"
     },
     {
         "repo": "kptdev/kpt",
@@ -5185,6 +5182,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "PathMatcher.buildUriFromTemplate throws StringIndexOutOfBoundsException for a template with an unclosed brace",
+        "url": "https://github.com/keycloak/keycloak/issues/50291",
+        "labels": [
+            "area/authorization-services",
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-06-24T07:18:51Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Scope-based permission accepts a scope not associated with the selected resource (Admin REST API)",
         "url": "https://github.com/keycloak/keycloak/issues/50178",
         "labels": [
@@ -5657,22 +5671,6 @@
             "team/core-authn"
         ],
         "created_at": "2026-05-06T15:47:54Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Missing Nonce Drops Connection (HTTP 502) OIDC Identity Provider fails with IdentityBrokerException",
-        "url": "https://github.com/keycloak/keycloak/issues/48694",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-04T17:09:57Z"
     },
     {
         "repo": "keylime/keylime",
@@ -30859,7 +30857,7 @@
         "labels": [
             "good first issue",
             "help wanted",
-            "release/v0.8"
+            "release/v0.9"
         ],
         "created_at": "2026-05-16T15:28:46Z"
     },
@@ -30873,7 +30871,7 @@
             "documentation",
             "good first issue",
             "help wanted",
-            "release/v0.8"
+            "release/v0.9"
         ],
         "created_at": "2026-05-16T12:57:21Z"
     },
@@ -30886,7 +30884,7 @@
         "labels": [
             "good first issue",
             "help wanted",
-            "release/v0.8"
+            "release/v0.9"
         ],
         "created_at": "2026-05-11T14:04:30Z"
     },
@@ -30958,7 +30956,8 @@
         "title": "[Batch] Graduate Async Processor to Production",
         "url": "https://github.com/llm-d/llm-d/issues/1534",
         "labels": [
-            "help wanted"
+            "help wanted",
+            "release/v0.9"
         ],
         "created_at": "2026-05-16T16:46:31Z"
     },
@@ -30971,7 +30970,7 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "release/v0.8"
+            "release/v0.9"
         ],
         "created_at": "2026-05-16T15:23:24Z"
     },
