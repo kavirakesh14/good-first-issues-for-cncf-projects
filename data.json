@@ -2564,34 +2564,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Colorize Scrollbar",
-        "url": "https://github.com/meshery/meshery/issues/20265",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "language/css",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-25T22:35:24Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[CI]",
-        "url": "https://github.com/meshery/meshery/issues/20225",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-06-24T08:32:29Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Improve code block copy button feedback and spacing",
         "url": "https://github.com/meshery/meshery/issues/20213",
         "labels": [
@@ -2748,20 +2720,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Add AI provider production notes to Providers reference  ",
-        "url": "https://github.com/meshery/meshery/issues/19750",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-05-28T21:33:10Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "fix(e2e): stabilize DesignPage.navigateTo() in beforeEach",
         "url": "https://github.com/meshery/meshery/issues/19650",
         "labels": [
@@ -2881,6 +2839,39 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:59Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[UI] Registry tree bulk-action checkbox never becomes visible",
+        "url": "https://github.com/meshery/meshery/issues/18983",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-04-29T03:30:56Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[mesheryctl] Populate generated model definitions with the requested model name",
+        "url": "https://github.com/meshery/meshery/issues/18982",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-04-29T03:30:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[mesheryctl] Align model init output-format help with actual CSV support",
+        "url": "https://github.com/meshery/meshery/issues/18981",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-04-29T03:30:53Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
