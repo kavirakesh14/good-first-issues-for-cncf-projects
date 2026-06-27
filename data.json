@@ -2087,13 +2087,13 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[UI] Fix clipped action icons in Recent Designs widget",
-        "url": "https://github.com/meshery/meshery/issues/20290",
+        "title": "[UI] Registry Uses Incorrect Icon",
+        "url": "https://github.com/meshery/meshery/issues/20309",
         "labels": [
             "kind/bug",
             "good first issue"
         ],
-        "created_at": "2026-06-26T12:13:34Z"
+        "created_at": "2026-06-26T21:06:39Z"
     },
     {
         "repo": "meshery/meshery",
@@ -12966,7 +12966,8 @@
             "help wanted",
             "reliability",
             "roadmap",
-            "composition"
+            "composition",
+            "stale"
         ],
         "created_at": "2023-10-18T08:56:28Z"
     },
@@ -13279,7 +13280,6 @@
         "labels": [
             "kind/bug",
             "good first issue",
-            "lifecycle/rotten",
             "priority/important-longterm"
         ],
         "created_at": "2026-01-23T11:26:24Z"
@@ -17300,6 +17300,20 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "dns_filter: Add TCP listener support for DNS resolution",
+        "url": "https://github.com/envoyproxy/envoy/issues/45850",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/dns",
+            "dns_filter"
+        ],
+        "created_at": "2026-06-26T20:19:31Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "Publish official FIPS-enabled Docker image variant",
         "url": "https://github.com/envoyproxy/envoy/issues/45812",
         "labels": [
@@ -17686,19 +17700,6 @@
             "area/ratelimit"
         ],
         "created_at": "2025-10-02T19:54:23Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "Need bump for rules_go to support building with Go 1.25+",
-        "url": "https://github.com/envoyproxy/envoy/issues/41337",
-        "labels": [
-            "area/build",
-            "help wanted",
-            "go"
-        ],
-        "created_at": "2025-10-02T19:15:14Z"
     },
     {
         "repo": "loxilb-io/loxilb",
