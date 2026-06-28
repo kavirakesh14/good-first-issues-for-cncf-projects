@@ -8531,18 +8531,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Add integration test for external plugins",
-        "url": "https://github.com/spiffe/spire/issues/5902",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2025-02-26T19:54:51Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Making code involving syscalls testable in `peertracker`",
         "url": "https://github.com/spiffe/spire/issues/5755",
         "labels": [
@@ -8720,6 +8708,19 @@
             "priority/backlog"
         ],
         "created_at": "2023-03-30T19:41:49Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "FIPS compliant images",
+        "url": "https://github.com/spiffe/spire/issues/4009",
+        "labels": [
+            "help wanted",
+            "priority/backlog",
+            "unscoped"
+        ],
+        "created_at": "2023-03-21T21:37:33Z"
     },
     {
         "repo": "carina-io/carina",
@@ -15518,19 +15519,6 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[outreach] kubestellar-mcp: submit to MCP ecosystem directories \u2014 1 star needs visibility",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3810",
-        "labels": [
-            "help wanted",
-            "priority/medium",
-            "kind/documentation"
-        ],
-        "created_at": "2026-06-08T10:34:00Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[outreach] CNCF Sandbox application pathway \u2014 683 stars, adopter gap is last blocker",
         "url": "https://github.com/kubestellar/kubestellar/issues/3809",
         "labels": [
@@ -15687,6 +15675,18 @@
             "kind/documentation"
         ],
         "created_at": "2026-06-06T13:20:22Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: kos.repository is deprecated",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3776",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-05-08T14:45:19Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -21472,19 +21472,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[DevTools] Migrate the `InfoContent` component to Backstage UI (BUI)",
-        "url": "https://github.com/backstage/backstage/issues/32747",
-        "labels": [
-            "good first issue",
-            "stale",
-            "needs:triage"
-        ],
-        "created_at": "2026-02-08T15:11:17Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[DevTools] Migrate the `ExternalDependenciesContent` component to Backstage UI (BUI)",
         "url": "https://github.com/backstage/backstage/issues/32746",
         "labels": [
@@ -21572,8 +21559,7 @@
             "type:suggestion",
             "good first issue",
             "priority:contrib-needed",
-            "area:catalog",
-            "stale"
+            "area:catalog"
         ],
         "created_at": "2025-07-03T19:59:31Z"
     },
@@ -21589,20 +21575,6 @@
             "good first issue"
         ],
         "created_at": "2025-04-18T03:36:03Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "\ud83d\ude80 Feature: Use the Catalog presentation API",
-        "url": "https://github.com/backstage/backstage/issues/20955",
-        "labels": [
-            "good first issue",
-            "priority:contrib-needed",
-            "area:catalog",
-            "stale"
-        ],
-        "created_at": "2023-11-03T09:36:12Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -23468,6 +23440,20 @@
             "type/question"
         ],
         "created_at": "2021-05-14T09:50:01Z"
+    },
+    {
+        "repo": "kubevirt/kubevirt",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Consolidate duplicate imagePullPolicy fields in KubeVirt CR",
+        "url": "https://github.com/kubevirt/kubevirt/issues/18246",
+        "labels": [
+            "kind/enhancement",
+            "good-first-issue",
+            "area/operator",
+            "kind/cleanup"
+        ],
+        "created_at": "2026-06-25T13:18:17Z"
     },
     {
         "repo": "kubevirt/kubevirt",
