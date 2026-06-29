@@ -9846,6 +9846,18 @@
         "repo": "velero-io/velero",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Token has expired on Backup deletion",
+        "url": "https://github.com/velero-io/velero/issues/9949",
+        "labels": [
+            "Help wanted",
+            "Area/Cloud/AWS"
+        ],
+        "created_at": "2026-06-26T09:22:27Z"
+    },
+    {
+        "repo": "velero-io/velero",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[ceph] velero-plugin-for-aws: checksumAlgorithm: \"\" does not suppress AWS SDK v2 trailing checksum - PutObject 400 InvalidArgument on S3-compatible storage",
         "url": "https://github.com/velero-io/velero/issues/9804",
         "labels": [
@@ -13632,19 +13644,6 @@
         "repo": "kedacore/keda",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "globPattern does not work with hierarchical namespace while using azure-blob trigger",
-        "url": "https://github.com/kedacore/keda/issues/6492",
-        "labels": [
-            "bug",
-            "help wanted",
-            "stale-bot-ignore"
-        ],
-        "created_at": "2025-01-21T21:04:13Z"
-    },
-    {
-        "repo": "kedacore/keda",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Automatically inject the identityId while using azure-workload provider",
         "url": "https://github.com/kedacore/keda/issues/5911",
         "labels": [
@@ -13911,6 +13910,20 @@
             "stale-bot-ignore"
         ],
         "created_at": "2022-02-23T10:49:44Z"
+    },
+    {
+        "repo": "kedacore/keda",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Provide e2e test for all scalers and secret providers (Help Wanted)",
+        "url": "https://github.com/kedacore/keda/issues/2357",
+        "labels": [
+            "help wanted",
+            "Epic",
+            "testing",
+            "stale-bot-ignore"
+        ],
+        "created_at": "2021-11-29T07:03:44Z"
     },
     {
         "repo": "kai-scheduler/KAI-Scheduler",
@@ -15916,6 +15929,19 @@
         "repo": "volcano-sh/volcano",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Add skip check in `predicateByStablefilter`",
+        "url": "https://github.com/volcano-sh/volcano/issues/5536",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/bug"
+        ],
+        "created_at": "2026-06-29T09:31:12Z"
+    },
+    {
+        "repo": "volcano-sh/volcano",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Multiple good-first-issue bugs in capacity plugin, backfill action, cache session lifecycle, and e2e test context dumping",
         "url": "https://github.com/volcano-sh/volcano/issues/5048",
         "labels": [
@@ -17271,6 +17297,34 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "Hot Restart IPC Wire-Length Integer Overflow to Heap Buffer Overflow",
+        "url": "https://github.com/envoyproxy/envoy/issues/45872",
+        "labels": [
+            "bug",
+            "help wanted",
+            "no stalebot",
+            "area/hot_restart"
+        ],
+        "created_at": "2026-06-29T04:26:57Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "Redis cluster zone-discovery UAF on overlapping CLUSTER SLOTS refresh",
+        "url": "https://github.com/envoyproxy/envoy/issues/45870",
+        "labels": [
+            "bug",
+            "help wanted",
+            "no stalebot",
+            "area/redis"
+        ],
+        "created_at": "2026-06-29T04:08:02Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "dns_filter: Add TCP listener support for DNS resolution",
         "url": "https://github.com/envoyproxy/envoy/issues/45850",
         "labels": [
@@ -17644,33 +17698,6 @@
             "area/wasm"
         ],
         "created_at": "2025-10-23T21:20:28Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "Feature request: Add overload action to restart Envoy when it gets stuck",
-        "url": "https://github.com/envoyproxy/envoy/issues/41492",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "no stalebot",
-            "area/overload_manager"
-        ],
-        "created_at": "2025-10-14T09:02:59Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "How to log which rate limit rule was triggered via descriptor?",
-        "url": "https://github.com/envoyproxy/envoy/issues/41339",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/ratelimit"
-        ],
-        "created_at": "2025-10-02T19:54:23Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -20174,19 +20201,6 @@
             "good first issue"
         ],
         "created_at": "2026-06-11T15:46:53Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "UI: Break the ui-lib checkbox circular dependency",
-        "url": "https://github.com/openeverest/openeverest/issues/2334",
-        "labels": [
-            "good first issue",
-            "chore",
-            "ui"
-        ],
-        "created_at": "2026-06-05T13:33:14Z"
     },
     {
         "repo": "openGemini/openGemini",
@@ -25417,6 +25431,18 @@
             "help wanted"
         ],
         "created_at": "2022-08-17T10:51:16Z"
+    },
+    {
+        "repo": "fluxcd/flux2",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "No checksum verification for SOPS",
+        "url": "https://github.com/fluxcd/flux2/issues/5958",
+        "labels": [
+            "help wanted",
+            "area/ci"
+        ],
+        "created_at": "2026-06-29T08:40:46Z"
     },
     {
         "repo": "fluxcd/flux2",
