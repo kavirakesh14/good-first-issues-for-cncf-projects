@@ -2087,6 +2087,18 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Align Docs scrollbar styling",
+        "url": "https://github.com/meshery/meshery/issues/20353",
+        "labels": [
+            "good first issue",
+            "component/ui"
+        ],
+        "created_at": "2026-06-29T13:51:42Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Registry Uses Incorrect Icon",
         "url": "https://github.com/meshery/meshery/issues/20309",
         "labels": [
@@ -2501,22 +2513,6 @@
             "framework/jekyll"
         ],
         "created_at": "2025-01-31T17:39:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Template] Create a Brainstorming template",
-        "url": "https://github.com/meshery/meshery/issues/12503",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
-        ],
-        "created_at": "2024-10-28T14:47:23Z"
     },
     {
         "repo": "meshery/meshery",
@@ -3626,18 +3622,6 @@
             "icebox"
         ],
         "created_at": "2026-02-01T19:36:54Z"
-    },
-    {
-        "repo": "goharbor/harbor",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Feature Request: Simplify Installation with Docker Compose",
-        "url": "https://github.com/goharbor/harbor/issues/22539",
-        "labels": [
-            "help wanted",
-            "Stale"
-        ],
-        "created_at": "2025-11-01T13:03:57Z"
     },
     {
         "repo": "goharbor/harbor",
@@ -5182,6 +5166,40 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Locatilization for Vietnamese: font face error (unicode characters)",
+        "url": "https://github.com/keycloak/keycloak/issues/50384",
+        "labels": [
+            "kind/bug",
+            "area/account/ui",
+            "help wanted",
+            "team/community",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-06-28T02:24:46Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "DPoP: Logout with a DPoP-bound refresh token always fails with \"DPoP proof is missing\"",
+        "url": "https://github.com/keycloak/keycloak/issues/50306",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-06-24T12:26:40Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "PathMatcher.buildUriFromTemplate throws StringIndexOutOfBoundsException for a template with an unclosed brace",
         "url": "https://github.com/keycloak/keycloak/issues/50291",
         "labels": [
@@ -5194,6 +5212,39 @@
             "priority/normal"
         ],
         "created_at": "2026-06-24T07:18:51Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "NullPointerException in ResourceIndicatorsPostProcessor when refresh token is null",
+        "url": "https://github.com/keycloak/keycloak/issues/50251",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-06-23T12:44:11Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Creating a custom 'EventStoreProvider' implementation with order() < 0  results in a NPE",
+        "url": "https://github.com/keycloak/keycloak/issues/50244",
+        "labels": [
+            "kind/bug",
+            "area/core",
+            "help wanted",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-06-23T07:47:02Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5320,17 +5371,20 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Deleting admin-permissions client via v1 Admin API returns unknown_error instead of descriptive validation error",
-        "url": "https://github.com/keycloak/keycloak/issues/49674",
+        "title": "ambiguous key rotation documentation",
+        "url": "https://github.com/keycloak/keycloak/issues/49658",
         "labels": [
             "kind/bug",
-            "area/admin/fine-grained-permissions",
-            "area/admin/api",
+            "area/core",
+            "area/docs",
             "help wanted",
-            "team/core-iam",
-            "priority/normal"
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
         ],
-        "created_at": "2026-06-04T00:33:01Z"
+        "created_at": "2026-06-03T14:34:46Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5613,81 +5667,6 @@
             "priority/normal"
         ],
         "created_at": "2026-05-09T23:50:59Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Choosing locale with READ_ONLY ldap isn\u2019t handled gracefully",
-        "url": "https://github.com/keycloak/keycloak/issues/48850",
-        "labels": [
-            "kind/bug",
-            "area/account/ui",
-            "area/ldap",
-            "help wanted",
-            "team/core-iam",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-09T05:04:46Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Kubernetes Identity Provider does not reflect defaults and required fields",
-        "url": "https://github.com/keycloak/keycloak/issues/48767",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/ui",
-            "area/identity-brokering",
-            "team/core-iam",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-authn"
-        ],
-        "created_at": "2026-05-06T15:47:54Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Missing Nonce Drops Connection (HTTP 502) OIDC Identity Provider fails with IdentityBrokerException",
-        "url": "https://github.com/keycloak/keycloak/issues/48694",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-04T17:09:57Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Not getting detailed error_description in response body when creating a user with /admin/realms/{realm}/partialImport endpoint having an invalid password.",
-        "url": "https://github.com/keycloak/keycloak/issues/48509",
-        "labels": [
-            "area/authentication",
-            "kind/bug",
-            "area/import-export",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn"
-        ],
-        "created_at": "2026-04-27T14:46:50Z"
     },
     {
         "repo": "keylime/keylime",
@@ -17339,6 +17318,20 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "support 0 max_tokens bucket in local ratelimit",
+        "url": "https://github.com/envoyproxy/envoy/issues/45845",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "beginner",
+            "area/local_ratelimit"
+        ],
+        "created_at": "2026-06-26T03:51:41Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "Publish official FIPS-enabled Docker image variant",
         "url": "https://github.com/envoyproxy/envoy/issues/45812",
         "labels": [
@@ -17685,19 +17678,6 @@
             "area/ext_proc"
         ],
         "created_at": "2025-10-29T18:59:23Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "wasm: access log extension point is not thread safe",
-        "url": "https://github.com/envoyproxy/envoy/issues/41672",
-        "labels": [
-            "bug",
-            "help wanted",
-            "area/wasm"
-        ],
-        "created_at": "2025-10-23T21:20:28Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -23454,6 +23434,19 @@
             "type/question"
         ],
         "created_at": "2021-05-14T09:50:01Z"
+    },
+    {
+        "repo": "kubevirt/kubevirt",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Transition away from go-kit in kubevirt client-go/log",
+        "url": "https://github.com/kubevirt/kubevirt/issues/18265",
+        "labels": [
+            "kind/enhancement",
+            "good-first-issue",
+            "kind/cleanup"
+        ],
+        "created_at": "2026-06-28T07:34:01Z"
     },
     {
         "repo": "kubevirt/kubevirt",
