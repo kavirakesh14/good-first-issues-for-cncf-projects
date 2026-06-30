@@ -12422,19 +12422,6 @@
         "repo": "agones-dev/agones",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Promote `RollingUpdateFix` Feature Gate from Beta to Stable",
-        "url": "https://github.com/agones-dev/agones/issues/4589",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/cleanup"
-        ],
-        "created_at": "2026-05-31T21:14:09Z"
-    },
-    {
-        "repo": "agones-dev/agones",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Promote `PortPolicyNone` Feature Gate from Beta to Stable",
         "url": "https://github.com/agones-dev/agones/issues/4587",
         "labels": [
@@ -13625,21 +13612,6 @@
         "repo": "kedacore/keda",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "azure-monitor scaler seems to ignore metricAggregationInterval",
-        "url": "https://github.com/kedacore/keda/issues/7524",
-        "labels": [
-            "bug",
-            "help wanted",
-            "scaler",
-            "scaler-azure-monitor",
-            "stale"
-        ],
-        "created_at": "2026-03-06T15:29:15Z"
-    },
-    {
-        "repo": "kedacore/keda",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Automatically inject the identityId while using azure-workload provider",
         "url": "https://github.com/kedacore/keda/issues/5911",
         "labels": [
@@ -13922,6 +13894,19 @@
         "created_at": "2021-11-29T07:03:44Z"
     },
     {
+        "repo": "kedacore/keda",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Follow 'Protocol Buffers' style guide in file `externalscaler.proto`",
+        "url": "https://github.com/kedacore/keda/issues/2096",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "stale-bot-ignore"
+        ],
+        "created_at": "2021-09-09T09:59:30Z"
+    },
+    {
         "repo": "kai-scheduler/KAI-Scheduler",
         "tier": "Sandbox",
         "lang": "Go",
@@ -13947,6 +13932,18 @@
             "stale"
         ],
         "created_at": "2026-01-19T19:54:44Z"
+    },
+    {
+        "repo": "kai-scheduler/KAI-Scheduler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "feat(scheduler): design graceful resolution of dynamic queue quota changes (scale-in/out over-quota)",
+        "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/1783",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-06-28T10:48:11Z"
     },
     {
         "repo": "knative/serving",
@@ -15334,6 +15331,18 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "feature: Improve unit test coverage for pkg/metrics package",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3866",
+        "labels": [
+            "kind/feature",
+            "help wanted"
+        ],
+        "created_at": "2026-06-30T07:50:17Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "bug: Potential deadlock in bindingpolicy-resolution lock handling",
         "url": "https://github.com/kubestellar/kubestellar/issues/3864",
         "labels": [
@@ -15684,18 +15693,6 @@
             "conference"
         ],
         "created_at": "2026-06-06T13:20:26Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcca [Strategist] Q2 2026 Strategic Priorities \u2014 PR Queue, K8s 1.32, Issue Health",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3788",
-        "labels": [
-            "help wanted",
-            "kind/documentation"
-        ],
-        "created_at": "2026-06-06T13:20:22Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -25450,6 +25447,18 @@
             "help wanted"
         ],
         "created_at": "2022-03-02T19:40:51Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add SonarQube integration to entity pages",
+        "url": "https://github.com/openchoreo/openchoreo/issues/3935",
+        "labels": [
+            "good first issue",
+            "reportedBy/community"
+        ],
+        "created_at": "2026-06-18T17:59:40Z"
     },
     {
         "repo": "openchoreo/openchoreo",
