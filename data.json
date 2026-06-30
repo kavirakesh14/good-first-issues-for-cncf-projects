@@ -3150,15 +3150,14 @@
         "repo": "opentofu/opentofu",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Tofu crash on invalid removed.from value",
-        "url": "https://github.com/opentofu/opentofu/issues/4319",
+        "title": "Create a plan with `resource` `lifecycle { destroy = false}`",
+        "url": "https://github.com/opentofu/opentofu/issues/4324",
         "labels": [
             "bug",
             "good first issue",
-            "help wanted",
             "accepted"
         ],
-        "created_at": "2026-06-26T10:25:05Z"
+        "created_at": "2026-06-30T11:36:35Z"
     },
     {
         "repo": "opentofu/opentofu",
@@ -6684,6 +6683,18 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[Support]: KeepHQ authentication via oauth2-proxy fails after Keycloak login",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3464",
+        "labels": [
+            "help wanted",
+            "configuration"
+        ],
+        "created_at": "2026-06-30T12:20:19Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Bug]: oauth2-proxy --version not showing version number",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3451",
         "labels": [
@@ -7028,18 +7039,6 @@
             "help wanted"
         ],
         "created_at": "2025-08-25T03:09:00Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Audience Claim missing from Authorize endpoint (despite trying login_url, oidc_audience_claims, etc) - Auth0",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3159",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2025-08-17T12:15:12Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -10437,6 +10436,32 @@
             "triaged"
         ],
         "created_at": "2023-11-09T23:56:51Z"
+    },
+    {
+        "repo": "cri-o/cri-o",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Flaky integration test: \"default runtime metric\" (~24% failure rate)",
+        "url": "https://github.com/cri-o/cri-o/issues/10086",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/failing-test"
+        ],
+        "created_at": "2026-06-30T13:59:43Z"
+    },
+    {
+        "repo": "cri-o/cri-o",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Flaky test: \"clear podman containers when shutdown file not found\" (test 120 in crio-wipe.bats)",
+        "url": "https://github.com/cri-o/cri-o/issues/10085",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/failing-test"
+        ],
+        "created_at": "2026-06-30T13:57:36Z"
     },
     {
         "repo": "cri-o/cri-o",
@@ -17319,20 +17344,6 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "support 0 max_tokens bucket in local ratelimit",
-        "url": "https://github.com/envoyproxy/envoy/issues/45845",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "beginner",
-            "area/local_ratelimit"
-        ],
-        "created_at": "2026-06-26T03:51:41Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "Publish official FIPS-enabled Docker image variant",
         "url": "https://github.com/envoyproxy/envoy/issues/45812",
         "labels": [
@@ -17679,6 +17690,20 @@
             "area/wasm"
         ],
         "created_at": "2025-10-23T21:20:28Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "Feature request: Add overload action to restart Envoy when it gets stuck",
+        "url": "https://github.com/envoyproxy/envoy/issues/41492",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "no stalebot",
+            "area/overload_manager"
+        ],
+        "created_at": "2025-10-14T09:02:59Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -19108,19 +19133,6 @@
             "feat/token-rate-limiting"
         ],
         "created_at": "2026-04-07T08:06:25Z"
-    },
-    {
-        "repo": "kuadrant/kuadrant-operator",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "OIDCPolicy Authorization not working with string/boolean claims",
-        "url": "https://github.com/Kuadrant/kuadrant-operator/issues/1625",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "feat/extensions"
-        ],
-        "created_at": "2025-10-13T10:51:54Z"
     },
     {
         "repo": "kuadrant/kuadrant-operator",
@@ -22904,8 +22916,7 @@
         "url": "https://github.com/helm/helm/issues/31470",
         "labels": [
             "help wanted",
-            "bug",
-            "Stale"
+            "bug"
         ],
         "created_at": "2025-11-09T13:30:26Z"
     },
@@ -25447,6 +25458,42 @@
             "help wanted"
         ],
         "created_at": "2022-03-02T19:40:51Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Fix doclet nginx WebSocket route and multi-arch Go Dockerfiles",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4029",
+        "labels": [
+            "good first issue",
+            "Type/Bug"
+        ],
+        "created_at": "2026-06-30T10:19:20Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Migrate url-shortener sample's postgres to a Resource",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4028",
+        "labels": [
+            "good first issue",
+            "Type/Task"
+        ],
+        "created_at": "2026-06-30T10:15:57Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Migrate the GitOps doclet sample to the Resource abstraction",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4027",
+        "labels": [
+            "good first issue",
+            "Type/Task"
+        ],
+        "created_at": "2026-06-30T10:11:38Z"
     },
     {
         "repo": "openchoreo/openchoreo",
