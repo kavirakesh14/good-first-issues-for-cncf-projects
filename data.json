@@ -2455,21 +2455,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[UI] Show different checkbox icon when it used for select all",
-        "url": "https://github.com/meshery/meshery/issues/14157",
-        "labels": [
-            "kind/enhancement",
-            "good first issue",
-            "language/javascript",
-            "component/ui",
-            "framework/react"
-        ],
-        "created_at": "2025-03-28T12:32:57Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Add support for sort by count for database table in settings registry page",
         "url": "https://github.com/meshery/meshery/issues/13958",
         "labels": [
@@ -2495,6 +2480,22 @@
             "framework/jekyll"
         ],
         "created_at": "2025-01-31T17:39:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Template] Create a Brainstorming template",
+        "url": "https://github.com/meshery/meshery/issues/12503",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:47:23Z"
     },
     {
         "repo": "meshery/meshery",
@@ -5137,6 +5138,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Organization Membership mapper omits the claim for users with zero organizations instead of emitting an empty value",
+        "url": "https://github.com/keycloak/keycloak/issues/50410",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "area/organizations"
+        ],
+        "created_at": "2026-06-29T08:22:43Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Locatilization for Vietnamese: font face error (unicode characters)",
         "url": "https://github.com/keycloak/keycloak/issues/50384",
         "labels": [
@@ -5622,22 +5640,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-12T02:29:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": " 'view-clients' bypasses 'view-users' restriction via 'client-scoped' endpoints",
-        "url": "https://github.com/keycloak/keycloak/issues/48858",
-        "labels": [
-            "kind/bug",
-            "area/admin/fine-grained-permissions",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-09T23:50:59Z"
     },
     {
         "repo": "keylime/keylime",
@@ -25488,6 +25490,19 @@
             "reportedBy/community"
         ],
         "created_at": "2026-06-18T17:59:40Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Reduce About and Relations card height on entity overview pages",
+        "url": "https://github.com/openchoreo/openchoreo/issues/3906",
+        "labels": [
+            "good first issue",
+            "Type/Improvement",
+            "reportedBy/community"
+        ],
+        "created_at": "2026-06-17T21:12:32Z"
     },
     {
         "repo": "openchoreo/openchoreo",
