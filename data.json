@@ -891,21 +891,6 @@
         "repo": "kairos-io/kairos",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "cis-drivers not working with v2.2.1-k3sv1.26.4-k3s1",
-        "url": "https://github.com/kairos-io/kairos/issues/1538",
-        "labels": [
-            "bug",
-            "help wanted",
-            "good first issue",
-            "community supported",
-            "hacktoberfest"
-        ],
-        "created_at": "2023-06-21T15:05:14Z"
-    },
-    {
-        "repo": "kairos-io/kairos",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": ":hedgehog: Emergency shell",
         "url": "https://github.com/kairos-io/kairos/issues/1157",
         "labels": [
@@ -12444,7 +12429,8 @@
         "labels": [
             "help wanted",
             "good first issue",
-            "kind/cleanup"
+            "kind/cleanup",
+            "stale"
         ],
         "created_at": "2026-05-31T20:42:18Z"
     },
@@ -24004,18 +23990,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Horizontal scrollbar when extension names are long in preferences",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/16774",
-        "labels": [
-            "good first issue",
-            "domain/ui-components/reviewed"
-        ],
-        "created_at": "2026-03-24T12:52:47Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Too long error message overflows from Adding the registry dialog",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/16666",
         "labels": [
@@ -24070,6 +24044,7 @@
         "url": "https://github.com/podman-desktop/podman-desktop/issues/15779",
         "labels": [
             "good first issue",
+            "domain/ui-components/inreview",
             "domain/ui-components"
         ],
         "created_at": "2026-01-20T10:14:25Z"
@@ -30312,19 +30287,6 @@
         "repo": "thanos-io/thanos",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Enable Cross-Step Cache Reuse in Thanos Query Frontend",
-        "url": "https://github.com/thanos-io/thanos/issues/8842",
-        "labels": [
-            "difficulty: medium",
-            "help wanted",
-            "component: query-frontend"
-        ],
-        "created_at": "2026-06-05T04:38:18Z"
-    },
-    {
-        "repo": "thanos-io/thanos",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "compact: implement native histogram custom buckets downsampling",
         "url": "https://github.com/thanos-io/thanos/issues/8698",
         "labels": [
@@ -30568,6 +30530,19 @@
             "component: query"
         ],
         "created_at": "2022-11-02T07:13:45Z"
+    },
+    {
+        "repo": "thanos-io/thanos",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Update logging package to use grpc-middleware v2.0.0-rc.3",
+        "url": "https://github.com/thanos-io/thanos/issues/5781",
+        "labels": [
+            "bug",
+            "difficulty: medium",
+            "help wanted"
+        ],
+        "created_at": "2022-10-10T11:03:21Z"
     },
     {
         "repo": "trickstercache/trickster",
