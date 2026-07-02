@@ -11550,6 +11550,19 @@
         "repo": "WasmEdge/WasmEdge",
         "tier": "Sandbox",
         "lang": "C++",
+        "title": "feat: compare the WASI-NN ggml backend and bitnet.cpp backend",
+        "url": "https://github.com/WasmEdge/WasmEdge/issues/5108",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "WASI-NN"
+        ],
+        "created_at": "2026-07-02T12:24:19Z"
+    },
+    {
+        "repo": "WasmEdge/WasmEdge",
+        "tier": "Sandbox",
+        "lang": "C++",
         "title": "[WASI-Crypto] Implement remaining functions",
         "url": "https://github.com/WasmEdge/WasmEdge/issues/2669",
         "labels": [
@@ -13075,7 +13088,7 @@
     },
     {
         "repo": "Project-HAMi/HAMi",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "Does hami have any plans to support remote GPU calls?",
         "url": "https://github.com/Project-HAMi/HAMi/issues/1618",
@@ -18860,19 +18873,6 @@
         "repo": "kgateway-dev/kgateway",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "e2e: add e2e test for HTTPS listener",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/12968",
-        "labels": [
-            "Good First Issue",
-            "stale",
-            "Testing"
-        ],
-        "created_at": "2025-11-24T21:27:01Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Unregistered tool reference in the GO_TEST_COVERAGE Makefile variable",
         "url": "https://github.com/kgateway-dev/kgateway/issues/12575",
         "labels": [
@@ -18929,30 +18929,6 @@
             "help wanted"
         ],
         "created_at": "2025-08-09T15:25:09Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Image Registry Inconsistencies",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/11359",
-        "labels": [
-            "Good First Issue",
-            "stale"
-        ],
-        "created_at": "2025-06-06T16:43:27Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Standardize references to nginx in e2e tests",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/11057",
-        "labels": [
-            "Good First Issue",
-            "stale"
-        ],
-        "created_at": "2025-04-05T15:05:14Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -25456,6 +25432,19 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Component build stuck in Pending state after deleting the referenced custom cluster workflow",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4064",
+        "labels": [
+            "good first issue",
+            "Type/Bug",
+            "reportedBy/community"
+        ],
+        "created_at": "2026-07-02T08:15:58Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Fix doclet nginx WebSocket route and multi-arch Go Dockerfiles",
         "url": "https://github.com/openchoreo/openchoreo/issues/4029",
         "labels": [
@@ -25487,6 +25476,18 @@
             "Type/Task"
         ],
         "created_at": "2026-06-30T10:11:38Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Set default time interval as 1 day for RCA reports",
+        "url": "https://github.com/openchoreo/openchoreo/issues/3930",
+        "labels": [
+            "good first issue",
+            "Type/Improvement"
+        ],
+        "created_at": "2026-06-22T08:20:51Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -25592,6 +25593,31 @@
             "Type/Improvement"
         ],
         "created_at": "2026-03-30T06:00:02Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ReleaseBinding controller missing watches on plane resources prevents re-reconciliation",
+        "url": "https://github.com/openchoreo/openchoreo/issues/2765",
+        "labels": [
+            "good first issue",
+            "Type/Improvement",
+            "stale"
+        ],
+        "created_at": "2026-03-16T13:40:20Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Remove References to Unused Secrets in Backstage Setup",
+        "url": "https://github.com/openchoreo/openchoreo/issues/2142",
+        "labels": [
+            "good first issue",
+            "Type/Task"
+        ],
+        "created_at": "2026-02-20T15:43:01Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -26946,17 +26972,6 @@
             "good first issue"
         ],
         "created_at": "2026-06-30T19:37:28Z"
-    },
-    {
-        "repo": "krkn-chaos/krkn",
-        "tier": "Sandbox",
-        "lang": "Python",
-        "title": "test_v2: migrate CI/tests/test_pod_error.sh to CI/tests_v2/scenarios/pod_error_scenarios with graceful-failure coverage",
-        "url": "https://github.com/krkn-chaos/krkn/issues/1438",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-06-30T19:36:29Z"
     },
     {
         "repo": "krkn-chaos/krkn",
@@ -29121,6 +29136,19 @@
             "priority/P1"
         ],
         "created_at": "2023-10-25T13:49:51Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Plugin Request: Clickhouse full support",
+        "url": "https://github.com/perses/perses/issues/4202",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "plugin"
+        ],
+        "created_at": "2026-07-02T10:30:23Z"
     },
     {
         "repo": "perses/perses",
