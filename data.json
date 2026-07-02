@@ -6420,6 +6420,21 @@
         "repo": "kyverno/kyverno",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "[Bug] GeneratingPolicy seems to not support apiVersions wildcards in matchConstraints.",
+        "url": "https://github.com/kyverno/kyverno/issues/16404",
+        "labels": [
+            "bug",
+            "good first issue",
+            "generation",
+            "triage",
+            "cel:GeneratingPolicy"
+        ],
+        "created_at": "2026-06-30T14:43:19Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "[Feature] CEL-aware Grafana dashboard for ValidatingPolicy/MutatingPolicy/GeneratingPolicy",
         "url": "https://github.com/kyverno/kyverno/issues/16025",
         "labels": [
@@ -10698,19 +10713,6 @@
             "kind/refactoring"
         ],
         "created_at": "2026-06-22T07:05:53Z"
-    },
-    {
-        "repo": "lima-vm/lima",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Test scripts such as `hack/test-template.sh` should fail early when prerequisites (`timeout`, `socat`, etc.) are not installed on the host",
-        "url": "https://github.com/lima-vm/lima/issues/5038",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "area/test"
-        ],
-        "created_at": "2026-05-26T07:21:49Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -25532,6 +25534,18 @@
             "good first issue"
         ],
         "created_at": "2026-05-12T11:58:29Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Disable OpenObserve access logs to reduce log noise",
+        "url": "https://github.com/openchoreo/openchoreo/issues/3444",
+        "labels": [
+            "good first issue",
+            "Type/Improvement"
+        ],
+        "created_at": "2026-05-12T11:23:36Z"
     },
     {
         "repo": "openchoreo/openchoreo",
