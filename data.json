@@ -11105,20 +11105,6 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "`podman image load` fails with `Error: payload does not match any of the supported image formats:` on a system with low disk space",
-        "url": "https://github.com/podman-container-tools/podman/issues/26197",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "stale-issue",
-            "triaged"
-        ],
-        "created_at": "2025-05-25T08:21:05Z"
-    },
-    {
-        "repo": "containers/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Configuration file errors are hidden",
         "url": "https://github.com/podman-container-tools/podman/issues/25362",
         "labels": [
@@ -11338,6 +11324,20 @@
             "Contribfest"
         ],
         "created_at": "2023-08-02T16:38:25Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Inconsistency In Reported Pod and Container States",
+        "url": "https://github.com/podman-container-tools/podman/issues/19097",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2023-07-03T15:31:05Z"
     },
     {
         "repo": "urunc-dev/urunc",
@@ -12084,20 +12084,6 @@
         "repo": "cilium/cilium",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Hubble: `--hubble-monitor-events` needs `agent` and `l7` together to catch l7 events.",
-        "url": "https://github.com/cilium/cilium/issues/46214",
-        "labels": [
-            "kind/bug",
-            "good-first-issue",
-            "kind/community-report",
-            "area/hubble"
-        ],
-        "created_at": "2026-05-27T14:39:44Z"
-    },
-    {
-        "repo": "cilium/cilium",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "DNS L7 policy: Stop caching DNS server IPs when possible",
         "url": "https://github.com/cilium/cilium/issues/45850",
         "labels": [
@@ -12123,22 +12109,6 @@
             "area/agent"
         ],
         "created_at": "2026-04-08T10:42:37Z"
-    },
-    {
-        "repo": "cilium/cilium",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "CFP: Allow customizing `toEntities` selectors",
-        "url": "https://github.com/cilium/cilium/issues/42367",
-        "labels": [
-            "help-wanted",
-            "good-first-issue",
-            "kind/feature",
-            "sig/policy",
-            "area/agent",
-            "kind/cfp"
-        ],
-        "created_at": "2025-10-24T07:33:53Z"
     },
     {
         "repo": "cilium/cilium",
@@ -25445,18 +25415,6 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Fix doclet nginx WebSocket route and multi-arch Go Dockerfiles",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4029",
-        "labels": [
-            "good first issue",
-            "Type/Bug"
-        ],
-        "created_at": "2026-06-30T10:19:20Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Migrate url-shortener sample's postgres to a Resource",
         "url": "https://github.com/openchoreo/openchoreo/issues/4028",
         "labels": [
@@ -28603,6 +28561,49 @@
             "area/storage"
         ],
         "created_at": "2020-01-17T12:10:12Z"
+    },
+    {
+        "repo": "k8sgpt-ai/k8sgpt",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Question]: incorrect report successfully completed pod as issue with exit code 255",
+        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1581",
+        "labels": [
+            "bug",
+            "good first issue",
+            "backend",
+            "critical"
+        ],
+        "created_at": "2025-10-08T17:53:05Z"
+    },
+    {
+        "repo": "k8sgpt-ai/k8sgpt",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Question]: Details field is empty and some AI responses are in English despite Portuguese configuration",
+        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1566",
+        "labels": [
+            "bug",
+            "documentation",
+            "good first issue",
+            "question",
+            "backend"
+        ],
+        "created_at": "2025-08-13T21:58:39Z"
+    },
+    {
+        "repo": "k8sgpt-ai/k8sgpt",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Question]: False positives in node problems",
+        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1461",
+        "labels": [
+            "bug",
+            "good first issue",
+            "backend",
+            "critical"
+        ],
+        "created_at": "2025-04-15T12:55:14Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
