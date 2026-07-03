@@ -2498,6 +2498,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Document meshkit's syncmodutil for extension go.mod dependency sync",
+        "url": "https://github.com/meshery/meshery/issues/20419",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-02T22:19:09Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Sidebar is not responsive",
         "url": "https://github.com/meshery/meshery/issues/20363",
         "labels": [
@@ -2834,17 +2848,6 @@
             "help wanted"
         ],
         "created_at": "2026-04-29T03:30:53Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Performance] Ignore whitespace-only request bodies in LoadTestHandler",
-        "url": "https://github.com/meshery/meshery/issues/18980",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-04-29T03:30:52Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -12391,21 +12394,6 @@
         "repo": "submariner-io/submariner",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Wireguard cable drive fails in clusters with OVNKubernetes CNI ",
-        "url": "https://github.com/submariner-io/submariner/issues/3032",
-        "labels": [
-            "bug",
-            "help wanted",
-            "wireguard",
-            "priority:medium",
-            "stale"
-        ],
-        "created_at": "2024-05-31T18:05:50Z"
-    },
-    {
-        "repo": "submariner-io/submariner",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Support client cert auth for agent/broker communication",
         "url": "https://github.com/submariner-io/submariner/issues/1115",
         "labels": [
@@ -15329,6 +15317,18 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: Updates to ServiceAccount secrets and imagePullSecrets do not downsync to edge clusters",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3870",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-07-02T20:25:27Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "feature: Improve unit test coverage for pkg/metrics package",
         "url": "https://github.com/kubestellar/kubestellar/issues/3866",
         "labels": [
@@ -15676,19 +15676,6 @@
             "priority/high",
             "partner",
             "blog"
-        ],
-        "created_at": "2026-06-06T13:20:26Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] KubeCon NA 2026 talk proposal \u2014 AI-Maintained Open Source at Scale",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3789",
-        "labels": [
-            "help wanted",
-            "priority/medium",
-            "conference"
         ],
         "created_at": "2026-06-06T13:20:26Z"
     },
@@ -19217,17 +19204,6 @@
             "help wanted"
         ],
         "created_at": "2020-06-01T23:31:26Z"
-    },
-    {
-        "repo": "istio/istio",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "DestinationRule config should be merged with backend policies as a client side override",
-        "url": "https://github.com/istio/istio/issues/60358",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-05-26T19:42:19Z"
     },
     {
         "repo": "istio/istio",
