@@ -11013,22 +11013,6 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "`podman play kube` - Need Container Name as well as ID when Container Fails to Start",
-        "url": "https://github.com/podman-container-tools/podman/issues/27196",
-        "labels": [
-            "Good First Issue",
-            "kind/feature",
-            "stale-issue",
-            "volunteers-wanted",
-            "triaged",
-            "Contribfest"
-        ],
-        "created_at": "2025-09-30T13:56:03Z"
-    },
-    {
-        "repo": "containers/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Bootc disk build fails on a rootful Podman machine when the host's root user container storage is mounted.",
         "url": "https://github.com/podman-container-tools/podman/issues/27183",
         "labels": [
@@ -11333,6 +11317,20 @@
         "created_at": "2023-07-03T15:31:05Z"
     },
     {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Can't set graphRoot and runRoot via configuration",
+        "url": "https://github.com/podman-container-tools/podman/issues/18375",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2023-04-27T12:02:24Z"
+    },
+    {
         "repo": "urunc-dev/urunc",
         "tier": "Sandbox",
         "lang": "Go",
@@ -11538,19 +11536,6 @@
             "v0.4.x"
         ],
         "created_at": "2025-01-11T14:32:58Z"
-    },
-    {
-        "repo": "WasmEdge/WasmEdge",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "feat: compare the WASI-NN ggml backend and bitnet.cpp backend",
-        "url": "https://github.com/WasmEdge/WasmEdge/issues/5108",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "WASI-NN"
-        ],
-        "created_at": "2026-07-02T12:24:19Z"
     },
     {
         "repo": "WasmEdge/WasmEdge",
@@ -18841,39 +18826,12 @@
         "repo": "kgateway-dev/kgateway",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "ResolvedRefs error not helpful when ref'ing to incorrect port on Service",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/11998",
-        "labels": [
-            "Type: Bug",
-            "Good First Issue",
-            "stale"
-        ],
-        "created_at": "2025-08-14T02:18:21Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Add Status Condition Messages to Gateway for Invalid Listeners",
         "url": "https://github.com/kgateway-dev/kgateway/issues/11982",
         "labels": [
             "Good First Issue"
         ],
         "created_at": "2025-08-13T09:55:51Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "e2e: add buffer test",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/11946",
-        "labels": [
-            "Area: Envoy",
-            "Good First Issue",
-            "stale",
-            "help wanted"
-        ],
-        "created_at": "2025-08-09T15:25:09Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
