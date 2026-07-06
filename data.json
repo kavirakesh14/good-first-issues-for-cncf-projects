@@ -2188,18 +2188,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[UI] Registry Relationships Icon Missing",
-        "url": "https://github.com/meshery/meshery/issues/19829",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-06-02T03:35:29Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Optimize deployment preview pruning with sparse checkout",
         "url": "https://github.com/meshery/meshery/issues/19678",
         "labels": [
@@ -2494,6 +2482,35 @@
             "framework/playwright"
         ],
         "created_at": "2025-04-29T18:59:42Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Add support for sort by count for database table in settings registry page",
+        "url": "https://github.com/meshery/meshery/issues/13958",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "language/go"
+        ],
+        "created_at": "2025-03-11T09:09:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[UI] page-specific loading states across Meshery UI",
+        "url": "https://github.com/meshery/meshery/issues/20512",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "language/javascript",
+            "framework/react",
+            "language/css"
+        ],
+        "created_at": "2026-07-06T18:42:17Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2861,21 +2878,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-05-12T17:11:34Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[UI] Configuration --> Designs: Ensure that Sistent Avatars component is used",
-        "url": "https://github.com/meshery/meshery/issues/19200",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "language/javascript",
-            "component/ui",
-            "framework/react"
-        ],
-        "created_at": "2026-05-08T21:40:21Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -10488,19 +10490,6 @@
         "repo": "cri-o/cri-o",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Flaky integration test: \"default runtime metric\" (~24% failure rate)",
-        "url": "https://github.com/cri-o/cri-o/issues/10086",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/failing-test"
-        ],
-        "created_at": "2026-06-30T13:59:43Z"
-    },
-    {
-        "repo": "cri-o/cri-o",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Flaky test: \"clear podman containers when shutdown file not found\"",
         "url": "https://github.com/cri-o/cri-o/issues/10085",
         "labels": [
@@ -11194,8 +11183,10 @@
         "labels": [
             "Good First Issue",
             "kind/bug",
+            "documentation",
             "volunteers-wanted",
             "bugweek",
+            "triaged",
             "Contribfest"
         ],
         "created_at": "2024-10-13T06:28:59Z"
@@ -28411,18 +28402,6 @@
             "performance"
         ],
         "created_at": "2021-04-16T13:58:48Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "collector.queue-size-memory option doesn't appear to account for all of the memory used by enqueued trace spans",
-        "url": "https://github.com/jaegertracing/jaeger/issues/2715",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2021-01-05T12:30:24Z"
     },
     {
         "repo": "jaegertracing/jaeger",
