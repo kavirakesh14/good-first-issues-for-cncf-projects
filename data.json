@@ -6450,6 +6450,21 @@
         "repo": "kyverno/kyverno",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "[Bug] [CLI] kyverno migrate succeeds when --resource is not provided",
+        "url": "https://github.com/kyverno/kyverno/issues/16470",
+        "labels": [
+            "bug",
+            "good first issue",
+            "type:cli",
+            "triage",
+            "cli:other"
+        ],
+        "created_at": "2026-07-06T05:38:38Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "[Bug] GeneratingPolicy seems to not support apiVersions wildcards in matchConstraints.",
         "url": "https://github.com/kyverno/kyverno/issues/16404",
         "labels": [
@@ -13857,18 +13872,6 @@
         "repo": "kedacore/keda",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Include RBAC permissions to custom resources in KEDA manifests",
-        "url": "https://github.com/kedacore/keda/issues/2723",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2022-03-07T20:41:47Z"
-    },
-    {
-        "repo": "kedacore/keda",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Provide e2e tests running on mixed Kubernetes cluster",
         "url": "https://github.com/kedacore/keda/issues/2666",
         "labels": [
@@ -13904,6 +13907,20 @@
             "stale-bot-ignore"
         ],
         "created_at": "2021-09-09T09:59:30Z"
+    },
+    {
+        "repo": "kedacore/keda",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Provide support for autoscaling Bitbucket Pipelines Runners ",
+        "url": "https://github.com/kedacore/keda/issues/2022",
+        "labels": [
+            "help wanted",
+            "needs-discussion",
+            "scaler",
+            "stale-bot-ignore"
+        ],
+        "created_at": "2021-08-10T12:33:18Z"
     },
     {
         "repo": "kai-scheduler/KAI-Scheduler",
@@ -25483,6 +25500,18 @@
             "stale"
         ],
         "created_at": "2026-03-16T13:40:20Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Observability] Add project level metrics view in backstage",
+        "url": "https://github.com/openchoreo/openchoreo/issues/2582",
+        "labels": [
+            "good first issue",
+            "Type/Improvement"
+        ],
+        "created_at": "2026-03-11T05:17:32Z"
     },
     {
         "repo": "openchoreo/openchoreo",
