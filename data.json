@@ -9580,20 +9580,6 @@
         "repo": "rook/rook",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Support custom port for nfs",
-        "url": "https://github.com/rook/rook/issues/15472",
-        "labels": [
-            "feature",
-            "help wanted",
-            "wontfix",
-            "good-first-issue"
-        ],
-        "created_at": "2025-02-27T08:14:44Z"
-    },
-    {
-        "repo": "rook/rook",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Allow versioning to be enabled via ObjectBucketClaim",
         "url": "https://github.com/rook/rook/issues/17318",
         "labels": [
@@ -9602,6 +9588,18 @@
             "needs-design-document"
         ],
         "created_at": "2026-04-07T04:45:04Z"
+    },
+    {
+        "repo": "rook/rook",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Support custom port for nfs",
+        "url": "https://github.com/rook/rook/issues/15472",
+        "labels": [
+            "feature",
+            "help wanted"
+        ],
+        "created_at": "2025-02-27T08:14:44Z"
     },
     {
         "repo": "velero-io/velero",
@@ -18892,6 +18890,7 @@
         "title": "Resource for custom Envoy config patching",
         "url": "https://github.com/kgateway-dev/kgateway/issues/13664",
         "labels": [
+            "stale",
             "help wanted"
         ],
         "created_at": "2026-03-16T07:47:51Z"
@@ -19068,18 +19067,6 @@
             "good first issue"
         ],
         "created_at": "2025-04-17T12:36:02Z"
-    },
-    {
-        "repo": "kuadrant/kuadrant-operator",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Workflow Go version is EOL",
-        "url": "https://github.com/Kuadrant/kuadrant-operator/issues/1182",
-        "labels": [
-            "good first issue",
-            "size/small"
-        ],
-        "created_at": "2025-03-04T14:48:24Z"
     },
     {
         "repo": "kuadrant/kuadrant-operator",
@@ -20079,18 +20066,6 @@
             "LFX Mentorship"
         ],
         "created_at": "2025-06-23T12:38:35Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Allow to set requests and limits separately",
-        "url": "https://github.com/openeverest/openeverest/issues/2360",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-06-11T15:46:53Z"
     },
     {
         "repo": "openGemini/openGemini",
@@ -24351,18 +24326,6 @@
             "docs"
         ],
         "created_at": "2020-06-11T15:34:18Z"
-    },
-    {
-        "repo": "getporter/porter",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "access the porter installed container after install finish",
-        "url": "https://github.com/getporter/porter/issues/803",
-        "labels": [
-            "help wanted",
-            "docs"
-        ],
-        "created_at": "2019-11-11T20:52:34Z"
     },
     {
         "repo": "getporter/porter",
