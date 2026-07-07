@@ -7118,18 +7118,6 @@
         "repo": "open-policy-agent/opa",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Allow opa inspect to inspect single data files",
-        "url": "https://github.com/open-policy-agent/opa/issues/6879",
-        "labels": [
-            "help wanted",
-            "feature-request"
-        ],
-        "created_at": "2024-07-20T17:42:06Z"
-    },
-    {
-        "repo": "open-policy-agent/opa",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "fails to get aws metadata when IMDSv2 is required on ECS running on EC2 launch type",
         "url": "https://github.com/open-policy-agent/opa/issues/6122",
         "labels": [
@@ -21381,21 +21369,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[PushFeedback] - Missing details for Proxy Extension Endpoint",
-        "url": "https://github.com/backstage/backstage/issues/31539",
-        "labels": [
-            "area:documentation",
-            "good first issue",
-            "stale",
-            "domain:docs",
-            "needs:triage"
-        ],
-        "created_at": "2025-10-29T14:43:06Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Peer Dependencies in New Backstage Apps",
         "url": "https://github.com/backstage/backstage/issues/31446",
         "labels": [
@@ -22736,20 +22709,6 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "duplicate env vars are now treated as errors in helm v4",
-        "url": "https://github.com/helm/helm/issues/31529",
-        "labels": [
-            "help wanted",
-            "question/support",
-            "feature",
-            "Stale"
-        ],
-        "created_at": "2025-11-18T15:47:29Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Helm4 upgrade with dry-run and server-side enabled doesn't catch errors",
         "url": "https://github.com/helm/helm/issues/31505",
         "labels": [
@@ -22998,6 +22957,19 @@
             "keep open"
         ],
         "created_at": "2022-03-07T13:51:22Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Helm pre-delete hooks Remove Chart Metadata on Failure",
+        "url": "https://github.com/helm/helm/issues/9700",
+        "labels": [
+            "help wanted",
+            "keep open",
+            "bug"
+        ],
+        "created_at": "2021-05-14T21:05:08Z"
     },
     {
         "repo": "ko-build/ko",
@@ -24329,19 +24301,6 @@
             "docs"
         ],
         "created_at": "2019-10-09T21:09:53Z"
-    },
-    {
-        "repo": "radius-project/radius",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Wrong error when Terraform configuration is not found",
-        "url": "https://github.com/radius-project/radius/issues/9477",
-        "labels": [
-            "good first issue",
-            "triaged",
-            "bug"
-        ],
-        "created_at": "2025-05-15T11:54:32Z"
     },
     {
         "repo": "radius-project/radius",
@@ -30850,7 +30809,8 @@
             "area/engprod",
             "kfserving/storage",
             "stale-warning-1",
-            "stale-warning-2"
+            "stale-warning-2",
+            "stale-warning-3"
         ],
         "created_at": "2020-05-19T11:41:30Z"
     },
@@ -30865,7 +30825,8 @@
             "good first issue",
             "kind/feature",
             "stale-warning-1",
-            "stale-warning-2"
+            "stale-warning-2",
+            "stale-warning-3"
         ],
         "created_at": "2020-04-16T16:52:52Z"
     },
