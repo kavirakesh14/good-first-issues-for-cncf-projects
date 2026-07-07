@@ -3586,20 +3586,6 @@
         "repo": "goharbor/harbor",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Refine the UI of proxy cache",
-        "url": "https://github.com/goharbor/harbor/issues/22982",
-        "labels": [
-            "help wanted",
-            "area/ui",
-            "Stale",
-            "candidate/2.16.0"
-        ],
-        "created_at": "2026-03-10T09:06:13Z"
-    },
-    {
-        "repo": "goharbor/harbor",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Allow replication without auto-creating repositories on target registry (ECR templates support)",
         "url": "https://github.com/goharbor/harbor/issues/22842",
         "labels": [
@@ -5178,6 +5164,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "ConcurrentModificationException in OrganizationAdapter.setAttributes on concurrent PUT /organizations/{id}",
+        "url": "https://github.com/keycloak/keycloak/issues/50590",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "area/organizations"
+        ],
+        "created_at": "2026-07-03T11:57:27Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Organization Membership mapper omits the claim for users with zero organizations instead of emitting an empty value",
         "url": "https://github.com/keycloak/keycloak/issues/50410",
         "labels": [
@@ -5663,22 +5666,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-12T02:29:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": " 'view-clients' bypasses 'view-users' restriction via 'client-scoped' endpoints",
-        "url": "https://github.com/keycloak/keycloak/issues/48858",
-        "labels": [
-            "kind/bug",
-            "area/admin/fine-grained-permissions",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-09T23:50:59Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6452,6 +6439,22 @@
         "repo": "kyverno/kyverno",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "[Bug] kyverno jp lacks JMESPath syntax pre-validation, returns cryptic errors",
+        "url": "https://github.com/kyverno/kyverno/issues/16488",
+        "labels": [
+            "bug",
+            "good first issue",
+            "type:cli",
+            "JMESPath",
+            "triage",
+            "cli:other"
+        ],
+        "created_at": "2026-07-07T12:02:10Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "[Bug] [CLI] kyverno migrate succeeds when --resource is not provided",
         "url": "https://github.com/kyverno/kyverno/issues/16470",
         "labels": [
@@ -6727,6 +6730,18 @@
             "needs tests"
         ],
         "created_at": "2023-01-05T00:41:24Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Support]: How to configure oauth2-proxy with localhost and internal url",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3465",
+        "labels": [
+            "help wanted",
+            "configuration"
+        ],
+        "created_at": "2026-07-07T11:19:13Z"
     },
     {
         "repo": "oauth2-proxy/oauth2-proxy",
@@ -7076,18 +7091,6 @@
             "help wanted"
         ],
         "created_at": "2025-09-01T09:52:27Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Bug]: Authentik OIDC \"Error redeeming code during OAuth2 callback: could not verify id_token\"",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3174",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2025-08-25T03:09:00Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -10339,6 +10342,17 @@
         "repo": "bootc-dev/bootc",
         "tier": "Sandbox",
         "lang": "Rust",
+        "title": "[Feature request] Option to require specific digest for bootc upgrade",
+        "url": "https://github.com/bootc-dev/bootc/issues/2279",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-07-03T23:52:21Z"
+    },
+    {
+        "repo": "bootc-dev/bootc",
+        "tier": "Sandbox",
+        "lang": "Rust",
         "title": "docs: expand on dualboot posibilites and what we can assure.",
         "url": "https://github.com/bootc-dev/bootc/issues/1987",
         "labels": [
@@ -11137,20 +11151,6 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Manifest create has poor error message on conflict with image",
-        "url": "https://github.com/podman-container-tools/podman/issues/24537",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "volunteers-wanted",
-            "Contribfest"
-        ],
-        "created_at": "2024-11-12T00:28:36Z"
-    },
-    {
-        "repo": "containers/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Default podman-machine-default on Windows missing default `seccomp.json`?",
         "url": "https://github.com/podman-container-tools/podman/issues/24318",
         "labels": [
@@ -11359,6 +11359,21 @@
             "Contribfest"
         ],
         "created_at": "2023-04-27T12:02:24Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "`podman play kube` doesn't warn for unrecognised keys in YAML",
+        "url": "https://github.com/podman-container-tools/podman/issues/18332",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted",
+            "kube",
+            "Contribfest"
+        ],
+        "created_at": "2023-04-24T23:25:07Z"
     },
     {
         "repo": "urunc-dev/urunc",
@@ -11784,33 +11799,6 @@
             "WASI-NN"
         ],
         "created_at": "2023-05-09T11:25:31Z"
-    },
-    {
-        "repo": "WasmEdge/WasmEdge",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "Performance issue when invoking function pointer in structure",
-        "url": "https://github.com/WasmEdge/WasmEdge/issues/2444",
-        "labels": [
-            "help wanted",
-            "Hacktoberfest",
-            "priority:low",
-            "c-AOT"
-        ],
-        "created_at": "2023-04-26T08:02:44Z"
-    },
-    {
-        "repo": "WasmEdge/WasmEdge",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "Performance issue when handing virtual function ",
-        "url": "https://github.com/WasmEdge/WasmEdge/issues/2442",
-        "labels": [
-            "help wanted",
-            "priority:low",
-            "c-AOT"
-        ],
-        "created_at": "2023-04-25T17:06:43Z"
     },
     {
         "repo": "WasmEdge/WasmEdge",
@@ -16237,21 +16225,6 @@
             "help wanted"
         ],
         "created_at": "2022-07-29T18:59:04Z"
-    },
-    {
-        "repo": "etcd-io/etcd",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Cannot promote member from follower when auth is enabled",
-        "url": "https://github.com/etcd-io/etcd/issues/20757",
-        "labels": [
-            "type/bug",
-            "help wanted",
-            "good first issue",
-            "backport/v3.5",
-            "backport/v3.6"
-        ],
-        "created_at": "2025-10-05T16:59:57Z"
     },
     {
         "repo": "etcd-io/etcd",
@@ -29675,17 +29648,6 @@
         "repo": "prometheus/prometheus",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Add more `t.Parallel()` to speed up tests",
-        "url": "https://github.com/prometheus/prometheus/issues/15185",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2024-10-18T16:43:57Z"
-    },
-    {
-        "repo": "prometheus/prometheus",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Alert Firing State not persisted at restart",
         "url": "https://github.com/prometheus/prometheus/issues/15175",
         "labels": [
@@ -29750,6 +29712,18 @@
             "kind/feature"
         ],
         "created_at": "2024-09-04T10:38:57Z"
+    },
+    {
+        "repo": "prometheus/prometheus",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "ST: Optimize CPU/memory use for OM1.0 Text CT/ST parsing (`st-storage` and `created-timestamp-zero-ingestion` features)",
+        "url": "https://github.com/prometheus/prometheus/issues/14823",
+        "labels": [
+            "help wanted",
+            "component/scraping"
+        ],
+        "created_at": "2024-09-04T09:25:50Z"
     },
     {
         "repo": "thanos-io/thanos",
