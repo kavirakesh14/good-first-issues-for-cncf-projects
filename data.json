@@ -2098,18 +2098,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[UI] Improve hover state styling for sidebar navigation items",
-        "url": "https://github.com/meshery/meshery/issues/20371",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-06-30T19:08:03Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Improve sidebar icon alignment and spacing in collapsed state",
         "url": "https://github.com/meshery/meshery/issues/20370",
         "labels": [
@@ -2496,6 +2484,22 @@
             "language/go"
         ],
         "created_at": "2025-03-11T09:09:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
+        "url": "https://github.com/meshery/meshery/issues/13426",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "issue/willfix",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2025-01-31T17:39:55Z"
     },
     {
         "repo": "meshery/meshery",
@@ -20918,19 +20922,6 @@
         "created_at": "2019-11-15T07:24:02Z"
     },
     {
-        "repo": "vitessio/vitess",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Rewrite `flagutil.OptionalFlag` to use generics",
-        "url": "https://github.com/vitessio/vitess/issues/11154",
-        "labels": [
-            "Type: Internal Cleanup",
-            "good first issue",
-            "Component: CLI"
-        ],
-        "created_at": "2022-09-01T10:20:29Z"
-    },
-    {
         "repo": "nats-io/nats-server",
         "tier": "Incubating",
         "lang": "Go",
@@ -26422,18 +26413,6 @@
         "repo": "chaos-mesh/chaos-mesh",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Reuse codes in GitHub Actions Workflow",
-        "url": "https://github.com/chaos-mesh/chaos-mesh/issues/3265",
-        "labels": [
-            "type/enhancement",
-            "help wanted"
-        ],
-        "created_at": "2022-05-13T08:38:58Z"
-    },
-    {
-        "repo": "chaos-mesh/chaos-mesh",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Enhancement: use different configurable CA and cert keypair for \"CRD webhook\", \"chaos-daemon mtls\" and \"chaosd mtls\"",
         "url": "https://github.com/chaos-mesh/chaos-mesh/issues/3198",
         "labels": [
@@ -26753,6 +26732,18 @@
             "old-issues"
         ],
         "created_at": "2019-12-20T12:19:55Z"
+    },
+    {
+        "repo": "krkn-chaos/krkn",
+        "tier": "Sandbox",
+        "lang": "Python",
+        "title": "Skip CI build and tests for PRs that only modify .md files",
+        "url": "https://github.com/krkn-chaos/krkn/issues/1447",
+        "labels": [
+            "good first issue",
+            "good-first-issue"
+        ],
+        "created_at": "2026-07-07T18:21:33Z"
     },
     {
         "repo": "krkn-chaos/krkn",
