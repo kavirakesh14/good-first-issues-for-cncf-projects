@@ -2072,6 +2072,22 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Remove Duplicated heading from HTTP Error Response Contract contributing page",
+        "url": "https://github.com/meshery/meshery/issues/20542",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "first-timers-only",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-08T18:10:04Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Mastering Meshery action in Getting Started widget redirects to placeholder URL",
         "url": "https://github.com/meshery/meshery/issues/20537",
         "labels": [
@@ -2493,22 +2509,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Template] Create a Brainstorming template",
-        "url": "https://github.com/meshery/meshery/issues/12503",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
-        ],
-        "created_at": "2024-10-28T14:47:23Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] page-specific loading states across Meshery UI",
         "url": "https://github.com/meshery/meshery/issues/20512",
         "labels": [
@@ -2872,20 +2872,6 @@
             "github-actions"
         ],
         "created_at": "2026-05-14T23:17:22Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Repository link in README leads to page not found",
-        "url": "https://github.com/meshery/meshery/issues/19276",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-05-12T17:11:34Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -3716,6 +3702,7 @@
         "title": "Replication filter - exclude by name",
         "url": "https://github.com/goharbor/harbor/issues/20253",
         "labels": [
+            "duplicate",
             "help wanted",
             "area/replication",
             "kind/requirement"
@@ -12425,8 +12412,7 @@
         "labels": [
             "help wanted",
             "good first issue",
-            "kind/cleanup",
-            "stale"
+            "kind/cleanup"
         ],
         "created_at": "2026-05-31T20:42:18Z"
     },
@@ -13938,6 +13924,18 @@
         "repo": "kai-scheduler/KAI-Scheduler",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "feat(chart): expose queue controller --enable-quota-validation via Helm and Config CR",
+        "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/1819",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-07-03T15:21:29Z"
+    },
+    {
+        "repo": "kai-scheduler/KAI-Scheduler",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Custom ArgoCD health check (Lua) for the kai-config Config CR",
         "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/1818",
         "labels": [
@@ -15344,6 +15342,18 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: Add proper error handling in CombinedStatus Resolver",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3886",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-07-08T17:03:45Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "feature: Add unit tests for wrapee.CreateOnly in generic transport controller",
         "url": "https://github.com/kubestellar/kubestellar/issues/3873",
         "labels": [
@@ -15690,19 +15700,6 @@
             "kind/documentation"
         ],
         "created_at": "2026-06-06T13:25:29Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] Ecosystem directory audit \u2014 awesome-kubernetes, CNCF Landscape, Artifact Hub listings",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3792",
-        "labels": [
-            "help wanted",
-            "priority/medium",
-            "kind/documentation"
-        ],
-        "created_at": "2026-06-06T13:20:39Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -19494,6 +19491,19 @@
         "repo": "kumahq/kuma",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "feat(MeshHealthCheck): add unhealthy_interval support",
+        "url": "https://github.com/kumahq/kuma/issues/17129",
+        "labels": [
+            "good first issue",
+            "triage/accepted",
+            "kind/feature"
+        ],
+        "created_at": "2026-07-06T14:25:28Z"
+    },
+    {
+        "repo": "kumahq/kuma",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "MeshRetry do not allow retry GRPC connection errors",
         "url": "https://github.com/kumahq/kuma/issues/12931",
         "labels": [
@@ -19715,19 +19725,6 @@
             "enhancement"
         ],
         "created_at": "2022-07-21T02:13:40Z"
-    },
-    {
-        "repo": "linkerd/linkerd2",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Add 'audit' mode for Authorization Policy",
-        "url": "https://github.com/linkerd/linkerd2/issues/8821",
-        "labels": [
-            "help wanted",
-            "enhancement",
-            "needs/design"
-        ],
-        "created_at": "2022-07-06T11:44:52Z"
     },
     {
         "repo": "linkerd/linkerd2",
@@ -20014,6 +20011,18 @@
             "area/controller"
         ],
         "created_at": "2020-05-13T02:32:40Z"
+    },
+    {
+        "repo": "linkerd/linkerd2",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "LinkerD does not work with weave-net cni on eks cluster",
+        "url": "https://github.com/linkerd/linkerd2/issues/4337",
+        "labels": [
+            "help wanted",
+            "area/install"
+        ],
+        "created_at": "2020-05-05T19:03:24Z"
     },
     {
         "repo": "sermant-io/Sermant",
@@ -26442,6 +26451,18 @@
         "repo": "chaos-mesh/chaos-mesh",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Reuse codes in GitHub Actions Workflow",
+        "url": "https://github.com/chaos-mesh/chaos-mesh/issues/3265",
+        "labels": [
+            "type/enhancement",
+            "help wanted"
+        ],
+        "created_at": "2022-05-13T08:38:58Z"
+    },
+    {
+        "repo": "chaos-mesh/chaos-mesh",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Enhancement: use different configurable CA and cert keypair for \"CRD webhook\", \"chaos-daemon mtls\" and \"chaosd mtls\"",
         "url": "https://github.com/chaos-mesh/chaos-mesh/issues/3198",
         "labels": [
@@ -28553,6 +28574,28 @@
             "question"
         ],
         "created_at": "2024-02-16T10:11:24Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Create err for `dcgm-exporter endpoint not reachable`",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2430",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-02-26T08:12:43Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Make `metricsCacheTTL` configurable",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2429",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-02-26T08:12:02Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
