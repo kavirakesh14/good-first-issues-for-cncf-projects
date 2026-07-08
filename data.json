@@ -2072,14 +2072,14 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[UI] Sidebar shows 2 icon",
-        "url": "https://github.com/meshery/meshery/issues/20392",
+        "title": "[UI] Mastering Meshery action in Getting Started widget redirects to placeholder URL",
+        "url": "https://github.com/meshery/meshery/issues/20537",
         "labels": [
             "kind/bug",
             "good first issue",
             "first-timers-only"
         ],
-        "created_at": "2026-07-01T20:20:05Z"
+        "created_at": "2026-07-07T23:36:09Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2093,18 +2093,6 @@
             "first-timers-only"
         ],
         "created_at": "2026-07-01T08:36:39Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[UI] Improve sidebar icon alignment and spacing in collapsed state",
-        "url": "https://github.com/meshery/meshery/issues/20370",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-06-30T19:02:04Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2500,6 +2488,22 @@
             "framework/jekyll"
         ],
         "created_at": "2025-01-31T17:39:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Template] Create a Brainstorming template",
+        "url": "https://github.com/meshery/meshery/issues/12503",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:47:23Z"
     },
     {
         "repo": "meshery/meshery",
@@ -3620,6 +3624,7 @@
         "url": "https://github.com/goharbor/harbor/issues/22168",
         "labels": [
             "help wanted",
+            "area/release",
             "icebox"
         ],
         "created_at": "2025-07-10T07:00:25Z"
@@ -3673,7 +3678,8 @@
         "url": "https://github.com/goharbor/harbor/issues/20901",
         "labels": [
             "help wanted",
-            "kind/requirement"
+            "kind/requirement",
+            "area/backend-storage"
         ],
         "created_at": "2024-09-05T07:25:05Z"
     },
@@ -3685,6 +3691,7 @@
         "url": "https://github.com/goharbor/harbor/issues/20875",
         "labels": [
             "help wanted",
+            "area/replication",
             "kind/requirement"
         ],
         "created_at": "2024-08-23T16:50:20Z"
@@ -3701,6 +3708,19 @@
             "area/proxy-cache"
         ],
         "created_at": "2024-07-01T19:47:21Z"
+    },
+    {
+        "repo": "goharbor/harbor",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Replication filter - exclude by name",
+        "url": "https://github.com/goharbor/harbor/issues/20253",
+        "labels": [
+            "help wanted",
+            "area/replication",
+            "kind/requirement"
+        ],
+        "created_at": "2024-04-09T09:51:12Z"
     },
     {
         "repo": "goharbor/harbor",
@@ -3749,6 +3769,7 @@
         "url": "https://github.com/goharbor/harbor/issues/17113",
         "labels": [
             "help wanted",
+            "area/installation",
             "kind/requirement"
         ],
         "created_at": "2022-07-04T07:48:56Z"
@@ -3761,6 +3782,7 @@
         "url": "https://github.com/goharbor/harbor/issues/16918",
         "labels": [
             "help wanted",
+            "area/ldap",
             "kind/requirement"
         ],
         "created_at": "2022-05-27T11:36:54Z"
@@ -3787,6 +3809,7 @@
         "url": "https://github.com/goharbor/harbor/issues/15583",
         "labels": [
             "help wanted",
+            "area/helm-chart",
             "kind/requirement"
         ],
         "created_at": "2021-09-13T10:08:59Z"
@@ -3812,6 +3835,7 @@
         "url": "https://github.com/goharbor/harbor/issues/15105",
         "labels": [
             "help wanted",
+            "area/installation",
             "kind/requirement"
         ],
         "created_at": "2021-06-09T11:27:13Z"
@@ -3824,6 +3848,7 @@
         "url": "https://github.com/goharbor/harbor/issues/13885",
         "labels": [
             "help wanted",
+            "area/build",
             "kind/requirement"
         ],
         "created_at": "2021-01-04T18:26:34Z"
@@ -3836,7 +3861,8 @@
         "url": "https://github.com/goharbor/harbor/issues/13395",
         "labels": [
             "help wanted",
-            "kind/requirement"
+            "kind/requirement",
+            "area/webhook"
         ],
         "created_at": "2020-10-29T12:09:17Z"
     },
@@ -10341,17 +10367,6 @@
             "good first issue"
         ],
         "created_at": "2024-09-12T17:13:50Z"
-    },
-    {
-        "repo": "bootc-dev/bootc",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "[Feature request] Option to require specific digest for bootc upgrade",
-        "url": "https://github.com/bootc-dev/bootc/issues/2279",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-07-03T23:52:21Z"
     },
     {
         "repo": "bootc-dev/bootc",
@@ -17569,19 +17584,6 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "Redis proxy custom_commands not allowed inside transactions",
-        "url": "https://github.com/envoyproxy/envoy/issues/42094",
-        "labels": [
-            "bug",
-            "help wanted",
-            "area/redis"
-        ],
-        "created_at": "2025-11-18T15:28:11Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "Introduce prequal algorithm into envoy",
         "url": "https://github.com/envoyproxy/envoy/issues/42091",
         "labels": [
@@ -17630,6 +17632,21 @@
             "area/compression"
         ],
         "created_at": "2025-11-07T10:24:03Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "feat: Credential Injection for ext_authz and ext_proc calls",
+        "url": "https://github.com/envoyproxy/envoy/issues/41767",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "no stalebot",
+            "area/ext_authz",
+            "area/ext_proc"
+        ],
+        "created_at": "2025-10-29T18:59:23Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -27960,6 +27977,36 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "esmapping-generator: OpenSearch template rendering works but is undiscoverable and mislabeled",
+        "url": "https://github.com/jaegertracing/jaeger/issues/8966",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "good first issue",
+            "area/storage",
+            "storage/elasticsearch",
+            "changelog:new-feature"
+        ],
+        "created_at": "2026-07-08T01:11:42Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Remove two expired Stable feature gates past their ToVersion",
+        "url": "https://github.com/jaegertracing/jaeger/issues/8964",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "good first issue",
+            "storage/elasticsearch"
+        ],
+        "created_at": "2026-07-07T23:22:55Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "[feature]: Support Jaeger-specific CLI commands in custom OCB distributions",
         "url": "https://github.com/jaegertracing/jaeger/issues/8831",
         "labels": [
@@ -30635,7 +30682,8 @@
         "title": "[Bug] Hardcoded namespace in `kserve-llmisvc-crd` chart prevents flexible deployment",
         "url": "https://github.com/kserve/kserve/issues/5325",
         "labels": [
-            "good first issue"
+            "good first issue",
+            "stale-warning-1"
         ],
         "created_at": "2026-03-31T22:41:17Z"
     },
