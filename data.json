@@ -2508,20 +2508,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Broken inline images on Docker Extension installation page (v0.8 and v0.9)",
-        "url": "https://github.com/meshery/meshery/issues/20547",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-08T21:32:42Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] make clean runs two full site builds and never empties the build cache",
         "url": "https://github.com/meshery/meshery/issues/20546",
         "labels": [
@@ -4982,19 +4968,6 @@
         "repo": "falcosecurity/falco",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "watchdog: BUG: soft lockup - CPU#4 stuck for 27s! (in Azure)",
-        "url": "https://github.com/falcosecurity/falco/issues/3637",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "lifecycle/rotten"
-        ],
-        "created_at": "2025-07-09T10:59:23Z"
-    },
-    {
-        "repo": "falcosecurity/falco",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "Unable to get manifest: unable to fetch reference || tls: failed to verify certificate: x509: certificate signed by unknown authority",
         "url": "https://github.com/falcosecurity/falco/issues/3606",
         "labels": [
@@ -6766,6 +6739,18 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[Documentation Bug]: nginx API 401 pass-through example is wrong",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3467",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-07-09T12:00:05Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Support]: How to configure oauth2-proxy with localhost and internal url",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3465",
         "labels": [
@@ -6773,18 +6758,6 @@
             "configuration"
         ],
         "created_at": "2026-07-07T11:19:13Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Support]: KeepHQ authentication via oauth2-proxy fails after Keycloak login",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3464",
-        "labels": [
-            "help wanted",
-            "configuration"
-        ],
-        "created_at": "2026-06-30T12:20:19Z"
     },
     {
         "repo": "oauth2-proxy/oauth2-proxy",
@@ -9078,23 +9051,6 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
-        "title": "[IMPROVEMENT] Add metrics to collect information about V2 data engine usage",
-        "url": "https://github.com/longhorn/longhorn/issues/12941",
-        "labels": [
-            "good first issue",
-            "priority/0",
-            "area/monitoring",
-            "kind/improvement",
-            "area/v2-data-engine",
-            "require/backport",
-            "backport/1.12.1"
-        ],
-        "created_at": "2026-04-16T00:27:51Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
         "title": "[BUG] When `Snapshot Maximum Count` is reached, creating snapshots via `snapshotCreate` is forbidden, but creating snapshots via `snapshotCRCreate` or CR are still allowed",
         "url": "https://github.com/longhorn/longhorn/issues/12934",
         "labels": [
@@ -9196,12 +9152,12 @@
         "url": "https://github.com/longhorn/longhorn/issues/12155",
         "labels": [
             "good first issue",
+            "priority/2",
             "require/doc",
             "require/manual-test-plan",
             "area/volume-backup-restore",
             "kind/improvement",
-            "area/resilience",
-            "require/backport"
+            "area/resilience"
         ],
         "created_at": "2025-11-12T09:09:07Z"
     },
@@ -9541,6 +9497,23 @@
             "priority/1"
         ],
         "created_at": "2023-06-01T11:00:50Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
+        "title": "[FEATURE] Configurable system backup timeout",
+        "url": "https://github.com/longhorn/longhorn/issues/5022",
+        "labels": [
+            "kind/feature",
+            "good first issue",
+            "component/longhorn-manager",
+            "priority/0",
+            "area/system-backup-restore",
+            "area/setting",
+            "require/important-note"
+        ],
+        "created_at": "2022-12-08T02:24:38Z"
     },
     {
         "repo": "openebs/openebs",
@@ -23517,20 +23490,6 @@
         "repo": "microcks/microcks",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Microcks `1.15.0` scope definition",
-        "url": "https://github.com/microcks/microcks/issues/2048",
-        "labels": [
-            "kind/task",
-            "help wanted",
-            "type/Epic",
-            "keep-open"
-        ],
-        "created_at": "2026-04-23T09:23:54Z"
-    },
-    {
-        "repo": "microcks/microcks",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Feature Request: Add native support for Bruno collections in Microcks",
         "url": "https://github.com/microcks/microcks/issues/1744",
         "labels": [
@@ -23622,22 +23581,6 @@
         "repo": "microcks/microcks",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Why do microcks compose its own mongoDB/keycloak/kafka chart instead of use public chart from bitnami?",
-        "url": "https://github.com/microcks/microcks/issues/1197",
-        "labels": [
-            "kind/question",
-            "component/openshift",
-            "component/install",
-            "help wanted",
-            "component/kubernetes",
-            "keep-open"
-        ],
-        "created_at": "2024-06-12T09:20:17Z"
-    },
-    {
-        "repo": "microcks/microcks",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Add support for Apache Pulsar message broker for Mocking/Testing",
         "url": "https://github.com/microcks/microcks/issues/1196",
         "labels": [
@@ -23655,7 +23598,7 @@
         "repo": "microcks/microcks",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "AsyncAPI version 2.6.0 is not supported",
+        "title": "AsyncAPI version 2.6.0 is not supported in Microcks UI",
         "url": "https://github.com/microcks/microcks/issues/1133",
         "labels": [
             "kind/bug",
@@ -23870,19 +23813,6 @@
             "domain/ui-components/reviewed"
         ],
         "created_at": "2026-02-09T15:00:02Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Registries UI is misaligned based on actions performed",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/15779",
-        "labels": [
-            "good first issue",
-            "domain/ui-components/inreview",
-            "domain/ui-components"
-        ],
-        "created_at": "2026-01-20T10:14:25Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -25287,6 +25217,18 @@
             "Type/Task"
         ],
         "created_at": "2026-06-30T10:11:38Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "docs: Misleading step to update ClusterWorkflowTemplate for workflow authentication configuration",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4004",
+        "labels": [
+            "good first issue",
+            "Type/Improvement"
+        ],
+        "created_at": "2026-06-26T05:17:20Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -27658,6 +27600,96 @@
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
         "lang": "C",
+        "title": "gadgets/trace_fsslower: Complete Guide (missing kubectl-gadget examples + typo)",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5636",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-07-09T09:40:26Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "gadgets/trace_ssl: Add missing documentation Guide section",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5634",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-07-09T09:22:49Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "gadgets/trace_signal: Add missing documentation Guide section",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5633",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-07-09T09:22:48Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "gadgets/trace_malloc: Add missing documentation Guide section",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5632",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-07-09T09:22:47Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "gadgets/trace_lsm: Add missing documentation Guide section",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5631",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-07-09T09:22:46Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "gadgets/profile_cuda: Add missing documentation Guide section",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5630",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-07-09T09:22:45Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "gadgets/trace_init_module: Add missing documentation Guide section",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5629",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-07-09T09:22:44Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "Documentation: Add missing Guide sections to gadget docs",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5628",
+        "labels": [
+            "good first issue",
+            "area/documentation",
+            "kind/epic"
+        ],
+        "created_at": "2026-07-09T09:22:29Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
         "title": "Deduplicate the public key in the repository",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4699",
         "labels": [
@@ -27910,103 +27942,6 @@
             "kind/new-gadget"
         ],
         "created_at": "2023-06-22T10:38:45Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
-        "title": "[RFE] Integration tests for Podman",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1650",
-        "labels": [
-            "good first issue",
-            "container-runtime",
-            "area/testing"
-        ],
-        "created_at": "2023-05-19T09:17:53Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
-        "title": "[RFE] Include OCI runtime (crun/runc) information in container events",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1635",
-        "labels": [
-            "good first issue",
-            "container-runtime"
-        ],
-        "created_at": "2023-05-17T09:18:25Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
-        "title": "Define correct data type for namespace inode id",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1215",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2022-12-20T20:49:15Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
-        "title": "[RFE] cmd/kubectl-version: Add more information to `version` command",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1060",
-        "labels": [
-            "kind/feature",
-            "good first issue",
-            "area/kubectl-gadget"
-        ],
-        "created_at": "2022-10-19T15:26:41Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
-        "title": "[RFE] trace/network: Add test to verify remote service information",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1059",
-        "labels": [
-            "good first issue",
-            "gadgets/network-graph"
-        ],
-        "created_at": "2022-10-19T14:45:29Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
-        "title": "[RFE] ci: Verify the node field during the integration tests",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/967",
-        "labels": [
-            "good first issue",
-            "area/ci"
-        ],
-        "created_at": "2022-09-21T10:14:35Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
-        "title": "[RFE] More demo videos (asciinema gifs)",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/954",
-        "labels": [
-            "good first issue",
-            "area/documentation"
-        ],
-        "created_at": "2022-09-19T14:55:50Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
-        "title": "[RFE] snapshot_socket: support unix sockets",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/360",
-        "labels": [
-            "good first issue",
-            "gadgets/snapshot/socket"
-        ],
-        "created_at": "2021-10-28T10:04:59Z"
     },
     {
         "repo": "jaegertracing/jaeger",
@@ -28535,6 +28470,17 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "CI fails when `go.mod` requires Go > 1.24",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2491",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-07-09T09:56:39Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Create err for `dcgm-exporter endpoint not reachable`",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2430",
         "labels": [
@@ -28985,6 +28931,19 @@
             "priority/P1"
         ],
         "created_at": "2023-10-25T13:49:51Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Link templating assumes relative path without protocol prefix",
+        "url": "https://github.com/perses/perses/issues/4229",
+        "labels": [
+            "help wanted",
+            "ui",
+            "priority/P1"
+        ],
+        "created_at": "2026-07-08T06:38:44Z"
     },
     {
         "repo": "perses/perses",
