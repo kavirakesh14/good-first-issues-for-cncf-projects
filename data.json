@@ -2072,6 +2072,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Inconsistent formatting of \"Overview of Steps\" section",
+        "url": "https://github.com/meshery/meshery/issues/20566",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-09T16:20:48Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Correct meshery.io/blog link at security-vulnerabilities page",
         "url": "https://github.com/meshery/meshery/issues/20544",
         "labels": [
@@ -2489,20 +2504,6 @@
             "framework/playwright"
         ],
         "created_at": "2025-04-29T18:59:42Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Add support for sort by count for database table in settings registry page",
-        "url": "https://github.com/meshery/meshery/issues/13958",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "language/go"
-        ],
-        "created_at": "2025-03-11T09:09:30Z"
     },
     {
         "repo": "meshery/meshery",
@@ -3144,19 +3145,6 @@
             "good first issue"
         ],
         "created_at": "2020-09-04T08:46:53Z"
-    },
-    {
-        "repo": "opentofu/opentofu",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "OpenTelemetry Tracing: better feedback in TF_LOG",
-        "url": "https://github.com/opentofu/opentofu/issues/4102",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "accepted"
-        ],
-        "created_at": "2026-05-13T01:15:39Z"
     },
     {
         "repo": "opentofu/opentofu",
@@ -9539,17 +9527,6 @@
             "good-first-issue"
         ],
         "created_at": "2026-05-27T20:53:08Z"
-    },
-    {
-        "repo": "rook/rook",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Tnf follow up improvments",
-        "url": "https://github.com/rook/rook/issues/17273",
-        "labels": [
-            "good-first-issue"
-        ],
-        "created_at": "2026-03-30T13:29:39Z"
     },
     {
         "repo": "rook/rook",
@@ -28465,17 +28442,6 @@
             "question"
         ],
         "created_at": "2024-02-16T10:11:24Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "CI fails when `go.mod` requires Go > 1.24",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2491",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-07-09T09:56:39Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
