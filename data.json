@@ -2072,6 +2072,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Correct meshery.io/blog link at security-vulnerabilities page",
+        "url": "https://github.com/meshery/meshery/issues/20544",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-08T19:13:49Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Remove Duplicated heading from HTTP Error Response Contract contributing page",
         "url": "https://github.com/meshery/meshery/issues/20542",
         "labels": [
@@ -2493,17 +2508,29 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
-        "url": "https://github.com/meshery/meshery/issues/13426",
+        "title": "[Docs] Broken inline images on Docker Extension installation page (v0.8 and v0.9)",
+        "url": "https://github.com/meshery/meshery/issues/20547",
         "labels": [
             "help wanted",
-            "good first issue",
             "area/docs",
-            "issue/willfix",
             "language/markdown",
-            "framework/jekyll"
+            "framework/hugo"
         ],
-        "created_at": "2025-01-31T17:39:55Z"
+        "created_at": "2026-07-08T21:32:42Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] make clean runs two full site builds and never empties the build cache",
+        "url": "https://github.com/meshery/meshery/issues/20546",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-08T21:04:31Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2843,20 +2870,6 @@
             "area/devops"
         ],
         "created_at": "2026-05-24T09:06:54Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Missing documentation on how to create a new permission key",
-        "url": "https://github.com/meshery/meshery/issues/19568",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-05-20T12:37:26Z"
     },
     {
         "repo": "meshery/meshery",
@@ -4250,7 +4263,7 @@
     },
     {
         "repo": "confidential-containers/confidential-containers",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Unknown",
         "title": "improve repository hygiene ",
         "url": "https://github.com/confidential-containers/confidential-containers/issues/230",
@@ -8514,7 +8527,8 @@
         "url": "https://github.com/spiffe/spire/issues/6175",
         "labels": [
             "help wanted",
-            "priority/backlog"
+            "priority/backlog",
+            "stale"
         ],
         "created_at": "2025-07-08T07:21:22Z"
     },
@@ -8601,7 +8615,8 @@
         "url": "https://github.com/spiffe/spire/issues/5495",
         "labels": [
             "help wanted",
-            "priority/backlog"
+            "priority/backlog",
+            "stale"
         ],
         "created_at": "2024-09-12T21:09:57Z"
     },
@@ -12368,19 +12383,6 @@
         "repo": "submariner-io/submariner",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Submariner Route Agent fails to populate custom PBR tables created by AWS CNI, causing intermittent cross-cluster connectivity loss",
-        "url": "https://github.com/submariner-io/submariner/issues/3697",
-        "labels": [
-            "bug",
-            "help wanted",
-            "stale"
-        ],
-        "created_at": "2025-11-04T15:50:02Z"
-    },
-    {
-        "repo": "submariner-io/submariner",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Add support for Cilium CNI",
         "url": "https://github.com/submariner-io/submariner/issues/3168",
         "labels": [
@@ -12412,7 +12414,8 @@
         "labels": [
             "help wanted",
             "good first issue",
-            "kind/cleanup"
+            "kind/cleanup",
+            "awaiting-maintainer"
         ],
         "created_at": "2026-05-31T20:42:18Z"
     },
@@ -17403,20 +17406,6 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "stats: Allow overriding default tag extractors in stats_tags without disabling defaults",
-        "url": "https://github.com/envoyproxy/envoy/issues/44373",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/stats",
-            "area/admin"
-        ],
-        "created_at": "2026-04-10T14:44:27Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "node.extensions does not distinguish between compiled-in and configured bootstrap extensions",
         "url": "https://github.com/envoyproxy/envoy/issues/44333",
         "labels": [
@@ -17657,6 +17646,19 @@
             "area/ext_proc"
         ],
         "created_at": "2025-10-29T18:59:23Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "wasm: access log extension point is not thread safe",
+        "url": "https://github.com/envoyproxy/envoy/issues/41672",
+        "labels": [
+            "bug",
+            "help wanted",
+            "area/wasm"
+        ],
+        "created_at": "2025-10-23T21:20:28Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -26451,18 +26453,6 @@
         "repo": "chaos-mesh/chaos-mesh",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Reuse codes in GitHub Actions Workflow",
-        "url": "https://github.com/chaos-mesh/chaos-mesh/issues/3265",
-        "labels": [
-            "type/enhancement",
-            "help wanted"
-        ],
-        "created_at": "2022-05-13T08:38:58Z"
-    },
-    {
-        "repo": "chaos-mesh/chaos-mesh",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Enhancement: use different configurable CA and cert keypair for \"CRD webhook\", \"chaos-daemon mtls\" and \"chaosd mtls\"",
         "url": "https://github.com/chaos-mesh/chaos-mesh/issues/3198",
         "labels": [
@@ -28022,36 +28012,6 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "esmapping-generator: OpenSearch template rendering works but is undiscoverable and mislabeled",
-        "url": "https://github.com/jaegertracing/jaeger/issues/8966",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue",
-            "area/storage",
-            "storage/elasticsearch",
-            "changelog:new-feature"
-        ],
-        "created_at": "2026-07-08T01:11:42Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Remove two expired Stable feature gates past their ToVersion",
-        "url": "https://github.com/jaegertracing/jaeger/issues/8964",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue",
-            "storage/elasticsearch"
-        ],
-        "created_at": "2026-07-07T23:22:55Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "[feature]: Support Jaeger-specific CLI commands in custom OCB distributions",
         "url": "https://github.com/jaegertracing/jaeger/issues/8831",
         "labels": [
@@ -28074,21 +28034,6 @@
             "area/storage"
         ],
         "created_at": "2026-06-13T21:03:13Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Investigate the path to replace olivere/elastic driver",
-        "url": "https://github.com/jaegertracing/jaeger/issues/7612",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue",
-            "area/storage",
-            "storage/elasticsearch"
-        ],
-        "created_at": "2025-10-23T14:01:58Z"
     },
     {
         "repo": "jaegertracing/jaeger",
@@ -28454,6 +28399,17 @@
             "area/storage"
         ],
         "created_at": "2020-01-17T12:10:12Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Support optional query param \"spanKind\" when get operations for given service",
+        "url": "https://github.com/jaegertracing/jaeger/issues/1920",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2019-11-12T23:44:15Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
@@ -30750,7 +30706,8 @@
         "url": "https://github.com/kserve/kserve/issues/5325",
         "labels": [
             "good first issue",
-            "stale-warning-1"
+            "stale-warning-1",
+            "stale-warning-2"
         ],
         "created_at": "2026-03-31T22:41:17Z"
     },
