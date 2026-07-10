@@ -10476,19 +10476,6 @@
         "repo": "cri-o/cri-o",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Flaky test: \"clear podman containers when shutdown file not found\"",
-        "url": "https://github.com/cri-o/cri-o/issues/10085",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/failing-test"
-        ],
-        "created_at": "2026-06-30T13:57:36Z"
-    },
-    {
-        "repo": "cri-o/cri-o",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Add BATS_TEST_TIMEOUT for integration tests",
         "url": "https://github.com/cri-o/cri-o/issues/10079",
         "labels": [
