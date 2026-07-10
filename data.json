@@ -2509,6 +2509,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Improve mobile docs sidebar behavior on interaction",
+        "url": "https://github.com/meshery/meshery/issues/20591",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-10T10:40:44Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] make clean runs two full site builds and never empties the build cache",
         "url": "https://github.com/meshery/meshery/issues/20546",
         "labels": [
@@ -2859,21 +2873,6 @@
         "created_at": "2026-05-24T09:06:54Z"
     },
     {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[mesheryctl] CLI reference docs should not include \"/home/runner/....\"",
-        "url": "https://github.com/meshery/meshery/issues/19419",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "component/mesheryctl",
-            "language/go",
-            "github-actions"
-        ],
-        "created_at": "2026-05-14T23:17:22Z"
-    },
-    {
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
@@ -3145,6 +3144,19 @@
             "good first issue"
         ],
         "created_at": "2020-09-04T08:46:53Z"
+    },
+    {
+        "repo": "opentofu/opentofu",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Investigate and fix documentation around `replace_triggered_by`",
+        "url": "https://github.com/opentofu/opentofu/issues/4348",
+        "labels": [
+            "bug",
+            "help wanted",
+            "accepted"
+        ],
+        "created_at": "2026-07-10T11:59:30Z"
     },
     {
         "repo": "opentofu/opentofu",
