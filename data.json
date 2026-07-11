@@ -18845,18 +18845,6 @@
         "repo": "kgateway-dev/kgateway",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Large PUT requests result in 0KB files on first attempt, succeed on retry",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/12512",
-        "labels": [
-            "stale",
-            "help wanted"
-        ],
-        "created_at": "2025-10-04T08:13:40Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Add helm JSON schema file",
         "url": "https://github.com/kgateway-dev/kgateway/issues/12488",
         "labels": [
