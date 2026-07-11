@@ -18445,19 +18445,6 @@
         "repo": "higress-group/higress",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Implement Amazon Bedrock LLM mock server & e2e test case",
-        "url": "https://github.com/higress-group/higress/issues/2717",
-        "labels": [
-            "help wanted",
-            "area/e2e",
-            "area/ai"
-        ],
-        "created_at": "2025-08-05T11:43:27Z"
-    },
-    {
-        "repo": "higress-group/higress",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Extend ai-proxy Plugin to Support OpenAI Response API Protocol with Remote MCP Server Tool Calling",
         "url": "https://github.com/higress-group/higress/issues/2483",
         "labels": [
@@ -18638,32 +18625,6 @@
         "repo": "higress-group/higress",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Implement cohere LLM mock server & e2e test case",
-        "url": "https://github.com/higress-group/higress/issues/1738",
-        "labels": [
-            "help wanted",
-            "area/e2e",
-            "area/ai"
-        ],
-        "created_at": "2025-02-05T09:48:27Z"
-    },
-    {
-        "repo": "higress-group/higress",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Implement deepl LLM mock server  & e2e test case",
-        "url": "https://github.com/higress-group/higress/issues/1723",
-        "labels": [
-            "help wanted",
-            "area/e2e",
-            "area/ai"
-        ],
-        "created_at": "2025-02-05T09:47:36Z"
-    },
-    {
-        "repo": "higress-group/higress",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Implement spark LLM mock server & e2e test case",
         "url": "https://github.com/higress-group/higress/issues/1721",
         "labels": [
@@ -18677,32 +18638,6 @@
         "repo": "higress-group/higress",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Implement hunyuan LLM mock server  & e2e test case",
-        "url": "https://github.com/higress-group/higress/issues/1720",
-        "labels": [
-            "help wanted",
-            "area/e2e",
-            "area/ai"
-        ],
-        "created_at": "2025-02-05T09:47:27Z"
-    },
-    {
-        "repo": "higress-group/higress",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Implement claude LLM mock server & e2e test case",
-        "url": "https://github.com/higress-group/higress/issues/1719",
-        "labels": [
-            "help wanted",
-            "area/e2e",
-            "area/ai"
-        ],
-        "created_at": "2025-02-05T09:47:23Z"
-    },
-    {
-        "repo": "higress-group/higress",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "implement a wasmplugin to support Content Security Policy",
         "url": "https://github.com/higress-group/higress/issues/1706",
         "labels": [
@@ -18711,6 +18646,71 @@
             "sig/wasm"
         ],
         "created_at": "2025-01-23T02:22:12Z"
+    },
+    {
+        "repo": "higress-group/higress",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Observability \u5efa\u8bae\u53c2\u8003 litellm \u7684\u5b9e\u73b0\uff0c\u901a\u8fc7openai \u534f\u8bae\u7684 metadata \u6765\u652f\u6301",
+        "url": "https://github.com/higress-group/higress/issues/1692",
+        "labels": [
+            "help wanted",
+            "level/normal",
+            "area/ai"
+        ],
+        "created_at": "2025-01-18T12:27:07Z"
+    },
+    {
+        "repo": "higress-group/higress",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "higress wasm \u63d2\u4ef6\u4e2d\u4f7f\u7528 redis\uff0c\u652f\u6301 redis \u8fde\u63a5\u590d\u7528\u65f6\u57fa\u4e8e db \u533a\u5206\u8fde\u63a5\u6c60",
+        "url": "https://github.com/higress-group/higress/issues/1678",
+        "labels": [
+            "help wanted",
+            "level/challenge"
+        ],
+        "created_at": "2025-01-15T12:11:31Z"
+    },
+    {
+        "repo": "higress-group/higress",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u4f7f\u7528AI-Proxy\u63d2\u4ef6\u4ee3\u7406 qwen \u6a21\u578b\u8fdb\u884c\u6d41\u5f0f\u8fd4\u56de\u65f6\u56e0\u5b57\u6bb5\u4e0d\u5168\u9020\u6210 golang sdk \u89e3\u6790\u5931\u8d25",
+        "url": "https://github.com/higress-group/higress/issues/1658",
+        "labels": [
+            "type/bug",
+            "help wanted",
+            "sig/wasm",
+            "area/ai"
+        ],
+        "created_at": "2025-01-09T07:16:08Z"
+    },
+    {
+        "repo": "higress-group/higress",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Support for merging ServiceEntries of services with the same FQDN name from multiple service registries",
+        "url": "https://github.com/higress-group/higress/issues/1641",
+        "labels": [
+            "help wanted",
+            "level/normal",
+            "area/registry"
+        ],
+        "created_at": "2025-01-03T05:58:22Z"
+    },
+    {
+        "repo": "higress-group/higress",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Enhance the e2e testing of the  ai-security-guard plugin based on the LLM mock server and Alibaba Cloud Content Security",
+        "url": "https://github.com/higress-group/higress/issues/1636",
+        "labels": [
+            "help wanted",
+            "area/e2e",
+            "area/ai"
+        ],
+        "created_at": "2024-12-26T11:08:25Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
