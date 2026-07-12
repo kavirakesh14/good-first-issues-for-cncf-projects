@@ -2102,22 +2102,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Remove Duplicated heading from HTTP Error Response Contract contributing page",
-        "url": "https://github.com/meshery/meshery/issues/20542",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "first-timers-only",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-08T18:10:04Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Mastering Meshery action in Getting Started widget redirects to placeholder URL",
         "url": "https://github.com/meshery/meshery/issues/20537",
         "labels": [
@@ -2509,6 +2493,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Add support for sort by count for database table in settings registry page",
+        "url": "https://github.com/meshery/meshery/issues/13958",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "language/go"
+        ],
+        "created_at": "2025-03-11T09:09:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Improve mobile docs sidebar behavior on interaction",
         "url": "https://github.com/meshery/meshery/issues/20591",
         "labels": [
@@ -2518,6 +2516,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-10T10:40:44Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Broken inline images on Docker Extension installation page (v0.8 and v0.9)",
+        "url": "https://github.com/meshery/meshery/issues/20547",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-08T21:32:42Z"
     },
     {
         "repo": "meshery/meshery",
@@ -10152,174 +10164,6 @@
             "area/datamover"
         ],
         "created_at": "2018-11-09T05:47:59Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "Track the latest ci error about the vineyard operator",
-        "url": "https://github.com/v6d-io/v6d/issues/1909",
-        "labels": [
-            "good first issue",
-            "kubernetes",
-            "priority:medium"
-        ],
-        "created_at": "2024-06-05T06:00:52Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "duckdb integration: add basic ETL capability on top of tables/dataframes stored in vineyard",
-        "url": "https://github.com/v6d-io/v6d/issues/1475",
-        "labels": [
-            "good first issue",
-            "stale",
-            "contrib"
-        ],
-        "created_at": "2023-07-18T02:14:01Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "Add a general field to the Vineyardd CRD for supporting the most APIs of Kubernetes Deployment ",
-        "url": "https://github.com/v6d-io/v6d/issues/1439",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "kubernetes",
-            "stale"
-        ],
-        "created_at": "2023-06-29T03:16:06Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "Support autoscaling of vineyard cluster on the kubernetes.",
-        "url": "https://github.com/v6d-io/v6d/issues/1302",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "kubernetes",
-            "stale"
-        ],
-        "created_at": "2023-04-12T07:26:09Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "Integration objectfs to replace the existing ad-hoc I/O adaptors",
-        "url": "https://github.com/v6d-io/v6d/issues/1281",
-        "labels": [
-            "good first issue",
-            "component:io"
-        ],
-        "created_at": "2023-04-03T02:55:27Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "LocalVertexMap: the semantic is not consistent with default vertex map",
-        "url": "https://github.com/v6d-io/v6d/issues/1093",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "component:graph"
-        ],
-        "created_at": "2022-12-07T02:14:17Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "Support reconfiguration with signals",
-        "url": "https://github.com/v6d-io/v6d/issues/763",
-        "labels": [
-            "good first issue",
-            "component:vineyardd"
-        ],
-        "created_at": "2022-05-26T07:19:01Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "HDF5 driver to interact with HDF5 format with data structures supported by vineyard",
-        "url": "https://github.com/v6d-io/v6d/issues/753",
-        "labels": [
-            "good first issue",
-            "component:io",
-            "component:driver"
-        ],
-        "created_at": "2022-05-20T04:02:27Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "Improve the implementation of `find_most_precise_match`",
-        "url": "https://github.com/v6d-io/v6d/issues/626",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "component:python",
-            "priority:low"
-        ],
-        "created_at": "2021-12-23T06:20:32Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "Limited mutation (copy-on-realloc) and data lineage support on vineyard",
-        "url": "https://github.com/v6d-io/v6d/issues/548",
-        "labels": [
-            "good first issue",
-            "component:vineyardd",
-            "component:client"
-        ],
-        "created_at": "2021-10-13T11:20:11Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "Add end-to-end tutorials/examples/cases for usage of vineyard",
-        "url": "https://github.com/v6d-io/v6d/issues/488",
-        "labels": [
-            "documentation",
-            "good first issue"
-        ],
-        "created_at": "2021-09-06T03:45:52Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "Documentation: more friendly docs for beginners",
-        "url": "https://github.com/v6d-io/v6d/issues/296",
-        "labels": [
-            "documentation",
-            "good first issue",
-            "priority:high"
-        ],
-        "created_at": "2021-06-07T03:42:12Z"
-    },
-    {
-        "repo": "v6d-io/v6d",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "Use FUSE to access a vineyard cluster?",
-        "url": "https://github.com/v6d-io/v6d/issues/2038",
-        "labels": [
-            "help wanted",
-            "stale"
-        ],
-        "created_at": "2025-03-12T09:38:31Z"
     },
     {
         "repo": "containers/composefs",
@@ -21266,6 +21110,7 @@
         "url": "https://github.com/backstage/backstage/issues/32746",
         "labels": [
             "good first issue",
+            "stale",
             "needs:triage"
         ],
         "created_at": "2026-02-08T15:09:33Z"
