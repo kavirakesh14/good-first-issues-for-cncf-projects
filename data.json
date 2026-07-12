@@ -17291,19 +17291,6 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "Support request header match for custom response filter",
-        "url": "https://github.com/envoyproxy/envoy/issues/45713",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/custom_response"
-        ],
-        "created_at": "2026-06-19T15:44:02Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "ratelimit/local_ratelimit: emit `Retry-After` header dynamically on 429 responses",
         "url": "https://github.com/envoyproxy/envoy/issues/45384",
         "labels": [
@@ -17597,6 +17584,20 @@
             "area/wasm"
         ],
         "created_at": "2025-10-23T21:20:28Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "Feature request: Add overload action to restart Envoy when it gets stuck",
+        "url": "https://github.com/envoyproxy/envoy/issues/41492",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "no stalebot",
+            "area/overload_manager"
+        ],
+        "created_at": "2025-10-14T09:02:59Z"
     },
     {
         "repo": "loxilb-io/loxilb",
