@@ -6739,7 +6739,7 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Support]: multiple allowed-group in \"or\"",
+        "title": "[bug]: extraArgs map object with multiple values is not rendered correctly",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3470",
         "labels": [
             "help wanted",
@@ -8522,19 +8522,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "IMDSv2 Requirement Breaks aws_mysql and aws_postgres Authentication",
-        "url": "https://github.com/spiffe/spire/issues/6118",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "stale"
-        ],
-        "created_at": "2025-06-07T00:23:19Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "CVEs in dependencies, support for VEX?",
         "url": "https://github.com/spiffe/spire/issues/6054",
         "labels": [
@@ -8740,6 +8727,19 @@
             "priority/backlog"
         ],
         "created_at": "2022-01-31T19:43:11Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Fix the \"expiring\" and \"outdated\" metrics emitted during entry sync to be accurate across the whole cache",
+        "url": "https://github.com/spiffe/spire/issues/2437",
+        "labels": [
+            "help wanted",
+            "priority/backlog",
+            "stale"
+        ],
+        "created_at": "2021-08-03T16:47:55Z"
     },
     {
         "repo": "carina-io/carina",
@@ -22446,18 +22446,6 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "CI: govulncheck-action pinned to untagged master SHA is not Dependabot-trackable (follow-up to #32299)",
-        "url": "https://github.com/helm/helm/issues/32301",
-        "labels": [
-            "help wanted",
-            "good first issue"
-        ],
-        "created_at": "2026-07-08T12:36:29Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "New watcher wait strategy lacking SDK logging",
         "url": "https://github.com/helm/helm/issues/31585",
         "labels": [
@@ -22900,6 +22888,19 @@
             "keep open"
         ],
         "created_at": "2022-03-07T13:51:22Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Helm pre-delete hooks Remove Chart Metadata on Failure",
+        "url": "https://github.com/helm/helm/issues/9700",
+        "labels": [
+            "help wanted",
+            "keep open",
+            "bug"
+        ],
+        "created_at": "2021-05-14T21:05:08Z"
     },
     {
         "repo": "ko-build/ko",
@@ -30646,20 +30647,6 @@
             "good first issue"
         ],
         "created_at": "2026-04-16T23:18:05Z"
-    },
-    {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[Bug] Hardcoded namespace in `kserve-llmisvc-crd` chart prevents flexible deployment",
-        "url": "https://github.com/kserve/kserve/issues/5325",
-        "labels": [
-            "good first issue",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2026-03-31T22:41:17Z"
     },
     {
         "repo": "kserve/kserve",
