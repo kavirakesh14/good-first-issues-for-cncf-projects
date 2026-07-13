@@ -3591,6 +3591,18 @@
         "repo": "goharbor/harbor",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "failed to download vulnerability DB",
+        "url": "https://github.com/goharbor/harbor/issues/23521",
+        "labels": [
+            "help wanted",
+            "kind/question"
+        ],
+        "created_at": "2026-07-08T14:40:08Z"
+    },
+    {
+        "repo": "goharbor/harbor",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Allow replication without auto-creating repositories on target registry (ECR templates support)",
         "url": "https://github.com/goharbor/harbor/issues/22842",
         "labels": [
@@ -5800,6 +5812,18 @@
             "help wanted"
         ],
         "created_at": "2022-11-07T20:46:31Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Kubearmor is failing on ARM cluster",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2767",
+        "labels": [
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2026-07-13T04:43:35Z"
     },
     {
         "repo": "kubearmor/kubearmor",
@@ -13011,19 +13035,6 @@
         "repo": "kcp-dev/kcp",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "bug: APIBinding lock on crd deletion is not removed from logicalCluster annotation",
-        "url": "https://github.com/kcp-dev/kcp/issues/3799",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "priority/important-longterm"
-        ],
-        "created_at": "2026-01-23T11:26:24Z"
-    },
-    {
-        "repo": "kcp-dev/kcp",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "feature: quick start kind documentation",
         "url": "https://github.com/kcp-dev/kcp/issues/3723",
         "labels": [
@@ -18764,17 +18775,6 @@
         "repo": "kuadrant/kuadrant-operator",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "TLSPolicy issuer readiness changes do not trigger status reconciliation",
-        "url": "https://github.com/Kuadrant/kuadrant-operator/issues/1876",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-04-09T18:39:56Z"
-    },
-    {
-        "repo": "kuadrant/kuadrant-operator",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "IsHTTPRouteReady doesn't check listener-specific ParentRef fields (SectionName, Port)",
         "url": "https://github.com/Kuadrant/kuadrant-operator/issues/1868",
         "labels": [
@@ -18784,18 +18784,6 @@
             "priority/low"
         ],
         "created_at": "2026-04-07T14:52:01Z"
-    },
-    {
-        "repo": "kuadrant/kuadrant-operator",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "docs: TokenRateLimitPolicy docs should explicitly state supported endpoints and response formats",
-        "url": "https://github.com/Kuadrant/kuadrant-operator/issues/1863",
-        "labels": [
-            "good first issue",
-            "feat/token-rate-limiting"
-        ],
-        "created_at": "2026-04-07T08:06:25Z"
     },
     {
         "repo": "kuadrant/kuadrant-operator",
@@ -18835,19 +18823,6 @@
             "good first issue"
         ],
         "created_at": "2024-12-18T14:40:18Z"
-    },
-    {
-        "repo": "kuadrant/kuadrant-operator",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": " Release Helm Chart workflow is not automatically triggered",
-        "url": "https://github.com/Kuadrant/kuadrant-operator/issues/1084",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "size/small"
-        ],
-        "created_at": "2024-12-18T13:32:11Z"
     },
     {
         "repo": "kuadrant/kuadrant-operator",
@@ -20732,6 +20707,790 @@
             "report/customer"
         ],
         "created_at": "2019-11-15T07:24:02Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Fix GraphQL content-type auto-detection in ContentTypeUtil",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8557",
+        "labels": [
+            "Beginner Friendly",
+            "area/storage",
+            "area/sdk",
+            "area/storage/sql",
+            "good first issue"
+        ],
+        "created_at": "2026-07-13T04:33:11Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "[Docs] Update outdated version references and add missing kubernetesops storage variant in README.md",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8543",
+        "labels": [
+            "Beginner Friendly",
+            "area/storage",
+            "area/operator",
+            "area/storage/gitops",
+            "area/build",
+            "good first issue"
+        ],
+        "created_at": "2026-07-12T11:26:46Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "docs(ui): ui-app README references wrong config directory (config/ vs configs/)",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8535",
+        "labels": [
+            "Beginner Friendly",
+            "area/ui",
+            "area/sdk",
+            "good first issue"
+        ],
+        "created_at": "2026-07-11T06:10:41Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "README UI getting-started lacks Windows instructions; only `./init-dev.sh` documented with no PowerShell/batch equivalent",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8532",
+        "labels": [
+            "Beginner Friendly",
+            "area/ui",
+            "area/sdk",
+            "area/examples",
+            "area/CLI",
+            "good first issue"
+        ],
+        "created_at": "2026-07-11T02:07:48Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "fix(docs): generated config docs have extra whitespace from text block continuations",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8523",
+        "labels": [
+            "Beginner Friendly",
+            "area/rest",
+            "area/sdk",
+            "area/maven-plugin",
+            "area/build",
+            "good first issue"
+        ],
+        "created_at": "2026-07-10T17:28:10Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Configure Renovate to track .mvn/extensions.xml dependencies",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8498",
+        "labels": [
+            "Beginner Friendly",
+            "area/dependencies",
+            "area/build",
+            "orchestrator/disabled",
+            "good first issue"
+        ],
+        "created_at": "2026-07-08T15:14:48Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "feat(build): add -Dquick profile to parent POM for fast builds",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8355",
+        "labels": [
+            "Beginner Friendly",
+            "area/CI",
+            "area/build",
+            "good first issue"
+        ],
+        "created_at": "2026-06-23T17:07:53Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Ensure Content Download honors Content MIME-TYPE and it's file extension",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8172",
+        "labels": [
+            "Beginner Friendly",
+            "good first issue"
+        ],
+        "created_at": "2026-06-08T19:16:01Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "CLI: Unify handling of the default group",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8025",
+        "labels": [
+            "Beginner Friendly",
+            "good first issue"
+        ],
+        "created_at": "2026-05-18T22:07:38Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "CLI: Better error when creating artifact without content or type",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8023",
+        "labels": [
+            "Beginner Friendly",
+            "area/caching",
+            "area/build",
+            "good first issue"
+        ],
+        "created_at": "2026-05-18T22:07:36Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Use JUnit 5 conditional execution for deployment-mode-dependent operator IT tests",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7892",
+        "labels": [
+            "type/quality",
+            "Beginner Friendly",
+            "priority/low",
+            "area/QE",
+            "area/operator",
+            "good first issue"
+        ],
+        "created_at": "2026-04-30T14:22:38Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "[Artifact Versions] sorting by version is not respecting semantic version",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7871",
+        "labels": [
+            "Beginner Friendly",
+            "good first issue"
+        ],
+        "created_at": "2026-04-28T14:55:28Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "research and possibly remove surplus adoc file",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7768",
+        "labels": [
+            "type/task",
+            "Beginner Friendly",
+            "priority/low",
+            "area/documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-04-15T11:00:49Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Remove deprecated custom date format configuration",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7329",
+        "labels": [
+            "type/task",
+            "type/quality",
+            "Beginner Friendly",
+            "area/rest",
+            "good first issue"
+        ],
+        "created_at": "2026-02-10T09:40:19Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Remove deprecated KafkaSQL SSL configuration properties",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7325",
+        "labels": [
+            "type/task",
+            "type/quality",
+            "Beginner Friendly",
+            "area/storage",
+            "good first issue"
+        ],
+        "created_at": "2026-02-10T09:36:29Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Remove deprecated operator code from version 3.0.7",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7317",
+        "labels": [
+            "type/task",
+            "type/quality",
+            "Beginner Friendly",
+            "good first issue"
+        ],
+        "created_at": "2026-02-10T08:50:31Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "New example proposals",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/5574",
+        "labels": [
+            "type/quality",
+            "Beginner Friendly",
+            "priority/normal",
+            "type/epic",
+            "good first issue"
+        ],
+        "created_at": "2024-11-22T08:16:59Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Enable compression in the REST API",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/5523",
+        "labels": [
+            "type/enhancement",
+            "Beginner Friendly",
+            "priority/normal",
+            "area/rest",
+            "good first issue"
+        ],
+        "created_at": "2024-11-13T17:17:45Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Add Form Based Authentication Support for Apicurio Registry",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/4916",
+        "labels": [
+            "type/enhancement",
+            "Beginner Friendly",
+            "priority/low",
+            "area/ui",
+            "area/storage",
+            "good first issue"
+        ],
+        "created_at": "2024-07-23T10:10:33Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Automated formatting and comment cleanup",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/4043",
+        "labels": [
+            "Beginner Friendly",
+            "version/3.x",
+            "good first issue"
+        ],
+        "created_at": "2023-11-27T19:05:10Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Allow user to specify Avro namespace in conversion",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/4025",
+        "labels": [
+            "type/enhancement",
+            "Beginner Friendly",
+            "area/serdes",
+            "good first issue"
+        ],
+        "created_at": "2023-11-22T17:03:23Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Restrict cipher suites and TLS protocol versions",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/4017",
+        "labels": [
+            "type/enhancement",
+            "Beginner Friendly",
+            "area/ui",
+            "good first issue"
+        ],
+        "created_at": "2023-11-21T14:35:43Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Protobuf Converter support",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/3061",
+        "labels": [
+            "type/enhancement",
+            "Beginner Friendly",
+            "priority/normal",
+            "area/serdes",
+            "good first issue"
+        ],
+        "created_at": "2022-12-24T11:21:52Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Add missing X-Content-Type-Options: nosniff header",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/2412",
+        "labels": [
+            "Beginner Friendly",
+            "priority/normal",
+            "good first issue"
+        ],
+        "created_at": "2022-04-07T17:07:14Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Add missing HSTS headers to error pages",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/2411",
+        "labels": [
+            "Beginner Friendly",
+            "priority/normal",
+            "good first issue"
+        ],
+        "created_at": "2022-04-07T17:06:38Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Use the attribute `version` of the specification to register an artifact by UI",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/1788",
+        "labels": [
+            "type/enhancement",
+            "Beginner Friendly",
+            "good first issue"
+        ],
+        "created_at": "2021-08-27T08:06:28Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Tab Documentation is empty",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8446",
+        "labels": [
+            "area/rest",
+            "area/documentation",
+            "area/sdk",
+            "area/CLI",
+            "help wanted"
+        ],
+        "created_at": "2026-07-02T13:16:30Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Implement thrift reference finder",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8418",
+        "labels": [
+            "area/references",
+            "area/documentation",
+            "help wanted"
+        ],
+        "created_at": "2026-06-30T23:35:10Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "CLI Auth: Make token endpoint optional",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8379",
+        "labels": [
+            "type/enhancement",
+            "area/rest",
+            "area/CLI",
+            "help wanted"
+        ],
+        "created_at": "2026-06-25T11:12:49Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "fix(operator): publish multi-arch operator images (ARM64 support)",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8278",
+        "labels": [
+            "area/operator",
+            "help wanted"
+        ],
+        "created_at": "2026-06-17T10:27:20Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "refactor: simplify compatibility checker type hierarchy",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8184",
+        "labels": [
+            "area/serdes",
+            "area/rules",
+            "area/rules/integrity",
+            "area/rules/validity",
+            "help wanted"
+        ],
+        "created_at": "2026-06-10T09:41:11Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "CLI: Config class refactor",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8030",
+        "labels": [
+            "area/CLI",
+            "help wanted"
+        ],
+        "created_at": "2026-05-18T22:07:42Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "CLI: Dynamic help text via picocli command tree walking",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8028",
+        "labels": [
+            "area/rules",
+            "area/documentation",
+            "area/CLI",
+            "help wanted"
+        ],
+        "created_at": "2026-05-18T22:07:40Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "CLI: Verbose logging should print raw request and response details",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8027",
+        "labels": [
+            "area/rest",
+            "area/sdk",
+            "area/observability",
+            "area/CLI",
+            "help wanted"
+        ],
+        "created_at": "2026-05-18T22:07:39Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "CLI: Review short property names across all commands",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8024",
+        "labels": [
+            "area/CLI",
+            "area/build",
+            "help wanted"
+        ],
+        "created_at": "2026-05-18T22:07:37Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "CLI: Auto context update \u2014 set group/artifact in context after operations",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8022",
+        "labels": [
+            "area/build",
+            "help wanted"
+        ],
+        "created_at": "2026-05-18T22:07:35Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Search API: inconsistent matching behavior across name fields",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8002",
+        "labels": [
+            "area/CLI",
+            "area/search",
+            "help wanted"
+        ],
+        "created_at": "2026-05-13T15:29:43Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Write a blog post introducing the Apicurio Registry CLI",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7902",
+        "labels": [
+            "type/enhancement",
+            "area/CLI",
+            "help wanted"
+        ],
+        "created_at": "2026-05-01T01:02:17Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Publish arm64 images for apicurio-registry-3-operator",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7665",
+        "labels": [
+            "type/enhancement",
+            "area/operator",
+            "area/build",
+            "help wanted"
+        ],
+        "created_at": "2026-03-28T16:03:40Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Improve compatibility rule documentation with detailed allowed/disallowed changes per schema type",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7636",
+        "labels": [
+            "type/enhancement",
+            "priority/normal",
+            "area/rules/compatibility",
+            "area/documentation",
+            "help wanted"
+        ],
+        "created_at": "2026-03-25T10:52:15Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Add API endpoints to list valid enumeration values for rule types",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7634",
+        "labels": [
+            "type/enhancement",
+            "priority/normal",
+            "area/rest",
+            "area/rules",
+            "help wanted"
+        ],
+        "created_at": "2026-03-25T10:41:27Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Remove deprecated KafkaSQL message classes (v8, v9, v10)",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7337",
+        "labels": [
+            "type/task",
+            "area/storage/kafkasql",
+            "help wanted"
+        ],
+        "created_at": "2026-02-10T12:29:43Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Remove Java SDK v2 module alongside REST API v2 deprecation",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7336",
+        "labels": [
+            "type/task",
+            "area/sdk/java",
+            "help wanted"
+        ],
+        "created_at": "2026-02-10T12:29:36Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Consolidate serdes constructor patterns with factory methods",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7320",
+        "labels": [
+            "type/task",
+            "type/quality",
+            "area/serdes",
+            "help wanted"
+        ],
+        "created_at": "2026-02-10T08:51:47Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Create content canonicalizer base class with template method",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7316",
+        "labels": [
+            "type/task",
+            "type/quality",
+            "help wanted"
+        ],
+        "created_at": "2026-02-10T08:50:24Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Support Apicurio Registry Terraform Provider",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/7210",
+        "labels": [
+            "type/enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-01-28T06:47:20Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Add UI support for creating references",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/6033",
+        "labels": [
+            "type/enhancement",
+            "priority/normal",
+            "area/ui",
+            "version/3.x",
+            "help wanted"
+        ],
+        "created_at": "2025-03-10T11:47:05Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "make ArtifactReferenceResolverStrategy configurable",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/5459",
+        "labels": [
+            "type/enhancement",
+            "priority/normal",
+            "area/serdes",
+            "version/3.x",
+            "help wanted"
+        ],
+        "created_at": "2024-11-01T18:02:30Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Improve docs to support browser based integrations and overcoming CORS issues",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/5322",
+        "labels": [
+            "type/task",
+            "priority/normal",
+            "area/documentation",
+            "help wanted"
+        ],
+        "created_at": "2024-10-08T17:37:48Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Consume dereference blog post to update references documentation",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/5088",
+        "labels": [
+            "type/task",
+            "priority/normal",
+            "area/documentation",
+            "help wanted"
+        ],
+        "created_at": "2024-08-28T12:52:35Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Improve error messages for compatibility checking",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/5066",
+        "labels": [
+            "type/enhancement",
+            "priority/normal",
+            "area/rules/compatibility",
+            "help wanted"
+        ],
+        "created_at": "2024-08-22T13:09:27Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Artifact content not shown because Monaco Editor fails to load from CDN on isolated network",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/5035",
+        "labels": [
+            "type/bug",
+            "priority/normal",
+            "area/ui",
+            "version/3.x",
+            "help wanted"
+        ],
+        "created_at": "2024-08-15T11:39:41Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Run npm audit fix / npm audit fix --force in a GH workflow",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/4828",
+        "labels": [
+            "type/enhancement",
+            "area/ui",
+            "help wanted"
+        ],
+        "created_at": "2024-06-27T10:09:46Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Update SDK generation documentation for v3",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/4801",
+        "labels": [
+            "type/task",
+            "priority/normal",
+            "area/documentation",
+            "help wanted"
+        ],
+        "created_at": "2024-06-18T16:34:09Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Make kafka connect converters compatible with `ServiceLoad` mode of `plugin.discovery`",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/4707",
+        "labels": [
+            "type/enhancement",
+            "area/serdes",
+            "version/3.x",
+            "help wanted"
+        ],
+        "created_at": "2024-05-28T10:33:05Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Gradle plugin with functionality equivalent to the Maven plugin",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/3485",
+        "labels": [
+            "type/enhancement",
+            "priority/normal",
+            "area/ui",
+            "help wanted"
+        ],
+        "created_at": "2023-07-03T18:01:06Z"
     },
     {
         "repo": "nats-io/nats-server",
