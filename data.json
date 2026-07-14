@@ -5209,23 +5209,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "ConcurrentModificationException in OrganizationAdapter.setAttributes on concurrent PUT /organizations/{id}",
-        "url": "https://github.com/keycloak/keycloak/issues/50590",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "area/organizations"
-        ],
-        "created_at": "2026-07-03T11:57:27Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Organization Membership mapper omits the claim for users with zero organizations instead of emitting an empty value",
         "url": "https://github.com/keycloak/keycloak/issues/50410",
         "labels": [
@@ -5695,6 +5678,22 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-15T12:54:55Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "[OID4VCI] Pre-Authorized Code Replay",
+        "url": "https://github.com/keycloak/keycloak/issues/48902",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/oid4vc",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-12T02:29:50Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6506,21 +6505,6 @@
             "cli:other"
         ],
         "created_at": "2026-07-06T05:38:38Z"
-    },
-    {
-        "repo": "kyverno/kyverno",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "[Bug] GeneratingPolicy seems to not support apiVersions wildcards in matchConstraints.",
-        "url": "https://github.com/kyverno/kyverno/issues/16404",
-        "labels": [
-            "bug",
-            "good first issue",
-            "generation",
-            "triage",
-            "cel:GeneratingPolicy"
-        ],
-        "created_at": "2026-06-30T14:43:19Z"
     },
     {
         "repo": "kyverno/kyverno",
@@ -8546,6 +8530,32 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Exercise the `k8s_configmap` BundlePublisher plugin in `k8s` integration tests",
+        "url": "https://github.com/spiffe/spire/issues/6127",
+        "labels": [
+            "help wanted",
+            "priority/backlog",
+            "stale"
+        ],
+        "created_at": "2025-06-11T19:20:38Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "IMDSv2 Requirement Breaks aws_mysql and aws_postgres Authentication",
+        "url": "https://github.com/spiffe/spire/issues/6118",
+        "labels": [
+            "help wanted",
+            "priority/backlog",
+            "stale"
+        ],
+        "created_at": "2025-06-07T00:23:19Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "CVEs in dependencies, support for VEX?",
         "url": "https://github.com/spiffe/spire/issues/6054",
         "labels": [
@@ -8743,38 +8753,14 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Allow workloads to receive federated bundles without having to specify them on a per-entry basis",
-        "url": "https://github.com/spiffe/spire/issues/2272",
+        "title": "Consider introducing a \"bootstrap entries\" feature for configuring static entries",
+        "url": "https://github.com/spiffe/spire/issues/2626",
         "labels": [
             "help wanted",
             "priority/backlog",
-            "unscoped"
+            "stale"
         ],
-        "created_at": "2021-05-10T19:58:38Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "JWT signing key validity period not considered in calculation of bundle \"spiffe_refresh_hint\" ",
-        "url": "https://github.com/spiffe/spire/issues/2256",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2021-05-06T15:18:37Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Investigate upgrading gorm library",
-        "url": "https://github.com/spiffe/spire/issues/1832",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2020-09-10T16:40:28Z"
+        "created_at": "2021-11-16T17:52:59Z"
     },
     {
         "repo": "carina-io/carina",
@@ -20688,7 +20674,9 @@
         "title": "Fix GraphQL content-type auto-detection in ContentTypeUtil",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8557",
         "labels": [
+            "type/bug",
             "Beginner Friendly",
+            "area/rest",
             "area/storage",
             "area/sdk",
             "area/storage/sql",
@@ -20703,8 +20691,10 @@
         "title": "[Docs] Update outdated version references and add missing kubernetesops storage variant in README.md",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8543",
         "labels": [
+            "type/task",
             "Beginner Friendly",
             "area/storage",
+            "area/documentation",
             "area/operator",
             "area/storage/gitops",
             "area/build",
@@ -20733,8 +20723,10 @@
         "title": "README UI getting-started lacks Windows instructions; only `./init-dev.sh` documented with no PowerShell/batch equivalent",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8532",
         "labels": [
+            "type/task",
             "Beginner Friendly",
             "area/ui",
+            "area/documentation",
             "area/sdk",
             "area/examples",
             "area/CLI",
@@ -21060,6 +21052,8 @@
         "title": "Tab Documentation is empty",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8446",
         "labels": [
+            "type/bug",
+            "area/ui",
             "area/rest",
             "area/documentation",
             "area/sdk",
@@ -28602,18 +28596,6 @@
         "repo": "fluent/fluentd",
         "tier": "Graduated",
         "lang": "Ruby",
-        "title": "System config: add umask option",
-        "url": "https://github.com/fluent/fluentd/issues/4816",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2025-02-03T02:31:29Z"
-    },
-    {
-        "repo": "fluent/fluentd",
-        "tier": "Graduated",
-        "lang": "Ruby",
         "title": "emit warning along with unmatched line",
         "url": "https://github.com/fluent/fluentd/issues/3501",
         "labels": [
@@ -29899,18 +29881,6 @@
             "plugin"
         ],
         "created_at": "2026-02-03T14:10:23Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Table: Pagination setting does not work in full view mode",
-        "url": "https://github.com/perses/perses/issues/3832",
-        "labels": [
-            "good first issue",
-            "ui"
-        ],
-        "created_at": "2026-02-03T13:30:20Z"
     },
     {
         "repo": "perses/perses",
