@@ -2507,20 +2507,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs]: Sidebar navigation stays dark in light mode",
-        "url": "https://github.com/meshery/meshery/issues/20649",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-14T12:39:42Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Improve mobile docs sidebar behavior on interaction",
         "url": "https://github.com/meshery/meshery/issues/20591",
         "labels": [
@@ -2884,6 +2870,19 @@
             "framework/hugo"
         ],
         "created_at": "2026-05-28T21:33:11Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "fix(e2e): stabilize DesignPage.navigateTo() in beforeEach",
+        "url": "https://github.com/meshery/meshery/issues/19650",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-05-24T09:06:54Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -23683,19 +23682,6 @@
             "area/provider"
         ],
         "created_at": "2026-05-22T05:34:13Z"
-    },
-    {
-        "repo": "kubevela/kubevela",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Built-in trait type storage should gracefully patch resources.",
-        "url": "https://github.com/kubevela/kubevela/issues/6841",
-        "labels": [
-            "good first issue",
-            "area/trait",
-            "hacktoberfest"
-        ],
-        "created_at": "2025-07-30T16:00:40Z"
     },
     {
         "repo": "kubevela/kubevela",
