@@ -8546,19 +8546,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Exercise the `k8s_configmap` BundlePublisher plugin in `k8s` integration tests",
-        "url": "https://github.com/spiffe/spire/issues/6127",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "stale"
-        ],
-        "created_at": "2025-06-11T19:20:38Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "CVEs in dependencies, support for VEX?",
         "url": "https://github.com/spiffe/spire/issues/6054",
         "labels": [
@@ -8640,19 +8627,6 @@
             "priority/backlog"
         ],
         "created_at": "2024-07-11T04:07:02Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Change example configurations to use a persistent KeyManager",
-        "url": "https://github.com/spiffe/spire/issues/5197",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "stale"
-        ],
-        "created_at": "2024-06-06T19:02:33Z"
     },
     {
         "repo": "spiffe/spire",
@@ -8769,14 +8743,38 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Fix the \"expiring\" and \"outdated\" metrics emitted during entry sync to be accurate across the whole cache",
-        "url": "https://github.com/spiffe/spire/issues/2437",
+        "title": "Allow workloads to receive federated bundles without having to specify them on a per-entry basis",
+        "url": "https://github.com/spiffe/spire/issues/2272",
         "labels": [
             "help wanted",
             "priority/backlog",
-            "stale"
+            "unscoped"
         ],
-        "created_at": "2021-08-03T16:47:55Z"
+        "created_at": "2021-05-10T19:58:38Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "JWT signing key validity period not considered in calculation of bundle \"spiffe_refresh_hint\" ",
+        "url": "https://github.com/spiffe/spire/issues/2256",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2021-05-06T15:18:37Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Investigate upgrading gorm library",
+        "url": "https://github.com/spiffe/spire/issues/1832",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2020-09-10T16:40:28Z"
     },
     {
         "repo": "carina-io/carina",
@@ -17029,6 +17027,32 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "rlqs: Support percentage/ratio-based rate limit strategies",
+        "url": "https://github.com/envoyproxy/envoy/issues/46086",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/ratelimit"
+        ],
+        "created_at": "2026-07-10T21:32:40Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "Reporting Interval not configurable from EnvoyFilters.",
+        "url": "https://github.com/envoyproxy/envoy/issues/46033",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/ratelimit"
+        ],
+        "created_at": "2026-07-08T09:12:25Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "dynamic_modules/tls: support auto_host_sni for runtime hosts and SNI-scoped session reuse",
         "url": "https://github.com/envoyproxy/envoy/issues/45962",
         "labels": [
@@ -17402,33 +17426,6 @@
             "area/ext_proc"
         ],
         "created_at": "2025-10-29T18:59:23Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "wasm: access log extension point is not thread safe",
-        "url": "https://github.com/envoyproxy/envoy/issues/41672",
-        "labels": [
-            "bug",
-            "help wanted",
-            "area/wasm"
-        ],
-        "created_at": "2025-10-23T21:20:28Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "Feature request: Add overload action to restart Envoy when it gets stuck",
-        "url": "https://github.com/envoyproxy/envoy/issues/41492",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "no stalebot",
-            "area/overload_manager"
-        ],
-        "created_at": "2025-10-14T09:02:59Z"
     },
     {
         "repo": "loxilb-io/loxilb",
