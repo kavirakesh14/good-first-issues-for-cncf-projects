@@ -2507,6 +2507,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs]: Sidebar navigation stays dark in light mode",
+        "url": "https://github.com/meshery/meshery/issues/20649",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-14T12:39:42Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Improve mobile docs sidebar behavior on interaction",
         "url": "https://github.com/meshery/meshery/issues/20591",
         "labels": [
@@ -2870,19 +2884,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-05-28T21:33:11Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "fix(e2e): stabilize DesignPage.navigateTo() in beforeEach",
-        "url": "https://github.com/meshery/meshery/issues/19650",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-05-24T09:06:54Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -6537,6 +6538,20 @@
         "repo": "kyverno/kyverno",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "[Bug] (kyverno-policies Chart) using vpolExclude with excludeNamespaces causing background-scan errors",
+        "url": "https://github.com/kyverno/kyverno/issues/16002",
+        "labels": [
+            "bug",
+            "good first issue",
+            "helm",
+            "triage"
+        ],
+        "created_at": "2026-04-30T14:19:54Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "[Feature] Warn wildcard policies",
         "url": "https://github.com/kyverno/kyverno/issues/15488",
         "labels": [
@@ -6558,6 +6573,19 @@
             "type:controller"
         ],
         "created_at": "2026-02-15T18:04:11Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[Bug] Set a default value for the user info in CEL",
+        "url": "https://github.com/kyverno/kyverno/issues/14281",
+        "labels": [
+            "bug",
+            "good first issue",
+            "validate.cel"
+        ],
+        "created_at": "2025-11-03T15:40:41Z"
     },
     {
         "repo": "kyverno/kyverno",
@@ -17453,6 +17481,18 @@
         "repo": "metallb/metallb",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Support disabling metrics endpoint",
+        "url": "https://github.com/metallb/metallb/issues/3095",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-07-10T10:23:17Z"
+    },
+    {
+        "repo": "metallb/metallb",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Deprecated MetalLB managed annotations not removed from service on upgrade",
         "url": "https://github.com/metallb/metallb/issues/2642",
         "labels": [
@@ -20769,20 +20809,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "feat(build): add -Dquick profile to parent POM for fast builds",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8355",
-        "labels": [
-            "Beginner Friendly",
-            "area/CI",
-            "area/build",
-            "good first issue"
-        ],
-        "created_at": "2026-06-23T17:07:53Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "Ensure Content Download honors Content MIME-TYPE and it's file extension",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8172",
         "labels": [
@@ -21186,19 +21212,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "Search API: inconsistent matching behavior across name fields",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8002",
-        "labels": [
-            "area/CLI",
-            "area/search",
-            "help wanted"
-        ],
-        "created_at": "2026-05-13T15:29:43Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "Write a blog post introducing the Apicurio Registry CLI",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/7902",
         "labels": [
@@ -21458,6 +21471,19 @@
             "help wanted"
         ],
         "created_at": "2023-07-03T18:01:06Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Document the development workflow for making changes to the API",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/2657",
+        "labels": [
+            "type/task",
+            "priority/normal",
+            "help wanted"
+        ],
+        "created_at": "2022-07-27T11:41:14Z"
     },
     {
         "repo": "nats-io/nats-server",
@@ -24377,6 +24403,18 @@
             "domain/ui-components/reviewed"
         ],
         "created_at": "2025-12-02T14:02:55Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Unable to launch Podman Extension tests locally",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/14456",
+        "labels": [
+            "good first issue",
+            "domain/technical-debt"
+        ],
+        "created_at": "2025-10-17T13:31:33Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -28810,17 +28848,6 @@
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
         "lang": "C",
-        "title": "gadgets/trace_fsslower: Complete Guide (missing kubectl-gadget examples + typo)",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5636",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-07-09T09:40:26Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
         "title": "gadgets/trace_ssl: Add missing documentation Guide section",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5634",
         "labels": [
@@ -29152,6 +29179,19 @@
             "kind/new-gadget"
         ],
         "created_at": "2023-06-22T10:38:45Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "[RFE] Integration tests for Podman",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1650",
+        "labels": [
+            "good first issue",
+            "container-runtime",
+            "area/testing"
+        ],
+        "created_at": "2023-05-19T09:17:53Z"
     },
     {
         "repo": "jaegertracing/jaeger",
