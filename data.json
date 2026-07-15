@@ -6495,21 +6495,6 @@
         "repo": "kyverno/kyverno",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "[Bug] [CLI] kyverno migrate succeeds when --resource is not provided",
-        "url": "https://github.com/kyverno/kyverno/issues/16470",
-        "labels": [
-            "bug",
-            "good first issue",
-            "type:cli",
-            "triage",
-            "cli:other"
-        ],
-        "created_at": "2026-07-06T05:38:38Z"
-    },
-    {
-        "repo": "kyverno/kyverno",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "[Feature] CEL-aware Grafana dashboard for ValidatingPolicy/MutatingPolicy/GeneratingPolicy",
         "url": "https://github.com/kyverno/kyverno/issues/16025",
         "labels": [
@@ -13678,6 +13663,18 @@
         "repo": "kai-scheduler/KAI-Scheduler",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "feat(scheduler): allow jobs to override stale gang eviction grace period",
+        "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/1913",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-07-15T07:26:39Z"
+    },
+    {
+        "repo": "kai-scheduler/KAI-Scheduler",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Allow for integration test generations based on a snapshot",
         "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/903",
         "labels": [
@@ -19253,6 +19250,7 @@
         "labels": [
             "good first issue",
             "triage/accepted",
+            "triage/stale",
             "kind/feature"
         ],
         "created_at": "2025-02-24T16:10:58Z"
@@ -30194,19 +30192,6 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Tempo: support the v2 of the API",
-        "url": "https://github.com/perses/perses/issues/3961",
-        "labels": [
-            "help wanted",
-            "priority/P2",
-            "plugin"
-        ],
-        "created_at": "2026-03-17T08:50:09Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Plugin Request: Weathermap Panel",
         "url": "https://github.com/perses/perses/issues/3845",
         "labels": [
@@ -31391,19 +31376,6 @@
             "package: objstore"
         ],
         "created_at": "2024-10-28T12:46:19Z"
-    },
-    {
-        "repo": "thanos-io/thanos",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Implement v2 remote_write",
-        "url": "https://github.com/thanos-io/thanos/issues/7791",
-        "labels": [
-            "feature request/improvement",
-            "help wanted",
-            "component: receive"
-        ],
-        "created_at": "2024-10-01T13:10:30Z"
     },
     {
         "repo": "thanos-io/thanos",
