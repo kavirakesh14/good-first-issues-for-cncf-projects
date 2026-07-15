@@ -4997,7 +4997,7 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "lifecycle/stale"
+            "lifecycle/rotten"
         ],
         "created_at": "2025-06-09T05:22:39Z"
     },
@@ -8424,6 +8424,18 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "bootstrapping trust bundle from another workload api",
+        "url": "https://github.com/spiffe/spire/issues/7124",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2026-07-07T11:01:26Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Support Azure Database for PostgreSQL AAD token refresh in SPIRE SQL datastore",
         "url": "https://github.com/spiffe/spire/issues/6958",
         "labels": [
@@ -8561,8 +8573,7 @@
         "url": "https://github.com/spiffe/spire/issues/6127",
         "labels": [
             "help wanted",
-            "priority/backlog",
-            "stale"
+            "priority/backlog"
         ],
         "created_at": "2025-06-11T19:20:38Z"
     },
@@ -8574,8 +8585,7 @@
         "url": "https://github.com/spiffe/spire/issues/6118",
         "labels": [
             "help wanted",
-            "priority/backlog",
-            "stale"
+            "priority/backlog"
         ],
         "created_at": "2025-06-07T00:23:19Z"
     },
@@ -8775,19 +8785,6 @@
             "priority/backlog"
         ],
         "created_at": "2022-01-31T19:43:11Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Consider introducing a \"bootstrap entries\" feature for configuring static entries",
-        "url": "https://github.com/spiffe/spire/issues/2626",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "stale"
-        ],
-        "created_at": "2021-11-16T17:52:59Z"
     },
     {
         "repo": "carina-io/carina",
@@ -12193,7 +12190,8 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "open-cluster-management"
+            "open-cluster-management",
+            "stale"
         ],
         "created_at": "2021-01-28T02:22:51Z"
     },
@@ -23261,19 +23259,6 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Add support for SOURCE_DATE_EPOCH in reproducible builds",
-        "url": "https://github.com/helm/helm/issues/31439",
-        "labels": [
-            "help wanted",
-            "feature",
-            "keep open"
-        ],
-        "created_at": "2025-10-29T17:14:15Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Remove work-arounds once oras-go creates patch release",
         "url": "https://github.com/helm/helm/issues/31386",
         "labels": [
@@ -23498,6 +23483,19 @@
             "bug"
         ],
         "created_at": "2021-05-14T21:05:08Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Respect helm.sh/resource-policy annotation of remote resource",
+        "url": "https://github.com/helm/helm/issues/8132",
+        "labels": [
+            "help wanted",
+            "feature",
+            "keep open"
+        ],
+        "created_at": "2020-05-15T02:42:48Z"
     },
     {
         "repo": "ko-build/ko",
