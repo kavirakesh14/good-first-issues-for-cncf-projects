@@ -11071,20 +11071,6 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Manifests: No tests for doing API manifests/imagename&images=foo",
-        "url": "https://github.com/podman-container-tools/podman/issues/22258",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "volunteers-wanted",
-            "Contribfest"
-        ],
-        "created_at": "2024-04-04T12:49:48Z"
-    },
-    {
-        "repo": "containers/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "PUT /containers/{id}/archive behaves differently to docker.",
         "url": "https://github.com/podman-container-tools/podman/issues/21861",
         "labels": [
@@ -11207,6 +11193,17 @@
             "Contribfest"
         ],
         "created_at": "2023-04-24T23:25:07Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Support local volumes with a lifetime longer than that of the podman host",
+        "url": "https://github.com/podman-container-tools/podman/issues/18075",
+        "labels": [
+            "Good First Issue"
+        ],
+        "created_at": "2023-04-05T21:03:08Z"
     },
     {
         "repo": "urunc-dev/urunc",
@@ -11539,47 +11536,6 @@
             "help wanted"
         ],
         "created_at": "2023-10-26T09:42:43Z"
-    },
-    {
-        "repo": "WasmEdge/WasmEdge",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "bug: the test case should trigger `misaligned pointer` error, but it returns OOB now",
-        "url": "https://github.com/WasmEdge/WasmEdge/issues/2881",
-        "labels": [
-            "bug",
-            "help wanted",
-            "Hacktoberfest"
-        ],
-        "created_at": "2023-09-26T08:56:18Z"
-    },
-    {
-        "repo": "WasmEdge/WasmEdge",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "fuzz: Do not terminate while executing the given testcase due to `misaligned pointer`",
-        "url": "https://github.com/WasmEdge/WasmEdge/issues/2733",
-        "labels": [
-            "bug",
-            "help wanted",
-            "question",
-            "priority:low",
-            "fuzz-different-behavior"
-        ],
-        "created_at": "2023-08-10T13:11:59Z"
-    },
-    {
-        "repo": "WasmEdge/WasmEdge",
-        "tier": "Sandbox",
-        "lang": "C++",
-        "title": "bug: when encounter `misaligned pointers`, WasmEdge should trap",
-        "url": "https://github.com/WasmEdge/WasmEdge/issues/2694",
-        "labels": [
-            "bug",
-            "help wanted",
-            "Hacktoberfest"
-        ],
-        "created_at": "2023-07-27T12:15:33Z"
     },
     {
         "repo": "WasmEdge/WasmEdge",
@@ -12247,7 +12203,8 @@
         "url": "https://github.com/agones-dev/agones/issues/4590",
         "labels": [
             "help wanted",
-            "kind/cleanup"
+            "kind/cleanup",
+            "awaiting-maintainer"
         ],
         "created_at": "2026-05-31T21:40:19Z"
     },
@@ -12259,7 +12216,9 @@
         "url": "https://github.com/agones-dev/agones/issues/4572",
         "labels": [
             "help wanted",
-            "area/security"
+            "area/security",
+            "stale",
+            "awaiting-maintainer"
         ],
         "created_at": "2026-05-16T18:58:33Z"
     },
@@ -19250,7 +19209,6 @@
         "labels": [
             "good first issue",
             "triage/accepted",
-            "triage/stale",
             "kind/feature"
         ],
         "created_at": "2025-02-24T16:10:58Z"
@@ -24316,6 +24274,19 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Capitalize Username in add Registry form.",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/18308",
+        "labels": [
+            "good first issue",
+            "status/need-triage",
+            "UX/UI Issue"
+        ],
+        "created_at": "2026-07-15T14:34:05Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Too long error message overflows from Adding the registry dialog",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/16666",
         "labels": [
@@ -27357,7 +27328,7 @@
         "created_at": "2026-02-16T14:37:39Z"
     },
     {
-        "repo": "truefoundry/KubeElasti",
+        "repo": "KubeElasti/KubeElasti",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "[REFACTORING] Centralise config management for resolver and controller",
@@ -27369,7 +27340,7 @@
         "created_at": "2025-12-23T10:05:11Z"
     },
     {
-        "repo": "truefoundry/KubeElasti",
+        "repo": "KubeElasti/KubeElasti",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "[REFACTORING] Deprecate deployments, rollouts in kind under ScaleTargetRef",
@@ -27381,7 +27352,7 @@
         "created_at": "2025-09-24T11:49:12Z"
     },
     {
-        "repo": "truefoundry/KubeElasti",
+        "repo": "KubeElasti/KubeElasti",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "[E2E Tests] Extend the existing integration tests.",
@@ -27956,18 +27927,6 @@
             "old-issues"
         ],
         "created_at": "2019-12-20T12:19:55Z"
-    },
-    {
-        "repo": "krkn-chaos/krkn",
-        "tier": "Sandbox",
-        "lang": "Python",
-        "title": "Add `node-network-chaos` krknctl scenario image for the NG node-level network chaos module",
-        "url": "https://github.com/krkn-chaos/krkn/issues/1452",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-07-08T02:55:37Z"
     },
     {
         "repo": "krkn-chaos/krkn",
@@ -29887,7 +29846,8 @@
         "url": "https://github.com/perses/perses/issues/3835",
         "labels": [
             "good first issue",
-            "ui"
+            "ui",
+            "plugin"
         ],
         "created_at": "2026-02-03T15:56:41Z"
     },
