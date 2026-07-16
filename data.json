@@ -3161,6 +3161,19 @@
         "repo": "opentofu/opentofu",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Incorrect warnings produced during `plan -replace`",
+        "url": "https://github.com/opentofu/opentofu/issues/4368",
+        "labels": [
+            "bug",
+            "good first issue",
+            "accepted"
+        ],
+        "created_at": "2026-07-16T11:29:59Z"
+    },
+    {
+        "repo": "opentofu/opentofu",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Investigate and fix documentation around `replace_triggered_by`",
         "url": "https://github.com/opentofu/opentofu/issues/4348",
         "labels": [
@@ -5192,6 +5205,25 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Flaky Admin UI E2E test: `initial-access.spec.ts`",
+        "url": "https://github.com/keycloak/keycloak/issues/50944",
+        "labels": [
+            "kind/bug",
+            "area/ci",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/continuous-delivery"
+        ],
+        "created_at": "2026-07-16T11:57:21Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Exporting a realm with users says it needs file parameter, which is provided",
         "url": "https://github.com/keycloak/keycloak/issues/50700",
         "labels": [
@@ -5678,22 +5710,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-15T12:54:55Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[OID4VCI] Pre-Authorized Code Replay",
-        "url": "https://github.com/keycloak/keycloak/issues/48902",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/oid4vc",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-12T02:29:50Z"
     },
     {
         "repo": "keylime/keylime",
@@ -19764,6 +19780,19 @@
         "created_at": "2025-06-23T12:38:35Z"
     },
     {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Login page: spacing between intro text and community links collapses on narrow/short viewports",
+        "url": "https://github.com/openeverest/openeverest/issues/2568",
+        "labels": [
+            "bug",
+            "good first issue",
+            "ui"
+        ],
+        "created_at": "2026-07-16T08:34:03Z"
+    },
+    {
         "repo": "openGemini/openGemini",
         "tier": "Sandbox",
         "lang": "Go",
@@ -24270,19 +24299,6 @@
             "keep open"
         ],
         "created_at": "2025-12-15T06:21:54Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Capitalize Username in add Registry form.",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18308",
-        "labels": [
-            "good first issue",
-            "status/need-triage",
-            "UX/UI Issue"
-        ],
-        "created_at": "2026-07-15T14:34:05Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -29762,6 +29778,21 @@
             "pinned"
         ],
         "created_at": "2020-12-18T17:28:29Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[FEATURE] Support server-side default configuration for user preferences (timezone, rows per page, theme)",
+        "url": "https://github.com/perses/perses/issues/4265",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "ui",
+            "api",
+            "priority/P2"
+        ],
+        "created_at": "2026-07-16T10:33:19Z"
     },
     {
         "repo": "perses/perses",
