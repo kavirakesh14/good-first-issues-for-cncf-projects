@@ -10574,6 +10574,20 @@
         "repo": "lima-vm/lima",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Meeting information in `README.md` does not match the regexp used by CLO monitor",
+        "url": "https://github.com/lima-vm/lima/issues/5260",
+        "labels": [
+            "documentation",
+            "good first issue",
+            "area/project",
+            "cncf"
+        ],
+        "created_at": "2026-07-16T06:25:29Z"
+    },
+    {
+        "repo": "lima-vm/lima",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "change `type Foo = string` to `type Foo string` for strict type checking",
         "url": "https://github.com/lima-vm/lima/issues/5142",
         "labels": [
@@ -28581,18 +28595,6 @@
             "help wanted"
         ],
         "created_at": "2025-01-30T09:05:37Z"
-    },
-    {
-        "repo": "fluent/fluentd",
-        "tier": "Graduated",
-        "lang": "Ruby",
-        "title": "Fluentd Forwarder pods getting flooded with warning messages when used in  \"Forwarder-Aggregator\" mode.",
-        "url": "https://github.com/fluent/fluentd/issues/4057",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2023-02-15T14:16:46Z"
     },
     {
         "repo": "fluent/fluentd",
