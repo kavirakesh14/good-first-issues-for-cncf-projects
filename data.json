@@ -16289,17 +16289,6 @@
         "created_at": "2025-04-02T22:14:00Z"
     },
     {
-        "repo": "k8gb-io/k8gb",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Document the case of when a load balancing configuration is not deployed in every cluster",
-        "url": "https://github.com/k8gb-io/k8gb/issues/1348",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2023-12-14T11:56:24Z"
-    },
-    {
         "repo": "bfenetworks/bfe",
         "tier": "Sandbox",
         "lang": "Go",
@@ -16994,6 +16983,33 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "Ext Proc to Support Session Affinity",
+        "url": "https://github.com/envoyproxy/envoy/issues/46159",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/ext_proc"
+        ],
+        "created_at": "2026-07-15T21:22:39Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "Envoys do not use previous secret discovery provider when fetch timeout is changed",
+        "url": "https://github.com/envoyproxy/envoy/issues/46155",
+        "labels": [
+            "bug",
+            "help wanted",
+            "area/xds",
+            "area/sds"
+        ],
+        "created_at": "2026-07-15T17:10:25Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "rlqs: Support percentage/ratio-based rate limit strategies",
         "url": "https://github.com/envoyproxy/envoy/issues/46086",
         "labels": [
@@ -17053,20 +17069,6 @@
             "area/hot_restart"
         ],
         "created_at": "2026-06-29T04:26:57Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "Redis cluster zone-discovery UAF on overlapping CLUSTER SLOTS refresh",
-        "url": "https://github.com/envoyproxy/envoy/issues/45870",
-        "labels": [
-            "bug",
-            "help wanted",
-            "no stalebot",
-            "area/redis"
-        ],
-        "created_at": "2026-06-29T04:08:02Z"
     },
     {
         "repo": "envoyproxy/envoy",
@@ -17378,21 +17380,6 @@
             "area/compression"
         ],
         "created_at": "2025-11-07T10:24:03Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "feat: Credential Injection for ext_authz and ext_proc calls",
-        "url": "https://github.com/envoyproxy/envoy/issues/41767",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "no stalebot",
-            "area/ext_authz",
-            "area/ext_proc"
-        ],
-        "created_at": "2025-10-29T18:59:23Z"
     },
     {
         "repo": "loxilb-io/loxilb",
