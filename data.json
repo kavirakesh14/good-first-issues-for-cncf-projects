@@ -2523,20 +2523,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Broken inline images on Docker Extension installation page (v0.8 and v0.9)",
-        "url": "https://github.com/meshery/meshery/issues/20547",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-08T21:32:42Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] make clean runs two full site builds and never empties the build cache",
         "url": "https://github.com/meshery/meshery/issues/20546",
         "labels": [
@@ -2735,20 +2721,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Improve code block copy button feedback and spacing",
-        "url": "https://github.com/meshery/meshery/issues/20213",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-23T21:02:32Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Sidebar Button Clicks Automatically Scroll Page to Top",
         "url": "https://github.com/meshery/meshery/issues/20209",
         "labels": [
@@ -2885,6 +2857,21 @@
             "area/devops"
         ],
         "created_at": "2026-05-24T09:06:54Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[mesheryctl] CLI reference docs should not include \"/home/runner/....\"",
+        "url": "https://github.com/meshery/meshery/issues/19419",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "component/mesheryctl",
+            "language/go",
+            "github-actions"
+        ],
+        "created_at": "2026-05-14T23:17:22Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4819,19 +4806,6 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Delinea SecretServer: Login with API token",
-        "url": "https://github.com/external-secrets/external-secrets/issues/3977",
-        "labels": [
-            "good first issue",
-            "kind/feature",
-            "track/providers"
-        ],
-        "created_at": "2024-10-02T18:01:51Z"
-    },
-    {
-        "repo": "external-secrets/external-secrets",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "SecretStoreRetrySettings.RetryInterval should be *metav1.Duration instead of a pointer of string",
         "url": "https://github.com/external-secrets/external-secrets/issues/2761",
         "labels": [
@@ -5191,25 +5165,6 @@
             "area/admin/client-js"
         ],
         "created_at": "2022-01-05T10:15:36Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Flaky Admin UI E2E test: `initial-access.spec.ts`",
-        "url": "https://github.com/keycloak/keycloak/issues/50944",
-        "labels": [
-            "kind/bug",
-            "area/ci",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/continuous-delivery"
-        ],
-        "created_at": "2026-07-16T11:57:21Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5702,6 +5657,25 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-12T02:29:50Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Choosing locale with READ_ONLY ldap isn\u2019t handled gracefully",
+        "url": "https://github.com/keycloak/keycloak/issues/48850",
+        "labels": [
+            "kind/bug",
+            "area/account/ui",
+            "area/ldap",
+            "help wanted",
+            "team/core-iam",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-05-09T05:04:46Z"
     },
     {
         "repo": "keylime/keylime",
@@ -20999,19 +20973,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "Add missing HSTS headers to error pages",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/2411",
-        "labels": [
-            "Beginner Friendly",
-            "priority/normal",
-            "good first issue"
-        ],
-        "created_at": "2022-04-07T17:06:38Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "Use the attribute `version` of the specification to register an artifact by UI",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/1788",
         "labels": [
@@ -23573,6 +23534,21 @@
             "lifecycle/frozen"
         ],
         "created_at": "2019-09-02T15:56:58Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Feature] Expose HTTP timeout in built-in workflow steps",
+        "url": "https://github.com/kubevela/kubevela/issues/7241",
+        "labels": [
+            "type/enhancement",
+            "good first issue",
+            "help wanted",
+            "effort/small",
+            "area/workflow"
+        ],
+        "created_at": "2026-07-17T09:48:46Z"
     },
     {
         "repo": "kubevela/kubevela",
@@ -29628,17 +29604,6 @@
             "question"
         ],
         "created_at": "2024-02-16T10:11:24Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Create err for `dcgm-exporter endpoint not reachable`",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2430",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-02-26T08:12:43Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
