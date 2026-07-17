@@ -2283,20 +2283,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Deprecated word-wrap property used in _table.scss \u2014 should be overflow-wrap",
-        "url": "https://github.com/meshery/meshery/issues/18418",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "area/docs",
-            "language/javascript"
-        ],
-        "created_at": "2026-04-02T14:20:51Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Scrollbar hidden via display:none in _code.scss breaks scrollable content accessibility",
         "url": "https://github.com/meshery/meshery/issues/18410",
         "labels": [
@@ -2502,6 +2488,22 @@
             "language/go"
         ],
         "created_at": "2025-03-11T09:09:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
+        "url": "https://github.com/meshery/meshery/issues/13426",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "issue/willfix",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2025-01-31T17:39:55Z"
     },
     {
         "repo": "meshery/meshery",
@@ -4287,7 +4289,7 @@
     {
         "repo": "confidential-containers/confidential-containers",
         "tier": "Incubating",
-        "lang": "Unknown",
+        "lang": "D2",
         "title": "improve repository hygiene ",
         "url": "https://github.com/confidential-containers/confidential-containers/issues/230",
         "labels": [
@@ -20781,18 +20783,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "CLI: Unify handling of the default group",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8025",
-        "labels": [
-            "Beginner Friendly",
-            "good first issue"
-        ],
-        "created_at": "2026-05-18T22:07:38Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "CLI: Better error when creating artifact without content or type",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8023",
         "labels": [
@@ -23007,7 +22997,8 @@
         "url": "https://github.com/helm/helm/issues/31585",
         "labels": [
             "feature",
-            "good first issue"
+            "good first issue",
+            "Stale"
         ],
         "created_at": "2025-11-27T05:15:12Z"
     },
