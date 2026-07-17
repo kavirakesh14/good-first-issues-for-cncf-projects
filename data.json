@@ -2072,6 +2072,35 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Improve FAQ layout on the Meshery Playground page",
+        "url": "https://github.com/meshery/meshery/issues/20755",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-17T16:18:51Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[UI] Reposition the Connection toolbar below the Connections/MeshSync tabs",
+        "url": "https://github.com/meshery/meshery/issues/20741",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "component/ui",
+            "area/meshery-ui"
+        ],
+        "created_at": "2026-07-17T13:24:21Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Inconsistent formatting of \"Overview of Steps\" section",
         "url": "https://github.com/meshery/meshery/issues/20566",
         "labels": [
@@ -2479,36 +2508,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Add support for sort by count for database table in settings registry page",
-        "url": "https://github.com/meshery/meshery/issues/13958",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "language/go"
-        ],
-        "created_at": "2025-03-11T09:09:30Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
-        "url": "https://github.com/meshery/meshery/issues/13426",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "issue/willfix",
-            "language/markdown",
-            "framework/jekyll"
-        ],
-        "created_at": "2025-01-31T17:39:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Improve mobile docs sidebar behavior on interaction",
         "url": "https://github.com/meshery/meshery/issues/20591",
         "labels": [
@@ -2857,21 +2856,6 @@
             "area/devops"
         ],
         "created_at": "2026-05-24T09:06:54Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[mesheryctl] CLI reference docs should not include \"/home/runner/....\"",
-        "url": "https://github.com/meshery/meshery/issues/19419",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "component/mesheryctl",
-            "language/go",
-            "github-actions"
-        ],
-        "created_at": "2026-05-14T23:17:22Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -6456,6 +6440,20 @@
             "help wanted"
         ],
         "created_at": "2022-09-21T14:54:37Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "ext/wildcard: match_test.go missing t.Run() subtests and has typo in comment",
+        "url": "https://github.com/kyverno/kyverno/issues/16624",
+        "labels": [
+            "bug",
+            "good first issue",
+            "test",
+            "triage"
+        ],
+        "created_at": "2026-07-17T13:49:25Z"
     },
     {
         "repo": "kyverno/kyverno",
@@ -11828,6 +11826,20 @@
         "repo": "cilium/cilium",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "fqdn-proxy: stop unnecessary identity resolution in NotfyOnDNSMsg",
+        "url": "https://github.com/cilium/cilium/issues/47279",
+        "labels": [
+            "help-wanted",
+            "good-first-issue",
+            "sig/policy",
+            "area/fqdn"
+        ],
+        "created_at": "2026-07-17T16:09:18Z"
+    },
+    {
+        "repo": "cilium/cilium",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "DNS L7 policy: Stop caching DNS server IPs when possible",
         "url": "https://github.com/cilium/cilium/issues/45850",
         "labels": [
@@ -16966,6 +16978,19 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "bind_to_port: false on a UDP/QUIC listener crashes Envoy",
+        "url": "https://github.com/envoyproxy/envoy/issues/46231",
+        "labels": [
+            "bug",
+            "help wanted",
+            "area/quic"
+        ],
+        "created_at": "2026-07-17T13:14:10Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "Ext Proc to Support Session Affinity",
         "url": "https://github.com/envoyproxy/envoy/issues/46159",
         "labels": [
@@ -17348,21 +17373,6 @@
             "area/jwt_authn"
         ],
         "created_at": "2025-11-12T01:19:27Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "Compression and decompression of gRPC through envoy proxy",
-        "url": "https://github.com/envoyproxy/envoy/issues/41893",
-        "labels": [
-            "bug",
-            "help wanted",
-            "no stalebot",
-            "area/http",
-            "area/compression"
-        ],
-        "created_at": "2025-11-07T10:24:03Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -19744,6 +19754,18 @@
             "ui"
         ],
         "created_at": "2026-07-16T08:34:03Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "UI/UX: Show resource unit in the preview form",
+        "url": "https://github.com/openeverest/openeverest/issues/2452",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-06-25T17:17:04Z"
     },
     {
         "repo": "openGemini/openGemini",
@@ -25510,20 +25532,6 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Add Argo CD dashboard back to the demo Grafana instance",
-        "url": "https://github.com/argoproj/argo-cd/issues/17922",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "component:metrics",
-            "component:grafana"
-        ],
-        "created_at": "2024-04-22T14:27:07Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Notifications templates/trigger documentation does not specify field content",
         "url": "https://github.com/argoproj/argo-cd/issues/17628",
         "labels": [
@@ -25612,6 +25620,20 @@
             "group:hacktoberfest-2023"
         ],
         "created_at": "2022-10-10T13:59:47Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Update docs about Helm",
+        "url": "https://github.com/argoproj/argo-cd/issues/9822",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "group:hacktoberfest-2023",
+            "component:docs"
+        ],
+        "created_at": "2022-06-29T09:49:17Z"
     },
     {
         "repo": "fluxcd/flux2",
@@ -28308,20 +28330,6 @@
         "repo": "cortexproject/cortex",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Azure storage needs the endpoint suffix after v1.15.0",
-        "url": "https://github.com/cortexproject/cortex/issues/5449",
-        "labels": [
-            "type/bug",
-            "help wanted",
-            "difficulty/easy",
-            "azure"
-        ],
-        "created_at": "2023-07-10T17:16:19Z"
-    },
-    {
-        "repo": "cortexproject/cortex",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Add alertmanager cluster flags to documentation",
         "url": "https://github.com/cortexproject/cortex/issues/4108",
         "labels": [
@@ -28530,6 +28538,19 @@
             "hacktoberfest"
         ],
         "created_at": "2019-06-06T09:48:37Z"
+    },
+    {
+        "repo": "cortexproject/cortex",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Test that metric names and series IDs are marshalled correctly",
+        "url": "https://github.com/cortexproject/cortex/issues/1436",
+        "labels": [
+            "type/chore",
+            "help wanted",
+            "hacktoberfest"
+        ],
+        "created_at": "2019-06-02T16:47:01Z"
     },
     {
         "repo": "fluent/fluentd",
