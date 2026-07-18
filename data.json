@@ -2072,6 +2072,22 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[CI] Enhance appropriate github issue templates with mention of and hyperlink to self-pace contributor training",
+        "url": "https://github.com/meshery/meshery/issues/20766",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/ci",
+            "first-timers-only",
+            "language/markdown",
+            "area/devops"
+        ],
+        "created_at": "2026-07-17T20:41:51Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Improve FAQ layout on the Meshery Playground page",
         "url": "https://github.com/meshery/meshery/issues/20755",
         "labels": [
@@ -2492,17 +2508,28 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Test] E2E playwright test for Meshery Dashboard",
-        "url": "https://github.com/meshery/meshery/issues/14565",
+        "title": "[UI] Connection Wizard: Upon selection of connection type, advance to next step",
+        "url": "https://github.com/meshery/meshery/issues/20764",
         "labels": [
             "kind/enhancement",
-            "good first issue",
+            "help wanted",
             "language/javascript",
             "component/ui",
-            "area/tests",
-            "framework/playwright"
+            "framework/react"
         ],
-        "created_at": "2025-04-29T18:59:42Z"
+        "created_at": "2026-07-17T20:31:20Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[UI] Improve discoverability of assigning and creating environments from the Connections table",
+        "url": "https://github.com/meshery/meshery/issues/20761",
+        "labels": [
+            "kind/enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-07-17T19:26:44Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2815,47 +2842,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-12T14:20:43Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Add a glossary page for common Meshery terms",
-        "url": "https://github.com/meshery/meshery/issues/19775",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-05-30T08:05:13Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Add AI Adapter production checklist to system check guide",
-        "url": "https://github.com/meshery/meshery/issues/19751",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-05-28T21:33:11Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "fix(e2e): stabilize DesignPage.navigateTo() in beforeEach",
-        "url": "https://github.com/meshery/meshery/issues/19650",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-05-24T09:06:54Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -12789,17 +12775,6 @@
         "created_at": "2020-09-11T05:56:46Z"
     },
     {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Does hami have any plans to support remote GPU calls?",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/1618",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-01-21T14:40:00Z"
-    },
-    {
         "repo": "karmada-io/karmada",
         "tier": "Incubating",
         "lang": "Go",
@@ -21868,7 +21843,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "fix: improve uriFromLifecycleVersion to handle all supported OS/arch combinations correctly",
         "url": "https://github.com/buildpacks/pack/issues/2546",
@@ -21880,7 +21855,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "canBeRegistryRef returns falso on registry names with port numbers",
         "url": "https://github.com/buildpacks/pack/issues/2536",
@@ -21893,7 +21868,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Improve the error message when trying to save a builder in the docker daemon but the architecture doesn't match",
         "url": "https://github.com/buildpacks/pack/issues/2428",
@@ -21905,7 +21880,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "pack build takes 27x longer when using containerd image store",
         "url": "https://github.com/buildpacks/pack/issues/2272",
@@ -21920,7 +21895,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "An option to specify the timestamp upon rebasing",
         "url": "https://github.com/buildpacks/pack/issues/1931",
@@ -21934,7 +21909,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "pack should support `pack extension new`",
         "url": "https://github.com/buildpacks/pack/issues/1636",
@@ -21948,7 +21923,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "UX bug: Show a difference between zero args and empty args",
         "url": "https://github.com/buildpacks/pack/issues/1283",
@@ -21962,7 +21937,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "setting remote config doesn't respect Ctrl+C",
         "url": "https://github.com/buildpacks/pack/issues/1242",
@@ -21976,7 +21951,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "pack.Client::Build() closes logger's `io.Writer` ",
         "url": "https://github.com/buildpacks/pack/issues/1214",
@@ -21990,7 +21965,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Temporary files are not deleted after build",
         "url": "https://github.com/buildpacks/pack/issues/1167",
@@ -22004,7 +21979,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Chore: Document packages with readmes",
         "url": "https://github.com/buildpacks/pack/issues/664",
@@ -22019,7 +21994,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Error when using --publish with --extension on pack build",
         "url": "https://github.com/buildpacks/pack/issues/2559",
@@ -22032,7 +22007,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Address breaking changes to go packages in docker 29.0.0 release",
         "url": "https://github.com/buildpacks/pack/issues/2470",
@@ -22045,7 +22020,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Unexpected `project.toml` include/exclude behavior",
         "url": "https://github.com/buildpacks/pack/issues/2402",
@@ -22058,7 +22033,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Error with Podman: failed to build: executing lifecycle: unable to upgrade to tcp, received 409",
         "url": "https://github.com/buildpacks/pack/issues/2377",
@@ -22072,7 +22047,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Fully-qualified builder image name not passed to Podman",
         "url": "https://github.com/buildpacks/pack/issues/2376",
@@ -22086,7 +22061,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Add support for --append-image-name-suffix at pack extension for --publish",
         "url": "https://github.com/buildpacks/pack/issues/2366",
@@ -22099,7 +22074,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "other subcommands do not work with podman",
         "url": "https://github.com/buildpacks/pack/issues/2350",
@@ -22113,7 +22088,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Non-deterministic ordering of buildpack stdout/stderr",
         "url": "https://github.com/buildpacks/pack/issues/2330",
@@ -22126,7 +22101,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Allow exclude section to point at existing ignore file",
         "url": "https://github.com/buildpacks/pack/issues/2265",
@@ -22139,7 +22114,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Arch Linux `pack-cli-bin` delivery pipeline is failing",
         "url": "https://github.com/buildpacks/pack/issues/2227",
@@ -22152,7 +22127,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Allow `if-not-present` pull policy for builds with image extensions",
         "url": "https://github.com/buildpacks/pack/issues/2204",
@@ -22165,7 +22140,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Update Paketo's suggested builders",
         "url": "https://github.com/buildpacks/pack/issues/2200",
@@ -22178,7 +22153,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Create a multi-arch buildpackage file instead of a buildpackage file for each target",
         "url": "https://github.com/buildpacks/pack/issues/2177",
@@ -22191,7 +22166,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Inconsistent parameter naming for target architecture",
         "url": "https://github.com/buildpacks/pack/issues/2175",
@@ -22204,7 +22179,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Validation of lifecycle image os/arch should be more flexible",
         "url": "https://github.com/buildpacks/pack/issues/2163",
@@ -22217,7 +22192,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Feat: PR Title Validation",
         "url": "https://github.com/buildpacks/pack/issues/2159",
@@ -22230,7 +22205,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Windows (WCOW) bug: volume mounts seem not to work correctly when running the 5 phases",
         "url": "https://github.com/buildpacks/pack/issues/2147",
@@ -22243,7 +22218,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Security review: investigate which container capabilities are truly needed for build",
         "url": "https://github.com/buildpacks/pack/issues/2225",
@@ -22254,7 +22229,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "With `pack build --run-image` the user specified run image should have precedence over run images provided by extensions",
         "url": "https://github.com/buildpacks/pack/issues/2091",
@@ -22267,7 +22242,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Add history metadata to layers created by `pack builder create`",
         "url": "https://github.com/buildpacks/pack/issues/2052",
@@ -22281,7 +22256,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Allow omitting buildpack version when using `pack builder create --flatten`",
         "url": "https://github.com/buildpacks/pack/issues/2051",
@@ -22294,7 +22269,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "freebsd support",
         "url": "https://github.com/buildpacks/pack/issues/2025",
@@ -22307,7 +22282,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Update labeler workflow to use v5.0.0 format",
         "url": "https://github.com/buildpacks/pack/issues/1999",
@@ -22321,7 +22296,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "When uploading to Ubuntu use SSH, not FTP",
         "url": "https://github.com/buildpacks/pack/issues/1980",
@@ -22334,7 +22309,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "pack should sanitize tar headers or surface a useful error message when .tgz file contains root directory",
         "url": "https://github.com/buildpacks/pack/issues/1865",
@@ -22347,7 +22322,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Should pack omit gid on /layers?",
         "url": "https://github.com/buildpacks/pack/issues/1854",
@@ -22360,7 +22335,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Make specifying a MAC address for the container used for building possible",
         "url": "https://github.com/buildpacks/pack/issues/1779",
@@ -22374,7 +22349,7 @@
     },
     {
         "repo": "buildpacks/pack",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Pack build on windows fails when using `--report-output-dir`",
         "url": "https://github.com/buildpacks/pack/issues/1731",
@@ -31769,7 +31744,8 @@
         "title": "Helm chart: kserve.storage.resources values not applied to inferenceservice-config configmap (LLMInferenceService uses old hardcoded 1Gi memory limit)",
         "url": "https://github.com/kserve/kserve/issues/5412",
         "labels": [
-            "good first issue"
+            "good first issue",
+            "stale-warning-1"
         ],
         "created_at": "2026-04-16T23:18:05Z"
     },
@@ -32085,7 +32061,7 @@
         "url": "https://github.com/llm-d/llm-d/issues/826",
         "labels": [
             "help wanted",
-            "lifecycle/stale"
+            "lifecycle/rotten"
         ],
         "created_at": "2026-02-22T18:36:56Z"
     }
