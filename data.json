@@ -2508,6 +2508,33 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Broken Tutorials link in archived v0.9 documentation redirects to a 404 page",
+        "url": "https://github.com/meshery/meshery/issues/20781",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-18T10:14:28Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[CI] OpenSSF Scorecard Check: Vulnerabilities",
+        "url": "https://github.com/meshery/meshery/issues/20778",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-07-18T07:33:07Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Connection Wizard: Upon selection of connection type, advance to next step",
         "url": "https://github.com/meshery/meshery/issues/20764",
         "labels": [
@@ -2816,34 +2843,6 @@
         "created_at": "2026-06-13T00:34:13Z"
     },
     {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "UnifiedCardContainer component is duplicated",
-        "url": "https://github.com/meshery/meshery/issues/20036",
-        "labels": [
-            "help wanted",
-            "component/ui"
-        ],
-        "created_at": "2026-06-12T23:34:32Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Display \"not latest documentation\" banner",
-        "url": "https://github.com/meshery/meshery/issues/20025",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "language/html",
-            "language/css",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-12T14:20:43Z"
-    },
-    {
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
@@ -2971,6 +2970,7 @@
         "url": "https://github.com/metal3-io/baremetal-operator/issues/2053",
         "labels": [
             "help wanted",
+            "lifecycle/stale",
             "triage/accepted"
         ],
         "created_at": "2024-11-12T14:22:14Z"
@@ -6426,20 +6426,6 @@
             "help wanted"
         ],
         "created_at": "2022-09-21T14:54:37Z"
-    },
-    {
-        "repo": "kyverno/kyverno",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "ext/wildcard: match_test.go missing t.Run() subtests and has typo in comment",
-        "url": "https://github.com/kyverno/kyverno/issues/16624",
-        "labels": [
-            "bug",
-            "good first issue",
-            "test",
-            "triage"
-        ],
-        "created_at": "2026-07-17T13:49:25Z"
     },
     {
         "repo": "kyverno/kyverno",
@@ -10535,6 +10521,19 @@
             "help wanted"
         ],
         "created_at": "2023-09-06T03:11:36Z"
+    },
+    {
+        "repo": "lima-vm/lima",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Windows guest: `~/password.txt` shouldn't have UTF-8 BOM (`EF BB BF`)",
+        "url": "https://github.com/lima-vm/lima/issues/5277",
+        "labels": [
+            "bug",
+            "good first issue",
+            "guest/Windows"
+        ],
+        "created_at": "2026-07-18T10:24:23Z"
     },
     {
         "repo": "lima-vm/lima",
