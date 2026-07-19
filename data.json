@@ -10526,6 +10526,18 @@
         "repo": "lima-vm/lima",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "`pkg/ioutilx` contains functions that do not resemble `io/ioutil`",
+        "url": "https://github.com/lima-vm/lima/issues/5283",
+        "labels": [
+            "good first issue",
+            "kind/refactoring"
+        ],
+        "created_at": "2026-07-18T22:54:50Z"
+    },
+    {
+        "repo": "lima-vm/lima",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Windows guest: `~/password.txt` shouldn't have UTF-8 BOM (`EF BB BF`)",
         "url": "https://github.com/lima-vm/lima/issues/5277",
         "labels": [
@@ -10534,20 +10546,6 @@
             "guest/Windows"
         ],
         "created_at": "2026-07-18T10:24:23Z"
-    },
-    {
-        "repo": "lima-vm/lima",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Meeting information in `README.md` does not match the regexp used by CLO monitor",
-        "url": "https://github.com/lima-vm/lima/issues/5260",
-        "labels": [
-            "documentation",
-            "good first issue",
-            "area/project",
-            "cncf"
-        ],
-        "created_at": "2026-07-16T06:25:29Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -10622,6 +10620,19 @@
             "area/cli"
         ],
         "created_at": "2025-03-12T20:02:48Z"
+    },
+    {
+        "repo": "lima-vm/lima",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Help wanted issues (but NOT `good first issue`)",
+        "url": "https://github.com/lima-vm/lima/issues/5286",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "roadmap"
+        ],
+        "created_at": "2026-07-19T00:58:10Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -26048,17 +26059,6 @@
         "repo": "pipe-cd/pipecd",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Docs: Move certain sections from the User Guide to the new Plugins section",
-        "url": "https://github.com/pipe-cd/pipecd/issues/6540",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-02-23T08:58:36Z"
-    },
-    {
-        "repo": "pipe-cd/pipecd",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Add optional pre-commit hooks for local contributor checks",
         "url": "https://github.com/pipe-cd/pipecd/issues/6424",
         "labels": [
@@ -31744,7 +31744,8 @@
         "url": "https://github.com/kserve/kserve/issues/5412",
         "labels": [
             "good first issue",
-            "stale-warning-1"
+            "stale-warning-1",
+            "stale-warning-2"
         ],
         "created_at": "2026-04-16T23:18:05Z"
     },
