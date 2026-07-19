@@ -14659,20 +14659,6 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Reinstate or drop `[Feature:PerformanceDNS]` tests",
-        "url": "https://github.com/kubernetes/kubernetes/issues/140493",
-        "labels": [
-            "priority/backlog",
-            "sig/network",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-07-13T13:29:32Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI",
         "url": "https://github.com/kubernetes/kubernetes/issues/140489",
         "labels": [
@@ -15056,6 +15042,20 @@
             "needs-triage"
         ],
         "created_at": "2025-01-20T11:36:12Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "cloud-provider HasClusterID related functionality should have better documentation in the code",
+        "url": "https://github.com/kubernetes/kubernetes/issues/128320",
+        "labels": [
+            "sig/storage",
+            "help wanted",
+            "sig/cloud-provider",
+            "triage/accepted"
+        ],
+        "created_at": "2024-10-24T20:49:37Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -17395,18 +17395,6 @@
             "help wanted"
         ],
         "created_at": "2026-06-09T11:02:52Z"
-    },
-    {
-        "repo": "metallb/metallb",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Support disabling metrics endpoint",
-        "url": "https://github.com/metallb/metallb/issues/3095",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-07-10T10:23:17Z"
     },
     {
         "repo": "metallb/metallb",
