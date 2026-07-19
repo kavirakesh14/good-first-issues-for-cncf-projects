@@ -2508,6 +2508,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Broken links to historical compatibility matrix results return 404",
+        "url": "https://github.com/meshery/meshery/issues/20788",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-19T03:52:39Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Broken Tutorials link in archived v0.9 documentation redirects to a 404 page",
         "url": "https://github.com/meshery/meshery/issues/20781",
         "labels": [
@@ -2827,20 +2841,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-16T20:05:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "ResponsiveImage component is duplicated",
-        "url": "https://github.com/meshery/meshery/issues/20040",
-        "labels": [
-            "help wanted",
-            "language/javascript",
-            "component/ui",
-            "framework/react"
-        ],
-        "created_at": "2026-06-13T00:34:13Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -13307,7 +13307,8 @@
         "labels": [
             "bug",
             "help wanted",
-            "performance"
+            "performance",
+            "stale"
         ],
         "created_at": "2026-04-26T21:11:28Z"
     },
