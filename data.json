@@ -5151,23 +5151,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Exporting a realm with users says it needs file parameter, which is provided",
-        "url": "https://github.com/keycloak/keycloak/issues/50700",
-        "labels": [
-            "kind/bug",
-            "area/admin/cli",
-            "help wanted",
-            "team/cloud-native",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-07-08T14:57:42Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Organization Membership mapper omits the claim for users with zero organizations instead of emitting an empty value",
         "url": "https://github.com/keycloak/keycloak/issues/50410",
         "labels": [
@@ -5657,6 +5640,27 @@
             "priority/normal"
         ],
         "created_at": "2026-05-09T05:04:46Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Kubernetes Identity Provider does not reflect defaults and required fields",
+        "url": "https://github.com/keycloak/keycloak/issues/48767",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/ui",
+            "area/identity-brokering",
+            "team/core-iam",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-authn"
+        ],
+        "created_at": "2026-05-06T15:47:54Z"
     },
     {
         "repo": "keylime/keylime",
@@ -16168,19 +16172,6 @@
         "repo": "etcd-io/etcd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Introduce more failpoints into etcd watch",
-        "url": "https://github.com/etcd-io/etcd/issues/18681",
-        "labels": [
-            "area/testing",
-            "help wanted",
-            "area/robustness-testing"
-        ],
-        "created_at": "2024-10-05T09:34:25Z"
-    },
-    {
-        "repo": "etcd-io/etcd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Enable `unexported-return` linter rule",
         "url": "https://github.com/etcd-io/etcd/issues/18370",
         "labels": [
@@ -16217,6 +16208,21 @@
             "stage/tracked"
         ],
         "created_at": "2024-03-21T04:31:32Z"
+    },
+    {
+        "repo": "etcd-io/etcd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Define an official performance validation suite for etcd",
+        "url": "https://github.com/etcd-io/etcd/issues/16467",
+        "labels": [
+            "area/performance",
+            "help wanted",
+            "type/feature",
+            "area/tooling",
+            "priority/important-soon"
+        ],
+        "created_at": "2023-08-24T07:23:10Z"
     },
     {
         "repo": "etcd-io/etcd",
@@ -26011,18 +26017,6 @@
         "repo": "pipe-cd/pipecd",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "docs: Add AI Usage Policy and Guidelines to CONTRIBUTING.md",
-        "url": "https://github.com/pipe-cd/pipecd/issues/6813",
-        "labels": [
-            "kind/enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-05-22T10:51:24Z"
-    },
-    {
-        "repo": "pipe-cd/pipecd",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Proposal: Provide official JSON Schema for ECS configuration(maybe other providers too ?)",
         "url": "https://github.com/pipe-cd/pipecd/issues/6684",
         "labels": [
@@ -28705,6 +28699,19 @@
         "created_at": "2026-05-22T16:24:08Z"
     },
     {
+        "repo": "kubernetes-sigs/headlamp",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Add Devices sidebar section for Dynamic Resource Allocation APIs",
+        "url": "https://github.com/kubernetes-sigs/headlamp/issues/4831",
+        "labels": [
+            "kind/feature",
+            "help wanted",
+            "frontend"
+        ],
+        "created_at": "2026-03-05T18:39:21Z"
+    },
+    {
         "repo": "HolmesGPT/holmesgpt",
         "tier": "Sandbox",
         "lang": "Python",
@@ -28725,17 +28732,6 @@
             "good first issue"
         ],
         "created_at": "2026-07-09T09:22:49Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
-        "title": "gadgets/trace_signal: Add missing documentation Guide section",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5633",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-07-09T09:22:48Z"
     },
     {
         "repo": "inspektor-gadget/inspektor-gadget",
@@ -29063,6 +29059,18 @@
             "area/testing"
         ],
         "created_at": "2023-05-19T09:17:53Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "[RFE] Include OCI runtime (crun/runc) information in container events",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1635",
+        "labels": [
+            "good first issue",
+            "container-runtime"
+        ],
+        "created_at": "2023-05-17T09:18:25Z"
     },
     {
         "repo": "jaegertracing/jaeger",
@@ -29625,18 +29633,6 @@
             "do-not-close"
         ],
         "created_at": "2024-06-11T10:02:25Z"
-    },
-    {
-        "repo": "kube-logging/logging-operator",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Unable to use private CA with S3 ClusterOutput to trust s3_endpoint",
-        "url": "https://github.com/kube-logging/logging-operator/issues/2066",
-        "labels": [
-            "bug",
-            "good first issue"
-        ],
-        "created_at": "2025-06-19T15:11:13Z"
     },
     {
         "repo": "kube-logging/logging-operator",
