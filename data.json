@@ -2132,21 +2132,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Correct meshery.io/blog link at security-vulnerabilities page",
-        "url": "https://github.com/meshery/meshery/issues/20544",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-08T19:13:49Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Mastering Meshery action in Getting Started widget redirects to placeholder URL",
         "url": "https://github.com/meshery/meshery/issues/20537",
         "labels": [
@@ -2245,22 +2230,6 @@
             "good first issue"
         ],
         "created_at": "2026-05-25T19:36:19Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] \"secondary\" alert color has illegible contrast",
-        "url": "https://github.com/meshery/meshery/issues/19287",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "first-timers-only",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-05-12T23:32:39Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2508,6 +2477,50 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Test] E2E playwright test for Meshery Dashboard",
+        "url": "https://github.com/meshery/meshery/issues/14565",
+        "labels": [
+            "kind/enhancement",
+            "good first issue",
+            "language/javascript",
+            "component/ui",
+            "area/tests",
+            "framework/playwright"
+        ],
+        "created_at": "2025-04-29T18:59:42Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Add support for sort by count for database table in settings registry page",
+        "url": "https://github.com/meshery/meshery/issues/13958",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "language/go"
+        ],
+        "created_at": "2025-03-11T09:09:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Move code block copy button to the right",
+        "url": "https://github.com/meshery/meshery/issues/20803",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-20T06:33:24Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Broken links to historical compatibility matrix results return 404",
         "url": "https://github.com/meshery/meshery/issues/20788",
         "labels": [
@@ -2544,33 +2557,6 @@
             "area/devops"
         ],
         "created_at": "2026-07-18T07:33:07Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[UI] Connection Wizard: Upon selection of connection type, advance to next step",
-        "url": "https://github.com/meshery/meshery/issues/20764",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "language/javascript",
-            "component/ui",
-            "framework/react"
-        ],
-        "created_at": "2026-07-17T20:31:20Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[UI] Improve discoverability of assigning and creating environments from the Connections table",
-        "url": "https://github.com/meshery/meshery/issues/20761",
-        "labels": [
-            "kind/enhancement",
-            "help wanted"
-        ],
-        "created_at": "2026-07-17T19:26:44Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2843,6 +2829,32 @@
         "created_at": "2026-06-16T20:05:55Z"
     },
     {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "ResponsiveImage component is duplicated",
+        "url": "https://github.com/meshery/meshery/issues/20040",
+        "labels": [
+            "help wanted",
+            "language/javascript",
+            "component/ui",
+            "framework/react"
+        ],
+        "created_at": "2026-06-13T00:34:13Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "UnifiedCardContainer component is duplicated",
+        "url": "https://github.com/meshery/meshery/issues/20036",
+        "labels": [
+            "help wanted",
+            "component/ui"
+        ],
+        "created_at": "2026-06-12T23:34:32Z"
+    },
+    {
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
@@ -2970,7 +2982,6 @@
         "url": "https://github.com/metal3-io/baremetal-operator/issues/2053",
         "labels": [
             "help wanted",
-            "lifecycle/stale",
             "triage/accepted"
         ],
         "created_at": "2024-11-12T14:22:14Z"
@@ -10905,21 +10916,6 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\"volume create\" fails if a volume already exists, unlike Docker",
-        "url": "https://github.com/podman-container-tools/podman/issues/26657",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "volunteers-wanted",
-            "triaged",
-            "Contribfest"
-        ],
-        "created_at": "2025-07-17T08:47:57Z"
-    },
-    {
-        "repo": "containers/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "feat(kube play): flag to specify resources (pods, secrets, volumes) labels",
         "url": "https://github.com/podman-container-tools/podman/issues/26450",
         "labels": [
@@ -11195,6 +11191,21 @@
             "Good First Issue"
         ],
         "created_at": "2023-04-05T21:03:08Z"
+    },
+    {
+        "repo": "containers/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "`kube generate` prints in Note: text, which text is not necessary applicable for the current case",
+        "url": "https://github.com/podman-container-tools/podman/issues/17743",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "volunteers-wanted",
+            "kube",
+            "Contribfest"
+        ],
+        "created_at": "2023-03-12T09:09:49Z"
     },
     {
         "repo": "urunc-dev/urunc",
