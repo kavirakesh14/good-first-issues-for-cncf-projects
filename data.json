@@ -1175,6 +1175,18 @@
         "repo": "kitops-ml/kitops",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Add a kit skill command to teach AI agents how to use the kit CLI",
+        "url": "https://github.com/kitops-ml/kitops/issues/1249",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-07-18T15:00:09Z"
+    },
+    {
+        "repo": "kitops-ml/kitops",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Document KitOps Integration with Kubeflow Model Registry",
         "url": "https://github.com/kitops-ml/kitops/issues/858",
         "labels": [
@@ -2072,17 +2084,14 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[CI] Enhance appropriate github issue templates with mention of and hyperlink to self-pace contributor training",
-        "url": "https://github.com/meshery/meshery/issues/20766",
+        "title": "[Server] Unguarded SendEvent on possibly-nil instance in auto_register (dormant latent crash)",
+        "url": "https://github.com/meshery/meshery/issues/20821",
         "labels": [
-            "help wanted",
+            "kind/bug",
             "good first issue",
-            "area/ci",
-            "first-timers-only",
-            "language/markdown",
-            "area/devops"
+            "component/server"
         ],
-        "created_at": "2026-07-17T20:41:51Z"
+        "created_at": "2026-07-20T16:26:09Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2853,6 +2862,22 @@
             "component/ui"
         ],
         "created_at": "2026-06-12T23:34:32Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Display \"not latest documentation\" banner",
+        "url": "https://github.com/meshery/meshery/issues/20025",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "language/html",
+            "language/css",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-12T14:20:43Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -6175,272 +6200,6 @@
             "good first issue"
         ],
         "created_at": "2023-04-20T11:08:31Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "updatecli script should update container image SHA",
-        "url": "https://github.com/kubewarden/adm-controller/issues/1639",
-        "labels": [
-            "kind/good first issue",
-            "status/help wanted",
-            "area/ci",
-            "kind/tech-debt",
-            "good first issue",
-            "help wanted"
-        ],
-        "created_at": "2026-04-06T16:55:49Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Check the usage of kubewarden-controller-metrics-reader.",
-        "url": "https://github.com/kubewarden/adm-controller/issues/1532",
-        "labels": [
-            "kind/good first issue",
-            "status/help wanted",
-            "kind/tech-debt",
-            "good first issue",
-            "help wanted"
-        ],
-        "created_at": "2026-03-02T16:42:54Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "[kwctl]: Feature Request: run integration tests on OSX and windows",
-        "url": "https://github.com/kubewarden/adm-controller/issues/1303",
-        "labels": [
-            "area/ci",
-            "good first issue",
-            "area/kwctl"
-        ],
-        "created_at": "2025-04-30T13:35:41Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Sign with cosign v3 signature format (bundle) only",
-        "url": "https://github.com/kubewarden/adm-controller/issues/1614",
-        "labels": [
-            "status/help wanted",
-            "kind/tech-debt",
-            "help wanted"
-        ],
-        "created_at": "2026-03-27T19:10:42Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Rename `imagePullSecret` field",
-        "url": "https://github.com/kubewarden/adm-controller/issues/1607",
-        "labels": [
-            "status/help wanted",
-            "area/crd",
-            "help wanted"
-        ],
-        "created_at": "2026-03-23T18:58:19Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "[kwctl]: Dockerfile to run Sigstore infrastructure used in tests",
-        "url": "https://github.com/kubewarden/adm-controller/issues/1299",
-        "labels": [
-            "area/ci",
-            "kind/enhancement",
-            "help wanted",
-            "area/kwctl"
-        ],
-        "created_at": "2025-11-21T12:53:34Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "POC: Use bot to remind of setting labels",
-        "url": "https://github.com/kubewarden/adm-controller/issues/1180",
-        "labels": [
-            "area/ci",
-            "area/automation",
-            "kind/tech-debt",
-            "help wanted"
-        ],
-        "created_at": "2025-08-18T13:41:47Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Kubectl explain shows html",
-        "url": "https://github.com/kubewarden/adm-controller/issues/1148",
-        "labels": [
-            "kind/bug",
-            "help wanted"
-        ],
-        "created_at": "2025-06-23T08:32:20Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Replace WORKFLOW_PAT with github-app-token",
-        "url": "https://github.com/kubewarden/adm-controller/issues/1070",
-        "labels": [
-            "kind/tech-debt",
-            "help wanted"
-        ],
-        "created_at": "2025-03-26T14:35:28Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Allow testing Telemetry configuration in integration tests",
-        "url": "https://github.com/kubewarden/adm-controller/issues/937",
-        "labels": [
-            "kind/tech-debt",
-            "help wanted"
-        ],
-        "created_at": "2024-12-12T14:46:40Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Refactor policy tests",
-        "url": "https://github.com/kubewarden/adm-controller/issues/851",
-        "labels": [
-            "kind/tech-debt",
-            "help wanted"
-        ],
-        "created_at": "2024-08-20T12:14:20Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Move metrics port configuration from env to cli flag",
-        "url": "https://github.com/kubewarden/adm-controller/issues/787",
-        "labels": [
-            "kind/feature",
-            "help wanted"
-        ],
-        "created_at": "2024-06-26T13:58:58Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "New policy: block removal of CRDs as long as CRDs are still in use",
-        "url": "https://github.com/kubewarden/adm-controller/issues/610",
-        "labels": [
-            "kind/good first issue",
-            "area/policy",
-            "kind/enhancement",
-            "help wanted"
-        ],
-        "created_at": "2024-01-11T09:52:41Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "New policy: Disallow verbs in (Cluster)Roles",
-        "url": "https://github.com/kubewarden/adm-controller/issues/605",
-        "labels": [
-            "area/policy",
-            "kind/enhancement",
-            "help wanted"
-        ],
-        "created_at": "2024-01-02T12:17:45Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "New policy: Disallow binding groups in (Cluster)RoleBindings",
-        "url": "https://github.com/kubewarden/adm-controller/issues/604",
-        "labels": [
-            "area/policy",
-            "kind/enhancement",
-            "help wanted"
-        ],
-        "created_at": "2024-01-02T12:10:48Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "New policy: Disallow Duplicate Deployment ServiceAccount",
-        "url": "https://github.com/kubewarden/adm-controller/issues/595",
-        "labels": [
-            "area/policy",
-            "kind/enhancement",
-            "help wanted"
-        ],
-        "created_at": "2023-12-14T08:57:23Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Create a DotNet policy template",
-        "url": "https://github.com/kubewarden/adm-controller/issues/471",
-        "labels": [
-            "kind/good first issue",
-            "area/policy",
-            "help wanted"
-        ],
-        "created_at": "2023-06-20T17:08:58Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Feature Request: validate resources targeted by `AdmissionPolicy`",
-        "url": "https://github.com/kubewarden/adm-controller/issues/454",
-        "labels": [
-            "status/help wanted",
-            "kind/enhancement",
-            "help wanted"
-        ],
-        "created_at": "2023-05-25T07:28:59Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Kubewarden policies enhancements",
-        "url": "https://github.com/kubewarden/adm-controller/issues/393",
-        "labels": [
-            "kind/epic",
-            "area/mentorship",
-            "area/policy",
-            "kind/enhancement",
-            "help wanted"
-        ],
-        "created_at": "2023-01-30T12:56:48Z"
-    },
-    {
-        "repo": "kubewarden/kubewarden-controller",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Update some of our policies that are targeting `Pod`, to make them process higher level objects",
-        "url": "https://github.com/kubewarden/adm-controller/issues/282",
-        "labels": [
-            "kind/good first issue",
-            "kind/epic",
-            "kind/enhancement",
-            "help wanted"
-        ],
-        "created_at": "2022-09-21T14:54:37Z"
     },
     {
         "repo": "kyverno/kyverno",
@@ -10542,18 +10301,6 @@
         "repo": "lima-vm/lima",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "`pkg/ioutilx` contains functions that do not resemble `io/ioutil`",
-        "url": "https://github.com/lima-vm/lima/issues/5283",
-        "labels": [
-            "good first issue",
-            "kind/refactoring"
-        ],
-        "created_at": "2026-07-18T22:54:50Z"
-    },
-    {
-        "repo": "lima-vm/lima",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Windows guest: `~/password.txt` shouldn't have UTF-8 BOM (`EF BB BF`)",
         "url": "https://github.com/lima-vm/lima/issues/5277",
         "labels": [
@@ -11838,20 +11585,6 @@
         "repo": "cilium/cilium",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "fqdn-proxy: stop unnecessary identity resolution in NotfyOnDNSMsg",
-        "url": "https://github.com/cilium/cilium/issues/47279",
-        "labels": [
-            "help-wanted",
-            "good-first-issue",
-            "sig/policy",
-            "area/fqdn"
-        ],
-        "created_at": "2026-07-17T16:09:18Z"
-    },
-    {
-        "repo": "cilium/cilium",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "DNS L7 policy: Stop caching DNS server IPs when possible",
         "url": "https://github.com/cilium/cilium/issues/45850",
         "labels": [
@@ -12993,18 +12726,6 @@
             "kind/cleanup"
         ],
         "created_at": "2025-09-02T08:01:12Z"
-    },
-    {
-        "repo": "kcp-dev/kcp",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "docs: clarify workspace type's `limitAllowedChildren` and associated fields",
-        "url": "https://github.com/kcp-dev/kcp/issues/3299",
-        "labels": [
-            "good first issue",
-            "kind/documentation"
-        ],
-        "created_at": "2025-02-14T14:20:27Z"
     },
     {
         "repo": "kcp-dev/kcp",
@@ -16264,7 +15985,7 @@
     },
     {
         "repo": "k8gb-io/k8gb",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "Consider using crust-gather as debug collector for pipelines",
         "url": "https://github.com/k8gb-io/k8gb/issues/1877",
@@ -21098,19 +20819,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "CLI: Review short property names across all commands",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8024",
-        "labels": [
-            "area/CLI",
-            "area/build",
-            "help wanted"
-        ],
-        "created_at": "2026-05-18T22:07:37Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "CLI: Auto context update \u2014 set group/artifact in context after operations",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8022",
         "labels": [
@@ -21395,6 +21103,17 @@
             "help wanted"
         ],
         "created_at": "2022-07-27T11:41:14Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Feat: Add i18n to apicurio registry",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/1821",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2021-09-08T16:13:03Z"
     },
     {
         "repo": "nats-io/nats-server",
@@ -25576,18 +25295,6 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "`/terminal` endpoint assumes cookie auth and does not support bearer token auth, unlike other endpoints",
-        "url": "https://github.com/argoproj/argo-cd/issues/11068",
-        "labels": [
-            "bug",
-            "good first issue"
-        ],
-        "created_at": "2022-10-26T06:39:23Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Add description and validation to `include` and `exclude` fields in Parameters tab of directory apps",
         "url": "https://github.com/argoproj/argo-cd/issues/10880",
         "labels": [
@@ -25612,6 +25319,20 @@
             "component:docs"
         ],
         "created_at": "2022-06-29T09:49:17Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Core mode should allow persistent usage of custom K8s client configuration",
+        "url": "https://github.com/argoproj/argo-cd/issues/7992",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "type:usability",
+            "component:cli"
+        ],
+        "created_at": "2021-12-19T11:20:12Z"
     },
     {
         "repo": "fluxcd/flux2",
