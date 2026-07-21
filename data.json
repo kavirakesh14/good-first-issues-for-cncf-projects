@@ -2516,6 +2516,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Contributing: Include contributor instructions regarding sparse cloning, excluding /models and other dirs",
+        "url": "https://github.com/meshery/meshery/issues/20837",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-21T00:03:37Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Move code block copy button to the right",
         "url": "https://github.com/meshery/meshery/issues/20803",
         "labels": [
@@ -2670,7 +2684,7 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Improve the \"Registering a Connection\" guide with screenshots and UI/mesheryctl workflows",
+        "title": "[Docs] Improve the \"Creating a Connection\" guide with screenshots and UI/mesheryctl workflows",
         "url": "https://github.com/meshery/meshery/issues/20479",
         "labels": [
             "help wanted",
@@ -2862,22 +2876,6 @@
             "component/ui"
         ],
         "created_at": "2026-06-12T23:34:32Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Display \"not latest documentation\" banner",
-        "url": "https://github.com/meshery/meshery/issues/20025",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "language/html",
-            "language/css",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-12T14:20:43Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -8773,6 +8771,22 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
+        "title": "[BUG] invalid block disks should not block Longhorn system uninstallation",
+        "url": "https://github.com/longhorn/longhorn/issues/13572",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "area/install-uninstall-upgrade",
+            "area/v2-data-engine",
+            "require/qa-review-coverage",
+            "require/backport"
+        ],
+        "created_at": "2026-07-20T21:04:09Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
         "title": "[BUG] Volume expansion snapshot CR name expand-<size> collides across volumes",
         "url": "https://github.com/longhorn/longhorn/issues/13386",
         "labels": [
@@ -9253,23 +9267,6 @@
             "priority/1"
         ],
         "created_at": "2023-06-01T11:00:50Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
-        "title": "[FEATURE] Configurable system backup timeout",
-        "url": "https://github.com/longhorn/longhorn/issues/5022",
-        "labels": [
-            "kind/feature",
-            "good first issue",
-            "component/longhorn-manager",
-            "priority/0",
-            "area/system-backup-restore",
-            "area/setting",
-            "require/important-note"
-        ],
-        "created_at": "2022-12-08T02:24:38Z"
     },
     {
         "repo": "openebs/openebs",
