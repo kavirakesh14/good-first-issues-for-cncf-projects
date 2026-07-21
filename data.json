@@ -5073,6 +5073,20 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "In User Profile attribute config, Multivalued toggle is confusing",
+        "url": "https://github.com/keycloak/keycloak/issues/34763",
+        "labels": [
+            "kind/enhancement",
+            "area/admin/ui",
+            "good first issue",
+            "team/core-shared"
+        ],
+        "created_at": "2024-11-07T20:01:15Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Documentation: Align on one placeholder syntax",
         "url": "https://github.com/keycloak/keycloak/issues/33018",
         "labels": [
@@ -10269,20 +10283,6 @@
             "help wanted"
         ],
         "created_at": "2023-09-06T03:11:36Z"
-    },
-    {
-        "repo": "lima-vm/lima",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[Windows guest] `limactl start`: default `--timeout` should be shorter for non-initial boot",
-        "url": "https://github.com/lima-vm/lima/issues/5296",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "area/cli",
-            "guest/Windows"
-        ],
-        "created_at": "2026-07-20T09:34:02Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -20409,22 +20409,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "fix(docs): generated config docs have extra whitespace from text block continuations",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8523",
-        "labels": [
-            "Beginner Friendly",
-            "area/rest",
-            "area/sdk",
-            "area/maven-plugin",
-            "area/build",
-            "good first issue"
-        ],
-        "created_at": "2026-07-10T17:28:10Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "Configure Renovate to track .mvn/extensions.xml dependencies",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8498",
         "labels": [
@@ -23900,11 +23884,22 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Do not capitalize Secret in Create a secret",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/18398",
+        "labels": [
+            "good first issue",
+            "domain/ui-components"
+        ],
+        "created_at": "2026-07-21T14:19:07Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Unblock update of eslint-plugin-sonarjs from 4.1.0 to 4.2.0",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18388",
         "labels": [
             "good first issue",
-            "status/need-triage",
             "domain/technical-debt",
             "domain/dependency-update-minor"
         ],
@@ -23918,7 +23913,6 @@
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18386",
         "labels": [
             "good first issue",
-            "status/need-triage",
             "domain/dependency-update-minor"
         ],
         "created_at": "2026-07-21T06:54:43Z"
@@ -27532,7 +27526,7 @@
         "labels": [
             "enhancement",
             "good first issue",
-            "needs-triage"
+            "triage/accepted"
         ],
         "created_at": "2026-07-21T10:52:03Z"
     },
