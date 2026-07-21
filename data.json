@@ -2084,6 +2084,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Remove 'On this page' Images",
+        "url": "https://github.com/meshery/meshery/issues/20850",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-21T05:54:11Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Server] Unguarded SendEvent on possibly-nil instance in auto_register (dormant latent crash)",
         "url": "https://github.com/meshery/meshery/issues/20821",
         "labels": [
@@ -2502,15 +2517,17 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Add support for sort by count for database table in settings registry page",
-        "url": "https://github.com/meshery/meshery/issues/13958",
+        "title": "[Docs] Improve the ease of navigation of the table of contents sidebar",
+        "url": "https://github.com/meshery/meshery/issues/20840",
         "labels": [
-            "kind/enhancement",
             "help wanted",
-            "good first issue",
-            "language/go"
+            "area/docs",
+            "language/markdown",
+            "area/ux",
+            "language/css",
+            "framework/hugo"
         ],
-        "created_at": "2025-03-11T09:09:30Z"
+        "created_at": "2026-07-21T03:32:54Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2850,32 +2867,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-16T20:05:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "ResponsiveImage component is duplicated",
-        "url": "https://github.com/meshery/meshery/issues/20040",
-        "labels": [
-            "help wanted",
-            "language/javascript",
-            "component/ui",
-            "framework/react"
-        ],
-        "created_at": "2026-06-13T00:34:13Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "UnifiedCardContainer component is duplicated",
-        "url": "https://github.com/meshery/meshery/issues/20036",
-        "labels": [
-            "help wanted",
-            "component/ui"
-        ],
-        "created_at": "2026-06-12T23:34:32Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -10298,14 +10289,15 @@
         "repo": "lima-vm/lima",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Windows guest: `~/password.txt` shouldn't have UTF-8 BOM (`EF BB BF`)",
-        "url": "https://github.com/lima-vm/lima/issues/5277",
+        "title": "[Windows guest] `limactl start`: default `--timeout` should be shorter for non-initial boot",
+        "url": "https://github.com/lima-vm/lima/issues/5296",
         "labels": [
-            "bug",
+            "enhancement",
             "good first issue",
+            "area/cli",
             "guest/Windows"
         ],
-        "created_at": "2026-07-18T10:24:23Z"
+        "created_at": "2026-07-20T09:34:02Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -22827,19 +22819,6 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Provenance file chart.yaml doesn't match the source",
-        "url": "https://github.com/helm/helm/issues/31866",
-        "labels": [
-            "help wanted",
-            "bug",
-            "v4.x"
-        ],
-        "created_at": "2026-02-26T12:37:00Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Avoid using and setting a global slog",
         "url": "https://github.com/helm/helm/issues/31724",
         "labels": [
@@ -23963,6 +23942,33 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Unblock update of eslint-plugin-sonarjs from 4.1.0 to 4.2.0",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/18388",
+        "labels": [
+            "good first issue",
+            "status/need-triage",
+            "domain/technical-debt",
+            "domain/dependency-update-minor"
+        ],
+        "created_at": "2026-07-21T07:22:43Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Fix update of Biome 2.5.3 -> 2.5.4",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/18386",
+        "labels": [
+            "good first issue",
+            "status/need-triage",
+            "domain/dependency-update-minor"
+        ],
+        "created_at": "2026-07-21T06:54:43Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Too long error message overflows from Adding the registry dialog",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/16666",
         "labels": [
@@ -24430,18 +24436,6 @@
             "docs"
         ],
         "created_at": "2020-06-11T15:34:18Z"
-    },
-    {
-        "repo": "getporter/porter",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Contributing.md should share information about debugging porter",
-        "url": "https://github.com/getporter/porter/issues/713",
-        "labels": [
-            "help wanted",
-            "docs"
-        ],
-        "created_at": "2019-10-09T21:09:53Z"
     },
     {
         "repo": "radius-project/radius",
