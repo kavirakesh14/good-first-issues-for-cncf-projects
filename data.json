@@ -1015,20 +1015,6 @@
         "repo": "kcl-lang/kcl",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "[Enhancement] Nix package of KCL CLI and Language Server",
-        "url": "https://github.com/kcl-lang/kcl/issues/1169",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "help wanted",
-            "release"
-        ],
-        "created_at": "2024-03-28T12:51:36Z"
-    },
-    {
-        "repo": "kcl-lang/kcl",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "[Enhancement] KCL release and artifacts for FreeBSD ",
         "url": "https://github.com/kcl-lang/kcl/issues/1029",
         "labels": [
@@ -5019,8 +5005,7 @@
         "url": "https://github.com/falcosecurity/falco/issues/1413",
         "labels": [
             "help wanted",
-            "kind/feature",
-            "lifecycle/rotten"
+            "kind/feature"
         ],
         "created_at": "2020-09-24T17:07:48Z"
     },
@@ -20779,20 +20764,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "CLI: Dynamic help text via picocli command tree walking",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8028",
-        "labels": [
-            "area/rules",
-            "area/documentation",
-            "area/CLI",
-            "help wanted"
-        ],
-        "created_at": "2026-05-18T22:07:40Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "CLI: Verbose logging should print raw request and response details",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8027",
         "labels": [
@@ -21538,19 +21509,6 @@
             "area:catalog"
         ],
         "created_at": "2025-07-03T19:59:31Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "\ud83d\ude80 Feature: Truncate mkdocs.yml build in CI to just the overview",
-        "url": "https://github.com/backstage/backstage/issues/29662",
-        "labels": [
-            "area:documentation",
-            "type:suggestion",
-            "good first issue"
-        ],
-        "created_at": "2025-04-18T03:36:03Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -24038,18 +23996,6 @@
             "domain/ui-components/reviewed"
         ],
         "created_at": "2025-12-02T14:02:55Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Unable to launch Podman Extension tests locally",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/14456",
-        "labels": [
-            "good first issue",
-            "domain/technical-debt"
-        ],
-        "created_at": "2025-10-17T13:31:33Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -27581,6 +27527,45 @@
         "repo": "krkn-chaos/krkn",
         "tier": "Sandbox",
         "lang": "Python",
+        "title": "feat: add http trigger type for event-driven chaos",
+        "url": "https://github.com/krkn-chaos/krkn/issues/1498",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "needs-triage"
+        ],
+        "created_at": "2026-07-21T10:52:03Z"
+    },
+    {
+        "repo": "krkn-chaos/krkn",
+        "tier": "Sandbox",
+        "lang": "Python",
+        "title": "feat: add prometheus trigger type for event-driven chaos",
+        "url": "https://github.com/krkn-chaos/krkn/issues/1497",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "needs-triage"
+        ],
+        "created_at": "2026-07-21T10:50:23Z"
+    },
+    {
+        "repo": "krkn-chaos/krkn",
+        "tier": "Sandbox",
+        "lang": "Python",
+        "title": "feat: add k8s trigger type for event-driven chaos",
+        "url": "https://github.com/krkn-chaos/krkn/issues/1496",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "needs-triage"
+        ],
+        "created_at": "2026-07-21T10:48:07Z"
+    },
+    {
+        "repo": "krkn-chaos/krkn",
+        "tier": "Sandbox",
+        "lang": "Python",
         "title": "Skip CI build and tests for PRs that only modify .md files",
         "url": "https://github.com/krkn-chaos/krkn/issues/1447",
         "labels": [
@@ -29743,6 +29728,19 @@
             "priority/P1"
         ],
         "created_at": "2023-10-25T13:49:51Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Organise units in a 'tree like' fashion",
+        "url": "https://github.com/perses/perses/issues/4282",
+        "labels": [
+            "help wanted",
+            "ui",
+            "priority/P2"
+        ],
+        "created_at": "2026-07-21T09:57:21Z"
     },
     {
         "repo": "perses/perses",
