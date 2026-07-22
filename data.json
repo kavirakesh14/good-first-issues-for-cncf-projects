@@ -3574,6 +3574,17 @@
         "repo": "goharbor/harbor",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Feature Request: Add official support for PostgreSQL 16, 17, and 18 in Harbor Helm Chart",
+        "url": "https://github.com/goharbor/harbor/issues/23562",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-07-15T07:01:13Z"
+    },
+    {
+        "repo": "goharbor/harbor",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "failed to download vulnerability DB",
         "url": "https://github.com/goharbor/harbor/issues/23521",
         "labels": [
@@ -30145,19 +30156,6 @@
         "repo": "prometheus/prometheus",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Consolidate (and update) go-yaml versions",
-        "url": "https://github.com/prometheus/prometheus/issues/18391",
-        "labels": [
-            "help wanted",
-            "kind/cleanup",
-            "not-as-easy-as-it-looks"
-        ],
-        "created_at": "2026-03-29T00:13:50Z"
-    },
-    {
-        "repo": "prometheus/prometheus",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Support periodic DNS re-resolution for FQDN targets discovered via Consul SD",
         "url": "https://github.com/prometheus/prometheus/issues/18387",
         "labels": [
@@ -30521,6 +30519,18 @@
             "component/scraping"
         ],
         "created_at": "2024-09-04T09:25:50Z"
+    },
+    {
+        "repo": "prometheus/prometheus",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Start Timestamp: Opt-in ST auto-generation globally/per scrape job.",
+        "url": "https://github.com/prometheus/prometheus/issues/14763",
+        "labels": [
+            "help wanted",
+            "kind/feature"
+        ],
+        "created_at": "2024-08-29T15:37:01Z"
     },
     {
         "repo": "thanos-io/thanos",
