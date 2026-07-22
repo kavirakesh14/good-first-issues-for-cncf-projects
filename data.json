@@ -6222,20 +6222,6 @@
         "repo": "kyverno/kyverno",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "[Bug] ImageValidatingPolicy CEL evaluation produces no logs even at --v=6",
-        "url": "https://github.com/kyverno/kyverno/issues/16023",
-        "labels": [
-            "bug",
-            "good first issue",
-            "imageVerify",
-            "cel:ImageValidatingPolicy"
-        ],
-        "created_at": "2026-05-06T04:14:53Z"
-    },
-    {
-        "repo": "kyverno/kyverno",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "[Bug] (kyverno-policies Chart) using vpolExclude with excludeNamespaces causing background-scan errors",
         "url": "https://github.com/kyverno/kyverno/issues/16002",
         "labels": [
@@ -9303,6 +9289,7 @@
         "url": "https://github.com/rook/rook/issues/16596",
         "labels": [
             "feature",
+            "wontfix",
             "good-first-issue"
         ],
         "created_at": "2025-10-10T15:41:42Z"
@@ -11845,23 +11832,10 @@
         "labels": [
             "enhancement",
             "help wanted",
+            "stale",
             "cilium"
         ],
         "created_at": "2024-09-24T10:02:56Z"
-    },
-    {
-        "repo": "submariner-io/submariner",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Support client cert auth for agent/broker communication",
-        "url": "https://github.com/submariner-io/submariner/issues/1115",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "open-cluster-management",
-            "stale"
-        ],
-        "created_at": "2021-01-28T02:22:51Z"
     },
     {
         "repo": "agones-dev/agones",
@@ -13940,19 +13914,6 @@
             "client"
         ],
         "created_at": "2025-03-05T17:35:31Z"
-    },
-    {
-        "repo": "kube-rs/kube",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "`CustomResource` derive injects empty defaults for unset fields",
-        "url": "https://github.com/kube-rs/kube/issues/1680",
-        "labels": [
-            "bug",
-            "help wanted",
-            "derive"
-        ],
-        "created_at": "2025-01-23T13:45:00Z"
     },
     {
         "repo": "kube-rs/kube",
@@ -18248,6 +18209,19 @@
         "repo": "kgateway-dev/kgateway",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "ResolvedRefs error not helpful when ref'ing to incorrect port on Service",
+        "url": "https://github.com/kgateway-dev/kgateway/issues/11998",
+        "labels": [
+            "Type: Bug",
+            "Good First Issue",
+            "stale"
+        ],
+        "created_at": "2025-08-14T02:18:21Z"
+    },
+    {
+        "repo": "kgateway-dev/kgateway",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Add Status Condition Messages to Gateway for Invalid Listeners",
         "url": "https://github.com/kgateway-dev/kgateway/issues/11982",
         "labels": [
@@ -22488,16 +22462,14 @@
         "repo": "dapr/dapr",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "`latest` tag is out of order due to hot fixes",
-        "url": "https://github.com/dapr/dapr/issues/5625",
+        "title": "Proposal: Use workflow_dispatch for dapr-bot commands",
+        "url": "https://github.com/dapr/dapr/issues/5526",
         "labels": [
-            "kind/bug",
             "good first issue",
-            "P1",
-            "pinned",
-            "fundamentals"
+            "P2",
+            "pinned"
         ],
-        "created_at": "2022-12-09T18:49:57Z"
+        "created_at": "2022-11-16T17:31:02Z"
     },
     {
         "repo": "dapr/dapr",
@@ -22798,18 +22770,6 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "TestUserAgentHeaderInK8sRESTClientConfig appears to fail when you have a bad .kube/config",
-        "url": "https://github.com/helm/helm/issues/31470",
-        "labels": [
-            "help wanted",
-            "bug"
-        ],
-        "created_at": "2025-11-09T13:30:26Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Remove work-arounds once oras-go creates patch release",
         "url": "https://github.com/helm/helm/issues/31386",
         "labels": [
@@ -23047,6 +23007,19 @@
             "keep open"
         ],
         "created_at": "2020-05-15T02:42:48Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Show Installed Chart Source Location or Source Repository URL",
+        "url": "https://github.com/helm/helm/issues/4256",
+        "labels": [
+            "help wanted",
+            "feature",
+            "in progress"
+        ],
+        "created_at": "2018-06-21T17:50:58Z"
     },
     {
         "repo": "ko-build/ko",
@@ -28767,6 +28740,19 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "jaeger_query: support serving UI assets from an archive, not just a directory",
+        "url": "https://github.com/jaegertracing/jaeger/issues/9065",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2026-07-21T19:41:51Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "snapshottest does not validate spec-conformant NDJSON for _bulk request bodies",
         "url": "https://github.com/jaegertracing/jaeger/issues/9038",
         "labels": [
@@ -31423,20 +31409,6 @@
             "good first issue"
         ],
         "created_at": "2025-07-17T16:55:48Z"
-    },
-    {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Helm chart: kserve.storage.resources values not applied to inferenceservice-config configmap (LLMInferenceService uses old hardcoded 1Gi memory limit)",
-        "url": "https://github.com/kserve/kserve/issues/5412",
-        "labels": [
-            "good first issue",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2026-04-16T23:18:05Z"
     },
     {
         "repo": "kserve/kserve",
