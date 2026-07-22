@@ -2070,6 +2070,18 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[UI] Stale state bug in Design Table filters",
+        "url": "https://github.com/meshery/meshery/issues/20891",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-07-22T13:55:08Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Remove 'On this page' Images",
         "url": "https://github.com/meshery/meshery/issues/20850",
         "labels": [
@@ -2487,17 +2499,14 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Test] E2E playwright test for Meshery Dashboard",
-        "url": "https://github.com/meshery/meshery/issues/14565",
+        "title": "[CI] GitHub Issue Template: Two Models-related issue templates need updated",
+        "url": "https://github.com/meshery/meshery/issues/20893",
         "labels": [
-            "kind/enhancement",
-            "good first issue",
-            "language/javascript",
-            "component/ui",
-            "area/tests",
-            "framework/playwright"
+            "help wanted",
+            "area/docs",
+            "area/ci"
         ],
-        "created_at": "2025-04-29T18:59:42Z"
+        "created_at": "2026-07-22T14:59:19Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2839,20 +2848,6 @@
             "framework/playwright"
         ],
         "created_at": "2026-06-17T19:43:32Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Models : Support alternative view by Category",
-        "url": "https://github.com/meshery/meshery/issues/20092",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-16T20:05:55Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -11828,7 +11823,6 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "stale",
             "cilium"
         ],
         "created_at": "2024-09-24T10:02:56Z"
@@ -22692,6 +22686,18 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "get-helm-3 installs inconsistent versions due to CDN caching",
+        "url": "https://github.com/helm/helm/issues/32329",
+        "labels": [
+            "help wanted",
+            "bug"
+        ],
+        "created_at": "2026-07-10T18:42:38Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "fix: `TestStatusWaitForDelete` flakes due to `WaitForDelete` informer initialization race",
         "url": "https://github.com/helm/helm/issues/32261",
         "labels": [
@@ -23002,19 +23008,6 @@
             "keep open"
         ],
         "created_at": "2020-05-15T02:42:48Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Show Installed Chart Source Location or Source Repository URL",
-        "url": "https://github.com/helm/helm/issues/4256",
-        "labels": [
-            "help wanted",
-            "feature",
-            "in progress"
-        ],
-        "created_at": "2018-06-21T17:50:58Z"
     },
     {
         "repo": "ko-build/ko",
@@ -25522,6 +25515,18 @@
         "created_at": "2025-07-30T05:30:46Z"
     },
     {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Integrate Kubewarden admission controller in the data plane",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4272",
+        "labels": [
+            "help wanted",
+            "Type/Task"
+        ],
+        "created_at": "2026-07-22T15:35:23Z"
+    },
+    {
         "repo": "openkruise/kruise",
         "tier": "Incubating",
         "lang": "Go",
@@ -27457,7 +27462,7 @@
         "url": "https://github.com/krkn-chaos/krkn/issues/1498",
         "labels": [
             "enhancement",
-            "good first issue",
+            "good-first-issue",
             "triage/accepted"
         ],
         "created_at": "2026-07-21T10:52:03Z"
@@ -27470,7 +27475,7 @@
         "url": "https://github.com/krkn-chaos/krkn/issues/1497",
         "labels": [
             "enhancement",
-            "good first issue",
+            "good-first-issue",
             "needs-triage"
         ],
         "created_at": "2026-07-21T10:50:23Z"
@@ -27483,7 +27488,7 @@
         "url": "https://github.com/krkn-chaos/krkn/issues/1496",
         "labels": [
             "enhancement",
-            "good first issue",
+            "good-first-issue",
             "needs-triage"
         ],
         "created_at": "2026-07-21T10:48:07Z"
@@ -27495,7 +27500,6 @@
         "title": "Skip CI build and tests for PRs that only modify .md files",
         "url": "https://github.com/krkn-chaos/krkn/issues/1447",
         "labels": [
-            "good first issue",
             "good-first-issue"
         ],
         "created_at": "2026-07-07T18:21:33Z"
@@ -27507,7 +27511,7 @@
         "title": "test_v2: migrate CI/tests/test_time.sh to CI/tests_v2/scenarios/time_skew with offset and restoration coverage",
         "url": "https://github.com/krkn-chaos/krkn/issues/1439",
         "labels": [
-            "good first issue"
+            "good-first-issue"
         ],
         "created_at": "2026-06-30T19:37:28Z"
     },
@@ -27518,7 +27522,7 @@
         "title": "test_v2: migrate CI/tests/test_telemetry.sh to CI/tests_v2/scenarios/telemetry_collection with upload verification coverage",
         "url": "https://github.com/krkn-chaos/krkn/issues/1437",
         "labels": [
-            "good first issue"
+            "good-first-issue"
         ],
         "created_at": "2026-06-30T19:36:13Z"
     },
@@ -27529,7 +27533,7 @@
         "title": "test_v2: migrate CI/tests/test_service_hijacking.sh to CI/tests_v2/scenarios/service_hijacking with response-step coverage",
         "url": "https://github.com/krkn-chaos/krkn/issues/1436",
         "labels": [
-            "good first issue"
+            "good-first-issue"
         ],
         "created_at": "2026-06-30T19:35:37Z"
     },
@@ -27540,7 +27544,7 @@
         "title": "test_v2: migrate CI/tests/test_net_chaos.sh to CI/tests_v2/scenarios/network_chaos_legacy with bandwidth-focused coverage",
         "url": "https://github.com/krkn-chaos/krkn/issues/1435",
         "labels": [
-            "good first issue"
+            "good-first-issue"
         ],
         "created_at": "2026-06-30T19:35:19Z"
     },
@@ -27551,7 +27555,7 @@
         "title": "test_v2: migrate CI/tests/test_pod_network_filter.sh to CI/tests_v2/scenarios/pod_network_filter with port/protocol coverage",
         "url": "https://github.com/krkn-chaos/krkn/issues/1434",
         "labels": [
-            "good first issue"
+            "good-first-issue"
         ],
         "created_at": "2026-06-30T19:35:04Z"
     },
@@ -27562,7 +27566,7 @@
         "title": "test_v2: migrate CI/tests/test_node_network_chaos.sh to CI/tests_v2/scenarios/node_network_chaos with node-safety coverage",
         "url": "https://github.com/krkn-chaos/krkn/issues/1433",
         "labels": [
-            "good first issue"
+            "good-first-issue"
         ],
         "created_at": "2026-06-30T19:34:51Z"
     },
@@ -27573,7 +27577,7 @@
         "title": "test_v2: migrate CI/tests/test_io_hog.sh to CI/tests_v2/scenarios/io_hog with functional and negative coverage",
         "url": "https://github.com/krkn-chaos/krkn/issues/1432",
         "labels": [
-            "good first issue"
+            "good-first-issue"
         ],
         "created_at": "2026-06-30T19:32:15Z"
     },
@@ -27585,7 +27589,7 @@
         "url": "https://github.com/krkn-chaos/krkn/issues/1315",
         "labels": [
             "bug",
-            "good first issue"
+            "good-first-issue"
         ],
         "created_at": "2026-05-14T13:36:55Z"
     },
@@ -27597,7 +27601,7 @@
         "url": "https://github.com/krkn-chaos/krkn/issues/969",
         "labels": [
             "enhancement",
-            "good first issue"
+            "good-first-issue"
         ],
         "created_at": "2025-11-20T13:55:48Z"
     },
@@ -27608,7 +27612,6 @@
         "title": "Node Outage Rollback Feature",
         "url": "https://github.com/krkn-chaos/krkn/issues/916",
         "labels": [
-            "good first issue",
             "good-first-issue"
         ],
         "created_at": "2025-10-01T18:51:09Z"
@@ -27620,7 +27623,6 @@
         "title": "Pod Network Scenario Rollback",
         "url": "https://github.com/krkn-chaos/krkn/issues/911",
         "labels": [
-            "good first issue",
             "good-first-issue"
         ],
         "created_at": "2025-10-01T18:46:28Z"
