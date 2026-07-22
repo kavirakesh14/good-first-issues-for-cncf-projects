@@ -3131,19 +3131,6 @@
         "repo": "opentofu/opentofu",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Incorrect warnings produced during `plan -replace`",
-        "url": "https://github.com/opentofu/opentofu/issues/4368",
-        "labels": [
-            "bug",
-            "good first issue",
-            "accepted"
-        ],
-        "created_at": "2026-07-16T11:29:59Z"
-    },
-    {
-        "repo": "opentofu/opentofu",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Investigate and fix documentation around `replace_triggered_by`",
         "url": "https://github.com/opentofu/opentofu/issues/4348",
         "labels": [
@@ -5175,6 +5162,25 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Passkey icons use wrong color variant when realm disables dark mode",
+        "url": "https://github.com/keycloak/keycloak/issues/51087",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/authentication/webauthn",
+            "area/login/ui",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn",
+            "backport/26.7"
+        ],
+        "created_at": "2026-07-22T11:58:51Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Organization Membership mapper omits the claim for users with zero organizations instead of emitting an empty value",
         "url": "https://github.com/keycloak/keycloak/issues/50410",
         "labels": [
@@ -5664,27 +5670,6 @@
             "priority/normal"
         ],
         "created_at": "2026-05-09T05:04:46Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Kubernetes Identity Provider does not reflect defaults and required fields",
-        "url": "https://github.com/keycloak/keycloak/issues/48767",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/ui",
-            "area/identity-brokering",
-            "team/core-iam",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-authn"
-        ],
-        "created_at": "2026-05-06T15:47:54Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6483,6 +6468,18 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[Chore]: Update security contacts",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3479",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-07-22T13:18:01Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Bug]: extra-jwt-issuers ignores oidc-enabled-signing-alg and rejects ES256 tokens",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3471",
         "labels": [
@@ -6827,18 +6824,6 @@
             "help wanted"
         ],
         "created_at": "2025-09-15T17:57:59Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Bug]: upstream api not attach the x-auth-request-xxx headers",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3187",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2025-09-05T08:10:26Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -18224,8 +18209,7 @@
         "url": "https://github.com/kgateway-dev/kgateway/issues/11998",
         "labels": [
             "Type: Bug",
-            "Good First Issue",
-            "stale"
+            "Good First Issue"
         ],
         "created_at": "2025-08-14T02:18:21Z"
     },
@@ -23868,18 +23852,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Do not capitalize Secret in Create a secret",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18398",
-        "labels": [
-            "good first issue",
-            "domain/ui-components"
-        ],
-        "created_at": "2026-07-21T14:19:07Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Unblock update of eslint-plugin-sonarjs from 4.1.0 to 4.2.0",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18388",
         "labels": [
@@ -23888,18 +23860,6 @@
             "domain/dependency-update-minor"
         ],
         "created_at": "2026-07-21T07:22:43Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Fix update of Biome 2.5.3 -> 2.5.4",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18386",
-        "labels": [
-            "good first issue",
-            "domain/dependency-update-minor"
-        ],
-        "created_at": "2026-07-21T06:54:43Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -25271,18 +25231,6 @@
             "help wanted"
         ],
         "created_at": "2022-08-17T10:51:16Z"
-    },
-    {
-        "repo": "fluxcd/flux2",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "No checksum verification for SOPS",
-        "url": "https://github.com/fluxcd/flux2/issues/5958",
-        "labels": [
-            "help wanted",
-            "area/ci"
-        ],
-        "created_at": "2026-06-29T08:40:46Z"
     },
     {
         "repo": "fluxcd/flux2",
