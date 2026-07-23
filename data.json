@@ -2478,6 +2478,35 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[UI] Ensure proper theme coloring of \"maximize\" button",
+        "url": "https://github.com/meshery/meshery/issues/20920",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "language/javascript",
+            "component/ui",
+            "framework/react"
+        ],
+        "created_at": "2026-07-23T15:48:54Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Fix broken images on documentation pages",
+        "url": "https://github.com/meshery/meshery/issues/20919",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-23T14:57:54Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[CI] GitHub Issue Template: Two Models-related issue templates need updated",
         "url": "https://github.com/meshery/meshery/issues/20893",
         "labels": [
@@ -2797,36 +2826,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-23T18:51:33Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Migrate usage of local \"See Also\" and \"Related\" sections to upstream \"Related Readings.",
-        "url": "https://github.com/meshery/meshery/issues/20149",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-19T20:59:47Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[UI] Fix failing end-to-end test for meshery-metrics",
-        "url": "https://github.com/meshery/meshery/issues/20109",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "language/javascript",
-            "component/ui",
-            "framework/react",
-            "framework/playwright"
-        ],
-        "created_at": "2026-06-17T19:43:32Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -5136,25 +5135,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Passkey icons use wrong color variant when realm disables dark mode",
-        "url": "https://github.com/keycloak/keycloak/issues/51087",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/authentication/webauthn",
-            "area/login/ui",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn",
-            "backport/26.7"
-        ],
-        "created_at": "2026-07-22T11:58:51Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Organization Membership mapper omits the claim for users with zero organizations instead of emitting an empty value",
         "url": "https://github.com/keycloak/keycloak/issues/50410",
         "labels": [
@@ -5644,6 +5624,27 @@
             "priority/normal"
         ],
         "created_at": "2026-05-09T05:04:46Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Kubernetes Identity Provider does not reflect defaults and required fields",
+        "url": "https://github.com/keycloak/keycloak/issues/48767",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/ui",
+            "area/identity-brokering",
+            "team/core-iam",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-authn"
+        ],
+        "created_at": "2026-05-06T15:47:54Z"
     },
     {
         "repo": "keylime/keylime",
@@ -9095,6 +9096,7 @@
         "labels": [
             "good first issue",
             "area/v1-data-engine",
+            "priority/1",
             "require/doc",
             "require/manual-test-plan",
             "kind/improvement",
@@ -9650,8 +9652,7 @@
             "Needs triage",
             "backlog",
             "Reviewed Q2 2025",
-            "Reviewed Q3 2025",
-            "1.19-candidate"
+            "Reviewed Q3 2025"
         ],
         "created_at": "2025-03-22T10:01:46Z"
     },
@@ -11825,21 +11826,6 @@
             "awaiting-maintainer"
         ],
         "created_at": "2026-05-31T20:42:18Z"
-    },
-    {
-        "repo": "agones-dev/agones",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Add OpenAPI x-kubernetes-patch keys for patching CRDs",
-        "url": "https://github.com/agones-dev/agones/issues/3112",
-        "labels": [
-            "kind/feature",
-            "help wanted",
-            "good first issue",
-            "area/build-tools",
-            "awaiting-maintainer"
-        ],
-        "created_at": "2023-04-19T17:06:23Z"
     },
     {
         "repo": "agones-dev/agones",
@@ -14423,6 +14409,20 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "[Flaking test] [InPlacePodVerticalScaling] Pod Resize deferred tests are flaking",
+        "url": "https://github.com/kubernetes/kubernetes/issues/134458",
+        "labels": [
+            "sig/node",
+            "help wanted",
+            "priority/important-longterm",
+            "triage/accepted"
+        ],
+        "created_at": "2025-10-07T16:14:45Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Add Verbose Logging to net/http for Egress Auditing and Rename probe/http/http.go",
         "url": "https://github.com/kubernetes/kubernetes/issues/134025",
         "labels": [
@@ -14663,20 +14663,6 @@
             "needs-triage"
         ],
         "created_at": "2025-01-20T11:36:12Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "cloud-provider HasClusterID related functionality should have better documentation in the code",
-        "url": "https://github.com/kubernetes/kubernetes/issues/128320",
-        "labels": [
-            "sig/storage",
-            "help wanted",
-            "sig/cloud-provider",
-            "triage/accepted"
-        ],
-        "created_at": "2024-10-24T20:49:37Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -24275,19 +24261,6 @@
         "repo": "radius-project/radius",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "List all resources in a given environment with `rad resource list`",
-        "url": "https://github.com/radius-project/radius/issues/7789",
-        "labels": [
-            "good first issue",
-            "triaged",
-            "feature"
-        ],
-        "created_at": "2024-08-08T21:30:39Z"
-    },
-    {
-        "repo": "radius-project/radius",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Nix package",
         "url": "https://github.com/radius-project/radius/issues/10761",
         "labels": [
@@ -28653,20 +28626,6 @@
             "container-runtime"
         ],
         "created_at": "2023-05-17T09:18:25Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "ES/OpenSearch e2e tests flake with \"cluster create-index blocked\" under runner disk pressure",
-        "url": "https://github.com/jaegertracing/jaeger/issues/9083",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/storage",
-            "storage/elasticsearch"
-        ],
-        "created_at": "2026-07-22T23:06:12Z"
     },
     {
         "repo": "jaegertracing/jaeger",
