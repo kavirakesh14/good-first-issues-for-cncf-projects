@@ -1222,19 +1222,6 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Ability to customize DefaultImagePrefix at runtime",
-        "url": "https://github.com/kptdev/kpt/issues/4595",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "area/fn-runtime"
-        ],
-        "created_at": "2026-06-18T09:21:09Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Update golangci-lint to v2+ and unify used version across repos",
         "url": "https://github.com/kptdev/kpt/issues/4389",
         "labels": [
@@ -1260,19 +1247,6 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Allow network access in render pipelines",
-        "url": "https://github.com/kptdev/kpt/issues/3806",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "area/hydrate"
-        ],
-        "created_at": "2023-02-09T21:31:57Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "WASM functions are flaky",
         "url": "https://github.com/kptdev/kpt/issues/3782",
         "labels": [
@@ -1281,19 +1255,6 @@
             "area/fn-runtime"
         ],
         "created_at": "2023-02-02T21:16:38Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "gatekeeper on duplicated nested packages merges the validation",
-        "url": "https://github.com/kptdev/kpt/issues/3758",
-        "labels": [
-            "bug",
-            "good first issue",
-            "area/fn-catalog"
-        ],
-        "created_at": "2023-01-26T18:49:59Z"
     },
     {
         "repo": "kptdev/kpt",
@@ -1404,19 +1365,6 @@
             "area/hydrate"
         ],
         "created_at": "2022-06-30T15:39:30Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "kpt pkg update --strategy force-delete-replace",
-        "url": "https://github.com/kptdev/kpt/issues/3316",
-        "labels": [
-            "bug",
-            "good first issue",
-            "area/pkg"
-        ],
-        "created_at": "2022-06-20T10:35:17Z"
     },
     {
         "repo": "kptdev/kpt",
@@ -1626,6 +1574,65 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Feature request: Ability to format `kpt pkg tree` output as json",
+        "url": "https://github.com/kptdev/kpt/issues/2098",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "area/pkg",
+            "triaged"
+        ],
+        "created_at": "2021-05-25T16:24:09Z"
+    },
+    {
+        "repo": "kptdev/kpt",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "`kpt fn render` should not display subpkg name if subpkg doesn't contain any pipeline",
+        "url": "https://github.com/kptdev/kpt/issues/2053",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "good first issue",
+            "area/hydrate",
+            "triaged"
+        ],
+        "created_at": "2021-05-19T21:30:34Z"
+    },
+    {
+        "repo": "kptdev/kpt",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Clarify the use of --reconcile-timeout in kpt live apply",
+        "url": "https://github.com/kptdev/kpt/issues/1865",
+        "labels": [
+            "documentation",
+            "good first issue",
+            "area/live",
+            "size/S",
+            "triaged"
+        ],
+        "created_at": "2021-04-30T19:56:59Z"
+    },
+    {
+        "repo": "kptdev/kpt",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "All examples in documentation need to have e2e testing",
+        "url": "https://github.com/kptdev/kpt/issues/1655",
+        "labels": [
+            "documentation",
+            "good first issue",
+            "size/M",
+            "triaged",
+            "area/devops"
+        ],
+        "created_at": "2021-04-01T00:15:45Z"
+    },
+    {
+        "repo": "kptdev/kpt",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "checksite github action takes very long time to run",
         "url": "https://github.com/kptdev/kpt/issues/3157",
         "labels": [
@@ -1650,21 +1657,6 @@
             "p2"
         ],
         "created_at": "2021-06-30T12:03:21Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "`kpt fn render` should not display subpkg name if subpkg doesn't contain any pipeline",
-        "url": "https://github.com/kptdev/kpt/issues/2053",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue",
-            "area/hydrate",
-            "triaged"
-        ],
-        "created_at": "2021-05-19T21:30:34Z"
     },
     {
         "repo": "kubean-io/kubean",
@@ -6166,6 +6158,21 @@
             "good first issue"
         ],
         "created_at": "2023-04-20T11:08:31Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[Bug] DeletingPolicy accepts invalid cron schedule; legacy CleanupPolicy rejected it at admission",
+        "url": "https://github.com/kyverno/kyverno/issues/16726",
+        "labels": [
+            "bug",
+            "good first issue",
+            "type:controller",
+            "validation",
+            "cel:DeletingPolicy"
+        ],
+        "created_at": "2026-07-23T09:20:47Z"
     },
     {
         "repo": "kyverno/kyverno",
@@ -13255,18 +13262,6 @@
         "repo": "kai-scheduler/KAI-Scheduler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "feat(scheduler): allow jobs to override stale gang eviction grace period",
-        "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/1913",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-07-15T07:26:39Z"
-    },
-    {
-        "repo": "kai-scheduler/KAI-Scheduler",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Allow for integration test generations based on a snapshot",
         "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/903",
         "labels": [
@@ -18215,7 +18210,6 @@
         "title": "Resource for custom Envoy config patching",
         "url": "https://github.com/kgateway-dev/kgateway/issues/13664",
         "labels": [
-            "stale",
             "help wanted"
         ],
         "created_at": "2026-03-16T07:47:51Z"
@@ -20345,21 +20339,6 @@
             "good first issue"
         ],
         "created_at": "2026-07-11T02:07:48Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
-        "title": "Configure Renovate to track .mvn/extensions.xml dependencies",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8498",
-        "labels": [
-            "Beginner Friendly",
-            "area/dependencies",
-            "area/build",
-            "orchestrator/disabled",
-            "good first issue"
-        ],
-        "created_at": "2026-07-08T15:14:48Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
