@@ -600,19 +600,6 @@
         "repo": "cadence-workflow/cadence",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Verbose Activity Logging",
-        "url": "https://github.com/cadence-workflow/cadence/issues/7583",
-        "labels": [
-            "feature",
-            "up-for-grabs",
-            "good first issue"
-        ],
-        "created_at": "2026-01-09T17:28:03Z"
-    },
-    {
-        "repo": "cadence-workflow/cadence",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Remove cadence/common/tokenbucket",
         "url": "https://github.com/cadence-workflow/cadence/issues/7562",
         "labels": [
@@ -6720,7 +6707,8 @@
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3283",
         "labels": [
             "help wanted",
-            "configuration"
+            "configuration",
+            "Stale"
         ],
         "created_at": "2025-12-12T14:51:44Z"
     },
@@ -8335,7 +8323,8 @@
         "url": "https://github.com/spiffe/spire/issues/5305",
         "labels": [
             "help wanted",
-            "priority/backlog"
+            "priority/backlog",
+            "stale"
         ],
         "created_at": "2024-07-17T10:21:11Z"
     },
@@ -11331,17 +11320,6 @@
             "good first issue"
         ],
         "created_at": "2026-05-05T02:57:17Z"
-    },
-    {
-        "repo": "youki-dev/youki",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "support time namespace",
-        "url": "https://github.com/youki-dev/youki/issues/3259",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2025-09-28T07:07:06Z"
     },
     {
         "repo": "youki-dev/youki",
@@ -28696,6 +28674,20 @@
             "container-runtime"
         ],
         "created_at": "2023-05-17T09:18:25Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "ES/OpenSearch e2e tests flake with \"cluster create-index blocked\" under runner disk pressure",
+        "url": "https://github.com/jaegertracing/jaeger/issues/9083",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/storage",
+            "storage/elasticsearch"
+        ],
+        "created_at": "2026-07-22T23:06:12Z"
     },
     {
         "repo": "jaegertracing/jaeger",
