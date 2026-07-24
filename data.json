@@ -16718,6 +16718,18 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "Data race in `CredentialsFileCredentialsProvider` when `watched_directory` is configured causes heap corruption and SIGSEGV",
+        "url": "https://github.com/envoyproxy/envoy/issues/45667",
+        "labels": [
+            "help wanted",
+            "no stalebot"
+        ],
+        "created_at": "2026-06-16T17:08:21Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "ratelimit/local_ratelimit: emit `Retry-After` header dynamically on 429 responses",
         "url": "https://github.com/envoyproxy/envoy/issues/45384",
         "labels": [
@@ -16955,19 +16967,6 @@
             "help wanted"
         ],
         "created_at": "2025-11-17T14:03:01Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "Support OIDC Discovery in jwt_authn filter",
-        "url": "https://github.com/envoyproxy/envoy/issues/41974",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/jwt_authn"
-        ],
-        "created_at": "2025-11-12T01:19:27Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -31311,22 +31310,6 @@
             "kserve/autoscaling"
         ],
         "created_at": "2025-06-27T07:35:16Z"
-    },
-    {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "How to use set  REST_V2.value  in  `self.protocol` of class Model ? ",
-        "url": "https://github.com/kserve/kserve/issues/3009",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "hacktoberfest2023",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2023-06-26T10:40:10Z"
     },
     {
         "repo": "kserve/kserve",
