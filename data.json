@@ -807,21 +807,6 @@
         "repo": "kairos-io/kairos",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "kairos operator should allow the user to set the host dir mount and respect it",
-        "url": "https://github.com/kairos-io/kairos/issues/3658",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "triage",
-            "kubernetes",
-            "area/operator"
-        ],
-        "created_at": "2025-09-11T12:03:55Z"
-    },
-    {
-        "repo": "kairos-io/kairos",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": ":book: Consistent name of our configuration file across docs",
         "url": "https://github.com/kairos-io/kairos/issues/2210",
         "labels": [
@@ -2346,21 +2331,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Homepage: Display bullet list of model category names with parenthetical count",
-        "url": "https://github.com/meshery/meshery/issues/18249",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-03-27T03:56:51Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] categories of related models",
         "url": "https://github.com/meshery/meshery/issues/18246",
         "labels": [
@@ -2478,6 +2448,22 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Test] E2E playwright test for Meshery Dashboard",
+        "url": "https://github.com/meshery/meshery/issues/14565",
+        "labels": [
+            "kind/enhancement",
+            "good first issue",
+            "language/javascript",
+            "component/ui",
+            "area/tests",
+            "framework/playwright"
+        ],
+        "created_at": "2025-04-29T18:59:42Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Ensure proper theme coloring of \"maximize\" button",
         "url": "https://github.com/meshery/meshery/issues/20920",
         "labels": [
@@ -2502,19 +2488,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-23T14:57:54Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[CI] GitHub Issue Template: Two Models-related issue templates need updated",
-        "url": "https://github.com/meshery/meshery/issues/20893",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "area/ci"
-        ],
-        "created_at": "2026-07-22T14:59:19Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2826,6 +2799,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-23T18:51:33Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Migrate usage of local \"See Also\" and \"Related\" sections to upstream \"Related Readings.",
+        "url": "https://github.com/meshery/meshery/issues/20149",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-19T20:59:47Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -6164,21 +6151,6 @@
         "repo": "kyverno/kyverno",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "[Bug] DeletingPolicy accepts invalid cron schedule; legacy CleanupPolicy rejected it at admission",
-        "url": "https://github.com/kyverno/kyverno/issues/16726",
-        "labels": [
-            "bug",
-            "good first issue",
-            "type:controller",
-            "validation",
-            "cel:DeletingPolicy"
-        ],
-        "created_at": "2026-07-23T09:20:47Z"
-    },
-    {
-        "repo": "kyverno/kyverno",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "[Bug] kyverno jp lacks JMESPath syntax pre-validation, returns cryptic errors",
         "url": "https://github.com/kyverno/kyverno/issues/16488",
         "labels": [
@@ -6190,19 +6162,6 @@
             "cli:other"
         ],
         "created_at": "2026-07-07T12:02:10Z"
-    },
-    {
-        "repo": "kyverno/kyverno",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "[Feature] CEL-aware Grafana dashboard for ValidatingPolicy/MutatingPolicy/GeneratingPolicy",
-        "url": "https://github.com/kyverno/kyverno/issues/16025",
-        "labels": [
-            "good first issue",
-            "grafana",
-            "metrics"
-        ],
-        "created_at": "2026-05-06T08:06:39Z"
     },
     {
         "repo": "kyverno/kyverno",
@@ -14089,6 +14048,18 @@
             "client-gold"
         ],
         "created_at": "2020-02-09T22:44:32Z"
+    },
+    {
+        "repo": "kubefleet-dev/kubefleet",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[BUG] Works success message mispelling.",
+        "url": "https://github.com/kubefleet-dev/kubefleet/issues/762",
+        "labels": [
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2026-07-24T05:31:29Z"
     },
     {
         "repo": "kubefleet-dev/kubefleet",
@@ -29611,19 +29582,6 @@
             "priority/P2"
         ],
         "created_at": "2026-07-21T09:57:21Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Link templating assumes relative path without protocol prefix",
-        "url": "https://github.com/perses/perses/issues/4229",
-        "labels": [
-            "help wanted",
-            "ui",
-            "priority/P1"
-        ],
-        "created_at": "2026-07-08T06:38:44Z"
     },
     {
         "repo": "perses/perses",
