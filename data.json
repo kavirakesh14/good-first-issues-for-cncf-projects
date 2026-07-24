@@ -10855,16 +10855,13 @@
         "repo": "containers/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "`kube generate` prints in Note: text, which text is not necessary applicable for the current case",
-        "url": "https://github.com/podman-container-tools/podman/issues/17743",
+        "title": "Distribution API seems missing",
+        "url": "https://github.com/podman-container-tools/podman/issues/17726",
         "labels": [
             "Good First Issue",
-            "kind/bug",
-            "volunteers-wanted",
-            "kube",
-            "Contribfest"
+            "kind/bug"
         ],
-        "created_at": "2023-03-12T09:09:49Z"
+        "created_at": "2023-03-09T15:32:05Z"
     },
     {
         "repo": "urunc-dev/urunc",
