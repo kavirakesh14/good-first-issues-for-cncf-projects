@@ -11768,20 +11768,6 @@
         "repo": "agones-dev/agones",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Promote `PortPolicyNone` Feature Gate from Beta to Stable",
-        "url": "https://github.com/agones-dev/agones/issues/4587",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/cleanup",
-            "awaiting-maintainer"
-        ],
-        "created_at": "2026-05-31T20:42:18Z"
-    },
-    {
-        "repo": "agones-dev/agones",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Is there any sample code for a C# server?",
         "url": "https://github.com/agones-dev/agones/issues/2404",
         "labels": [
