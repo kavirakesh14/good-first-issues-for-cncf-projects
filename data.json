@@ -5000,21 +5000,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Add link to clients in UsedBy hint for auth-flows listing in admin ui ",
-        "url": "https://github.com/keycloak/keycloak/issues/40211",
-        "labels": [
-            "kind/enhancement",
-            "area/admin/ui",
-            "good first issue",
-            "help wanted",
-            "team/core-shared"
-        ],
-        "created_at": "2025-06-03T16:53:09Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "kc_locale parameter not working as expected in keycloak 25 (keycloak.v3 account theme)",
         "url": "https://github.com/keycloak/keycloak/issues/36116",
         "labels": [
@@ -5118,6 +5103,22 @@
             "area/admin/client-js"
         ],
         "created_at": "2022-01-05T10:15:36Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Upgrade to 26.7.0 fails with preview features as the stateless cluster provider captures a null NodeInfo before postInit",
+        "url": "https://github.com/keycloak/keycloak/issues/51154",
+        "labels": [
+            "kind/bug",
+            "area/infinispan",
+            "help wanted",
+            "team/production-readiness",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-07-24T19:00:46Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5609,25 +5610,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-12T02:29:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Choosing locale with READ_ONLY ldap isn\u2019t handled gracefully",
-        "url": "https://github.com/keycloak/keycloak/issues/48850",
-        "labels": [
-            "kind/bug",
-            "area/account/ui",
-            "area/ldap",
-            "help wanted",
-            "team/core-iam",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-09T05:04:46Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6170,20 +6152,6 @@
             "cli:other"
         ],
         "created_at": "2026-07-07T12:02:10Z"
-    },
-    {
-        "repo": "kyverno/kyverno",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "[Bug] (kyverno-policies Chart) using vpolExclude with excludeNamespaces causing background-scan errors",
-        "url": "https://github.com/kyverno/kyverno/issues/16002",
-        "labels": [
-            "bug",
-            "good first issue",
-            "helm",
-            "triage"
-        ],
-        "created_at": "2026-04-30T14:19:54Z"
     },
     {
         "repo": "kyverno/kyverno",
