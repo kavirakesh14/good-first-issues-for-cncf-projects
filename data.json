@@ -2479,21 +2479,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[UI] Ensure proper theme coloring of \"maximize\" button",
-        "url": "https://github.com/meshery/meshery/issues/20920",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "language/javascript",
-            "component/ui",
-            "framework/react"
-        ],
-        "created_at": "2026-07-23T15:48:54Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Fix broken images on documentation pages",
         "url": "https://github.com/meshery/meshery/issues/20919",
         "labels": [
@@ -2814,6 +2799,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-23T18:51:33Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Migrate usage of local \"See Also\" and \"Related\" sections to upstream \"Related Readings.",
+        "url": "https://github.com/meshery/meshery/issues/20149",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-19T20:59:47Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -28198,12 +28197,13 @@
         "repo": "kubernetes-sigs/headlamp",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Add Devices sidebar section for Dynamic Resource Allocation APIs",
+        "title": "WIP: Add Devices sidebar section for Dynamic Resource Allocation APIs",
         "url": "https://github.com/kubernetes-sigs/headlamp/issues/4831",
         "labels": [
             "kind/feature",
             "help wanted",
-            "frontend"
+            "frontend",
+            "lfx"
         ],
         "created_at": "2026-03-05T18:39:21Z"
     },
