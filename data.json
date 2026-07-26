@@ -12852,20 +12852,6 @@
         "repo": "kedacore/keda",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "TLS CertPool Monotonic Growth",
-        "url": "https://github.com/kedacore/keda/issues/7691",
-        "labels": [
-            "bug",
-            "help wanted",
-            "performance",
-            "stale"
-        ],
-        "created_at": "2026-04-26T21:11:28Z"
-    },
-    {
-        "repo": "kedacore/keda",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Automatically inject the identityId while using azure-workload provider",
         "url": "https://github.com/kedacore/keda/issues/5911",
         "labels": [
@@ -13161,6 +13147,20 @@
             "stale-bot-ignore"
         ],
         "created_at": "2021-08-10T12:33:18Z"
+    },
+    {
+        "repo": "kedacore/keda",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Provide scaler for Riak TS",
+        "url": "https://github.com/kedacore/keda/issues/1790",
+        "labels": [
+            "help wanted",
+            "scaler",
+            "feature",
+            "stale-bot-ignore"
+        ],
+        "created_at": "2021-05-06T15:18:40Z"
     },
     {
         "repo": "kai-scheduler/KAI-Scheduler",
