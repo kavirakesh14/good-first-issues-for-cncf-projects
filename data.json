@@ -20264,18 +20264,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "Ensure Content Download honors Content MIME-TYPE and it's file extension",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8172",
-        "labels": [
-            "Beginner Friendly",
-            "good first issue"
-        ],
-        "created_at": "2026-06-08T19:16:01Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "CLI: Better error when creating artifact without content or type",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8023",
         "labels": [
@@ -26361,6 +26349,18 @@
             "area/roadmap"
         ],
         "created_at": "2023-11-23T15:59:51Z"
+    },
+    {
+        "repo": "flatcar/Flatcar",
+        "tier": "Incubating",
+        "lang": "Python",
+        "title": "Remove leftover Matrix links and badges across all Flatcar org repos",
+        "url": "https://github.com/flatcar/Flatcar/issues/2236",
+        "labels": [
+            "kind/task",
+            "good first issue"
+        ],
+        "created_at": "2026-07-27T08:04:04Z"
     },
     {
         "repo": "flatcar/Flatcar",
