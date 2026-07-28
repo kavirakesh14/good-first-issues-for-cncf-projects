@@ -5156,6 +5156,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Warning \"Proactive closing of the session was missed - refinements are needed to TransactionSessionHandler related logic\" appears",
+        "url": "https://github.com/keycloak/keycloak/issues/51131",
+        "labels": [
+            "kind/bug",
+            "area/core",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-07-24T10:45:58Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Fine-grained permission conflicting with each other",
         "url": "https://github.com/keycloak/keycloak/issues/50740",
         "labels": [
@@ -5592,23 +5609,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-18T21:19:28Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "SAML signature verification fails in Shibboleth when KeyName is present in KeyInfo in Keycloaks metadata",
-        "url": "https://github.com/keycloak/keycloak/issues/49034",
-        "labels": [
-            "area/saml",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-16T13:02:53Z"
     },
     {
         "repo": "keylime/keylime",
@@ -9246,6 +9246,20 @@
         "repo": "velero-io/velero",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Enable context TODO Linter",
+        "url": "https://github.com/velero-io/velero/issues/10086",
+        "labels": [
+            "kind/tech-debt",
+            "Enhancement/User",
+            "Good first issue",
+            "Needs triage"
+        ],
+        "created_at": "2026-07-27T22:51:57Z"
+    },
+    {
+        "repo": "velero-io/velero",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Backport/Cherry-pick GitHub action",
         "url": "https://github.com/velero-io/velero/issues/9603",
         "labels": [
@@ -12048,7 +12062,8 @@
         "title": "Looking for additional Maintainers \ud83e\udd84  \u2b50",
         "url": "https://github.com/projectcapsule/capsule/issues/1363",
         "labels": [
-            "help wanted"
+            "help wanted",
+            "Stale"
         ],
         "created_at": "2025-02-07T12:49:42Z"
     },
@@ -20467,19 +20482,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "Add missing X-Content-Type-Options: nosniff header",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/2412",
-        "labels": [
-            "Beginner Friendly",
-            "priority/normal",
-            "good first issue"
-        ],
-        "created_at": "2022-04-07T17:07:14Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "Use the attribute `version` of the specification to register an artifact by UI",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/1788",
         "labels": [
@@ -26354,18 +26356,6 @@
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
         "lang": "Python",
-        "title": "Remove leftover Matrix links and badges across all Flatcar org repos",
-        "url": "https://github.com/flatcar/Flatcar/issues/2236",
-        "labels": [
-            "kind/task",
-            "good first issue"
-        ],
-        "created_at": "2026-07-27T08:04:04Z"
-    },
-    {
-        "repo": "flatcar/Flatcar",
-        "tier": "Incubating",
-        "lang": "Python",
         "title": "Expand the Flatcar Apps selection [Great for new contributors]",
         "url": "https://github.com/flatcar/Flatcar/issues/2029",
         "labels": [
@@ -31233,21 +31223,6 @@
             "kserve/autoscaling"
         ],
         "created_at": "2025-06-27T07:35:16Z"
-    },
-    {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "No https url in isvc (kserve) but in ksvc(knative serving is ok)",
-        "url": "https://github.com/kserve/kserve/issues/2395",
-        "labels": [
-            "good first issue",
-            "kserve/control-plane",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2022-08-22T18:21:12Z"
     },
     {
         "repo": "kserve/kserve",
