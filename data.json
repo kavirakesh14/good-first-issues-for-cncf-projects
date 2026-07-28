@@ -2143,21 +2143,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Fix missing Bookinfo descriptions",
-        "url": "https://github.com/meshery/meshery/issues/20224",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-24T08:29:36Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] YouTube video fails to load with Error 153 in 'The Cloud Native Playground' modal",
         "url": "https://github.com/meshery/meshery/issues/20118",
         "labels": [
@@ -2460,6 +2445,22 @@
             "language/go"
         ],
         "created_at": "2025-03-11T09:09:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
+        "url": "https://github.com/meshery/meshery/issues/13426",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "issue/willfix",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2025-01-31T17:39:55Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2815,6 +2816,22 @@
         "created_at": "2026-06-19T20:59:47Z"
     },
     {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[UI] Fix failing end-to-end test for meshery-metrics",
+        "url": "https://github.com/meshery/meshery/issues/20109",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "language/javascript",
+            "component/ui",
+            "framework/react",
+            "framework/playwright"
+        ],
+        "created_at": "2026-06-17T19:43:32Z"
+    },
+    {
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
@@ -3086,6 +3103,19 @@
             "good first issue"
         ],
         "created_at": "2020-09-04T08:46:53Z"
+    },
+    {
+        "repo": "opentofu/opentofu",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "SSH communicator panics when HTTP proxy CONNECT response fails (nil res.Body.Close)",
+        "url": "https://github.com/opentofu/opentofu/issues/4358",
+        "labels": [
+            "bug",
+            "good first issue",
+            "accepted"
+        ],
+        "created_at": "2026-07-13T23:41:31Z"
     },
     {
         "repo": "opentofu/opentofu",
@@ -9229,18 +9259,6 @@
         "created_at": "2026-04-07T04:45:04Z"
     },
     {
-        "repo": "rook/rook",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Support custom port for nfs",
-        "url": "https://github.com/rook/rook/issues/15472",
-        "labels": [
-            "feature",
-            "help wanted"
-        ],
-        "created_at": "2025-02-27T08:14:44Z"
-    },
-    {
         "repo": "velero-io/velero",
         "tier": "Sandbox",
         "lang": "Go",
@@ -9979,18 +9997,6 @@
             "good first issue"
         ],
         "created_at": "2026-06-29T14:00:06Z"
-    },
-    {
-        "repo": "cri-o/cri-o",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Flaky test: container memory metrics uses exact comparison subject to race",
-        "url": "https://github.com/cri-o/cri-o/issues/10055",
-        "labels": [
-            "good first issue",
-            "lifecycle/stale"
-        ],
-        "created_at": "2026-06-19T11:19:58Z"
     },
     {
         "repo": "cri-o/cri-o",
@@ -11742,6 +11748,29 @@
             "kind/feature"
         ],
         "created_at": "2024-04-19T10:29:51Z"
+    },
+    {
+        "repo": "submariner-io/submariner",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Design: Cilium Host:BPF via ClusterMesh-shaped ipcache publisher",
+        "url": "https://github.com/submariner-io/submariner/issues/4105",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-07-24T08:21:55Z"
+    },
+    {
+        "repo": "submariner-io/submariner",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Proposal: AmneziaWG cable driver, AWS VPC CNI support, VXLAN datapath fixes, and CoreDNS custom ConfigMap key",
+        "url": "https://github.com/submariner-io/submariner/issues/4101",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-07-20T12:52:18Z"
     },
     {
         "repo": "submariner-io/submariner",
@@ -14646,6 +14675,30 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[Bug]: Hub recreates TTL-cleaned Jobs causing endless re-execution loops",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3961",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-07-28T17:12:53Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: Job sync fails with \"spec.selector: null: field is immutable\"",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3960",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-07-28T16:22:18Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Bug]: PVC volumeName population by Edge PV Controller causes state disagreement and tracking loss",
         "url": "https://github.com/kubestellar/kubestellar/issues/3959",
         "labels": [
@@ -14980,30 +15033,6 @@
             "kind/documentation"
         ],
         "created_at": "2026-06-06T14:25:49Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[strategist] roadmap-gap: kubestellar/kubestellar has no ROADMAP.md",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3796",
-        "labels": [
-            "help wanted",
-            "kind/documentation"
-        ],
-        "created_at": "2026-06-06T13:26:05Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[strategist] ecosystem-opportunity: Document KubeStellar competitive positioning vs Karmada, Liqo, and OCM",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3795",
-        "labels": [
-            "help wanted",
-            "kind/documentation"
-        ],
-        "created_at": "2026-06-06T13:25:29Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -20240,24 +20269,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "[Docs] Update outdated version references and add missing kubernetesops storage variant in README.md",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8543",
-        "labels": [
-            "type/task",
-            "Beginner Friendly",
-            "area/storage",
-            "area/documentation",
-            "area/operator",
-            "area/storage/gitops",
-            "area/build",
-            "good first issue"
-        ],
-        "created_at": "2026-07-12T11:26:46Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "docs(ui): ui-app README references wrong config directory (config/ vs configs/)",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8535",
         "labels": [
@@ -20791,20 +20802,6 @@
             "help wanted"
         ],
         "created_at": "2024-08-28T12:52:35Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
-        "title": "Improve error messages for compatibility checking",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/5066",
-        "labels": [
-            "type/enhancement",
-            "priority/normal",
-            "area/rules/compatibility",
-            "help wanted"
-        ],
-        "created_at": "2024-08-22T13:09:27Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
@@ -29217,6 +29214,18 @@
             "pinned"
         ],
         "created_at": "2020-12-18T17:28:29Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Panel buttons are partially  visible when panels shrink",
+        "url": "https://github.com/perses/perses/issues/4314",
+        "labels": [
+            "good first issue",
+            "ui"
+        ],
+        "created_at": "2026-07-28T14:18:21Z"
     },
     {
         "repo": "perses/perses",
