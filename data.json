@@ -2034,6 +2034,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Fix Codespaces image link",
+        "url": "https://github.com/meshery/meshery/issues/20999",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-29T06:26:46Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Stale state bug in Design Table filters",
         "url": "https://github.com/meshery/meshery/issues/20891",
         "labels": [
@@ -2451,22 +2466,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Template] Create a Brainstorming template",
-        "url": "https://github.com/meshery/meshery/issues/12503",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
-        ],
-        "created_at": "2024-10-28T14:47:23Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Fix docs sidebar colors in light/dark mode",
         "url": "https://github.com/meshery/meshery/issues/20951",
         "labels": [
@@ -2831,20 +2830,6 @@
             "framework/playwright"
         ],
         "created_at": "2026-06-17T19:43:32Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Models : Support alternative view by Category",
-        "url": "https://github.com/meshery/meshery/issues/20092",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-16T20:05:55Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -3888,19 +3873,6 @@
             "rm-external"
         ],
         "created_at": "2026-05-25T06:44:44Z"
-    },
-    {
-        "repo": "project-zot/zot",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Feat]: Implement gcTimeWindow in order to reduce storage locking during active usage time",
-        "url": "https://github.com/project-zot/zot/issues/3001",
-        "labels": [
-            "feature",
-            "good first issue",
-            "rm-external"
-        ],
-        "created_at": "2025-03-04T16:34:52Z"
     },
     {
         "repo": "project-zot/zot",
@@ -5401,22 +5373,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Creating a new realm from json using kcadm gives a PK violation on KEYCLOAK_ROLE despite it only being defined once in the JSON.",
-        "url": "https://github.com/keycloak/keycloak/issues/49731",
-        "labels": [
-            "kind/bug",
-            "area/storage",
-            "help wanted",
-            "team/core-iam",
-            "team/core-shared",
-            "priority/normal"
-        ],
-        "created_at": "2026-06-05T17:22:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Identity provider details causes double API call",
         "url": "https://github.com/keycloak/keycloak/issues/49721",
         "labels": [
@@ -5652,6 +5608,22 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-21T11:00:36Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "NullPointerException in ResourceIndicatorsPostProcessor when access token audience is null",
+        "url": "https://github.com/keycloak/keycloak/issues/49077",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-18T21:19:28Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8073,18 +8045,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "oidc-discovery-provider: allow_insecure_scheme WARN is misleading and unsuppressible behind a TLS-terminating load balancer",
-        "url": "https://github.com/spiffe/spire/issues/7155",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2026-07-22T00:27:24Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "bootstrapping trust bundle from another workload api",
         "url": "https://github.com/spiffe/spire/issues/7124",
         "labels": [
@@ -8435,6 +8395,18 @@
             "unscoped"
         ],
         "created_at": "2023-03-21T21:37:33Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "SPIRE Server should enforce agent IDs reside in the agent namespace",
+        "url": "https://github.com/spiffe/spire/issues/2712",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2022-01-31T19:43:11Z"
     },
     {
         "repo": "carina-io/carina",
@@ -11058,6 +11030,29 @@
         "repo": "interlink-hq/interLink",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Introduce CSI custom driver for commands to be executed on the remote host",
+        "url": "https://github.com/interlink-hq/interLink/issues/549",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-07-29T08:03:49Z"
+    },
+    {
+        "repo": "interlink-hq/interLink",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "interlink server api call to get the running version",
+        "url": "https://github.com/interlink-hq/interLink/issues/544",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-07-29T07:23:27Z"
+    },
+    {
+        "repo": "interlink-hq/interLink",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Distribute installer as a Krew kubectl plugin",
         "url": "https://github.com/interlink-hq/interLink/issues/352",
         "labels": [
@@ -12402,18 +12397,6 @@
             "question"
         ],
         "created_at": "2020-09-11T05:56:46Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "bug: Init-container-only accelerator requests bypass admission mutation and quota checks",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2167",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-07-28T09:42:09Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
