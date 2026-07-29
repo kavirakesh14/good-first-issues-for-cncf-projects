@@ -2466,6 +2466,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Broken link for Docker Desktop in WSL2 instructions",
+        "url": "https://github.com/meshery/meshery/issues/21005",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-29T11:43:43Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Fix docs sidebar colors in light/dark mode",
         "url": "https://github.com/meshery/meshery/issues/20951",
         "labels": [
@@ -2814,22 +2828,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-19T20:59:47Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[UI] Fix failing end-to-end test for meshery-metrics",
-        "url": "https://github.com/meshery/meshery/issues/20109",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "language/javascript",
-            "component/ui",
-            "framework/react",
-            "framework/playwright"
-        ],
-        "created_at": "2026-06-17T19:43:32Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -5124,6 +5122,21 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Organization group-by-path endpoint returns a brief representation instead of a full representation",
+        "url": "https://github.com/keycloak/keycloak/issues/51263",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "team/core-iam",
+            "priority/normal",
+            "area/organizations"
+        ],
+        "created_at": "2026-07-29T09:13:28Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Build user representation via UP when querying users granted with a role",
         "url": "https://github.com/keycloak/keycloak/issues/51233",
         "labels": [
@@ -5182,23 +5195,6 @@
             "priority/normal"
         ],
         "created_at": "2026-07-24T19:00:46Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Warning \"Proactive closing of the session was missed - refinements are needed to TransactionSessionHandler related logic\" appears",
-        "url": "https://github.com/keycloak/keycloak/issues/51131",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-07-24T10:45:58Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5742,18 +5738,6 @@
             "help wanted"
         ],
         "created_at": "2022-11-07T20:46:31Z"
-    },
-    {
-        "repo": "kubearmor/kubearmor",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Trivy Scan vulnerabilities",
-        "url": "https://github.com/kubearmor/KubeArmor/issues/2803",
-        "labels": [
-            "bug",
-            "good first issue"
-        ],
-        "created_at": "2026-07-25T07:05:15Z"
     },
     {
         "repo": "kubearmor/kubearmor",
@@ -12402,6 +12386,18 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Scheduler memory allocation ratio becomes NaN for devices with zero total memory",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2186",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-07-28T18:44:25Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "[Bug] Leader election isHolderOf false positive when hostname is a prefix of another node's hostname",
         "url": "https://github.com/Project-HAMi/HAMi/issues/2154",
         "labels": [
@@ -16563,6 +16559,19 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
+        "title": "Envoy support HTTP Query Method (RFC 10008)",
+        "url": "https://github.com/envoyproxy/envoy/issues/46404",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/http"
+        ],
+        "created_at": "2026-07-27T16:20:34Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
         "title": "Ext Proc to Support Session Affinity",
         "url": "https://github.com/envoyproxy/envoy/issues/46159",
         "labels": [
@@ -16945,18 +16954,6 @@
             "area/load balancing"
         ],
         "created_at": "2025-11-18T12:24:39Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
-        "title": "Dynamic Per-Connection Certificates for QUIC in Envoy",
-        "url": "https://github.com/envoyproxy/envoy/issues/42063",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2025-11-17T14:03:01Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -19325,6 +19322,18 @@
             "LFX Mentorship"
         ],
         "created_at": "2025-06-23T12:38:35Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[v2] Validate Backup/Restore resource references at the API layer on create",
+        "url": "https://github.com/openeverest/openeverest/issues/2657",
+        "labels": [
+            "good first issue",
+            "chore"
+        ],
+        "created_at": "2026-07-29T11:19:34Z"
     },
     {
         "repo": "openeverest/openeverest",
