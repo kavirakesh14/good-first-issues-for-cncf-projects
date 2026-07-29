@@ -2861,6 +2861,19 @@
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Expose Ironic skip_block_devices in the BareMetalHost CRD",
+        "url": "https://github.com/metal3-io/baremetal-operator/issues/3440",
+        "labels": [
+            "kind/feature",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-07-23T11:59:30Z"
+    },
+    {
+        "repo": "metal3-io/baremetal-operator",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Use inspect interface `no-inspect` for hosts with inspection disabled",
         "url": "https://github.com/metal3-io/baremetal-operator/issues/3283",
         "labels": [
@@ -6122,18 +6135,6 @@
             "to_archive"
         ],
         "created_at": "2023-09-19T01:33:06Z"
-    },
-    {
-        "repo": "kubescape/kubescape",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Anonimization of Kubescape results",
-        "url": "https://github.com/kubescape/kubescape/issues/1200",
-        "labels": [
-            "feature",
-            "good first issue"
-        ],
-        "created_at": "2023-04-20T11:08:31Z"
     },
     {
         "repo": "kyverno/kyverno",
@@ -10182,6 +10183,18 @@
             "help wanted"
         ],
         "created_at": "2023-09-06T03:11:36Z"
+    },
+    {
+        "repo": "lima-vm/lima",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Support for stopping multiple instances",
+        "url": "https://github.com/lima-vm/lima/issues/5367",
+        "labels": [
+            "good first issue",
+            "area/cli"
+        ],
+        "created_at": "2026-07-29T14:43:50Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -16636,19 +16649,6 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "Envoy `mcp_json_rest_bridge` filter injects unescaped path segments into the upstream request path (unauthenticated)",
-        "url": "https://github.com/envoyproxy/envoy/issues/45931",
-        "labels": [
-            "bug",
-            "help wanted",
-            "area/mcp"
-        ],
-        "created_at": "2026-07-02T02:13:12Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "Hot Restart IPC Wire-Length Integer Overflow to Heap Buffer Overflow",
         "url": "https://github.com/envoyproxy/envoy/issues/45872",
         "labels": [
@@ -16954,6 +16954,18 @@
             "area/load balancing"
         ],
         "created_at": "2025-11-18T12:24:39Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "Dynamic Per-Connection Certificates for QUIC in Envoy",
+        "url": "https://github.com/envoyproxy/envoy/issues/42063",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2025-11-17T14:03:01Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -18068,6 +18080,17 @@
             "area/ai"
         ],
         "created_at": "2024-12-26T11:08:25Z"
+    },
+    {
+        "repo": "kgateway-dev/kgateway",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Invalid `kgateway.dev/signature-algorithms` value: listener reports Programmed=True while Envoy NACKs it in a ~10/s retry loop; fresh listener port is silently dead",
+        "url": "https://github.com/kgateway-dev/kgateway/issues/14453",
+        "labels": [
+            "Good First Issue"
+        ],
+        "created_at": "2026-07-22T11:51:52Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -20737,21 +20760,6 @@
             "help wanted"
         ],
         "created_at": "2026-01-28T06:47:20Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
-        "title": "Add UI support for creating references",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/6033",
-        "labels": [
-            "type/enhancement",
-            "priority/normal",
-            "area/ui",
-            "version/3.x",
-            "help wanted"
-        ],
-        "created_at": "2025-03-10T11:47:05Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
