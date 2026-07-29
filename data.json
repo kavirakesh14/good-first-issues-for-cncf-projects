@@ -2046,21 +2046,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Remove 'On this page' Images",
-        "url": "https://github.com/meshery/meshery/issues/20850",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-21T05:54:11Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Server] Unguarded SendEvent on possibly-nil instance in auto_register (dormant latent crash)",
         "url": "https://github.com/meshery/meshery/issues/20821",
         "labels": [
@@ -2466,6 +2451,22 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Template] Create a Brainstorming template",
+        "url": "https://github.com/meshery/meshery/issues/12503",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:47:23Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Fix docs sidebar colors in light/dark mode",
         "url": "https://github.com/meshery/meshery/issues/20951",
         "labels": [
@@ -2830,6 +2831,20 @@
             "framework/playwright"
         ],
         "created_at": "2026-06-17T19:43:32Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Models : Support alternative view by Category",
+        "url": "https://github.com/meshery/meshery/issues/20092",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-16T20:05:55Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -9216,6 +9231,7 @@
         "url": "https://github.com/rook/rook/issues/17614",
         "labels": [
             "bug",
+            "wontfix",
             "good-first-issue"
         ],
         "created_at": "2026-05-27T20:53:08Z"
@@ -11467,20 +11483,6 @@
             "area/multi-cluster"
         ],
         "created_at": "2024-03-26T22:45:52Z"
-    },
-    {
-        "repo": "cilium/cilium",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "DNS L7 policy: Stop caching DNS server IPs when possible",
-        "url": "https://github.com/cilium/cilium/issues/45850",
-        "labels": [
-            "help-wanted",
-            "good-first-issue",
-            "sig/policy",
-            "area/fqdn"
-        ],
-        "created_at": "2026-05-08T10:37:30Z"
     },
     {
         "repo": "cilium/cilium",
@@ -14675,6 +14677,30 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[Bug]: Create/delete ping-pong loop when Edge node controller correctly deletes an invalid synced Pod",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3964",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-07-28T22:50:43Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: HPA on Edge causes infinite reconcile loop (ping-pong) with Hub over Deployment replicas`",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3962",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-07-28T20:52:34Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Bug]: Hub recreates TTL-cleaned Jobs causing endless re-execution loops",
         "url": "https://github.com/kubestellar/kubestellar/issues/3961",
         "labels": [
@@ -15008,31 +15034,6 @@
             "kind/documentation"
         ],
         "created_at": "2026-06-06T15:34:29Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[strategist] ecosystem-opportunity: kubestellar/ui vs kubestellar/console \u2014 clarify relationship and routing for new users",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3800",
-        "labels": [
-            "help wanted",
-            "kind/documentation"
-        ],
-        "created_at": "2026-06-06T14:30:07Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] contributor onboarding gap \u2014 document AI-contribution path (tests drive implementation)",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3799",
-        "labels": [
-            "help wanted",
-            "priority/medium",
-            "kind/documentation"
-        ],
-        "created_at": "2026-06-06T14:25:49Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -22562,18 +22563,6 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "get-helm-3 installs inconsistent versions due to CDN caching",
-        "url": "https://github.com/helm/helm/issues/32329",
-        "labels": [
-            "help wanted",
-            "bug"
-        ],
-        "created_at": "2026-07-10T18:42:38Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "fix: `TestStatusWaitForDelete` flakes due to `WaitForDelete` informer initialization race",
         "url": "https://github.com/helm/helm/issues/32261",
         "labels": [
@@ -22884,6 +22873,19 @@
             "keep open"
         ],
         "created_at": "2020-05-15T02:42:48Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Show Installed Chart Source Location or Source Repository URL",
+        "url": "https://github.com/helm/helm/issues/4256",
+        "labels": [
+            "help wanted",
+            "feature",
+            "in progress"
+        ],
+        "created_at": "2018-06-21T17:50:58Z"
     },
     {
         "repo": "ko-build/ko",
