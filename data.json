@@ -564,7 +564,8 @@
         "labels": [
             "feature",
             "up-for-grabs",
-            "good first issue"
+            "good first issue",
+            "kind/feature"
         ],
         "created_at": "2026-06-16T16:37:31Z"
     },
@@ -592,7 +593,9 @@
         "labels": [
             "feature",
             "up-for-grabs",
-            "good first issue"
+            "good first issue",
+            "needs-info",
+            "kind/feature"
         ],
         "created_at": "2026-01-13T22:39:26Z"
     },
@@ -617,7 +620,9 @@
         "labels": [
             "feature",
             "up-for-grabs",
-            "good first issue"
+            "good first issue",
+            "needs-info",
+            "kind/feature"
         ],
         "created_at": "2025-08-20T23:35:37Z"
     },
@@ -2034,6 +2039,30 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[UI] Make the Dry Run Results dialog scrollable to display full error details",
+        "url": "https://github.com/meshery/meshery/issues/21017",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-07-30T08:04:36Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[UI] Fix Organization field alignment",
+        "url": "https://github.com/meshery/meshery/issues/21014",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-07-30T04:31:09Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Fix Codespaces image link",
         "url": "https://github.com/meshery/meshery/issues/20999",
         "labels": [
@@ -2431,36 +2460,6 @@
             "framework/playwright"
         ],
         "created_at": "2025-04-29T18:59:42Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Add support for sort by count for database table in settings registry page",
-        "url": "https://github.com/meshery/meshery/issues/13958",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "language/go"
-        ],
-        "created_at": "2025-03-11T09:09:30Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
-        "url": "https://github.com/meshery/meshery/issues/13426",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "issue/willfix",
-            "language/markdown",
-            "framework/jekyll"
-        ],
-        "created_at": "2025-01-31T17:39:55Z"
     },
     {
         "repo": "meshery/meshery",
@@ -5197,6 +5196,21 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "WebAuthn tests are being skipped in Github workflows",
+        "url": "https://github.com/keycloak/keycloak/issues/51164",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "priority/normal",
+            "area/workflows",
+            "team/core-authn"
+        ],
+        "created_at": "2026-07-25T21:52:11Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Upgrade to 26.7.0 fails with preview features as the stateless cluster provider captures a null NodeInfo before postInit",
         "url": "https://github.com/keycloak/keycloak/issues/51154",
         "labels": [
@@ -5617,22 +5631,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-21T11:00:36Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "NullPointerException in ResourceIndicatorsPostProcessor when access token audience is null",
-        "url": "https://github.com/keycloak/keycloak/issues/49077",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-18T21:19:28Z"
     },
     {
         "repo": "keylime/keylime",
@@ -12765,7 +12763,8 @@
         "url": "https://github.com/kedacore/keda/issues/7675",
         "labels": [
             "bug",
-            "good first issue"
+            "good first issue",
+            "stale"
         ],
         "created_at": "2026-04-22T09:03:23Z"
     },
@@ -26400,19 +26399,6 @@
             "help wanted"
         ],
         "created_at": "2026-03-05T11:51:34Z"
-    },
-    {
-        "repo": "flatcar/Flatcar",
-        "tier": "Incubating",
-        "lang": "Python",
-        "title": "Redesign Download UI and Experience for Flatcar ISO Images",
-        "url": "https://github.com/flatcar/Flatcar/issues/1913",
-        "labels": [
-            "kind/roadmap",
-            "kind/feature",
-            "good first issue"
-        ],
-        "created_at": "2025-10-09T13:37:47Z"
     },
     {
         "repo": "flatcar/Flatcar",
