@@ -9209,19 +9209,6 @@
         "repo": "rook/rook",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "More granular control for device class",
-        "url": "https://github.com/rook/rook/issues/16596",
-        "labels": [
-            "feature",
-            "wontfix",
-            "good-first-issue"
-        ],
-        "created_at": "2025-10-10T15:41:42Z"
-    },
-    {
-        "repo": "rook/rook",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Allow versioning to be enabled via ObjectBucketClaim",
         "url": "https://github.com/rook/rook/issues/17318",
         "labels": [
@@ -19336,6 +19323,18 @@
         "repo": "cloudnative-pg/cloudnative-pg",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Add `--dry-run` to `cnpg backup`",
+        "url": "https://github.com/cloudnative-pg/cloudnative-pg/issues/11232",
+        "labels": [
+            "enhancement :magic_wand:",
+            "good first issue"
+        ],
+        "created_at": "2026-07-21T05:39:38Z"
+    },
+    {
+        "repo": "cloudnative-pg/cloudnative-pg",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Feature]: Support for `CREATE` and `USAGE` grants on database schemas",
         "url": "https://github.com/cloudnative-pg/cloudnative-pg/issues/7872",
         "labels": [
@@ -23863,7 +23862,8 @@
         "url": "https://github.com/podman-desktop/podman-desktop/issues/13530",
         "labels": [
             "good first issue",
-            "hacktoberfest"
+            "hacktoberfest",
+            "lifecycle/stale"
         ],
         "created_at": "2025-08-08T10:13:11Z"
     },
@@ -23957,7 +23957,8 @@
         "labels": [
             "good first issue",
             "area/tooling \ud83d\udee0\ufe0f",
-            "hacktoberfest"
+            "hacktoberfest",
+            "lifecycle/stale"
         ],
         "created_at": "2025-04-11T08:01:22Z"
     },
@@ -23984,7 +23985,8 @@
             "good first issue",
             "area/development-mode \ud83e\uddd1\u200d\ud83d\udcbb",
             "area/tooling \ud83d\udee0\ufe0f",
-            "hacktoberfest"
+            "hacktoberfest",
+            "lifecycle/stale"
         ],
         "created_at": "2025-02-27T17:18:20Z"
     },
@@ -24038,7 +24040,8 @@
         "labels": [
             "good first issue",
             "domain/documentation \ud83d\udcd6",
-            "hacktoberfest"
+            "hacktoberfest",
+            "lifecycle/stale"
         ],
         "created_at": "2023-09-08T13:53:41Z"
     },
@@ -31236,39 +31239,6 @@
         "repo": "kserve/kserve",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Sample doc for custom model server using multi-model serving",
-        "url": "https://github.com/kserve/kserve/issues/1590",
-        "labels": [
-            "good first issue",
-            "kind/feature",
-            "kfserving/mms",
-            "hacktoberfest2023",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2021-05-02T23:33:19Z"
-    },
-    {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Sample for XGBoost model server using multi-model serving",
-        "url": "https://github.com/kserve/kserve/issues/1589",
-        "labels": [
-            "good first issue",
-            "kind/feature",
-            "kfserving/mms",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2021-05-02T23:29:46Z"
-    },
-    {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Multi-model serving e2e test for http/https",
         "url": "https://github.com/kserve/kserve/issues/1576",
         "labels": [
@@ -31278,39 +31248,6 @@
             "kfserving/mms"
         ],
         "created_at": "2021-04-29T18:52:40Z"
-    },
-    {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Multi-model serving e2e for s3",
-        "url": "https://github.com/kserve/kserve/issues/1575",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/feature",
-            "kfserving/mms",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2021-04-29T17:59:29Z"
-    },
-    {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Documentation : Minimum Hardware/System requirements ",
-        "url": "https://github.com/kserve/kserve/issues/939",
-        "labels": [
-            "good first issue",
-            "area/engprod",
-            "kind/feature",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2020-07-13T01:22:49Z"
     },
     {
         "repo": "kserve/kserve",
