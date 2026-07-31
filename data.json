@@ -2067,21 +2067,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Fix Codespaces image link",
-        "url": "https://github.com/meshery/meshery/issues/20999",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-29T06:26:46Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Stale state bug in Design Table filters",
         "url": "https://github.com/meshery/meshery/issues/20891",
         "labels": [
@@ -2117,21 +2102,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-17T16:18:51Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Inconsistent formatting of \"Overview of Steps\" section",
-        "url": "https://github.com/meshery/meshery/issues/20566",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-09T16:20:48Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2464,6 +2434,38 @@
             "language/go"
         ],
         "created_at": "2025-03-11T09:09:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
+        "url": "https://github.com/meshery/meshery/issues/13426",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "issue/willfix",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2025-01-31T17:39:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Template] Create a Brainstorming template",
+        "url": "https://github.com/meshery/meshery/issues/12503",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:47:23Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2847,6 +2849,34 @@
             "framework/playwright"
         ],
         "created_at": "2026-06-17T19:43:32Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Models : Support alternative view by Category",
+        "url": "https://github.com/meshery/meshery/issues/20092",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-16T20:05:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "ResponsiveImage component is duplicated",
+        "url": "https://github.com/meshery/meshery/issues/20040",
+        "labels": [
+            "help wanted",
+            "language/javascript",
+            "component/ui",
+            "framework/react"
+        ],
+        "created_at": "2026-06-13T00:34:13Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -23294,7 +23324,6 @@
         "labels": [
             "kind/bug",
             "good-first-issue",
-            "lifecycle/stale",
             "area/operator",
             "sig/control-plane"
         ],
@@ -25188,6 +25217,19 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "No way to check the deployed OpenChoreo version from the Console",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4344",
+        "labels": [
+            "good first issue",
+            "Type/Improvement",
+            "reportedBy/community"
+        ],
+        "created_at": "2026-07-28T09:33:31Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Add build deletion support to the Backstage",
         "url": "https://github.com/openchoreo/openchoreo/issues/4154",
         "labels": [
@@ -26942,19 +26984,6 @@
         "repo": "chaos-mesh/chaos-mesh",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Dashboard: format YAML file",
-        "url": "https://github.com/chaos-mesh/chaos-mesh/issues/2507",
-        "labels": [
-            "type/enhancement",
-            "good first issue",
-            "component/dashboard"
-        ],
-        "created_at": "2021-11-10T12:39:51Z"
-    },
-    {
-        "repo": "chaos-mesh/chaos-mesh",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Add e2e test for external network delay",
         "url": "https://github.com/chaos-mesh/chaos-mesh/issues/1047",
         "labels": [
@@ -27285,18 +27314,6 @@
             "area/litmus-docs"
         ],
         "created_at": "2026-02-05T12:46:18Z"
-    },
-    {
-        "repo": "litmuschaos/litmus",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "OIDC naming is Dex-specific but works with any OIDC provider",
-        "url": "https://github.com/litmuschaos/litmus/issues/5391",
-        "labels": [
-            "good first issue",
-            "kind/enhancement"
-        ],
-        "created_at": "2026-01-13T13:30:35Z"
     },
     {
         "repo": "litmuschaos/litmus",
