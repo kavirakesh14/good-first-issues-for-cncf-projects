@@ -565,6 +565,8 @@
             "feature",
             "up-for-grabs",
             "good first issue",
+            "good-first-issue",
+            "help-wanted",
             "kind/feature"
         ],
         "created_at": "2026-06-16T16:37:31Z"
@@ -581,6 +583,9 @@
             "good first issue",
             "test",
             "needs-info",
+            "good-first-issue",
+            "help-wanted",
+            "triage/needs-info",
             "kind/bug",
             "kind/cleanup"
         ],
@@ -597,6 +602,9 @@
             "up-for-grabs",
             "good first issue",
             "needs-info",
+            "good-first-issue",
+            "help-wanted",
+            "triage/needs-info",
             "kind/feature"
         ],
         "created_at": "2026-01-13T22:39:26Z"
@@ -611,6 +619,8 @@
             "refactoring",
             "good first issue",
             "needs-info",
+            "good-first-issue",
+            "triage/needs-info",
             "kind/cleanup"
         ],
         "created_at": "2025-12-23T17:54:08Z"
@@ -626,6 +636,9 @@
             "up-for-grabs",
             "good first issue",
             "needs-info",
+            "good-first-issue",
+            "help-wanted",
+            "triage/needs-info",
             "kind/feature"
         ],
         "created_at": "2025-08-20T23:35:37Z"
@@ -638,7 +651,10 @@
         "url": "https://github.com/cadence-workflow/cadence/issues/4427",
         "labels": [
             "up-for-grabs",
-            "good first issue"
+            "good first issue",
+            "needs-info",
+            "good-first-issue",
+            "help-wanted"
         ],
         "created_at": "2021-08-27T11:04:44Z"
     },
@@ -2043,6 +2059,19 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs]  Remove Unused Empty Space Above Documentation Content on Mobile",
+        "url": "https://github.com/meshery/meshery/issues/21038",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "first-timers-only"
+        ],
+        "created_at": "2026-07-31T17:04:05Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Make the Dry Run Results dialog scrollable to display full error details",
         "url": "https://github.com/meshery/meshery/issues/21017",
         "labels": [
@@ -2450,22 +2479,6 @@
             "framework/jekyll"
         ],
         "created_at": "2025-01-31T17:39:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Template] Create a Brainstorming template",
-        "url": "https://github.com/meshery/meshery/issues/12503",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
-        ],
-        "created_at": "2024-10-28T14:47:23Z"
     },
     {
         "repo": "meshery/meshery",
@@ -5184,6 +5197,22 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "[OID4VCI] Incorrect metadata for key_attestations_required",
+        "url": "https://github.com/keycloak/keycloak/issues/51347",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/oid4vc",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-07-31T18:11:45Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Organization group-by-path endpoint returns a brief representation instead of a full representation",
         "url": "https://github.com/keycloak/keycloak/issues/51263",
         "labels": [
@@ -5663,24 +5692,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-22T13:15:33Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Refresh token reuse counter not reverted on transaction rollback, causing permanent session revocation on transient DB failures",
-        "url": "https://github.com/keycloak/keycloak/issues/49213",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-21T11:00:36Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8211,18 +8222,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Exercise the `k8s_configmap` BundlePublisher plugin in `k8s` integration tests",
-        "url": "https://github.com/spiffe/spire/issues/6127",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2025-06-11T19:20:38Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "IMDSv2 Requirement Breaks aws_mysql and aws_postgres Authentication",
         "url": "https://github.com/spiffe/spire/issues/6118",
         "labels": [
@@ -8440,6 +8439,18 @@
             "priority/backlog"
         ],
         "created_at": "2021-11-16T17:52:59Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Fix the \"expiring\" and \"outdated\" metrics emitted during entry sync to be accurate across the whole cache",
+        "url": "https://github.com/spiffe/spire/issues/2437",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2021-08-03T16:47:55Z"
     },
     {
         "repo": "carina-io/carina",
@@ -22611,6 +22622,19 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "get-helm-N installs inconsistent versions due to CDN caching",
+        "url": "https://github.com/helm/helm/issues/32329",
+        "labels": [
+            "help wanted",
+            "keep open",
+            "bug"
+        ],
+        "created_at": "2026-07-10T18:42:38Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "fix: `TestStatusWaitForDelete` flakes due to `WaitForDelete` informer initialization race",
         "url": "https://github.com/helm/helm/issues/32261",
         "labels": [
@@ -22921,19 +22945,6 @@
             "keep open"
         ],
         "created_at": "2020-05-15T02:42:48Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Show Installed Chart Source Location or Source Repository URL",
-        "url": "https://github.com/helm/helm/issues/4256",
-        "labels": [
-            "help wanted",
-            "feature",
-            "in progress"
-        ],
-        "created_at": "2018-06-21T17:50:58Z"
     },
     {
         "repo": "ko-build/ko",
