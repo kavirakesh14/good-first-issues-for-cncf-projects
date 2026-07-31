@@ -9983,7 +9983,8 @@
         "url": "https://github.com/cri-o/cri-o/issues/10079",
         "labels": [
             "help wanted",
-            "good first issue"
+            "good first issue",
+            "lifecycle/stale"
         ],
         "created_at": "2026-06-29T14:00:06Z"
     },
@@ -23293,6 +23294,7 @@
         "labels": [
             "kind/bug",
             "good-first-issue",
+            "lifecycle/stale",
             "area/operator",
             "sig/control-plane"
         ],
@@ -24082,8 +24084,7 @@
         "labels": [
             "good first issue",
             "domain/documentation \ud83d\udcd6",
-            "hacktoberfest",
-            "lifecycle/stale"
+            "hacktoberfest"
         ],
         "created_at": "2023-09-08T13:53:41Z"
     },
