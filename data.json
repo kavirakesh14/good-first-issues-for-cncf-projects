@@ -11902,7 +11902,8 @@
         "labels": [
             "help wanted",
             "kind/cleanup",
-            "area/user-experience"
+            "area/user-experience",
+            "stale"
         ],
         "created_at": "2026-03-29T22:09:43Z"
     },
@@ -19388,18 +19389,6 @@
             "help wanted"
         ],
         "created_at": "2023-07-07T03:15:53Z"
-    },
-    {
-        "repo": "cloudnative-pg/cloudnative-pg",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Add `--dry-run` to `cnpg backup`",
-        "url": "https://github.com/cloudnative-pg/cloudnative-pg/issues/11232",
-        "labels": [
-            "enhancement :magic_wand:",
-            "good first issue"
-        ],
-        "created_at": "2026-07-21T05:39:38Z"
     },
     {
         "repo": "cloudnative-pg/cloudnative-pg",
