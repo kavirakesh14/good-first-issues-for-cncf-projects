@@ -5266,7 +5266,9 @@
             "priority/important",
             "area/dist/quarkus",
             "help wanted",
-            "team/cloud-native"
+            "team/cloud-native",
+            "backport/26.6",
+            "backport/26.7"
         ],
         "created_at": "2026-07-27T09:11:19Z"
     },
@@ -8369,19 +8371,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Update tpmdevid NodeAttestor plugin to use go-tpm TPM-Direct API",
-        "url": "https://github.com/spiffe/spire/issues/4305",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "stale"
-        ],
-        "created_at": "2023-06-29T20:52:04Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Migrate from HCL1 to HCL2",
         "url": "https://github.com/spiffe/spire/issues/4042",
         "labels": [
@@ -8450,6 +8439,19 @@
             "priority/backlog"
         ],
         "created_at": "2021-08-03T16:47:55Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Allow workloads to receive federated bundles without having to specify them on a per-entry basis",
+        "url": "https://github.com/spiffe/spire/issues/2272",
+        "labels": [
+            "help wanted",
+            "priority/backlog",
+            "unscoped"
+        ],
+        "created_at": "2021-05-10T19:58:38Z"
     },
     {
         "repo": "carina-io/carina",
@@ -15913,17 +15915,6 @@
             "stage/tracked"
         ],
         "created_at": "2018-11-08T22:00:34Z"
-    },
-    {
-        "repo": "k8gb-io/k8gb",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Website Cleanup",
-        "url": "https://github.com/k8gb-io/k8gb/issues/2444",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-07-27T13:08:07Z"
     },
     {
         "repo": "k8gb-io/k8gb",
@@ -26891,17 +26882,6 @@
         "repo": "SlimPlanet/SlimFaas",
         "tier": "Sandbox",
         "lang": "C#",
-        "title": "nextjs Website add dynamic sitemap generation",
-        "url": "https://github.com/SlimPlanet/SlimFaas/issues/154",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2025-08-26T12:42:13Z"
-    },
-    {
-        "repo": "SlimPlanet/SlimFaas",
-        "tier": "Sandbox",
-        "lang": "C#",
         "title": "SlimFaas MCP : Beautiful SCCS style",
         "url": "https://github.com/SlimPlanet/SlimFaas/issues/153",
         "labels": [
@@ -31285,23 +31265,6 @@
         "created_at": "2021-04-29T18:52:40Z"
     },
     {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Set imagePullPolicy=Always for storageInitializer init container",
-        "url": "https://github.com/kserve/kserve/issues/834",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/engprod",
-            "kfserving/storage",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2020-05-19T11:41:30Z"
-    },
-    {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
         "lang": "Shell",
@@ -31448,17 +31411,5 @@
             "help wanted"
         ],
         "created_at": "2026-05-07T09:21:31Z"
-    },
-    {
-        "repo": "llm-d/llm-d",
-        "tier": "Sandbox",
-        "lang": "Shell",
-        "title": "Align repository with llm-d repo template (7 items)",
-        "url": "https://github.com/llm-d/llm-d/issues/826",
-        "labels": [
-            "help wanted",
-            "lifecycle/rotten"
-        ],
-        "created_at": "2026-02-22T18:36:56Z"
     }
 ]
