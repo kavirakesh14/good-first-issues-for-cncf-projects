@@ -2151,19 +2151,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[UI] Mastering Meshery action in Getting Started widget redirects to placeholder URL",
-        "url": "https://github.com/meshery/meshery/issues/20537",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "first-timers-only"
-        ],
-        "created_at": "2026-07-07T23:36:09Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Registry Uses Incorrect Icon",
         "url": "https://github.com/meshery/meshery/issues/20309",
         "labels": [
@@ -2478,6 +2465,22 @@
             "language/go"
         ],
         "created_at": "2025-03-11T09:09:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
+        "url": "https://github.com/meshery/meshery/issues/13426",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "issue/willfix",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2025-01-31T17:39:55Z"
     },
     {
         "repo": "meshery/meshery",
@@ -4687,6 +4690,33 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "GCP workloadIdentity: oauth2 token Expiry is never populated, so GCRAccessToken emits expiry=-62135596800",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6744",
+        "labels": [
+            "good first issue",
+            "kind/bug",
+            "area/gcp",
+            "size/xs",
+            "area/generator"
+        ],
+        "created_at": "2026-08-02T14:45:22Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "keepersecurity provider: folderID is mandatory even for read-only SecretStores",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6694",
+        "labels": [
+            "good first issue",
+            "area/keepersecurity"
+        ],
+        "created_at": "2026-07-23T07:30:20Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "AWS PushSecret CreateSecret fails with empty AddReplicaRegions when replicationLocations is unset (v2.7.0)",
         "url": "https://github.com/external-secrets/external-secrets/issues/6593",
         "labels": [
@@ -4899,6 +4929,80 @@
             "track/providers"
         ],
         "created_at": "2022-05-07T11:58:28Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "GCRAccessToken generator (WIF) mints a ~15m token but refresh is driven only by `refreshInterval` \u2192 periodic auth failures",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6690",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "kind/documentation",
+            "area/gcp",
+            "size/s",
+            "area/generator"
+        ],
+        "created_at": "2026-07-22T13:22:06Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Infisical] dataFrom.find.path is ignored in API calls and subdirectory secrets require recursive: true in SecretStore",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6685",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "kind/documentation",
+            "size/s",
+            "area/infisical"
+        ],
+        "created_at": "2026-07-22T07:46:03Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Webhook SecretStore validation does not support templated url using provider.webhook.secrets",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6659",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "area/webhook-provider",
+            "size/s"
+        ],
+        "created_at": "2026-07-18T10:00:23Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Oracle: GetSecret does not return NoSecretErr on a missing secret, so ExternalSecret deletionPolicy never triggers",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6572",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "area/oracle",
+            "size/s"
+        ],
+        "created_at": "2026-06-30T12:50:52Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "BeyondtrustWorkloadCredentialsDynamicSecret generator only maps AWS-style fields",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6547",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "size/m",
+            "area/generator",
+            "area/beyondtrust"
+        ],
+        "created_at": "2026-06-29T09:22:34Z"
     },
     {
         "repo": "external-secrets/external-secrets",
