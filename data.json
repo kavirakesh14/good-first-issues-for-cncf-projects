@@ -2059,6 +2059,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Fix Related Reading section consistency",
+        "url": "https://github.com/meshery/meshery/issues/21096",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-03T06:49:03Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Align Technology Checkbox and Label Side by Side",
         "url": "https://github.com/meshery/meshery/issues/21042",
         "labels": [
@@ -2470,22 +2485,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
-        "url": "https://github.com/meshery/meshery/issues/13426",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "issue/willfix",
-            "language/markdown",
-            "framework/jekyll"
-        ],
-        "created_at": "2025-01-31T17:39:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Broken link for Docker Desktop in WSL2 instructions",
         "url": "https://github.com/meshery/meshery/issues/21005",
         "labels": [
@@ -2878,20 +2877,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-16T20:05:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "ResponsiveImage component is duplicated",
-        "url": "https://github.com/meshery/meshery/issues/20040",
-        "labels": [
-            "help wanted",
-            "language/javascript",
-            "component/ui",
-            "framework/react"
-        ],
-        "created_at": "2026-06-13T00:34:13Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4690,6 +4675,20 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Akeyless: package-level errors.As target is shared mutable state across concurrent reconciles",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6747",
+        "labels": [
+            "good first issue",
+            "kind/bug",
+            "area/akeyless",
+            "size/s"
+        ],
+        "created_at": "2026-08-03T07:31:18Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "GCP workloadIdentity: oauth2 token Expiry is never populated, so GCRAccessToken emits expiry=-62135596800",
         "url": "https://github.com/external-secrets/external-secrets/issues/6744",
         "labels": [
@@ -5109,7 +5108,8 @@
         "labels": [
             "help wanted",
             "kind/bug",
-            "triage/pending-triage"
+            "area/akeyless",
+            "size/s"
         ],
         "created_at": "2025-10-01T11:34:45Z"
     },
@@ -6630,6 +6630,18 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[Bug]: Unused session cookies in an active session are not removed.",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3486",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-08-03T08:08:00Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Bug]: PingFederate OIDC refresh token fails with invalid_grant while manual refresh succeeds",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3485",
         "labels": [
@@ -6975,18 +6987,6 @@
             "help wanted"
         ],
         "created_at": "2025-09-25T02:37:04Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Bug]: CSRF Expiry timeout validation is based on Cookie Timeout",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3203",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2025-09-24T10:19:17Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -9745,6 +9745,18 @@
         "repo": "velero-io/velero",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "plugin-for-aws improperly includes port number of URI as 'host' attribute when creating presigned URLs - triggers SignatureDoesNotMatch",
+        "url": "https://github.com/velero-io/velero/issues/10114",
+        "labels": [
+            "Help wanted",
+            "Area/storage/netapp"
+        ],
+        "created_at": "2026-07-30T03:18:33Z"
+    },
+    {
+        "repo": "velero-io/velero",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Token has expired on Backup deletion",
         "url": "https://github.com/velero-io/velero/issues/9949",
         "labels": [
@@ -12083,7 +12095,7 @@
             "help wanted",
             "kind/cleanup",
             "area/user-experience",
-            "stale"
+            "awaiting-maintainer"
         ],
         "created_at": "2026-03-29T22:09:43Z"
     },
@@ -12407,8 +12419,7 @@
         "labels": [
             "kind/feature",
             "good first issue",
-            "lifecycle/stale",
-            "stale"
+            "lifecycle/stale"
         ],
         "created_at": "2026-02-09T12:37:13Z"
     },
@@ -12657,18 +12668,6 @@
             "good first issue"
         ],
         "created_at": "2026-08-01T06:17:24Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[bug]: mthreads MutateAdmission panics on nil maps (nil Annotations / nil Limits)",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2253",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-01T05:23:52Z"
     },
     {
         "repo": "karmada-io/karmada",
@@ -17322,19 +17321,6 @@
         "repo": "metallb/metallb",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Ensure somehow that when adding a feature, the relevant doc is added in hte same PR",
-        "url": "https://github.com/metallb/metallb/issues/2663",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "ci"
-        ],
-        "created_at": "2025-01-24T10:23:28Z"
-    },
-    {
-        "repo": "metallb/metallb",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "move the go module vanity url to metallb.io",
         "url": "https://github.com/metallb/metallb/issues/2393",
         "labels": [
@@ -19561,18 +19547,6 @@
             "LFX Mentorship"
         ],
         "created_at": "2025-06-23T12:38:35Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[v2] Validate Backup/Restore resource references at the API layer on create",
-        "url": "https://github.com/openeverest/openeverest/issues/2657",
-        "labels": [
-            "good first issue",
-            "chore"
-        ],
-        "created_at": "2026-07-29T11:19:34Z"
     },
     {
         "repo": "openeverest/openeverest",
@@ -25386,19 +25360,6 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "No way to check the deployed OpenChoreo version from the Console",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4344",
-        "labels": [
-            "good first issue",
-            "Type/Improvement",
-            "reportedBy/community"
-        ],
-        "created_at": "2026-07-28T09:33:31Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Add build deletion support to the Backstage",
         "url": "https://github.com/openchoreo/openchoreo/issues/4154",
         "labels": [
@@ -25770,6 +25731,19 @@
             "good first issue"
         ],
         "created_at": "2026-04-17T05:33:00Z"
+    },
+    {
+        "repo": "pipe-cd/pipecd",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ci(docs): Add link checker to existing CI to prevent broken docs links",
+        "url": "https://github.com/pipe-cd/pipecd/issues/6549",
+        "labels": [
+            "good first issue",
+            "area/ci",
+            "type/feature"
+        ],
+        "created_at": "2026-02-26T00:24:17Z"
     },
     {
         "repo": "pipe-cd/pipecd",
