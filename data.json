@@ -4756,6 +4756,20 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Parse properties format key/value pairs from the secret source",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6064",
+        "labels": [
+            "good first issue",
+            "kind/feature",
+            "area/templating",
+            "size/s"
+        ],
+        "created_at": "2026-03-12T06:33:12Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "PushSecret: Support Yandex Secrets Stores",
         "url": "https://github.com/external-secrets/external-secrets/issues/5589",
         "labels": [
@@ -5003,6 +5017,64 @@
             "area/beyondtrust"
         ],
         "created_at": "2026-06-29T09:22:34Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add AWS RDS IAM auth token generator",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6315",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "area/aws",
+            "size/m",
+            "area/generator"
+        ],
+        "created_at": "2026-05-08T11:19:33Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[vault]: compact JWS format must have three parts",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6239",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "area/vault",
+            "size/m"
+        ],
+        "created_at": "2026-04-17T08:57:49Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add generator for AWS CodeArtifact",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6165",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "area/aws",
+            "size/m",
+            "area/generator"
+        ],
+        "created_at": "2026-04-01T16:02:30Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add support for multiple keys to PushSecret with Keeper provider",
+        "url": "https://github.com/external-secrets/external-secrets/issues/5974",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "size/s",
+            "area/keepersecurity"
+        ],
+        "created_at": "2026-02-19T00:55:36Z"
     },
     {
         "repo": "external-secrets/external-secrets",
@@ -5395,23 +5467,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Upgrade to 26.7.0 fails with preview features as the stateless cluster provider captures a null NodeInfo before postInit",
-        "url": "https://github.com/keycloak/keycloak/issues/51154",
-        "labels": [
-            "kind/bug",
-            "area/infinispan",
-            "help wanted",
-            "team/production-readiness",
-            "status/auto-bump",
-            "priority/normal",
-            "backport/26.7"
-        ],
-        "created_at": "2026-07-24T19:00:46Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Fine-grained permission conflicting with each other",
         "url": "https://github.com/keycloak/keycloak/issues/50740",
         "labels": [
@@ -5798,6 +5853,24 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-22T13:15:33Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Refresh token reuse counter not reverted on transaction rollback, causing permanent session revocation on transient DB failures",
+        "url": "https://github.com/keycloak/keycloak/issues/49213",
+        "labels": [
+            "kind/bug",
+            "area/core",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-21T11:00:36Z"
     },
     {
         "repo": "keylime/keylime",
@@ -31353,7 +31426,8 @@
             "good first issue",
             "kind/feature",
             "kfserving/mms",
-            "stale-warning-1"
+            "stale-warning-1",
+            "stale-warning-2"
         ],
         "created_at": "2021-04-29T18:52:40Z"
     },
