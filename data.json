@@ -2485,6 +2485,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Fix broken 'Examples' anchor in Sistent documentation",
+        "url": "https://github.com/meshery/meshery/issues/21102",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-03T12:09:24Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Broken link for Docker Desktop in WSL2 instructions",
         "url": "https://github.com/meshery/meshery/issues/21005",
         "labels": [
@@ -2863,20 +2877,6 @@
             "framework/playwright"
         ],
         "created_at": "2026-06-17T19:43:32Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Models : Support alternative view by Category",
-        "url": "https://github.com/meshery/meshery/issues/20092",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-16T20:05:55Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4675,20 +4675,6 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Akeyless: package-level errors.As target is shared mutable state across concurrent reconciles",
-        "url": "https://github.com/external-secrets/external-secrets/issues/6747",
-        "labels": [
-            "good first issue",
-            "kind/bug",
-            "area/akeyless",
-            "size/s"
-        ],
-        "created_at": "2026-08-03T07:31:18Z"
-    },
-    {
-        "repo": "external-secrets/external-secrets",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "GCP workloadIdentity: oauth2 token Expiry is never populated, so GCRAccessToken emits expiry=-62135596800",
         "url": "https://github.com/external-secrets/external-secrets/issues/6744",
         "labels": [
@@ -5435,23 +5421,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Large HTTP/2 request headers are rejected with a bare 500 and no log; same request works over HTTP/1.1",
-        "url": "https://github.com/keycloak/keycloak/issues/51182",
-        "labels": [
-            "kind/bug",
-            "priority/important",
-            "area/dist/quarkus",
-            "help wanted",
-            "team/cloud-native",
-            "backport/26.6",
-            "backport/26.7"
-        ],
-        "created_at": "2026-07-27T09:11:19Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "WebAuthn tests are being skipped in Github workflows",
         "url": "https://github.com/keycloak/keycloak/issues/51164",
         "labels": [
@@ -5871,6 +5840,22 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-21T11:00:36Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "NullPointerException in ResourceIndicatorsPostProcessor when access token audience is null",
+        "url": "https://github.com/keycloak/keycloak/issues/49077",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-18T21:19:28Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6361,20 +6346,6 @@
         "created_at": "2022-02-14T18:30:54Z"
     },
     {
-        "repo": "kubescape/kubescape",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Support yaml as an output format",
-        "url": "https://github.com/kubescape/kubescape/issues/1395",
-        "labels": [
-            "feature",
-            "good first issue",
-            "wontfix",
-            "to_archive"
-        ],
-        "created_at": "2023-09-19T01:33:06Z"
-    },
-    {
         "repo": "kyverno/kyverno",
         "tier": "Graduated",
         "lang": "Go",
@@ -6625,6 +6596,18 @@
             "needs tests"
         ],
         "created_at": "2023-01-05T00:41:24Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: Startup fails, when oidc_issuer_url not reachable",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3487",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-08-03T12:15:04Z"
     },
     {
         "repo": "oauth2-proxy/oauth2-proxy",
@@ -6975,18 +6958,6 @@
             "help wanted"
         ],
         "created_at": "2025-09-25T21:01:08Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Bug]: OAuth2 Proxy State Parameter Only Contains Path, Not Full URL",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3205",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2025-09-25T02:37:04Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -12649,13 +12620,37 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "bug(quota): DelQuota uses length check instead of HasPrefix matching AddQuota",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2271",
+        "title": "fix(scheduler): node informer missing UpdateFunc delays annotation re-registration",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2303",
         "labels": [
             "kind/bug",
             "good first issue"
         ],
-        "created_at": "2026-08-01T14:39:10Z"
+        "created_at": "2026-08-03T13:16:09Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "fix(scheduler): PredicateRoute ignores checkBody and panics on nil body",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2296",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-03T11:55:04Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "fix(awsneuron): nil CustomInfo write can panic in Fit/AddResourceUsage",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2294",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-03T10:55:48Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -24908,6 +24903,19 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Make the pending-resource list limit in `argocd app wait` timeout errors configurable",
+        "url": "https://github.com/argoproj/argo-cd/issues/29031",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "component:cli"
+        ],
+        "created_at": "2026-08-03T13:54:55Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "ArgoCD events should display event issuer",
         "url": "https://github.com/argoproj/argo-cd/issues/25684",
         "labels": [
@@ -25294,20 +25302,6 @@
             "component:docs"
         ],
         "created_at": "2022-06-29T09:49:17Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Core mode should allow persistent usage of custom K8s client configuration",
-        "url": "https://github.com/argoproj/argo-cd/issues/7992",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "type:usability",
-            "component:cli"
-        ],
-        "created_at": "2021-12-19T11:20:12Z"
     },
     {
         "repo": "fluxcd/flux2",
@@ -26607,7 +26601,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "Expand the Flatcar Apps selection [Great for new contributors]",
         "url": "https://github.com/flatcar/Flatcar/issues/2029",
         "labels": [
@@ -26619,7 +26613,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "update: Make AWS security group rules more secure",
         "url": "https://github.com/flatcar/Flatcar/issues/1848",
         "labels": [
@@ -26631,7 +26625,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "Documentation: Configuring date and time zone",
         "url": "https://github.com/flatcar/Flatcar/issues/1836",
         "labels": [
@@ -26643,7 +26637,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "migrating to new cgroups",
         "url": "https://github.com/flatcar/Flatcar/issues/1789",
         "labels": [
@@ -26657,7 +26651,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "add `-nographic` in `flatcar_production_qemu.sh` for `amd64-usr+x86_64`",
         "url": "https://github.com/flatcar/Flatcar/issues/1687",
         "labels": [
@@ -26668,7 +26662,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "[RFE] Update OpenStack Go lib (`gophercloud`) to its version 2 in Mantle",
         "url": "https://github.com/flatcar/Flatcar/issues/1667",
         "labels": [
@@ -26683,7 +26677,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "[RFE] Create test coverage and documentation for Podman",
         "url": "https://github.com/flatcar/Flatcar/issues/1663",
         "labels": [
@@ -26697,7 +26691,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "[RFE] Documentation around available sysext must be clearer",
         "url": "https://github.com/flatcar/Flatcar/issues/1476",
         "labels": [
@@ -26710,7 +26704,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "[RFE] Upgrade AWS SDK to AWS SDK v2 for Mantle",
         "url": "https://github.com/flatcar/Flatcar/issues/1339",
         "labels": [
@@ -26723,7 +26717,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "[RFE] Documentation on how to configure nftables for basic https and ssh",
         "url": "https://github.com/flatcar/Flatcar/issues/1333",
         "labels": [
@@ -26737,7 +26731,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "Retain more GCP images",
         "url": "https://github.com/flatcar/Flatcar/issues/1263",
         "labels": [
@@ -26750,7 +26744,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "[RFE] Define containerd drop-in config directory",
         "url": "https://github.com/flatcar/Flatcar/issues/1127",
         "labels": [
@@ -26763,7 +26757,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "[RFE] Support Ignition 3.4.0 and Butane 1.1.0 in Mantle",
         "url": "https://github.com/flatcar/Flatcar/issues/1000",
         "labels": [
@@ -26776,7 +26770,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "New Package Request: [open-vm-tools-containerinfo]",
         "url": "https://github.com/flatcar/Flatcar/issues/781",
         "labels": [
@@ -26789,7 +26783,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "Add documentation on running Flatcar with EKS",
         "url": "https://github.com/flatcar/Flatcar/issues/730",
         "labels": [
@@ -26802,7 +26796,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "Drop net-misc/bridge-utils eventually",
         "url": "https://github.com/flatcar/Flatcar/issues/638",
         "labels": [
@@ -26814,7 +26808,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "[RFE] Include certs.d registry plugin in containerd config.toml",
         "url": "https://github.com/flatcar/Flatcar/issues/583",
         "labels": [
@@ -26827,7 +26821,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "[RFE] Drop logrotate",
         "url": "https://github.com/flatcar/Flatcar/issues/556",
         "labels": [
@@ -26839,7 +26833,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "[RFE] Require the network-online target for update-engine.service",
         "url": "https://github.com/flatcar/Flatcar/issues/521",
         "labels": [
@@ -26852,7 +26846,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "[RFE] Add sysstat bashrc alias (done: bcc-tools)",
         "url": "https://github.com/flatcar/Flatcar/issues/498",
         "labels": [
@@ -26864,7 +26858,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "locksmithd sometimes fail to release held ETCD lock when in status UPDATE_STATUS_UPDATED_NEED_REBOOT",
         "url": "https://github.com/flatcar/Flatcar/issues/408",
         "labels": [
@@ -26876,7 +26870,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "Add tests for building kernel modules with the developer container",
         "url": "https://github.com/flatcar/Flatcar/issues/310",
         "labels": [
@@ -26890,7 +26884,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "Vagrant vmware_fusion not starting up",
         "url": "https://github.com/flatcar/Flatcar/issues/159",
         "labels": [
@@ -26902,7 +26896,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "Vagrant virtualbox not starting",
         "url": "https://github.com/flatcar/Flatcar/issues/158",
         "labels": [
@@ -26914,7 +26908,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "Include the Installable Image in the Live CD",
         "url": "https://github.com/flatcar/Flatcar/issues/63",
         "labels": [
@@ -26926,7 +26920,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "Ignition not working with Vagrant",
         "url": "https://github.com/flatcar/Flatcar/issues/56",
         "labels": [
@@ -26938,7 +26932,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "Embed Ignition in ISO",
         "url": "https://github.com/flatcar/Flatcar/issues/51",
         "labels": [
@@ -26950,7 +26944,7 @@
     {
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
-        "lang": "Python",
+        "lang": "Unknown",
         "title": "Discussion: Using Discourse to Improve the Flatcar Community",
         "url": "https://github.com/flatcar/Flatcar/issues/2019",
         "labels": [
@@ -28545,18 +28539,6 @@
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
         "lang": "C",
-        "title": "k8s: Prometheus scrap annotations point to the wrong port",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4371",
-        "labels": [
-            "good first issue",
-            "epic/v1.0"
-        ],
-        "created_at": "2025-04-24T15:23:25Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
         "title": "[RFE] Incorporate use cases to gadgets and improve descriptions",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4029",
         "labels": [
@@ -28754,6 +28736,17 @@
             "container-runtime"
         ],
         "created_at": "2023-05-17T09:18:25Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "Define correct data type for namespace inode id",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1215",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2022-12-20T20:49:15Z"
     },
     {
         "repo": "jaegertracing/jaeger",
@@ -29373,6 +29366,30 @@
             "pinned"
         ],
         "created_at": "2020-12-18T17:28:29Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Panel Title Expand \u201cAll\u201c Variable Selections",
+        "url": "https://github.com/perses/perses/issues/4335",
+        "labels": [
+            "good first issue",
+            "ui"
+        ],
+        "created_at": "2026-08-03T11:35:58Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Adding a Query Play Ground to the Query Viewer",
+        "url": "https://github.com/perses/perses/issues/4333",
+        "labels": [
+            "good first issue",
+            "ui"
+        ],
+        "created_at": "2026-08-03T11:07:38Z"
     },
     {
         "repo": "perses/perses",
