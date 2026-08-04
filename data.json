@@ -2089,19 +2089,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs]  Remove Unused Empty Space Above Documentation Content on Mobile",
-        "url": "https://github.com/meshery/meshery/issues/21038",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "first-timers-only"
-        ],
-        "created_at": "2026-07-31T17:04:05Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Make the Dry Run Results dialog scrollable to display full error details",
         "url": "https://github.com/meshery/meshery/issues/21017",
         "labels": [
@@ -2480,6 +2467,22 @@
             "language/go"
         ],
         "created_at": "2025-03-11T09:09:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
+        "url": "https://github.com/meshery/meshery/issues/13426",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "issue/willfix",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2025-01-31T17:39:55Z"
     },
     {
         "repo": "meshery/meshery",
@@ -3606,6 +3609,17 @@
             "good first issue"
         ],
         "created_at": "2023-03-09T18:37:48Z"
+    },
+    {
+        "repo": "goharbor/harbor",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "system_cve testcase always fails at the end/begining of month",
+        "url": "https://github.com/goharbor/harbor/issues/23659",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-08-04T02:46:15Z"
     },
     {
         "repo": "goharbor/harbor",
@@ -13166,7 +13180,8 @@
         "url": "https://github.com/kedacore/keda/issues/5630",
         "labels": [
             "help wanted",
-            "feature"
+            "feature",
+            "required:keda-v2.21"
         ],
         "created_at": "2024-03-27T13:50:14Z"
     },
@@ -18363,18 +18378,6 @@
             "Good First Issue"
         ],
         "created_at": "2025-08-13T09:55:51Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Refactor controller suite to use stdlib testing",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/10971",
-        "labels": [
-            "Type: Tech Debt",
-            "Good First Issue"
-        ],
-        "created_at": "2025-03-28T20:25:13Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -23865,6 +23868,19 @@
             "keep open"
         ],
         "created_at": "2025-12-15T06:21:54Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Icons: Add `aria-pressed` support to shared `Button` component",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/18585",
+        "labels": [
+            "good first issue",
+            "area/renderer \ud83d\udcc8",
+            "domain/ui-components"
+        ],
+        "created_at": "2026-08-04T13:07:37Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -30462,13 +30478,13 @@
         "repo": "prometheus/prometheus",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Start Timestamp: Opt-in ST auto-generation globally/per scrape job.",
-        "url": "https://github.com/prometheus/prometheus/issues/14763",
+        "title": "[Error] Setup prometheus to scrape from MS instances registered in Eureka SD with random port",
+        "url": "https://github.com/prometheus/prometheus/issues/14632",
         "labels": [
             "help wanted",
-            "kind/feature"
+            "component/service discovery"
         ],
-        "created_at": "2024-08-29T15:37:01Z"
+        "created_at": "2024-08-09T01:49:45Z"
     },
     {
         "repo": "thanos-io/thanos",
