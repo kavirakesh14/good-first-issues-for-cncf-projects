@@ -2059,21 +2059,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Fix Related Reading section consistency",
-        "url": "https://github.com/meshery/meshery/issues/21096",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-03T06:49:03Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Align Technology Checkbox and Label Side by Side",
         "url": "https://github.com/meshery/meshery/issues/21042",
         "labels": [
@@ -2488,6 +2473,22 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Template] Create a Brainstorming template",
+        "url": "https://github.com/meshery/meshery/issues/12503",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:47:23Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Broken link for Docker Desktop in WSL2 instructions",
         "url": "https://github.com/meshery/meshery/issues/21005",
         "labels": [
@@ -2880,6 +2881,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-16T20:05:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "ResponsiveImage component is duplicated",
+        "url": "https://github.com/meshery/meshery/issues/20040",
+        "labels": [
+            "help wanted",
+            "language/javascript",
+            "component/ui",
+            "framework/react"
+        ],
+        "created_at": "2026-06-13T00:34:13Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4014,20 +4029,6 @@
             "keep fresh"
         ],
         "created_at": "2025-09-08T05:13:10Z"
-    },
-    {
-        "repo": "cartography-cncf/cartography",
-        "tier": "Sandbox",
-        "lang": "Python",
-        "title": "feat(microsoft): add o365 Integration",
-        "url": "https://github.com/cartography-cncf/cartography/issues/1489",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "data-addition",
-            "module:Microsoft"
-        ],
-        "created_at": "2025-03-20T14:51:03Z"
     },
     {
         "repo": "cartography-cncf/cartography",
@@ -8254,6 +8255,18 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Integration suites require GNU coreutils and bash 4+ to run on a macOS host",
+        "url": "https://github.com/spiffe/spire/issues/7174",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2026-07-30T11:28:12Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Support Azure Database for PostgreSQL AAD token refresh in SPIRE SQL datastore",
         "url": "https://github.com/spiffe/spire/issues/6958",
         "labels": [
@@ -8603,19 +8616,6 @@
             "priority/backlog"
         ],
         "created_at": "2021-08-03T16:47:55Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Allow workloads to receive federated bundles without having to specify them on a per-entry basis",
-        "url": "https://github.com/spiffe/spire/issues/2272",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "unscoped"
-        ],
-        "created_at": "2021-05-10T19:58:38Z"
     },
     {
         "repo": "carina-io/carina",
@@ -10645,7 +10645,7 @@
         "created_at": "2022-01-24T11:12:01Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "podman --remote exec ignores empty detach keys",
@@ -10659,7 +10659,7 @@
         "created_at": "2026-03-04T17:35:46Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "journald log driver: support --log-opt labels to promote container labels as structured journal fields",
@@ -10674,7 +10674,7 @@
         "created_at": "2026-03-03T21:10:46Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Podman Socket API exceeds file name limit when passing seccomp profile, where Docker would succeed",
@@ -10689,7 +10689,7 @@
         "created_at": "2025-12-08T04:15:18Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "podman machine: image override files need user-write access",
@@ -10703,7 +10703,7 @@
         "created_at": "2025-11-20T21:23:50Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "seccomp deprecations noticed with golangci-lint 2.6.0",
@@ -10718,7 +10718,7 @@
         "created_at": "2025-11-11T14:13:07Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "`podman wait` doesn't always distinguish \"exited\" \"stopped\" \"created\" as different conditions",
@@ -10734,7 +10734,7 @@
         "created_at": "2025-11-01T20:09:15Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Bootc disk build fails on a rootful Podman machine when the host's root user container storage is mounted.",
@@ -10748,7 +10748,7 @@
         "created_at": "2025-09-28T13:29:03Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "podman artifact add does not default to latest when creating a new artifact without a tag.",
@@ -10760,7 +10760,7 @@
         "created_at": "2025-09-16T09:53:15Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "feat(kube play): flag to specify resources (pods, secrets, volumes) labels",
@@ -10772,7 +10772,7 @@
         "created_at": "2025-06-17T10:28:27Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Keeping consistency for man pages",
@@ -10788,7 +10788,7 @@
         "created_at": "2025-06-14T09:09:46Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Configuration file errors are hidden",
@@ -10802,7 +10802,7 @@
         "created_at": "2025-02-19T13:35:54Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Fix: Replace path package methods with path/filepath for file system path operation",
@@ -10815,7 +10815,7 @@
         "created_at": "2025-01-30T11:04:01Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Default podman-machine-default on Windows missing default `seccomp.json`?",
@@ -10830,7 +10830,7 @@
         "created_at": "2024-10-19T15:35:44Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "parsing of `--volume` option `idmap` succeeds but parsing of option `idmap=true` fails with `Error: unknown option \"true\"`",
@@ -10847,7 +10847,7 @@
         "created_at": "2024-10-13T06:28:59Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Warning message `WARN[0000] The cgroupv2 manager is set to systemd but ...` is printed twice",
@@ -10861,7 +10861,7 @@
         "created_at": "2024-09-18T17:11:59Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "pull --all-tags : confusing documentation",
@@ -10875,7 +10875,7 @@
         "created_at": "2024-08-14T20:04:02Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "libpod Swagger spec has multiple fields with same x-go-name",
@@ -10890,7 +10890,7 @@
         "created_at": "2024-06-11T15:29:23Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "`docker login` with docker.io creds  \"successfully\" logs-into `registry.fedoraproject.org` then fails to push to `registry-1.docker.io`",
@@ -10902,7 +10902,7 @@
         "created_at": "2024-04-16T21:00:44Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "PUT /containers/{id}/archive behaves differently to docker.",
@@ -10917,7 +10917,7 @@
         "created_at": "2024-02-28T13:59:51Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Allow consistent exclusion filters between 'podman container list' & 'podman image list'",
@@ -10931,7 +10931,7 @@
         "created_at": "2024-01-28T13:59:05Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Non-actionable error message: 'Error: unsupported transport \"docker\" for looking up local images'",
@@ -10944,7 +10944,7 @@
         "created_at": "2023-11-24T21:07:33Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Turn --authfile into an alias for --auth-file",
@@ -10958,7 +10958,7 @@
         "created_at": "2023-11-15T16:52:15Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "RFE: docs: linkify 'podman-foo(1)'",
@@ -10972,7 +10972,7 @@
         "created_at": "2023-08-22T19:26:56Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Processes started by podman exec may continue to run after podman exec terminates",
@@ -10986,7 +10986,7 @@
         "created_at": "2023-08-02T16:38:25Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Inconsistency In Reported Pod and Container States",
@@ -11000,7 +11000,7 @@
         "created_at": "2023-07-03T15:31:05Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Can't set graphRoot and runRoot via configuration",
@@ -11014,7 +11014,7 @@
         "created_at": "2023-04-27T12:02:24Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "`podman play kube` doesn't warn for unrecognised keys in YAML",
@@ -11029,7 +11029,7 @@
         "created_at": "2023-04-24T23:25:07Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Support local volumes with a lifetime longer than that of the podman host",
@@ -11040,7 +11040,7 @@
         "created_at": "2023-04-05T21:03:08Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "Distribution API seems missing",
@@ -11052,7 +11052,7 @@
         "created_at": "2023-03-09T15:32:05Z"
     },
     {
-        "repo": "containers/podman",
+        "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "[Docs] podman-systemd.unit man page errors",
@@ -12638,6 +12638,18 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Missing Test for InitContainers & EphemeralContainers GPU Quota Checks",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2366",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-04T19:47:42Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "bug(quota): FitQuota treats an explicit zero limit as unlimited, so ResourceQuota \"0\" allows all GPU usage",
         "url": "https://github.com/Project-HAMi/HAMi/issues/2312",
         "labels": [
@@ -12645,18 +12657,6 @@
             "good first issue"
         ],
         "created_at": "2026-08-03T16:55:29Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "fix(scheduler): PredicateRoute ignores checkBody and panics on nil body",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2296",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-03T11:55:04Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -19547,7 +19547,8 @@
         "url": "https://github.com/openeverest/openeverest/issues/2452",
         "labels": [
             "enhancement",
-            "good first issue"
+            "good first issue",
+            "ui"
         ],
         "created_at": "2026-06-25T17:17:04Z"
     },
@@ -20448,20 +20449,6 @@
             "report/customer"
         ],
         "created_at": "2019-11-15T07:24:02Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
-        "title": "docs(ui): ui-app README references wrong config directory (config/ vs configs/)",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8535",
-        "labels": [
-            "Beginner Friendly",
-            "area/ui",
-            "area/sdk",
-            "good first issue"
-        ],
-        "created_at": "2026-07-11T06:10:41Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
@@ -27515,19 +27502,6 @@
         "repo": "krkn-chaos/krkn",
         "tier": "Sandbox",
         "lang": "Python",
-        "title": "feat: add k8s trigger type for event-driven chaos",
-        "url": "https://github.com/krkn-chaos/krkn/issues/1496",
-        "labels": [
-            "enhancement",
-            "good-first-issue",
-            "needs-triage"
-        ],
-        "created_at": "2026-07-21T10:48:07Z"
-    },
-    {
-        "repo": "krkn-chaos/krkn",
-        "tier": "Sandbox",
-        "lang": "Python",
         "title": "Skip CI build and tests for PRs that only modify .md files",
         "url": "https://github.com/krkn-chaos/krkn/issues/1447",
         "labels": [
@@ -31398,7 +31372,8 @@
             "kind/feature",
             "kfserving/mms",
             "stale-warning-1",
-            "stale-warning-2"
+            "stale-warning-2",
+            "stale-warning-3"
         ],
         "created_at": "2021-04-29T18:52:40Z"
     },
