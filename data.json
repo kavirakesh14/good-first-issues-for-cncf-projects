@@ -9770,21 +9770,6 @@
         "repo": "velero-io/velero",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Support per-storageclass VSClass annotation",
-        "url": "https://github.com/velero-io/velero/issues/8807",
-        "labels": [
-            "Help wanted",
-            "Needs triage",
-            "backlog",
-            "Reviewed Q2 2025",
-            "Reviewed Q3 2025"
-        ],
-        "created_at": "2025-03-22T10:01:46Z"
-    },
-    {
-        "repo": "velero-io/velero",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Using custom plugin to change name of cluster role fails, incorrectly reports resource already exists",
         "url": "https://github.com/velero-io/velero/issues/8789",
         "labels": [
@@ -12587,6 +12572,18 @@
             "question"
         ],
         "created_at": "2020-09-11T05:56:46Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "ResourceQuota is unenforced while an update is applied: onUpdateQuota zeroes limits before restoring them",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2385",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-05T16:23:55Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -20626,20 +20623,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "CLI Auth: Make token endpoint optional",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8379",
-        "labels": [
-            "type/enhancement",
-            "area/rest",
-            "area/CLI",
-            "help wanted"
-        ],
-        "created_at": "2026-06-25T11:12:49Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "fix(operator): publish multi-arch operator images (ARM64 support)",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8278",
         "labels": [
@@ -23821,19 +23804,6 @@
             "keep open"
         ],
         "created_at": "2025-12-15T06:21:54Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Icons: Add `aria-pressed` support to shared `Button` component",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18585",
-        "labels": [
-            "good first issue",
-            "area/renderer \ud83d\udcc8",
-            "domain/ui-components"
-        ],
-        "created_at": "2026-08-04T13:07:37Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
