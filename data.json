@@ -2488,6 +2488,19 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[CI] Playground CNCF reset workflow fails due to SSH connection timeout",
+        "url": "https://github.com/meshery/meshery/issues/21150",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-08-05T10:59:09Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Docs: Broken link to \"Contributing to Models Quick Start\" on Academy exam page",
         "url": "https://github.com/meshery/meshery/issues/21139",
         "labels": [
@@ -2864,22 +2877,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-19T20:59:47Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[UI] Fix failing end-to-end test for meshery-metrics",
-        "url": "https://github.com/meshery/meshery/issues/20109",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "language/javascript",
-            "component/ui",
-            "framework/react",
-            "framework/playwright"
-        ],
-        "created_at": "2026-06-17T19:43:32Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4696,19 +4693,6 @@
             "area/keepersecurity"
         ],
         "created_at": "2026-07-23T07:30:20Z"
-    },
-    {
-        "repo": "external-secrets/external-secrets",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "AWS PushSecret CreateSecret fails with empty AddReplicaRegions when replicationLocations is unset (v2.7.0)",
-        "url": "https://github.com/external-secrets/external-secrets/issues/6593",
-        "labels": [
-            "good first issue",
-            "kind/bug",
-            "area/aws"
-        ],
-        "created_at": "2026-07-02T12:23:24Z"
     },
     {
         "repo": "external-secrets/external-secrets",
@@ -6623,18 +6607,6 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Bug]: PingFederate OIDC refresh token fails with invalid_grant while manual refresh succeeds",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3485",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-07-31T10:43:19Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Chore]: Update security contacts",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3479",
         "labels": [
@@ -6944,6 +6916,18 @@
             "help wanted"
         ],
         "created_at": "2025-10-13T20:44:42Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: Cookie domain not set when using OAUTH2_PROXY_COOKIE_DOMAIN  instead of --cookie-domain",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3209",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2025-09-25T21:01:08Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -19500,6 +19484,18 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Add the `-n` shorthand for `--namespace` to the `everestctl instance` commands",
+        "url": "https://github.com/openeverest/openeverest/issues/2792",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-08-04T19:25:54Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Login page: spacing between intro text and community links collapses on narrow/short viewports",
         "url": "https://github.com/openeverest/openeverest/issues/2568",
         "labels": [
@@ -21307,6 +21303,20 @@
             "help wanted"
         ],
         "created_at": "2020-10-16T12:19:35Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Catalog entity page navigation causes brief error alert flicker",
+        "url": "https://github.com/backstage/backstage/issues/35126",
+        "labels": [
+            "type:bug",
+            "good first issue",
+            "priority:contrib-needed",
+            "area:catalog"
+        ],
+        "created_at": "2026-08-05T12:29:02Z"
     },
     {
         "repo": "backstage/backstage",
@@ -23854,6 +23864,18 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Global navigation: Arrow key navigation within navbar",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/16810",
+        "labels": [
+            "good first issue",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2026-03-25T10:54:55Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Too long error message overflows from Adding the registry dialog",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/16666",
         "labels": [
@@ -23932,7 +23954,8 @@
         "url": "https://github.com/podman-desktop/podman-desktop/issues/14881",
         "labels": [
             "good first issue",
-            "area/registries"
+            "area/registries",
+            "domain/technical-debt"
         ],
         "created_at": "2025-11-13T16:32:17Z"
     },
@@ -26556,20 +26579,6 @@
             "good first issue"
         ],
         "created_at": "2025-08-04T14:16:42Z"
-    },
-    {
-        "repo": "flatcar/Flatcar",
-        "tier": "Incubating",
-        "lang": "Unknown",
-        "title": "migrating to new cgroups",
-        "url": "https://github.com/flatcar/Flatcar/issues/1789",
-        "labels": [
-            "kind/bug",
-            "kind/docs",
-            "good first issue",
-            "help wanted"
-        ],
-        "created_at": "2025-06-26T20:29:14Z"
     },
     {
         "repo": "flatcar/Flatcar",
@@ -31303,6 +31312,18 @@
             "good first issue"
         ],
         "created_at": "2025-07-17T16:55:48Z"
+    },
+    {
+        "repo": "kserve/kserve",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Optimize *-publisher workflows on pull requests",
+        "url": "https://github.com/kserve/kserve/issues/5956",
+        "labels": [
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2026-08-05T09:19:55Z"
     },
     {
         "repo": "kserve/kserve",
