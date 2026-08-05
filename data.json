@@ -2059,6 +2059,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Breadcrumb Missing on Desktop",
+        "url": "https://github.com/meshery/meshery/issues/21143",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-05T07:21:52Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Align Technology Checkbox and Label Side by Side",
         "url": "https://github.com/meshery/meshery/issues/21042",
         "labels": [
@@ -2473,17 +2488,15 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Template] Create a Brainstorming template",
-        "url": "https://github.com/meshery/meshery/issues/12503",
+        "title": "Docs: Broken link to \"Contributing to Models Quick Start\" on Academy exam page",
+        "url": "https://github.com/meshery/meshery/issues/21139",
         "labels": [
-            "kind/enhancement",
             "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
         ],
-        "created_at": "2024-10-28T14:47:23Z"
+        "created_at": "2026-08-05T04:35:13Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2867,34 +2880,6 @@
             "framework/playwright"
         ],
         "created_at": "2026-06-17T19:43:32Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Models : Support alternative view by Category",
-        "url": "https://github.com/meshery/meshery/issues/20092",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-16T20:05:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "ResponsiveImage component is duplicated",
-        "url": "https://github.com/meshery/meshery/issues/20040",
-        "labels": [
-            "help wanted",
-            "language/javascript",
-            "component/ui",
-            "framework/react"
-        ],
-        "created_at": "2026-06-13T00:34:13Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4284,8 +4269,7 @@
         "labels": [
             "help wanted",
             "kind/feature",
-            "priority/backlog",
-            "lifecycle/rotten"
+            "priority/backlog"
         ],
         "created_at": "2020-09-18T14:08:43Z"
     },
@@ -5099,20 +5083,6 @@
             "kind/feature"
         ],
         "created_at": "2025-12-06T11:20:43Z"
-    },
-    {
-        "repo": "external-secrets/external-secrets",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Misleading Error Message for Namespace-Based Auth Failure in Akeyless Provider",
-        "url": "https://github.com/external-secrets/external-secrets/issues/5394",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "area/akeyless",
-            "size/s"
-        ],
-        "created_at": "2025-10-01T11:34:45Z"
     },
     {
         "repo": "external-secrets/external-secrets",
@@ -21337,20 +21307,6 @@
             "help wanted"
         ],
         "created_at": "2020-10-16T12:19:35Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "page:catalog-graph configuration is not applied to CatalogGraphPage initial state",
-        "url": "https://github.com/backstage/backstage/issues/35027",
-        "labels": [
-            "type:bug",
-            "good first issue",
-            "priority:contrib-needed",
-            "area:catalog"
-        ],
-        "created_at": "2026-07-31T14:55:17Z"
     },
     {
         "repo": "backstage/backstage",
