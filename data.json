@@ -8445,7 +8445,8 @@
         "url": "https://github.com/spiffe/spire/issues/5291",
         "labels": [
             "help wanted",
-            "priority/backlog"
+            "priority/backlog",
+            "stale"
         ],
         "created_at": "2024-07-11T04:07:02Z"
     },
@@ -8531,7 +8532,8 @@
         "labels": [
             "help wanted",
             "priority/backlog",
-            "unscoped"
+            "unscoped",
+            "stale"
         ],
         "created_at": "2023-03-21T21:37:33Z"
     },
@@ -9368,19 +9370,6 @@
             "help wanted"
         ],
         "created_at": "2022-12-08T02:24:38Z"
-    },
-    {
-        "repo": "rook/rook",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Response from ceph osd dump can include unquoted inf token, breaking osd retrieval",
-        "url": "https://github.com/rook/rook/issues/17614",
-        "labels": [
-            "bug",
-            "wontfix",
-            "good-first-issue"
-        ],
-        "created_at": "2026-05-27T20:53:08Z"
     },
     {
         "repo": "rook/rook",
@@ -11722,19 +11711,6 @@
             "area/hubble"
         ],
         "created_at": "2023-06-28T08:51:15Z"
-    },
-    {
-        "repo": "cilium/cilium",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Convert net.IP to netip.Addr",
-        "url": "https://github.com/cilium/cilium/issues/24246",
-        "labels": [
-            "good-first-issue",
-            "kind/cleanup",
-            "area/misc"
-        ],
-        "created_at": "2023-03-08T14:37:43Z"
     },
     {
         "repo": "cilium/cilium",
@@ -14275,6 +14251,79 @@
         "repo": "kubefleet-dev/kubefleet",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[BUG] Scheduler drops placement from queue on transient apiserver errors during policy snapshot lookup",
+        "url": "https://github.com/kubefleet-dev/kubefleet/issues/681",
+        "labels": [
+            "bug",
+            "good first issue",
+            "area/scheduler"
+        ],
+        "created_at": "2026-04-28T19:13:32Z"
+    },
+    {
+        "repo": "kubefleet-dev/kubefleet",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "test: add integration test for scheduled bindings updating to latest snapshot on bound transition",
+        "url": "https://github.com/kubefleet-dev/kubefleet/issues/677",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-04-27T20:43:34Z"
+    },
+    {
+        "repo": "kubefleet-dev/kubefleet",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "test: improve coverage for TestPickBindingsToRoll in rollout controller",
+        "url": "https://github.com/kubefleet-dev/kubefleet/issues/676",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-04-27T20:42:15Z"
+    },
+    {
+        "repo": "kubefleet-dev/kubefleet",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Scheduler tests: compare annotations when previous state is known",
+        "url": "https://github.com/kubefleet-dev/kubefleet/issues/663",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "area/scheduler",
+            "area/testing"
+        ],
+        "created_at": "2026-04-24T00:28:05Z"
+    },
+    {
+        "repo": "kubefleet-dev/kubefleet",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Reduce cyclomatic complexity of parseSingle in apiresources.go",
+        "url": "https://github.com/kubefleet-dev/kubefleet/issues/654",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "area/utils"
+        ],
+        "created_at": "2026-04-24T00:27:40Z"
+    },
+    {
+        "repo": "kubefleet-dev/kubefleet",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Per-cluster ObservedResourceIndex should reflect actual binding state for RollingUpdate strategy",
+        "url": "https://github.com/kubefleet-dev/kubefleet/issues/639",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-04-23T23:12:10Z"
+    },
+    {
+        "repo": "kubefleet-dev/kubefleet",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[BUG] hub-agent chart passes empty --log_file_max_size flag on every install",
         "url": "https://github.com/kubefleet-dev/kubefleet/issues/584",
         "labels": [
@@ -14282,6 +14331,18 @@
             "good first issue"
         ],
         "created_at": "2026-04-07T20:13:47Z"
+    },
+    {
+        "repo": "kubefleet-dev/kubefleet",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Feature] Add helm-unittest tests for Helm charts",
+        "url": "https://github.com/kubefleet-dev/kubefleet/issues/582",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-04-07T19:59:44Z"
     },
     {
         "repo": "kubernetes/kubernetes",
@@ -22710,19 +22771,6 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Show if more search results are present",
-        "url": "https://github.com/helm/helm/issues/31617",
-        "labels": [
-            "help wanted",
-            "feature",
-            "Stale"
-        ],
-        "created_at": "2025-12-08T07:19:32Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Helm4 upgrade with dry-run and server-side enabled doesn't catch errors",
         "url": "https://github.com/helm/helm/issues/31505",
         "labels": [
@@ -22972,6 +23020,19 @@
             "keep open"
         ],
         "created_at": "2020-05-15T02:42:48Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Show Installed Chart Source Location or Source Repository URL",
+        "url": "https://github.com/helm/helm/issues/4256",
+        "labels": [
+            "help wanted",
+            "feature",
+            "in progress"
+        ],
+        "created_at": "2018-06-21T17:50:58Z"
     },
     {
         "repo": "ko-build/ko",
@@ -23791,6 +23852,17 @@
             "lifecycle/frozen"
         ],
         "created_at": "2021-02-02T20:05:09Z"
+    },
+    {
+        "repo": "oras-project/oras",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "panic: send on closed channel in progress messenger during oras copy",
+        "url": "https://github.com/oras-project/oras/issues/2125",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-08-05T20:58:25Z"
     },
     {
         "repo": "oras-project/oras",
