@@ -2059,6 +2059,22 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] README: Remove \"Go Report\" badge",
+        "url": "https://github.com/meshery/meshery/issues/21189",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "first-timers-only",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-06T20:00:20Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Breadcrumb Missing on Desktop",
         "url": "https://github.com/meshery/meshery/issues/21143",
         "labels": [
@@ -2472,36 +2488,6 @@
             "type/visual-design"
         ],
         "created_at": "2024-10-28T14:47:23Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Template] Create a Design Critique template",
-        "url": "https://github.com/meshery/meshery/issues/12502",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
-        ],
-        "created_at": "2024-10-28T14:41:25Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Contributing",
-        "url": "https://github.com/meshery/meshery/issues/21181",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-06T13:25:49Z"
     },
     {
         "repo": "meshery/meshery",
@@ -5365,6 +5351,41 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Account already existed page button has no gap and no hover on effect",
+        "url": "https://github.com/keycloak/keycloak/issues/51330",
+        "labels": [
+            "kind/bug",
+            "area/account/ui",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn"
+        ],
+        "created_at": "2026-07-31T10:47:10Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Organization invitation creation and resend endpoints should return 201 with the created invitation location",
+        "url": "https://github.com/keycloak/keycloak/issues/51298",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "area/organizations"
+        ],
+        "created_at": "2026-07-30T05:54:15Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Organization group-by-path endpoint returns a brief representation instead of a full representation",
         "url": "https://github.com/keycloak/keycloak/issues/51263",
         "labels": [
@@ -5407,6 +5428,24 @@
             "team/core-protocols"
         ],
         "created_at": "2026-07-27T09:53:11Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "PreparedStatement can have at most 65,535 parameters",
+        "url": "https://github.com/keycloak/keycloak/issues/51128",
+        "labels": [
+            "kind/bug",
+            "area/storage",
+            "area/admin/fine-grained-permissions",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-07-24T07:41:11Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5780,58 +5819,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-22T15:08:28Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "NullPointerException in CertificateInfoHelper when \"keyAlias\" parameter is missing in multipart request. SAST",
-        "url": "https://github.com/keycloak/keycloak/issues/49246",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "help wanted",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-22T13:15:33Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Refresh token reuse counter not reverted on transaction rollback, causing permanent session revocation on transient DB failures",
-        "url": "https://github.com/keycloak/keycloak/issues/49213",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-21T11:00:36Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "NullPointerException in ResourceIndicatorsPostProcessor when access token audience is null",
-        "url": "https://github.com/keycloak/keycloak/issues/49077",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-18T21:19:28Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10248,18 +10235,6 @@
         "repo": "hyperlight-dev/hyperlight",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "`GuestBinary::FilePath` takes path by String",
-        "url": "https://github.com/hyperlight-dev/hyperlight/issues/1518",
-        "labels": [
-            "good first issue",
-            "lifecycle/confirmed"
-        ],
-        "created_at": "2026-06-08T19:34:17Z"
-    },
-    {
-        "repo": "hyperlight-dev/hyperlight",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "Enable all memory guard page tests on windows",
         "url": "https://github.com/hyperlight-dev/hyperlight/issues/1508",
         "labels": [
@@ -10952,21 +10927,6 @@
         "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "`podman play kube` doesn't warn for unrecognised keys in YAML",
-        "url": "https://github.com/podman-container-tools/podman/issues/18332",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "volunteers-wanted",
-            "kube",
-            "Contribfest"
-        ],
-        "created_at": "2023-04-24T23:25:07Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Support local volumes with a lifetime longer than that of the podman host",
         "url": "https://github.com/podman-container-tools/podman/issues/18075",
         "labels": [
@@ -11001,6 +10961,21 @@
             "Contribfest"
         ],
         "created_at": "2023-02-15T12:17:09Z"
+    },
+    {
+        "repo": "podman-container-tools/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "podman commit --include-volumes does only work with value true documentation needs to reflect that ",
+        "url": "https://github.com/podman-container-tools/podman/issues/15387",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "kind/feature",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2022-08-19T12:20:17Z"
     },
     {
         "repo": "urunc-dev/urunc",
@@ -12324,6 +12299,21 @@
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "testing: pin the label-writing workflows with contract tests",
+        "url": "https://github.com/cozystack/cozystack/issues/3589",
+        "labels": [
+            "good first issue",
+            "community",
+            "kind/cleanup",
+            "area/ci",
+            "area/testing"
+        ],
+        "created_at": "2026-08-06T22:40:16Z"
+    },
+    {
+        "repo": "cozystack/cozystack",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Move namespace.cozystack.io/host from namespace label to annotation",
         "url": "https://github.com/cozystack/cozystack/issues/2002",
         "labels": [
@@ -12554,6 +12544,42 @@
             "question"
         ],
         "created_at": "2020-09-11T05:56:46Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Add values.schema.json to the Helm chart for install-time values validation",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2419",
+        "labels": [
+            "good first issue",
+            "kind/feature"
+        ],
+        "created_at": "2026-08-06T19:27:56Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Title: device-plugin: RegisterInAnnotation() caches the new device digest before the node patch succeeds, permanently skipping retries after a transient failure",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2418",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-06T19:21:55Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[bug]: ascend MutateAdmission panics on nil Requests (assignment to nil map)",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2415",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-06T17:52:40Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -21317,20 +21343,6 @@
             "help wanted"
         ],
         "created_at": "2020-10-16T12:19:35Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Catalog entity page navigation causes brief error alert flicker",
-        "url": "https://github.com/backstage/backstage/issues/35126",
-        "labels": [
-            "type:bug",
-            "good first issue",
-            "priority:contrib-needed",
-            "area:catalog"
-        ],
-        "created_at": "2026-08-05T12:29:02Z"
     },
     {
         "repo": "backstage/backstage",
@@ -30100,6 +30112,17 @@
         "repo": "prometheus/prometheus",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Deltas: add PromQL function to disable processing of start times",
+        "url": "https://github.com/prometheus/prometheus/issues/19264",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-07-23T16:13:34Z"
+    },
+    {
+        "repo": "prometheus/prometheus",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Support periodic DNS re-resolution for FQDN targets discovered via Consul SD",
         "url": "https://github.com/prometheus/prometheus/issues/18387",
         "labels": [
@@ -30463,18 +30486,6 @@
             "component/scraping"
         ],
         "created_at": "2024-09-04T09:25:50Z"
-    },
-    {
-        "repo": "prometheus/prometheus",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "[Error] Setup prometheus to scrape from MS instances registered in Eureka SD with random port",
-        "url": "https://github.com/prometheus/prometheus/issues/14632",
-        "labels": [
-            "help wanted",
-            "component/service discovery"
-        ],
-        "created_at": "2024-08-09T01:49:45Z"
     },
     {
         "repo": "thanos-io/thanos",
