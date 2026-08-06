@@ -2101,18 +2101,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[UI] Fix Organization field alignment",
-        "url": "https://github.com/meshery/meshery/issues/21014",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-07-30T04:31:09Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Stale state bug in Design Table filters",
         "url": "https://github.com/meshery/meshery/issues/20891",
         "labels": [
@@ -2340,21 +2328,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Active state is not applied to the current breadcrumb",
-        "url": "https://github.com/meshery/meshery/issues/17610",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/jekyll"
-        ],
-        "created_at": "2026-02-24T08:41:44Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Update to the latest jQuery",
         "url": "https://github.com/meshery/meshery/issues/17157",
         "labels": [
@@ -2488,6 +2461,52 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Template] Create a Brainstorming template",
+        "url": "https://github.com/meshery/meshery/issues/12503",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:47:23Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Template] Create a Design Critique template",
+        "url": "https://github.com/meshery/meshery/issues/12502",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:41:25Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Contributing",
+        "url": "https://github.com/meshery/meshery/issues/21181",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-06T13:25:49Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs]Section-index (_index.md) pages never render their own title \u2014 display_title: false suppresses it with no fallback",
         "url": "https://github.com/meshery/meshery/issues/21178",
         "labels": [
@@ -2552,20 +2571,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-24T15:36:00Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Fix broken images on documentation pages",
-        "url": "https://github.com/meshery/meshery/issues/20919",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-23T14:57:54Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2727,20 +2732,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Add rendered shortcode examples to the Contributing to Meshery Docs page",
-        "url": "https://github.com/meshery/meshery/issues/20482",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-04T18:59:23Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Improve visual hierarchy of leaf items in the documentation sidebar",
         "url": "https://github.com/meshery/meshery/issues/20480",
         "labels": [
@@ -2877,6 +2868,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-23T18:51:33Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Migrate usage of local \"See Also\" and \"Related\" sections to upstream \"Related Readings.",
+        "url": "https://github.com/meshery/meshery/issues/20149",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-19T20:59:47Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -5407,21 +5412,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "WebAuthn tests are being skipped in Github workflows",
-        "url": "https://github.com/keycloak/keycloak/issues/51164",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "priority/normal",
-            "area/workflows",
-            "team/core-authn"
-        ],
-        "created_at": "2026-07-25T21:52:11Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Fine-grained permission conflicting with each other",
         "url": "https://github.com/keycloak/keycloak/issues/50740",
         "labels": [
@@ -5826,6 +5816,22 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-21T11:00:36Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "NullPointerException in ResourceIndicatorsPostProcessor when access token audience is null",
+        "url": "https://github.com/keycloak/keycloak/issues/49077",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-18T21:19:28Z"
     },
     {
         "repo": "keylime/keylime",
@@ -12560,18 +12566,6 @@
             "good first issue"
         ],
         "created_at": "2026-08-04T19:47:42Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "bug(quota): FitQuota treats an explicit zero limit as unlimited, so ResourceQuota \"0\" allows all GPU usage",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2312",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-03T16:55:29Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -21342,6 +21336,20 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Support for AsyncAPI 3.1.0",
+        "url": "https://github.com/backstage/backstage/issues/35082",
+        "labels": [
+            "area:documentation",
+            "type:suggestion",
+            "good first issue",
+            "priority:contrib-needed"
+        ],
+        "created_at": "2026-08-04T09:29:17Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "@backstage/ui `ButtonIcon` is missing destructive prop",
         "url": "https://github.com/backstage/backstage/issues/35023",
         "labels": [
@@ -23138,6 +23146,18 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "conflictsWith in TraitDefinition has no effect",
+        "url": "https://github.com/kubevela/kubevela/issues/7294",
+        "labels": [
+            "good first issue",
+            "area/trait"
+        ],
+        "created_at": "2026-08-06T11:44:36Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "[Feature] Expose HTTP timeout in built-in workflow steps",
         "url": "https://github.com/kubevela/kubevela/issues/7241",
         "labels": [
@@ -23861,7 +23881,7 @@
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18544",
         "labels": [
             "good first issue",
-            "status/need-triage"
+            "domain/ui-components"
         ],
         "created_at": "2026-07-30T18:13:12Z"
     },
@@ -23882,7 +23902,7 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Global navigation: Arrow key navigation within navbar",
+        "title": "Global navigation: Arrow key navigation within navbar (when focused)",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/16810",
         "labels": [
             "good first issue",
@@ -25298,6 +25318,19 @@
             "help wanted"
         ],
         "created_at": "2022-03-02T19:40:51Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: Deploy UI shows Failed for ProjectReleaseBinding while Namespace is progressing",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4440",
+        "labels": [
+            "good first issue",
+            "Type/Bug",
+            "reportedBy/community"
+        ],
+        "created_at": "2026-08-06T00:45:24Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -30642,19 +30675,6 @@
         "repo": "thanos-io/thanos",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Distributed traces can be excessively verbose",
-        "url": "https://github.com/thanos-io/thanos/issues/6099",
-        "labels": [
-            "feature request/improvement",
-            "good first issue",
-            "help wanted"
-        ],
-        "created_at": "2023-02-02T18:01:53Z"
-    },
-    {
-        "repo": "thanos-io/thanos",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Need Cardinality Management Support on Thanos",
         "url": "https://github.com/thanos-io/thanos/issues/6007",
         "labels": [
@@ -30838,6 +30858,46 @@
             "component: bucket tools"
         ],
         "created_at": "2021-05-27T11:56:19Z"
+    },
+    {
+        "repo": "thanos-io/thanos",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Add query frontend component to the quickstart script",
+        "url": "https://github.com/thanos-io/thanos/issues/3304",
+        "labels": [
+            "difficulty: easy",
+            "good first issue",
+            "help wanted",
+            "component: query-frontend",
+            "Hacktoberfest",
+            "state: someone-working-on-it"
+        ],
+        "created_at": "2020-10-12T14:27:12Z"
+    },
+    {
+        "repo": "thanos-io/thanos",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "query: --store.limits.request-{series,samples} not working",
+        "url": "https://github.com/thanos-io/thanos/issues/8964",
+        "labels": [
+            "bug",
+            "help wanted",
+            "component: query"
+        ],
+        "created_at": "2026-08-05T21:42:14Z"
+    },
+    {
+        "repo": "thanos-io/thanos",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Offer minimal/distroless docker images",
+        "url": "https://github.com/thanos-io/thanos/issues/8961",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-08-04T11:26:25Z"
     },
     {
         "repo": "thanos-io/thanos",
