@@ -6853,19 +6853,6 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Support]: Pass multiple skip-auth-route in docker compose",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3283",
-        "labels": [
-            "help wanted",
-            "configuration",
-            "Stale"
-        ],
-        "created_at": "2025-12-12T14:51:44Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Bug]: cookie_secret_file not working with redis session store configuration",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3270",
         "labels": [
@@ -6921,6 +6908,18 @@
             "help wanted"
         ],
         "created_at": "2025-09-25T21:01:08Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: OAuth2 Proxy State Parameter Only Contains Path, Not Full URL",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3205",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2025-09-25T02:37:04Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -14286,7 +14285,8 @@
         "title": "test: improve coverage for TestPickBindingsToRoll in rollout controller",
         "url": "https://github.com/kubefleet-dev/kubefleet/issues/676",
         "labels": [
-            "good first issue"
+            "good first issue",
+            "area/testing"
         ],
         "created_at": "2026-04-27T20:42:15Z"
     },
@@ -22820,7 +22820,8 @@
         "url": "https://github.com/helm/helm/issues/13686",
         "labels": [
             "help wanted",
-            "bug"
+            "bug",
+            "Stale"
         ],
         "created_at": "2025-01-29T19:52:45Z"
     },
