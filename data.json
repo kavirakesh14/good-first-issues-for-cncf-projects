@@ -2493,6 +2493,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Standardize image embedding across documentation",
+        "url": "https://github.com/meshery/meshery/issues/21198",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-07T05:35:27Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs]Section-index (_index.md) pages never render their own title \u2014 display_title: false suppresses it with no fallback",
         "url": "https://github.com/meshery/meshery/issues/21178",
         "labels": [
@@ -2854,20 +2868,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-23T18:51:33Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Migrate usage of local \"See Also\" and \"Related\" sections to upstream \"Related Readings.",
-        "url": "https://github.com/meshery/meshery/issues/20149",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-19T20:59:47Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -11627,22 +11627,6 @@
         "repo": "cilium/cilium",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Policy status operator misses disallowed namespace endpoint selector",
-        "url": "https://github.com/cilium/cilium/issues/45231",
-        "labels": [
-            "kind/bug",
-            "help-wanted",
-            "good-first-issue",
-            "sig/policy",
-            "kind/community-report",
-            "area/agent"
-        ],
-        "created_at": "2026-04-08T10:42:37Z"
-    },
-    {
-        "repo": "cilium/cilium",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "CFP: hubble CLI - from-node-labels + to-node-labels",
         "url": "https://github.com/cilium/cilium/issues/34133",
         "labels": [
@@ -12548,6 +12532,18 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "device-plugin: WatchAndRegister's disable/ack handshake can deadlock the goroutine or desync a later ApplyMigTemplate() disable cycle",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2433",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-07T04:52:07Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Add values.schema.json to the Helm chart for install-time values validation",
         "url": "https://github.com/Project-HAMi/HAMi/issues/2419",
         "labels": [
@@ -12963,8 +12959,7 @@
         "url": "https://github.com/kedacore/keda/issues/7675",
         "labels": [
             "bug",
-            "good first issue",
-            "stale"
+            "good first issue"
         ],
         "created_at": "2026-04-22T09:03:23Z"
     },
@@ -16929,18 +16924,6 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "Data race in `CredentialsFileCredentialsProvider` when `watched_directory` is configured causes heap corruption and SIGSEGV",
-        "url": "https://github.com/envoyproxy/envoy/issues/45667",
-        "labels": [
-            "help wanted",
-            "no stalebot"
-        ],
-        "created_at": "2026-06-16T17:08:21Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "Support sending access logs to syslog",
         "url": "https://github.com/envoyproxy/envoy/issues/45523",
         "labels": [
@@ -17191,6 +17174,19 @@
             "help wanted"
         ],
         "created_at": "2025-11-17T14:03:01Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "Support OIDC Discovery in jwt_authn filter",
+        "url": "https://github.com/envoyproxy/envoy/issues/41974",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/jwt_authn"
+        ],
+        "created_at": "2025-11-12T01:19:27Z"
     },
     {
         "repo": "loxilb-io/loxilb",
