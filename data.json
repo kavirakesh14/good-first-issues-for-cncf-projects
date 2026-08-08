@@ -8375,7 +8375,8 @@
         "labels": [
             "help wanted",
             "priority/backlog",
-            "unscoped"
+            "unscoped",
+            "stale"
         ],
         "created_at": "2025-05-07T16:58:49Z"
     },
@@ -8449,8 +8450,7 @@
         "url": "https://github.com/spiffe/spire/issues/5291",
         "labels": [
             "help wanted",
-            "priority/backlog",
-            "stale"
+            "priority/backlog"
         ],
         "created_at": "2024-07-11T04:07:02Z"
     },
@@ -12307,6 +12307,20 @@
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "testing: 89 of 165 packages have no helm test target, including eight user-facing apps",
+        "url": "https://github.com/cozystack/cozystack/issues/3631",
+        "labels": [
+            "good first issue",
+            "community",
+            "kind/cleanup",
+            "area/testing"
+        ],
+        "created_at": "2026-08-07T22:48:00Z"
+    },
+    {
+        "repo": "cozystack/cozystack",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "testing: pin the label-writing workflows with contract tests",
         "url": "https://github.com/cozystack/cozystack/issues/3589",
         "labels": [
@@ -12552,6 +12566,30 @@
             "question"
         ],
         "created_at": "2020-09-11T05:56:46Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "docs: Fix dead AMD ROCm documentation links in amd-vgpu.md",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2456",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-07T21:04:29Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[bug]: core_allocated_ratio metrics export raw percentages instead of ratios, breaking operator alerts",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2454",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-07T20:29:41Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -16842,19 +16880,6 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "Ext Proc to Support Session Affinity",
-        "url": "https://github.com/envoyproxy/envoy/issues/46159",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/ext_proc"
-        ],
-        "created_at": "2026-07-15T21:22:39Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "Envoys do not use previous secret discovery provider when fetch timeout is changed",
         "url": "https://github.com/envoyproxy/envoy/issues/46155",
         "labels": [
@@ -17224,6 +17249,21 @@
             "area/jwt_authn"
         ],
         "created_at": "2025-11-12T01:19:27Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "Compression and decompression of gRPC through envoy proxy",
+        "url": "https://github.com/envoyproxy/envoy/issues/41893",
+        "labels": [
+            "bug",
+            "help wanted",
+            "no stalebot",
+            "area/http",
+            "area/compression"
+        ],
+        "created_at": "2025-11-07T10:24:03Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -22853,8 +22893,7 @@
         "url": "https://github.com/helm/helm/issues/13686",
         "labels": [
             "help wanted",
-            "bug",
-            "Stale"
+            "bug"
         ],
         "created_at": "2025-01-29T19:52:45Z"
     },
@@ -31433,23 +31472,6 @@
             "kserve/autoscaling"
         ],
         "created_at": "2025-06-27T07:35:16Z"
-    },
-    {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Multi-model serving e2e test for http/https",
-        "url": "https://github.com/kserve/kserve/issues/1576",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "kind/feature",
-            "kfserving/mms",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2021-04-29T18:52:40Z"
     },
     {
         "repo": "llm-d/llm-d",
