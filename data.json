@@ -12571,6 +12571,18 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Race Condition Between Filter() and onAddPod() Causes Double Counting",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2478",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-08T11:14:47Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "kunlun/mthreads: PatchAnnotations overwrites per-container device index for multi-container pods",
         "url": "https://github.com/Project-HAMi/HAMi/issues/2463",
         "labels": [
@@ -19661,6 +19673,76 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Actual error from `inf.Start()` is silently discarded and replaced with a stale error variable",
+        "url": "https://github.com/openeverest/openeverest/issues/2763",
+        "labels": [
+            "bug",
+            "good first issue",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-02T16:06:35Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Data race in `everestAPIConstantBackoff` global due to stateful backoff reuse",
+        "url": "https://github.com/openeverest/openeverest/issues/2760",
+        "labels": [
+            "bug",
+            "good first issue",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-02T15:43:07Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "events.Hub can panic with close of closed channel when dropping a slow SSE subscriber",
+        "url": "https://github.com/openeverest/openeverest/issues/2726",
+        "labels": [
+            "bug",
+            "good first issue",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-01T13:09:17Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "GetConsumedCPUAndMemory undercounts resources when some init containers are still running",
+        "url": "https://github.com/openeverest/openeverest/issues/2720",
+        "labels": [
+            "bug",
+            "good first issue",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-07-31T17:34:20Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Backup storage endpoint URL can be changed while the storage is in use",
+        "url": "https://github.com/openeverest/openeverest/issues/2665",
+        "labels": [
+            "bug",
+            "good first issue",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-07-29T22:44:05Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Login page: spacing between intro text and community links collapses on narrow/short viewports",
         "url": "https://github.com/openeverest/openeverest/issues/2568",
         "labels": [
@@ -19682,6 +19764,19 @@
             "ui"
         ],
         "created_at": "2026-06-25T17:17:04Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "providers filter on extension points documents values that cannot match providerRef.name",
+        "url": "https://github.com/openeverest/openeverest/issues/2804",
+        "labels": [
+            "help wanted",
+            "v2",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-06T05:11:51Z"
     },
     {
         "repo": "openGemini/openGemini",
