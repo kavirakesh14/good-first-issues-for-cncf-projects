@@ -9419,18 +9419,6 @@
         "repo": "velero-io/velero",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Backport/Cherry-pick GitHub action",
-        "url": "https://github.com/velero-io/velero/issues/9603",
-        "labels": [
-            "Enhancement/Dev",
-            "Good first issue"
-        ],
-        "created_at": "2026-03-10T20:17:06Z"
-    },
-    {
-        "repo": "velero-io/velero",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Behavior of skip volume policy is strange/problematic",
         "url": "https://github.com/velero-io/velero/issues/9318",
         "labels": [
@@ -12565,6 +12553,18 @@
             "question"
         ],
         "created_at": "2020-09-11T05:56:46Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "AMD container core allocation ratio reports physical CU count instead of percentage",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2518",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-09T17:00:36Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -18180,19 +18180,6 @@
         "repo": "higress-group/higress",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u5bf9LLM API\u7684Stream\u8bf7\u6c42\u4f1a\u81ea\u52a8\u6dfb\u52a0inlude_usage\u9009\u9879\uff0c\u9700\u8981\u589e\u52a0\u4e00\u4e2a\u914d\u7f6e\u5f00\u5173 || Stream requests to the LLM API will automatically add the include_usage option, and a configuration switch needs to be added.",
-        "url": "https://github.com/higress-group/higress/issues/3041",
-        "labels": [
-            "help wanted",
-            "level/normal",
-            "sig/wasm"
-        ],
-        "created_at": "2025-10-22T16:59:47Z"
-    },
-    {
-        "repo": "higress-group/higress",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Implement Google Cloud Vertex LLM mock server & e2e test case",
         "url": "https://github.com/higress-group/higress/issues/2718",
         "labels": [
@@ -18472,6 +18459,19 @@
             "area/ai"
         ],
         "created_at": "2024-12-26T11:08:25Z"
+    },
+    {
+        "repo": "higress-group/higress",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Implement a mock service for Alibaba Cloud Content Security",
+        "url": "https://github.com/higress-group/higress/issues/1635",
+        "labels": [
+            "help wanted",
+            "area/e2e",
+            "area/ai"
+        ],
+        "created_at": "2024-12-26T11:08:23Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -19730,15 +19730,30 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Add Unit Tests for pkg/logger",
-        "url": "https://github.com/openeverest/openeverest/issues/2827",
+        "title": "assign bot reports the wrong reason and the wrong person when a maintainer assigns someone else",
+        "url": "https://github.com/openeverest/openeverest/issues/2839",
         "labels": [
+            "bug",
             "good first issue",
-            "help wanted",
-            "chore",
+            "github_actions",
             "triage/accepted"
         ],
-        "created_at": "2026-08-08T19:08:45Z"
+        "created_at": "2026-08-09T15:24:12Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Bug: Telemetry job triggers API server DoS when TELEMETRY_INTERVAL is set to 0s",
+        "url": "https://github.com/openeverest/openeverest/issues/2831",
+        "labels": [
+            "bug",
+            "good first issue",
+            "v1",
+            "v2",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-09T05:10:35Z"
     },
     {
         "repo": "openeverest/openeverest",
@@ -19769,20 +19784,6 @@
             "triage/accepted"
         ],
         "created_at": "2026-08-02T16:06:35Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Data race in `everestAPIConstantBackoff` global due to stateful backoff reuse",
-        "url": "https://github.com/openeverest/openeverest/issues/2760",
-        "labels": [
-            "bug",
-            "good first issue",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-08-02T15:43:07Z"
     },
     {
         "repo": "openeverest/openeverest",
