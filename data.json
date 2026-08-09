@@ -2059,21 +2059,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[UI]: Meshery Logo and Text Color Inconsistency on 'Certified Meshery Contributor' Page",
-        "url": "https://github.com/meshery/meshery/issues/21249",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "language/javascript",
-            "component/ui",
-            "framework/react"
-        ],
-        "created_at": "2026-08-08T23:24:33Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] README: Remove \"Go Report\" badge",
         "url": "https://github.com/meshery/meshery/issues/21189",
         "labels": [
@@ -2487,6 +2472,22 @@
             "framework/jekyll"
         ],
         "created_at": "2025-01-31T17:39:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Template] Create a Brainstorming template",
+        "url": "https://github.com/meshery/meshery/issues/12503",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:47:23Z"
     },
     {
         "repo": "meshery/meshery",
@@ -19712,6 +19713,20 @@
             "LFX Mentorship"
         ],
         "created_at": "2025-06-23T12:38:35Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Add Unit Tests for pkg/logger",
+        "url": "https://github.com/openeverest/openeverest/issues/2827",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "chore",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-08T19:08:45Z"
     },
     {
         "repo": "openeverest/openeverest",
