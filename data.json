@@ -2059,6 +2059,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[UI]: Meshery Logo and Text Color Inconsistency on 'Certified Meshery Contributor' Page",
+        "url": "https://github.com/meshery/meshery/issues/21249",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "language/javascript",
+            "component/ui",
+            "framework/react"
+        ],
+        "created_at": "2026-08-08T23:24:33Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] README: Remove \"Go Report\" badge",
         "url": "https://github.com/meshery/meshery/issues/21189",
         "labels": [
@@ -2472,22 +2487,6 @@
             "framework/jekyll"
         ],
         "created_at": "2025-01-31T17:39:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Template] Create a Brainstorming template",
-        "url": "https://github.com/meshery/meshery/issues/12503",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
-        ],
-        "created_at": "2024-10-28T14:47:23Z"
     },
     {
         "repo": "meshery/meshery",
@@ -8333,19 +8332,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Question: Spire's compatibility with Kubernetes",
-        "url": "https://github.com/spiffe/spire/issues/6175",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "stale"
-        ],
-        "created_at": "2025-07-08T07:21:22Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "IMDSv2 Requirement Breaks aws_mysql and aws_postgres Authentication",
         "url": "https://github.com/spiffe/spire/issues/6118",
         "labels": [
@@ -8403,19 +8389,6 @@
             "priority/backlog"
         ],
         "created_at": "2024-09-18T21:23:29Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "AWS IID/IAM plugin documentation",
-        "url": "https://github.com/spiffe/spire/issues/5495",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "stale"
-        ],
-        "created_at": "2024-09-12T21:09:57Z"
     },
     {
         "repo": "spiffe/spire",
@@ -8577,6 +8550,30 @@
             "unscoped"
         ],
         "created_at": "2021-05-10T19:58:38Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "JWT signing key validity period not considered in calculation of bundle \"spiffe_refresh_hint\" ",
+        "url": "https://github.com/spiffe/spire/issues/2256",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2021-05-06T15:18:37Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Investigate upgrading gorm library",
+        "url": "https://github.com/spiffe/spire/issues/1832",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2020-09-10T16:40:28Z"
     },
     {
         "repo": "carina-io/carina",
@@ -12567,6 +12564,42 @@
             "question"
         ],
         "created_at": "2020-09-11T05:56:46Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "fix(util): nil pod pointers cause panics in utility functions",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2498",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-08T20:54:57Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Huawei Ascend vNPU Dynamic Template Matching Test",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2493",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-08T19:45:21Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Multi-Container & InitContainer Mutating Webhook Test",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2490",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-08T19:41:05Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
