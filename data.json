@@ -1055,6 +1055,55 @@
         "repo": "kcl-lang/kcl",
         "tier": "Sandbox",
         "lang": "Rust",
+        "title": "KCL builtin file system package with git support",
+        "url": "https://github.com/kcl-lang/kcl/issues/2107",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "runtime"
+        ],
+        "created_at": "2026-07-23T20:32:53Z"
+    },
+    {
+        "repo": "kcl-lang/kcl",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "Add an AI Codebase Maturity (ACMM) badge to your README",
+        "url": "https://github.com/kcl-lang/kcl/issues/2084",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-04-16T19:12:38Z"
+    },
+    {
+        "repo": "kcl-lang/kcl",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "Guided KCL install mission in KubeStellar Console",
+        "url": "https://github.com/kcl-lang/kcl/issues/2073",
+        "labels": [
+            "help wanted",
+            "integration"
+        ],
+        "created_at": "2026-03-19T01:28:20Z"
+    },
+    {
+        "repo": "kcl-lang/kcl",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "kcl\u8f93\u51fa\u683c\u5f0f\u4ec5\u652f\u6301json\u548cyaml,\u671f\u671b\u53ef\u4ee5\u7075\u6d3b\u6269\u5c55",
+        "url": "https://github.com/kcl-lang/kcl/issues/2051",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "tool"
+        ],
+        "created_at": "2026-01-26T04:07:49Z"
+    },
+    {
+        "repo": "kcl-lang/kcl",
+        "tier": "Sandbox",
+        "lang": "Rust",
         "title": "KCL LSP cannot find installed modules",
         "url": "https://github.com/kcl-lang/kcl/issues/1869",
         "labels": [
@@ -12570,41 +12619,6 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[bug]: DecodeContainerDevices silently fails on whitespace in pod annotation fields",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2524",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-09T20:21:59Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Fix ignored TEST_WITH_REAL_CLUSTER environment variable in client_test.go",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2520",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-08-09T18:44:14Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "AMD container core allocation ratio reports physical CU count instead of percentage",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2518",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-09T17:00:36Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "DecodeContainerDevices silently accepts malformed annotation segments",
         "url": "https://github.com/Project-HAMi/HAMi/issues/2507",
         "labels": [
@@ -12641,18 +12655,6 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Multi-Container & InitContainer Mutating Webhook Test",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2490",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-08T19:41:05Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "WebHookRoute() Panics on Nil Handler If Webhook Creation Fails",
         "url": "https://github.com/Project-HAMi/HAMi/issues/2485",
         "labels": [
@@ -12660,30 +12662,6 @@
             "good first issue"
         ],
         "created_at": "2026-08-08T14:26:38Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "fix(leaderelection): prevent false-positive leader detection on hostname prefixes",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2480",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-08T12:47:02Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Race Condition Between Filter() and onAddPod() Causes Double Counting",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2478",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-08T11:14:47Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -12780,30 +12758,6 @@
             "good first issue"
         ],
         "created_at": "2026-08-06T19:21:55Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[bug]: ascend MutateAdmission panics on nil Requests (assignment to nil map)",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2415",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-06T17:52:40Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Missing Test for InitContainers & EphemeralContainers GPU Quota Checks",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2366",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-04T19:47:42Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -19810,20 +19764,6 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Actual error from `inf.Start()` is silently discarded and replaced with a stale error variable",
-        "url": "https://github.com/openeverest/openeverest/issues/2763",
-        "labels": [
-            "bug",
-            "good first issue",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-08-02T16:06:35Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "events.Hub can panic with close of closed channel when dropping a slow SSE subscriber",
         "url": "https://github.com/openeverest/openeverest/issues/2726",
         "labels": [
@@ -19839,26 +19779,10 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "GetConsumedCPUAndMemory undercounts resources when some init containers are still running",
-        "url": "https://github.com/openeverest/openeverest/issues/2720",
-        "labels": [
-            "bug",
-            "good first issue",
-            "help wanted",
-            "v1",
-            "v2",
-            "triage/accepted"
-        ],
-        "created_at": "2026-07-31T17:34:20Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Backup storage endpoint URL can be changed while the storage is in use",
         "url": "https://github.com/openeverest/openeverest/issues/2665",
         "labels": [
-            "bug",
+            "documentation",
             "good first issue",
             "help wanted",
             "v1",
@@ -19896,14 +19820,14 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "providers filter on extension points documents values that cannot match providerRef.name",
-        "url": "https://github.com/openeverest/openeverest/issues/2804",
+        "title": "bug: Read-Modify-Write race condition in accounts.Delete() causes silent data loss under concurrent operations",
+        "url": "https://github.com/openeverest/openeverest/issues/2833",
         "labels": [
+            "bug",
             "help wanted",
-            "v2",
             "triage/accepted"
         ],
-        "created_at": "2026-08-06T05:11:51Z"
+        "created_at": "2026-08-09T06:20:37Z"
     },
     {
         "repo": "openGemini/openGemini",
@@ -25665,6 +25589,31 @@
             "reportedBy/community"
         ],
         "created_at": "2026-08-06T00:45:24Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: Default Valkey ClusterResourceType fails when Gateway is not configured",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4428",
+        "labels": [
+            "good first issue",
+            "Type/Bug",
+            "reportedBy/community"
+        ],
+        "created_at": "2026-08-06T00:41:40Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Update the Azure Tracing module to return both span status code and message",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4316",
+        "labels": [
+            "good first issue",
+            "Type/Task"
+        ],
+        "created_at": "2026-07-24T05:59:17Z"
     },
     {
         "repo": "openchoreo/openchoreo",
