@@ -832,20 +832,6 @@
         "repo": "kairos-io/kairos",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": ":book: Consistent name of our configuration file across docs",
-        "url": "https://github.com/kairos-io/kairos/issues/2210",
-        "labels": [
-            "documentation",
-            "enhancement",
-            "help wanted",
-            "good first issue"
-        ],
-        "created_at": "2024-02-05T21:15:12Z"
-    },
-    {
-        "repo": "kairos-io/kairos",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Make openrc override command logic generic for other services besides k3s",
         "url": "https://github.com/kairos-io/kairos/issues/2149",
         "labels": [
@@ -2108,6 +2094,18 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[UI] Kanvas icon misaligns on hover",
+        "url": "https://github.com/meshery/meshery/issues/21269",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-10T10:46:35Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] README: Remove \"Go Report\" badge",
         "url": "https://github.com/meshery/meshery/issues/21189",
         "labels": [
@@ -2526,22 +2524,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Template] Create a Brainstorming template",
-        "url": "https://github.com/meshery/meshery/issues/12503",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "issue/willfix",
-            "component/extensions",
-            "type/visual-design"
-        ],
-        "created_at": "2024-10-28T14:47:23Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Workspace edit and delete actions throw runtime error when clicked",
         "url": "https://github.com/meshery/meshery/issues/21205",
         "labels": [
@@ -2736,20 +2718,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] make clean runs two full site builds and never empties the build cache",
-        "url": "https://github.com/meshery/meshery/issues/20546",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-08T21:04:31Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] page-specific loading states across Meshery UI",
         "url": "https://github.com/meshery/meshery/issues/20512",
         "labels": [
@@ -2915,6 +2883,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-26T00:15:05Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Sidebar Button Clicks Automatically Scroll Page to Top",
+        "url": "https://github.com/meshery/meshery/issues/20209",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-23T18:51:33Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4722,21 +4704,6 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "GCP workloadIdentity: oauth2 token Expiry is never populated, so GCRAccessToken emits expiry=-62135596800",
-        "url": "https://github.com/external-secrets/external-secrets/issues/6744",
-        "labels": [
-            "good first issue",
-            "kind/bug",
-            "area/gcp",
-            "size/xs",
-            "area/generator"
-        ],
-        "created_at": "2026-08-02T14:45:22Z"
-    },
-    {
-        "repo": "external-secrets/external-secrets",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "keepersecurity provider: folderID is mandatory even for read-only SecretStores",
         "url": "https://github.com/external-secrets/external-secrets/issues/6694",
         "labels": [
@@ -5378,6 +5345,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "SPNEGO mutual authentication response token is not returned after successful login",
+        "url": "https://github.com/keycloak/keycloak/issues/51559",
+        "labels": [
+            "area/authentication",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn"
+        ],
+        "created_at": "2026-08-08T14:29:48Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "TypeError crash in Evaluation tab when selecting \"Group\" resource type",
         "url": "https://github.com/keycloak/keycloak/issues/51536",
         "labels": [
@@ -5397,23 +5381,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "SCIM filter predicates handle case-insensitive matching incorrectly",
-        "url": "https://github.com/keycloak/keycloak/issues/51401",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "area/scim"
-        ],
-        "created_at": "2026-08-03T14:18:59Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "[OID4VCI] Incorrect metadata for key_attestations_required",
         "url": "https://github.com/keycloak/keycloak/issues/51347",
         "labels": [
@@ -5425,24 +5392,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-07-31T18:11:45Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Account already existed page button has no gap and no hover on effect",
-        "url": "https://github.com/keycloak/keycloak/issues/51330",
-        "labels": [
-            "kind/bug",
-            "area/account/ui",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn"
-        ],
-        "created_at": "2026-07-31T10:47:10Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5880,6 +5829,24 @@
             "priority/normal"
         ],
         "created_at": "2026-05-25T13:51:07Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "client-policies: editing secure-redirect-uris-enforcer setting in admin ui breaks client policy/profile",
+        "url": "https://github.com/keycloak/keycloak/issues/49252",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-22T15:08:28Z"
     },
     {
         "repo": "keylime/keylime",
@@ -11029,18 +10996,6 @@
         "repo": "urunc-dev/urunc",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "CodeQl workflow fails",
-        "url": "https://github.com/urunc-dev/urunc/issues/915",
-        "labels": [
-            "good first issue",
-            "CI"
-        ],
-        "created_at": "2026-08-07T07:43:19Z"
-    },
-    {
-        "repo": "urunc-dev/urunc",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Line break when copying commands form the website",
         "url": "https://github.com/urunc-dev/urunc/issues/482",
         "labels": [
@@ -12607,61 +12562,25 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "fix(util): nil node pointers cause panics in utility functions",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2525",
+        "title": "[Docs] Document the inconsistency in resource calculation between quota-enabled and non-quota scenarios (follow-up to #1773).",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2533",
         "labels": [
-            "kind/bug",
-            "good first issue"
+            "good first issue",
+            "kind/feature"
         ],
-        "created_at": "2026-08-09T22:46:48Z"
+        "created_at": "2026-08-10T09:06:08Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "DecodeContainerDevices silently accepts malformed annotation segments",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2507",
+        "title": "[Ascend] Requests-only pods skip memory validation, so an over-capacity request becomes a whole-card request",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2532",
         "labels": [
             "kind/bug",
             "good first issue"
         ],
-        "created_at": "2026-08-09T11:16:17Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "fix(util): nil pod pointers cause panics in utility functions",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2498",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-08T20:54:57Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Huawei Ascend vNPU Dynamic Template Matching Test",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2493",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-08T19:45:21Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "WebHookRoute() Panics on Nil Handler If Webhook Creation Fails",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2485",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-08T14:26:38Z"
+        "created_at": "2026-08-10T08:50:44Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -12679,30 +12598,6 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "fix(device-plugin): nil pod.Annotations map write panics in patchErasedAnnotation",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2462",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-08T05:17:25Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "docs: Fix dead AMD ROCm documentation links in amd-vgpu.md",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2456",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-07T21:04:29Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "[bug]: core_allocated_ratio metrics export raw percentages instead of ratios, breaking operator alerts",
         "url": "https://github.com/Project-HAMi/HAMi/issues/2454",
         "labels": [
@@ -12715,30 +12610,6 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "vGPUmonitor: MIG lock file create/remove events can race through a saturating channel, permanently hanging watchAndFeedback",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2450",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-07T13:52:22Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "device-plugin: WatchAndRegister's disable/ack handshake can deadlock the goroutine or desync a later ApplyMigTemplate() disable cycle",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2433",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-07T04:52:07Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Add values.schema.json to the Helm chart for install-time values validation",
         "url": "https://github.com/Project-HAMi/HAMi/issues/2419",
         "labels": [
@@ -12746,18 +12617,6 @@
             "kind/feature"
         ],
         "created_at": "2026-08-06T19:27:56Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Title: device-plugin: RegisterInAnnotation() caches the new device digest before the node patch succeeds, permanently skipping retries after a transient failure",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2418",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-06T19:21:55Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -19779,21 +19638,6 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Backup storage endpoint URL can be changed while the storage is in use",
-        "url": "https://github.com/openeverest/openeverest/issues/2665",
-        "labels": [
-            "documentation",
-            "good first issue",
-            "help wanted",
-            "v1",
-            "triage/accepted"
-        ],
-        "created_at": "2026-07-29T22:44:05Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Login page: spacing between intro text and community links collapses on narrow/short viewports",
         "url": "https://github.com/openeverest/openeverest/issues/2568",
         "labels": [
@@ -20797,7 +20641,8 @@
             "type/quality",
             "Beginner Friendly",
             "area/rest",
-            "good first issue"
+            "good first issue",
+            "version/4.0"
         ],
         "created_at": "2026-02-10T09:40:19Z"
     },
@@ -21705,20 +21550,6 @@
             "domain:docs"
         ],
         "created_at": "2025-10-29T14:49:37Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Peer Dependencies in New Backstage Apps",
-        "url": "https://github.com/backstage/backstage/issues/31446",
-        "labels": [
-            "type:bug",
-            "good first issue",
-            "stale",
-            "priority:contrib-welcome"
-        ],
-        "created_at": "2025-10-16T15:43:47Z"
     },
     {
         "repo": "backstage/backstage",
@@ -23842,6 +23673,20 @@
         "repo": "microcks/microcks",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Microcks `1.16.0` scope definition",
+        "url": "https://github.com/microcks/microcks/issues/2262",
+        "labels": [
+            "kind/task",
+            "help wanted",
+            "type/Epic",
+            "keep-open"
+        ],
+        "created_at": "2026-08-10T10:20:19Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Generalisation of AsyncAPI Request/Reply for other protocols",
         "url": "https://github.com/microcks/microcks/issues/2056",
         "labels": [
@@ -24130,6 +23975,33 @@
             "keep open"
         ],
         "created_at": "2025-12-15T06:21:54Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Document button layout convention in `CODE-GUIDELINES.md`",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/18721",
+        "labels": [
+            "good first issue",
+            "domain/documentation \ud83d\udcd6",
+            "status/need-triage",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2026-08-10T09:35:43Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Migrate direct `Dialog` consumers to `ButtonRow`",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/18717",
+        "labels": [
+            "good first issue",
+            "area/renderer \ud83d\udcc8",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2026-08-10T09:23:47Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -30851,19 +30723,6 @@
         "repo": "thanos-io/thanos",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "docs: link paths differ on 'tip' vs 'v0.xx'",
-        "url": "https://github.com/thanos-io/thanos/issues/6889",
-        "labels": [
-            "difficulty: easy",
-            "good first issue",
-            "help wanted"
-        ],
-        "created_at": "2023-11-10T14:53:50Z"
-    },
-    {
-        "repo": "thanos-io/thanos",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Show error if targets page is not fully loaded",
         "url": "https://github.com/thanos-io/thanos/issues/6876",
         "labels": [
@@ -31148,6 +31007,20 @@
         "repo": "thanos-io/thanos",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Thanos UI Enhancements",
+        "url": "https://github.com/thanos-io/thanos/issues/3142",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "GSoC/Community Bridge/LFX",
+            "component: UIs/ReactJS"
+        ],
+        "created_at": "2020-09-08T22:42:08Z"
+    },
+    {
+        "repo": "thanos-io/thanos",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Offer minimal/distroless docker images",
         "url": "https://github.com/thanos-io/thanos/issues/8961",
         "labels": [
@@ -31402,6 +31275,20 @@
             "help wanted"
         ],
         "created_at": "2022-10-10T11:03:21Z"
+    },
+    {
+        "repo": "thanos-io/thanos",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Experimental Query] - Query Pushdown - Issue with multiple queriers connected?",
+        "url": "https://github.com/thanos-io/thanos/issues/5630",
+        "labels": [
+            "bug",
+            "help wanted",
+            "component: query",
+            "needs-investigation"
+        ],
+        "created_at": "2022-08-22T13:46:01Z"
     },
     {
         "repo": "trickstercache/trickster",
