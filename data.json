@@ -12558,6 +12558,41 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "fix(util): nil node pointers cause panics in utility functions",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2525",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-09T22:46:48Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[bug]: DecodeContainerDevices silently fails on whitespace in pod annotation fields",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2524",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-09T20:21:59Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Fix ignored TEST_WITH_REAL_CLUSTER environment variable in client_test.go",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2520",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-08-09T18:44:14Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "AMD container core allocation ratio reports physical CU count instead of percentage",
         "url": "https://github.com/Project-HAMi/HAMi/issues/2518",
         "labels": [
