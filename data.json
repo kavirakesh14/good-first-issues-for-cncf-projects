@@ -2988,6 +2988,7 @@
         "labels": [
             "kind/bug",
             "help wanted",
+            "lifecycle/stale",
             "triage/accepted"
         ],
         "created_at": "2026-05-05T16:52:22Z"
@@ -5376,25 +5377,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "TypeError crash in Evaluation tab when selecting \"Group\" resource type",
-        "url": "https://github.com/keycloak/keycloak/issues/51536",
-        "labels": [
-            "area/authorization-services",
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-iam",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-08-07T12:35:47Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "[OID4VCI] Incorrect metadata for key_attestations_required",
         "url": "https://github.com/keycloak/keycloak/issues/51347",
         "labels": [
@@ -5454,22 +5436,6 @@
             "priority/normal"
         ],
         "created_at": "2026-07-28T10:40:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[OID4VCI] Handling of realm optional client scopes",
-        "url": "https://github.com/keycloak/keycloak/issues/51187",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/oid4vc",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-07-27T09:53:11Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5862,6 +5828,40 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-22T13:15:33Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Refresh token reuse counter not reverted on transaction rollback, causing permanent session revocation on transient DB failures",
+        "url": "https://github.com/keycloak/keycloak/issues/49213",
+        "labels": [
+            "kind/bug",
+            "area/core",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-21T11:00:36Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "NullPointerException in ResourceIndicatorsPostProcessor when access token audience is null",
+        "url": "https://github.com/keycloak/keycloak/issues/49077",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-18T21:19:28Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6607,6 +6607,18 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[Bug]: inviter link is partially broken",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3499",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-08-11T16:38:01Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Support]: Broken login page",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3490",
         "labels": [
@@ -6951,18 +6963,6 @@
             "help wanted"
         ],
         "created_at": "2025-09-25T21:01:08Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Bug]: OAuth2 Proxy State Parameter Only Contains Path, Not Full URL",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3205",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2025-09-25T02:37:04Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -10745,19 +10745,6 @@
         "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Fix: Replace path package methods with path/filepath for file system path operation",
-        "url": "https://github.com/podman-container-tools/podman/issues/25165",
-        "labels": [
-            "Good First Issue",
-            "volunteers-wanted",
-            "Contribfest"
-        ],
-        "created_at": "2025-01-30T11:04:01Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Default podman-machine-default on Windows missing default `seccomp.json`?",
         "url": "https://github.com/podman-container-tools/podman/issues/24318",
         "labels": [
@@ -11006,6 +10993,22 @@
             "Contribfest"
         ],
         "created_at": "2022-08-19T12:20:17Z"
+    },
+    {
+        "repo": "podman-container-tools/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Mismatch between documentation and REST API",
+        "url": "https://github.com/podman-container-tools/podman/issues/15376",
+        "labels": [
+            "Good First Issue",
+            "kind/bug",
+            "documentation",
+            "HTTP API",
+            "volunteers-wanted",
+            "Contribfest"
+        ],
+        "created_at": "2022-08-18T14:38:43Z"
     },
     {
         "repo": "urunc-dev/urunc",
@@ -12572,6 +12575,66 @@
             "question"
         ],
         "created_at": "2020-09-11T05:56:46Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "ascend: GenerateResourceRequests narrows user-controlled values to int32 without bounds checks",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2600",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-11T16:43:08Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Nil Pointer Dereference in PredicateRoute When Pod Is Missing",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2599",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-11T16:07:48Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Nil Pointer Dereference in PredicateRoute When Pod Is Missing",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2598",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-11T16:07:07Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "fix(scheduler): detect stale pod device allocations during usage reconciliation",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2592",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-11T14:08:30Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "docs: fix URL case typo in libvgpu/CONTRIBUTING.md",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2591",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-11T14:04:03Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -24066,7 +24129,6 @@
         "labels": [
             "good first issue",
             "domain/documentation \ud83d\udcd6",
-            "status/need-triage",
             "domain/ui-components/reviewed"
         ],
         "created_at": "2026-08-10T09:35:43Z"
