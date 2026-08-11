@@ -832,6 +832,20 @@
         "repo": "kairos-io/kairos",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "feat: Expose auth args for image extractor in agent",
+        "url": "https://github.com/kairos-io/kairos/issues/2613",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "good first issue",
+            "triage"
+        ],
+        "created_at": "2024-06-05T07:58:55Z"
+    },
+    {
+        "repo": "kairos-io/kairos",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Make openrc override command logic generic for other services besides k3s",
         "url": "https://github.com/kairos-io/kairos/issues/2149",
         "labels": [
@@ -8214,6 +8228,19 @@
         "created_at": "2015-09-30T16:40:01Z"
     },
     {
+        "repo": "theupdateframework/python-tuf",
+        "tier": "Graduated",
+        "lang": "Python",
+        "title": "Improve subtests clean up",
+        "url": "https://github.com/theupdateframework/python-tuf/issues/1719",
+        "labels": [
+            "enhancement",
+            "testing",
+            "good first issue"
+        ],
+        "created_at": "2021-12-09T14:12:21Z"
+    },
+    {
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
@@ -12550,6 +12577,18 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "[BUG]: Fatal concurrent map iteration data race in vGPUmonitor feedback observation",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2573",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-11T08:05:28Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "**fix(scheduler): run device health reconciliation when device discovery fails**",
         "url": "https://github.com/Project-HAMi/HAMi/issues/2565",
         "labels": [
@@ -12557,18 +12596,6 @@
             "good first issue"
         ],
         "created_at": "2026-08-11T05:36:24Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[BUG] Mutating admission webhook ignores InitContainers, causing quota bypass and scheduling failures",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2558",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-10T22:48:43Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -12834,18 +12861,6 @@
             "good first issue"
         ],
         "created_at": "2026-03-12T22:27:22Z"
-    },
-    {
-        "repo": "kcp-dev/kcp",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "feature: quick start kind documentation",
-        "url": "https://github.com/kcp-dev/kcp/issues/3723",
-        "labels": [
-            "kind/feature",
-            "good first issue"
-        ],
-        "created_at": "2025-11-17T13:33:58Z"
     },
     {
         "repo": "kcp-dev/kcp",
@@ -19614,6 +19629,36 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Duplicate enum markers drop `type: string` from CRD schemas, so the generated client emits `interface{}`",
+        "url": "https://github.com/openeverest/openeverest/issues/2890",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "chore",
+            "v2",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-11T10:12:46Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Flaky CLI tests: sharing http.DefaultTransport lets httptest servers kill each other's in-flight requests",
+        "url": "https://github.com/openeverest/openeverest/issues/2884",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "chore",
+            "v2",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-11T09:05:43Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Required <SelectInput> fields render without the required (*) marker",
         "url": "https://github.com/openeverest/openeverest/issues/2844",
         "labels": [
@@ -19673,19 +19718,6 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Login page: spacing between intro text and community links collapses on narrow/short viewports",
-        "url": "https://github.com/openeverest/openeverest/issues/2568",
-        "labels": [
-            "bug",
-            "good first issue",
-            "ui"
-        ],
-        "created_at": "2026-07-16T08:34:03Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "UI/UX: Show resource unit in the preview form",
         "url": "https://github.com/openeverest/openeverest/issues/2452",
         "labels": [
@@ -19694,6 +19726,20 @@
             "ui"
         ],
         "created_at": "2026-06-25T17:17:04Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "`BackupState`/`RestoreState` have no enum marker, so `status.state` generates as `*string`",
+        "url": "https://github.com/openeverest/openeverest/issues/2891",
+        "labels": [
+            "help wanted",
+            "chore",
+            "v2",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-11T10:28:46Z"
     },
     {
         "repo": "openeverest/openeverest",
@@ -25488,19 +25534,6 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Bug]: Deploy UI shows Failed for ProjectReleaseBinding while Namespace is progressing",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4440",
-        "labels": [
-            "good first issue",
-            "Type/Bug",
-            "reportedBy/community"
-        ],
-        "created_at": "2026-08-06T00:45:24Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Bug]: Default Valkey ClusterResourceType fails when Gateway is not configured",
         "url": "https://github.com/openchoreo/openchoreo/issues/4428",
         "labels": [
@@ -26931,19 +26964,6 @@
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
         "lang": "Unknown",
-        "title": "[RFE] Support Ignition 3.4.0 and Butane 1.1.0 in Mantle",
-        "url": "https://github.com/flatcar/Flatcar/issues/1000",
-        "labels": [
-            "kind/feature",
-            "good first issue",
-            "component/mantle"
-        ],
-        "created_at": "2023-04-14T07:15:27Z"
-    },
-    {
-        "repo": "flatcar/Flatcar",
-        "tier": "Incubating",
-        "lang": "Unknown",
         "title": "New Package Request: [open-vm-tools-containerinfo]",
         "url": "https://github.com/flatcar/Flatcar/issues/781",
         "labels": [
@@ -27158,7 +27178,8 @@
         "url": "https://github.com/KubeElasti/KubeElasti/issues/127",
         "labels": [
             "good first issue",
-            "e2e-tests"
+            "e2e-tests",
+            "lifecycle/stale"
         ],
         "created_at": "2025-06-25T14:33:10Z"
     },
@@ -29513,6 +29534,18 @@
             "pinned"
         ],
         "created_at": "2020-12-18T17:28:29Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Time range list is not ordered",
+        "url": "https://github.com/perses/perses/issues/4350",
+        "labels": [
+            "good first issue",
+            "ui"
+        ],
+        "created_at": "2026-08-11T11:20:19Z"
     },
     {
         "repo": "perses/perses",
