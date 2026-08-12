@@ -2984,7 +2984,6 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "lifecycle/stale",
             "triage/accepted"
         ],
         "created_at": "2026-05-05T16:52:22Z"
@@ -5313,6 +5312,38 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "[OID4VCI] Some error events not reported",
+        "url": "https://github.com/keycloak/keycloak/issues/51692",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/oid4vc",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-12T16:54:05Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "[OID4VCI] Labels for OID4VCI events missing in the admin console",
+        "url": "https://github.com/keycloak/keycloak/issues/51690",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/oid4vc",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-12T16:45:33Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "[OID4VCI] Incorrect metadata for key_attestations_required",
         "url": "https://github.com/keycloak/keycloak/issues/51347",
         "labels": [
@@ -5422,6 +5453,23 @@
             "priority/normal"
         ],
         "created_at": "2026-07-09T15:05:23Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "User federation synchronizations will always evict all users of a realm from the users cache",
+        "url": "https://github.com/keycloak/keycloak/issues/50596",
+        "labels": [
+            "kind/bug",
+            "area/storage",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-07-03T13:37:36Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5762,58 +5810,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-22T15:08:28Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "NullPointerException in CertificateInfoHelper when \"keyAlias\" parameter is missing in multipart request. SAST",
-        "url": "https://github.com/keycloak/keycloak/issues/49246",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "help wanted",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-22T13:15:33Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Refresh token reuse counter not reverted on transaction rollback, causing permanent session revocation on transient DB failures",
-        "url": "https://github.com/keycloak/keycloak/issues/49213",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-21T11:00:36Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "NullPointerException in ResourceIndicatorsPostProcessor when access token audience is null",
-        "url": "https://github.com/keycloak/keycloak/issues/49077",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-18T21:19:28Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6559,18 +6555,6 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Bug]: inviter link is partially broken",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3499",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-08-11T16:38:01Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Support]: Broken login page",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3490",
         "labels": [
@@ -6915,6 +6899,18 @@
             "help wanted"
         ],
         "created_at": "2025-09-25T21:01:08Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: OAuth2 Proxy State Parameter Only Contains Path, Not Full URL",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3205",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2025-09-25T02:37:04Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -12574,18 +12570,6 @@
             "good first issue"
         ],
         "created_at": "2026-08-11T16:07:48Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Nil Pointer Dereference in PredicateRoute When Pod Is Missing",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2598",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-11T16:07:07Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -20859,21 +20843,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "Protobuf Converter support",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/3061",
-        "labels": [
-            "type/enhancement",
-            "Beginner Friendly",
-            "priority/normal",
-            "area/serdes",
-            "good first issue"
-        ],
-        "created_at": "2022-12-24T11:21:52Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "Tab Documentation is empty",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8446",
         "labels": [
@@ -24183,7 +24152,7 @@
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18761",
         "labels": [
             "good first issue",
-            "status/need-triage"
+            "domain/ui-components"
         ],
         "created_at": "2026-08-11T21:22:24Z"
     },
