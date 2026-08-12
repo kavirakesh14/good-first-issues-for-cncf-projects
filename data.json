@@ -3045,20 +3045,6 @@
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Confusing logging while waiting for a PreprovisioningImage",
-        "url": "https://github.com/metal3-io/baremetal-operator/issues/2366",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "lifecycle/frozen",
-            "triage/accepted"
-        ],
-        "created_at": "2025-03-28T14:32:20Z"
-    },
-    {
-        "repo": "metal3-io/baremetal-operator",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Add e2e tests for dataimage finalizer removal",
         "url": "https://github.com/metal3-io/baremetal-operator/issues/2053",
         "labels": [
@@ -4962,21 +4948,6 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Infisical] dataFrom.find.path is ignored in API calls and subdirectory secrets require recursive: true in SecretStore",
-        "url": "https://github.com/external-secrets/external-secrets/issues/6685",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "kind/documentation",
-            "size/s",
-            "area/infisical"
-        ],
-        "created_at": "2026-07-22T07:46:03Z"
-    },
-    {
-        "repo": "external-secrets/external-secrets",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Webhook SecretStore validation does not support templated url using provider.webhook.secrets",
         "url": "https://github.com/external-secrets/external-secrets/issues/6659",
         "labels": [
@@ -5337,20 +5308,6 @@
             "team/core-shared"
         ],
         "created_at": "2022-01-25T08:16:51Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "group.spec.ts does not contain example of how to add attributes while creating groups",
-        "url": "https://github.com/keycloak/keycloak/issues/16947",
-        "labels": [
-            "kind/enhancement",
-            "good first issue",
-            "help wanted",
-            "area/admin/client-js"
-        ],
-        "created_at": "2022-01-05T10:15:36Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -11787,7 +11744,7 @@
         "repo": "kube-vip/kube-vip",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "DeathSwitch for kube-vip when running without leader-election",
+        "title": "DeathSwitch for kube-vip when running without leader-election in svc_enable mode",
         "url": "https://github.com/kube-vip/kube-vip/issues/1236",
         "labels": [
             "help wanted",
@@ -12570,18 +12527,6 @@
             "question"
         ],
         "created_at": "2020-09-11T05:56:46Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "docs: Add Kunlunxin XPU to supported devices list in README",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2608",
-        "labels": [
-            "good first issue",
-            "kind/feature"
-        ],
-        "created_at": "2026-08-11T23:05:17Z"
     },
     {
         "repo": "Project-HAMi/HAMi",
@@ -18600,6 +18545,7 @@
         "title": "Add helm JSON schema file",
         "url": "https://github.com/kgateway-dev/kgateway/issues/12488",
         "labels": [
+            "stale",
             "help wanted"
         ],
         "created_at": "2025-10-02T20:02:10Z"
@@ -19705,6 +19651,20 @@
             "LFX Mentorship"
         ],
         "created_at": "2025-06-23T12:38:35Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Password policy best practices",
+        "url": "https://github.com/openeverest/openeverest/issues/2906",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-12T12:01:18Z"
     },
     {
         "repo": "openeverest/openeverest",
@@ -23528,6 +23488,20 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "[Feature] Kubevela Application Store sensitive information in a configmap",
+        "url": "https://github.com/kubevela/kubevela/issues/6840",
+        "labels": [
+            "good first issue",
+            "priority/important-soon",
+            "area/appconfig",
+            "security"
+        ],
+        "created_at": "2025-07-28T15:32:05Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "[Feature] Enable semantic versioning in vela show command",
         "url": "https://github.com/kubevela/kubevela/issues/6808",
         "labels": [
@@ -25688,19 +25662,6 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Bug]: Default Valkey ClusterResourceType fails when Gateway is not configured",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4428",
-        "labels": [
-            "good first issue",
-            "Type/Bug",
-            "reportedBy/community"
-        ],
-        "created_at": "2026-08-06T00:41:40Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Update the Azure Tracing module to return both span status code and message",
         "url": "https://github.com/openchoreo/openchoreo/issues/4316",
         "labels": [
@@ -27344,8 +27305,7 @@
         "url": "https://github.com/KubeElasti/KubeElasti/issues/127",
         "labels": [
             "good first issue",
-            "e2e-tests",
-            "lifecycle/stale"
+            "e2e-tests"
         ],
         "created_at": "2025-06-25T14:33:10Z"
     },
