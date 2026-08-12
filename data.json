@@ -2108,6 +2108,18 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Bug] Fix previous button visibility",
+        "url": "https://github.com/meshery/meshery/issues/21345",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-12T05:50:26Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Bug] Fix error page button responsiveness",
         "url": "https://github.com/meshery/meshery/issues/21328",
         "labels": [
@@ -2517,22 +2529,6 @@
             "language/go"
         ],
         "created_at": "2025-03-11T09:09:30Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
-        "url": "https://github.com/meshery/meshery/issues/13426",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "issue/willfix",
-            "language/markdown",
-            "framework/jekyll"
-        ],
-        "created_at": "2025-01-31T17:39:55Z"
     },
     {
         "repo": "meshery/meshery",
@@ -5360,23 +5356,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "SPNEGO mutual authentication response token is not returned after successful login",
-        "url": "https://github.com/keycloak/keycloak/issues/51559",
-        "labels": [
-            "area/authentication",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn"
-        ],
-        "created_at": "2026-08-08T14:29:48Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "[OID4VCI] Incorrect metadata for key_attestations_required",
         "url": "https://github.com/keycloak/keycloak/issues/51347",
         "labels": [
@@ -5862,6 +5841,22 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-21T11:00:36Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "NullPointerException in ResourceIndicatorsPostProcessor when access token audience is null",
+        "url": "https://github.com/keycloak/keycloak/issues/49077",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-18T21:19:28Z"
     },
     {
         "repo": "keylime/keylime",
@@ -23425,16 +23420,49 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[Feature] Expose HTTP timeout in built-in workflow steps",
-        "url": "https://github.com/kubevela/kubevela/issues/7241",
+        "title": "[Enhancement] Defkit: support computed regex patterns in conditions",
+        "url": "https://github.com/kubevela/kubevela/issues/7285",
         "labels": [
             "type/enhancement",
             "good first issue",
             "help wanted",
+            "area/cue",
             "effort/small",
-            "area/workflow"
+            "area/defkit"
         ],
-        "created_at": "2026-07-17T09:48:46Z"
+        "created_at": "2026-08-05T05:39:02Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Defkit: ForEachMap.WithBody is ignored by the CUE generator",
+        "url": "https://github.com/kubevela/kubevela/issues/7283",
+        "labels": [
+            "type/bug",
+            "good first issue",
+            "help wanted",
+            "area/cue",
+            "effort/small",
+            "area/defkit"
+        ],
+        "created_at": "2026-08-05T03:29:24Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Defkit: Lit accepts structured Go values but renders invalid CUE",
+        "url": "https://github.com/kubevela/kubevela/issues/7281",
+        "labels": [
+            "type/bug",
+            "good first issue",
+            "help wanted",
+            "area/cue",
+            "effort/small",
+            "area/defkit"
+        ],
+        "created_at": "2026-08-05T03:02:33Z"
     },
     {
         "repo": "kubevela/kubevela",
@@ -23572,6 +23600,36 @@
             "area/addon"
         ],
         "created_at": "2021-12-27T05:04:18Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Enhancement] Defkit: add generated-CUE validation and evaluation helpers",
+        "url": "https://github.com/kubevela/kubevela/issues/7291",
+        "labels": [
+            "type/enhancement",
+            "help wanted",
+            "area/cue",
+            "effort/medium",
+            "area/defkit"
+        ],
+        "created_at": "2026-08-05T05:52:44Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Enhancement] Defkit: expose a generic CUE standard-library call builder",
+        "url": "https://github.com/kubevela/kubevela/issues/7286",
+        "labels": [
+            "type/enhancement",
+            "help wanted",
+            "area/cue",
+            "effort/medium",
+            "area/defkit"
+        ],
+        "created_at": "2026-08-05T05:40:40Z"
     },
     {
         "repo": "kubevela/kubevela",
@@ -25711,6 +25769,18 @@
             "reportedBy/community"
         ],
         "created_at": "2026-07-02T08:15:58Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ObservabilityAlertsNotificationChannel: missing email format validation and no enforcement of \"one default per environment\"",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4053",
+        "labels": [
+            "good first issue",
+            "Type/Bug"
+        ],
+        "created_at": "2026-07-02T04:31:39Z"
     },
     {
         "repo": "openchoreo/openchoreo",
