@@ -1647,21 +1647,6 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "`kpt fn render` should not display subpkg name if subpkg doesn't contain any pipeline",
-        "url": "https://github.com/kptdev/kpt/issues/2053",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue",
-            "area/hydrate",
-            "triaged"
-        ],
-        "created_at": "2021-05-19T21:30:34Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Clarify the use of --reconcile-timeout in kpt live apply",
         "url": "https://github.com/kptdev/kpt/issues/1865",
         "labels": [
@@ -5310,38 +5295,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "[OID4VCI] Some error events not reported",
-        "url": "https://github.com/keycloak/keycloak/issues/51692",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/oid4vc",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-12T16:54:05Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[OID4VCI] Labels for OID4VCI events missing in the admin console",
-        "url": "https://github.com/keycloak/keycloak/issues/51690",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/oid4vc",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-12T16:45:33Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Admin API per-request cost grows super-linearly with realm count since 26.7.1",
         "url": "https://github.com/keycloak/keycloak/issues/51554",
         "labels": [
@@ -5370,22 +5323,6 @@
             "priority/normal"
         ],
         "created_at": "2026-08-06T17:09:08Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[OID4VCI] Incorrect metadata for key_attestations_required",
-        "url": "https://github.com/keycloak/keycloak/issues/51347",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/oid4vc",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-07-31T18:11:45Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5808,6 +5745,57 @@
             "priority/normal"
         ],
         "created_at": "2026-05-25T13:53:04Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Microsoft identity provider does not expose ID token claims to mappers",
+        "url": "https://github.com/keycloak/keycloak/issues/49299",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "priority/normal"
+        ],
+        "created_at": "2026-05-25T13:51:07Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "client-policies: editing secure-redirect-uris-enforcer setting in admin ui breaks client policy/profile",
+        "url": "https://github.com/keycloak/keycloak/issues/49252",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-22T15:08:28Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "NullPointerException in CertificateInfoHelper when \"keyAlias\" parameter is missing in multipart request. SAST",
+        "url": "https://github.com/keycloak/keycloak/issues/49246",
+        "labels": [
+            "kind/bug",
+            "area/admin/api",
+            "help wanted",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-22T13:15:33Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6296,6 +6284,18 @@
             "help wanted"
         ],
         "created_at": "2022-02-14T18:30:54Z"
+    },
+    {
+        "repo": "kubescape/kubescape",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "RBAC police integration (#916): remaining policy categories not yet covered by C-0298/C-0299 series",
+        "url": "https://github.com/kubescape/kubescape/issues/3097",
+        "labels": [
+            "feature",
+            "help wanted"
+        ],
+        "created_at": "2026-08-13T11:57:00Z"
     },
     {
         "repo": "kyverno/kyverno",
@@ -12888,18 +12888,6 @@
             "kind/cleanup"
         ],
         "created_at": "2025-09-02T08:01:12Z"
-    },
-    {
-        "repo": "kcp-dev/kcp",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "docs: workspace (type) documentation is outdated",
-        "url": "https://github.com/kcp-dev/kcp/issues/3205",
-        "labels": [
-            "good first issue",
-            "kind/documentation"
-        ],
-        "created_at": "2024-12-05T13:01:42Z"
     },
     {
         "repo": "kcp-dev/kcp",
@@ -23341,13 +23329,15 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "conflictsWith in TraitDefinition has no effect",
-        "url": "https://github.com/kubevela/kubevela/issues/7294",
+        "title": "invalid labelSelector: in conflictsWith is ignored",
+        "url": "https://github.com/kubevela/kubevela/issues/7315",
         "labels": [
+            "type/bug",
             "good first issue",
-            "area/trait"
+            "area/trait",
+            "effort/small"
         ],
-        "created_at": "2026-08-06T11:44:36Z"
+        "created_at": "2026-08-13T08:43:07Z"
     },
     {
         "repo": "kubevela/kubevela",
@@ -29467,58 +29457,6 @@
         "repo": "k8sgpt-ai/k8sgpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Feature]: add google cloud integration on k8sgpt",
-        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1012",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "help wanted",
-            "suggestion"
-        ],
-        "created_at": "2024-03-13T07:03:23Z"
-    },
-    {
-        "repo": "k8sgpt-ai/k8sgpt",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Feature]: Enable \"--input\" flag for parsing k8s information from files instead of requiring k8s connection",
-        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/942",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "help wanted"
-        ],
-        "created_at": "2024-02-09T14:39:44Z"
-    },
-    {
-        "repo": "k8sgpt-ai/k8sgpt",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Feature]: Deep dive alerts",
-        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/795",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "help wanted"
-        ],
-        "created_at": "2023-12-19T14:30:02Z"
-    },
-    {
-        "repo": "k8sgpt-ai/k8sgpt",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Feature]: streamable http MCP support",
-        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1547",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2025-07-16T01:24:38Z"
-    },
-    {
-        "repo": "k8sgpt-ai/k8sgpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Feature]: Add Generic CRD Analyzer Support for Custom Resources",
         "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1528",
         "labels": [
@@ -29526,19 +29464,6 @@
             "help wanted"
         ],
         "created_at": "2025-06-17T22:25:05Z"
-    },
-    {
-        "repo": "k8sgpt-ai/k8sgpt",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Request to add latest k8sgpt app version in the helm operator",
-        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/962",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "question"
-        ],
-        "created_at": "2024-02-16T10:11:24Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
