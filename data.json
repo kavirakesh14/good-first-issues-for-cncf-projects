@@ -2108,6 +2108,18 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Bug] Remove Tooltips in Expanded Navbar",
+        "url": "https://github.com/meshery/meshery/issues/21364",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-13T05:21:59Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Bug] Fix previous button visibility",
         "url": "https://github.com/meshery/meshery/issues/21345",
         "labels": [
@@ -2515,20 +2527,6 @@
             "framework/playwright"
         ],
         "created_at": "2025-04-29T18:59:42Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Add support for sort by count for database table in settings registry page",
-        "url": "https://github.com/meshery/meshery/issues/13958",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "language/go"
-        ],
-        "created_at": "2025-03-11T09:09:30Z"
     },
     {
         "repo": "meshery/meshery",
