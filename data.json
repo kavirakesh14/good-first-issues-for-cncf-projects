@@ -5344,6 +5344,39 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Admin API per-request cost grows super-linearly with realm count since 26.7.1",
+        "url": "https://github.com/keycloak/keycloak/issues/51554",
+        "labels": [
+            "kind/bug",
+            "area/admin/api",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-08-08T10:34:49Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Sustained high CPU on all nodes after upgrade",
+        "url": "https://github.com/keycloak/keycloak/issues/51523",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-08-06T17:09:08Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "[OID4VCI] Incorrect metadata for key_attestations_required",
         "url": "https://github.com/keycloak/keycloak/issues/51347",
         "labels": [
@@ -5777,39 +5810,6 @@
             "priority/normal"
         ],
         "created_at": "2026-05-25T13:53:04Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Microsoft identity provider does not expose ID token claims to mappers",
-        "url": "https://github.com/keycloak/keycloak/issues/49299",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-25T13:51:07Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "client-policies: editing secure-redirect-uris-enforcer setting in admin ui breaks client policy/profile",
-        "url": "https://github.com/keycloak/keycloak/issues/49252",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-22T15:08:28Z"
     },
     {
         "repo": "keylime/keylime",
@@ -11689,17 +11689,6 @@
         "repo": "containernetworking/cni",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "libcni should support distributed tracing",
-        "url": "https://github.com/containernetworking/cni/issues/561",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2018-06-13T15:29:16Z"
-    },
-    {
-        "repo": "containernetworking/cni",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Spec: clarify how DEL should be called in cases of failure",
         "url": "https://github.com/containernetworking/cni/issues/530",
         "labels": [
@@ -11908,6 +11897,18 @@
             "awaiting-maintainer"
         ],
         "created_at": "2019-07-13T19:01:19Z"
+    },
+    {
+        "repo": "agones-dev/agones",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Flaky: TestGameServerTcpProtocol",
+        "url": "https://github.com/agones-dev/agones/issues/4686",
+        "labels": [
+            "help wanted",
+            "area/tests"
+        ],
+        "created_at": "2026-08-13T00:06:47Z"
     },
     {
         "repo": "agones-dev/agones",
@@ -12270,6 +12271,7 @@
             "good first issue",
             "community",
             "kind/cleanup",
+            "triage/needs-triage",
             "area/testing"
         ],
         "created_at": "2026-08-07T22:48:00Z"
@@ -12284,6 +12286,7 @@
             "good first issue",
             "community",
             "kind/cleanup",
+            "triage/needs-triage",
             "area/ci",
             "area/testing"
         ],
@@ -12298,7 +12301,8 @@
         "labels": [
             "kind/feature",
             "good first issue",
-            "lifecycle/stale"
+            "lifecycle/stale",
+            "triage/needs-triage"
         ],
         "created_at": "2026-02-09T12:37:13Z"
     },
@@ -12310,7 +12314,8 @@
         "url": "https://github.com/cozystack/cozystack/issues/154",
         "labels": [
             "good first issue",
-            "lifecycle/frozen"
+            "lifecycle/frozen",
+            "triage/needs-triage"
         ],
         "created_at": "2024-05-27T19:20:28Z"
     },
@@ -12323,7 +12328,8 @@
         "labels": [
             "help wanted",
             "upstream-issue",
-            "lifecycle/frozen"
+            "lifecycle/frozen",
+            "triage/needs-triage"
         ],
         "created_at": "2024-03-13T11:00:57Z"
     },
@@ -31684,18 +31690,6 @@
             "good first issue"
         ],
         "created_at": "2025-07-17T16:55:48Z"
-    },
-    {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Optimize *-publisher workflows on pull requests",
-        "url": "https://github.com/kserve/kserve/issues/5956",
-        "labels": [
-            "help wanted",
-            "good first issue"
-        ],
-        "created_at": "2026-08-05T09:19:55Z"
     },
     {
         "repo": "kserve/kserve",
