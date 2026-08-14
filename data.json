@@ -2517,6 +2517,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Image is not responsive",
+        "url": "https://github.com/meshery/meshery/issues/21383",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-14T04:39:49Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Workspace edit and delete actions throw runtime error when clicked",
         "url": "https://github.com/meshery/meshery/issues/21205",
         "labels": [
@@ -2878,22 +2892,6 @@
         "created_at": "2026-06-19T20:59:47Z"
     },
     {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[UI] Fix failing end-to-end test for meshery-metrics",
-        "url": "https://github.com/meshery/meshery/issues/20109",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "language/javascript",
-            "component/ui",
-            "framework/react",
-            "framework/playwright"
-        ],
-        "created_at": "2026-06-17T19:43:32Z"
-    },
-    {
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
@@ -3024,18 +3022,6 @@
             "triage/accepted"
         ],
         "created_at": "2025-09-17T11:50:07Z"
-    },
-    {
-        "repo": "metal3-io/baremetal-operator",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Add e2e tests for dataimage finalizer removal",
-        "url": "https://github.com/metal3-io/baremetal-operator/issues/2053",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2024-11-12T14:22:14Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -10606,21 +10592,6 @@
             "triaged"
         ],
         "created_at": "2025-11-20T21:23:50Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "seccomp deprecations noticed with golangci-lint 2.6.0",
-        "url": "https://github.com/podman-container-tools/podman/issues/27501",
-        "labels": [
-            "Good First Issue",
-            "volunteers-wanted",
-            "bugweek",
-            "triaged",
-            "Contribfest"
-        ],
-        "created_at": "2025-11-11T14:13:07Z"
     },
     {
         "repo": "podman-container-tools/podman",
@@ -19596,6 +19567,21 @@
         "created_at": "2026-08-11T10:28:46Z"
     },
     {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "bug: Read-Modify-Write race condition in accounts.Delete() causes silent data loss under concurrent operations",
+        "url": "https://github.com/openeverest/openeverest/issues/2833",
+        "labels": [
+            "bug",
+            "help wanted",
+            "v1",
+            "v2",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-09T06:20:37Z"
+    },
+    {
         "repo": "openGemini/openGemini",
         "tier": "Sandbox",
         "lang": "Go",
@@ -19652,17 +19638,6 @@
             "help wanted"
         ],
         "created_at": "2026-03-10T03:45:01Z"
-    },
-    {
-        "repo": "openGemini/openGemini",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "opengemini\u4e0d\u80fd\u5728go1.25.7\u4e0b\u7f16\u8bd1",
-        "url": "https://github.com/openGemini/openGemini/issues/931",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-02-08T22:14:05Z"
     },
     {
         "repo": "openGemini/openGemini",
@@ -19959,6 +19934,17 @@
             "help wanted"
         ],
         "created_at": "2022-11-28T01:16:14Z"
+    },
+    {
+        "repo": "openGemini/openGemini",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "A script for automatically deploying large-scale clusters and automatically generating cluster configuration files is required.",
+        "url": "https://github.com/openGemini/openGemini/issues/44",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2022-10-13T02:29:02Z"
     },
     {
         "repo": "schemahero/schemahero",
@@ -25429,6 +25415,30 @@
             "help wanted"
         ],
         "created_at": "2022-03-02T19:40:51Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Project Promotion is not poping up environment overrides",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4489",
+        "labels": [
+            "good first issue",
+            "Type/Bug"
+        ],
+        "created_at": "2026-08-14T04:00:31Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add logLevel as a first-class value for the controller-manager",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4488",
+        "labels": [
+            "good first issue",
+            "Type/Task"
+        ],
+        "created_at": "2026-08-14T03:57:27Z"
     },
     {
         "repo": "openchoreo/openchoreo",
