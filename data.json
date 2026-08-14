@@ -1647,21 +1647,6 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Clarify the use of --reconcile-timeout in kpt live apply",
-        "url": "https://github.com/kptdev/kpt/issues/1865",
-        "labels": [
-            "documentation",
-            "good first issue",
-            "area/live",
-            "size/S",
-            "triaged"
-        ],
-        "created_at": "2021-04-30T19:56:59Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "All examples in documentation need to have e2e testing",
         "url": "https://github.com/kptdev/kpt/issues/1655",
         "labels": [
@@ -2093,6 +2078,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Image is not responsive",
+        "url": "https://github.com/meshery/meshery/issues/21383",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-14T04:39:49Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Bug] Remove Tooltips in Expanded Navbar",
         "url": "https://github.com/meshery/meshery/issues/21364",
         "labels": [
@@ -2496,36 +2496,6 @@
             "good first issue"
         ],
         "created_at": "2025-06-24T18:22:33Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Test] E2E playwright test for Meshery Dashboard",
-        "url": "https://github.com/meshery/meshery/issues/14565",
-        "labels": [
-            "kind/enhancement",
-            "good first issue",
-            "language/javascript",
-            "component/ui",
-            "area/tests",
-            "framework/playwright"
-        ],
-        "created_at": "2025-04-29T18:59:42Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Image is not responsive",
-        "url": "https://github.com/meshery/meshery/issues/21383",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-14T04:39:49Z"
     },
     {
         "repo": "meshery/meshery",
@@ -4672,6 +4642,21 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "PushSecret always calls DeleteResourcePolicy on AWS Secrets Manager, even when resourcePolicy is not configured",
+        "url": "https://github.com/external-secrets/external-secrets/issues/6806",
+        "labels": [
+            "good first issue",
+            "kind/documentation",
+            "area/aws",
+            "area/documentation",
+            "area/pushsecret"
+        ],
+        "created_at": "2026-08-07T13:53:18Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "keepersecurity provider: folderID is mandatory even for read-only SecretStores",
         "url": "https://github.com/external-secrets/external-secrets/issues/6694",
         "labels": [
@@ -5285,6 +5270,22 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Lightweight access token role resolution resolves all roles across all realms on every admin API request",
+        "url": "https://github.com/keycloak/keycloak/issues/51707",
+        "labels": [
+            "kind/bug",
+            "priority/important",
+            "area/core",
+            "area/admin/api",
+            "help wanted",
+            "team/core-iam"
+        ],
+        "created_at": "2026-08-13T14:08:23Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Admin API per-request cost grows super-linearly with realm count since 26.7.1",
         "url": "https://github.com/keycloak/keycloak/issues/51554",
         "labels": [
@@ -5769,24 +5770,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-22T13:15:33Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Refresh token reuse counter not reverted on transaction rollback, causing permanent session revocation on transient DB failures",
-        "url": "https://github.com/keycloak/keycloak/issues/49213",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-21T11:00:36Z"
     },
     {
         "repo": "keylime/keylime",
@@ -12158,8 +12141,7 @@
         "title": "Looking for additional Maintainers \ud83e\udd84  \u2b50",
         "url": "https://github.com/projectcapsule/capsule/issues/1363",
         "labels": [
-            "help wanted",
-            "Stale"
+            "help wanted"
         ],
         "created_at": "2025-02-07T12:49:42Z"
     },
@@ -23937,6 +23919,18 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "refactor: remove `temp-file-service:*` IPC",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/18802",
+        "labels": [
+            "good first issue",
+            "domain/technical-debt"
+        ],
+        "created_at": "2026-08-14T09:45:06Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Tabbed pages should only capitalize first word",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18761",
         "labels": [
@@ -24306,20 +24300,6 @@
             "hacktoberfest"
         ],
         "created_at": "2025-02-06T15:37:08Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "search option is shifting the terminal display",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/10819",
-        "labels": [
-            "good first issue",
-            "area/terminal",
-            "hacktoberfest",
-            "domain/ui-components/reviewed"
-        ],
-        "created_at": "2025-01-24T08:41:03Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -25444,6 +25424,18 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Portal Assistant is not picking stored events",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4443",
+        "labels": [
+            "good first issue",
+            "Type/Bug"
+        ],
+        "created_at": "2026-08-06T10:09:05Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Update the Azure Tracing module to return both span status code and message",
         "url": "https://github.com/openchoreo/openchoreo/issues/4316",
         "labels": [
@@ -25740,18 +25732,6 @@
             "area/ui"
         ],
         "created_at": "2025-07-30T05:30:46Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Integrate Kubewarden admission controller in the data plane",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4272",
-        "labels": [
-            "help wanted",
-            "Type/Task"
-        ],
-        "created_at": "2026-07-22T15:35:23Z"
     },
     {
         "repo": "openkruise/kruise",
