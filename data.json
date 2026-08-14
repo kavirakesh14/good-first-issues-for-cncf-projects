@@ -5114,19 +5114,6 @@
         "repo": "falcosecurity/falco",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "Unable to get manifest: unable to fetch reference || tls: failed to verify certificate: x509: certificate signed by unknown authority",
-        "url": "https://github.com/falcosecurity/falco/issues/3606",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "lifecycle/rotten"
-        ],
-        "created_at": "2025-06-09T05:22:39Z"
-    },
-    {
-        "repo": "falcosecurity/falco",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "[Prometheus metrics gaps] `num_evts` metric still missing in the Prometheus output",
         "url": "https://github.com/falcosecurity/falco/issues/3584",
         "labels": [
@@ -5438,23 +5425,6 @@
             "priority/normal"
         ],
         "created_at": "2026-07-09T15:05:23Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "User federation synchronizations will always evict all users of a realm from the users cache",
-        "url": "https://github.com/keycloak/keycloak/issues/50596",
-        "labels": [
-            "kind/bug",
-            "area/storage",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-07-03T13:37:36Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5813,6 +5783,24 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-22T13:15:33Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Refresh token reuse counter not reverted on transaction rollback, causing permanent session revocation on transient DB failures",
+        "url": "https://github.com/keycloak/keycloak/issues/49213",
+        "labels": [
+            "kind/bug",
+            "area/core",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-21T11:00:36Z"
     },
     {
         "repo": "keylime/keylime",
@@ -12544,197 +12532,6 @@
             "question"
         ],
         "created_at": "2020-09-11T05:56:46Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "scheduler: AllInitContainersSucceeded() can return true before all init containers report status",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2642",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-13T14:56:45Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "docs: Missing documentation for Kunlunxin XPU support",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2607",
-        "labels": [
-            "good first issue",
-            "kind/feature"
-        ],
-        "created_at": "2026-08-11T22:54:27Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "fix(security): add missing error handling and prevent symlink LPE in GPU allocation",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2604",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-08-11T20:35:21Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "ascend: GenerateResourceRequests narrows user-controlled values to int32 without bounds checks",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2600",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-11T16:43:08Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Nil Pointer Dereference in PredicateRoute When Pod Is Missing",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2599",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-11T16:07:48Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "fix(scheduler): detect stale pod device allocations during usage reconciliation",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2592",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-11T14:08:30Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[BUG]: Fatal concurrent map iteration data race in vGPUmonitor feedback observation",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2573",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-11T08:05:28Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "**fix(scheduler): run device health reconciliation when device discovery fails**",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2565",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-11T05:36:24Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[BUG] Panic in Kunlun topology initialization on invalid or empty connection strings",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2556",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-10T22:20:27Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[BUG]:Device_memory_desc_of_container offset can underflow",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2551",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-10T18:46:34Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "fix(scheduler): stale device vendors remain in node cache after device update",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2548",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-10T18:06:34Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[Ascend] Requests-only pods skip memory validation, so an over-capacity request becomes a whole-card request",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2532",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-10T08:50:44Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "kunlun/mthreads: PatchAnnotations overwrites per-container device index for multi-container pods",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2463",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-08T05:43:36Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[bug]: core_allocated_ratio metrics export raw percentages instead of ratios, breaking operator alerts",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2454",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-07T20:29:41Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Add values.schema.json to the Helm chart for install-time values validation",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2419",
-        "labels": [
-            "good first issue",
-            "kind/feature"
-        ],
-        "created_at": "2026-08-06T19:27:56Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "issue-translate misclassifies technical English titles as French",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/2258",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-01T06:17:24Z"
     },
     {
         "repo": "karmada-io/karmada",
