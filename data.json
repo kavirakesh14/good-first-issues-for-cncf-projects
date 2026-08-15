@@ -2501,6 +2501,48 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs]Refactor the Meshery REST API documentation to source from the published OpenAPI schemas instead of Golang code comments.",
+        "url": "https://github.com/meshery/meshery/issues/21409",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2026-08-14T14:43:32Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Create Hugo shortcode equivalent of Jekyll's [member-form.html]",
+        "url": "https://github.com/meshery/meshery/issues/21404",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2026-08-14T14:43:08Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Relationships] Identify and add all meaningful relationships for Azure Batch",
+        "url": "https://github.com/meshery/meshery/issues/21403",
+        "labels": [
+            "help wanted",
+            "area/devops",
+            "area/models",
+            "azure"
+        ],
+        "created_at": "2026-08-14T14:43:03Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Workspace edit and delete actions throw runtime error when clicked",
         "url": "https://github.com/meshery/meshery/issues/21205",
         "labels": [
@@ -2820,48 +2862,6 @@
         "created_at": "2026-06-26T12:04:29Z"
     },
     {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs]Make Meshery Docs the canonical home for schemas contributor guidance",
-        "url": "https://github.com/meshery/meshery/issues/20273",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-26T00:15:05Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Sidebar Button Clicks Automatically Scroll Page to Top",
-        "url": "https://github.com/meshery/meshery/issues/20209",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-23T18:51:33Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Migrate usage of local \"See Also\" and \"Related\" sections to upstream \"Related Readings.",
-        "url": "https://github.com/meshery/meshery/issues/20149",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-19T20:59:47Z"
-    },
-    {
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
@@ -2927,19 +2927,6 @@
             "triage/accepted"
         ],
         "created_at": "2026-05-27T12:37:49Z"
-    },
-    {
-        "repo": "metal3-io/baremetal-operator",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Deleting a host while detachment is in progress can take a lot of time",
-        "url": "https://github.com/metal3-io/baremetal-operator/issues/3213",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-05-05T16:52:22Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -5401,6 +5388,51 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "CIMD same-domain restriction skips additional redirect_uris before persistence",
+        "url": "https://github.com/keycloak/keycloak/issues/50748",
+        "labels": [
+            "area/oidc",
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-09T18:47:25Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "CIMD post_logout_redirect_uris bypass trusted domains before logout redirect",
+        "url": "https://github.com/keycloak/keycloak/issues/50747",
+        "labels": [
+            "area/oidc",
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-09T18:43:50Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "CIMD CIBA notification endpoint bypasses trusted domains before server-side POST",
+        "url": "https://github.com/keycloak/keycloak/issues/50746",
+        "labels": [
+            "area/oidc",
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-09T18:40:52Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Fine-grained permission conflicting with each other",
         "url": "https://github.com/keycloak/keycloak/issues/50740",
         "labels": [
@@ -5412,6 +5444,62 @@
             "priority/normal"
         ],
         "created_at": "2026-07-09T15:05:23Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "CIMD: Unbounded persistent client creation via path variation",
+        "url": "https://github.com/keycloak/keycloak/issues/50532",
+        "labels": [
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-01T16:08:46Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "CIMD: Documented loopback/private-IP SSRF check is not implemented",
+        "url": "https://github.com/keycloak/keycloak/issues/50531",
+        "labels": [
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-01T16:08:38Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "CIMD: backchannel_logout_uri/request_uris/frontchannel_logout_uri not checked against trustedDomains",
+        "url": "https://github.com/keycloak/keycloak/issues/50530",
+        "labels": [
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-01T16:08:31Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "CIMD: SSRF allowlist bypass via sector_identifier_uri in fetched metadata",
+        "url": "https://github.com/keycloak/keycloak/issues/50529",
+        "labels": [
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-01T16:08:25Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5651,125 +5739,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-29T09:17:16Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "DPoPUtil: Catch generic exception to handle security algorithm related issues, too",
-        "url": "https://github.com/keycloak/keycloak/issues/49440",
-        "labels": [
-            "kind/bug",
-            "area/token-exchange",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-28T14:54:33Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Update Profile within login does not add `pf-m-disabled` to fields",
-        "url": "https://github.com/keycloak/keycloak/issues/49406",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/login/ui",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-authn"
-        ],
-        "created_at": "2026-05-28T09:08:13Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "GET /broker/{alias}/token returns expired external IDP access token when refresh_token is available",
-        "url": "https://github.com/keycloak/keycloak/issues/49341",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-26T13:34:24Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "UsernameTemplateMapper is overridden by realm setting \"Email as username\"",
-        "url": "https://github.com/keycloak/keycloak/issues/49300",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-25T13:53:04Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Microsoft identity provider does not expose ID token claims to mappers",
-        "url": "https://github.com/keycloak/keycloak/issues/49299",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-25T13:51:07Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "client-policies: editing secure-redirect-uris-enforcer setting in admin ui breaks client policy/profile",
-        "url": "https://github.com/keycloak/keycloak/issues/49252",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-22T15:08:28Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "NullPointerException in CertificateInfoHelper when \"keyAlias\" parameter is missing in multipart request. SAST",
-        "url": "https://github.com/keycloak/keycloak/issues/49246",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "help wanted",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-22T13:15:33Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8401,7 +8370,8 @@
         "url": "https://github.com/spiffe/spire/issues/5097",
         "labels": [
             "help wanted",
-            "priority/backlog"
+            "priority/backlog",
+            "stale"
         ],
         "created_at": "2024-04-26T20:13:43Z"
     },
@@ -9365,6 +9335,17 @@
             "needs-design-document"
         ],
         "created_at": "2026-04-07T04:45:04Z"
+    },
+    {
+        "repo": "velero-io/velero",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Cleanup: Use k8s.io/api well-known label constants instead of hardcoded strings",
+        "url": "https://github.com/velero-io/velero/issues/10277",
+        "labels": [
+            "Good first issue"
+        ],
+        "created_at": "2026-08-14T18:10:53Z"
     },
     {
         "repo": "velero-io/velero",
@@ -12485,6 +12466,18 @@
             "question"
         ],
         "created_at": "2020-09-11T05:56:46Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "docs: make the bug-report template support all accelerator vendors",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2667",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-15T00:16:46Z"
     },
     {
         "repo": "karmada-io/karmada",
@@ -21349,6 +21342,20 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "migration guide gaps identified during real-world NFS migration",
+        "url": "https://github.com/backstage/backstage/issues/34134",
+        "labels": [
+            "area:documentation",
+            "good first issue",
+            "priority:contrib-needed",
+            "domain:docs"
+        ],
+        "created_at": "2026-05-05T21:18:55Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Add a logged warning to GithubMultiorgEntityProvider that says when a Github App is not installed",
         "url": "https://github.com/backstage/backstage/issues/32972",
         "labels": [
@@ -21382,33 +21389,6 @@
             "needs:triage"
         ],
         "created_at": "2026-02-08T15:09:33Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[PushFeedback] - Consider Adjusting Title for Azure Integration Sidebar Item",
-        "url": "https://github.com/backstage/backstage/issues/31542",
-        "labels": [
-            "area:documentation",
-            "good first issue",
-            "domain:docs",
-            "needs:triage"
-        ],
-        "created_at": "2025-10-29T14:52:06Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[PushFeedback] - Remove Old Migrating to RJSF v5 Page",
-        "url": "https://github.com/backstage/backstage/issues/31541",
-        "labels": [
-            "area:documentation",
-            "good first issue",
-            "domain:docs"
-        ],
-        "created_at": "2025-10-29T14:49:37Z"
     },
     {
         "repo": "backstage/backstage",
