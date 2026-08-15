@@ -19572,19 +19572,6 @@
         "repo": "openGemini/openGemini",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "error on explain analyze select into clause",
-        "url": "https://github.com/openGemini/openGemini/issues/309",
-        "labels": [
-            "bug",
-            "good first issue",
-            "difficulty \u2b50"
-        ],
-        "created_at": "2023-06-14T15:27:54Z"
-    },
-    {
-        "repo": "openGemini/openGemini",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\u8bf7\u95eeopenGemini\u8ba1\u5212\u4f55\u65f6\u53d1\u5e03\u65b0\u7248\u672c",
         "url": "https://github.com/openGemini/openGemini/issues/936",
         "labels": [
@@ -20962,6 +20949,7 @@
         "title": "JetStream dynamic MaxStore shrinks after restart because it is recomputed from current free disk (Bavail), causing previously valid stream limits to fail",
         "url": "https://github.com/nats-io/nats-server/issues/8322",
         "labels": [
+            "stale",
             "good first issue",
             "defect"
         ],
@@ -23412,8 +23400,7 @@
         "url": "https://github.com/kubevirt/kubevirt/issues/16998",
         "labels": [
             "kind/enhancement",
-            "good-first-issue",
-            "lifecycle/stale"
+            "good-first-issue"
         ],
         "created_at": "2026-03-03T02:05:46Z"
     },
