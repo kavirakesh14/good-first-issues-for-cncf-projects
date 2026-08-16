@@ -16819,20 +16819,6 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "ratelimit/local_ratelimit: emit `Retry-After` header dynamically on 429 responses",
-        "url": "https://github.com/envoyproxy/envoy/issues/45384",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/ratelimit",
-            "area/local_ratelimit"
-        ],
-        "created_at": "2026-06-02T14:44:24Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "Title: Support RFC 9440 (Client-Cert / Client-Cert-Chain) HTTP header fields",
         "url": "https://github.com/envoyproxy/envoy/issues/45354",
         "labels": [
@@ -17084,6 +17070,21 @@
             "area/compression"
         ],
         "created_at": "2025-11-07T10:24:03Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "feat: Credential Injection for ext_authz and ext_proc calls",
+        "url": "https://github.com/envoyproxy/envoy/issues/41767",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "no stalebot",
+            "area/ext_authz",
+            "area/ext_proc"
+        ],
+        "created_at": "2025-10-29T18:59:23Z"
     },
     {
         "repo": "loxilb-io/loxilb",
