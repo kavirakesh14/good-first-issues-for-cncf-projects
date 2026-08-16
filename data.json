@@ -19454,6 +19454,22 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "API server: HTTP listeners missing ReadTimeout/IdleTimeout; plain-HTTP path has no timeouts at all",
+        "url": "https://github.com/openeverest/openeverest/issues/2946",
+        "labels": [
+            "bug",
+            "good first issue",
+            "help wanted",
+            "v1",
+            "v2",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-16T13:55:23Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Password policy best practices",
         "url": "https://github.com/openeverest/openeverest/issues/2906",
         "labels": [
@@ -19463,21 +19479,6 @@
             "triage/accepted"
         ],
         "created_at": "2026-08-12T12:01:18Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Duplicate enum markers drop `type: string` from CRD schemas, so the generated client emits `interface{}`",
-        "url": "https://github.com/openeverest/openeverest/issues/2890",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "chore",
-            "v2",
-            "triage/accepted"
-        ],
-        "created_at": "2026-08-11T10:12:46Z"
     },
     {
         "repo": "openeverest/openeverest",
