@@ -2517,20 +2517,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Create Hugo shortcode equivalent of Jekyll's [member-form.html]",
-        "url": "https://github.com/meshery/meshery/issues/21404",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/jekyll"
-        ],
-        "created_at": "2026-08-14T14:43:08Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Relationships] Identify and add all meaningful relationships for Azure Batch",
         "url": "https://github.com/meshery/meshery/issues/21403",
         "labels": [
@@ -2873,6 +2859,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-26T12:04:29Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs]Make Meshery Docs the canonical home for schemas contributor guidance",
+        "url": "https://github.com/meshery/meshery/issues/20273",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-26T00:15:05Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -9348,17 +9348,6 @@
             "needs-design-document"
         ],
         "created_at": "2026-04-07T04:45:04Z"
-    },
-    {
-        "repo": "velero-io/velero",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Cleanup: Use k8s.io/api well-known label constants instead of hardcoded strings",
-        "url": "https://github.com/velero-io/velero/issues/10277",
-        "labels": [
-            "Good first issue"
-        ],
-        "created_at": "2026-08-14T18:10:53Z"
     },
     {
         "repo": "velero-io/velero",
