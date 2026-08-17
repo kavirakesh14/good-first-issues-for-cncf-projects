@@ -946,18 +946,6 @@
         "repo": "kairos-io/kairos",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udcd6 Add examples of using Ansible together with Kairos",
-        "url": "https://github.com/kairos-io/kairos/issues/2013",
-        "labels": [
-            "documentation",
-            "help wanted"
-        ],
-        "created_at": "2023-11-21T09:42:48Z"
-    },
-    {
-        "repo": "kairos-io/kairos",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Add Tailscale VPN as a community bundle",
         "url": "https://github.com/kairos-io/kairos/issues/1489",
         "labels": [
@@ -3193,20 +3181,6 @@
         "repo": "opentofu/opentofu",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "plan performance significantly impacted when using depends_on in OpenTofu (compared to Terraform >=1.8.4)",
-        "url": "https://github.com/opentofu/opentofu/issues/2987",
-        "labels": [
-            "bug",
-            "help wanted",
-            "needs-community-input",
-            "pending-decision"
-        ],
-        "created_at": "2025-07-02T16:43:10Z"
-    },
-    {
-        "repo": "opentofu/opentofu",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "tofu shows \"no changes\" when output sensitivity has changed",
         "url": "https://github.com/opentofu/opentofu/issues/2680",
         "labels": [
@@ -5270,55 +5244,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Lightweight access token role resolution resolves all roles across all realms on every admin API request",
-        "url": "https://github.com/keycloak/keycloak/issues/51707",
-        "labels": [
-            "kind/bug",
-            "priority/important",
-            "area/core",
-            "area/admin/api",
-            "help wanted",
-            "team/core-iam"
-        ],
-        "created_at": "2026-08-13T14:08:23Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Admin API per-request cost grows super-linearly with realm count since 26.7.1",
-        "url": "https://github.com/keycloak/keycloak/issues/51554",
-        "labels": [
-            "kind/bug",
-            "priority/blocker",
-            "area/admin/api",
-            "help wanted",
-            "team/core-iam",
-            "backport/26.6",
-            "backport/26.7"
-        ],
-        "created_at": "2026-08-08T10:34:49Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Sustained high CPU on all nodes after upgrade",
-        "url": "https://github.com/keycloak/keycloak/issues/51523",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-08-06T17:09:08Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Organization invitation creation and resend endpoints should return 201 with the created invitation location",
         "url": "https://github.com/keycloak/keycloak/issues/51298",
         "labels": [
@@ -5331,6 +5256,21 @@
             "area/organizations"
         ],
         "created_at": "2026-07-30T05:54:15Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Device authorization user_code verification has no server-side rate limit",
+        "url": "https://github.com/keycloak/keycloak/issues/51275",
+        "labels": [
+            "area/oidc",
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-29T15:48:57Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5752,6 +5692,40 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-29T09:17:16Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "DPoPUtil: Catch generic exception to handle security algorithm related issues, too",
+        "url": "https://github.com/keycloak/keycloak/issues/49440",
+        "labels": [
+            "kind/bug",
+            "area/token-exchange",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-05-28T14:54:33Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Update Profile within login does not add `pf-m-disabled` to fields",
+        "url": "https://github.com/keycloak/keycloak/issues/49406",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/login/ui",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-authn"
+        ],
+        "created_at": "2026-05-28T09:08:13Z"
     },
     {
         "repo": "keylime/keylime",
@@ -18331,7 +18305,6 @@
         "title": "Add helm JSON schema file",
         "url": "https://github.com/kgateway-dev/kgateway/issues/12488",
         "labels": [
-            "stale",
             "help wanted"
         ],
         "created_at": "2025-10-02T20:02:10Z"
@@ -19437,6 +19410,37 @@
             "LFX Mentorship"
         ],
         "created_at": "2025-06-23T12:38:35Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Harden the rate-limiter data-race regression test so it cannot silently no-op",
+        "url": "https://github.com/openeverest/openeverest/issues/2958",
+        "labels": [
+            "good first issue",
+            "chore",
+            "v1",
+            "v2",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-17T10:51:44Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "fix(ci): go mod tidy check never runs after tools/ removal",
+        "url": "https://github.com/openeverest/openeverest/issues/2957",
+        "labels": [
+            "bug",
+            "good first issue",
+            "github_actions",
+            "v1",
+            "v2",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-17T10:38:43Z"
     },
     {
         "repo": "openeverest/openeverest",
@@ -23862,6 +23866,18 @@
         "repo": "oras-project/oras",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "release-github.yml pins go-version 1.25.7, so release binaries miss stdlib security patches",
+        "url": "https://github.com/oras-project/oras/issues/2132",
+        "labels": [
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2026-08-17T11:20:57Z"
+    },
+    {
+        "repo": "oras-project/oras",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Support multiple `--platform` where appropriate",
         "url": "https://github.com/oras-project/oras/issues/1945",
         "labels": [
@@ -25364,18 +25380,6 @@
             "Type/Bug"
         ],
         "created_at": "2026-08-14T04:00:31Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Add logLevel as a first-class value for the controller-manager",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4488",
-        "labels": [
-            "good first issue",
-            "Type/Task"
-        ],
-        "created_at": "2026-08-14T03:57:27Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -27553,7 +27557,7 @@
         "labels": [
             "enhancement",
             "good-first-issue",
-            "needs-triage"
+            "triage/accepted"
         ],
         "created_at": "2026-07-21T10:50:23Z"
     },
