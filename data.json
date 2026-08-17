@@ -6515,7 +6515,6 @@
             "enhancement",
             "help wanted",
             "good first issue",
-            "Stale",
             "needs tests"
         ],
         "created_at": "2023-01-05T00:41:24Z"
@@ -19563,7 +19562,8 @@
         "labels": [
             "enhancement",
             "good first issue",
-            "ui"
+            "ui",
+            "needs-triage"
         ],
         "created_at": "2026-06-25T17:17:04Z"
     },
@@ -22525,19 +22525,6 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "New watcher wait strategy lacking SDK logging",
-        "url": "https://github.com/helm/helm/issues/31585",
-        "labels": [
-            "feature",
-            "good first issue",
-            "Stale"
-        ],
-        "created_at": "2025-11-27T05:15:12Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Display oci annotations or created date if annotation exists in helm show chart command",
         "url": "https://github.com/helm/helm/issues/30787",
         "labels": [
@@ -24028,7 +24015,8 @@
         "url": "https://github.com/podman-desktop/podman-desktop/issues/16286",
         "labels": [
             "good first issue",
-            "area/extensions \ud83e\udde9"
+            "area/extensions \ud83e\udde9",
+            "lifecycle/stale"
         ],
         "created_at": "2026-02-17T13:44:19Z"
     },
