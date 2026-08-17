@@ -3126,19 +3126,6 @@
         "repo": "opentofu/opentofu",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "SSH communicator panics when HTTP proxy CONNECT response fails (nil res.Body.Close)",
-        "url": "https://github.com/opentofu/opentofu/issues/4358",
-        "labels": [
-            "bug",
-            "good first issue",
-            "accepted"
-        ],
-        "created_at": "2026-07-13T23:41:31Z"
-    },
-    {
-        "repo": "opentofu/opentofu",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Investigate and fix documentation around `replace_triggered_by`",
         "url": "https://github.com/opentofu/opentofu/issues/4348",
         "labels": [
