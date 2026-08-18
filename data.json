@@ -2066,6 +2066,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Broken Repository Link",
+        "url": "https://github.com/meshery/meshery/issues/21462",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-18T06:38:43Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] Shield icon overlaps text in configuration catalog",
         "url": "https://github.com/meshery/meshery/issues/21457",
         "labels": [
@@ -2476,22 +2491,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Test] E2E playwright test for Meshery Dashboard",
-        "url": "https://github.com/meshery/meshery/issues/14565",
-        "labels": [
-            "kind/enhancement",
-            "good first issue",
-            "language/javascript",
-            "component/ui",
-            "area/tests",
-            "framework/playwright"
-        ],
-        "created_at": "2025-04-29T18:59:42Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "make golangci is red: 6 pre-existing SA5011 false positives in credentials_handlers_test.go",
         "url": "https://github.com/meshery/meshery/issues/21453",
         "labels": [
@@ -2848,20 +2847,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-28T19:28:49Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Fix Routing and Accuracy Issues in the Installation Section",
-        "url": "https://github.com/meshery/meshery/issues/20289",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-26T12:04:29Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -6228,6 +6213,20 @@
             "kind/bug"
         ],
         "created_at": "2026-08-13T16:40:57Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Vulnerability detected: CVE-2026-56865 (unknown)",
+        "url": "https://github.com/kyverno/kyverno/issues/17153",
+        "labels": [
+            "good first issue",
+            "security",
+            "dependencies",
+            "codeql"
+        ],
+        "created_at": "2026-08-14T13:11:14Z"
     },
     {
         "repo": "kyverno/kyverno",
@@ -19418,22 +19417,6 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "fix(ci): go mod tidy check never runs after tools/ removal",
-        "url": "https://github.com/openeverest/openeverest/issues/2957",
-        "labels": [
-            "bug",
-            "good first issue",
-            "github_actions",
-            "v1",
-            "v2",
-            "triage/accepted"
-        ],
-        "created_at": "2026-08-17T10:38:43Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "API server: HTTP listeners missing ReadTimeout/IdleTimeout; plain-HTTP path has no timeouts at all",
         "url": "https://github.com/openeverest/openeverest/issues/2946",
         "labels": [
@@ -20676,18 +20659,6 @@
             "help wanted"
         ],
         "created_at": "2026-05-18T22:07:39Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
-        "title": "CLI: Auto context update \u2014 set group/artifact in context after operations",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8022",
-        "labels": [
-            "area/build",
-            "help wanted"
-        ],
-        "created_at": "2026-05-18T22:07:35Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
@@ -23879,6 +23850,45 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Unify Push image icon across hamburger menu and modal",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/18850",
+        "labels": [
+            "good first issue",
+            "status/need-triage",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2026-08-18T09:48:07Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Fix toolbar-to-modal icon consistency for Load, Import, Save",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/18849",
+        "labels": [
+            "good first issue",
+            "status/need-triage",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2026-08-18T09:47:04Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Fix Import/Pull icon collision on Images page",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/18848",
+        "labels": [
+            "good first issue",
+            "status/need-triage",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2026-08-18T09:44:59Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "refactor: remove `temp-file-service:*` IPC",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18802",
         "labels": [
@@ -24219,48 +24229,6 @@
             "os/macOS \ud83c\udf4e"
         ],
         "created_at": "2025-03-14T11:49:40Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Removing `*Sync` operation in Podman Desktop",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/11434",
-        "labels": [
-            "good first issue",
-            "area/development-mode \ud83e\uddd1\u200d\ud83d\udcbb",
-            "area/tooling \ud83d\udee0\ufe0f",
-            "hacktoberfest",
-            "lifecycle/stale"
-        ],
-        "created_at": "2025-02-27T17:18:20Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "UI/UX: Need to correct the wording in a pop-up for clarity",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/11098",
-        "labels": [
-            "good first issue",
-            "area/docker-compatibility \ud83d\udc33",
-            "hacktoberfest",
-            "domain/ui-components/reviewed"
-        ],
-        "created_at": "2025-02-12T05:32:34Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Avoid creation of extension file watcher on non-existent folder",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/11018",
-        "labels": [
-            "good first issue",
-            "area/extensions \ud83e\udde9",
-            "hacktoberfest"
-        ],
-        "created_at": "2025-02-06T15:37:08Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -25368,6 +25336,18 @@
             "Type/Bug"
         ],
         "created_at": "2026-08-14T04:00:31Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Adopt MCP 2026-07-28: bump go-sdk to v1.7.0 and move to stateless streamable HTTP",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4466",
+        "labels": [
+            "good first issue",
+            "Type/Task"
+        ],
+        "created_at": "2026-08-12T06:47:39Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -30023,20 +30003,6 @@
             "good first issue"
         ],
         "created_at": "2025-04-30T09:09:28Z"
-    },
-    {
-        "repo": "prometheus/prometheus",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "__meta_kubernetes_service_loadbalancer_ip not working as expected",
-        "url": "https://github.com/prometheus/prometheus/issues/14398",
-        "labels": [
-            "help wanted",
-            "component/service discovery",
-            "good first issue",
-            "component/service discovery/kubernetes"
-        ],
-        "created_at": "2024-07-03T13:05:22Z"
     },
     {
         "repo": "prometheus/prometheus",
