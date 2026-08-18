@@ -2491,6 +2491,34 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "make golangci is red: 6 pre-existing SA5011 false positives in credentials_handlers_test.go",
+        "url": "https://github.com/meshery/meshery/issues/21453",
+        "labels": [
+            "help wanted",
+            "kind/chore",
+            "area/ci",
+            "language/go"
+        ],
+        "created_at": "2026-08-18T00:24:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Delete Sample Apps page and all references to it.",
+        "url": "https://github.com/meshery/meshery/issues/21446",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-17T20:12:17Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs]Refactor the Meshery REST API documentation to source from the published OpenAPI schemas instead of Golang code comments.",
         "url": "https://github.com/meshery/meshery/issues/21409",
         "labels": [
@@ -2833,34 +2861,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-28T19:28:49Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Fix Routing and Accuracy Issues in the Installation Section",
-        "url": "https://github.com/meshery/meshery/issues/20289",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-26T12:04:29Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs]Make Meshery Docs the canonical home for schemas contributor guidance",
-        "url": "https://github.com/meshery/meshery/issues/20273",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-26T00:15:05Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -6484,6 +6484,18 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[Bug]: Auth bypass: spoofed X-Forwarded-Uri skips auth for protected upstream paths under default reverse-proxy config",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3506",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-08-17T23:49:59Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Support]: Broken login page",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3490",
         "labels": [
@@ -6828,18 +6840,6 @@
             "help wanted"
         ],
         "created_at": "2025-09-25T21:01:08Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Bug]: OAuth2 Proxy State Parameter Only Contains Path, Not Full URL",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3205",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2025-09-25T02:37:04Z"
     },
     {
         "repo": "open-policy-agent/opa",
