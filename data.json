@@ -5280,24 +5280,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "PreparedStatement can have at most 65,535 parameters",
-        "url": "https://github.com/keycloak/keycloak/issues/51128",
-        "labels": [
-            "kind/bug",
-            "area/storage",
-            "area/admin/fine-grained-permissions",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-07-24T07:41:11Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Cant select specific organizations in FGAP permission",
         "url": "https://github.com/keycloak/keycloak/issues/50830",
         "labels": [
@@ -5699,6 +5681,23 @@
             "team/core-authn"
         ],
         "created_at": "2026-05-28T09:08:13Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "GET /broker/{alias}/token returns expired external IDP access token when refresh_token is available",
+        "url": "https://github.com/keycloak/keycloak/issues/49341",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-05-26T13:34:24Z"
     },
     {
         "repo": "keylime/keylime",
@@ -21267,6 +21266,33 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "The ImportStepper import owner group using display title value instead of the entity ref value",
+        "url": "https://github.com/backstage/backstage/issues/35232",
+        "labels": [
+            "type:bug",
+            "good first issue",
+            "area:catalog"
+        ],
+        "created_at": "2026-08-18T06:59:38Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Missing changelog for latest version of backstage/ui",
+        "url": "https://github.com/backstage/backstage/issues/35228",
+        "labels": [
+            "good first issue",
+            "area:core",
+            "area:design-system",
+            "needs:triage"
+        ],
+        "created_at": "2026-08-17T13:15:32Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Support for AsyncAPI 3.1.0",
         "url": "https://github.com/backstage/backstage/issues/35082",
         "labels": [
@@ -23531,20 +23557,6 @@
         "repo": "microcks/microcks",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Microcks `1.16.0` scope definition",
-        "url": "https://github.com/microcks/microcks/issues/2262",
-        "labels": [
-            "kind/task",
-            "help wanted",
-            "type/Epic",
-            "keep-open"
-        ],
-        "created_at": "2026-08-10T10:20:19Z"
-    },
-    {
-        "repo": "microcks/microcks",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Generalisation of AsyncAPI Request/Reply for other protocols",
         "url": "https://github.com/microcks/microcks/issues/2056",
         "labels": [
@@ -23889,18 +23901,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "refactor: remove `temp-file-service:*` IPC",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18802",
-        "labels": [
-            "good first issue",
-            "domain/technical-debt"
-        ],
-        "created_at": "2026-08-14T09:45:06Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Tabbed pages should only capitalize first word",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18761",
         "labels": [
@@ -24229,6 +24229,21 @@
             "os/macOS \ud83c\udf4e"
         ],
         "created_at": "2025-03-14T11:49:40Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Removing `*Sync` operation in Podman Desktop",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/11434",
+        "labels": [
+            "good first issue",
+            "area/development-mode \ud83e\uddd1\u200d\ud83d\udcbb",
+            "area/tooling \ud83d\udee0\ufe0f",
+            "hacktoberfest",
+            "lifecycle/stale"
+        ],
+        "created_at": "2025-02-27T17:18:20Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
