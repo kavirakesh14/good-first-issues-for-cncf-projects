@@ -15651,6 +15651,17 @@
         "created_at": "2022-04-02T00:51:30Z"
     },
     {
+        "repo": "wasmCloud/wasmCloud",
+        "tier": "Incubating",
+        "lang": "Rust",
+        "title": "Anonymous OCI pulls log a WARN when the host has no docker config",
+        "url": "https://github.com/wasmCloud/wasmCloud/issues/5475",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-08-18T20:33:29Z"
+    },
+    {
         "repo": "coredns/coredns",
         "tier": "Graduated",
         "lang": "Go",
@@ -24893,6 +24904,39 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "`Select a pod to highlight its logs` makes no sense when viewing a pod",
+        "url": "https://github.com/argoproj/argo-cd/issues/29252",
+        "labels": [
+            "bug",
+            "good first issue",
+            "bug/severity:minor",
+            "triage/pending",
+            "type:usability",
+            "component:ui",
+            "bug/priority:low"
+        ],
+        "created_at": "2026-08-19T00:48:37Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "operator-manual/health should explain to omit `<group>_` for _core_ resources",
+        "url": "https://github.com/argoproj/argo-cd/issues/29249",
+        "labels": [
+            "bug",
+            "good first issue",
+            "bug/severity:minor",
+            "triage/pending",
+            "bug/priority:low",
+            "component:docs"
+        ],
+        "created_at": "2026-08-18T19:36:52Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Make the pending-resource list limit in `argocd app wait` timeout errors configurable",
         "url": "https://github.com/argoproj/argo-cd/issues/29031",
         "labels": [
@@ -25263,35 +25307,6 @@
             "bug/priority:low"
         ],
         "created_at": "2023-02-02T10:08:00Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Add description and validation to `include` and `exclude` fields in Parameters tab of directory apps",
-        "url": "https://github.com/argoproj/argo-cd/issues/10880",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "type:usability",
-            "component:ui",
-            "group:hacktoberfest-2023"
-        ],
-        "created_at": "2022-10-10T13:59:47Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Update docs about Helm",
-        "url": "https://github.com/argoproj/argo-cd/issues/9822",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "group:hacktoberfest-2023",
-            "component:docs"
-        ],
-        "created_at": "2022-06-29T09:49:17Z"
     },
     {
         "repo": "fluxcd/flux2",
