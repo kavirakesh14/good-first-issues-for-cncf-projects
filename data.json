@@ -5036,7 +5036,8 @@
         "url": "https://github.com/falcosecurity/falco/issues/3584",
         "labels": [
             "help wanted",
-            "kind/feature"
+            "kind/feature",
+            "lifecycle/stale"
         ],
         "created_at": "2025-05-28T18:05:20Z"
     },
@@ -5048,7 +5049,8 @@
         "url": "https://github.com/falcosecurity/falco/issues/3432",
         "labels": [
             "help wanted",
-            "kind/feature"
+            "kind/feature",
+            "lifecycle/stale"
         ],
         "created_at": "2024-12-17T21:39:03Z"
     },
@@ -5061,7 +5063,8 @@
         "labels": [
             "help wanted",
             "kind/feature",
-            "area/build"
+            "area/build",
+            "lifecycle/stale"
         ],
         "created_at": "2021-06-10T08:17:40Z"
     },
@@ -6186,18 +6189,6 @@
             "help wanted"
         ],
         "created_at": "2022-02-14T18:30:54Z"
-    },
-    {
-        "repo": "kubescape/kubescape",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "RBAC police integration (#916): remaining policy categories not yet covered by C-0298/C-0299 series",
-        "url": "https://github.com/kubescape/kubescape/issues/3097",
-        "labels": [
-            "feature",
-            "help wanted"
-        ],
-        "created_at": "2026-08-13T11:57:00Z"
     },
     {
         "repo": "kubewarden/kubewarden-controller",
@@ -18846,6 +18837,7 @@
         "labels": [
             "good first issue",
             "triage/accepted",
+            "triage/stale",
             "kind/cleanup"
         ],
         "created_at": "2024-09-03T15:38:02Z"
@@ -19518,6 +19510,20 @@
             "needs-triage"
         ],
         "created_at": "2026-06-25T17:17:04Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Issue assignment bot reports the cap using the issue it just assigned",
+        "url": "https://github.com/openeverest/openeverest/issues/3000",
+        "labels": [
+            "help wanted",
+            "github_actions",
+            "chore",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-19T11:51:13Z"
     },
     {
         "repo": "openeverest/openeverest",
@@ -29330,21 +29336,6 @@
             "ui"
         ],
         "created_at": "2026-07-28T14:18:21Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[FEATURE] Support server-side default configuration for user preferences (timezone, rows per page, theme)",
-        "url": "https://github.com/perses/perses/issues/4265",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "ui",
-            "api",
-            "priority/P2"
-        ],
-        "created_at": "2026-07-16T10:33:19Z"
     },
     {
         "repo": "perses/perses",
