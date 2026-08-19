@@ -1608,12 +1608,12 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Kptfile validation error messages do not follow the style guide",
+        "title": "Structure kpt error messages and create a style guide",
         "url": "https://github.com/kptdev/kpt/issues/2314",
         "labels": [
             "good first issue",
             "area/hydrate",
-            "p2"
+            "triaged"
         ],
         "created_at": "2021-06-22T23:30:47Z"
     },
@@ -2066,21 +2066,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Broken Repository Link",
-        "url": "https://github.com/meshery/meshery/issues/21462",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-18T06:38:43Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Shield icon overlaps text in configuration catalog",
         "url": "https://github.com/meshery/meshery/issues/21457",
         "labels": [
@@ -2491,6 +2476,22 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Test] E2E playwright test for Meshery Dashboard",
+        "url": "https://github.com/meshery/meshery/issues/14565",
+        "labels": [
+            "kind/enhancement",
+            "good first issue",
+            "language/javascript",
+            "component/ui",
+            "area/tests",
+            "framework/playwright"
+        ],
+        "created_at": "2025-04-29T18:59:42Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Fix Code Block Alignment",
         "url": "https://github.com/meshery/meshery/issues/21496",
         "labels": [
@@ -2847,6 +2848,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-02T22:19:09Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Sidebar is not responsive",
+        "url": "https://github.com/meshery/meshery/issues/20363",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-30T00:07:49Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -5220,6 +5235,55 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Workflows: `on: client-created` conditions are evaluated before the client is populated, so they can never match",
+        "url": "https://github.com/keycloak/keycloak/issues/51594",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "priority/normal",
+            "area/workflows"
+        ],
+        "created_at": "2026-08-10T22:05:30Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "SCIM filtered PATCH remove deletes all values for multivalued extension attributes",
+        "url": "https://github.com/keycloak/keycloak/issues/51525",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "area/scim"
+        ],
+        "created_at": "2026-08-06T19:31:24Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Define all Core SCIM User multivalues attributes",
+        "url": "https://github.com/keycloak/keycloak/issues/51308",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "area/scim"
+        ],
+        "created_at": "2026-07-30T10:30:29Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Organization invitation creation and resend endpoints should return 201 with the created invitation location",
         "url": "https://github.com/keycloak/keycloak/issues/51298",
         "labels": [
@@ -5650,57 +5714,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-29T09:17:16Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "DPoPUtil: Catch generic exception to handle security algorithm related issues, too",
-        "url": "https://github.com/keycloak/keycloak/issues/49440",
-        "labels": [
-            "kind/bug",
-            "area/token-exchange",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-28T14:54:33Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Update Profile within login does not add `pf-m-disabled` to fields",
-        "url": "https://github.com/keycloak/keycloak/issues/49406",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/login/ui",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-authn"
-        ],
-        "created_at": "2026-05-28T09:08:13Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "GET /broker/{alias}/token returns expired external IDP access token when refresh_token is available",
-        "url": "https://github.com/keycloak/keycloak/issues/49341",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-26T13:34:24Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6855,17 +6868,6 @@
             "good first issue"
         ],
         "created_at": "2021-09-14T09:43:44Z"
-    },
-    {
-        "repo": "open-policy-agent/opa",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "fails to get aws metadata when IMDSv2 is required on ECS running on EC2 launch type",
-        "url": "https://github.com/open-policy-agent/opa/issues/6122",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2023-07-27T19:20:53Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -12424,6 +12426,18 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "PatchAnnotations overwrites AWSNeuronAssignedIndex across containers in multi-container pods",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/2738",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-08-19T17:17:04Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Nil pointer dereference in Scheduler.Filter when ExtenderArgs has neither Nodes nor NodeNames",
         "url": "https://github.com/Project-HAMi/HAMi/issues/2688",
         "labels": [
@@ -14742,11 +14756,24 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "\ud83d\udc1d Hive Advisory Report",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3976",
+        "labels": [
+            "help wanted",
+            "hive/advisory"
+        ],
+        "created_at": "2026-08-19T14:07:09Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "bug: `defer close(stopper)` inside GVR informer setup loop causes `panic: close of closed channel` when a CRD is removed at runtime",
         "url": "https://github.com/kubestellar/kubestellar/issues/3969",
         "labels": [
             "kind/bug",
-            "help wanted"
+            "help wanted",
+            "hold"
         ],
         "created_at": "2026-08-01T07:03:37Z"
     },
@@ -14818,7 +14845,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3886",
         "labels": [
             "kind/bug",
-            "help wanted"
+            "help wanted",
+            "hold"
         ],
         "created_at": "2026-07-08T17:03:45Z"
     },
@@ -14902,7 +14930,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3848",
         "labels": [
             "kind/bug",
-            "help wanted"
+            "help wanted",
+            "hold"
         ],
         "created_at": "2026-06-23T08:16:59Z"
     },
@@ -15087,18 +15116,6 @@
             "help wanted"
         ],
         "created_at": "2026-06-08T10:33:45Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[strategist] velocity-blocker: main branch stalled 26 days \u2014 PR queue throughput crisis",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3806",
-        "labels": [
-            "help wanted",
-            "roadmap"
-        ],
-        "created_at": "2026-06-08T10:27:52Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -18829,20 +18846,6 @@
         "created_at": "2025-02-24T16:10:58Z"
     },
     {
-        "repo": "kumahq/kuma",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Use resource builders in e2e tests",
-        "url": "https://github.com/kumahq/kuma/issues/11294",
-        "labels": [
-            "good first issue",
-            "triage/accepted",
-            "triage/stale",
-            "kind/cleanup"
-        ],
-        "created_at": "2024-09-03T15:38:02Z"
-    },
-    {
         "repo": "linkerd/linkerd2",
         "tier": "Graduated",
         "lang": "Go",
@@ -19422,21 +19425,6 @@
             "triage/accepted"
         ],
         "created_at": "2026-08-12T12:01:18Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Flaky CLI tests: sharing http.DefaultTransport lets httptest servers kill each other's in-flight requests",
-        "url": "https://github.com/openeverest/openeverest/issues/2884",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "chore",
-            "v2",
-            "triage/accepted"
-        ],
-        "created_at": "2026-08-11T09:05:43Z"
     },
     {
         "repo": "openeverest/openeverest",
@@ -23912,7 +23900,9 @@
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18760",
         "labels": [
             "good first issue",
-            "status/need-triage"
+            "status/need-triage",
+            "domain/ui-components/reviewed",
+            "domain/ui-components"
         ],
         "created_at": "2026-08-11T21:19:10Z"
     },
@@ -29663,6 +29653,20 @@
             "priority/P2"
         ],
         "created_at": "2026-07-21T09:57:21Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "GlobalRoleBinding not working with OIDC users",
+        "url": "https://github.com/perses/perses/issues/4273",
+        "labels": [
+            "help wanted",
+            "api",
+            "priority/P1",
+            "needs investigation"
+        ],
+        "created_at": "2026-07-20T07:39:05Z"
     },
     {
         "repo": "perses/perses",
