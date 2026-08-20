@@ -2120,21 +2120,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Breadcrumb Missing on Desktop",
-        "url": "https://github.com/meshery/meshery/issues/21143",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-05T07:21:52Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Align Technology Checkbox and Label Side by Side",
         "url": "https://github.com/meshery/meshery/issues/21042",
         "labels": [
@@ -2487,6 +2472,20 @@
             "framework/playwright"
         ],
         "created_at": "2025-04-29T18:59:42Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Add support for sort by count for database table in settings registry page",
+        "url": "https://github.com/meshery/meshery/issues/13958",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "language/go"
+        ],
+        "created_at": "2025-03-11T09:09:30Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2862,6 +2861,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-30T00:07:49Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Model: Intra-page table of content dysfunctional for \"model\" pages.",
+        "url": "https://github.com/meshery/meshery/issues/20339",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-28T19:28:49Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -6607,18 +6620,6 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Documentation]: Very unclear nginx example for 4kb cookie",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3448",
-        "labels": [
-            "help wanted",
-            "configuration"
-        ],
-        "created_at": "2026-06-08T13:34:05Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Bug]: WebSocket Origin header mismatch behind oauth2-proxy causes n8n real-time push (WS) to fail",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3444",
         "labels": [
@@ -6843,6 +6844,18 @@
             "help wanted"
         ],
         "created_at": "2025-09-25T21:01:08Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: OAuth2 Proxy State Parameter Only Contains Path, Not Full URL",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3205",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2025-09-25T02:37:04Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -8759,6 +8772,7 @@
             "kind/bug",
             "good first issue",
             "area/install-uninstall-upgrade",
+            "priority/1",
             "area/v2-data-engine",
             "require/qa-review-coverage",
             "require/backport",
@@ -29179,10 +29193,24 @@
         "labels": [
             "bug",
             "good first issue",
+            "question",
             "backend",
             "critical"
         ],
         "created_at": "2025-04-15T12:55:14Z"
+    },
+    {
+        "repo": "k8sgpt-ai/k8sgpt",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Feature]: Adding flag filter for custom-analyzer",
+        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1374",
+        "labels": [
+            "bug",
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2025-02-12T11:04:17Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
