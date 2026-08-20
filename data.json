@@ -14756,6 +14756,30 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: Static Service clusterIP / nodePort lost on downsync \u2014 wrap strips cluster-local fields",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3978",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-08-19T21:13:43Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: Static PV/PVC bind fail - hub clears claimRef.uid absent on WDS",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3977",
+        "labels": [
+            "kind/bug",
+            "help wanted"
+        ],
+        "created_at": "2026-08-19T18:46:50Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "\ud83d\udc1d Hive Advisory Report",
         "url": "https://github.com/kubestellar/kubestellar/issues/3976",
         "labels": [
@@ -15092,30 +15116,6 @@
             "roadmap"
         ],
         "created_at": "2026-06-08T10:59:00Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[strategist] adoption-blocker: KubeStellar ecosystem (5 sub-projects, 153 card types, 2MB KB) invisible from main repo",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3812",
-        "labels": [
-            "help wanted",
-            "roadmap"
-        ],
-        "created_at": "2026-06-08T10:58:42Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] CNCF Sandbox application pathway \u2014 683 stars, adopter gap is last blocker",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3809",
-        "labels": [
-            "kind/feature",
-            "help wanted"
-        ],
-        "created_at": "2026-06-08T10:33:45Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -24895,22 +24895,6 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "operator-manual/health should explain to omit `<group>_` for _core_ resources",
-        "url": "https://github.com/argoproj/argo-cd/issues/29249",
-        "labels": [
-            "bug",
-            "good first issue",
-            "bug/severity:minor",
-            "triage/pending",
-            "bug/priority:low",
-            "component:docs"
-        ],
-        "created_at": "2026-08-18T19:36:52Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Make the pending-resource list limit in `argocd app wait` timeout errors configurable",
         "url": "https://github.com/argoproj/argo-cd/issues/29031",
         "labels": [
@@ -25281,6 +25265,21 @@
             "bug/priority:low"
         ],
         "created_at": "2023-02-02T10:08:00Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Add description and validation to `include` and `exclude` fields in Parameters tab of directory apps",
+        "url": "https://github.com/argoproj/argo-cd/issues/10880",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "type:usability",
+            "component:ui",
+            "group:hacktoberfest-2023"
+        ],
+        "created_at": "2022-10-10T13:59:47Z"
     },
     {
         "repo": "fluxcd/flux2",
