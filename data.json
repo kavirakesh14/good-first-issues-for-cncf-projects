@@ -2909,6 +2909,19 @@
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "`get-hardware-details` accepts Ironic credentials on the command line",
+        "url": "https://github.com/metal3-io/baremetal-operator/issues/3545",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-08-20T14:04:01Z"
+    },
+    {
+        "repo": "metal3-io/baremetal-operator",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Run with readOnlyRootFilesystem?",
         "url": "https://github.com/metal3-io/baremetal-operator/issues/3492",
         "labels": [
@@ -14717,6 +14730,19 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: Host-type WDS is not an isolated authoring space \u2014 hub-local node downsyncs to spokes",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3980",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-08-20T14:50:37Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "bug: Static Service clusterIP / nodePort lost on downsync \u2014 wrap strips cluster-local fields",
         "url": "https://github.com/kubestellar/kubestellar/issues/3978",
         "labels": [
@@ -15065,18 +15091,6 @@
             "kind/documentation"
         ],
         "created_at": "2026-06-08T10:59:13Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[strategist] ecosystem-opportunity: Kagenti AI Agent Platform integration undocumented \u2014 8 dashboard cards with no narrative",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3813",
-        "labels": [
-            "help wanted",
-            "roadmap"
-        ],
-        "created_at": "2026-06-08T10:59:00Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -20523,6 +20537,29 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
+        "title": "implement getSubjectMetadata endpoint",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/9708",
+        "labels": [
+            "area/rest",
+            "help wanted"
+        ],
+        "created_at": "2026-08-20T08:52:55Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "fix(export): DataExporter silently returns HTTP 200 with a corrupt ZIP when entity writes fail",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/9706",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-08-20T08:40:42Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
         "title": "Tab Documentation is empty",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8446",
         "labels": [
@@ -21272,6 +21309,20 @@
             "area:auth"
         ],
         "created_at": "2026-07-28T07:11:07Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Support internationalization for title param on plugins and PageBlueprints",
+        "url": "https://github.com/backstage/backstage/issues/34139",
+        "labels": [
+            "type:suggestion",
+            "good first issue",
+            "area:core",
+            "priority:contrib-welcome"
+        ],
+        "created_at": "2026-05-06T09:53:17Z"
     },
     {
         "repo": "backstage/backstage",
