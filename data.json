@@ -2190,18 +2190,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[UI] Stale state bug in Design Table filters",
-        "url": "https://github.com/meshery/meshery/issues/20891",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-07-22T13:55:08Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Server] Unguarded SendEvent on possibly-nil instance in auto_register (dormant latent crash)",
         "url": "https://github.com/meshery/meshery/issues/20821",
         "labels": [
@@ -2522,6 +2510,36 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
+        "url": "https://github.com/meshery/meshery/issues/13426",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "issue/willfix",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2025-01-31T17:39:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Sign-off (DCO) VS Code screenshot misaligned to the right on wide screens",
+        "url": "https://github.com/meshery/meshery/issues/21538",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-21T12:35:10Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Fix Code Block Alignment",
         "url": "https://github.com/meshery/meshery/issues/21496",
         "labels": [
@@ -2807,20 +2825,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-04T20:43:20Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Improve visual hierarchy of leaf items in the documentation sidebar",
-        "url": "https://github.com/meshery/meshery/issues/20480",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-04T18:13:50Z"
     },
     {
         "repo": "meshery/meshery",
