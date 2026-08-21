@@ -659,6 +659,34 @@
         "created_at": "2021-08-27T11:04:44Z"
     },
     {
+        "repo": "cadence-workflow/cadence",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "SemaphoreMetadataManager bypasses all persistence wrappers (no metrics, rate limiting, or error injection)",
+        "url": "https://github.com/cadence-workflow/cadence/issues/8454",
+        "labels": [
+            "good-first-issue",
+            "help-wanted",
+            "triage/needs-info",
+            "kind/cleanup"
+        ],
+        "created_at": "2026-08-20T22:00:30Z"
+    },
+    {
+        "repo": "cadence-workflow/cadence",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "DomainAuditManager bypasses all persistence wrappers (no metrics, rate limiting, or error injection)",
+        "url": "https://github.com/cadence-workflow/cadence/issues/8453",
+        "labels": [
+            "good-first-issue",
+            "help-wanted",
+            "triage/needs-info",
+            "kind/cleanup"
+        ],
+        "created_at": "2026-08-20T22:00:18Z"
+    },
+    {
         "repo": "cloud-custodian/cloud-custodian",
         "tier": "Incubating",
         "lang": "Python",
@@ -7107,20 +7135,6 @@
             "event/slam"
         ],
         "created_at": "2026-01-08T18:54:50Z"
-    },
-    {
-        "repo": "oscal-compass/compliance-trestle",
-        "tier": "Sandbox",
-        "lang": "Python",
-        "title": "Improve OpenSSF score",
-        "url": "https://github.com/oscal-compass/compliance-trestle/issues/2018",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "exempt-from-stale",
-            "event/slam"
-        ],
-        "created_at": "2025-12-18T12:21:35Z"
     },
     {
         "repo": "oscal-compass/compliance-trestle",
