@@ -2554,20 +2554,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] SECURITY-INSIGHTS.yml: Update security self-assessment statement",
-        "url": "https://github.com/meshery/meshery/issues/21494",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-19T03:25:00Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "make golangci is red: 6 pre-existing SA5011 false positives in credentials_handlers_test.go",
         "url": "https://github.com/meshery/meshery/issues/21453",
         "labels": [
@@ -2910,6 +2896,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-28T19:28:49Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Fix Routing and Accuracy Issues in the Installation Section",
+        "url": "https://github.com/meshery/meshery/issues/20289",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-26T12:04:29Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -6249,6 +6249,18 @@
         "created_at": "2022-02-14T18:30:54Z"
     },
     {
+        "repo": "kubescape/kubescape",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "feat: Native Slack/Teams/webhook notifier for scan results (--notify)",
+        "url": "https://github.com/kubescape/kubescape/issues/3401",
+        "labels": [
+            "feature",
+            "help wanted"
+        ],
+        "created_at": "2026-08-19T16:50:18Z"
+    },
+    {
         "repo": "kubewarden/kubewarden-controller",
         "tier": "Sandbox",
         "lang": "Rust",
@@ -9401,19 +9413,6 @@
             "kind/requirement"
         ],
         "created_at": "2021-03-12T02:59:06Z"
-    },
-    {
-        "repo": "velero-io/velero",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "CLI shows expiration in the past for backups which have not yet executed because operations were stalled",
-        "url": "https://github.com/velero-io/velero/issues/3555",
-        "labels": [
-            "kind/Bug",
-            "Good first issue",
-            "Reviewed Q2 2021"
-        ],
-        "created_at": "2021-03-10T07:56:34Z"
     },
     {
         "repo": "velero-io/velero",
