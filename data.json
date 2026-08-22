@@ -22612,6 +22612,18 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "htpasswd function does not expose algorithm parameter",
+        "url": "https://github.com/helm/helm/issues/31924",
+        "labels": [
+            "help wanted",
+            "feature"
+        ],
+        "created_at": "2026-03-11T19:51:34Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Getting `panic: failed to create default capabilities` when building with Bazel",
         "url": "https://github.com/helm/helm/issues/31904",
         "labels": [
@@ -22885,19 +22897,6 @@
             "keep open"
         ],
         "created_at": "2020-05-15T02:42:48Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Show Installed Chart Source Location or Source Repository URL",
-        "url": "https://github.com/helm/helm/issues/4256",
-        "labels": [
-            "help wanted",
-            "feature",
-            "in progress"
-        ],
-        "created_at": "2018-06-21T17:50:58Z"
     },
     {
         "repo": "ko-build/ko",
