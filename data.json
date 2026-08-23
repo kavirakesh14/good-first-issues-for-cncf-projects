@@ -8299,31 +8299,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Database primary key reached maximum value of sequence",
-        "url": "https://github.com/spiffe/spire/issues/5501",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2024-09-18T21:23:29Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Consider using gRPC metrics from go-grpc-middleware",
-        "url": "https://github.com/spiffe/spire/issues/5305",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "stale"
-        ],
-        "created_at": "2024-07-17T10:21:11Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Documentation / deployment walk through for SPIRE on TPM.",
         "url": "https://github.com/spiffe/spire/issues/5291",
         "labels": [
