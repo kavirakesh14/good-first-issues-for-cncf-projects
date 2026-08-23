@@ -12135,7 +12135,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "testing: 89 of 165 packages have no helm test target, including eight user-facing apps",
         "url": "https://github.com/cozystack/cozystack/issues/3631",
         "labels": [
@@ -12150,7 +12150,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "testing: pin the label-writing workflows with contract tests",
         "url": "https://github.com/cozystack/cozystack/issues/3589",
         "labels": [
@@ -12166,7 +12166,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "Move namespace.cozystack.io/host from namespace label to annotation",
         "url": "https://github.com/cozystack/cozystack/issues/2002",
         "labels": [
@@ -12180,7 +12180,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "Removing of etcd-cluster should also remove all the secrets and datastore",
         "url": "https://github.com/cozystack/cozystack/issues/154",
         "labels": [
@@ -12193,7 +12193,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "[mariadb-operator] Bootstrap replica from mariabackup",
         "url": "https://github.com/cozystack/cozystack/issues/32",
         "labels": [
@@ -22532,6 +22532,17 @@
             "good first issue"
         ],
         "created_at": "2020-04-25T18:05:37Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "provenance: multi-block armored keyrings silently drop keys depending on block alignment",
+        "url": "https://github.com/helm/helm/issues/32567",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-08-23T12:22:47Z"
     },
     {
         "repo": "helm/helm",
