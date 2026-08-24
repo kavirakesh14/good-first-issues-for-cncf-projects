@@ -10081,7 +10081,8 @@
         "title": "Unify GitHub Actions setup into Ansible playbook for reuse across CI systems",
         "url": "https://github.com/cri-o/cri-o/issues/10053",
         "labels": [
-            "help wanted"
+            "help wanted",
+            "lifecycle/stale"
         ],
         "created_at": "2026-06-18T16:59:46Z"
     },
@@ -24830,6 +24831,22 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "badges with short revisions are too wide",
+        "url": "https://github.com/argoproj/argo-cd/issues/29335",
+        "labels": [
+            "bug",
+            "good first issue",
+            "bug/severity:minor",
+            "triage/pending",
+            "component:api",
+            "bug/priority:low"
+        ],
+        "created_at": "2026-08-23T20:57:09Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "`Select a pod to highlight its logs` makes no sense when viewing a pod",
         "url": "https://github.com/argoproj/argo-cd/issues/29252",
         "labels": [
@@ -25217,21 +25234,6 @@
             "bug/priority:low"
         ],
         "created_at": "2023-02-02T10:08:00Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Add description and validation to `include` and `exclude` fields in Parameters tab of directory apps",
-        "url": "https://github.com/argoproj/argo-cd/issues/10880",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "type:usability",
-            "component:ui",
-            "group:hacktoberfest-2023"
-        ],
-        "created_at": "2022-10-10T13:59:47Z"
     },
     {
         "repo": "fluxcd/flux2",
