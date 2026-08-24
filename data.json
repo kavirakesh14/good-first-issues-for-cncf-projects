@@ -2094,7 +2094,7 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Improve Responsive Video Sizing on Smaller Screens",
+        "title": "[Docs] Fix horizontal page overflow affecting embedded videos on smaller screens",
         "url": "https://github.com/meshery/meshery/issues/21594",
         "labels": [
             "kind/bug",
@@ -2105,6 +2105,21 @@
             "framework/react"
         ],
         "created_at": "2026-08-24T10:20:32Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Navigation button disappears on hover",
+        "url": "https://github.com/meshery/meshery/issues/21591",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-24T07:22:39Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2506,36 +2521,6 @@
             "language/go"
         ],
         "created_at": "2025-03-11T09:09:30Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
-        "url": "https://github.com/meshery/meshery/issues/13426",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "issue/willfix",
-            "language/markdown",
-            "framework/jekyll"
-        ],
-        "created_at": "2025-01-31T17:39:55Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Navigation button disappears on hover",
-        "url": "https://github.com/meshery/meshery/issues/21591",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-24T07:22:39Z"
     },
     {
         "repo": "meshery/meshery",
@@ -5610,6 +5595,24 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Space and non-printable characters in group name",
+        "url": "https://github.com/keycloak/keycloak/issues/50004",
+        "labels": [
+            "kind/bug",
+            "area/core",
+            "help wanted",
+            "team/core-iam",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-06-15T08:27:15Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "client-policies: secure-redirect-uris-enforcer does not work with empty logout redirect URIs list",
         "url": "https://github.com/keycloak/keycloak/issues/49911",
         "labels": [
@@ -5743,23 +5746,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-05-29T15:21:29Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[SAST] Add a null check for `client.isPublicClient()`",
-        "url": "https://github.com/keycloak/keycloak/issues/49467",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-29T09:17:16Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8745,6 +8731,22 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
+        "title": "[IMPROVEMENT] pre-pull-share-manager-image container ignores longhornManager.resources, preventing pod-level memory limits on longhorn-manager",
+        "url": "https://github.com/longhorn/longhorn/issues/13820",
+        "labels": [
+            "good first issue",
+            "component/longhorn-manager",
+            "priority/1",
+            "kind/improvement",
+            "area/resource-management",
+            "help wanted"
+        ],
+        "created_at": "2026-08-23T18:39:09Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
         "title": "[BUG] invalid block disks should not block Longhorn system uninstallation",
         "url": "https://github.com/longhorn/longhorn/issues/13572",
         "labels": [
@@ -9120,7 +9122,8 @@
             "require/manual-test-plan",
             "kind/improvement",
             "area/v2-data-engine",
-            "area/cli"
+            "area/cli",
+            "help wanted"
         ],
         "created_at": "2024-07-28T16:19:13Z"
     },
@@ -9186,7 +9189,8 @@
             "require/auto-e2e-test",
             "require/doc",
             "require/lep",
-            "area/backup-store"
+            "area/backup-store",
+            "help wanted"
         ],
         "created_at": "2023-11-06T21:14:40Z"
     },
@@ -11572,6 +11576,20 @@
             "component/spec"
         ],
         "created_at": "2018-01-25T11:05:14Z"
+    },
+    {
+        "repo": "kube-vip/kube-vip",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "BGP mode to advertise routes to the active endpoint",
+        "url": "https://github.com/kube-vip/kube-vip/issues/1736",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "services",
+            "BGP"
+        ],
+        "created_at": "2026-08-24T13:22:37Z"
     },
     {
         "repo": "kube-vip/kube-vip",
@@ -20352,6 +20370,18 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
+        "title": "Unchecked generic varargs warning in AbstractCompatibilityChecker.unionOf",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/8905",
+        "labels": [
+            "Beginner Friendly",
+            "good first issue"
+        ],
+        "created_at": "2026-07-26T18:25:03Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
         "title": "README UI getting-started lacks Windows instructions; only `./init-dev.sh` documented with no PowerShell/batch equivalent",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8532",
         "labels": [
@@ -20826,38 +20856,12 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "Document the development workflow for making changes to the API",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/2657",
-        "labels": [
-            "type/task",
-            "priority/normal",
-            "help wanted"
-        ],
-        "created_at": "2022-07-27T11:41:14Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "Feat: Add i18n to apicurio registry",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/1821",
         "labels": [
             "help wanted"
         ],
         "created_at": "2021-09-08T16:13:03Z"
-    },
-    {
-        "repo": "nats-io/nats-server",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "JetStream dynamic MaxStore shrinks after restart because it is recomputed from current free disk (Bavail), causing previously valid stream limits to fail",
-        "url": "https://github.com/nats-io/nats-server/issues/8322",
-        "labels": [
-            "stale",
-            "good first issue",
-            "defect"
-        ],
-        "created_at": "2026-06-16T21:36:36Z"
     },
     {
         "repo": "tremor-rs/tremor-runtime",
@@ -21189,19 +21193,6 @@
             "help wanted"
         ],
         "created_at": "2020-10-16T12:19:35Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "The ImportStepper import owner group using display title value instead of the entity ref value",
-        "url": "https://github.com/backstage/backstage/issues/35232",
-        "labels": [
-            "type:bug",
-            "good first issue",
-            "area:catalog"
-        ],
-        "created_at": "2026-08-18T06:59:38Z"
     },
     {
         "repo": "backstage/backstage",
@@ -23792,7 +23783,6 @@
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18850",
         "labels": [
             "good first issue",
-            "status/need-triage",
             "domain/ui-components/reviewed"
         ],
         "created_at": "2026-08-18T09:48:07Z"
@@ -23805,7 +23795,6 @@
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18849",
         "labels": [
             "good first issue",
-            "status/need-triage",
             "domain/ui-components/reviewed"
         ],
         "created_at": "2026-08-18T09:47:04Z"
@@ -23818,7 +23807,6 @@
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18848",
         "labels": [
             "good first issue",
-            "status/need-triage",
             "domain/ui-components/reviewed"
         ],
         "created_at": "2026-08-18T09:44:59Z"
@@ -23843,7 +23831,6 @@
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18760",
         "labels": [
             "good first issue",
-            "status/need-triage",
             "domain/ui-components/reviewed",
             "domain/ui-components"
         ],
@@ -29258,7 +29245,8 @@
         "url": "https://github.com/perses/perses/issues/4335",
         "labels": [
             "good first issue",
-            "ui"
+            "ui",
+            "priority/P2"
         ],
         "created_at": "2026-08-03T11:35:58Z"
     },
@@ -29270,7 +29258,8 @@
         "url": "https://github.com/perses/perses/issues/4333",
         "labels": [
             "good first issue",
-            "ui"
+            "ui",
+            "priority/P2"
         ],
         "created_at": "2026-08-03T11:07:38Z"
     },
