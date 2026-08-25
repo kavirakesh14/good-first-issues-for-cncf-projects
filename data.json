@@ -9245,6 +9245,23 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
+        "title": "[BUG] engine-image-ei with noexec /var filesystem ",
+        "url": "https://github.com/longhorn/longhorn/issues/9083",
+        "labels": [
+            "kind/bug",
+            "priority/0",
+            "require/auto-e2e-test",
+            "require/doc",
+            "area/environment-issue",
+            "require/qa-review-coverage",
+            "help wanted"
+        ],
+        "created_at": "2024-07-24T23:30:38Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
         "title": "[IMPROVEMENT] share-manager-pvc should have its own toleration setting or nodeaffinity for replica zones",
         "url": "https://github.com/longhorn/longhorn/issues/6509",
         "labels": [
