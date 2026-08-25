@@ -8770,10 +8770,10 @@
         "labels": [
             "kind/bug",
             "good first issue",
-            "component/longhorn-manager",
             "reproduce/always",
             "priority/0",
             "require/auto-e2e-test",
+            "area/volume-expansion",
             "require/backport",
             "backport/1.12.2"
         ],
@@ -18308,18 +18308,6 @@
         "repo": "kuadrant/kuadrant-operator",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Add type safety for rate limit namespace and scope identifiers",
-        "url": "https://github.com/Kuadrant/kuadrant-operator/issues/1916",
-        "labels": [
-            "kind/enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-04-20T08:33:48Z"
-    },
-    {
-        "repo": "kuadrant/kuadrant-operator",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "refactor: optimize test helper to accept pointer parameter",
         "url": "https://github.com/Kuadrant/kuadrant-operator/issues/1891",
         "labels": [
@@ -19372,6 +19360,21 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Do not show version of the provider in a tile",
+        "url": "https://github.com/openeverest/openeverest/issues/3051",
+        "labels": [
+            "good first issue",
+            "chore",
+            "ui",
+            "v2",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-25T11:48:28Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Harden the rate-limiter data-race regression test so it cannot silently no-op",
         "url": "https://github.com/openeverest/openeverest/issues/2958",
         "labels": [
@@ -19499,20 +19502,6 @@
             "triage/accepted"
         ],
         "created_at": "2026-08-19T11:51:13Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "`BackupState`/`RestoreState` have no enum marker, so `status.state` generates as `*string`",
-        "url": "https://github.com/openeverest/openeverest/issues/2891",
-        "labels": [
-            "help wanted",
-            "chore",
-            "v2",
-            "triage/accepted"
-        ],
-        "created_at": "2026-08-11T10:28:46Z"
     },
     {
         "repo": "openGemini/openGemini",
@@ -20639,21 +20628,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "CLI: Verbose logging should print raw request and response details",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8027",
-        "labels": [
-            "area/rest",
-            "area/sdk",
-            "area/observability",
-            "area/CLI",
-            "help wanted"
-        ],
-        "created_at": "2026-05-18T22:07:39Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "Write a blog post introducing the Apicurio Registry CLI",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/7902",
         "labels": [
@@ -21226,6 +21200,20 @@
             "help wanted"
         ],
         "created_at": "2020-10-16T12:19:35Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Scaffolder BUI theme EntityPicker: onBlur re-commits display label as entityRef, corrupting valid selections",
+        "url": "https://github.com/backstage/backstage/issues/35281",
+        "labels": [
+            "type:bug",
+            "good first issue",
+            "priority:contrib-needed",
+            "area:scaffolder"
+        ],
+        "created_at": "2026-08-24T10:09:31Z"
     },
     {
         "repo": "backstage/backstage",
@@ -27410,30 +27398,6 @@
         "repo": "litmuschaos/litmus",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Update Litmus logo on login page and main dashboard in ChaosCenter",
-        "url": "https://github.com/litmuschaos/litmus/issues/5255",
-        "labels": [
-            "good first issue",
-            "kind/enhancement"
-        ],
-        "created_at": "2025-10-23T12:42:00Z"
-    },
-    {
-        "repo": "litmuschaos/litmus",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Add new Helm installation method in ChaosCenter UI & API for deploying Chaos Infrastructure",
-        "url": "https://github.com/litmuschaos/litmus/issues/4897",
-        "labels": [
-            "good first issue",
-            "front-end-issue"
-        ],
-        "created_at": "2024-09-20T07:17:29Z"
-    },
-    {
-        "repo": "litmuschaos/litmus",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Add Fuzzing test suites in Litmus",
         "url": "https://github.com/litmuschaos/litmus/issues/4548",
         "labels": [
@@ -28644,17 +28608,6 @@
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
         "lang": "C",
-        "title": "[RFE] trace mount gadget should report network namespace",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1951",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2023-08-14T14:15:50Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
         "title": "[RFE] New gadget: snapshot file",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1774",
         "labels": [
@@ -28699,6 +28652,19 @@
             "good first issue"
         ],
         "created_at": "2022-12-20T20:49:15Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "[RFE] cmd/kubectl-version: Add more information to `version` command",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1060",
+        "labels": [
+            "kind/feature",
+            "good first issue",
+            "area/kubectl-gadget"
+        ],
+        "created_at": "2022-10-19T15:26:41Z"
     },
     {
         "repo": "jaegertracing/jaeger",
@@ -29267,6 +29233,19 @@
             "pinned"
         ],
         "created_at": "2020-12-18T17:28:29Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Stat Chart Orientation - Condensed View Possibility",
+        "url": "https://github.com/perses/perses/issues/4382",
+        "labels": [
+            "good first issue",
+            "priority/P1",
+            "plugin"
+        ],
+        "created_at": "2026-08-25T10:24:34Z"
     },
     {
         "repo": "perses/perses",
@@ -29982,6 +29961,18 @@
             "area/query"
         ],
         "created_at": "2022-02-11T23:49:53Z"
+    },
+    {
+        "repo": "prometheus/prometheus",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Native histograms: update mixin to support NHCB",
+        "url": "https://github.com/prometheus/prometheus/issues/19520",
+        "labels": [
+            "priority/Pmaybe",
+            "good first issue"
+        ],
+        "created_at": "2026-08-25T08:22:05Z"
     },
     {
         "repo": "prometheus/prometheus",
