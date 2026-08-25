@@ -5266,6 +5266,22 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "[OID4VCI] mdoc not properly configurable in admin console client scope tab",
+        "url": "https://github.com/keycloak/keycloak/issues/52041",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/oid4vc",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-25T15:45:38Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Workflows: `on: client-created` conditions are evaluated before the client is populated, so they can never match",
         "url": "https://github.com/keycloak/keycloak/issues/51594",
         "labels": [
@@ -5276,6 +5292,22 @@
             "area/workflows"
         ],
         "created_at": "2026-08-10T22:05:30Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Composite realm role mappings endpoint does not scale with the number of realm roles \u2014 the #47157 fix was applied only to the client variant",
+        "url": "https://github.com/keycloak/keycloak/issues/51531",
+        "labels": [
+            "kind/bug",
+            "area/admin/api",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-08-07T06:52:02Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5715,37 +5747,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-06-03T14:34:46Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Keycloak and Patroni failover and targetServerType=primary on pgBouncer",
-        "url": "https://github.com/keycloak/keycloak/issues/49515",
-        "labels": [
-            "kind/enhancement",
-            "area/dist/quarkus",
-            "help wanted",
-            "team/cloud-native",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-29T21:23:05Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[OID4VCI] Documentation of user settings (admin console, account console)",
-        "url": "https://github.com/keycloak/keycloak/issues/49503",
-        "labels": [
-            "help wanted",
-            "kind/task",
-            "area/oid4vc",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-05-29T15:21:29Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8100,19 +8101,6 @@
         "created_at": "2015-09-30T16:40:01Z"
     },
     {
-        "repo": "theupdateframework/python-tuf",
-        "tier": "Graduated",
-        "lang": "Python",
-        "title": "Improve subtests clean up",
-        "url": "https://github.com/theupdateframework/python-tuf/issues/1719",
-        "labels": [
-            "enhancement",
-            "testing",
-            "good first issue"
-        ],
-        "created_at": "2021-12-09T14:12:21Z"
-    },
-    {
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
@@ -8183,18 +8171,6 @@
             "priority/backlog"
         ],
         "created_at": "2026-01-12T00:18:49Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Integration coverage for TPM attestation",
-        "url": "https://github.com/spiffe/spire/issues/6466",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2025-11-30T10:14:21Z"
     },
     {
         "repo": "spiffe/spire",
@@ -23999,19 +23975,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Registry sync is broken for user with space in home folder",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/14881",
-        "labels": [
-            "good first issue",
-            "area/registries",
-            "domain/technical-debt"
-        ],
-        "created_at": "2025-11-13T16:32:17Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Options tooltip on podman machine actions menu does not hide",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/14879",
         "labels": [
@@ -24180,6 +24143,20 @@
             "lifecycle/stale"
         ],
         "created_at": "2025-02-27T17:18:20Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "UI/UX: Need to correct the wording in a pop-up for clarity",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/11098",
+        "labels": [
+            "good first issue",
+            "area/docker-compatibility \ud83d\udc33",
+            "hacktoberfest",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2025-02-12T05:32:34Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
