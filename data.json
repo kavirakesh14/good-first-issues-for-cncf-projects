@@ -1132,19 +1132,6 @@
         "repo": "kcl-lang/kcl",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "`kcl-language-server` crashes due to `MaxFilesWatch` error when more than `fs.inotify.max_user_watches` files are in `PWD`",
-        "url": "https://github.com/kcl-lang/kcl/issues/1865",
-        "labels": [
-            "bug",
-            "help wanted",
-            "lsp"
-        ],
-        "created_at": "2025-02-20T18:52:02Z"
-    },
-    {
-        "repo": "kcl-lang/kcl",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "generate sourcemaps",
         "url": "https://github.com/kcl-lang/kcl/issues/1630",
         "labels": [
@@ -5285,6 +5272,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Inconsistent use of Title Case vs. sentence case in default strings",
+        "url": "https://github.com/keycloak/keycloak/issues/51434",
+        "labels": [
+            "kind/bug",
+            "area/translations",
+            "help wanted",
+            "team/community",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-08-04T20:01:59Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Define all Core SCIM User multivalues attributes",
         "url": "https://github.com/keycloak/keycloak/issues/51308",
         "labels": [
@@ -5334,16 +5338,35 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Organization group-by-path endpoint returns a brief representation instead of a full representation",
-        "url": "https://github.com/keycloak/keycloak/issues/51263",
+        "title": "Broken \"User Session Note\"-Mapper",
+        "url": "https://github.com/keycloak/keycloak/issues/51258",
         "labels": [
-            "kind/enhancement",
+            "kind/bug",
+            "area/core",
             "help wanted",
-            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
             "priority/normal",
-            "area/organizations"
+            "team/core-protocols"
         ],
-        "created_at": "2026-07-29T09:13:28Z"
+        "created_at": "2026-07-29T06:58:06Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "UMA ticket grant fails with \"Invalid identity\" when using ONLINE_TRANSIENT_CLIENT token: transient session cached with started=now breaks checkTokenIssuedAt on second verification within same request",
+        "url": "https://github.com/keycloak/keycloak/issues/51250",
+        "labels": [
+            "kind/bug",
+            "area/token-exchange",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-07-28T15:51:01Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5683,42 +5706,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-06-04T13:26:20Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "ambiguous key rotation documentation",
-        "url": "https://github.com/keycloak/keycloak/issues/49658",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "area/docs",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-06-03T14:34:46Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Keycloak and Patroni failover and targetServerType=primary on pgBouncer",
-        "url": "https://github.com/keycloak/keycloak/issues/49515",
-        "labels": [
-            "kind/enhancement",
-            "area/dist/quarkus",
-            "help wanted",
-            "team/cloud-native",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-05-29T21:23:05Z"
     },
     {
         "repo": "keylime/keylime",
