@@ -2540,20 +2540,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Fix Code Block Alignment",
-        "url": "https://github.com/meshery/meshery/issues/21496",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-19T05:54:18Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "make golangci is red: 6 pre-existing SA5011 false positives in credentials_handlers_test.go",
         "url": "https://github.com/meshery/meshery/issues/21453",
         "labels": [
@@ -2896,6 +2882,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-28T19:28:49Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Fix Routing and Accuracy Issues in the Installation Section",
+        "url": "https://github.com/meshery/meshery/issues/20289",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-26T12:04:29Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
