@@ -2934,7 +2934,7 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "needs-triage"
+            "triage/accepted"
         ],
         "created_at": "2026-08-20T14:04:01Z"
     },
@@ -4785,20 +4785,6 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "dynamic auth generator for JFrog provider",
-        "url": "https://github.com/external-secrets/external-secrets/issues/4565",
-        "labels": [
-            "good first issue",
-            "kind/feature",
-            "track/providers",
-            "area/generator"
-        ],
-        "created_at": "2025-03-19T12:04:23Z"
-    },
-    {
-        "repo": "external-secrets/external-secrets",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "fetch all Azure KV/secret and KV/certificate in separate ClusterExternalSecret",
         "url": "https://github.com/external-secrets/external-secrets/issues/4541",
         "labels": [
@@ -5282,22 +5268,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Composite realm role mappings endpoint does not scale with the number of realm roles \u2014 the #47157 fix was applied only to the client variant",
-        "url": "https://github.com/keycloak/keycloak/issues/51531",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-08-07T06:52:02Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "SCIM filtered PATCH remove deletes all values for multivalued extension attributes",
         "url": "https://github.com/keycloak/keycloak/issues/51525",
         "labels": [
@@ -5732,6 +5702,23 @@
             "team/core-protocols"
         ],
         "created_at": "2026-06-03T14:34:46Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Keycloak and Patroni failover and targetServerType=primary on pgBouncer",
+        "url": "https://github.com/keycloak/keycloak/issues/49515",
+        "labels": [
+            "kind/enhancement",
+            "area/dist/quarkus",
+            "help wanted",
+            "team/cloud-native",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-05-29T21:23:05Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8726,24 +8713,6 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
-        "title": "[BUG] Volume expansion snapshot CR name expand-<size> collides across volumes",
-        "url": "https://github.com/longhorn/longhorn/issues/13386",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "reproduce/always",
-            "priority/0",
-            "require/auto-e2e-test",
-            "area/volume-expansion",
-            "require/backport",
-            "backport/1.12.2"
-        ],
-        "created_at": "2026-06-23T14:49:56Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
         "title": "[BUG] Cloned volume stuck \"not ready for workloads\" after the clone finishes (v1.12.0, v1 engine)",
         "url": "https://github.com/longhorn/longhorn/issues/13335",
         "labels": [
@@ -9206,23 +9175,6 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
-        "title": "[BUG] engine-image-ei with noexec /var filesystem ",
-        "url": "https://github.com/longhorn/longhorn/issues/9083",
-        "labels": [
-            "kind/bug",
-            "priority/0",
-            "require/auto-e2e-test",
-            "require/doc",
-            "area/environment-issue",
-            "require/qa-review-coverage",
-            "help wanted"
-        ],
-        "created_at": "2024-07-24T23:30:38Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
         "title": "[IMPROVEMENT] share-manager-pvc should have its own toleration setting or nodeaffinity for replica zones",
         "url": "https://github.com/longhorn/longhorn/issues/6509",
         "labels": [
@@ -9235,6 +9187,23 @@
             "help wanted"
         ],
         "created_at": "2023-08-11T21:53:42Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
+        "title": "[BUG] engine-image-ei with noexec /var filesystem ",
+        "url": "https://github.com/longhorn/longhorn/issues/9083",
+        "labels": [
+            "kind/bug",
+            "priority/0",
+            "require/auto-e2e-test",
+            "require/doc",
+            "area/environment-issue",
+            "require/qa-review-coverage",
+            "help wanted"
+        ],
+        "created_at": "2024-07-24T23:30:38Z"
     },
     {
         "repo": "longhorn/longhorn",
@@ -11030,17 +10999,6 @@
         "repo": "interlink-hq/interLink",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "interlink server api call to get the running version",
-        "url": "https://github.com/interlink-hq/interLink/issues/544",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-07-29T07:23:27Z"
-    },
-    {
-        "repo": "interlink-hq/interLink",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Distribute installer as a Krew kubectl plugin",
         "url": "https://github.com/interlink-hq/interLink/issues/352",
         "labels": [
@@ -12151,7 +12109,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "testing: 89 of 165 packages have no helm test target, including eight user-facing apps",
         "url": "https://github.com/cozystack/cozystack/issues/3631",
         "labels": [
@@ -12166,7 +12124,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "testing: pin the label-writing workflows with contract tests",
         "url": "https://github.com/cozystack/cozystack/issues/3589",
         "labels": [
@@ -12182,7 +12140,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "Move namespace.cozystack.io/host from namespace label to annotation",
         "url": "https://github.com/cozystack/cozystack/issues/2002",
         "labels": [
@@ -12196,7 +12154,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "Removing of etcd-cluster should also remove all the secrets and datastore",
         "url": "https://github.com/cozystack/cozystack/issues/154",
         "labels": [
@@ -12209,7 +12167,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "[mariadb-operator] Bootstrap replica from mariabackup",
         "url": "https://github.com/cozystack/cozystack/issues/32",
         "labels": [
@@ -19321,21 +19279,6 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Do not show version of the provider in a tile",
-        "url": "https://github.com/openeverest/openeverest/issues/3051",
-        "labels": [
-            "good first issue",
-            "chore",
-            "ui",
-            "v2",
-            "triage/accepted"
-        ],
-        "created_at": "2026-08-25T11:48:28Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Harden the rate-limiter data-race regression test so it cannot silently no-op",
         "url": "https://github.com/openeverest/openeverest/issues/2958",
         "labels": [
@@ -20557,21 +20500,6 @@
             "help wanted"
         ],
         "created_at": "2026-06-17T10:27:20Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
-        "title": "refactor: simplify compatibility checker type hierarchy",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8184",
-        "labels": [
-            "area/serdes",
-            "area/rules",
-            "area/rules/integrity",
-            "area/rules/validity",
-            "help wanted"
-        ],
-        "created_at": "2026-06-10T09:41:11Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
@@ -23761,6 +23689,19 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "Left navigation resize border visible on hover during welcome dialog",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/18959",
+        "labels": [
+            "good first issue",
+            "status/need-triage",
+            "domain/ui-components"
+        ],
+        "created_at": "2026-08-26T07:43:17Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Networks page shows ID and then NAME after",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18916",
         "labels": [
@@ -24128,20 +24069,6 @@
             "lifecycle/stale"
         ],
         "created_at": "2025-02-27T17:18:20Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "UI/UX: Need to correct the wording in a pop-up for clarity",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/11098",
-        "labels": [
-            "good first issue",
-            "area/docker-compatibility \ud83d\udc33",
-            "hacktoberfest",
-            "domain/ui-components/reviewed"
-        ],
-        "created_at": "2025-02-12T05:32:34Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -24791,6 +24718,21 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Changed behaviour in GrafanaFolder CRD makes ArgoCD mark CR as degraded",
+        "url": "https://github.com/argoproj/argo-cd/issues/29395",
+        "labels": [
+            "bug",
+            "good first issue",
+            "bug/severity:minor",
+            "triage/pending",
+            "component:core"
+        ],
+        "created_at": "2026-08-26T09:11:46Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "badges with short revisions are too wide",
         "url": "https://github.com/argoproj/argo-cd/issues/29335",
         "labels": [
@@ -25180,20 +25122,6 @@
             "component:ui"
         ],
         "created_at": "2023-02-03T05:31:18Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Ingress link is not handled correctly if path: contains regex",
-        "url": "https://github.com/argoproj/argo-cd/issues/12254",
-        "labels": [
-            "bug",
-            "good first issue",
-            "component:ui",
-            "bug/priority:low"
-        ],
-        "created_at": "2023-02-02T10:08:00Z"
     },
     {
         "repo": "fluxcd/flux2",
@@ -29200,6 +29128,18 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Replace All with Custom-All for the panel header title and description",
+        "url": "https://github.com/perses/perses/issues/4383",
+        "labels": [
+            "good first issue",
+            "ui"
+        ],
+        "created_at": "2026-08-26T12:08:16Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Stat Chart Orientation - Condensed View Possibility",
         "url": "https://github.com/perses/perses/issues/4382",
         "labels": [
@@ -29213,19 +29153,6 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Panel Title Expand \u201cAll\u201c Variable Selections",
-        "url": "https://github.com/perses/perses/issues/4335",
-        "labels": [
-            "good first issue",
-            "ui",
-            "priority/P2"
-        ],
-        "created_at": "2026-08-03T11:35:58Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Adding a Query Play Ground to the Query Viewer",
         "url": "https://github.com/perses/perses/issues/4333",
         "labels": [
@@ -29234,18 +29161,6 @@
             "priority/P2"
         ],
         "created_at": "2026-08-03T11:07:38Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Panel buttons are partially  visible when panels shrink",
-        "url": "https://github.com/perses/perses/issues/4314",
-        "labels": [
-            "good first issue",
-            "ui"
-        ],
-        "created_at": "2026-07-28T14:18:21Z"
     },
     {
         "repo": "perses/perses",
