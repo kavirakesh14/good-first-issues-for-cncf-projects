@@ -2513,6 +2513,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Add copy button to command blocks on the mesheryctl reference pages",
+        "url": "https://github.com/meshery/meshery/issues/21631",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-27T03:03:51Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Sign-off (DCO) VS Code screenshot misaligned to the right on wide screens",
         "url": "https://github.com/meshery/meshery/issues/21538",
         "labels": [
@@ -2869,20 +2883,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-28T19:28:49Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Fix Routing and Accuracy Issues in the Installation Section",
-        "url": "https://github.com/meshery/meshery/issues/20289",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-26T12:04:29Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -5224,6 +5224,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Login page: Shift+Enter in username/email field opens a new login window with disabled \"Sign In\" button and stale auth flow",
+        "url": "https://github.com/keycloak/keycloak/issues/52056",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/login/ui",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-authn"
+        ],
+        "created_at": "2026-08-26T07:39:43Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "[OID4VCI] mdoc not properly configurable in admin console client scope tab",
         "url": "https://github.com/keycloak/keycloak/issues/52041",
         "labels": [
@@ -5235,6 +5252,23 @@
             "team/core-protocols"
         ],
         "created_at": "2026-08-25T15:45:38Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Special char password policy validation of backend and frontend do not match",
+        "url": "https://github.com/keycloak/keycloak/issues/51874",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/login/ui",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-authn"
+        ],
+        "created_at": "2026-08-20T07:30:35Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5670,42 +5704,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-06-07T14:15:41Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Identity provider details causes double API call",
-        "url": "https://github.com/keycloak/keycloak/issues/49721",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-06-05T13:52:25Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Refreshing the page causes the app to go to login screen again when not on same domain",
-        "url": "https://github.com/keycloak/keycloak/issues/49691",
-        "labels": [
-            "kind/bug",
-            "area/adapter/javascript",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-06-04T13:26:20Z"
     },
     {
         "repo": "keylime/keylime",
@@ -7515,19 +7513,6 @@
             "good first issue"
         ],
         "created_at": "2023-11-20T20:12:47Z"
-    },
-    {
-        "repo": "ratify-project/ratify",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Support AWS ECR Auth Store based on the Ratify v2.0 architecture",
-        "url": "https://github.com/notaryproject/ratify/issues/2354",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "triage"
-        ],
-        "created_at": "2025-07-22T00:32:45Z"
     },
     {
         "repo": "ratify-project/ratify",
@@ -15458,6 +15443,18 @@
             "kind/feature"
         ],
         "created_at": "2026-03-30T11:53:52Z"
+    },
+    {
+        "repo": "volcano-sh/volcano",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Queue status update conflicts and .Status.Allocated overwrites under multi-scheduler architecture",
+        "url": "https://github.com/volcano-sh/volcano/issues/5084",
+        "labels": [
+            "help wanted",
+            "kind/bug"
+        ],
+        "created_at": "2026-03-05T07:32:13Z"
     },
     {
         "repo": "volcano-sh/volcano",
@@ -30922,43 +30919,6 @@
             "needs-investigation"
         ],
         "created_at": "2022-08-22T13:46:01Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "AWS Timestream support",
-        "url": "https://github.com/trickstercache/trickster/issues/684",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2023-07-19T00:47:17Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Support New Origin Type: Grafana",
-        "url": "https://github.com/trickstercache/trickster/issues/8",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2018-03-29T23:24:47Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Support New Origin Type: Elasticsearch",
-        "url": "https://github.com/trickstercache/trickster/issues/7",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "2.x release"
-        ],
-        "created_at": "2018-03-29T23:16:58Z"
     },
     {
         "repo": "spinframework/spin",
