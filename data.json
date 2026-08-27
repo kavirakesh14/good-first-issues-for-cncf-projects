@@ -2513,6 +2513,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Relationships: Add a visual example for non-semantic relationship",
+        "url": "https://github.com/meshery/meshery/issues/21633",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-27T10:22:06Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Add copy button to command blocks on the mesheryctl reference pages",
         "url": "https://github.com/meshery/meshery/issues/21631",
         "labels": [
@@ -2869,20 +2883,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-30T00:07:49Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Model: Intra-page table of content dysfunctional for \"model\" pages.",
-        "url": "https://github.com/meshery/meshery/issues/20339",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-28T19:28:49Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -5274,6 +5274,22 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Exceptions in Kubernetes federated-client-authentication signature verification are silently swallowed with no default-level log trace",
+        "url": "https://github.com/keycloak/keycloak/issues/51682",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-08-12T14:05:25Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Workflows: `on: client-created` conditions are evaluated before the client is populated, so they can never match",
         "url": "https://github.com/keycloak/keycloak/issues/51594",
         "labels": [
@@ -5284,6 +5300,23 @@
             "area/workflows"
         ],
         "created_at": "2026-08-10T22:05:30Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Keycloak Admin UI: Client - Authorization - Evaluate - Resources and Scopes - Key search does not work",
+        "url": "https://github.com/keycloak/keycloak/issues/51585",
+        "labels": [
+            "area/authorization-services",
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-08-10T14:42:18Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5672,40 +5705,6 @@
         "created_at": "2026-06-11T14:42:40Z"
     },
     {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Concurrent first-broker-login throws an unhandled duplicate-key violation in addFederatedIdentity (BROKER_LINK PK)",
-        "url": "https://github.com/keycloak/keycloak/issues/49769",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-06-08T09:46:48Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Firefox stuck on \"Loading the Administration Console\"",
-        "url": "https://github.com/keycloak/keycloak/issues/49752",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-06-07T14:15:41Z"
-    },
-    {
         "repo": "keylime/keylime",
         "tier": "Sandbox",
         "lang": "Python",
@@ -5822,6 +5821,18 @@
             "help wanted"
         ],
         "created_at": "2022-11-07T20:46:31Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[CI]: Automatically create GitHub issue with report on Trivy vulnerability scan failure",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2851",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-08-27T06:55:24Z"
     },
     {
         "repo": "kubearmor/kubearmor",
@@ -12596,6 +12607,19 @@
         "repo": "k0sproject/k0s",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Non-default --status-socket or --run-dir break autopilot",
+        "url": "https://github.com/k0sproject/k0s/issues/6750",
+        "labels": [
+            "bug",
+            "good first issue",
+            "component/autopilot"
+        ],
+        "created_at": "2025-11-28T15:23:48Z"
+    },
+    {
+        "repo": "k0sproject/k0s",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "More Detailed CNI Health in `k0s status`",
         "url": "https://github.com/k0sproject/k0s/issues/5886",
         "labels": [
@@ -15803,19 +15827,6 @@
         "repo": "etcd-io/etcd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "RFC: StoreV2 deprecation plan",
-        "url": "https://github.com/etcd-io/etcd/issues/12913",
-        "labels": [
-            "help wanted",
-            "priority/important-soon",
-            "stage/tracked"
-        ],
-        "created_at": "2021-04-30T12:51:29Z"
-    },
-    {
-        "repo": "etcd-io/etcd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Explicit client versioning",
         "url": "https://github.com/etcd-io/etcd/issues/10246",
         "labels": [
@@ -18076,20 +18087,6 @@
             "Good First Issue"
         ],
         "created_at": "2026-01-13T14:59:44Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "e2e tests: Replace curl pod with native Go code",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/13053",
-        "labels": [
-            "Good First Issue",
-            "stale",
-            "Testing",
-            "help wanted"
-        ],
-        "created_at": "2025-12-04T20:21:22Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -21078,6 +21075,20 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Add configurable pacing and safer resource defaults for search collators",
+        "url": "https://github.com/backstage/backstage/issues/35315",
+        "labels": [
+            "type:suggestion",
+            "good first issue",
+            "priority:contrib-needed",
+            "area:search"
+        ],
+        "created_at": "2026-08-27T05:15:50Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Scaffolder BUI theme EntityPicker: onBlur re-commits display label as entityRef, corrupting valid selections",
         "url": "https://github.com/backstage/backstage/issues/35281",
         "labels": [
@@ -21087,6 +21098,19 @@
             "area:scaffolder"
         ],
         "created_at": "2026-08-24T10:09:31Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Scaffolder wizard doesn't scroll to top on step change when app uses the NFS",
+        "url": "https://github.com/backstage/backstage/issues/35278",
+        "labels": [
+            "type:bug",
+            "good first issue",
+            "area:scaffolder"
+        ],
+        "created_at": "2026-08-24T08:50:23Z"
     },
     {
         "repo": "backstage/backstage",
@@ -23673,31 +23697,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Left navigation resize border visible on hover during welcome dialog",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18959",
-        "labels": [
-            "good first issue",
-            "status/need-triage",
-            "domain/ui-components"
-        ],
-        "created_at": "2026-08-26T07:43:17Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Networks page shows ID and then NAME after",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18916",
-        "labels": [
-            "good first issue",
-            "status/need-triage"
-        ],
-        "created_at": "2026-08-24T21:01:31Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Unify Push image icon across hamburger menu and modal",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18850",
         "labels": [
@@ -23922,19 +23921,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "refactor(ProviderRegistry): `getMatchingConnectionFromProvider` should not have fallback condition",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/13530",
-        "labels": [
-            "good first issue",
-            "hacktoberfest",
-            "lifecycle/stale"
-        ],
-        "created_at": "2025-08-08T10:13:11Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Podman Setup/Create page cannot find krunkit",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/13482",
         "labels": [
@@ -24053,6 +24039,47 @@
             "lifecycle/stale"
         ],
         "created_at": "2025-02-27T17:18:20Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "UI/UX: Need to correct the wording in a pop-up for clarity",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/11098",
+        "labels": [
+            "good first issue",
+            "area/docker-compatibility \ud83d\udc33",
+            "hacktoberfest",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2025-02-12T05:32:34Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Avoid creation of extension file watcher on non-existent folder",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/11018",
+        "labels": [
+            "good first issue",
+            "area/extensions \ud83e\udde9",
+            "hacktoberfest"
+        ],
+        "created_at": "2025-02-06T15:37:08Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "search option is shifting the terminal display",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/10819",
+        "labels": [
+            "good first issue",
+            "area/terminal",
+            "hacktoberfest",
+            "domain/ui-components/reviewed"
+        ],
+        "created_at": "2025-01-24T08:41:03Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -26637,18 +26664,6 @@
         "repo": "flatcar/Flatcar",
         "tier": "Incubating",
         "lang": "Unknown",
-        "title": "Drop net-misc/bridge-utils eventually",
-        "url": "https://github.com/flatcar/Flatcar/issues/638",
-        "labels": [
-            "good first issue",
-            "area/packages"
-        ],
-        "created_at": "2022-02-23T12:44:57Z"
-    },
-    {
-        "repo": "flatcar/Flatcar",
-        "tier": "Incubating",
-        "lang": "Unknown",
         "title": "[RFE] Include certs.d registry plugin in containerd config.toml",
         "url": "https://github.com/flatcar/Flatcar/issues/583",
         "labels": [
@@ -29112,13 +29127,14 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Replace All with Custom-All for the panel header title and description",
-        "url": "https://github.com/perses/perses/issues/4383",
+        "title": "Refresh interval picker should be configurable",
+        "url": "https://github.com/perses/perses/issues/4385",
         "labels": [
             "good first issue",
-            "ui"
+            "ui",
+            "priority/P1"
         ],
-        "created_at": "2026-08-26T12:08:16Z"
+        "created_at": "2026-08-27T08:17:29Z"
     },
     {
         "repo": "perses/perses",
