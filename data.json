@@ -12219,7 +12219,8 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "composition"
+            "composition",
+            "stale"
         ],
         "created_at": "2025-08-22T14:18:34Z"
     },
@@ -31118,6 +31119,18 @@
             "help wanted"
         ],
         "created_at": "2024-09-18T19:24:38Z"
+    },
+    {
+        "repo": "kaito-project/kaito",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Report actual max-model-len in Workspace status",
+        "url": "https://github.com/kaito-project/kaito/issues/2257",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-08-05T20:42:17Z"
     },
     {
         "repo": "kaito-project/kaito",
