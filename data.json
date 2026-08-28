@@ -2513,6 +2513,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[README] [Enhancement] Ensure installation one-liner is prominent and accessible",
+        "url": "https://github.com/meshery/meshery/issues/21668",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-28T20:47:16Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Relationships: Add a visual example for non-semantic relationship",
         "url": "https://github.com/meshery/meshery/issues/21633",
         "labels": [
@@ -2522,20 +2536,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-08-27T10:22:06Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Add copy button to command blocks on the mesheryctl reference pages",
-        "url": "https://github.com/meshery/meshery/issues/21631",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-27T03:03:51Z"
     },
     {
         "repo": "meshery/meshery",
@@ -5224,6 +5224,22 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "[OID4VCI] Cannot unset values when configuring OID4VCI credential scope",
+        "url": "https://github.com/keycloak/keycloak/issues/52190",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/oid4vc",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-28T19:17:23Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Login page: Shift+Enter in username/email field opens a new login window with disabled \"Sign In\" button and stale auth flow",
         "url": "https://github.com/keycloak/keycloak/issues/52056",
         "labels": [
@@ -5532,6 +5548,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Allow all OAuth scope characters in organization alias",
+        "url": "https://github.com/keycloak/keycloak/issues/50703",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "area/organizations"
+        ],
+        "created_at": "2026-07-08T17:00:45Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "CIMD: Unbounded persistent client creation via path variation",
         "url": "https://github.com/keycloak/keycloak/issues/50532",
         "labels": [
@@ -5667,42 +5700,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-06-23T07:47:02Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Space and non-printable characters in group name",
-        "url": "https://github.com/keycloak/keycloak/issues/50004",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/core-iam",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-06-15T08:27:15Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "client-policies: secure-redirect-uris-enforcer does not work with empty logout redirect URIs list",
-        "url": "https://github.com/keycloak/keycloak/issues/49911",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-06-11T14:42:40Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6486,6 +6483,18 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[Support]: Cookie Refresh Behaviour",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3525",
+        "labels": [
+            "help wanted",
+            "configuration"
+        ],
+        "created_at": "2026-08-28T11:30:54Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Bug]: Auth bypass: spoofed X-Forwarded-Uri skips auth for protected upstream paths under default reverse-proxy config",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3506",
         "labels": [
@@ -6830,18 +6839,6 @@
             "help wanted"
         ],
         "created_at": "2025-09-25T02:37:04Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Bug]: CSRF Expiry timeout validation is based on Cookie Timeout",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3203",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2025-09-24T10:19:17Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -12590,19 +12587,6 @@
             "area/worker"
         ],
         "created_at": "2026-04-01T14:04:05Z"
-    },
-    {
-        "repo": "k0sproject/k0s",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Pass CAP_NET_BIND_SERVICE to kube-apiserver",
-        "url": "https://github.com/k0sproject/k0s/issues/7221",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "area/controlplane"
-        ],
-        "created_at": "2026-03-06T00:24:56Z"
     },
     {
         "repo": "k0sproject/k0s",
@@ -19261,6 +19245,21 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[UI] Main screen has poor CTA when there are no providers",
+        "url": "https://github.com/openeverest/openeverest/issues/3071",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "help wanted",
+            "ui",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-28T15:48:57Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "Harden the rate-limiter data-race regression test so it cannot silently no-op",
         "url": "https://github.com/openeverest/openeverest/issues/2958",
         "labels": [
@@ -19287,20 +19286,6 @@
             "triage/accepted"
         ],
         "created_at": "2026-08-16T13:55:23Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Password policy best practices",
-        "url": "https://github.com/openeverest/openeverest/issues/2906",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-08-12T12:01:18Z"
     },
     {
         "repo": "openeverest/openeverest",
@@ -22355,6 +22340,19 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "htpasswd function does not expose algorithm parameter",
+        "url": "https://github.com/helm/helm/issues/31924",
+        "labels": [
+            "help wanted",
+            "feature",
+            "good first issue"
+        ],
+        "created_at": "2026-03-11T19:51:34Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Display oci annotations or created date if annotation exists in helm show chart command",
         "url": "https://github.com/helm/helm/issues/30787",
         "labels": [
@@ -22494,18 +22492,6 @@
             "unconfirmed"
         ],
         "created_at": "2026-04-22T11:07:45Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "htpasswd function does not expose algorithm parameter",
-        "url": "https://github.com/helm/helm/issues/31924",
-        "labels": [
-            "help wanted",
-            "feature"
-        ],
-        "created_at": "2026-03-11T19:51:34Z"
     },
     {
         "repo": "helm/helm",
@@ -30228,19 +30214,6 @@
         "repo": "prometheus/prometheus",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "replace uber atomic with stdlib atomic types",
-        "url": "https://github.com/prometheus/prometheus/issues/14866",
-        "labels": [
-            "help wanted",
-            "not-as-easy-as-it-looks",
-            "priority/P3"
-        ],
-        "created_at": "2024-09-09T00:05:37Z"
-    },
-    {
-        "repo": "prometheus/prometheus",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "PromQL: Need richer label matcher logic (or apply matchers to expressions?)",
         "url": "https://github.com/prometheus/prometheus/issues/14824",
         "labels": [
@@ -30263,6 +30236,18 @@
             "component/scraping"
         ],
         "created_at": "2024-09-04T09:25:50Z"
+    },
+    {
+        "repo": "prometheus/prometheus",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[Error] Setup prometheus to scrape from MS instances registered in Eureka SD with random port",
+        "url": "https://github.com/prometheus/prometheus/issues/14632",
+        "labels": [
+            "help wanted",
+            "component/service discovery"
+        ],
+        "created_at": "2024-08-09T01:49:45Z"
     },
     {
         "repo": "thanos-io/thanos",
