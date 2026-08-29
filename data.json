@@ -2081,6 +2081,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[UI] Missing dropdown caret icon in Workspace Environment selector",
+        "url": "https://github.com/meshery/meshery/issues/21674",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "good first issue",
+            "first-timers-only",
+            "issue/valid"
+        ],
+        "created_at": "2026-08-29T11:04:48Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Fix horizontal page overflow affecting embedded videos on smaller screens",
         "url": "https://github.com/meshery/meshery/issues/21594",
         "labels": [
@@ -2499,20 +2514,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Add support for sort by count for database table in settings registry page",
-        "url": "https://github.com/meshery/meshery/issues/13958",
-        "labels": [
-            "kind/enhancement",
-            "help wanted",
-            "good first issue",
-            "language/go"
-        ],
-        "created_at": "2025-03-11T09:09:30Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[README] [Enhancement] Ensure installation one-liner is prominent and accessible",
         "url": "https://github.com/meshery/meshery/issues/21668",
         "labels": [
@@ -2869,20 +2870,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-30T00:07:49Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Model: Intra-page table of content dysfunctional for \"model\" pages.",
-        "url": "https://github.com/meshery/meshery/issues/20339",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-28T19:28:49Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -21084,19 +21071,6 @@
             "area:scaffolder"
         ],
         "created_at": "2026-08-24T10:09:31Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Scaffolder wizard doesn't scroll to top on step change when app uses the NFS",
-        "url": "https://github.com/backstage/backstage/issues/35278",
-        "labels": [
-            "type:bug",
-            "good first issue",
-            "area:scaffolder"
-        ],
-        "created_at": "2026-08-24T08:50:23Z"
     },
     {
         "repo": "backstage/backstage",
