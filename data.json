@@ -2675,20 +2675,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Broken link for Docker Desktop in WSL2 instructions",
-        "url": "https://github.com/meshery/meshery/issues/21005",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-29T11:43:43Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Improve the ease of navigation of the table of contents sidebar",
         "url": "https://github.com/meshery/meshery/issues/20840",
         "labels": [
@@ -2883,6 +2869,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-06-30T00:07:49Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Model: Intra-page table of content dysfunctional for \"model\" pages.",
+        "url": "https://github.com/meshery/meshery/issues/20339",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-06-28T19:28:49Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
