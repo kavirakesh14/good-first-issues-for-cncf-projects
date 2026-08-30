@@ -1041,36 +1041,6 @@
         "repo": "kcl-lang/kcl",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "[Enhancement][Track] More Editor or IDE extension support based on the kcl language server",
-        "url": "https://github.com/kcl-lang/kcl/issues/513",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "ide",
-            "lsp",
-            "long-term"
-        ],
-        "created_at": "2023-04-18T02:23:56Z"
-    },
-    {
-        "repo": "kcl-lang/kcl",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "[Enhancement][Track] More KCL multilingual API & SDK support",
-        "url": "https://github.com/kcl-lang/kcl/issues/388",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "api",
-            "long-term",
-            "sdk"
-        ],
-        "created_at": "2023-01-29T11:33:24Z"
-    },
-    {
-        "repo": "kcl-lang/kcl",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "KCL builtin file system package with git support",
         "url": "https://github.com/kcl-lang/kcl/issues/2107",
         "labels": [
@@ -1091,31 +1061,6 @@
             "integration"
         ],
         "created_at": "2026-03-19T01:28:20Z"
-    },
-    {
-        "repo": "kcl-lang/kcl",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "kcl\u8f93\u51fa\u683c\u5f0f\u4ec5\u652f\u6301json\u548cyaml,\u671f\u671b\u53ef\u4ee5\u7075\u6d3b\u6269\u5c55",
-        "url": "https://github.com/kcl-lang/kcl/issues/2051",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "tool"
-        ],
-        "created_at": "2026-01-26T04:07:49Z"
-    },
-    {
-        "repo": "kcl-lang/kcl",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "KCL LSP cannot find installed modules",
-        "url": "https://github.com/kcl-lang/kcl/issues/1869",
-        "labels": [
-            "help wanted",
-            "lsp"
-        ],
-        "created_at": "2025-02-25T19:51:24Z"
     },
     {
         "repo": "kcl-lang/kcl",
@@ -1168,20 +1113,6 @@
             "lang-design"
         ],
         "created_at": "2024-05-04T21:40:11Z"
-    },
-    {
-        "repo": "kcl-lang/kcl",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "[Feature] KCL supports debugging toolchain",
-        "url": "https://github.com/kcl-lang/kcl/issues/188",
-        "labels": [
-            "help wanted",
-            "tool",
-            "debug",
-            "long-term"
-        ],
-        "created_at": "2022-09-07T08:16:45Z"
     },
     {
         "repo": "kitops-ml/kitops",
