@@ -23927,20 +23927,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "chore(codecov): enable bundle analysis",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/12161",
-        "labels": [
-            "good first issue",
-            "area/tooling \ud83d\udee0\ufe0f",
-            "hacktoberfest",
-            "lifecycle/stale"
-        ],
-        "created_at": "2025-04-11T08:01:22Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Canceling permissions prompt on CLI tool update in PD is ignored",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/11669",
         "labels": [
@@ -23949,21 +23935,6 @@
             "os/macOS \ud83c\udf4e"
         ],
         "created_at": "2025-03-14T11:49:40Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Removing `*Sync` operation in Podman Desktop",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/11434",
-        "labels": [
-            "good first issue",
-            "area/development-mode \ud83e\uddd1\u200d\ud83d\udcbb",
-            "area/tooling \ud83d\udee0\ufe0f",
-            "hacktoberfest",
-            "lifecycle/stale"
-        ],
-        "created_at": "2025-02-27T17:18:20Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -23988,7 +23959,8 @@
         "labels": [
             "good first issue",
             "area/extensions \ud83e\udde9",
-            "hacktoberfest"
+            "hacktoberfest",
+            "lifecycle/stale"
         ],
         "created_at": "2025-02-06T15:37:08Z"
     },
@@ -24005,6 +23977,19 @@
             "domain/ui-components/reviewed"
         ],
         "created_at": "2025-01-24T08:41:03Z"
+    },
+    {
+        "repo": "podman-desktop/podman-desktop",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "\"Path\" title for podman binary should be \"Path to Binary\"",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/3847",
+        "labels": [
+            "good first issue",
+            "domain/documentation \ud83d\udcd6",
+            "hacktoberfest"
+        ],
+        "created_at": "2023-09-08T13:53:41Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
