@@ -2090,19 +2090,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Server] Unguarded SendEvent on possibly-nil instance in auto_register (dormant latent crash)",
-        "url": "https://github.com/meshery/meshery/issues/20821",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "component/server"
-        ],
-        "created_at": "2026-07-20T16:26:09Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Improve FAQ layout on the Meshery Playground page",
         "url": "https://github.com/meshery/meshery/issues/20755",
         "labels": [
@@ -2391,6 +2378,20 @@
             "framework/playwright"
         ],
         "created_at": "2025-04-29T18:59:42Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Add support for sort by count for database table in settings registry page",
+        "url": "https://github.com/meshery/meshery/issues/13958",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "language/go"
+        ],
+        "created_at": "2025-03-11T09:09:30Z"
     },
     {
         "repo": "meshery/meshery",
@@ -5093,6 +5094,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Combining client x509 cert credentials and JWT Authorization Grants creates audience clash",
+        "url": "https://github.com/keycloak/keycloak/issues/52192",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-28T20:42:51Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "[OID4VCI] Cannot unset values when configuring OID4VCI credential scope",
         "url": "https://github.com/keycloak/keycloak/issues/52190",
         "labels": [
@@ -5104,6 +5122,22 @@
             "team/core-protocols"
         ],
         "created_at": "2026-08-28T19:17:23Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "[CIMD] ClientUpdaterSourceGroupsCondition and ClientUpdaterSourceRolesCondition prevent usage of CIMD",
+        "url": "https://github.com/keycloak/keycloak/issues/52152",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-27T16:25:59Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5154,6 +5188,23 @@
             "team/core-authn"
         ],
         "created_at": "2026-08-20T07:30:35Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "CORS Origin validation rejects non-browser token requests (direct grant, client credentials)",
+        "url": "https://github.com/keycloak/keycloak/issues/51831",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-19T00:06:17Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5236,6 +5287,40 @@
             "status/auto-bump"
         ],
         "created_at": "2026-08-04T20:01:59Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "SAML endpoint returns HTTP 500 on an unauthenticated LogoutRequest when the client has no logout service URL",
+        "url": "https://github.com/keycloak/keycloak/issues/51371",
+        "labels": [
+            "area/saml",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-02T13:56:22Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Duplicate realm roles in access token when multiple client scopes with `User Realm Roles` protocol mapper are requested",
+        "url": "https://github.com/keycloak/keycloak/issues/51360",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-02T00:11:07Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5335,6 +5420,38 @@
             "priority/normal"
         ],
         "created_at": "2026-07-28T10:40:50Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Back-channel logout: replayed logout_token (same jti) re-terminates sessions; jti single-use not enforced",
+        "url": "https://github.com/keycloak/keycloak/issues/51218",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-07-28T03:21:50Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Docs: offline.adoc - missing behavior for password reset and disable/re-enable cycles",
+        "url": "https://github.com/keycloak/keycloak/issues/50926",
+        "labels": [
+            "area/oidc",
+            "kind/enhancement",
+            "help wanted",
+            "priority/low",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-07-15T13:59:19Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5457,118 +5574,6 @@
             "kind/weakness"
         ],
         "created_at": "2026-07-01T16:08:38Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "CIMD: backchannel_logout_uri/request_uris/frontchannel_logout_uri not checked against trustedDomains",
-        "url": "https://github.com/keycloak/keycloak/issues/50530",
-        "labels": [
-            "help wanted",
-            "priority/normal",
-            "team/core-protocols",
-            "kind/weakness"
-        ],
-        "created_at": "2026-07-01T16:08:31Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "CIMD: SSRF allowlist bypass via sector_identifier_uri in fetched metadata",
-        "url": "https://github.com/keycloak/keycloak/issues/50529",
-        "labels": [
-            "help wanted",
-            "priority/normal",
-            "team/core-protocols",
-            "kind/weakness"
-        ],
-        "created_at": "2026-07-01T16:08:25Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Organization Membership mapper omits the claim for users with zero organizations instead of emitting an empty value",
-        "url": "https://github.com/keycloak/keycloak/issues/50410",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "area/organizations"
-        ],
-        "created_at": "2026-06-29T08:22:43Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Locatilization for Vietnamese: font face error (unicode characters)",
-        "url": "https://github.com/keycloak/keycloak/issues/50384",
-        "labels": [
-            "kind/bug",
-            "area/account/ui",
-            "help wanted",
-            "team/community",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-06-28T02:24:46Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "DPoP: Logout with a DPoP-bound refresh token always fails with \"DPoP proof is missing\"",
-        "url": "https://github.com/keycloak/keycloak/issues/50306",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-06-24T12:26:40Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "NullPointerException in ResourceIndicatorsPostProcessor when refresh token is null",
-        "url": "https://github.com/keycloak/keycloak/issues/50251",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-06-23T12:44:11Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Creating a custom 'EventStoreProvider' implementation with order() < 0  results in a NPE",
-        "url": "https://github.com/keycloak/keycloak/issues/50244",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-06-23T07:47:02Z"
     },
     {
         "repo": "keylime/keylime",
@@ -11586,6 +11591,19 @@
         "repo": "agones-dev/agones",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Flacky: TestFleetStrategyValidation",
+        "url": "https://github.com/agones-dev/agones/issues/4702",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/tests"
+        ],
+        "created_at": "2026-08-31T22:14:29Z"
+    },
+    {
+        "repo": "agones-dev/agones",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Flaky: TestGameServerTcpProtocol",
         "url": "https://github.com/agones-dev/agones/issues/4686",
         "labels": [
@@ -14052,20 +14070,6 @@
             "triage/accepted"
         ],
         "created_at": "2022-09-26T12:05:17Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "tracker: improve the kubelet test coverage",
-        "url": "https://github.com/kubernetes/kubernetes/issues/109717",
-        "labels": [
-            "sig/node",
-            "help wanted",
-            "good first issue",
-            "needs-triage"
-        ],
-        "created_at": "2022-04-29T06:51:28Z"
     },
     {
         "repo": "kubernetes/kubernetes",
@@ -23543,19 +23547,6 @@
             "domain/ui-components"
         ],
         "created_at": "2026-08-11T21:22:24Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Update \"clean / purge data\" button with more information",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18760",
-        "labels": [
-            "good first issue",
-            "domain/ui-components/reviewed",
-            "domain/ui-components"
-        ],
-        "created_at": "2026-08-11T21:19:10Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
