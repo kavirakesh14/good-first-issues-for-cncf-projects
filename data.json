@@ -1089,19 +1089,6 @@
         "created_at": "2024-05-08T15:37:49Z"
     },
     {
-        "repo": "kcl-lang/kcl",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "[Enhancement] Proposal for new language feature for the short hand property",
-        "url": "https://github.com/kcl-lang/kcl/issues/1275",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "lang-design"
-        ],
-        "created_at": "2024-05-04T21:40:11Z"
-    },
-    {
         "repo": "kitops-ml/kitops",
         "tier": "Sandbox",
         "lang": "Go",
@@ -6353,6 +6340,18 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[Support]: How to use allowed_groups query parameter when groups themselves contain commas?",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3528",
+        "labels": [
+            "help wanted",
+            "configuration"
+        ],
+        "created_at": "2026-08-31T06:59:49Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Support]: Cookie Refresh Behaviour",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3525",
         "labels": [
@@ -6697,18 +6696,6 @@
             "help wanted"
         ],
         "created_at": "2025-09-25T21:01:08Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Bug]: OAuth2 Proxy State Parameter Only Contains Path, Not Full URL",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3205",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2025-09-25T02:37:04Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -17963,7 +17950,8 @@
         "title": "Replace runtime TLS validation with API-level CEL rules",
         "url": "https://github.com/kgateway-dev/kgateway/issues/12338",
         "labels": [
-            "Good First Issue"
+            "Good First Issue",
+            "stale"
         ],
         "created_at": "2025-09-19T02:42:17Z"
     },
@@ -23612,19 +23600,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Unblock update of eslint-plugin-sonarjs from 4.1.0 to 4.2.0",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18388",
-        "labels": [
-            "good first issue",
-            "domain/technical-debt",
-            "domain/dependency-update-minor"
-        ],
-        "created_at": "2026-07-21T07:22:43Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Global navigation: Arrow key navigation within navbar (when focused)",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/16810",
         "labels": [
@@ -24630,20 +24605,6 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Add unit test for `argocd admin export/import` CLI command",
-        "url": "https://github.com/argoproj/argo-cd/issues/21895",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "component:cli",
-            "component:test"
-        ],
-        "created_at": "2025-02-17T17:27:00Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "App `OutOfSync` if untracked resource with same name as `PostDelete` hook exists in app namespace",
         "url": "https://github.com/argoproj/argo-cd/issues/21579",
         "labels": [
@@ -24933,6 +24894,20 @@
             "component:ui"
         ],
         "created_at": "2023-02-03T05:31:18Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Ingress link is not handled correctly if path: contains regex",
+        "url": "https://github.com/argoproj/argo-cd/issues/12254",
+        "labels": [
+            "bug",
+            "good first issue",
+            "component:ui",
+            "bug/priority:low"
+        ],
+        "created_at": "2023-02-02T10:08:00Z"
     },
     {
         "repo": "fluxcd/flux2",
@@ -27811,18 +27786,6 @@
             "help wanted"
         ],
         "created_at": "2025-01-30T09:05:37Z"
-    },
-    {
-        "repo": "fluent/fluentd",
-        "tier": "Graduated",
-        "lang": "Ruby",
-        "title": "Buffer size metrics showing negative values",
-        "url": "https://github.com/fluent/fluentd/issues/5303",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2020-09-24T21:15:50Z"
     },
     {
         "repo": "kubernetes-sigs/headlamp",
