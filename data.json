@@ -2397,6 +2397,19 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Server] Scalability Testing for Meshery Server Against Large Kubernetes Clusters",
+        "url": "https://github.com/meshery/meshery/issues/21717",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "kind/chore"
+        ],
+        "created_at": "2026-09-01T15:03:14Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs]: Fix grammar, spelling, and formatting errors in mesheryctl E2E testing guide",
         "url": "https://github.com/meshery/meshery/issues/21708",
         "labels": [
@@ -2741,20 +2754,6 @@
         "created_at": "2026-07-03T07:50:30Z"
     },
     {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Document meshkit's syncmodutil for extension go.mod dependency sync",
-        "url": "https://github.com/meshery/meshery/issues/20419",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-02T22:19:09Z"
-    },
-    {
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
@@ -2794,19 +2793,6 @@
             "triage/accepted"
         ],
         "created_at": "2026-08-20T14:04:01Z"
-    },
-    {
-        "repo": "metal3-io/baremetal-operator",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Run with readOnlyRootFilesystem?",
-        "url": "https://github.com/metal3-io/baremetal-operator/issues/3492",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-08-07T09:53:12Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -11606,6 +11592,18 @@
         "repo": "agones-dev/agones",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Not compatible with restricted pod security",
+        "url": "https://github.com/agones-dev/agones/issues/4668",
+        "labels": [
+            "help wanted",
+            "awaiting-maintainer"
+        ],
+        "created_at": "2026-07-31T23:49:06Z"
+    },
+    {
+        "repo": "agones-dev/agones",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Promote `CountsAndLists` Feature Gate from Beta to Stable",
         "url": "https://github.com/agones-dev/agones/issues/4590",
         "labels": [
@@ -19105,6 +19103,21 @@
             "LFX Mentorship"
         ],
         "created_at": "2025-06-23T12:38:35Z"
+    },
+    {
+        "repo": "openeverest/openeverest",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Post-login redirect should return to originally requested page",
+        "url": "https://github.com/openeverest/openeverest/issues/3105",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "ui",
+            "needs-triage",
+            "triage/accepted"
+        ],
+        "created_at": "2026-09-01T15:11:28Z"
     },
     {
         "repo": "openeverest/openeverest",
