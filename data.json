@@ -2397,6 +2397,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs]: Fix grammar, spelling, and formatting errors in mesheryctl E2E testing guide",
+        "url": "https://github.com/meshery/meshery/issues/21708",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-01T09:04:58Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[README] [Enhancement] Ensure installation one-liner is prominent and accessible",
         "url": "https://github.com/meshery/meshery/issues/21668",
         "labels": [
@@ -2739,20 +2753,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-02T22:19:09Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Sidebar is not responsive",
-        "url": "https://github.com/meshery/meshery/issues/20363",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-06-30T00:07:49Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -3429,17 +3429,6 @@
             "good first issue"
         ],
         "created_at": "2023-03-09T18:37:48Z"
-    },
-    {
-        "repo": "goharbor/harbor",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "system_cve testcase always fails at the end/begining of month",
-        "url": "https://github.com/goharbor/harbor/issues/23659",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-08-04T02:46:15Z"
     },
     {
         "repo": "goharbor/harbor",
@@ -15269,6 +15258,18 @@
         "repo": "volcano-sh/volcano",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Document usage and recommended configurations for gangpreempt and gangreclaim actions",
+        "url": "https://github.com/volcano-sh/volcano/issues/5929",
+        "labels": [
+            "help wanted",
+            "kind/documentation"
+        ],
+        "created_at": "2026-09-01T08:28:17Z"
+    },
+    {
+        "repo": "volcano-sh/volcano",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Improve CLOMonitor score for Volcano",
         "url": "https://github.com/volcano-sh/volcano/issues/5366",
         "labels": [
@@ -19119,21 +19120,6 @@
             "triage/accepted"
         ],
         "created_at": "2026-08-28T15:48:57Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Harden the rate-limiter data-race regression test so it cannot silently no-op",
-        "url": "https://github.com/openeverest/openeverest/issues/2958",
-        "labels": [
-            "good first issue",
-            "chore",
-            "v1",
-            "v2",
-            "triage/accepted"
-        ],
-        "created_at": "2026-08-17T10:51:44Z"
     },
     {
         "repo": "openeverest/openeverest",
@@ -24988,18 +24974,6 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Update the Azure Tracing module to return both span status code and message",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4316",
-        "labels": [
-            "good first issue",
-            "Type/Task"
-        ],
-        "created_at": "2026-07-24T05:59:17Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Add build deletion support to the Backstage",
         "url": "https://github.com/openchoreo/openchoreo/issues/4154",
         "labels": [
@@ -26010,6 +25984,54 @@
         "repo": "tektoncd/pipeline",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Support Kubernetes v1.36 Server-Side Sharded List and Watch in Pipelines Controllers",
+        "url": "https://github.com/tektoncd/pipeline/issues/10610",
+        "labels": [
+            "kind/feature",
+            "help wanted"
+        ],
+        "created_at": "2026-08-16T10:46:46Z"
+    },
+    {
+        "repo": "tektoncd/pipeline",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "`Consider a safer default (or explicit HA/high-concurrency guidance) for default-imagepullbackoff-timeout`",
+        "url": "https://github.com/tektoncd/pipeline/issues/10588",
+        "labels": [
+            "kind/feature",
+            "help wanted"
+        ],
+        "created_at": "2026-08-12T10:45:53Z"
+    },
+    {
+        "repo": "tektoncd/pipeline",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Bundle resolver does not retry on network-level transient errors (TCP timeout, connection reset, EOF)",
+        "url": "https://github.com/tektoncd/pipeline/issues/10424",
+        "labels": [
+            "kind/feature",
+            "help wanted"
+        ],
+        "created_at": "2026-07-14T07:16:39Z"
+    },
+    {
+        "repo": "tektoncd/pipeline",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Step termination messages accumulate all prior results, breaking per-step 4KB budget (and the docs advice)",
+        "url": "https://github.com/tektoncd/pipeline/issues/10334",
+        "labels": [
+            "kind/feature",
+            "help wanted"
+        ],
+        "created_at": "2026-06-23T09:23:24Z"
+    },
+    {
+        "repo": "tektoncd/pipeline",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "perf: tooling and guidance for profiling etcd revision overhead of Tekton objects",
         "url": "https://github.com/tektoncd/pipeline/issues/10322",
         "labels": [
@@ -26217,47 +26239,6 @@
             "area/api"
         ],
         "created_at": "2024-04-17T07:18:43Z"
-    },
-    {
-        "repo": "tektoncd/pipeline",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "TEP-152 Tekton Conformance Verification",
-        "url": "https://github.com/tektoncd/pipeline/issues/7828",
-        "labels": [
-            "help wanted",
-            "area/testing",
-            "area/api",
-            "kind/tep"
-        ],
-        "created_at": "2024-04-03T17:58:12Z"
-    },
-    {
-        "repo": "tektoncd/pipeline",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Add support for enum in object params",
-        "url": "https://github.com/tektoncd/pipeline/issues/7568",
-        "labels": [
-            "kind/feature",
-            "help wanted",
-            "area/api"
-        ],
-        "created_at": "2024-01-16T18:35:52Z"
-    },
-    {
-        "repo": "tektoncd/pipeline",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Feedback/beta release for TEP-0144: Param Enum",
-        "url": "https://github.com/tektoncd/pipeline/issues/7410",
-        "labels": [
-            "kind/feature",
-            "help wanted",
-            "area/api",
-            "area/roadmap"
-        ],
-        "created_at": "2023-11-23T15:59:51Z"
     },
     {
         "repo": "flatcar/Flatcar",
