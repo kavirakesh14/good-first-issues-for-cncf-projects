@@ -8987,6 +8987,7 @@
         "labels": [
             "feature",
             "help wanted",
+            "wontfix",
             "needs-design-document"
         ],
         "created_at": "2026-04-07T04:45:04Z"
@@ -11204,20 +11205,6 @@
             "area/hubble"
         ],
         "created_at": "2023-06-28T08:51:15Z"
-    },
-    {
-        "repo": "cilium/cilium",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Unable to initialize IPv6 allocator New CIDR set failed; the node CIDR size is too big",
-        "url": "https://github.com/cilium/cilium/issues/20756",
-        "labels": [
-            "kind/bug",
-            "area/documentation",
-            "good-first-issue",
-            "area/agent"
-        ],
-        "created_at": "2022-08-03T07:26:35Z"
     },
     {
         "repo": "cilium/cilium",
@@ -28205,6 +28192,42 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "ES/OS filter refuses most built-in fields although the schema indexes them",
+        "url": "https://github.com/jaegertracing/jaeger/issues/9474",
+        "labels": [
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2026-09-02T18:44:28Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "ES/OS filter refuses the built-in field span.kind, though the value is indexed and queryable",
+        "url": "https://github.com/jaegertracing/jaeger/issues/9473",
+        "labels": [
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2026-09-02T18:39:36Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "ES/OS filter refuses ordered comparison on built-in text fields, which RFC 0005 defines lexicographically",
+        "url": "https://github.com/jaegertracing/jaeger/issues/9472",
+        "labels": [
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2026-09-02T18:30:16Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "jaeger_query: support serving UI assets from an archive, not just a directory",
         "url": "https://github.com/jaegertracing/jaeger/issues/9065",
         "labels": [
@@ -28595,30 +28618,6 @@
             "ui"
         ],
         "created_at": "2020-10-08T20:47:58Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Improve FOSSA integration",
-        "url": "https://github.com/jaegertracing/jaeger/issues/2432",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2020-08-29T11:12:23Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "query service \"search\" api 'limit', 'total' and 'offset' fields are not supplied on response",
-        "url": "https://github.com/jaegertracing/jaeger/issues/2027",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/storage"
-        ],
-        "created_at": "2020-01-17T12:10:12Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
