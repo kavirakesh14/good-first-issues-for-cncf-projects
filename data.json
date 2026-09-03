@@ -8960,6 +8960,19 @@
         "repo": "velero-io/velero",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Support structured output for multi-item backup and restore describe",
+        "url": "https://github.com/velero-io/velero/issues/10478",
+        "labels": [
+            "kind/Bug",
+            "Good first issue",
+            "backlog"
+        ],
+        "created_at": "2026-09-03T18:34:42Z"
+    },
+    {
+        "repo": "velero-io/velero",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Enable context TODO Linter",
         "url": "https://github.com/velero-io/velero/issues/10086",
         "labels": [
@@ -15255,6 +15268,18 @@
         "created_at": "2022-04-02T00:51:30Z"
     },
     {
+        "repo": "wasmCloud/wasmCloud",
+        "tier": "Incubating",
+        "lang": "Rust",
+        "title": "wash dev: components can't connect to a local network services even when its port is allowed",
+        "url": "https://github.com/wasmCloud/wasmCloud/issues/5531",
+        "labels": [
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2026-09-03T15:55:42Z"
+    },
+    {
         "repo": "coredns/coredns",
         "tier": "Graduated",
         "lang": "Go",
@@ -20132,17 +20157,6 @@
             "help wanted"
         ],
         "created_at": "2026-08-20T08:52:55Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
-        "title": "fix(export): DataExporter silently returns HTTP 200 with a corrupt ZIP when entity writes fail",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/9706",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-08-20T08:40:42Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
@@ -30540,18 +30554,6 @@
             "needs-investigation"
         ],
         "created_at": "2022-08-22T13:46:01Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Move trimEmptyExtents logic to pkg/timeseries/extent_list.go",
-        "url": "https://github.com/trickstercache/trickster/issues/1126",
-        "labels": [
-            "good first issue",
-            "delta-proxy"
-        ],
-        "created_at": "2026-09-02T06:18:38Z"
     },
     {
         "repo": "spinframework/spin",
