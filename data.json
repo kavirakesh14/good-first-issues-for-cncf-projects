@@ -5594,6 +5594,18 @@
         "repo": "kubearmor/kubearmor",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[CI]: Automate Rebasing of Open PRs When `main`  is updated",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2871",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-09-03T09:46:37Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[CI]: Automatically create GitHub issue with report on Trivy vulnerability scan failure",
         "url": "https://github.com/kubearmor/KubeArmor/issues/2851",
         "labels": [
@@ -5924,18 +5936,6 @@
             "mentorship"
         ],
         "created_at": "2023-08-14T19:10:03Z"
-    },
-    {
-        "repo": "kubearmor/kubearmor",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug(syscalls): not receiving events for audited syscalls",
-        "url": "https://github.com/kubearmor/KubeArmor/issues/1269",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2023-06-16T05:57:54Z"
     },
     {
         "repo": "kubearmor/kubearmor",
@@ -7311,19 +7311,6 @@
         "repo": "ratify-project/ratify",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Support Alibaba Cloud rrsa store auth provider based on Ratify v2.0 architecture",
-        "url": "https://github.com/notaryproject/ratify/issues/2351",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "triage"
-        ],
-        "created_at": "2025-07-22T00:05:14Z"
-    },
-    {
-        "repo": "ratify-project/ratify",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Update AWS ECR Auth Provider to use newer sdk",
         "url": "https://github.com/notaryproject/ratify/issues/1567",
         "labels": [
@@ -7968,18 +7955,6 @@
             "priority/backlog"
         ],
         "created_at": "2024-10-12T17:38:41Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Documentation / deployment walk through for SPIRE on TPM.",
-        "url": "https://github.com/spiffe/spire/issues/5291",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2024-07-11T04:07:02Z"
     },
     {
         "repo": "spiffe/spire",
@@ -12439,6 +12414,23 @@
         "repo": "kedacore/keda",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "MSSQL scaler supports all Azure Active Directory authentication methods provided by driver",
+        "url": "https://github.com/kedacore/keda/issues/7412",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "needs-discussion",
+            "azure",
+            "feature-request",
+            "stale",
+            "scaler-mssql"
+        ],
+        "created_at": "2026-01-27T16:55:02Z"
+    },
+    {
+        "repo": "kedacore/keda",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Resolve deprecation in GCP Stackdrive API",
         "url": "https://github.com/kedacore/keda/issues/6653",
         "labels": [
@@ -12860,20 +12852,6 @@
             "stale-bot-ignore"
         ],
         "created_at": "2021-08-10T12:33:18Z"
-    },
-    {
-        "repo": "kedacore/keda",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Provide scaler for Riak TS",
-        "url": "https://github.com/kedacore/keda/issues/1790",
-        "labels": [
-            "help wanted",
-            "scaler",
-            "feature",
-            "stale-bot-ignore"
-        ],
-        "created_at": "2021-05-06T15:18:40Z"
     },
     {
         "repo": "kai-scheduler/KAI-Scheduler",
@@ -13939,6 +13917,20 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "E2E testing: check for goroutine leaks",
+        "url": "https://github.com/kubernetes/kubernetes/issues/141819",
+        "labels": [
+            "kind/feature",
+            "help wanted",
+            "sig/testing",
+            "needs-triage"
+        ],
+        "created_at": "2026-09-03T06:24:40Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI",
         "url": "https://github.com/kubernetes/kubernetes/issues/140489",
         "labels": [
@@ -14334,23 +14326,6 @@
             "triage/accepted"
         ],
         "created_at": "2025-02-14T14:01:05Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Migrate Kubelet codebase to contextual logging",
-        "url": "https://github.com/kubernetes/kubernetes/issues/130069",
-        "labels": [
-            "area/logging",
-            "sig/node",
-            "kind/feature",
-            "help wanted",
-            "sig/instrumentation",
-            "priority/important-longterm",
-            "triage/accepted"
-        ],
-        "created_at": "2025-02-10T15:37:37Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -17867,7 +17842,6 @@
         "labels": [
             "Area: Envoy",
             "Good First Issue",
-            "stale",
             "help wanted"
         ],
         "created_at": "2025-08-09T15:25:09Z"
@@ -23407,18 +23381,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Fix toolbar-to-modal icon consistency for Load, Import, Save",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18849",
-        "labels": [
-            "good first issue",
-            "domain/ui-components/reviewed"
-        ],
-        "created_at": "2026-08-18T09:47:04Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Fix Import/Pull icon collision on Images page",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18848",
         "labels": [
@@ -23725,21 +23687,6 @@
             "hacktoberfest"
         ],
         "created_at": "2023-09-08T13:53:41Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Implement option to view rootful containers on Linux \ud83d\udc27",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/2861",
-        "labels": [
-            "help wanted",
-            "area/dashboard \ud83d\udcca",
-            "os/linux \ud83d\udc27",
-            "area/extension/podman \ud83e\uddad",
-            "domain/containers/inreview"
-        ],
-        "created_at": "2023-06-14T16:33:54Z"
     },
     {
         "repo": "getporter/porter",
