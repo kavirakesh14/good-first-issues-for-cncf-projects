@@ -5740,31 +5740,6 @@
         "repo": "kubearmor/kubearmor",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Docker Compose Deployment for securing unorchestrated container",
-        "url": "https://github.com/kubearmor/KubeArmor/issues/1341",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "help wanted"
-        ],
-        "created_at": "2023-08-02T08:15:27Z"
-    },
-    {
-        "repo": "kubearmor/kubearmor",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Kubearmor Alerts/Telemetry sends different container name on each logs",
-        "url": "https://github.com/kubearmor/KubeArmor/issues/1305",
-        "labels": [
-            "bug",
-            "good first issue"
-        ],
-        "created_at": "2023-07-07T10:28:13Z"
-    },
-    {
-        "repo": "kubearmor/kubearmor",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "KubeArmor App Labels in K8s objects",
         "url": "https://github.com/kubearmor/KubeArmor/issues/1296",
         "labels": [
@@ -8524,6 +8499,26 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
+        "title": "[UI][FEATURE] Browser icon should have a badge reflecting cluster state",
+        "url": "https://github.com/longhorn/longhorn/issues/12463",
+        "labels": [
+            "kind/feature",
+            "good first issue",
+            "require/auto-e2e-test",
+            "require/doc",
+            "require/lep",
+            "require/manual-test-plan",
+            "area/monitoring",
+            "area/troubleshoot",
+            "area/user-experience",
+            "help wanted"
+        ],
+        "created_at": "2026-01-10T18:22:24Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
         "title": "[IMPROVEMENT] Add retry mechanism for post-rebuild snapshot purge failures",
         "url": "https://github.com/longhorn/longhorn/issues/12229",
         "labels": [
@@ -8888,22 +8883,6 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
-        "title": "[FEATURE] Node Affinity support for longhorn component deployment",
-        "url": "https://github.com/longhorn/longhorn/issues/6035",
-        "labels": [
-            "kind/feature",
-            "good first issue",
-            "component/longhorn-manager",
-            "area/install-uninstall-upgrade",
-            "priority/1",
-            "help wanted"
-        ],
-        "created_at": "2023-06-01T11:00:50Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
         "title": "[BUG] engine-image-ei with noexec /var filesystem ",
         "url": "https://github.com/longhorn/longhorn/issues/9083",
         "labels": [
@@ -8916,6 +8895,22 @@
             "help wanted"
         ],
         "created_at": "2024-07-24T23:30:38Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
+        "title": "[FEATURE] Node Affinity support for longhorn component deployment",
+        "url": "https://github.com/longhorn/longhorn/issues/6035",
+        "labels": [
+            "kind/feature",
+            "good first issue",
+            "component/longhorn-manager",
+            "area/install-uninstall-upgrade",
+            "priority/1",
+            "help wanted"
+        ],
+        "created_at": "2023-06-01T11:00:50Z"
     },
     {
         "repo": "longhorn/longhorn",
@@ -12073,7 +12068,7 @@
     },
     {
         "repo": "karmada-io/karmada",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Backport #7426",
         "url": "https://github.com/karmada-io/karmada/issues/7428",
@@ -12084,7 +12079,7 @@
     },
     {
         "repo": "karmada-io/karmada",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "[Umbrella] format the code in karmada-dashboard repo to meet golangci-lint",
         "url": "https://github.com/karmada-io/karmada/issues/6078",
@@ -12096,7 +12091,7 @@
     },
     {
         "repo": "karmada-io/karmada",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": " [Umbrella]  [Karmada config && certificates] secret and path naming convention",
         "url": "https://github.com/karmada-io/karmada/issues/6051",
@@ -12107,7 +12102,7 @@
     },
     {
         "repo": "karmada-io/karmada",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Eager for memory experts to help optimize karmada-controller-manager memory usage",
         "url": "https://github.com/karmada-io/karmada/issues/4738",
@@ -12119,7 +12114,7 @@
     },
     {
         "repo": "karmada-io/karmada",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "[umbrella] [Help Wanted] [Code \u001dWriting Wanted] Add e2e Test for Lazy activation Policy",
         "url": "https://github.com/karmada-io/karmada/issues/4607",
@@ -12131,7 +12126,7 @@
     },
     {
         "repo": "karmada-io/karmada",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "[umbrella] enhance scheduler-estimator",
         "url": "https://github.com/karmada-io/karmada/issues/4578",
@@ -12143,7 +12138,7 @@
     },
     {
         "repo": "karmada-io/karmada",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "[umbrella] Add Implementation for Service discovery with native Kubernetes naming and resolution",
         "url": "https://github.com/karmada-io/karmada/issues/4292",
@@ -12155,7 +12150,7 @@
     },
     {
         "repo": "karmada-io/karmada",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "feat: added performance metrics for CronFederatedHPA, FederatedHPA, and karmada-metrics-adapter",
         "url": "https://github.com/karmada-io/karmada/issues/3946",
@@ -12167,7 +12162,7 @@
     },
     {
         "repo": "karmada-io/karmada",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "[umbrella] Add Implementation for MultiClusterService",
         "url": "https://github.com/karmada-io/karmada/issues/3749",
@@ -12179,7 +12174,7 @@
     },
     {
         "repo": "karmada-io/karmada",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Using `schema.GroupKind` instead of Kind when determining object types",
         "url": "https://github.com/karmada-io/karmada/issues/3011",
@@ -22977,20 +22972,6 @@
             "triage/accepted"
         ],
         "created_at": "2021-06-24T15:24:01Z"
-    },
-    {
-        "repo": "kubevirt/kubevirt",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Allow configuration of alternative kubelet directories",
-        "url": "https://github.com/kubevirt/kubevirt/issues/5913",
-        "labels": [
-            "kind/enhancement",
-            "good-first-issue",
-            "lifecycle/frozen",
-            "triage/accepted"
-        ],
-        "created_at": "2021-06-23T11:58:11Z"
     },
     {
         "repo": "kudobuilder/kudo",
