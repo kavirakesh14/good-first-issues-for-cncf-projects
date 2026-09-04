@@ -30844,7 +30844,8 @@
         "title": "[Autoscaling] Add a guide to show WVA ability to balance between two different InferencePools",
         "url": "https://github.com/llm-d/llm-d/issues/1658",
         "labels": [
-            "help wanted"
+            "help wanted",
+            "lifecycle/stale"
         ],
         "created_at": "2026-06-02T15:14:22Z"
     },
