@@ -5043,22 +5043,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "[OID4VCI] mdoc not properly configurable in admin console client scope tab",
-        "url": "https://github.com/keycloak/keycloak/issues/52041",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/oid4vc",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-25T15:45:38Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Special char password policy validation of backend and frontend do not match",
         "url": "https://github.com/keycloak/keycloak/issues/51874",
         "labels": [
@@ -5471,6 +5455,20 @@
             "kind/weakness"
         ],
         "created_at": "2026-07-01T16:08:31Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "CIMD: SSRF allowlist bypass via sector_identifier_uri in fetched metadata",
+        "url": "https://github.com/keycloak/keycloak/issues/50529",
+        "labels": [
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-01T16:08:25Z"
     },
     {
         "repo": "keylime/keylime",
@@ -11439,18 +11437,6 @@
         "repo": "agones-dev/agones",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Flaky: TestGameServerTcpProtocol",
-        "url": "https://github.com/agones-dev/agones/issues/4686",
-        "labels": [
-            "help wanted",
-            "area/tests"
-        ],
-        "created_at": "2026-08-13T00:06:47Z"
-    },
-    {
-        "repo": "agones-dev/agones",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Not compatible with restricted pod security",
         "url": "https://github.com/agones-dev/agones/issues/4668",
         "labels": [
@@ -12430,7 +12416,6 @@
             "needs-discussion",
             "azure",
             "feature-request",
-            "stale",
             "scaler-mssql"
         ],
         "created_at": "2026-01-27T16:55:02Z"
@@ -17896,6 +17881,7 @@
         "title": "The KGateway Controller should expose a kgateway_build_info metric",
         "url": "https://github.com/kgateway-dev/kgateway/issues/13457",
         "labels": [
+            "stale",
             "help wanted"
         ],
         "created_at": "2026-02-02T16:54:58Z"
@@ -24374,19 +24360,6 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "ArgoCD events should display event issuer",
-        "url": "https://github.com/argoproj/argo-cd/issues/25684",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "component:ui"
-        ],
-        "created_at": "2025-12-16T07:30:05Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "ARGOCD_OPTS does not accept --header parameter multiple times",
         "url": "https://github.com/argoproj/argo-cd/issues/24065",
         "labels": [
@@ -24734,6 +24707,20 @@
         "created_at": "2022-10-10T13:59:47Z"
     },
     {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Update docs about Helm",
+        "url": "https://github.com/argoproj/argo-cd/issues/9822",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "group:hacktoberfest-2023",
+            "component:docs"
+        ],
+        "created_at": "2022-06-29T09:49:17Z"
+    },
+    {
         "repo": "fluxcd/flux2",
         "tier": "Graduated",
         "lang": "Go",
@@ -24888,18 +24875,6 @@
             "Type/Bug"
         ],
         "created_at": "2026-07-02T04:31:39Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Migrate url-shortener sample's postgres to a Resource",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4028",
-        "labels": [
-            "good first issue",
-            "Type/Task"
-        ],
-        "created_at": "2026-06-30T10:15:57Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -28760,7 +28735,7 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Stat Chart Orientation - Condensed View Possibility",
+        "title": "StatChart: Orientation - Condensed View Possibility",
         "url": "https://github.com/perses/perses/issues/4382",
         "labels": [
             "good first issue",
