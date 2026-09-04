@@ -4993,6 +4993,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "User Profile validation is not applied when users are created through partialImport or realm import",
+        "url": "https://github.com/keycloak/keycloak/issues/52310",
+        "labels": [
+            "kind/bug",
+            "area/import-export",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-09-02T07:43:43Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Combining client x509 cert credentials and JWT Authorization Grants creates audience clash",
         "url": "https://github.com/keycloak/keycloak/issues/52192",
         "labels": [
@@ -5455,20 +5472,6 @@
             "kind/weakness"
         ],
         "created_at": "2026-07-01T16:08:31Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "CIMD: SSRF allowlist bypass via sector_identifier_uri in fetched metadata",
-        "url": "https://github.com/keycloak/keycloak/issues/50529",
-        "labels": [
-            "help wanted",
-            "priority/normal",
-            "team/core-protocols",
-            "kind/weakness"
-        ],
-        "created_at": "2026-07-01T16:08:25Z"
     },
     {
         "repo": "keylime/keylime",
@@ -11798,7 +11801,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Go",
         "title": "testing: 89 of 165 packages have no helm test target, including eight user-facing apps",
         "url": "https://github.com/cozystack/cozystack/issues/3631",
         "labels": [
@@ -11813,7 +11816,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Go",
         "title": "testing: pin the label-writing workflows with contract tests",
         "url": "https://github.com/cozystack/cozystack/issues/3589",
         "labels": [
@@ -11829,7 +11832,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Go",
         "title": "Move namespace.cozystack.io/host from namespace label to annotation",
         "url": "https://github.com/cozystack/cozystack/issues/2002",
         "labels": [
@@ -11843,7 +11846,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Go",
         "title": "Removing of etcd-cluster should also remove all the secrets and datastore",
         "url": "https://github.com/cozystack/cozystack/issues/154",
         "labels": [
@@ -11856,7 +11859,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Go",
         "title": "[mariadb-operator] Bootstrap replica from mariabackup",
         "url": "https://github.com/cozystack/cozystack/issues/32",
         "labels": [
@@ -14860,6 +14863,17 @@
             "good first issue"
         ],
         "created_at": "2025-06-11T09:02:37Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add `azure` registration driver: AKS-native authentication via Azure AD (Environment / Managed Identity / Workload Identity Federation)",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1676",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-09-04T11:14:36Z"
     },
     {
         "repo": "OpenFunction/OpenFunction",
@@ -27867,17 +27881,6 @@
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
         "lang": "C",
-        "title": "docs/helloworld: Sample code isn't tested for compilation issues",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4575",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2025-06-06T14:46:43Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
         "title": "cmd: image build always tries to pull builder image",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4537",
         "labels": [
@@ -28111,6 +28114,18 @@
             "area/kubectl-gadget"
         ],
         "created_at": "2022-10-19T15:26:41Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "[RFE] trace/network: Add test to verify remote service information",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1059",
+        "labels": [
+            "good first issue",
+            "gadgets/network-graph"
+        ],
+        "created_at": "2022-10-19T14:45:29Z"
     },
     {
         "repo": "jaegertracing/jaeger",
@@ -28897,20 +28912,6 @@
             "priority/P2"
         ],
         "created_at": "2025-11-12T13:06:25Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "StatChart: Multiple enhancements in multiseries",
-        "url": "https://github.com/perses/perses/issues/3519",
-        "labels": [
-            "good first issue",
-            "ui",
-            "priority/P2",
-            "plugin"
-        ],
-        "created_at": "2025-11-02T12:10:51Z"
     },
     {
         "repo": "perses/perses",
