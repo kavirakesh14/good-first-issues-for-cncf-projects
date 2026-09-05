@@ -9252,7 +9252,6 @@
         "url": "https://github.com/velero-io/velero/issues/9804",
         "labels": [
             "Help wanted",
-            "staled",
             "Area/Storage/Ceph"
         ],
         "created_at": "2026-05-20T12:49:14Z"
@@ -11801,7 +11800,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "testing: 89 of 165 packages have no helm test target, including eight user-facing apps",
         "url": "https://github.com/cozystack/cozystack/issues/3631",
         "labels": [
@@ -11816,7 +11815,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "testing: pin the label-writing workflows with contract tests",
         "url": "https://github.com/cozystack/cozystack/issues/3589",
         "labels": [
@@ -11832,7 +11831,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "Move namespace.cozystack.io/host from namespace label to annotation",
         "url": "https://github.com/cozystack/cozystack/issues/2002",
         "labels": [
@@ -11846,7 +11845,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "Removing of etcd-cluster should also remove all the secrets and datastore",
         "url": "https://github.com/cozystack/cozystack/issues/154",
         "labels": [
@@ -11859,7 +11858,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Shell",
         "title": "[mariadb-operator] Bootstrap replica from mariabackup",
         "url": "https://github.com/cozystack/cozystack/issues/32",
         "labels": [
@@ -11928,8 +11927,7 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "composition",
-            "stale"
+            "composition"
         ],
         "created_at": "2025-08-22T14:18:34Z"
     },
@@ -20941,361 +20939,361 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINAPPBACKEND-8163063]",
-        "url": "https://github.com/backstage/backstage/issues/35486",
+        "title": "Snyk vulnerability [snyk:lic:npm:version-range:Artistic-2.0]",
+        "url": "https://github.com/backstage/backstage/issues/35533",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:20Z"
+        "created_at": "2026-09-05T00:10:56Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDPLUGINAPI-15054291]",
-        "url": "https://github.com/backstage/backstage/issues/35485",
+        "title": "Snyk vulnerability [snyk:lic:npm:textextensions:Artistic-2.0]",
+        "url": "https://github.com/backstage/backstage/issues/35532",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:19Z"
+        "created_at": "2026-09-05T00:10:55Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDDEFAULTS-15064476]",
-        "url": "https://github.com/backstage/backstage/issues/35484",
+        "title": "Snyk vulnerability [snyk:lic:npm:editions:Artistic-2.0]",
+        "url": "https://github.com/backstage/backstage/issues/35531",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:19Z"
+        "created_at": "2026-09-05T00:10:55Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDDEFAULTS-15054278]",
-        "url": "https://github.com/backstage/backstage/issues/35483",
+        "title": "Snyk vulnerability [snyk:lic:npm:binaryextensions:Artistic-2.0]",
+        "url": "https://github.com/backstage/backstage/issues/35530",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:19Z"
+        "created_at": "2026-09-05T00:10:54Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEBACKENDAPPAPI-6229731]",
-        "url": "https://github.com/backstage/backstage/issues/35482",
+        "title": "Snyk vulnerability [SNYK-JS-ROLLUP-8073097]",
+        "url": "https://github.com/backstage/backstage/issues/35529",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:18Z"
+        "created_at": "2026-09-05T00:10:54Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-APIDEVTOOLSJSONSCHEMAREFPARSER-17937352]",
-        "url": "https://github.com/backstage/backstage/issues/35481",
+        "title": "Snyk vulnerability [SNYK-JS-ROLLUP-15340920]",
+        "url": "https://github.com/backstage/backstage/issues/35528",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:17Z"
+        "created_at": "2026-09-05T00:10:53Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [snyk:lic:npm:rollup-plugin-dts:LGPL-3.0]",
-        "url": "https://github.com/backstage/backstage/issues/35480",
+        "title": "Snyk vulnerability [SNYK-JS-SIGSTOREVERIFY-17817052]",
+        "url": "https://github.com/backstage/backstage/issues/35527",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:17Z"
+        "created_at": "2026-09-05T00:10:53Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [snyk:lic:npm:eslint-plugin-deprecation:LGPL-3.0]",
-        "url": "https://github.com/backstage/backstage/issues/35479",
+        "title": "Snyk vulnerability [SNYK-JS-SIGSTORECORE-17817061]",
+        "url": "https://github.com/backstage/backstage/issues/35526",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:16Z"
+        "created_at": "2026-09-05T00:10:53Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [snyk:lic:npm:axe-core:MPL-2.0]",
-        "url": "https://github.com/backstage/backstage/issues/35478",
+        "title": "Snyk vulnerability [SNYK-JS-SIGSTORE-17817054]",
+        "url": "https://github.com/backstage/backstage/issues/35525",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:16Z"
+        "created_at": "2026-09-05T00:10:52Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-WS-17344547]",
-        "url": "https://github.com/backstage/backstage/issues/35477",
+        "title": "Snyk vulnerability [SNYK-JS-SHELLQUOTE-17457810]",
+        "url": "https://github.com/backstage/backstage/issues/35524",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:16Z"
+        "created_at": "2026-09-05T00:10:52Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-WS-16722635]",
-        "url": "https://github.com/backstage/backstage/issues/35476",
+        "title": "Snyk vulnerability [SNYK-JS-SHELLQUOTE-16799355]",
+        "url": "https://github.com/backstage/backstage/issues/35523",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:15Z"
+        "created_at": "2026-09-05T00:10:51Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UUID-16133035]",
-        "url": "https://github.com/backstage/backstage/issues/35475",
+        "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-15353389]",
+        "url": "https://github.com/backstage/backstage/issues/35522",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:14Z"
+        "created_at": "2026-09-05T00:10:51Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-18426521]",
-        "url": "https://github.com/backstage/backstage/issues/35474",
+        "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-15353387]",
+        "url": "https://github.com/backstage/backstage/issues/35521",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:14Z"
+        "created_at": "2026-09-05T00:10:51Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-18426067]",
-        "url": "https://github.com/backstage/backstage/issues/35473",
+        "title": "Snyk vulnerability [SNYK-JS-LODASH-15869625]",
+        "url": "https://github.com/backstage/backstage/issues/35520",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:13Z"
+        "created_at": "2026-09-05T00:10:50Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-18426065]",
-        "url": "https://github.com/backstage/backstage/issues/35472",
+        "title": "Snyk vulnerability [SNYK-JS-LODASH-15869619]",
+        "url": "https://github.com/backstage/backstage/issues/35519",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:13Z"
+        "created_at": "2026-09-05T00:10:49Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-18426063]",
-        "url": "https://github.com/backstage/backstage/issues/35471",
+        "title": "Snyk vulnerability [SNYK-JS-JSYAML-17900054]",
+        "url": "https://github.com/backstage/backstage/issues/35518",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:12Z"
+        "created_at": "2026-09-05T00:10:49Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-18426061]",
-        "url": "https://github.com/backstage/backstage/issues/35470",
+        "title": "Snyk vulnerability [SNYK-JS-JSYAML-17342520]",
+        "url": "https://github.com/backstage/backstage/issues/35517",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:12Z"
+        "created_at": "2026-09-05T00:10:49Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-17372758]",
-        "url": "https://github.com/backstage/backstage/issues/35469",
+        "title": "Snyk vulnerability [snyk:lic:npm:isomorphic-git:pgp-plugin:LGPL-3.0]",
+        "url": "https://github.com/backstage/backstage/issues/35516",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:11Z"
+        "created_at": "2026-09-05T00:10:48Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-17372754]",
-        "url": "https://github.com/backstage/backstage/issues/35468",
+        "title": "Snyk vulnerability [SNYK-JS-MYSQL2-19512510]",
+        "url": "https://github.com/backstage/backstage/issues/35515",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:10Z"
+        "created_at": "2026-09-05T00:10:48Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-17372752]",
-        "url": "https://github.com/backstage/backstage/issues/35467",
+        "title": "Snyk vulnerability [SNYK-JS-MULTER-19432136]",
+        "url": "https://github.com/backstage/backstage/issues/35514",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:10Z"
+        "created_at": "2026-09-05T00:10:47Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-17372697]",
-        "url": "https://github.com/backstage/backstage/issues/35466",
+        "title": "Snyk vulnerability [SNYK-JS-MULTER-19432134]",
+        "url": "https://github.com/backstage/backstage/issues/35513",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:09Z"
+        "created_at": "2026-09-05T00:10:47Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-17372667]",
-        "url": "https://github.com/backstage/backstage/issues/35465",
+        "title": "Snyk vulnerability [SNYK-JS-MULTER-19432131]",
+        "url": "https://github.com/backstage/backstage/issues/35512",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:09Z"
+        "created_at": "2026-09-05T00:10:46Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-17372658]",
-        "url": "https://github.com/backstage/backstage/issues/35464",
+        "title": "Snyk vulnerability [SNYK-JS-MULTER-19432021]",
+        "url": "https://github.com/backstage/backstage/issues/35511",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:08Z"
+        "created_at": "2026-09-05T00:10:46Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-17372609]",
-        "url": "https://github.com/backstage/backstage/issues/35463",
+        "title": "Snyk vulnerability [SNYK-JS-IPADDRESS-18516625]",
+        "url": "https://github.com/backstage/backstage/issues/35510",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:08Z"
+        "created_at": "2026-09-05T00:10:45Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-TAR-18319500]",
-        "url": "https://github.com/backstage/backstage/issues/35462",
+        "title": "Snyk vulnerability [SNYK-JS-IPADDRESS-18343249]",
+        "url": "https://github.com/backstage/backstage/issues/35509",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:07Z"
+        "created_at": "2026-09-05T00:10:45Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-TAR-17909225]",
-        "url": "https://github.com/backstage/backstage/issues/35461",
+        "title": "Snyk vulnerability [SNYK-JS-HONONODESERVER-18170326]",
+        "url": "https://github.com/backstage/backstage/issues/35508",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:07Z"
+        "created_at": "2026-09-05T00:10:45Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-TAR-17909152]",
-        "url": "https://github.com/backstage/backstage/issues/35460",
+        "title": "Snyk vulnerability [SNYK-JS-HONO-19499093]",
+        "url": "https://github.com/backstage/backstage/issues/35507",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:06Z"
+        "created_at": "2026-09-05T00:10:44Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-TAR-17909104]",
-        "url": "https://github.com/backstage/backstage/issues/35459",
+        "title": "Snyk vulnerability [SNYK-JS-HONO-19499091]",
+        "url": "https://github.com/backstage/backstage/issues/35506",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:06Z"
+        "created_at": "2026-09-05T00:10:44Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-TAR-17909068]",
-        "url": "https://github.com/backstage/backstage/issues/35458",
+        "title": "Snyk vulnerability [SNYK-JS-HONO-19499068]",
+        "url": "https://github.com/backstage/backstage/issues/35505",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:05Z"
+        "created_at": "2026-09-05T00:10:44Z"
     },
     {
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-TAR-17342362]",
-        "url": "https://github.com/backstage/backstage/issues/35457",
+        "title": "Snyk vulnerability [SNYK-JS-FORMDATA-17337015]",
+        "url": "https://github.com/backstage/backstage/issues/35504",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-04T20:07:05Z"
+        "created_at": "2026-09-05T00:10:43Z"
     },
     {
         "repo": "buildpacks/pack",
