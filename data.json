@@ -17911,7 +17911,6 @@
         "title": "The KGateway Controller should expose a kgateway_build_info metric",
         "url": "https://github.com/kgateway-dev/kgateway/issues/13457",
         "labels": [
-            "stale",
             "help wanted"
         ],
         "created_at": "2026-02-02T16:54:58Z"
@@ -23739,6 +23738,20 @@
         "repo": "oras-project/oras",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "check-license fails after skywalking-eyes 0.9.0: dependency.files path is resolved relative to .github/",
+        "url": "https://github.com/oras-project/oras/issues/2154",
+        "labels": [
+            "bug",
+            "help wanted",
+            "good first issue",
+            "ci"
+        ],
+        "created_at": "2026-09-05T14:18:37Z"
+    },
+    {
+        "repo": "oras-project/oras",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Support multiple `--platform` where appropriate",
         "url": "https://github.com/oras-project/oras/issues/1945",
         "labels": [
@@ -29328,21 +29341,6 @@
             "priority/P2"
         ],
         "created_at": "2025-09-10T08:05:44Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "TimeSeriesChart: The Label for Y Axis is not shown",
-        "url": "https://github.com/perses/perses/issues/3264",
-        "labels": [
-            "good first issue",
-            "ui",
-            "priority/P2",
-            "needs investigation",
-            "plugin"
-        ],
-        "created_at": "2025-08-30T10:20:10Z"
     },
     {
         "repo": "perses/perses",
