@@ -7961,18 +7961,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "spire-{agent,server}: allow more gRPC connection configuration",
-        "url": "https://github.com/spiffe/spire/issues/4990",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2024-03-18T07:38:26Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "CredentialComposer plugin serializes integer claims as float",
         "url": "https://github.com/spiffe/spire/issues/4982",
         "labels": [
