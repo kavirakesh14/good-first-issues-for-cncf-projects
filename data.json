@@ -14673,6 +14673,7 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3821",
         "labels": [
             "help wanted",
+            "lifecycle/stale",
             "outreach"
         ],
         "created_at": "2026-06-08T12:35:52Z"
@@ -14685,6 +14686,7 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3820",
         "labels": [
             "help wanted",
+            "lifecycle/stale",
             "outreach"
         ],
         "created_at": "2026-06-08T12:19:39Z"
@@ -14709,6 +14711,7 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3818",
         "labels": [
             "help wanted",
+            "lifecycle/stale",
             "roadmap"
         ],
         "created_at": "2026-06-08T12:11:49Z"
@@ -14734,6 +14737,7 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3815",
         "labels": [
             "help wanted",
+            "lifecycle/stale",
             "roadmap"
         ],
         "created_at": "2026-06-08T10:59:22Z"
