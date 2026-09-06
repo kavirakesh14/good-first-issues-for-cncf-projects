@@ -6042,7 +6042,8 @@
             "good first issue",
             "validation",
             "stale",
-            "type:clusterpolicy"
+            "type:clusterpolicy",
+            "legacy_type"
         ],
         "created_at": "2025-05-09T07:05:36Z"
     },
@@ -6070,7 +6071,8 @@
         "labels": [
             "enhancement",
             "good first issue",
-            "log enhancement"
+            "log enhancement",
+            "legacy_type"
         ],
         "created_at": "2024-01-31T12:31:42Z"
     },
@@ -7998,20 +8000,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "FIPS compliant images",
-        "url": "https://github.com/spiffe/spire/issues/4009",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "unscoped",
-            "stale"
-        ],
-        "created_at": "2023-03-21T21:37:33Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "SPIRE Server should enforce agent IDs reside in the agent namespace",
         "url": "https://github.com/spiffe/spire/issues/2712",
         "labels": [
@@ -8958,7 +8946,6 @@
         "labels": [
             "feature",
             "help wanted",
-            "wontfix",
             "needs-design-document"
         ],
         "created_at": "2026-04-07T04:45:04Z"
