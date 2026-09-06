@@ -3397,6 +3397,7 @@
         "url": "https://github.com/goharbor/harbor/issues/22168",
         "labels": [
             "help wanted",
+            "Stale",
             "area/release",
             "icebox"
         ],
@@ -13228,17 +13229,15 @@
         "repo": "koordinator-sh/koordinator",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[proposal] add more events info to pod when cgroup resources (cpuset.cpus) first set",
-        "url": "https://github.com/koordinator-sh/koordinator/issues/897",
+        "title": "scheduler: register the remaining QueueingHint event sources for the Reservation plugin",
+        "url": "https://github.com/koordinator-sh/koordinator/issues/3145",
         "labels": [
-            "good first issue",
+            "enhancement",
             "help wanted",
-            "area/koordlet",
-            "kind/proposal",
-            "concept/qos",
-            "concept/cluster-admin"
+            "area/koord-scheduler",
+            "concept/reservation"
         ],
-        "created_at": "2022-12-21T04:00:53Z"
+        "created_at": "2026-07-26T13:34:32Z"
     },
     {
         "repo": "koordinator-sh/koordinator",
@@ -13252,6 +13251,19 @@
             "concept/reservation"
         ],
         "created_at": "2026-06-10T08:45:23Z"
+    },
+    {
+        "repo": "koordinator-sh/koordinator",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[webhook/pod] Implement mutating logic for Pod Update in handleUpdate",
+        "url": "https://github.com/koordinator-sh/koordinator/issues/2954",
+        "labels": [
+            "help wanted",
+            "area/koord-manager",
+            "kind/proposal"
+        ],
+        "created_at": "2026-05-15T14:25:24Z"
     },
     {
         "repo": "koordinator-sh/koordinator",
@@ -13358,21 +13370,6 @@
         "repo": "koordinator-sh/koordinator",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[proposal]QoS management for out-of-band processes on node",
-        "url": "https://github.com/koordinator-sh/koordinator/issues/1639",
-        "labels": [
-            "help wanted",
-            "area/koordlet",
-            "area/koord-manager",
-            "kind/proposal",
-            "concept/qos"
-        ],
-        "created_at": "2023-09-11T12:42:13Z"
-    },
-    {
-        "repo": "koordinator-sh/koordinator",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[proposal] user manual of BlkIO QoS",
         "url": "https://github.com/koordinator-sh/koordinator/issues/1252",
         "labels": [
@@ -13382,20 +13379,6 @@
             "concept/qos"
         ],
         "created_at": "2023-04-26T02:47:49Z"
-    },
-    {
-        "repo": "koordinator-sh/koordinator",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[proposal] move `memory qos` plugin as runtime hook plugin",
-        "url": "https://github.com/koordinator-sh/koordinator/issues/755",
-        "labels": [
-            "help wanted",
-            "area/koordlet",
-            "kind/proposal",
-            "concept/qos"
-        ],
-        "created_at": "2022-10-28T09:36:10Z"
     },
     {
         "repo": "kube-rs/kube",
@@ -20931,6 +20914,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEFORGE-19635204]",
+        "url": "https://github.com/backstage/backstage/issues/35543",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-06T08:06:31Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [snyk:lic:npm:version-range:Artistic-2.0]",
         "url": "https://github.com/backstage/backstage/issues/35533",
         "labels": [
@@ -21274,18 +21269,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-05T00:10:44Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-FORMDATA-17337015]",
-        "url": "https://github.com/backstage/backstage/issues/35504",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:43Z"
     },
     {
         "repo": "buildpacks/pack",
