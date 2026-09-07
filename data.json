@@ -2307,6 +2307,19 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[CI] Go test workflows (go-testing-ci.yml, server-integration-tests.yml) do not trigger on go.mod / go.sum updates",
+        "url": "https://github.com/meshery/meshery/issues/21834",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-09-06T20:42:16Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Server] Scalability Testing for Meshery Server Against Large Kubernetes Clusters",
         "url": "https://github.com/meshery/meshery/issues/21717",
         "labels": [
@@ -2662,20 +2675,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-03T07:50:30Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Document meshkit's syncmodutil for extension go.mod dependency sync",
-        "url": "https://github.com/meshery/meshery/issues/20419",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-02T22:19:09Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -23776,20 +23775,6 @@
         "repo": "oras-project/oras",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "check-license fails after skywalking-eyes 0.9.0: dependency.files path is resolved relative to .github/",
-        "url": "https://github.com/oras-project/oras/issues/2154",
-        "labels": [
-            "bug",
-            "help wanted",
-            "good first issue",
-            "ci"
-        ],
-        "created_at": "2026-09-05T14:18:37Z"
-    },
-    {
-        "repo": "oras-project/oras",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Support multiple `--platform` where appropriate",
         "url": "https://github.com/oras-project/oras/issues/1945",
         "labels": [
@@ -29086,7 +29071,8 @@
         "labels": [
             "kind/feature",
             "help wanted",
-            "discussion"
+            "discussion",
+            "stale"
         ],
         "created_at": "2025-01-08T01:34:27Z"
     },
