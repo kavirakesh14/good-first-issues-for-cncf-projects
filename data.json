@@ -3396,7 +3396,6 @@
         "url": "https://github.com/goharbor/harbor/issues/22168",
         "labels": [
             "help wanted",
-            "Stale",
             "area/release",
             "icebox"
         ],
@@ -13157,19 +13156,6 @@
         "repo": "koordinator-sh/koordinator",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Opportunistic Batching",
-        "url": "https://github.com/koordinator-sh/koordinator/issues/2854",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "area/koord-scheduler"
-        ],
-        "created_at": "2026-04-14T08:25:20Z"
-    },
-    {
-        "repo": "koordinator-sh/koordinator",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "SchedulerQueueingHints",
         "url": "https://github.com/koordinator-sh/koordinator/issues/2852",
         "labels": [
@@ -13358,6 +13344,18 @@
             "area/koord-device-daemon"
         ],
         "created_at": "2026-04-14T08:25:23Z"
+    },
+    {
+        "repo": "koordinator-sh/koordinator",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Opportunistic Batching",
+        "url": "https://github.com/koordinator-sh/koordinator/issues/2854",
+        "labels": [
+            "help wanted",
+            "area/koord-scheduler"
+        ],
+        "created_at": "2026-04-14T08:25:20Z"
     },
     {
         "repo": "koordinator-sh/koordinator",
@@ -17866,6 +17864,7 @@
         "url": "https://github.com/kgateway-dev/kgateway/issues/12575",
         "labels": [
             "Good First Issue",
+            "stale",
             "help wanted"
         ],
         "created_at": "2025-10-09T19:56:55Z"
@@ -17901,7 +17900,8 @@
         "title": "Add Status Condition Messages to Gateway for Invalid Listeners",
         "url": "https://github.com/kgateway-dev/kgateway/issues/11982",
         "labels": [
-            "Good First Issue"
+            "Good First Issue",
+            "stale"
         ],
         "created_at": "2025-08-13T09:55:51Z"
     },
@@ -17936,6 +17936,7 @@
         "title": "Setting Max Request Size Forces Buffering (In Memory)",
         "url": "https://github.com/kgateway-dev/kgateway/issues/13642",
         "labels": [
+            "stale",
             "help wanted",
             "kind/ingress-nginx"
         ],
