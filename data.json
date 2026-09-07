@@ -2457,20 +2457,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs]Section-index (_index.md) pages never render their own title \u2014 display_title: false suppresses it with no fallback",
-        "url": "https://github.com/meshery/meshery/issues/21178",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-06T06:37:59Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[CI] Playground CNCF reset workflow fails due to SSH connection timeout",
         "url": "https://github.com/meshery/meshery/issues/21150",
         "labels": [
@@ -2675,6 +2661,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-03T07:50:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Document meshkit's syncmodutil for extension go.mod dependency sync",
+        "url": "https://github.com/meshery/meshery/issues/20419",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-02T22:19:09Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -5124,23 +5124,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Keycloak Admin UI: Client - Authorization - Evaluate - Resources and Scopes - Key search does not work",
-        "url": "https://github.com/keycloak/keycloak/issues/51585",
-        "labels": [
-            "area/authorization-services",
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-08-10T14:42:18Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "SCIM filtered PATCH remove deletes all values for multivalued extension attributes",
         "url": "https://github.com/keycloak/keycloak/issues/51525",
         "labels": [
@@ -5471,6 +5454,20 @@
             "kind/weakness"
         ],
         "created_at": "2026-07-01T16:08:31Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "CIMD: SSRF allowlist bypass via sector_identifier_uri in fetched metadata",
+        "url": "https://github.com/keycloak/keycloak/issues/50529",
+        "labels": [
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-01T16:08:25Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8451,29 +8448,6 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
-        "title": "[BUG] CSI volume cloning dosn't respect node-/diskSelector",
-        "url": "https://github.com/longhorn/longhorn/issues/12792",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "component/longhorn-manager",
-            "reproduce/often",
-            "priority/0",
-            "require/auto-e2e-test",
-            "area/csi",
-            "severity/3",
-            "area/data-locality",
-            "require/qa-review-coverage",
-            "require/backport",
-            "area/volume-clone",
-            "workaround-available"
-        ],
-        "created_at": "2026-03-13T09:41:40Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
         "title": "[IMPROVEMENT] Forcibly remove the oldest snapshot before rebuild if the snapshot count/size reaches the limit",
         "url": "https://github.com/longhorn/longhorn/issues/12493",
         "labels": [
@@ -8860,23 +8834,6 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
-        "title": "[BUG] engine-image-ei with noexec /var filesystem ",
-        "url": "https://github.com/longhorn/longhorn/issues/9083",
-        "labels": [
-            "kind/bug",
-            "priority/0",
-            "require/auto-e2e-test",
-            "require/doc",
-            "area/environment-issue",
-            "require/qa-review-coverage",
-            "help wanted"
-        ],
-        "created_at": "2024-07-24T23:30:38Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
         "title": "[IMPROVEMENT] share-manager-pvc should have its own toleration setting or nodeaffinity for replica zones",
         "url": "https://github.com/longhorn/longhorn/issues/6509",
         "labels": [
@@ -8889,6 +8846,23 @@
             "help wanted"
         ],
         "created_at": "2023-08-11T21:53:42Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
+        "title": "[BUG] engine-image-ei with noexec /var filesystem ",
+        "url": "https://github.com/longhorn/longhorn/issues/9083",
+        "labels": [
+            "kind/bug",
+            "priority/0",
+            "require/auto-e2e-test",
+            "require/doc",
+            "area/environment-issue",
+            "require/qa-review-coverage",
+            "help wanted"
+        ],
+        "created_at": "2024-07-24T23:30:38Z"
     },
     {
         "repo": "longhorn/longhorn",
@@ -11792,7 +11766,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Go",
         "title": "testing: 89 of 165 packages have no helm test target, including eight user-facing apps",
         "url": "https://github.com/cozystack/cozystack/issues/3631",
         "labels": [
@@ -11807,7 +11781,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Go",
         "title": "testing: pin the label-writing workflows with contract tests",
         "url": "https://github.com/cozystack/cozystack/issues/3589",
         "labels": [
@@ -11823,7 +11797,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Go",
         "title": "Move namespace.cozystack.io/host from namespace label to annotation",
         "url": "https://github.com/cozystack/cozystack/issues/2002",
         "labels": [
@@ -11837,7 +11811,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Go",
         "title": "Removing of etcd-cluster should also remove all the secrets and datastore",
         "url": "https://github.com/cozystack/cozystack/issues/154",
         "labels": [
@@ -11850,7 +11824,7 @@
     {
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Go",
         "title": "[mariadb-operator] Bootstrap replica from mariabackup",
         "url": "https://github.com/cozystack/cozystack/issues/32",
         "labels": [
@@ -20960,6 +20934,7 @@
         "url": "https://github.com/backstage/backstage/issues/32748",
         "labels": [
             "good first issue",
+            "stale",
             "needs:triage"
         ],
         "created_at": "2026-02-08T15:12:46Z"
@@ -21198,66 +21173,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-SIGSTOREVERIFY-17817052]",
-        "url": "https://github.com/backstage/backstage/issues/35527",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:53Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-SIGSTORECORE-17817061]",
-        "url": "https://github.com/backstage/backstage/issues/35526",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:53Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-SIGSTORE-17817054]",
-        "url": "https://github.com/backstage/backstage/issues/35525",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:52Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-SHELLQUOTE-17457810]",
-        "url": "https://github.com/backstage/backstage/issues/35524",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:52Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-SHELLQUOTE-16799355]",
-        "url": "https://github.com/backstage/backstage/issues/35523",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:51Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-15353389]",
         "url": "https://github.com/backstage/backstage/issues/35522",
         "labels": [
@@ -21342,13 +21257,73 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-MYSQL2-19512510]",
-        "url": "https://github.com/backstage/backstage/issues/35515",
+        "title": "Snyk vulnerability [SNYK-JS-FILETYPE-15456217]",
+        "url": "https://github.com/backstage/backstage/issues/35503",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-09-05T00:10:48Z"
+        "created_at": "2026-09-05T00:10:43Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSNODE-15166605]",
+        "url": "https://github.com/backstage/backstage/issues/35501",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-05T00:10:42Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSNODE-15166604]",
+        "url": "https://github.com/backstage/backstage/issues/35500",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-05T00:10:41Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8023175]",
+        "url": "https://github.com/backstage/backstage/issues/35499",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-05T00:10:41Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8022917]",
+        "url": "https://github.com/backstage/backstage/issues/35498",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-05T00:10:41Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERNODE-8454494]",
+        "url": "https://github.com/backstage/backstage/issues/35497",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-05T00:10:40Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -24757,23 +24732,6 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "`Select a pod to highlight its logs` makes no sense when viewing a pod",
-        "url": "https://github.com/argoproj/argo-cd/issues/29252",
-        "labels": [
-            "bug",
-            "good first issue",
-            "bug/severity:minor",
-            "triage/pending",
-            "type:usability",
-            "component:ui",
-            "bug/priority:low"
-        ],
-        "created_at": "2026-08-19T00:48:37Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Make the pending-resource list limit in `argocd app wait` timeout errors configurable",
         "url": "https://github.com/argoproj/argo-cd/issues/29031",
         "labels": [
@@ -25146,6 +25104,20 @@
             "component:docs"
         ],
         "created_at": "2022-06-29T09:49:17Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Core mode should allow persistent usage of custom K8s client configuration",
+        "url": "https://github.com/argoproj/argo-cd/issues/7992",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "type:usability",
+            "component:cli"
+        ],
+        "created_at": "2021-12-19T11:20:12Z"
     },
     {
         "repo": "fluxcd/flux2",
@@ -29146,6 +29118,18 @@
             "pinned"
         ],
         "created_at": "2020-12-18T17:28:29Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Use infinite scrolling in projects stack view",
+        "url": "https://github.com/perses/perses/issues/4418",
+        "labels": [
+            "good first issue",
+            "ui"
+        ],
+        "created_at": "2026-09-07T14:31:25Z"
     },
     {
         "repo": "perses/perses",
