@@ -15292,18 +15292,6 @@
         "created_at": "2022-04-02T00:51:30Z"
     },
     {
-        "repo": "wasmCloud/wasmCloud",
-        "tier": "Incubating",
-        "lang": "Rust",
-        "title": "wash dev: components can't connect to a local network services even when its port is allowed",
-        "url": "https://github.com/wasmCloud/wasmCloud/issues/5531",
-        "labels": [
-            "bug",
-            "good first issue"
-        ],
-        "created_at": "2026-09-03T15:55:42Z"
-    },
-    {
         "repo": "coredns/coredns",
         "tier": "Graduated",
         "lang": "Go",
@@ -20486,6 +20474,43 @@
         "created_at": "2021-09-08T16:13:03Z"
     },
     {
+        "repo": "drasi-project/drasi-platform",
+        "tier": "Sandbox",
+        "lang": "C#",
+        "title": "`drasi apply` fails with 500 error for existing queries",
+        "url": "https://github.com/drasi-project/drasi-platform/issues/308",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2025-09-16T17:50:39Z"
+    },
+    {
+        "repo": "drasi-project/drasi-platform",
+        "tier": "Sandbox",
+        "lang": "C#",
+        "title": "Reactions SDK for DotNet - Inefficient YAML Config Conversion",
+        "url": "https://github.com/drasi-project/drasi-platform/issues/214",
+        "labels": [
+            "good first issue",
+            "triaged",
+            "needs-info"
+        ],
+        "created_at": "2025-05-06T05:19:43Z"
+    },
+    {
+        "repo": "drasi-project/drasi-platform",
+        "tier": "Sandbox",
+        "lang": "C#",
+        "title": "VsCode extension tests",
+        "url": "https://github.com/drasi-project/drasi-platform/issues/201",
+        "labels": [
+            "good first issue",
+            "triaged",
+            "needs-info"
+        ],
+        "created_at": "2025-04-24T23:37:24Z"
+    },
+    {
         "repo": "tremor-rs/tremor-runtime",
         "tier": "Sandbox",
         "lang": "Rust",
@@ -22988,6 +23013,35 @@
             "lifecycle/frozen"
         ],
         "created_at": "2019-09-02T15:56:58Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug] Shared-resource conflict message carries an empty function name and a stray cue/format error",
+        "url": "https://github.com/kubevela/kubevela/issues/7365",
+        "labels": [
+            "type/bug",
+            "good first issue",
+            "area/controller",
+            "effort/small"
+        ],
+        "created_at": "2026-09-07T19:42:01Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug] vela addon upgrade rejects the <registry>/<addon> form that vela addon enable accepts",
+        "url": "https://github.com/kubevela/kubevela/issues/7363",
+        "labels": [
+            "type/bug",
+            "good first issue",
+            "effort/small",
+            "area/addon",
+            "area/cli"
+        ],
+        "created_at": "2026-09-07T19:41:42Z"
     },
     {
         "repo": "kubevela/kubevela",
