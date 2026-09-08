@@ -2295,6 +2295,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Fix malformed curl example in REST API documentation",
+        "url": "https://github.com/meshery/meshery/issues/21854",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-08T19:22:15Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[CI] Go test workflows (go-testing-ci.yml, server-integration-tests.yml) do not trigger on go.mod / go.sum updates",
         "url": "https://github.com/meshery/meshery/issues/21834",
         "labels": [
@@ -2649,20 +2663,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-03T07:50:30Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Document meshkit's syncmodutil for extension go.mod dependency sync",
-        "url": "https://github.com/meshery/meshery/issues/20419",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-02T22:19:09Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -5071,22 +5071,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Exceptions in Kubernetes federated-client-authentication signature verification are silently swallowed with no default-level log trace",
-        "url": "https://github.com/keycloak/keycloak/issues/51682",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-08-12T14:05:25Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Workflows: `on: client-created` conditions are evaluated before the client is populated, so they can never match",
         "url": "https://github.com/keycloak/keycloak/issues/51594",
         "labels": [
@@ -5097,23 +5081,6 @@
             "area/workflows"
         ],
         "created_at": "2026-08-10T22:05:30Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "SCIM filtered PATCH remove deletes all values for multivalued extension attributes",
-        "url": "https://github.com/keycloak/keycloak/issues/51525",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "area/scim"
-        ],
-        "created_at": "2026-08-06T19:31:24Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5432,6 +5399,37 @@
             "kind/weakness"
         ],
         "created_at": "2026-07-01T16:08:31Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "CIMD: SSRF allowlist bypass via sector_identifier_uri in fetched metadata",
+        "url": "https://github.com/keycloak/keycloak/issues/50529",
+        "labels": [
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-01T16:08:25Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Organization Membership mapper omits the claim for users with zero organizations instead of emitting an empty value",
+        "url": "https://github.com/keycloak/keycloak/issues/50410",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "area/organizations"
+        ],
+        "created_at": "2026-06-29T08:22:43Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6548,19 +6546,6 @@
             "inactive"
         ],
         "created_at": "2021-12-16T16:08:35Z"
-    },
-    {
-        "repo": "open-policy-agent/opa",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "docs(policy-reference): add more examples for existing built-in functions",
-        "url": "https://github.com/open-policy-agent/opa/issues/3786",
-        "labels": [
-            "help wanted",
-            "docs",
-            "good first issue"
-        ],
-        "created_at": "2021-09-14T09:43:44Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -11098,18 +11083,6 @@
             "area/hubble"
         ],
         "created_at": "2023-06-28T08:51:15Z"
-    },
-    {
-        "repo": "cilium/cilium",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Consolidate per-endpoint routes macros in the datapath",
-        "url": "https://github.com/cilium/cilium/issues/15449",
-        "labels": [
-            "good-first-issue",
-            "area/datapath"
-        ],
-        "created_at": "2021-03-24T10:50:14Z"
     },
     {
         "repo": "containernetworking/cni",
@@ -20934,6 +20907,30 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-SMOLTOML-19643959]",
+        "url": "https://github.com/backstage/backstage/issues/35581",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-08T17:38:33Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-WEBPACKDEVMIDDLEWARE-19643962]",
+        "url": "https://github.com/backstage/backstage/issues/35580",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-08T17:38:20Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635226]",
         "url": "https://github.com/backstage/backstage/issues/35553",
         "labels": [
@@ -21265,30 +21262,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-05T00:10:41Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8022917]",
-        "url": "https://github.com/backstage/backstage/issues/35498",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:41Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERNODE-8454494]",
-        "url": "https://github.com/backstage/backstage/issues/35497",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:40Z"
     },
     {
         "repo": "buildpacks/pack",
