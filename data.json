@@ -4980,6 +4980,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Integer overflow in OIDC re-auth max_age comparison (OIDCLoginProtocol)",
+        "url": "https://github.com/keycloak/keycloak/issues/52491",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-07T14:18:09Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "User Profile validation is not applied when users are created through partialImport or realm import",
         "url": "https://github.com/keycloak/keycloak/issues/52310",
         "labels": [
@@ -5442,20 +5459,6 @@
             "kind/weakness"
         ],
         "created_at": "2026-07-01T16:08:31Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "CIMD: SSRF allowlist bypass via sector_identifier_uri in fetched metadata",
-        "url": "https://github.com/keycloak/keycloak/issues/50529",
-        "labels": [
-            "help wanted",
-            "priority/normal",
-            "team/core-protocols",
-            "kind/weakness"
-        ],
-        "created_at": "2026-07-01T16:08:25Z"
     },
     {
         "repo": "keylime/keylime",
@@ -11379,18 +11382,6 @@
         "repo": "agones-dev/agones",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Not compatible with restricted pod security",
-        "url": "https://github.com/agones-dev/agones/issues/4668",
-        "labels": [
-            "help wanted",
-            "awaiting-maintainer"
-        ],
-        "created_at": "2026-07-31T23:49:06Z"
-    },
-    {
-        "repo": "agones-dev/agones",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Promote `CountsAndLists` Feature Gate from Beta to Stable",
         "url": "https://github.com/agones-dev/agones/issues/4590",
         "labels": [
@@ -14669,6 +14660,7 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3816",
         "labels": [
             "help wanted",
+            "lifecycle/stale",
             "conference",
             "blog"
         ],
@@ -18976,19 +18968,6 @@
             "LFX Mentorship"
         ],
         "created_at": "2025-06-23T12:38:35Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Add generated files change check in CI",
-        "url": "https://github.com/openeverest/openeverest/issues/3123",
-        "labels": [
-            "good first issue",
-            "chore",
-            "triage/accepted"
-        ],
-        "created_at": "2026-09-03T02:14:09Z"
     },
     {
         "repo": "openeverest/openeverest",
@@ -29481,6 +29460,19 @@
             "priority/P1"
         ],
         "created_at": "2023-10-25T13:49:51Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Search Bar: provide a local a way to customise the search",
+        "url": "https://github.com/perses/perses/issues/4425",
+        "labels": [
+            "help wanted",
+            "ui",
+            "priority/P1"
+        ],
+        "created_at": "2026-09-08T09:36:35Z"
     },
     {
         "repo": "perses/perses",
