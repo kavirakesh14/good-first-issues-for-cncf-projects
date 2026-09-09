@@ -880,7 +880,8 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "good first issue"
+            "good first issue",
+            "area/agent"
         ],
         "created_at": "2024-01-15T16:41:41Z"
     },
@@ -5553,6 +5554,18 @@
         "repo": "kubearmor/kubearmor",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Setup script on Ubuntu 18.04",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2884",
+        "labels": [
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2026-09-09T03:50:45Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[CI]: Automate Rebasing of Open PRs When `main`  is updated",
         "url": "https://github.com/kubearmor/KubeArmor/issues/2871",
         "labels": [
@@ -8318,7 +8331,8 @@
             "area/csi",
             "require/qa-review-coverage",
             "require/backport",
-            "area/volume-clone"
+            "area/volume-clone",
+            "backport/1.12.2"
         ],
         "created_at": "2026-06-14T11:41:39Z"
     },
@@ -12286,22 +12300,6 @@
         "repo": "kedacore/keda",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "MSSQL scaler supports all Azure Active Directory authentication methods provided by driver",
-        "url": "https://github.com/kedacore/keda/issues/7412",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "needs-discussion",
-            "azure",
-            "feature-request",
-            "scaler-mssql"
-        ],
-        "created_at": "2026-01-27T16:55:02Z"
-    },
-    {
-        "repo": "kedacore/keda",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Resolve deprecation in GCP Stackdrive API",
         "url": "https://github.com/kedacore/keda/issues/6653",
         "labels": [
@@ -12444,8 +12442,7 @@
         "url": "https://github.com/kedacore/keda/issues/5630",
         "labels": [
             "help wanted",
-            "feature",
-            "required:keda-v2.21"
+            "feature"
         ],
         "created_at": "2024-03-27T13:50:14Z"
     },
@@ -12723,6 +12720,20 @@
             "stale-bot-ignore"
         ],
         "created_at": "2021-08-10T12:33:18Z"
+    },
+    {
+        "repo": "kedacore/keda",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Provide scaler for Riak TS",
+        "url": "https://github.com/kedacore/keda/issues/1790",
+        "labels": [
+            "help wanted",
+            "scaler",
+            "feature",
+            "stale-bot-ignore"
+        ],
+        "created_at": "2021-05-06T15:18:40Z"
     },
     {
         "repo": "kai-scheduler/KAI-Scheduler",
@@ -20899,7 +20910,8 @@
             "type:suggestion",
             "good first issue",
             "priority:contrib-needed",
-            "area:catalog"
+            "area:catalog",
+            "stale"
         ],
         "created_at": "2025-07-03T19:59:31Z"
     },
@@ -22945,8 +22957,8 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[Bug] vela addon upgrade rejects the <registry>/<addon> form that vela addon enable accepts",
-        "url": "https://github.com/kubevela/kubevela/issues/7363",
+        "title": "[Bug] vela addon upgrade constructs invalid K8s resource name when using registry prefix",
+        "url": "https://github.com/kubevela/kubevela/issues/7356",
         "labels": [
             "type/bug",
             "good first issue",
@@ -22954,7 +22966,7 @@
             "area/addon",
             "area/cli"
         ],
-        "created_at": "2026-09-07T19:41:42Z"
+        "created_at": "2026-09-02T20:32:06Z"
     },
     {
         "repo": "kubevela/kubevela",
@@ -29081,6 +29093,19 @@
             "pinned"
         ],
         "created_at": "2020-12-18T17:28:29Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Go SDK: support annotations",
+        "url": "https://github.com/perses/perses/issues/4430",
+        "labels": [
+            "good first issue",
+            "api",
+            "plugin"
+        ],
+        "created_at": "2026-09-08T21:07:37Z"
     },
     {
         "repo": "perses/perses",
