@@ -5953,7 +5953,7 @@
         "repo": "kyverno/kyverno",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "[Chore]",
+        "title": "[Chore] reuse certmanager",
         "url": "https://github.com/kyverno/kyverno/issues/15244",
         "labels": [
             "enhancement",
@@ -16343,20 +16343,6 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "domain specific TLS Configuration",
-        "url": "https://github.com/envoyproxy/envoy/issues/44021",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/tls",
-            "stale"
-        ],
-        "created_at": "2026-03-19T09:07:14Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "upstream ext_proc: option to wait for connection establishment",
         "url": "https://github.com/envoyproxy/envoy/issues/43540",
         "labels": [
@@ -16582,6 +16568,20 @@
             "area/wasm"
         ],
         "created_at": "2025-10-23T21:20:28Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "Feature request: Add overload action to restart Envoy when it gets stuck",
+        "url": "https://github.com/envoyproxy/envoy/issues/41492",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "no stalebot",
+            "area/overload_manager"
+        ],
+        "created_at": "2025-10-14T09:02:59Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -28545,20 +28545,6 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "ClickHouse e2e tests spurious failures",
-        "url": "https://github.com/jaegertracing/jaeger/issues/8780",
-        "labels": [
-            "bug",
-            "help wanted",
-            "good first issue",
-            "area/storage"
-        ],
-        "created_at": "2026-06-13T21:03:13Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "[chore]: Add backward compatibility integration tests for backends",
         "url": "https://github.com/jaegertracing/jaeger/issues/8691",
         "labels": [
@@ -28909,6 +28895,17 @@
             "ui"
         ],
         "created_at": "2020-10-08T20:47:58Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Improve FOSSA integration",
+        "url": "https://github.com/jaegertracing/jaeger/issues/2432",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2020-08-29T11:12:23Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
@@ -31183,7 +31180,7 @@
         "labels": [
             "help wanted",
             "CI/CD",
-            "lifecycle/stale",
+            "lifecycle/rotten",
             "release/v0.8"
         ],
         "created_at": "2026-05-20T13:09:47Z"
