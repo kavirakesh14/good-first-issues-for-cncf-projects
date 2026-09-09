@@ -12529,18 +12529,6 @@
         "repo": "kedacore/keda",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Authenticating with Azure DevOps using SPN",
-        "url": "https://github.com/kedacore/keda/issues/4853",
-        "labels": [
-            "help wanted",
-            "stale-bot-ignore"
-        ],
-        "created_at": "2023-07-16T18:05:35Z"
-    },
-    {
-        "repo": "kedacore/keda",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Provide a troubleshooting experience using Okteto",
         "url": "https://github.com/kedacore/keda/issues/4476",
         "labels": [
@@ -12734,6 +12722,19 @@
             "stale-bot-ignore"
         ],
         "created_at": "2021-05-06T15:18:40Z"
+    },
+    {
+        "repo": "kedacore/keda",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Provide support for Vertical Pod Autoscaler (VPA)",
+        "url": "https://github.com/kedacore/keda/issues/1788",
+        "labels": [
+            "help wanted",
+            "needs-discussion",
+            "feature"
+        ],
+        "created_at": "2021-05-06T10:39:25Z"
     },
     {
         "repo": "kai-scheduler/KAI-Scheduler",
@@ -27934,6 +27935,19 @@
             "help wanted"
         ],
         "created_at": "2025-01-30T09:05:37Z"
+    },
+    {
+        "repo": "kubernetes-sigs/headlamp",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "docs: Broken links and anchors reported by docusaurus",
+        "url": "https://github.com/kubernetes-sigs/headlamp/issues/7640",
+        "labels": [
+            "kind/bug",
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-09-09T16:26:28Z"
     },
     {
         "repo": "kubernetes-sigs/headlamp",
