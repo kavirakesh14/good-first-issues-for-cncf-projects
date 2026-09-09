@@ -2296,6 +2296,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Fix broken internal Hugo ref links to troubleshooting and logical concept pages",
+        "url": "https://github.com/meshery/meshery/issues/21867",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-09T10:58:03Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs] Fix malformed curl example in REST API documentation",
         "url": "https://github.com/meshery/meshery/issues/21854",
         "labels": [
@@ -2650,20 +2664,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-04T16:31:37Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs]: Integrate Hugo module and shared-asset guidance to contributing guide",
-        "url": "https://github.com/meshery/meshery/issues/20429",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-03T07:50:30Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -20919,6 +20919,54 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-19652370]",
+        "url": "https://github.com/backstage/backstage/issues/35597",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-09T12:09:09Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-19651822]",
+        "url": "https://github.com/backstage/backstage/issues/35596",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-09T12:09:09Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-19651820]",
+        "url": "https://github.com/backstage/backstage/issues/35595",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-09T12:09:08Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-19651818]",
+        "url": "https://github.com/backstage/backstage/issues/35594",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-09T12:09:08Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-SMOLTOML-19643959]",
         "url": "https://github.com/backstage/backstage/issues/35581",
         "labels": [
@@ -21226,54 +21274,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-05T00:10:48Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-FILETYPE-15456217]",
-        "url": "https://github.com/backstage/backstage/issues/35503",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:43Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSNODE-15166605]",
-        "url": "https://github.com/backstage/backstage/issues/35501",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:42Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSNODE-15166604]",
-        "url": "https://github.com/backstage/backstage/issues/35500",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:41Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8023175]",
-        "url": "https://github.com/backstage/backstage/issues/35499",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:41Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -22989,7 +22989,7 @@
         "title": "[Enhancement] Defkit: support computed regex patterns in conditions",
         "url": "https://github.com/kubevela/kubevela/issues/7285",
         "labels": [
-            "type/enhancement",
+            "type/feature",
             "good first issue",
             "help wanted",
             "area/cue",
@@ -23037,7 +23037,7 @@
         "title": "[Feature] Expose user-configurable post-rendering on helmchart (CUE)",
         "url": "https://github.com/kubevela/kubevela/issues/7161",
         "labels": [
-            "type/enhancement",
+            "type/feature",
             "good first issue",
             "help wanted",
             "area/component",
@@ -23053,7 +23053,7 @@
         "title": "[Feature] Expose user-configurable post-rendering on helmchart (Kustomize)",
         "url": "https://github.com/kubevela/kubevela/issues/7160",
         "labels": [
-            "type/enhancement",
+            "type/feature",
             "good first issue",
             "help wanted",
             "area/component",
@@ -23068,7 +23068,7 @@
         "title": "[Feature] Expose user-configurable post-rendering on helmchart (kustomize, CUE)",
         "url": "https://github.com/kubevela/kubevela/issues/7159",
         "labels": [
-            "type/enhancement",
+            "type/feature",
             "good first issue",
             "help wanted",
             "area/component",
@@ -23138,7 +23138,7 @@
         "url": "https://github.com/kubevela/kubevela/issues/6186",
         "labels": [
             "good first issue",
-            "needs investigation"
+            "needs-investigation"
         ],
         "created_at": "2023-07-05T08:25:41Z"
     },
@@ -23149,7 +23149,7 @@
         "title": "Specify NodeSelector for the addon deployment [Feature]",
         "url": "https://github.com/kubevela/kubevela/issues/5362",
         "labels": [
-            "type/enhancement",
+            "type/feature",
             "good first issue",
             "priority/nice-to-have",
             "area/addon"
@@ -23188,7 +23188,7 @@
         "title": "[Enhancement] Defkit: add generated-CUE validation and evaluation helpers",
         "url": "https://github.com/kubevela/kubevela/issues/7291",
         "labels": [
-            "type/enhancement",
+            "type/feature",
             "help wanted",
             "area/cue",
             "effort/medium",
@@ -23203,7 +23203,7 @@
         "title": "[Enhancement] Defkit: expose a generic CUE standard-library call builder",
         "url": "https://github.com/kubevela/kubevela/issues/7286",
         "labels": [
-            "type/enhancement",
+            "type/feature",
             "help wanted",
             "area/cue",
             "effort/medium",
@@ -23844,18 +23844,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Request: Tty should be TTY",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/15663",
-        "labels": [
-            "good first issue",
-            "domain/ui-components/reviewed"
-        ],
-        "created_at": "2026-01-12T18:51:12Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Implement proper ARIA functionality for Preferences page",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/15163",
         "labels": [
@@ -23863,18 +23851,6 @@
             "domain/ui-components/reviewed"
         ],
         "created_at": "2025-12-02T14:02:55Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Options tooltip on podman machine actions menu does not hide",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/14879",
-        "labels": [
-            "good first issue",
-            "domain/ui-components/reviewed"
-        ],
-        "created_at": "2025-11-13T14:42:45Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
