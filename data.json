@@ -901,20 +901,6 @@
         "created_at": "2023-01-11T20:45:54Z"
     },
     {
-        "repo": "kairos-io/kairos",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": ":hedgehog: Emergency shell",
-        "url": "https://github.com/kairos-io/kairos/issues/1157",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/immucore",
-            "papercut"
-        ],
-        "created_at": "2023-03-16T11:12:57Z"
-    },
-    {
         "repo": "kcl-lang/kcl",
         "tier": "Sandbox",
         "lang": "Rust",
@@ -3911,6 +3897,18 @@
             "priority/important-longterm"
         ],
         "created_at": "2020-04-19T04:59:44Z"
+    },
+    {
+        "repo": "cert-manager/cert-manager",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Upgrade e2e tests should not rely on git tags",
+        "url": "https://github.com/cert-manager/cert-manager/issues/9331",
+        "labels": [
+            "help wanted",
+            "kind/flake"
+        ],
+        "created_at": "2026-09-10T18:24:20Z"
     },
     {
         "repo": "cert-manager/cert-manager",
@@ -7718,6 +7716,18 @@
             "help wanted"
         ],
         "created_at": "2015-09-30T16:40:01Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "spire-agent: allow configuring jitter and retry backoff seperate to reconcile loop",
+        "url": "https://github.com/spiffe/spire/issues/7111",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2026-07-02T01:27:13Z"
     },
     {
         "repo": "spiffe/spire",
