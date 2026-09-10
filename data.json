@@ -17738,7 +17738,8 @@
         "title": "Add translation metrics for policies",
         "url": "https://github.com/kgateway-dev/kgateway/issues/13282",
         "labels": [
-            "Good First Issue"
+            "Good First Issue",
+            "stale"
         ],
         "created_at": "2026-01-13T14:59:44Z"
     },
@@ -20920,54 +20921,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-19652370]",
-        "url": "https://github.com/backstage/backstage/issues/35597",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-09T12:09:09Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-19651822]",
-        "url": "https://github.com/backstage/backstage/issues/35596",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-09T12:09:09Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-19651820]",
-        "url": "https://github.com/backstage/backstage/issues/35595",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-09T12:09:08Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-19651818]",
-        "url": "https://github.com/backstage/backstage/issues/35594",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-09T12:09:08Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-SMOLTOML-19643959]",
         "url": "https://github.com/backstage/backstage/issues/35581",
         "labels": [
@@ -21275,6 +21228,54 @@
             "help wanted"
         ],
         "created_at": "2026-09-05T00:10:48Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-FILETYPE-15456217]",
+        "url": "https://github.com/backstage/backstage/issues/35503",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-05T00:10:43Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSNODE-15166605]",
+        "url": "https://github.com/backstage/backstage/issues/35501",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-05T00:10:42Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSNODE-15166604]",
+        "url": "https://github.com/backstage/backstage/issues/35500",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-05T00:10:41Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8023175]",
+        "url": "https://github.com/backstage/backstage/issues/35499",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-05T00:10:41Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -22953,21 +22954,6 @@
             "effort/small"
         ],
         "created_at": "2026-09-07T19:42:01Z"
-    },
-    {
-        "repo": "kubevela/kubevela",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[Bug] vela addon upgrade constructs invalid K8s resource name when using registry prefix",
-        "url": "https://github.com/kubevela/kubevela/issues/7356",
-        "labels": [
-            "type/bug",
-            "good first issue",
-            "effort/small",
-            "area/addon",
-            "area/cli"
-        ],
-        "created_at": "2026-09-02T20:32:06Z"
     },
     {
         "repo": "kubevela/kubevela",
@@ -25121,6 +25107,18 @@
             "help wanted"
         ],
         "created_at": "2022-03-02T19:40:51Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Remove the End Time column from the traces view",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4704",
+        "labels": [
+            "good first issue",
+            "Type/Improvement"
+        ],
+        "created_at": "2026-09-10T07:32:08Z"
     },
     {
         "repo": "openchoreo/openchoreo",
