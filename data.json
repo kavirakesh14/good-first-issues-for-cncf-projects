@@ -1332,21 +1332,6 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "kpt pkg get duplicates a package as a subdirectory when attempting to override the local directory name",
-        "url": "https://github.com/kptdev/kpt/issues/2656",
-        "labels": [
-            "bug",
-            "help wanted",
-            "good first issue",
-            "area/pkg",
-            "p2"
-        ],
-        "created_at": "2022-01-21T01:50:42Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "kpt fn source should accept multiple directories",
         "url": "https://github.com/kptdev/kpt/issues/2595",
         "labels": [
@@ -11958,6 +11943,18 @@
         "created_at": "2020-09-11T05:56:46Z"
     },
     {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Consolidate Grafana dashboards in the website repository and update monitoring docs",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/3002",
+        "labels": [
+            "good first issue",
+            "kind/cleanup"
+        ],
+        "created_at": "2026-09-10T11:51:05Z"
+    },
+    {
         "repo": "karmada-io/karmada",
         "tier": "Graduated",
         "lang": "Go",
@@ -20030,20 +20027,6 @@
             "good first issue"
         ],
         "created_at": "2026-02-10T09:36:29Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
-        "title": "Remove deprecated operator code from version 3.0.7",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/7317",
-        "labels": [
-            "type/task",
-            "type/quality",
-            "Beginner Friendly",
-            "good first issue"
-        ],
-        "created_at": "2026-02-10T08:50:31Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
@@ -29099,18 +29082,6 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Use infinite scrolling in projects stack view",
-        "url": "https://github.com/perses/perses/issues/4418",
-        "labels": [
-            "good first issue",
-            "ui"
-        ],
-        "created_at": "2026-09-07T14:31:25Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Refresh interval picker should be configurable",
         "url": "https://github.com/perses/perses/issues/4385",
         "labels": [
@@ -29132,19 +29103,6 @@
             "plugin"
         ],
         "created_at": "2026-08-25T10:24:34Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Adding a Query Play Ground to the Query Viewer",
-        "url": "https://github.com/perses/perses/issues/4333",
-        "labels": [
-            "good first issue",
-            "ui",
-            "priority/P2"
-        ],
-        "created_at": "2026-08-03T11:07:38Z"
     },
     {
         "repo": "perses/perses",
@@ -29440,7 +29398,7 @@
         "labels": [
             "help wanted",
             "ui",
-            "priority/P1"
+            "priority/P0"
         ],
         "created_at": "2026-09-08T09:36:35Z"
     },
@@ -29842,18 +29800,6 @@
         "repo": "prometheus/prometheus",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Deltas: add PromQL function to disable processing of start times",
-        "url": "https://github.com/prometheus/prometheus/issues/19264",
-        "labels": [
-            "help wanted",
-            "not-as-easy-as-it-looks"
-        ],
-        "created_at": "2026-07-23T16:13:34Z"
-    },
-    {
-        "repo": "prometheus/prometheus",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Support periodic DNS re-resolution for FQDN targets discovered via Consul SD",
         "url": "https://github.com/prometheus/prometheus/issues/18387",
         "labels": [
@@ -30216,6 +30162,20 @@
             "component/service discovery"
         ],
         "created_at": "2024-08-09T01:49:45Z"
+    },
+    {
+        "repo": "prometheus/prometheus",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "TSDB: reduce cost of multiple label selectors for the same label name",
+        "url": "https://github.com/prometheus/prometheus/issues/14619",
+        "labels": [
+            "help wanted",
+            "kind/enhancement",
+            "component/promql",
+            "priority/P3"
+        ],
+        "created_at": "2024-08-07T17:37:47Z"
     },
     {
         "repo": "thanos-io/thanos",
