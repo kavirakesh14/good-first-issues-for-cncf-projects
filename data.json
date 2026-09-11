@@ -2157,22 +2157,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Docs] Fix outdated code references in Contributing to Meshery UI - Notification Center",
-        "url": "https://github.com/meshery/meshery/issues/18941",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "first-timers-only",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-04-27T13:05:59Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[Docs] Scrollbar hidden via display:none in _code.scss breaks scrollable content accessibility",
         "url": "https://github.com/meshery/meshery/issues/18410",
         "labels": [
@@ -2267,6 +2251,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Out-of-Cluster Meshery Server: Cluster Access and Connectivity Requirements",
+        "url": "https://github.com/meshery/meshery/issues/15862",
+        "labels": [
+            "good first issue",
+            "area/docs",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2025-09-21T06:25:23Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs/API] Duplicate response schema entries in Registry Connection API",
         "url": "https://github.com/meshery/meshery/issues/21931",
         "labels": [
@@ -2304,20 +2302,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-09-11T11:14:12Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Prev/Next navigation button text becomes invisible on hover in light mode",
-        "url": "https://github.com/meshery/meshery/issues/21902",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-09-10T20:19:04Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2634,6 +2618,20 @@
             "language/css"
         ],
         "created_at": "2026-07-06T18:42:17Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Docs] Integrate a guide to contribute to the CI/CD tools in Meshery.",
+        "url": "https://github.com/meshery/meshery/issues/20488",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-05T00:01:51Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -3896,18 +3894,6 @@
             "priority/important-longterm"
         ],
         "created_at": "2020-04-19T04:59:44Z"
-    },
-    {
-        "repo": "cert-manager/cert-manager",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Upgrade e2e tests should not rely on git tags",
-        "url": "https://github.com/cert-manager/cert-manager/issues/9331",
-        "labels": [
-            "help wanted",
-            "kind/flake"
-        ],
-        "created_at": "2026-09-10T18:24:20Z"
     },
     {
         "repo": "cert-manager/cert-manager",
@@ -9967,19 +9953,6 @@
             "guest/archlinux"
         ],
         "created_at": "2024-12-24T12:22:32Z"
-    },
-    {
-        "repo": "lima-vm/lima",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Support using UTM's build of QEMU (for stability, GPU acceleration, sudo-less vmnet)",
-        "url": "https://github.com/lima-vm/lima/issues/3033",
-        "labels": [
-            "help wanted",
-            "component/network/vmnet",
-            "component/qemu"
-        ],
-        "created_at": "2024-12-18T04:00:04Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -18935,6 +18908,20 @@
         "repo": "cloudnative-pg/cloudnative-pg",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[Feature]: no metric for role password expiry (VALID UNTIL)",
+        "url": "https://github.com/cloudnative-pg/cloudnative-pg/issues/11459",
+        "labels": [
+            "enhancement :magic_wand:",
+            "good first issue",
+            "observability :mag:",
+            "no-stale"
+        ],
+        "created_at": "2026-09-08T06:00:29Z"
+    },
+    {
+        "repo": "cloudnative-pg/cloudnative-pg",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Feature]: Support for `CREATE` and `USAGE` grants on database schemas",
         "url": "https://github.com/cloudnative-pg/cloudnative-pg/issues/7872",
         "labels": [
@@ -23725,6 +23712,7 @@
         "labels": [
             "enhancement",
             "help wanted",
+            "good first issue",
             "keep open"
         ],
         "created_at": "2025-12-15T06:21:54Z"
