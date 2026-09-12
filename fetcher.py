@@ -3,6 +3,7 @@ import yaml
 import json
 import os
 import time
+from datetime import datetime, timezone
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 HEADERS = {"Accept": "application/vnd.github.v3+json"}
@@ -117,8 +118,13 @@ def fetch_issues(repos):
 
         time.sleep(0.5)
 
+ output = {
+        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "issues": all_issues
+    }
+
     with open("data.json", "w") as f:
-        json.dump(all_issues, f, indent=4)
+        json.dump(output, f, indent=4)
     print(f"\n--- SUCCESS ---")
     print(f"Saved {len(all_issues)} total beginner issues to data.json")
 
