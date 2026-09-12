@@ -2007,18 +2007,6 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "[Bug] Fix error page button responsiveness",
-        "url": "https://github.com/meshery/meshery/issues/21328",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-08-11T06:45:12Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "[UI] Align Technology Checkbox and Label Side by Side",
         "url": "https://github.com/meshery/meshery/issues/21042",
         "labels": [
@@ -2260,6 +2248,20 @@
             "framework/jekyll"
         ],
         "created_at": "2025-09-21T06:25:23Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "fix: all connection-chips should use img source from their connection definitions.",
+        "url": "https://github.com/meshery/meshery/issues/15707",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "component/ui",
+            "issue/remind"
+        ],
+        "created_at": "2025-08-29T05:31:52Z"
     },
     {
         "repo": "meshery/meshery",
@@ -20742,20 +20744,6 @@
             "help wanted"
         ],
         "created_at": "2020-10-16T12:19:35Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "About card: field labels lost vertical spacing after AboutField switched to variant=\"inherit\" (@backstage/plugin-catalog 2.0.8)",
-        "url": "https://github.com/backstage/backstage/issues/35393",
-        "labels": [
-            "type:bug",
-            "good first issue",
-            "priority:contrib-needed",
-            "area:catalog"
-        ],
-        "created_at": "2026-09-03T17:40:55Z"
     },
     {
         "repo": "backstage/backstage",
