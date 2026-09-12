@@ -1851,6 +1851,21 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[UI] Assigned Connections not reflecting in enviroments",
+        "url": "https://github.com/meshery/meshery/issues/21890",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "language/javascript",
+            "component/ui",
+            "framework/react"
+        ],
+        "created_at": "2026-09-10T10:26:59Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[UI] left gap in Design code view on small screen",
         "url": "https://github.com/meshery/meshery/issues/21731",
         "labels": [
@@ -2248,20 +2263,6 @@
             "framework/jekyll"
         ],
         "created_at": "2025-09-21T06:25:23Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "fix: all connection-chips should use img source from their connection definitions.",
-        "url": "https://github.com/meshery/meshery/issues/15707",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "component/ui",
-            "issue/remind"
-        ],
-        "created_at": "2025-08-29T05:31:52Z"
     },
     {
         "repo": "meshery/meshery",
