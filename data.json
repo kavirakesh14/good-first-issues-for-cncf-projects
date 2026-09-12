@@ -26772,28 +26772,6 @@
         "repo": "SlimPlanet/SlimFaas",
         "tier": "Sandbox",
         "lang": "C#",
-        "title": "SlimFaas MCP : Beautiful SCCS style",
-        "url": "https://github.com/SlimPlanet/SlimFaas/issues/153",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2025-08-26T12:41:35Z"
-    },
-    {
-        "repo": "SlimPlanet/SlimFaas",
-        "tier": "Sandbox",
-        "lang": "C#",
-        "title": "Convert SlimFaas MCP Web to Blazor",
-        "url": "https://github.com/SlimPlanet/SlimFaas/issues/152",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2025-08-26T12:40:20Z"
-    },
-    {
-        "repo": "SlimPlanet/SlimFaas",
-        "tier": "Sandbox",
-        "lang": "C#",
         "title": "Helm chart",
         "url": "https://github.com/SlimPlanet/SlimFaas/issues/137",
         "labels": [
