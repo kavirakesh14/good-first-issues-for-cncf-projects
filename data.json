@@ -2268,6 +2268,20 @@
         "repo": "meshery/meshery",
         "tier": "Sandbox",
         "lang": "TypeScript",
+        "title": "[Docs] Fix broken relative image paths in mesheryctl command reference and contributor guides",
+        "url": "https://github.com/meshery/meshery/issues/21949",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-13T03:53:52Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
         "title": "[Docs/API] Duplicate response schema entries in Registry Connection API",
         "url": "https://github.com/meshery/meshery/issues/21931",
         "labels": [
@@ -2621,20 +2635,6 @@
             "language/css"
         ],
         "created_at": "2026-07-06T18:42:17Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "[Docs] Integrate a guide to contribute to the CI/CD tools in Meshery.",
-        "url": "https://github.com/meshery/meshery/issues/20488",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-05T00:01:51Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -7744,18 +7744,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Support Azure Database for PostgreSQL AAD token refresh in SPIRE SQL datastore",
-        "url": "https://github.com/spiffe/spire/issues/6958",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2026-05-13T20:58:31Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Azure IMDS Plugin: Attestation Failures Due to Incomplete CA Pattern Coverage",
         "url": "https://github.com/spiffe/spire/issues/6952",
         "labels": [
@@ -10839,18 +10827,6 @@
         "repo": "youki-dev/youki",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "[Refactor]: Extract Checkpoint/Restore terminal spawn logic into test_utils.rs",
-        "url": "https://github.com/youki-dev/youki/issues/3529",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-05-05T02:57:17Z"
-    },
-    {
-        "repo": "youki-dev/youki",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "Switch to lima from Vagrant",
         "url": "https://github.com/youki-dev/youki/issues/3139",
         "labels": [
@@ -13372,6 +13348,18 @@
         "repo": "kube-rs/kube",
         "tier": "Sandbox",
         "lang": "Rust",
+        "title": "Turn `Controller` trigger_ functions into a configurable stream adapter",
+        "url": "https://github.com/kube-rs/kube/issues/2073",
+        "labels": [
+            "help wanted",
+            "question"
+        ],
+        "created_at": "2026-09-13T05:27:08Z"
+    },
+    {
+        "repo": "kube-rs/kube",
+        "tier": "Sandbox",
+        "lang": "Rust",
         "title": "Try to enable HTTP/2 support in the client",
         "url": "https://github.com/kube-rs/kube/issues/1923",
         "labels": [
@@ -13380,18 +13368,6 @@
             "core"
         ],
         "created_at": "2026-01-29T18:46:00Z"
-    },
-    {
-        "repo": "kube-rs/kube",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "support `CustomResource` without `spec`",
-        "url": "https://github.com/kube-rs/kube/issues/1763",
-        "labels": [
-            "help wanted",
-            "derive"
-        ],
-        "created_at": "2025-05-22T20:49:31Z"
     },
     {
         "repo": "kube-rs/kube",
@@ -25220,18 +25196,6 @@
             "Type/Task"
         ],
         "created_at": "2026-06-30T10:11:38Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "docs: Misleading step to update ClusterWorkflowTemplate for workflow authentication configuration",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4004",
-        "labels": [
-            "good first issue",
-            "Type/Improvement"
-        ],
-        "created_at": "2026-06-26T05:17:20Z"
     },
     {
         "repo": "openchoreo/openchoreo",
