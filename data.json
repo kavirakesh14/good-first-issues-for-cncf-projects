@@ -15183,6 +15183,18 @@
         "created_at": "2022-04-02T00:51:30Z"
     },
     {
+        "repo": "wasmCloud/wasmCloud",
+        "tier": "Incubating",
+        "lang": "Rust",
+        "title": "Retry wash wit fetch",
+        "url": "https://github.com/wasmCloud/wasmCloud/issues/5567",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-09-13T16:40:00Z"
+    },
+    {
         "repo": "coredns/coredns",
         "tier": "Graduated",
         "lang": "Go",
