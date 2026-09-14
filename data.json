@@ -995,18 +995,6 @@
         "repo": "kitops-ml/kitops",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Add a kit skill command to teach AI agents how to use the kit CLI",
-        "url": "https://github.com/kitops-ml/kitops/issues/1249",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-07-18T15:00:09Z"
-    },
-    {
-        "repo": "kitops-ml/kitops",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Document KitOps Integration with Kubeflow Model Registry",
         "url": "https://github.com/kitops-ml/kitops/issues/858",
         "labels": [
@@ -1849,7 +1837,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Assigned Connections not reflecting in enviroments",
         "url": "https://github.com/meshery/meshery/issues/21890",
@@ -1864,7 +1852,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] left gap in Design code view on small screen",
         "url": "https://github.com/meshery/meshery/issues/21731",
@@ -1876,7 +1864,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Badge overlaps with creator name on small screens",
         "url": "https://github.com/meshery/meshery/issues/21730",
@@ -1888,7 +1876,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Dry Run content overflows on small screens in Playground Designs",
         "url": "https://github.com/meshery/meshery/issues/21729",
@@ -1900,7 +1888,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Actions dropdown opens behind the toolbar in Designs",
         "url": "https://github.com/meshery/meshery/issues/21728",
@@ -1912,7 +1900,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] prevent Designs toolbar overflow on small screens",
         "url": "https://github.com/meshery/meshery/issues/21727",
@@ -1924,7 +1912,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Dashboard edit options are not fully visible on small screens",
         "url": "https://github.com/meshery/meshery/issues/21726",
@@ -1936,7 +1924,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Fix inconsistent tab heights on small screens",
         "url": "https://github.com/meshery/meshery/issues/21722",
@@ -1948,7 +1936,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Missing dropdown caret icon in Workspace Environment selector",
         "url": "https://github.com/meshery/meshery/issues/21674",
@@ -1963,7 +1951,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Navigation button disappears on hover",
         "url": "https://github.com/meshery/meshery/issues/21591",
@@ -1978,7 +1966,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Copy button state shared across fields",
         "url": "https://github.com/meshery/meshery/issues/21518",
@@ -1993,7 +1981,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Shield icon overlaps text in configuration catalog",
         "url": "https://github.com/meshery/meshery/issues/21457",
@@ -2008,7 +1996,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Bug] Fix previous button visibility",
         "url": "https://github.com/meshery/meshery/issues/21345",
@@ -2020,7 +2008,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Align Technology Checkbox and Label Side by Side",
         "url": "https://github.com/meshery/meshery/issues/21042",
@@ -2035,7 +2023,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Make the Dry Run Results dialog scrollable to display full error details",
         "url": "https://github.com/meshery/meshery/issues/21017",
@@ -2047,7 +2035,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Improve FAQ layout on the Meshery Playground page",
         "url": "https://github.com/meshery/meshery/issues/20755",
@@ -2062,7 +2050,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Registry Uses Incorrect Icon",
         "url": "https://github.com/meshery/meshery/issues/20309",
@@ -2074,7 +2062,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] YouTube video fails to load with Error 153 in 'The Cloud Native Playground' modal",
         "url": "https://github.com/meshery/meshery/issues/20118",
@@ -2089,7 +2077,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] Improve notification content formatting and spacing",
         "url": "https://github.com/meshery/meshery/issues/20044",
@@ -2101,7 +2089,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "Optimize deployment preview pruning with sparse checkout",
         "url": "https://github.com/meshery/meshery/issues/19678",
@@ -2112,7 +2100,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] \"primary\" alert color has illegible contrast",
         "url": "https://github.com/meshery/meshery/issues/19286",
@@ -2128,7 +2116,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Hugo build warning",
         "url": "https://github.com/meshery/meshery/issues/19197",
@@ -2143,7 +2131,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Display Designs That Use Each Model on Model Pages",
         "url": "https://github.com/meshery/meshery/issues/18959",
@@ -2158,7 +2146,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Scrollbar hidden via display:none in _code.scss breaks scrollable content accessibility",
         "url": "https://github.com/meshery/meshery/issues/18410",
@@ -2174,7 +2162,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[UI] ConfirmationModal.tsx disables all TypeScript checks via @ts-nocheck",
         "url": "https://github.com/meshery/meshery/issues/18405",
@@ -2190,7 +2178,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Rephrase Note on Deletion from Creating Models documentation.",
         "url": "https://github.com/meshery/meshery/issues/18277",
@@ -2206,7 +2194,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] categories of related models",
         "url": "https://github.com/meshery/meshery/issues/18246",
@@ -2221,7 +2209,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Update to the latest jQuery",
         "url": "https://github.com/meshery/meshery/issues/17157",
@@ -2237,7 +2225,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Update to the latest Font Awesome library",
         "url": "https://github.com/meshery/meshery/issues/17156",
@@ -2252,7 +2240,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Out-of-Cluster Meshery Server: Cluster Access and Connectivity Requirements",
         "url": "https://github.com/meshery/meshery/issues/15862",
@@ -2266,7 +2254,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[CI] PR welcome message never fires in welcome-first-time-contributors.yml due to wrong event condition",
         "url": "https://github.com/meshery/meshery/issues/21957",
@@ -2279,7 +2267,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Add a troubleshooting note for Meshery Server startup failures",
         "url": "https://github.com/meshery/meshery/issues/21951",
@@ -2293,7 +2281,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Fix broken relative image paths in mesheryctl command reference and contributor guides",
         "url": "https://github.com/meshery/meshery/issues/21949",
@@ -2307,7 +2295,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs/API] Duplicate response schema entries in Registry Connection API",
         "url": "https://github.com/meshery/meshery/issues/21931",
@@ -2321,7 +2309,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Add a troubleshooting note for Meshery REST API authentication failures",
         "url": "https://github.com/meshery/meshery/issues/21912",
@@ -2335,7 +2323,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Remove outdated Jekyll reference from automated release notes documentation",
         "url": "https://github.com/meshery/meshery/issues/21907",
@@ -2349,7 +2337,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Fix broken internal Hugo ref links to troubleshooting and logical concept pages",
         "url": "https://github.com/meshery/meshery/issues/21867",
@@ -2363,7 +2351,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Fix malformed curl example in REST API documentation",
         "url": "https://github.com/meshery/meshery/issues/21854",
@@ -2377,7 +2365,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[CI] Go test workflows (go-testing-ci.yml, server-integration-tests.yml) do not trigger on go.mod / go.sum updates",
         "url": "https://github.com/meshery/meshery/issues/21834",
@@ -2390,7 +2378,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Server] Scalability Testing for Meshery Server Against Large Kubernetes Clusters",
         "url": "https://github.com/meshery/meshery/issues/21717",
@@ -2403,7 +2391,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs]: Fix grammar, spelling, and formatting errors in mesheryctl E2E testing guide",
         "url": "https://github.com/meshery/meshery/issues/21708",
@@ -2417,7 +2405,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[README] [Enhancement] Ensure installation one-liner is prominent and accessible",
         "url": "https://github.com/meshery/meshery/issues/21668",
@@ -2431,7 +2419,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Relationships: Add a visual example for non-semantic relationship",
         "url": "https://github.com/meshery/meshery/issues/21633",
@@ -2445,7 +2433,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Sign-off (DCO) VS Code screenshot misaligned to the right on wide screens",
         "url": "https://github.com/meshery/meshery/issues/21538",
@@ -2459,7 +2447,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "make golangci is red: 6 pre-existing SA5011 false positives in credentials_handlers_test.go",
         "url": "https://github.com/meshery/meshery/issues/21453",
@@ -2473,7 +2461,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs]Refactor the Meshery REST API documentation to source from the published OpenAPI schemas instead of Golang code comments.",
         "url": "https://github.com/meshery/meshery/issues/21409",
@@ -2487,7 +2475,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Relationships] Identify and add all meaningful relationships for Azure Batch",
         "url": "https://github.com/meshery/meshery/issues/21403",
@@ -2501,7 +2489,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "Workspace edit and delete actions throw runtime error when clicked",
         "url": "https://github.com/meshery/meshery/issues/21205",
@@ -2513,7 +2501,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Standardize image embedding across documentation",
         "url": "https://github.com/meshery/meshery/issues/21198",
@@ -2527,7 +2515,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[CI] Playground CNCF reset workflow fails due to SSH connection timeout",
         "url": "https://github.com/meshery/meshery/issues/21150",
@@ -2540,7 +2528,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "Docs: Broken link to \"Contributing to Models Quick Start\" on Academy exam page",
         "url": "https://github.com/meshery/meshery/issues/21139",
@@ -2554,7 +2542,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Test Plan] Test #3: Install mesheryctl and select the platform to deploy on prompt",
         "url": "https://github.com/meshery/meshery/issues/21078",
@@ -2565,7 +2553,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Improve the ease of navigation of the table of contents sidebar",
         "url": "https://github.com/meshery/meshery/issues/20840",
@@ -2581,7 +2569,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Contributing: Include contributor instructions regarding sparse cloning, excluding /models and other dirs",
         "url": "https://github.com/meshery/meshery/issues/20837",
@@ -2595,7 +2583,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[Docs] Move code block copy button to the right",
         "url": "https://github.com/meshery/meshery/issues/20803",
@@ -2609,7 +2597,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "Broken Tutorials link in archived v0.9 documentation redirects to a 404 page",
         "url": "https://github.com/meshery/meshery/issues/20781",
@@ -2623,7 +2611,7 @@
     },
     {
         "repo": "meshery/meshery",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "TypeScript",
         "title": "[CI] OpenSSF Scorecard Check: Vulnerabilities",
         "url": "https://github.com/meshery/meshery/issues/20778",
@@ -10266,20 +10254,6 @@
         "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Processes started by podman exec may continue to run after podman exec terminates",
-        "url": "https://github.com/podman-container-tools/podman/issues/19486",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "volunteers-wanted",
-            "Contribfest"
-        ],
-        "created_at": "2023-08-02T16:38:25Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Inconsistency In Reported Pod and Container States",
         "url": "https://github.com/podman-container-tools/podman/issues/19097",
         "labels": [
@@ -11051,6 +11025,17 @@
             "area/hubble"
         ],
         "created_at": "2023-06-28T08:51:15Z"
+    },
+    {
+        "repo": "containernetworking/cni",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Split into multiple modules to prevent security scanner false positives",
+        "url": "https://github.com/containernetworking/cni/issues/1189",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-06-24T14:28:16Z"
     },
     {
         "repo": "containernetworking/cni",
@@ -12041,18 +12026,6 @@
             "kind/cleanup"
         ],
         "created_at": "2022-12-30T03:13:15Z"
-    },
-    {
-        "repo": "kcp-dev/kcp",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "feature: Cache http configs and transport in terminating VW",
-        "url": "https://github.com/kcp-dev/kcp/issues/4084",
-        "labels": [
-            "kind/feature",
-            "good first issue"
-        ],
-        "created_at": "2026-04-28T13:49:38Z"
     },
     {
         "repo": "kcp-dev/kcp",
@@ -20931,6 +20904,54 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422]",
+        "url": "https://github.com/backstage/backstage/issues/35677",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-14T16:13:06Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-MULTER-19785644]",
+        "url": "https://github.com/backstage/backstage/issues/35676",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-14T16:12:53Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-19784395]",
+        "url": "https://github.com/backstage/backstage/issues/35654",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-14T12:17:54Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-COMPRESSION-19778377]",
+        "url": "https://github.com/backstage/backstage/issues/35653",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-14T12:17:32Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-WEBPACKDEVMIDDLEWARE-19643962]",
         "url": "https://github.com/backstage/backstage/issues/35580",
         "labels": [
@@ -21238,54 +21259,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-05T00:10:43Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSNODE-15166605]",
-        "url": "https://github.com/backstage/backstage/issues/35501",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:42Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSNODE-15166604]",
-        "url": "https://github.com/backstage/backstage/issues/35500",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:41Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8023175]",
-        "url": "https://github.com/backstage/backstage/issues/35499",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:41Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8022917]",
-        "url": "https://github.com/backstage/backstage/issues/35498",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:41Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -28876,18 +28849,6 @@
         "repo": "k8sgpt-ai/k8sgpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "feat: add an opt-in ValidatingAdmissionPolicy analyzer",
-        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1764",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-08-30T06:16:05Z"
-    },
-    {
-        "repo": "k8sgpt-ai/k8sgpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Question]: incorrect report successfully completed pod as issue with exit code 255",
         "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1581",
         "labels": [
@@ -29059,19 +29020,6 @@
             "plugin"
         ],
         "created_at": "2026-09-08T21:07:37Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Refresh interval picker should be configurable",
-        "url": "https://github.com/perses/perses/issues/4385",
-        "labels": [
-            "good first issue",
-            "ui",
-            "priority/P1"
-        ],
-        "created_at": "2026-08-27T08:17:29Z"
     },
     {
         "repo": "perses/perses",
