@@ -6007,7 +6007,7 @@
             "validation",
             "stale",
             "type:clusterpolicy",
-            "legacy_type"
+            "type_legacy"
         ],
         "created_at": "2025-05-09T07:05:36Z"
     },
@@ -6036,7 +6036,7 @@
             "enhancement",
             "good first issue",
             "log enhancement",
-            "legacy_type"
+            "type_legacy"
         ],
         "created_at": "2024-01-31T12:31:42Z"
     },
@@ -8891,20 +8891,6 @@
             "Needs triage"
         ],
         "created_at": "2026-07-27T22:51:57Z"
-    },
-    {
-        "repo": "velero-io/velero",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Behavior of skip volume policy is strange/problematic",
-        "url": "https://github.com/velero-io/velero/issues/9318",
-        "labels": [
-            "Good first issue",
-            "Needs info",
-            "Restore",
-            "staled"
-        ],
-        "created_at": "2025-10-10T11:54:10Z"
     },
     {
         "repo": "velero-io/velero",
