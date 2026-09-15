@@ -2256,6 +2256,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Docs]",
+        "url": "https://github.com/meshery/meshery/issues/21969",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-15T15:38:46Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Docs] Add Sistent design guidance to AGENTS.md",
         "url": "https://github.com/meshery/meshery/issues/21963",
         "labels": [
@@ -2622,19 +2636,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-18T10:14:28Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[CI] OpenSSF Scorecard Check: Vulnerabilities",
-        "url": "https://github.com/meshery/meshery/issues/20778",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-07-18T07:33:07Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -5314,6 +5315,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Concurrent `resetPassword` calls on the same user fail with HTTP 500",
+        "url": "https://github.com/keycloak/keycloak/issues/50924",
+        "labels": [
+            "kind/bug",
+            "area/admin/api",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn"
+        ],
+        "created_at": "2026-07-15T13:12:01Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Cant select specific organizations in FGAP permission",
         "url": "https://github.com/keycloak/keycloak/issues/50830",
         "labels": [
@@ -5417,20 +5435,6 @@
             "kind/weakness"
         ],
         "created_at": "2026-07-01T16:08:46Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "CIMD: Documented loopback/private-IP SSRF check is not implemented",
-        "url": "https://github.com/keycloak/keycloak/issues/50531",
-        "labels": [
-            "help wanted",
-            "priority/normal",
-            "team/core-protocols",
-            "kind/weakness"
-        ],
-        "created_at": "2026-07-01T16:08:38Z"
     },
     {
         "repo": "keylime/keylime",
@@ -13271,6 +13275,20 @@
         "repo": "koordinator-sh/koordinator",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[BUG] ReservationPending and ReservationWaiting states are not implemented in the reservation plugin.",
+        "url": "https://github.com/koordinator-sh/koordinator/issues/2498",
+        "labels": [
+            "help wanted",
+            "area/koord-scheduler",
+            "concept/reservation",
+            "kind/enhancement"
+        ],
+        "created_at": "2025-06-27T10:19:42Z"
+    },
+    {
+        "repo": "koordinator-sh/koordinator",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[BUG] CPUBurst cannot co-work with CPUNormalization",
         "url": "https://github.com/koordinator-sh/koordinator/issues/2306",
         "labels": [
@@ -20910,6 +20928,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-PROXYADDR-19812342]",
+        "url": "https://github.com/backstage/backstage/issues/35714",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-15T12:13:26Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-ISOMORPHICGIT-19784422]",
         "url": "https://github.com/backstage/backstage/issues/35677",
         "labels": [
@@ -21253,18 +21283,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-05T00:10:48Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-FILETYPE-15456217]",
-        "url": "https://github.com/backstage/backstage/issues/35503",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:43Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -23407,6 +23425,19 @@
             "kind/enhancement"
         ],
         "created_at": "2019-11-29T08:30:35Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Services list triggers duplicate search API calls when filtering by domain label",
+        "url": "https://github.com/microcks/microcks/issues/2297",
+        "labels": [
+            "kind/bug",
+            "component/ux",
+            "good first issue"
+        ],
+        "created_at": "2026-09-10T15:22:21Z"
     },
     {
         "repo": "microcks/microcks",
@@ -28533,19 +28564,6 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Create dummy /deep-dependencies endpoint",
-        "url": "https://github.com/jaegertracing/jaeger/issues/6606",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue"
-        ],
-        "created_at": "2025-01-25T16:06:39Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Enhance Kafka exporter to respect max message size",
         "url": "https://github.com/jaegertracing/jaeger/issues/6439",
         "labels": [
@@ -28837,6 +28855,19 @@
             "help wanted"
         ],
         "created_at": "2020-08-29T11:12:23Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "query service \"search\" api 'limit', 'total' and 'offset' fields are not supplied on response",
+        "url": "https://github.com/jaegertracing/jaeger/issues/2027",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/storage"
+        ],
+        "created_at": "2020-01-17T12:10:12Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
