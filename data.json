@@ -2256,7 +2256,7 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[Docs]",
+        "title": "[Docs]Remove nested interactive <a> links and redundant <p> tags inside <summary> elements on docs homepage",
         "url": "https://github.com/meshery/meshery/issues/21969",
         "labels": [
             "help wanted",
@@ -2270,7 +2270,7 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[Docs] Add Sistent design guidance to AGENTS.md",
+        "title": " [Docs] Reference Sistent DESIGN.md in AGENTS.md UI guidelines",
         "url": "https://github.com/meshery/meshery/issues/21963",
         "labels": [
             "help wanted",
@@ -2334,20 +2334,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-09-11T13:38:51Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Add a troubleshooting note for Meshery REST API authentication failures",
-        "url": "https://github.com/meshery/meshery/issues/21912",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-09-11T11:46:51Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2636,6 +2622,19 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-18T10:14:28Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[CI] OpenSSF Scorecard Check: Vulnerabilities",
+        "url": "https://github.com/meshery/meshery/issues/20778",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-07-18T07:33:07Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4951,23 +4950,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Integer overflow in OIDC re-auth max_age comparison (OIDCLoginProtocol)",
-        "url": "https://github.com/keycloak/keycloak/issues/52491",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-07T14:18:09Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "User Profile validation is not applied when users are created through partialImport or realm import",
         "url": "https://github.com/keycloak/keycloak/issues/52310",
         "labels": [
@@ -5435,6 +5417,20 @@
             "kind/weakness"
         ],
         "created_at": "2026-07-01T16:08:46Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "CIMD: Documented loopback/private-IP SSRF check is not implemented",
+        "url": "https://github.com/keycloak/keycloak/issues/50531",
+        "labels": [
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-01T16:08:38Z"
     },
     {
         "repo": "keylime/keylime",
@@ -7749,6 +7745,18 @@
             "help wanted"
         ],
         "created_at": "2015-09-30T16:40:01Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "aws_iid NodeAttestor: support attesting nodes across multiple AWS partitions from a single server",
+        "url": "https://github.com/spiffe/spire/issues/7217",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2026-08-14T22:11:02Z"
     },
     {
         "repo": "spiffe/spire",
@@ -15188,17 +15196,6 @@
             "good first issue"
         ],
         "created_at": "2026-09-13T10:37:42Z"
-    },
-    {
-        "repo": "wasmCloud/wasmCloud",
-        "tier": "Incubating",
-        "lang": "Rust",
-        "title": "wit/nats: world.wit header says everything is async, but message-handle accessors are sync",
-        "url": "https://github.com/wasmCloud/wasmCloud/issues/5552",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-09-09T13:24:09Z"
     },
     {
         "repo": "wasmCloud/wasmCloud",
