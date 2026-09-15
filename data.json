@@ -4026,6 +4026,18 @@
         "created_at": "2023-10-09T17:22:38Z"
     },
     {
+        "repo": "project-copacetic/copacetic",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[BUG] Debian 11 package downloads return 404 and block image patching tests",
+        "url": "https://github.com/project-copacetic/copacetic/issues/1715",
+        "labels": [
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2026-09-14T21:45:03Z"
+    },
+    {
         "repo": "dexidp/dex",
         "tier": "Sandbox",
         "lang": "Go",
@@ -7893,19 +7905,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Spire will create CAs that are longer lived than the upstream CA",
-        "url": "https://github.com/spiffe/spire/issues/5097",
-        "labels": [
-            "help wanted",
-            "priority/backlog",
-            "stale"
-        ],
-        "created_at": "2024-04-26T20:13:43Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "CredentialComposer plugin serializes integer claims as float",
         "url": "https://github.com/spiffe/spire/issues/4982",
         "labels": [
@@ -9658,8 +9657,7 @@
         "title": "Unify GitHub Actions setup into Ansible playbook for reuse across CI systems",
         "url": "https://github.com/cri-o/cri-o/issues/10053",
         "labels": [
-            "help wanted",
-            "lifecycle/stale"
+            "help wanted"
         ],
         "created_at": "2026-06-18T16:59:46Z"
     },
@@ -14731,19 +14729,6 @@
             "FEATURE-v2"
         ],
         "created_at": "2021-02-09T15:24:19Z"
-    },
-    {
-        "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Support clusterLabels for klusterlet",
-        "url": "https://github.com/open-cluster-management-io/ocm/issues/1541",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "help wanted"
-        ],
-        "created_at": "2026-05-22T15:01:53Z"
     },
     {
         "repo": "open-cluster-management-io/ocm",
@@ -23752,19 +23737,6 @@
             "domain/ui-components/reviewed"
         ],
         "created_at": "2026-08-10T09:35:43Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Migrate direct `Dialog` consumers to `ButtonRow`",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18717",
-        "labels": [
-            "good first issue",
-            "area/renderer \ud83d\udcc8",
-            "domain/ui-components/reviewed"
-        ],
-        "created_at": "2026-08-10T09:23:47Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
