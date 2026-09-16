@@ -2256,6 +2256,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Docs] Update obsolete command categories and remove deprecated `mesh`/`app` commands in `working-with-mesheryctl.md`",
+        "url": "https://github.com/meshery/meshery/issues/21976",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-15T20:59:34Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Docs]Remove nested interactive <a> links and redundant <p> tags inside <summary> elements on docs homepage",
         "url": "https://github.com/meshery/meshery/issues/21969",
         "labels": [
@@ -2622,19 +2636,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-18T10:14:28Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[CI] OpenSSF Scorecard Check: Vulnerabilities",
-        "url": "https://github.com/meshery/meshery/issues/20778",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-07-18T07:33:07Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -7922,8 +7923,7 @@
         "url": "https://github.com/spiffe/spire/issues/5097",
         "labels": [
             "help wanted",
-            "priority/backlog",
-            "stale"
+            "priority/backlog"
         ],
         "created_at": "2024-04-26T20:13:43Z"
     },
