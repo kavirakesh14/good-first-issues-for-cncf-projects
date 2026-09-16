@@ -2669,18 +2669,6 @@
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Update workflows to fix new zizmor findings",
-        "url": "https://github.com/metal3-io/baremetal-operator/issues/3635",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-09-15T10:11:11Z"
-    },
-    {
-        "repo": "metal3-io/baremetal-operator",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "`get-hardware-details` accepts Ironic credentials on the command line",
         "url": "https://github.com/metal3-io/baremetal-operator/issues/3545",
         "labels": [
@@ -5107,9 +5095,10 @@
             "area/oidc",
             "kind/bug",
             "help wanted",
-            "priority/low",
             "status/auto-expire",
             "status/auto-bump",
+            "priority/normal",
+            "status/bumped-by-bot",
             "team/core-protocols"
         ],
         "created_at": "2026-08-19T00:06:17Z"
@@ -5550,6 +5539,18 @@
             "help wanted"
         ],
         "created_at": "2022-11-07T20:46:31Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "feat: Group dependency updates into one PR ( renovate and dependabot)",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2903",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-09-16T05:42:44Z"
     },
     {
         "repo": "kubearmor/kubearmor",
@@ -8347,23 +8348,6 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
-        "title": "[BUG] Cloned volume stuck \"not ready for workloads\" after the clone finishes (v1.12.0, v1 engine)",
-        "url": "https://github.com/longhorn/longhorn/issues/13335",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "area/csi",
-            "require/qa-review-coverage",
-            "require/backport",
-            "area/volume-clone",
-            "backport/1.12.2"
-        ],
-        "created_at": "2026-06-14T11:41:39Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
         "title": "[BUG] Restore Encrypted Volume Backup to Unencrypted Volume Gets Stuck in Attached State",
         "url": "https://github.com/longhorn/longhorn/issues/13234",
         "labels": [
@@ -8824,6 +8808,22 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
+        "title": "[FEATURE] Node Affinity support for longhorn component deployment",
+        "url": "https://github.com/longhorn/longhorn/issues/6035",
+        "labels": [
+            "kind/feature",
+            "good first issue",
+            "component/longhorn-manager",
+            "area/install-uninstall-upgrade",
+            "priority/1",
+            "help wanted"
+        ],
+        "created_at": "2023-06-01T11:00:50Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
         "title": "[BUG] engine-image-ei with noexec /var filesystem ",
         "url": "https://github.com/longhorn/longhorn/issues/9083",
         "labels": [
@@ -8836,22 +8836,6 @@
             "help wanted"
         ],
         "created_at": "2024-07-24T23:30:38Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
-        "title": "[FEATURE] Node Affinity support for longhorn component deployment",
-        "url": "https://github.com/longhorn/longhorn/issues/6035",
-        "labels": [
-            "kind/feature",
-            "good first issue",
-            "component/longhorn-manager",
-            "area/install-uninstall-upgrade",
-            "priority/1",
-            "help wanted"
-        ],
-        "created_at": "2023-06-01T11:00:50Z"
     },
     {
         "repo": "longhorn/longhorn",
@@ -8934,20 +8918,6 @@
             "Area/WindowsSupport"
         ],
         "created_at": "2025-07-17T11:02:34Z"
-    },
-    {
-        "repo": "velero-io/velero",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "velero install does not wait for velero to be healthy and does not report errors",
-        "url": "https://github.com/velero-io/velero/issues/3861",
-        "labels": [
-            "Enhancement/User",
-            "Good first issue",
-            "Area/CLI",
-            "kind/requirement"
-        ],
-        "created_at": "2021-06-09T22:28:51Z"
     },
     {
         "repo": "velero-io/velero",
@@ -9456,6 +9426,17 @@
             "good first issue"
         ],
         "created_at": "2024-09-12T17:13:50Z"
+    },
+    {
+        "repo": "bootc-dev/bootc",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "Add `--target-imgref` option to bootc switch",
+        "url": "https://github.com/bootc-dev/bootc/issues/2464",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-09-16T06:55:00Z"
     },
     {
         "repo": "bootc-dev/bootc",
@@ -15189,18 +15170,6 @@
         "repo": "wasmCloud/wasmCloud",
         "tier": "Incubating",
         "lang": "Rust",
-        "title": "Use UUIDv7 instead of UUIDv4 for generated ids",
-        "url": "https://github.com/wasmCloud/wasmCloud/issues/5566",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-09-13T10:37:42Z"
-    },
-    {
-        "repo": "wasmCloud/wasmCloud",
-        "tier": "Incubating",
-        "lang": "Rust",
         "title": "chart values.yaml overclaims that every plugins entry is file-backed",
         "url": "https://github.com/wasmCloud/wasmCloud/issues/5551",
         "labels": [
@@ -19008,20 +18977,6 @@
         "repo": "openeverest/openeverest",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "assign bot reports the wrong reason and the wrong person when a maintainer assigns someone else",
-        "url": "https://github.com/openeverest/openeverest/issues/2839",
-        "labels": [
-            "bug",
-            "good first issue",
-            "github_actions",
-            "triage/accepted"
-        ],
-        "created_at": "2026-08-09T15:24:12Z"
-    },
-    {
-        "repo": "openeverest/openeverest",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Bug: Telemetry job triggers API server DoS when TELEMETRY_INTERVAL is set to 0s",
         "url": "https://github.com/openeverest/openeverest/issues/2831",
         "labels": [
@@ -20925,6 +20880,30 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-19846655]",
+        "url": "https://github.com/backstage/backstage/issues/35739",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-16T08:13:41Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-FASTURI-19846649]",
+        "url": "https://github.com/backstage/backstage/issues/35738",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-16T08:13:33Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-PROXYADDR-19812342]",
         "url": "https://github.com/backstage/backstage/issues/35714",
         "labels": [
@@ -20968,18 +20947,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-14T12:17:54Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-COMPRESSION-19778377]",
-        "url": "https://github.com/backstage/backstage/issues/35653",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-14T12:17:32Z"
     },
     {
         "repo": "backstage/backstage",
@@ -21268,18 +21235,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-05T00:10:49Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [snyk:lic:npm:isomorphic-git:pgp-plugin:LGPL-3.0]",
-        "url": "https://github.com/backstage/backstage/issues/35516",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:48Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -23810,13 +23765,16 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "When Podman Desktop is installed with Hyper-V, Podman Machines still chose WSL as default",
+        "title": "When Podman CLI is installed with Hyper-V, Podman Machines still chose WSL as default",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/16657",
         "labels": [
             "good first issue",
             "os/windows \ud83e\ude9f",
             "engine/podman \ud83e\uddad",
-            "domain/ui-components/reviewed"
+            "UX/UI Issue",
+            "domain/ui-components/reviewed",
+            "feature",
+            "triaged"
         ],
         "created_at": "2026-03-17T11:08:58Z"
     },
@@ -23910,18 +23868,6 @@
             "domain/ui-components/reviewed"
         ],
         "created_at": "2025-07-08T13:22:31Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Log lines in podman desktop start with a \ufffd character",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/13069",
-        "labels": [
-            "good first issue",
-            "hacktoberfest"
-        ],
-        "created_at": "2025-07-04T07:35:21Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
