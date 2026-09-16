@@ -1366,21 +1366,6 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Provide porcelain flag in `eval` for mounting the current directory",
-        "url": "https://github.com/kptdev/kpt/issues/2351",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue",
-            "area/hydrate",
-            "p2"
-        ],
-        "created_at": "2021-06-29T18:03:53Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Structure kpt error messages and create a style guide",
         "url": "https://github.com/kptdev/kpt/issues/2314",
         "labels": [
@@ -1432,21 +1417,6 @@
             "area/devops"
         ],
         "created_at": "2022-05-13T17:38:45Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "dumb http servers not supported",
-        "url": "https://github.com/kptdev/kpt/issues/2352",
-        "labels": [
-            "bug",
-            "help wanted",
-            "area/pkg",
-            "size/M",
-            "p2"
-        ],
-        "created_at": "2021-06-30T12:03:21Z"
     },
     {
         "repo": "kubean-io/kubean",
@@ -2256,6 +2226,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Design] Add pre-change impact preview for modified components and relationships",
+        "url": "https://github.com/meshery/meshery/issues/21986",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-16T12:45:25Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Docs] Update obsolete command categories and remove deprecated `mesh`/`app` commands in `working-with-mesheryctl.md`",
         "url": "https://github.com/meshery/meshery/issues/21976",
         "labels": [
@@ -2293,19 +2277,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-09-14T19:01:03Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[CI] PR welcome message never fires in welcome-first-time-contributors.yml due to wrong event condition",
-        "url": "https://github.com/meshery/meshery/issues/21957",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-09-14T10:13:10Z"
     },
     {
         "repo": "meshery/meshery",
@@ -4939,6 +4910,22 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Organization group roles are not automapped to realm/resource_access",
+        "url": "https://github.com/keycloak/keycloak/issues/52764",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal",
+            "area/organizations"
+        ],
+        "created_at": "2026-09-15T08:44:17Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "User Profile validation is not applied when users are created through partialImport or realm import",
         "url": "https://github.com/keycloak/keycloak/issues/52310",
         "labels": [
@@ -5407,20 +5394,6 @@
             "kind/weakness"
         ],
         "created_at": "2026-07-01T16:08:46Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "CIMD: Documented loopback/private-IP SSRF check is not implemented",
-        "url": "https://github.com/keycloak/keycloak/issues/50531",
-        "labels": [
-            "help wanted",
-            "priority/normal",
-            "team/core-protocols",
-            "kind/weakness"
-        ],
-        "created_at": "2026-07-01T16:08:38Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10007,6 +9980,19 @@
         "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "RFC: drop --cpu-rt-period and --cpu-rt-runtime flags?",
+        "url": "https://github.com/podman-container-tools/podman/issues/29750",
+        "labels": [
+            "Good First Issue",
+            "triaged",
+            "7.0"
+        ],
+        "created_at": "2026-09-10T10:52:35Z"
+    },
+    {
+        "repo": "podman-container-tools/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "podman --remote exec ignores empty detach keys",
         "url": "https://github.com/podman-container-tools/podman/issues/28193",
         "labels": [
@@ -12181,19 +12167,6 @@
             "component/konnectivity"
         ],
         "created_at": "2025-04-09T12:32:57Z"
-    },
-    {
-        "repo": "k0sproject/k0s",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Feature Request:  JSON Schema to validate k0s config",
-        "url": "https://github.com/k0sproject/k0s/issues/5668",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "area/configuration"
-        ],
-        "created_at": "2025-03-15T17:58:13Z"
     },
     {
         "repo": "k0sproject/k0s",
@@ -23952,19 +23925,6 @@
         "created_at": "2025-01-24T08:41:03Z"
     },
     {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "\"Path\" title for podman binary should be \"Path to Binary\"",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/3847",
-        "labels": [
-            "good first issue",
-            "domain/documentation \ud83d\udcd6",
-            "hacktoberfest"
-        ],
-        "created_at": "2023-09-08T13:53:41Z"
-    },
-    {
         "repo": "getporter/porter",
         "tier": "Sandbox",
         "lang": "Go",
@@ -25070,18 +25030,6 @@
             "Type/Bug"
         ],
         "created_at": "2026-08-14T04:00:31Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Adopt MCP 2026-07-28: bump go-sdk to v1.7.0 and move to stateless streamable HTTP",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4466",
-        "labels": [
-            "good first issue",
-            "Type/Task"
-        ],
-        "created_at": "2026-08-12T06:47:39Z"
     },
     {
         "repo": "openchoreo/openchoreo",
