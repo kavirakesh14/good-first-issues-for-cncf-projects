@@ -2250,6 +2250,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Docs] Fix broken mobile responsiveness CSS selector and parameter naming in 'extension-guide' shortcode",
+        "url": "https://github.com/meshery/meshery/issues/21997",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-17T13:24:26Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Docs]Fix invalid `--adapter` flag syntax and hardcoded path in `running-system-checks-using-mesheryctl.md`",
         "url": "https://github.com/meshery/meshery/issues/21991",
         "labels": [
@@ -2617,20 +2631,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-21T00:03:37Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Move code block copy button to the right",
-        "url": "https://github.com/meshery/meshery/issues/20803",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-20T06:33:24Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -20720,6 +20720,19 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "AzureUrlReader doesn't back off or fall back to cache on Azure DevOps rate-limit signals",
+        "url": "https://github.com/backstage/backstage/issues/35756",
+        "labels": [
+            "good first issue",
+            "priority:contrib-needed",
+            "area:catalog"
+        ],
+        "created_at": "2026-09-17T06:44:15Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Add configurable pacing and safer resource defaults for search collators",
         "url": "https://github.com/backstage/backstage/issues/35315",
         "labels": [
@@ -23677,26 +23690,30 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Fix Import/Pull icon collision on Images page",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18848",
+        "title": "refactor(main): mv `src/plugin/install` into `src/plugin/extension`",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/19298",
         "labels": [
             "good first issue",
-            "domain/ui-components/reviewed"
+            "status/need-triage",
+            "domain/technical-debt",
+            "triaged"
         ],
-        "created_at": "2026-08-18T09:44:59Z"
+        "created_at": "2026-09-17T12:20:47Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Document button layout convention in `CODE-GUIDELINES.md`",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/18721",
+        "title": "feat(FileInput.svelte): support error and disable props",
+        "url": "https://github.com/podman-desktop/podman-desktop/issues/19296",
         "labels": [
             "good first issue",
-            "domain/documentation \ud83d\udcd6",
-            "domain/ui-components/reviewed"
+            "status/need-triage",
+            "domain/ui-components",
+            "feature",
+            "triaged"
         ],
-        "created_at": "2026-08-10T09:35:43Z"
+        "created_at": "2026-09-17T11:45:33Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -23710,18 +23727,6 @@
             "domain/ui-components"
         ],
         "created_at": "2026-07-30T18:13:12Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Global navigation: Arrow key navigation within navbar (when focused)",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/16810",
-        "labels": [
-            "good first issue",
-            "domain/ui-components/reviewed"
-        ],
-        "created_at": "2026-03-25T10:54:55Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -29415,19 +29420,6 @@
             "priority/P2"
         ],
         "created_at": "2025-02-26T09:39:17Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Drag panels from one section (Row) to another",
-        "url": "https://github.com/perses/perses/issues/2604",
-        "labels": [
-            "help wanted",
-            "ui",
-            "priority/P2"
-        ],
-        "created_at": "2025-02-05T10:48:34Z"
     },
     {
         "repo": "perses/perses",
