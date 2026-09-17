@@ -983,6 +983,18 @@
         "repo": "kcl-lang/kcl",
         "tier": "Sandbox",
         "lang": "Rust",
+        "title": "Scope `file` operations to the current module",
+        "url": "https://github.com/kcl-lang/kcl/issues/1886",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2025-03-10T12:35:46Z"
+    },
+    {
+        "repo": "kcl-lang/kcl",
+        "tier": "Sandbox",
+        "lang": "Rust",
         "title": "Nixlang plugin or transpiler",
         "url": "https://github.com/kcl-lang/kcl/issues/1604",
         "labels": [
@@ -990,6 +1002,18 @@
             "long-term"
         ],
         "created_at": "2024-08-27T00:21:07Z"
+    },
+    {
+        "repo": "kcl-lang/kcl",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "Are you currently using KCL? | \u5982\u679c\u60a8\u6b63\u5728\u4f7f\u7528 KCL \u8bf7\u7559\u8a00",
+        "url": "https://github.com/kcl-lang/kcl/issues/578",
+        "labels": [
+            "help wanted",
+            "question"
+        ],
+        "created_at": "2023-06-19T05:33:27Z"
     },
     {
         "repo": "kitops-ml/kitops",
@@ -9415,6 +9439,18 @@
         "repo": "bootc-dev/bootc",
         "tier": "Sandbox",
         "lang": "Rust",
+        "title": "add custom favicon to documentation site",
+        "url": "https://github.com/bootc-dev/bootc/issues/2457",
+        "labels": [
+            "good first issue",
+            "triaged"
+        ],
+        "created_at": "2026-09-12T14:25:59Z"
+    },
+    {
+        "repo": "bootc-dev/bootc",
+        "tier": "Sandbox",
+        "lang": "Rust",
         "title": "docs: expand on dualboot posibilites and what we can assure.",
         "url": "https://github.com/bootc-dev/bootc/issues/1987",
         "labels": [
@@ -12656,7 +12692,8 @@
             "enhancement",
             "good first issue",
             "help wanted",
-            "lifecycle/rotten"
+            "lifecycle/rotten",
+            "theme/dev-experience"
         ],
         "created_at": "2026-01-19T20:22:18Z"
     },
@@ -12669,7 +12706,9 @@
         "labels": [
             "enhancement",
             "good first issue",
-            "stale"
+            "stale",
+            "theme/scale-and-performance",
+            "theme/install-and-deployment"
         ],
         "created_at": "2026-01-19T19:54:44Z"
     },
@@ -12681,7 +12720,9 @@
         "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/1819",
         "labels": [
             "enhancement",
-            "help wanted"
+            "help wanted",
+            "theme/quota-and-fairshare",
+            "theme/install-and-deployment"
         ],
         "created_at": "2026-07-03T15:21:29Z"
     },
@@ -12693,7 +12734,8 @@
         "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/1818",
         "labels": [
             "enhancement",
-            "help wanted"
+            "help wanted",
+            "theme/install-and-deployment"
         ],
         "created_at": "2026-07-03T13:11:45Z"
     },
@@ -12705,7 +12747,8 @@
         "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/1783",
         "labels": [
             "enhancement",
-            "help wanted"
+            "help wanted",
+            "theme/quota-and-fairshare"
         ],
         "created_at": "2026-06-28T10:48:11Z"
     },
@@ -14970,6 +15013,19 @@
             "kind/documentation"
         ],
         "created_at": "2026-09-01T08:28:17Z"
+    },
+    {
+        "repo": "volcano-sh/volcano",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "HAMi DeviceShare can skip Ascend device enforcement after NodeInfo initializes before DeviceShare",
+        "url": "https://github.com/volcano-sh/volcano/issues/5846",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "priority/important-soon"
+        ],
+        "created_at": "2026-08-11T02:46:38Z"
     },
     {
         "repo": "volcano-sh/volcano",
@@ -22877,22 +22933,6 @@
             "area/defkit"
         ],
         "created_at": "2026-08-05T05:39:02Z"
-    },
-    {
-        "repo": "kubevela/kubevela",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Defkit: ForEachMap.WithBody is ignored by the CUE generator",
-        "url": "https://github.com/kubevela/kubevela/issues/7283",
-        "labels": [
-            "type/bug",
-            "good first issue",
-            "help wanted",
-            "area/cue",
-            "effort/small",
-            "area/defkit"
-        ],
-        "created_at": "2026-08-05T03:29:24Z"
     },
     {
         "repo": "kubevela/kubevela",
