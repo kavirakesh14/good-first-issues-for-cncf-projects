@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CNCF Good First Issues Dashboard</title>
+
     <style>
         :root {
             --bg-color: #0d1117;
@@ -16,6 +17,7 @@
             --incubating: #8957e5;
             --sandbox: #6e7681;
         }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
@@ -24,33 +26,70 @@
             padding: 2rem;
             line-height: 1.5;
         }
-        .header { text-align: center; margin-bottom: 2rem; }
-        .header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-        .header p { color: var(--text-muted); }
-        
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            color: var(--text-muted);
+        }
+
+        /* Last Updated */
+        #last-updated {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+        }
+
         .layout {
             display: flex;
             max-width: 1200px;
             margin: 0 auto;
             gap: 2rem;
         }
-        
+
         /* Sidebar Styles */
         .sidebar {
             width: 250px;
             flex-shrink: 0;
         }
-        .sidebar h3 { margin-top: 0; font-size: 1.1rem; color: var(--text-muted); border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
-        
+
+        .sidebar h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.5rem;
+        }
+
         .project-list-container {
             max-height: 700px;
             overflow-y: auto;
             padding-right: 0.5rem;
         }
-        .project-list-container::-webkit-scrollbar { width: 6px; }
-        .project-list-container::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 
-        .project-list { list-style: none; padding: 0; margin: 0; }
+        .project-list-container::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .project-list-container::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 4px;
+        }
+
+        .project-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
         .project-list li {
             padding: 0.75rem 1rem;
             margin-bottom: 0.25rem;
@@ -60,12 +99,23 @@
             transition: background 0.2s;
             word-break: break-all;
         }
-        .project-list li:hover { background-color: var(--border); }
-        .project-list li.active { background-color: var(--accent); color: #fff; font-weight: bold; }
+
+        .project-list li:hover {
+            background-color: var(--border);
+        }
+
+        .project-list li.active {
+            background-color: var(--accent);
+            color: #fff;
+            font-weight: bold;
+        }
 
         /* Main Content Styles */
-        .main-content { flex-grow: 1; min-width: 0; }
-        
+        .main-content {
+            flex-grow: 1;
+            min-width: 0;
+        }
+
         .controls {
             display: flex;
             flex-direction: column;
@@ -76,7 +126,7 @@
             border: 1px solid var(--border);
             border-radius: 6px;
         }
-        
+
         .search-container input {
             width: 100%;
             padding: 0.75rem 1rem;
@@ -88,13 +138,17 @@
             outline: none;
             box-sizing: border-box;
         }
-        .search-container input:focus { border-color: var(--accent); }
+
+        .search-container input:focus {
+            border-color: var(--accent);
+        }
 
         .filters-container {
             display: flex;
             gap: 1rem;
             flex-wrap: wrap;
         }
+
         .filters-container select {
             flex: 1;
             min-width: 140px;
@@ -107,7 +161,7 @@
             cursor: pointer;
             font-size: 0.9rem;
         }
-        
+
         /* Issue Cards */
         .issue-card {
             background-color: var(--card-bg);
@@ -117,8 +171,11 @@
             margin-bottom: 1rem;
             transition: border-color 0.2s ease;
         }
-        .issue-card:hover { border-color: var(--accent); }
-        
+
+        .issue-card:hover {
+            border-color: var(--accent);
+        }
+
         .card-header {
             display: flex;
             justify-content: space-between;
@@ -127,248 +184,756 @@
             flex-wrap: wrap;
             gap: 0.5rem;
         }
-        .repo-name { font-size: 0.9rem; color: var(--text-muted); font-family: monospace; }
-        .date-posted { font-size: 0.8rem; color: var(--text-muted); }
-        
-        .issue-title { font-size: 1.25rem; font-weight: 600; margin: 0 0 1rem 0; line-height: 1.3;}
-        .issue-title a { color: var(--accent); text-decoration: none; }
-        .issue-title a:hover { text-decoration: underline; }
-        
+
+        .repo-name {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            font-family: monospace;
+        }
+
+        .date-posted {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .issue-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 0 0 1rem 0;
+            line-height: 1.3;
+        }
+
+        .issue-title a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .issue-title a:hover {
+            text-decoration: underline;
+        }
+
         /* Tags */
-        .tags-container { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.5rem;}
-        .tag { color: #ffffff; font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 2em; font-weight: 500; }
-        .tag.issue-label { background-color: var(--border); }
-        .tag.graduated { background-color: var(--graduated); }
-        .tag.incubating { background-color: var(--incubating); }
-        .tag.sandbox { background-color: var(--sandbox); }
-        .tag.lang { background-color: transparent; border: 1px solid var(--text-muted); color: var(--text-muted); }
-        
+        .tags-container {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+
+        .tag {
+            color: #ffffff;
+            font-size: 0.75rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 2em;
+            font-weight: 500;
+        }
+
+        .tag.issue-label {
+            background-color: var(--border);
+        }
+
+        .tag.graduated {
+            background-color: var(--graduated);
+        }
+
+        .tag.incubating {
+            background-color: var(--incubating);
+        }
+
+        .tag.sandbox {
+            background-color: var(--sandbox);
+        }
+
+        .tag.lang {
+            background-color: transparent;
+            border: 1px solid var(--text-muted);
+            color: var(--text-muted);
+        }
+
         /* Mobile Responsiveness */
         @media (max-width: 800px) {
-            .layout { flex-direction: column; }
-            .sidebar { width: 100%; }
-            .project-list-container { 
-                max-height: 220px; 
+            .layout {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+            }
+
+            .project-list-container {
+                max-height: 220px;
                 border: 1px solid var(--border);
                 border-radius: 6px;
                 background-color: var(--card-bg);
             }
-            .header h1 { font-size: 2rem; }
-            body { padding: 1rem; }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            body {
+                padding: 1rem;
+            }
         }
     </style>
 </head>
+
 <body>
 
-<div class="header">
-    <h1>CNCF Good First Issues</h1>
-    <p>Curated beginner-friendly issues from top Cloud Native projects.</p>
-</div>
+    <div class="header">
+        <h1>CNCF Good First Issues</h1>
 
-<div class="layout">
-    <div class="sidebar">
-        <h3>Projects</h3>
-        <div class="project-list-container">
-            <ul id="project-list" class="project-list">
-                <li data-repo="all" class="active">All Projects</li>
+        <p>
+            Curated beginner-friendly issues from top Cloud Native projects.
+        </p>
+
+        <p id="last-updated">
+            Last updated: Loading...
+        </p>
+    </div>
+
+
+    <div class="layout">
+
+        <div class="sidebar">
+
+            <h3>Projects</h3>
+
+            <div class="project-list-container">
+
+                <ul id="project-list" class="project-list">
+
+                    <li data-repo="all" class="active">
+                        All Projects
+                    </li>
+
                 </ul>
+
+            </div>
+
         </div>
+
+
+        <div class="main-content">
+
+            <div class="controls">
+
+                <div class="search-container">
+
+                    <input
+                        type="text"
+                        id="search-input"
+                        placeholder="Search by project or issue title..."
+                    >
+
+                </div>
+
+
+                <div class="filters-container">
+
+                    <select id="tier-filter">
+
+                        <option value="all">
+                            All Tiers
+                        </option>
+
+                        <option value="graduated">
+                            Graduated
+                        </option>
+
+                        <option value="incubating">
+                            Incubating
+                        </option>
+
+                        <option value="sandbox">
+                            Sandbox
+                        </option>
+
+                    </select>
+
+
+                    <select id="lang-filter">
+
+                        <option value="all">
+                            All Languages
+                        </option>
+
+                    </select>
+
+
+                    <select id="sort-filter">
+
+                        <option value="newest">
+                            Newest First
+                        </option>
+
+                        <option value="oldest">
+                            Oldest First
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <div id="issues-container">
+
+                <p style="text-align: center; color: #8b949e;">
+                    Loading issues...
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="main-content">
-        <div class="controls">
-            <div class="search-container">
-                <input type="text" id="search-input" placeholder="Search by project or issue title...">
-            </div>
-            <div class="filters-container">
-                <select id="tier-filter">
-                    <option value="all">All Tiers</option>
-                    <option value="graduated">Graduated</option>
-                    <option value="incubating">Incubating</option>
-                    <option value="sandbox">Sandbox</option>
-                </select>
-                <select id="lang-filter">
-                    <option value="all">All Languages</option>
-                </select>
-                <select id="sort-filter">
-                    <option value="newest">Newest First</option>
-                    <option value="oldest">Oldest First</option>
-                </select>
-            </div>
-        </div>
-        
-        <div id="issues-container">
-            <p style="text-align: center; color: #8b949e;">Loading issues...</p>
-        </div>
-    </div>
-</div>
 
-<script>
-    // Updated Mock Data with new fields
-    const mockData = [
-        {
-            "repo": "argoproj/argo-cd", "tier": "Graduated", "lang": "Go",
-            "title": "docs: clarify sync options behavior in UI",
-            "url": "https://github.com/argoproj/argo-cd/issues/1234",
-            "labels": ["good first issue", "documentation"],
-            "created_at": "2026-06-01T10:00:00Z"
-        },
-        {
-            "repo": "kyverno/kyverno", "tier": "Incubating", "lang": "Go",
-            "title": "feat: add support for new policy rule",
-            "url": "https://github.com/kyverno/kyverno/issues/5678",
-            "labels": ["good first issue"],
-            "created_at": "2026-06-03T08:30:00Z"
-        },
-        {
-            "repo": "podman-desktop/podman-desktop", "tier": "Sandbox", "lang": "TypeScript",
-            "title": "fix: dark mode toggle glitch",
-            "url": "https://github.com/podman-desktop/podman-desktop/issues/9012",
-            "labels": ["good first issue", "bug"],
-            "created_at": "2026-05-28T14:15:00Z"
-        }
-    ];
+    <script>
 
-    let allIssues = [];
-    let currentProject = 'all';
-    let currentSearch = '';
-    let currentTier = 'all';
+        // Mock data used if data.json cannot be loaded
 
-    async function init() {
-        try {
-            const response = await fetch('./data.json');
-            if (response.ok) {
-                allIssues = await response.json();
-            } else { throw new Error("Local data.json not found"); }
-        } catch (error) {
-            console.log("Using fallback mock data.");
-            allIssues = mockData;
-        }
-        
-        buildSidebar();
-        buildLangDropdown();
-        renderIssues();
-        
-        // Event Listeners for controls
-        document.getElementById('lang-filter').addEventListener('change', renderIssues);
-        document.getElementById('sort-filter').addEventListener('change', renderIssues);
-        
-        // New Event Listeners
-        document.getElementById('search-input').addEventListener('input', (e) => {
-            currentSearch = e.target.value.toLowerCase();
-            renderIssues();
-        });
-        document.getElementById('tier-filter').addEventListener('change', (e) => {
-            currentTier = e.target.value.toLowerCase();
-            renderIssues();
-        });
-    }
+        const mockData = [
 
-    function buildSidebar() {
-        const list = document.getElementById('project-list');
-        const uniqueRepos = [...new Set(allIssues.map(i => i.repo))].sort();
-        
-        uniqueRepos.forEach(repo => {
-            const li = document.createElement('li');
-            li.textContent = repo;
-            li.dataset.repo = repo;
-            li.addEventListener('click', () => {
-                document.querySelectorAll('.project-list li').forEach(el => el.classList.remove('active'));
-                li.classList.add('active');
-                currentProject = repo;
-                renderIssues();
-            });
-            list.appendChild(li);
-        });
-        
-        // Setup "All Projects" click
-        list.firstElementChild.addEventListener('click', (e) => {
-            document.querySelectorAll('.project-list li').forEach(el => el.classList.remove('active'));
-            e.target.classList.add('active');
-            currentProject = 'all';
-            renderIssues();
-        });
-    }
+            {
+                "repo": "argoproj/argo-cd",
+                "tier": "Graduated",
+                "lang": "Go",
+                "title": "docs: clarify sync options behavior in UI",
+                "url": "https://github.com/argoproj/argo-cd/issues/1234",
+                "labels": [
+                    "good first issue",
+                    "documentation"
+                ],
+                "created_at": "2026-06-01T10:00:00Z"
+            },
 
-    function buildLangDropdown() {
-        const dropdown = document.getElementById('lang-filter');
-        const uniqueLangs = [...new Set(allIssues.map(i => i.lang))].sort();
-        
-        uniqueLangs.forEach(lang => {
-            if(lang && lang !== "Unknown") {
-                const option = document.createElement('option');
-                option.value = lang;
-                option.textContent = lang;
-                dropdown.appendChild(option);
+            {
+                "repo": "kyverno/kyverno",
+                "tier": "Incubating",
+                "lang": "Go",
+                "title": "feat: add support for new policy rule",
+                "url": "https://github.com/kyverno/kyverno/issues/5678",
+                "labels": [
+                    "good first issue"
+                ],
+                "created_at": "2026-06-03T08:30:00Z"
+            },
+
+            {
+                "repo": "podman-desktop/podman-desktop",
+                "tier": "Sandbox",
+                "lang": "TypeScript",
+                "title": "fix: dark mode toggle glitch",
+                "url": "https://github.com/podman-desktop/podman-desktop/issues/9012",
+                "labels": [
+                    "good first issue",
+                    "bug"
+                ],
+                "created_at": "2026-05-28T14:15:00Z"
             }
-        });
-    }
 
-    function renderIssues() {
-        const container = document.getElementById('issues-container');
-        const langFilter = document.getElementById('lang-filter').value;
-        const sortFilter = document.getElementById('sort-filter').value;
-        
-        // Combined Filter Logic
-        let filtered = allIssues.filter(issue => {
-            const matchesProject = currentProject === 'all' || issue.repo === currentProject;
-            const matchesLang = langFilter === 'all' || issue.lang === langFilter;
-            
-            // Tier Filter Check
-            const matchesTier = currentTier === 'all' || (issue.tier && issue.tier.toLowerCase() === currentTier);
-            
-            // Search Check (checks both repo name and issue title)
-            const searchTarget = (issue.repo + " " + issue.title).toLowerCase();
-            const matchesSearch = currentSearch === '' || searchTarget.includes(currentSearch);
+        ];
 
-            return matchesProject && matchesLang && matchesTier && matchesSearch;
-        });
-        
-        // Sort
-        filtered.sort((a, b) => {
-            const dateA = new Date(a.created_at);
-            const dateB = new Date(b.created_at);
-            return sortFilter === 'newest' ? dateB - dateA : dateA - dateB;
-        });
 
-        // Render
-        container.innerHTML = '';
-        if (filtered.length === 0) {
-            container.innerHTML = '<p style="text-align:center; color: var(--text-muted); padding: 2rem;">No issues found matching your filters.</p>';
-            return;
+        let allIssues = [];
+
+        let currentProject = 'all';
+
+        let currentSearch = '';
+
+        let currentTier = 'all';
+
+
+        async function init() {
+
+            try {
+
+                // Load issue data
+
+                const response = await fetch('./data.json');
+
+
+                if (response.ok) {
+
+                    allIssues = await response.json();
+
+                } else {
+
+                    throw new Error("Local data.json not found");
+
+                }
+
+
+                // Load metadata
+
+                const metadataResponse =
+                    await fetch('./metadata.json');
+
+
+                if (metadataResponse.ok) {
+
+                    const metadata =
+                        await metadataResponse.json();
+
+
+                    if (metadata.last_updated) {
+
+                        const updatedDate =
+                            new Date(metadata.last_updated);
+
+
+                        document.getElementById(
+                            'last-updated'
+                        ).textContent =
+                            `Last updated: ${updatedDate.toLocaleString()}`;
+
+                    }
+
+                }
+
+
+            } catch (error) {
+
+                console.log(
+                    "Using fallback mock data."
+                );
+
+                allIssues = mockData;
+
+            }
+
+
+            buildSidebar();
+
+            buildLangDropdown();
+
+            renderIssues();
+
+
+            // Language filter
+
+            document
+                .getElementById('lang-filter')
+                .addEventListener(
+                    'change',
+                    renderIssues
+                );
+
+
+            // Sort filter
+
+            document
+                .getElementById('sort-filter')
+                .addEventListener(
+                    'change',
+                    renderIssues
+                );
+
+
+            // Search
+
+            document
+                .getElementById('search-input')
+                .addEventListener(
+                    'input',
+                    (e) => {
+
+                        currentSearch =
+                            e.target.value.toLowerCase();
+
+                        renderIssues();
+
+                    }
+                );
+
+
+            // Tier filter
+
+            document
+                .getElementById('tier-filter')
+                .addEventListener(
+                    'change',
+                    (e) => {
+
+                        currentTier =
+                            e.target.value.toLowerCase();
+
+                        renderIssues();
+
+                    }
+                );
+
         }
 
-        filtered.forEach(issue => {
-            const card = document.createElement('div');
-            card.className = 'issue-card';
-            
-            const tierClass = issue.tier ? issue.tier.toLowerCase() : '';
-            const dateStr = new Date(issue.created_at).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
-            
-            const labelsHtml = issue.labels.map(label => `<span class="tag issue-label">${label}</span>`).join('');
 
-            card.innerHTML = `
-                <div class="card-header">
-                    <span class="repo-name">${issue.repo}</span>
-                    <span class="date-posted">Opened: ${dateStr}</span>
-                </div>
-                <h3 class="issue-title">
-                    <a href="${issue.url}" target="_blank" rel="noopener noreferrer">${issue.title}</a>
-                </h3>
-                <div class="tags-container">
-                    <span class="tag ${tierClass}">${issue.tier}</span>
-                    <span class="tag lang">${issue.lang}</span>
-                </div>
-                <div class="tags-container" style="margin-top: 0.5rem;">
-                    ${labelsHtml}
-                </div>
-            `;
-            container.appendChild(card);
-        });
-    }
+        function buildSidebar() {
 
-    init();
-</script>
+            const list =
+                document.getElementById('project-list');
+
+
+            const uniqueRepos =
+                [...new Set(
+                    allIssues.map(
+                        i => i.repo
+                    )
+                )].sort();
+
+
+            uniqueRepos.forEach(
+                repo => {
+
+                    const li =
+                        document.createElement('li');
+
+
+                    li.textContent = repo;
+
+                    li.dataset.repo = repo;
+
+
+                    li.addEventListener(
+                        'click',
+                        () => {
+
+                            document
+                                .querySelectorAll(
+                                    '.project-list li'
+                                )
+                                .forEach(
+                                    el =>
+                                        el.classList.remove(
+                                            'active'
+                                        )
+                                );
+
+
+                            li.classList.add(
+                                'active'
+                            );
+
+
+                            currentProject = repo;
+
+                            renderIssues();
+
+                        }
+                    );
+
+
+                    list.appendChild(li);
+
+                }
+            );
+
+
+            // Setup "All Projects" click
+
+            list.firstElementChild.addEventListener(
+                'click',
+                (e) => {
+
+                    document
+                        .querySelectorAll(
+                            '.project-list li'
+                        )
+                        .forEach(
+                            el =>
+                                el.classList.remove(
+                                    'active'
+                                )
+                        );
+
+
+                    e.target.classList.add(
+                        'active'
+                    );
+
+
+                    currentProject = 'all';
+
+                    renderIssues();
+
+                }
+            );
+
+        }
+
+
+        function buildLangDropdown() {
+
+            const dropdown =
+                document.getElementById(
+                    'lang-filter'
+                );
+
+
+            const uniqueLangs =
+                [...new Set(
+                    allIssues.map(
+                        i => i.lang
+                    )
+                )].sort();
+
+
+            uniqueLangs.forEach(
+                lang => {
+
+                    if (
+                        lang &&
+                        lang !== "Unknown"
+                    ) {
+
+                        const option =
+                            document.createElement(
+                                'option'
+                            );
+
+
+                        option.value = lang;
+
+                        option.textContent = lang;
+
+
+                        dropdown.appendChild(
+                            option
+                        );
+
+                    }
+
+                }
+            );
+
+        }
+
+
+        function renderIssues() {
+
+            const container =
+                document.getElementById(
+                    'issues-container'
+                );
+
+
+            const langFilter =
+                document.getElementById(
+                    'lang-filter'
+                ).value;
+
+
+            const sortFilter =
+                document.getElementById(
+                    'sort-filter'
+                ).value;
+
+
+            // Combined Filter Logic
+
+            let filtered =
+                allIssues.filter(
+                    issue => {
+
+                        const matchesProject =
+                            currentProject === 'all' ||
+                            issue.repo === currentProject;
+
+
+                        const matchesLang =
+                            langFilter === 'all' ||
+                            issue.lang === langFilter;
+
+
+                        // Tier Filter Check
+
+                        const matchesTier =
+                            currentTier === 'all' ||
+                            (
+                                issue.tier &&
+                                issue.tier.toLowerCase() ===
+                                currentTier
+                            );
+
+
+                        // Search Check
+
+                        const searchTarget =
+                            (
+                                issue.repo +
+                                " " +
+                                issue.title
+                            ).toLowerCase();
+
+
+                        const matchesSearch =
+                            currentSearch === '' ||
+                            searchTarget.includes(
+                                currentSearch
+                            );
+
+
+                        return (
+                            matchesProject &&
+                            matchesLang &&
+                            matchesTier &&
+                            matchesSearch
+                        );
+
+                    }
+                );
+
+
+            // Sort
+
+            filtered.sort(
+                (a, b) => {
+
+                    const dateA =
+                        new Date(
+                            a.created_at
+                        );
+
+
+                    const dateB =
+                        new Date(
+                            b.created_at
+                        );
+
+
+                    return sortFilter === 'newest'
+                        ? dateB - dateA
+                        : dateA - dateB;
+
+                }
+            );
+
+
+            // Render
+
+            container.innerHTML = '';
+
+
+            if (filtered.length === 0) {
+
+                container.innerHTML =
+                    '<p style="text-align:center; color: var(--text-muted); padding: 2rem;">No issues found matching your filters.</p>';
+
+                return;
+
+            }
+
+
+            filtered.forEach(
+                issue => {
+
+                    const card =
+                        document.createElement(
+                            'div'
+                        );
+
+
+                    card.className =
+                        'issue-card';
+
+
+                    const tierClass =
+                        issue.tier
+                            ? issue.tier.toLowerCase()
+                            : '';
+
+
+                    const dateStr =
+                        new Date(
+                            issue.created_at
+                        ).toLocaleDateString(
+                            undefined,
+                            {
+                                year: 'numeric',
+                                month: 'short',
+                                day: 'numeric'
+                            }
+                        );
+
+
+                    const labelsHtml =
+                        issue.labels
+                            .map(
+                                label =>
+                                    `<span class="tag issue-label">${label}</span>`
+                            )
+                            .join('');
+
+
+                    card.innerHTML = `
+
+                        <div class="card-header">
+
+                            <span class="repo-name">
+                                ${issue.repo}
+                            </span>
+
+                            <span class="date-posted">
+                                Opened: ${dateStr}
+                            </span>
+
+                        </div>
+
+
+                        <h3 class="issue-title">
+
+                            <a
+                                href="${issue.url}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                ${issue.title}
+                            </a>
+
+                        </h3>
+
+
+                        <div class="tags-container">
+
+                            <span class="tag ${tierClass}">
+                                ${issue.tier}
+                            </span>
+
+                            <span class="tag lang">
+                                ${issue.lang}
+                            </span>
+
+                        </div>
+
+
+                        <div
+                            class="tags-container"
+                            style="margin-top: 0.5rem;"
+                        >
+
+                            ${labelsHtml}
+
+                        </div>
+
+                    `;
+
+
+                    container.appendChild(
+                        card
+                    );
+
+                }
+            );
+
+        }
+
+
+        // Start application
+
+        init();
+
+    </script>
 
 </body>
 </html>
