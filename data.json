@@ -8663,7 +8663,8 @@
             "priority/1",
             "require/qa-review-coverage",
             "require/backport",
-            "area/cli"
+            "area/cli",
+            "help wanted"
         ],
         "created_at": "2024-08-25T12:10:07Z"
     },
@@ -8698,7 +8699,8 @@
             "require/doc",
             "require/manual-test-plan",
             "kind/improvement",
-            "area/crd"
+            "area/crd",
+            "help wanted"
         ],
         "created_at": "2024-05-16T08:49:41Z"
     },
@@ -8821,6 +8823,25 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
+        "title": "[FEATURE] Make UI WebSocket Refresh Interval Configurable",
+        "url": "https://github.com/longhorn/longhorn/issues/11134",
+        "labels": [
+            "kind/feature",
+            "area/ui",
+            "require/auto-e2e-test",
+            "require/doc",
+            "require/lep",
+            "require/manual-test-plan",
+            "area/performance",
+            "area/setting",
+            "help wanted"
+        ],
+        "created_at": "2025-06-17T23:44:14Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
         "title": "[BUG] engine-image-ei with noexec /var filesystem ",
         "url": "https://github.com/longhorn/longhorn/issues/9083",
         "labels": [
@@ -8851,6 +8872,22 @@
             "help wanted"
         ],
         "created_at": "2022-12-08T02:24:38Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
+        "title": "[BUG] Duplicate node warning events when node is restarted",
+        "url": "https://github.com/longhorn/longhorn/issues/1449",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "component/longhorn-manager",
+            "kind/refactoring",
+            "priority/2",
+            "help wanted"
+        ],
+        "created_at": "2020-06-02T06:04:15Z"
     },
     {
         "repo": "rook/rook",
@@ -23691,35 +23728,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "refactor(main): mv `src/plugin/install` into `src/plugin/extension`",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/19298",
-        "labels": [
-            "good first issue",
-            "status/need-triage",
-            "domain/technical-debt",
-            "triaged"
-        ],
-        "created_at": "2026-09-17T12:20:47Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "feat(FileInput.svelte): support error and disable props",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/19296",
-        "labels": [
-            "good first issue",
-            "status/need-triage",
-            "domain/ui-components",
-            "feature",
-            "triaged"
-        ],
-        "created_at": "2026-09-17T11:45:33Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Podman machine creation: Odd spacing on \"Import host trusted CA certs\"",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/18544",
         "labels": [
@@ -23728,18 +23736,6 @@
             "domain/ui-components"
         ],
         "created_at": "2026-07-30T18:13:12Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Too long error message overflows from Adding the registry dialog",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/16666",
-        "labels": [
-            "good first issue",
-            "domain/ui-components/reviewed"
-        ],
-        "created_at": "2026-03-17T17:03:02Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -29227,19 +29223,6 @@
             "priority/P1"
         ],
         "created_at": "2024-05-21T07:54:04Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Allow opening dashboards/projects in new tabs in all cases",
-        "url": "https://github.com/perses/perses/issues/1544",
-        "labels": [
-            "good first issue",
-            "ui",
-            "priority/P1"
-        ],
-        "created_at": "2023-10-25T13:49:51Z"
     },
     {
         "repo": "perses/perses",
