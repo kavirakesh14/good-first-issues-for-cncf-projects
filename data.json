@@ -2249,6 +2249,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Docs] Fix non-existent Makefile targets in UI testing contributor guide",
+        "url": "https://github.com/meshery/meshery/issues/22027",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-18T19:55:34Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Docs] Fix broken mobile responsiveness CSS selector and parameter naming in 'extension-guide' shortcode",
         "url": "https://github.com/meshery/meshery/issues/21997",
         "labels": [
@@ -2286,20 +2300,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-09-16T12:45:25Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Update obsolete command categories and remove deprecated `mesh`/`app` commands in `working-with-mesheryctl.md`",
-        "url": "https://github.com/meshery/meshery/issues/21976",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-09-15T20:59:34Z"
     },
     {
         "repo": "meshery/meshery",
@@ -4022,18 +4022,6 @@
         "created_at": "2023-10-09T17:22:38Z"
     },
     {
-        "repo": "project-copacetic/copacetic",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[BUG] Debian 11 package downloads return 404 and block image patching tests",
-        "url": "https://github.com/project-copacetic/copacetic/issues/1715",
-        "labels": [
-            "bug",
-            "good first issue"
-        ],
-        "created_at": "2026-09-14T21:45:03Z"
-    },
-    {
         "repo": "dexidp/dex",
         "tier": "Sandbox",
         "lang": "Go",
@@ -5201,6 +5189,24 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Better server error message and handling if email sender is disabled in configuration",
+        "url": "https://github.com/keycloak/keycloak/issues/51352",
+        "labels": [
+            "kind/bug",
+            "area/admin/api",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-01T12:53:33Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Organization invitation creation and resend endpoints should return 201 with the created invitation location",
         "url": "https://github.com/keycloak/keycloak/issues/51298",
         "labels": [
@@ -5404,23 +5410,6 @@
             "priority/normal"
         ],
         "created_at": "2026-07-09T15:05:23Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Allow all OAuth scope characters in organization alias",
-        "url": "https://github.com/keycloak/keycloak/issues/50703",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "area/organizations"
-        ],
-        "created_at": "2026-07-08T17:00:45Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10063,6 +10052,7 @@
         "url": "https://github.com/podman-container-tools/podman/issues/29750",
         "labels": [
             "Good First Issue",
+            "breaking-change",
             "triaged",
             "7.0"
         ],
@@ -14543,6 +14533,7 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3827",
         "labels": [
             "help wanted",
+            "lifecycle/stale",
             "outreach"
         ],
         "created_at": "2026-06-08T13:25:17Z"
@@ -14555,6 +14546,7 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3823",
         "labels": [
             "help wanted",
+            "lifecycle/stale",
             "outreach"
         ],
         "created_at": "2026-06-08T12:41:35Z"
@@ -23732,6 +23724,21 @@
         "created_at": "2025-12-15T06:21:54Z"
     },
     {
+        "repo": "oras-project/oras",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Consider pushing the latest tag for the docker image",
+        "url": "https://github.com/oras-project/oras/issues/2173",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "ci",
+            "triage",
+            "docker"
+        ],
+        "created_at": "2026-09-16T14:05:51Z"
+    },
+    {
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
@@ -30678,6 +30685,81 @@
             "needs-investigation"
         ],
         "created_at": "2022-08-22T13:46:01Z"
+    },
+    {
+        "repo": "trickstercache/trickster",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Support New Time Series DB Provider: QuestDB",
+        "url": "https://github.com/trickstercache/trickster/issues/1151",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "blocked",
+            "dpc",
+            "2.2 release",
+            "questdb"
+        ],
+        "created_at": "2026-09-18T08:39:41Z"
+    },
+    {
+        "repo": "trickstercache/trickster",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Support New Time Series DB Provider: GrepTimeDB",
+        "url": "https://github.com/trickstercache/trickster/issues/1150",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "blocked",
+            "dpc",
+            "2.2 release",
+            "greptimedb"
+        ],
+        "created_at": "2026-09-18T08:34:03Z"
+    },
+    {
+        "repo": "trickstercache/trickster",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Support IP Access Control Lists",
+        "url": "https://github.com/trickstercache/trickster/issues/1148",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "security",
+            "2.2 release"
+        ],
+        "created_at": "2026-09-18T03:41:12Z"
+    },
+    {
+        "repo": "trickstercache/trickster",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Support Rate Limiting",
+        "url": "https://github.com/trickstercache/trickster/issues/1147",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "security",
+            "2.2 release"
+        ],
+        "created_at": "2026-09-18T03:19:17Z"
+    },
+    {
+        "repo": "trickstercache/trickster",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Support Sticky Sessions on ALB",
+        "url": "https://github.com/trickstercache/trickster/issues/1146",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "blocked",
+            "alb",
+            "2.2 release"
+        ],
+        "created_at": "2026-09-18T03:06:32Z"
     },
     {
         "repo": "spinframework/spin",
