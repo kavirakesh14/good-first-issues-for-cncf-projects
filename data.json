@@ -4950,6 +4950,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Organization missing from the login form model on the invitation confirm-membership page",
+        "url": "https://github.com/keycloak/keycloak/issues/52396",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "area/organizations"
+        ],
+        "created_at": "2026-09-03T19:43:12Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "User Profile validation is not applied when users are created through partialImport or realm import",
         "url": "https://github.com/keycloak/keycloak/issues/52310",
         "labels": [
@@ -5404,20 +5421,6 @@
             "area/organizations"
         ],
         "created_at": "2026-07-08T17:00:45Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "CIMD: Unbounded persistent client creation via path variation",
-        "url": "https://github.com/keycloak/keycloak/issues/50532",
-        "labels": [
-            "help wanted",
-            "priority/normal",
-            "team/core-protocols",
-            "kind/weakness"
-        ],
-        "created_at": "2026-07-01T16:08:46Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8854,6 +8857,23 @@
             "help wanted"
         ],
         "created_at": "2024-07-24T23:30:38Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
+        "title": "[IMPROVEMENT] Strictly validate resources spec and status fields in validating webhook",
+        "url": "https://github.com/longhorn/longhorn/issues/6793",
+        "labels": [
+            "priority/0",
+            "require/auto-e2e-test",
+            "require/doc",
+            "kind/improvement",
+            "area/admission-webhook",
+            "area/crd",
+            "help wanted"
+        ],
+        "created_at": "2023-09-26T17:48:38Z"
     },
     {
         "repo": "longhorn/longhorn",
@@ -19948,13 +19968,17 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "Unchecked generic varargs warning in AbstractCompatibilityChecker.unionOf",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8905",
+        "title": "bug(ui): Change version state dialog shows SUNSET as \"Unknown\"",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/10175",
         "labels": [
+            "type/bug",
             "Beginner Friendly",
+            "priority/low",
+            "area/ui",
+            "area/sdk",
             "good first issue"
         ],
-        "created_at": "2026-07-26T18:25:03Z"
+        "created_at": "2026-09-18T12:01:22Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
@@ -20085,23 +20109,6 @@
             "help wanted"
         ],
         "created_at": "2026-08-20T08:52:55Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
-        "title": "Tab Documentation is empty",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/8446",
-        "labels": [
-            "type/bug",
-            "area/ui",
-            "area/rest",
-            "area/documentation",
-            "area/sdk",
-            "area/CLI",
-            "help wanted"
-        ],
-        "created_at": "2026-07-02T13:16:30Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
