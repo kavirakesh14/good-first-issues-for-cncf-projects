@@ -1962,21 +1962,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[UI] Copy button state shared across fields",
-        "url": "https://github.com/meshery/meshery/issues/21518",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "language/javascript",
-            "component/ui",
-            "framework/react"
-        ],
-        "created_at": "2026-08-20T06:34:24Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[UI] Shield icon overlaps text in configuration catalog",
         "url": "https://github.com/meshery/meshery/issues/21457",
         "labels": [
@@ -2245,6 +2230,20 @@
             "framework/jekyll"
         ],
         "created_at": "2025-09-21T06:25:23Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "fix: all connection-chips should use img source from their connection definitions.",
+        "url": "https://github.com/meshery/meshery/issues/15707",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "component/ui",
+            "issue/remind"
+        ],
+        "created_at": "2025-08-29T05:31:52Z"
     },
     {
         "repo": "meshery/meshery",
@@ -3604,6 +3603,7 @@
         "labels": [
             "feature",
             "good first issue",
+            "no-issue-activity",
             "rm-external"
         ],
         "created_at": "2026-05-25T06:44:44Z"
@@ -16306,18 +16306,6 @@
         "repo": "envoyproxy/envoy",
         "tier": "Graduated",
         "lang": "C++",
-        "title": "Title: Support RFC 9440 (Client-Cert / Client-Cert-Chain) HTTP header fields",
-        "url": "https://github.com/envoyproxy/envoy/issues/45354",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2026-05-29T20:15:18Z"
-    },
-    {
-        "repo": "envoyproxy/envoy",
-        "tier": "Graduated",
-        "lang": "C++",
         "title": "Publish images to GHCR",
         "url": "https://github.com/envoyproxy/envoy/issues/45083",
         "labels": [
@@ -16585,6 +16573,19 @@
             "area/overload_manager"
         ],
         "created_at": "2025-10-14T09:02:59Z"
+    },
+    {
+        "repo": "envoyproxy/envoy",
+        "tier": "Graduated",
+        "lang": "C++",
+        "title": "How to log which rate limit rule was triggered via descriptor?",
+        "url": "https://github.com/envoyproxy/envoy/issues/41339",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/ratelimit"
+        ],
+        "created_at": "2025-10-02T19:54:23Z"
     },
     {
         "repo": "loxilb-io/loxilb",
@@ -30915,7 +30916,8 @@
         "url": "https://github.com/kserve/kserve/issues/4548",
         "labels": [
             "good first issue",
-            "kserve/autoscaling"
+            "kserve/autoscaling",
+            "stale-warning-1"
         ],
         "created_at": "2025-06-27T07:35:16Z"
     },
