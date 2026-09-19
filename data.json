@@ -7850,18 +7850,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Allow preconfiguration of a bundle path in SPIRE server federation config",
-        "url": "https://github.com/spiffe/spire/issues/6322",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2025-09-16T21:01:56Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "IMDSv2 Requirement Breaks aws_mysql and aws_postgres Authentication",
         "url": "https://github.com/spiffe/spire/issues/6118",
         "labels": [
