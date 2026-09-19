@@ -13431,18 +13431,6 @@
         "repo": "kube-rs/kube",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "Make it easier to get an `Api` for a `DynamicObject`",
-        "url": "https://github.com/kube-rs/kube/issues/1430",
-        "labels": [
-            "help wanted",
-            "client"
-        ],
-        "created_at": "2024-03-18T16:22:36Z"
-    },
-    {
-        "repo": "kube-rs/kube",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "Allow default values to be set in the top level field of custom resources such as status, specs, etc.",
         "url": "https://github.com/kube-rs/kube/issues/1239",
         "labels": [
@@ -31052,7 +31040,7 @@
         "url": "https://github.com/llm-d/llm-d/issues/1658",
         "labels": [
             "help wanted",
-            "lifecycle/stale"
+            "lifecycle/rotten"
         ],
         "created_at": "2026-06-02T15:14:22Z"
     },
