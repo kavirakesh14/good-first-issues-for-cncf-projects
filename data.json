@@ -7742,18 +7742,6 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "spire-agent: allow configuring jitter and retry backoff seperate to reconcile loop",
-        "url": "https://github.com/spiffe/spire/issues/7111",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2026-07-02T01:27:13Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Azure IMDS Plugin: Attestation Failures Due to Incomplete CA Pattern Coverage",
         "url": "https://github.com/spiffe/spire/issues/6952",
         "labels": [
@@ -20885,6 +20873,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BRACES-19963945]",
+        "url": "https://github.com/backstage/backstage/issues/35821",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-20T08:06:31Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-ADMZIP-19846655]",
         "url": "https://github.com/backstage/backstage/issues/35739",
         "labels": [
@@ -21228,18 +21228,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-05T00:10:49Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [snyk:lic:npm:isomorphic-git:pgp-plugin:LGPL-3.0]",
-        "url": "https://github.com/backstage/backstage/issues/35516",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:48Z"
     },
     {
         "repo": "buildpacks/pack",
