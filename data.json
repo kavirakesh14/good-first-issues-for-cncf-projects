@@ -905,20 +905,6 @@
         "repo": "kcl-lang/kcl",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "Enhancement: KCL IDE automatically updates the dependencies through the kcl mod toolchain.",
-        "url": "https://github.com/kcl-lang/kcl/issues/1428",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "tool",
-            "lsp"
-        ],
-        "created_at": "2024-06-20T11:24:23Z"
-    },
-    {
-        "repo": "kcl-lang/kcl",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "[Refactor] refactor lsp tests",
         "url": "https://github.com/kcl-lang/kcl/issues/1374",
         "labels": [
@@ -4912,6 +4898,40 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "SecureRedirectUrisEnforcerExecutor enforces PostLogoutRedirectURIs only on CRUD operations",
+        "url": "https://github.com/keycloak/keycloak/issues/52578",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-09T13:13:06Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Destination attribute for SAML integration is validate in LogoutRequest, but not in ArtifactResolve",
+        "url": "https://github.com/keycloak/keycloak/issues/52510",
+        "labels": [
+            "area/saml",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-08T12:34:00Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Organization missing from the login form model on the invitation confirm-membership page",
         "url": "https://github.com/keycloak/keycloak/issues/52396",
         "labels": [
@@ -4924,6 +4944,21 @@
             "area/organizations"
         ],
         "created_at": "2026-09-03T19:43:12Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "URN resource indicator validation does not fully match RFC 8141",
+        "url": "https://github.com/keycloak/keycloak/issues/52324",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-02T13:46:52Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -4958,6 +4993,24 @@
             "status/auto-bump"
         ],
         "created_at": "2026-09-01T16:20:08Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Security Admin console sends all client scopes on client update: May result in a blocked reqeuest due to request size",
+        "url": "https://github.com/keycloak/keycloak/issues/52236",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-31T14:16:23Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5013,6 +5066,43 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Disabling a feature (e.g. organization, webauthn) does not clean up realm data that references the associated provider, causing Admin Console errors and broken login flows",
+        "url": "https://github.com/keycloak/keycloak/issues/52102",
+        "labels": [
+            "kind/bug",
+            "area/core",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-26T19:24:29Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "EC-generated key provider's self-signed certificate is not persisted, causing a new certificate on every restart / node",
+        "url": "https://github.com/keycloak/keycloak/issues/52093",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "area/core",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-26T15:18:39Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Login page: Shift+Enter in username/email field opens a new login window with disabled \"Sign In\" button and stale auth flow",
         "url": "https://github.com/keycloak/keycloak/issues/52056",
         "labels": [
@@ -5025,6 +5115,23 @@
             "team/core-authn"
         ],
         "created_at": "2026-08-26T07:39:43Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Protocol mapper name is not updated",
+        "url": "https://github.com/keycloak/keycloak/issues/52049",
+        "labels": [
+            "kind/bug",
+            "area/account/api",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-26T04:31:01Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5163,24 +5270,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Better server error message and handling if email sender is disabled in configuration",
-        "url": "https://github.com/keycloak/keycloak/issues/51352",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-01T12:53:33Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Organization invitation creation and resend endpoints should return 201 with the created invitation location",
         "url": "https://github.com/keycloak/keycloak/issues/51298",
         "labels": [
@@ -5290,100 +5379,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-07-15T13:59:19Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Concurrent `resetPassword` calls on the same user fail with HTTP 500",
-        "url": "https://github.com/keycloak/keycloak/issues/50924",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn"
-        ],
-        "created_at": "2026-07-15T13:12:01Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Cant select specific organizations in FGAP permission",
-        "url": "https://github.com/keycloak/keycloak/issues/50830",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-07-13T13:04:02Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "CIMD same-domain restriction skips additional redirect_uris before persistence",
-        "url": "https://github.com/keycloak/keycloak/issues/50748",
-        "labels": [
-            "area/oidc",
-            "help wanted",
-            "priority/normal",
-            "team/core-protocols",
-            "kind/weakness"
-        ],
-        "created_at": "2026-07-09T18:47:25Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "CIMD post_logout_redirect_uris bypass trusted domains before logout redirect",
-        "url": "https://github.com/keycloak/keycloak/issues/50747",
-        "labels": [
-            "area/oidc",
-            "help wanted",
-            "priority/normal",
-            "team/core-protocols",
-            "kind/weakness"
-        ],
-        "created_at": "2026-07-09T18:43:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "CIMD CIBA notification endpoint bypasses trusted domains before server-side POST",
-        "url": "https://github.com/keycloak/keycloak/issues/50746",
-        "labels": [
-            "area/oidc",
-            "help wanted",
-            "priority/normal",
-            "team/core-protocols",
-            "kind/weakness"
-        ],
-        "created_at": "2026-07-09T18:40:52Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Fine-grained permission conflicting with each other",
-        "url": "https://github.com/keycloak/keycloak/issues/50740",
-        "labels": [
-            "kind/bug",
-            "area/admin/fine-grained-permissions",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-07-09T15:05:23Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10803,17 +10798,6 @@
         "repo": "youki-dev/youki",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "Support aarch64 integration test in CI",
-        "url": "https://github.com/youki-dev/youki/issues/3533",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-05-07T20:24:22Z"
-    },
-    {
-        "repo": "youki-dev/youki",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "Switch to lima from Vagrant",
         "url": "https://github.com/youki-dev/youki/issues/3139",
         "labels": [
@@ -10999,6 +10983,21 @@
             "area/multi-cluster"
         ],
         "created_at": "2024-03-26T22:45:52Z"
+    },
+    {
+        "repo": "cilium/cilium",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Incorrect validation: `reserved:.*` required even with only exclusive label patterns",
+        "url": "https://github.com/cilium/cilium/issues/48776",
+        "labels": [
+            "kind/bug",
+            "good-first-issue",
+            "sig/policy",
+            "kind/community-report",
+            "area/agent"
+        ],
+        "created_at": "2026-09-16T15:47:09Z"
     },
     {
         "repo": "cilium/cilium",
@@ -17692,6 +17691,7 @@
         "url": "https://github.com/kgateway-dev/kgateway/issues/13637",
         "labels": [
             "Good First Issue",
+            "stale",
             "Area: CI/CD",
             "help wanted"
         ],
