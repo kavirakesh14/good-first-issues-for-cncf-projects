@@ -2210,6 +2210,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Docs] Encode Markdown images to WebP at build time",
+        "url": "https://github.com/meshery/meshery/issues/22038",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-21T14:38:13Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Design] Add pre-change impact preview for modified components and relationships",
         "url": "https://github.com/meshery/meshery/issues/21986",
         "labels": [
@@ -2577,19 +2591,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-18T10:14:28Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[CI] OpenSSF Scorecard Check: Vulnerabilities",
-        "url": "https://github.com/meshery/meshery/issues/20778",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-07-18T07:33:07Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4932,6 +4933,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "DPoPBindEnforcerExecutor requires DPoP on client create/update, defeating its own refresh-token-only binding option",
+        "url": "https://github.com/keycloak/keycloak/issues/52441",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-04T11:20:25Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Organization missing from the login form model on the invitation confirm-membership page",
         "url": "https://github.com/keycloak/keycloak/issues/52396",
         "labels": [
@@ -5364,21 +5382,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-07-28T03:21:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Docs: offline.adoc - missing behavior for password reset and disable/re-enable cycles",
-        "url": "https://github.com/keycloak/keycloak/issues/50926",
-        "labels": [
-            "area/oidc",
-            "kind/enhancement",
-            "help wanted",
-            "priority/low",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-07-15T13:59:19Z"
     },
     {
         "repo": "keylime/keylime",
@@ -9993,20 +9996,6 @@
         "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "RFC: drop --cpu-rt-period and --cpu-rt-runtime flags?",
-        "url": "https://github.com/podman-container-tools/podman/issues/29750",
-        "labels": [
-            "Good First Issue",
-            "breaking-change",
-            "triaged",
-            "7.0"
-        ],
-        "created_at": "2026-09-10T10:52:35Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "podman --remote exec ignores empty detach keys",
         "url": "https://github.com/podman-container-tools/podman/issues/28193",
         "labels": [
@@ -13393,18 +13382,6 @@
         "repo": "kube-rs/kube",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "Support for NO_PROXY",
-        "url": "https://github.com/kube-rs/kube/issues/1203",
-        "labels": [
-            "help wanted",
-            "client"
-        ],
-        "created_at": "2023-04-18T12:04:59Z"
-    },
-    {
-        "repo": "kube-rs/kube",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "Potential extension of PatchParams::validate to cover for invalid patch footgun",
         "url": "https://github.com/kube-rs/kube/issues/1164",
         "labels": [
@@ -13966,6 +13943,20 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Make sig-node CI test coverage adhere to defined guidance",
+        "url": "https://github.com/kubernetes/kubernetes/issues/134862",
+        "labels": [
+            "sig/node",
+            "help wanted",
+            "sig/testing",
+            "triage/accepted"
+        ],
+        "created_at": "2025-10-24T17:57:42Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Tracking: Enable Kube-API-Linter rules",
         "url": "https://github.com/kubernetes/kubernetes/issues/134671",
         "labels": [
@@ -14190,20 +14181,6 @@
             "needs-triage"
         ],
         "created_at": "2025-02-25T09:56:13Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Implement missing LIST benchmarks",
-        "url": "https://github.com/kubernetes/kubernetes/issues/130169",
-        "labels": [
-            "sig/api-machinery",
-            "kind/feature",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2025-02-14T14:01:05Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -17738,18 +17715,6 @@
         "repo": "kgateway-dev/kgateway",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "ResolvedRefs error not helpful when ref'ing to incorrect port on Service",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/11998",
-        "labels": [
-            "Type: Bug",
-            "Good First Issue"
-        ],
-        "created_at": "2025-08-14T02:18:21Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Add Status Condition Messages to Gateway for Invalid Listeners",
         "url": "https://github.com/kgateway-dev/kgateway/issues/11982",
         "labels": [
@@ -20813,19 +20778,6 @@
             "domain:docs"
         ],
         "created_at": "2026-05-05T21:18:55Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[DevTools] Migrate the `InfoDependenciesTable` component to Backstage Ui (BUI)",
-        "url": "https://github.com/backstage/backstage/issues/32748",
-        "labels": [
-            "good first issue",
-            "stale",
-            "needs:triage"
-        ],
-        "created_at": "2026-02-08T15:12:46Z"
     },
     {
         "repo": "backstage/backstage",
@@ -26049,19 +26001,6 @@
         "repo": "tektoncd/pipeline",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "perf: strip documentation-only fields from resolved status snapshots",
-        "url": "https://github.com/tektoncd/pipeline/issues/10321",
-        "labels": [
-            "kind/feature",
-            "help wanted",
-            "priority/important-soon"
-        ],
-        "created_at": "2026-06-19T14:44:02Z"
-    },
-    {
-        "repo": "tektoncd/pipeline",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Remove deprecated `pkg/resolution/resolver/` and consolidate into `pkg/remoteresolution/resolver/`",
         "url": "https://github.com/tektoncd/pipeline/issues/9617",
         "labels": [
@@ -26243,6 +26182,20 @@
             "area/api"
         ],
         "created_at": "2024-04-17T07:18:43Z"
+    },
+    {
+        "repo": "tektoncd/pipeline",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "TEP-152 Tekton Conformance Verification",
+        "url": "https://github.com/tektoncd/pipeline/issues/7828",
+        "labels": [
+            "help wanted",
+            "area/testing",
+            "area/api",
+            "kind/tep"
+        ],
+        "created_at": "2024-04-03T17:58:12Z"
     },
     {
         "repo": "flatcar/Flatcar",
@@ -29163,18 +29116,6 @@
             "priority/P2"
         ],
         "created_at": "2024-07-01T09:39:51Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Dynamic browser tab naming",
-        "url": "https://github.com/perses/perses/issues/2006",
-        "labels": [
-            "good first issue",
-            "priority/P1"
-        ],
-        "created_at": "2024-05-21T07:54:04Z"
     },
     {
         "repo": "perses/perses",
