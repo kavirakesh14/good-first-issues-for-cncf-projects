@@ -4883,6 +4883,22 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Much open UDP Sockets after some Time",
+        "url": "https://github.com/keycloak/keycloak/issues/52968",
+        "labels": [
+            "kind/bug",
+            "area/core",
+            "help wanted",
+            "team/production-readiness",
+            "status/auto-expire",
+            "priority/normal"
+        ],
+        "created_at": "2026-09-18T18:59:29Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Organization group roles are not automapped to realm/resource_access",
         "url": "https://github.com/keycloak/keycloak/issues/52764",
         "labels": [
@@ -5029,6 +5045,23 @@
             "team/core-protocols"
         ],
         "created_at": "2026-08-31T14:16:23Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Infinispan/JGroups metrics should not use the `cluster` label - it silently overwrites the Kubernetes cluster identity",
+        "url": "https://github.com/keycloak/keycloak/issues/52212",
+        "labels": [
+            "kind/enhancement",
+            "area/infinispan",
+            "help wanted",
+            "team/production-readiness",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-08-30T23:32:14Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5351,39 +5384,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-07-29T06:58:06Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "UMA ticket grant fails with \"Invalid identity\" when using ONLINE_TRANSIENT_CLIENT token: transient session cached with started=now breaks checkTokenIssuedAt on second verification within same request",
-        "url": "https://github.com/keycloak/keycloak/issues/51250",
-        "labels": [
-            "kind/bug",
-            "area/token-exchange",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-07-28T15:51:01Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Build user representation via UP when querying users granted with a role",
-        "url": "https://github.com/keycloak/keycloak/issues/51233",
-        "labels": [
-            "kind/bug",
-            "area/admin/fine-grained-permissions",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-07-28T10:40:50Z"
     },
     {
         "repo": "keylime/keylime",
@@ -9430,18 +9430,6 @@
             "good first issue"
         ],
         "created_at": "2026-09-16T06:55:00Z"
-    },
-    {
-        "repo": "bootc-dev/bootc",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "add custom favicon to documentation site",
-        "url": "https://github.com/bootc-dev/bootc/issues/2457",
-        "labels": [
-            "good first issue",
-            "triaged"
-        ],
-        "created_at": "2026-09-12T14:25:59Z"
     },
     {
         "repo": "bootc-dev/bootc",
@@ -25177,18 +25165,6 @@
             "Type/Bug"
         ],
         "created_at": "2026-03-16T09:35:43Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Observability] Add project level metrics view in backstage",
-        "url": "https://github.com/openchoreo/openchoreo/issues/2582",
-        "labels": [
-            "good first issue",
-            "Type/Improvement"
-        ],
-        "created_at": "2026-03-11T05:17:32Z"
     },
     {
         "repo": "openchoreo/openchoreo",
