@@ -12693,7 +12693,6 @@
         "labels": [
             "enhancement",
             "good first issue",
-            "stale",
             "theme/scale-and-performance",
             "theme/install-and-deployment"
         ],
@@ -28270,18 +28269,6 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "ES/OS filter refuses ordered comparison on built-in text fields, which RFC 0005 defines lexicographically",
-        "url": "https://github.com/jaegertracing/jaeger/issues/9472",
-        "labels": [
-            "help wanted",
-            "good first issue"
-        ],
-        "created_at": "2026-09-02T18:30:16Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "jaeger_query: support serving UI assets from an archive, not just a directory",
         "url": "https://github.com/jaegertracing/jaeger/issues/9065",
         "labels": [
@@ -30576,7 +30563,6 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "blocked",
             "dpc",
             "2.2 release",
             "questdb"
@@ -30592,7 +30578,6 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "blocked",
             "dpc",
             "2.2 release",
             "greptimedb"
@@ -30626,21 +30611,6 @@
             "2.2 release"
         ],
         "created_at": "2026-09-18T03:19:17Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Support Sticky Sessions on ALB",
-        "url": "https://github.com/trickstercache/trickster/issues/1146",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "blocked",
-            "alb",
-            "2.2 release"
-        ],
-        "created_at": "2026-09-18T03:06:32Z"
     },
     {
         "repo": "spinframework/spin",
@@ -30882,7 +30852,8 @@
             "good first issue",
             "kserve/autoscaling",
             "stale-warning-1",
-            "stale-warning-2"
+            "stale-warning-2",
+            "stale-warning-3"
         ],
         "created_at": "2025-06-27T07:35:16Z"
     },
