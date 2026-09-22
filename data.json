@@ -5100,6 +5100,22 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Client parameter \"Valid redirection URI\": the FQDN part of the URI should not be case sensitive",
+        "url": "https://github.com/keycloak/keycloak/issues/52119",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/cloud-native",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-08-27T08:48:03Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "LDAP user search returns HTTP 400 \"Cannot parse the JSON\" with invalid LDAP configuration and pagination enabled",
         "url": "https://github.com/keycloak/keycloak/issues/52113",
         "labels": [
@@ -5367,23 +5383,6 @@
             "kind/weakness"
         ],
         "created_at": "2026-07-29T15:48:57Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Broken \"User Session Note\"-Mapper",
-        "url": "https://github.com/keycloak/keycloak/issues/51258",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-07-29T06:58:06Z"
     },
     {
         "repo": "keylime/keylime",
@@ -12177,19 +12176,6 @@
             "area/cli"
         ],
         "created_at": "2024-11-14T10:40:44Z"
-    },
-    {
-        "repo": "k0sproject/k0s",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Document spec.network more elaborately",
-        "url": "https://github.com/k0sproject/k0s/issues/4968",
-        "labels": [
-            "documentation",
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2024-09-13T07:04:14Z"
     },
     {
         "repo": "k0sproject/k0s",
