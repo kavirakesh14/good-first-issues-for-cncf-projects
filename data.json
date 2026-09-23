@@ -2196,6 +2196,48 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Docs] Obsolete Jekyll _includes/mesheryctl reference from CLI contributor guide",
+        "url": "https://github.com/meshery/meshery/issues/22059",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-23T20:41:08Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Broken Relative Links in UI and Server Contributor Guides",
+        "url": "https://github.com/meshery/meshery/issues/22056",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-23T20:12:13Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Correct invalid `--component` flag in mesheryctl system context create documentation",
+        "url": "https://github.com/meshery/meshery/issues/22055",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-23T20:10:18Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Docs] Encode Markdown images to WebP at build time",
         "url": "https://github.com/meshery/meshery/issues/22038",
         "labels": [
@@ -2549,47 +2591,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-21T00:03:37Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Move code block copy button to the right",
-        "url": "https://github.com/meshery/meshery/issues/20803",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-20T06:33:24Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Broken Tutorials link in archived v0.9 documentation redirects to a 404 page",
-        "url": "https://github.com/meshery/meshery/issues/20781",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-18T10:14:28Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[CI] OpenSSF Scorecard Check: Vulnerabilities",
-        "url": "https://github.com/meshery/meshery/issues/20778",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-07-18T07:33:07Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4882,6 +4883,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Basic authentication scheme in Authorization header is matched case-sensitive",
+        "url": "https://github.com/keycloak/keycloak/issues/53032",
+        "labels": [
+            "area/saml",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-22T07:51:19Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Much open UDP Sockets after some Time",
         "url": "https://github.com/keycloak/keycloak/issues/52968",
         "labels": [
@@ -4960,23 +4978,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-04T11:20:25Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Organization missing from the login form model on the invitation confirm-membership page",
-        "url": "https://github.com/keycloak/keycloak/issues/52396",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "area/organizations"
-        ],
-        "created_at": "2026-09-03T19:43:12Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -10043,19 +10044,6 @@
         "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[kube] Add \"podman container inspect\" field to help distinguish init containers",
-        "url": "https://github.com/podman-container-tools/podman/issues/29811",
-        "labels": [
-            "Good First Issue",
-            "kind/feature",
-            "triaged"
-        ],
-        "created_at": "2026-09-21T17:31:54Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "podman --remote exec ignores empty detach keys",
         "url": "https://github.com/podman-container-tools/podman/issues/28193",
         "labels": [
@@ -14433,6 +14421,18 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: panic on tombstone delete events in generic transport controller",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3857",
+        "labels": [
+            "help wanted",
+            "lifecycle/stale"
+        ],
+        "created_at": "2026-06-25T11:34:09Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "bug: PVC downsync fails and hub loses tracking when edge defaults storageClassName",
         "url": "https://github.com/kubestellar/kubestellar/issues/3855",
         "labels": [
@@ -14595,19 +14595,6 @@
             "roadmap"
         ],
         "created_at": "2026-06-08T10:59:22Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] contributor retention risk \u2014 20 external PRs waiting, oldest 58 days with no merge path",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3814",
-        "labels": [
-            "help wanted",
-            "priority/medium",
-            "kind/documentation"
-        ],
-        "created_at": "2026-06-08T10:59:13Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -28332,6 +28319,18 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "[Feature]: Retrieve trace search results beyond the first page",
+        "url": "https://github.com/jaegertracing/jaeger/issues/9631",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-09-23T16:55:31Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Reimplement jaeger-anonymizer on OTLP",
         "url": "https://github.com/jaegertracing/jaeger/issues/9619",
         "labels": [
@@ -28515,19 +28514,6 @@
             "help wanted"
         ],
         "created_at": "2020-08-29T11:12:23Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "query service \"search\" api 'limit', 'total' and 'offset' fields are not supplied on response",
-        "url": "https://github.com/jaegertracing/jaeger/issues/2027",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/storage"
-        ],
-        "created_at": "2020-01-17T12:10:12Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
