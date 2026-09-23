@@ -1336,21 +1336,6 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Render is dropping single quotes around strings",
-        "url": "https://github.com/kptdev/kpt/issues/2383",
-        "labels": [
-            "bug",
-            "help wanted",
-            "good first issue",
-            "p1",
-            "area/fn-catalog"
-        ],
-        "created_at": "2021-07-09T23:40:10Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Structure kpt error messages and create a style guide",
         "url": "https://github.com/kptdev/kpt/issues/2314",
         "labels": [
@@ -10115,6 +10100,20 @@
         "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "podman farm list doesn't show builder platform support",
+        "url": "https://github.com/podman-container-tools/podman/issues/27585",
+        "labels": [
+            "Good First Issue",
+            "kind/feature",
+            "stale-issue",
+            "volunteers-wanted"
+        ],
+        "created_at": "2025-11-22T05:45:25Z"
+    },
+    {
+        "repo": "podman-container-tools/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "podman machine: image override files need user-write access",
         "url": "https://github.com/podman-container-tools/podman/issues/27576",
         "labels": [
@@ -11711,13 +11710,29 @@
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "hack/e2e-chainsaw/README.md omits jq from the bucket suite host requirements",
+        "url": "https://github.com/cozystack/cozystack/issues/4295",
+        "labels": [
+            "kind/documentation",
+            "good first issue",
+            "priority/backlog",
+            "triage/accepted",
+            "area/testing"
+        ],
+        "created_at": "2026-09-16T00:33:41Z"
+    },
+    {
+        "repo": "cozystack/cozystack",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "testing: 89 of 165 packages have no helm test target, including eight user-facing apps",
         "url": "https://github.com/cozystack/cozystack/issues/3631",
         "labels": [
             "good first issue",
             "community",
+            "priority/backlog",
             "kind/cleanup",
-            "triage/needs-triage",
+            "triage/accepted",
             "area/testing"
         ],
         "created_at": "2026-08-07T22:48:00Z"
@@ -11731,8 +11746,9 @@
         "labels": [
             "good first issue",
             "community",
+            "priority/backlog",
             "kind/cleanup",
-            "triage/needs-triage",
+            "triage/accepted",
             "area/ci",
             "area/testing"
         ],
@@ -11742,40 +11758,15 @@
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Move namespace.cozystack.io/host from namespace label to annotation",
-        "url": "https://github.com/cozystack/cozystack/issues/2002",
-        "labels": [
-            "kind/feature",
-            "good first issue",
-            "lifecycle/stale",
-            "triage/needs-triage"
-        ],
-        "created_at": "2026-02-09T12:37:13Z"
-    },
-    {
-        "repo": "cozystack/cozystack",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Removing of etcd-cluster should also remove all the secrets and datastore",
-        "url": "https://github.com/cozystack/cozystack/issues/154",
-        "labels": [
-            "good first issue",
-            "lifecycle/frozen",
-            "triage/needs-triage"
-        ],
-        "created_at": "2024-05-27T19:20:28Z"
-    },
-    {
-        "repo": "cozystack/cozystack",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[mariadb-operator] Bootstrap replica from mariabackup",
         "url": "https://github.com/cozystack/cozystack/issues/32",
         "labels": [
+            "kind/feature",
             "help wanted",
-            "upstream-issue",
             "lifecycle/frozen",
-            "triage/needs-triage"
+            "priority/backlog",
+            "area/database",
+            "triage/accepted"
         ],
         "created_at": "2024-03-13T11:00:57Z"
     },
@@ -19938,7 +19929,7 @@
         "url": "https://github.com/Apicurio/apicurio-registry/issues/8023",
         "labels": [
             "Beginner Friendly",
-            "area/caching",
+            "area/performance/caching",
             "area/build",
             "good first issue"
         ],
@@ -22500,18 +22491,6 @@
             "feature"
         ],
         "created_at": "2025-11-13T20:29:58Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Remove work-arounds once oras-go creates patch release",
-        "url": "https://github.com/helm/helm/issues/31386",
-        "labels": [
-            "help wanted",
-            "keep open"
-        ],
-        "created_at": "2025-10-13T14:57:17Z"
     },
     {
         "repo": "helm/helm",
