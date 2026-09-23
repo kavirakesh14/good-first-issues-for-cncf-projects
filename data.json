@@ -5520,18 +5520,6 @@
         "repo": "kubearmor/kubearmor",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "feat: Group dependency updates into one PR ( renovate and dependabot)",
-        "url": "https://github.com/kubearmor/KubeArmor/issues/2903",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-09-16T05:42:44Z"
-    },
-    {
-        "repo": "kubearmor/kubearmor",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "bug: Codecov badge in readme shows 0% coverage",
         "url": "https://github.com/kubearmor/KubeArmor/issues/2895",
         "labels": [
@@ -8821,6 +8809,20 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
+        "title": "[REFACTOR] Unify longhornctl preflight operating systems",
+        "url": "https://github.com/longhorn/longhorn/issues/9199",
+        "labels": [
+            "area/install-uninstall-upgrade",
+            "kind/refactoring",
+            "area/cli",
+            "help wanted"
+        ],
+        "created_at": "2024-08-06T09:13:19Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
         "title": "[BUG] engine-image-ei with noexec /var filesystem ",
         "url": "https://github.com/longhorn/longhorn/issues/9083",
         "labels": [
@@ -8838,6 +8840,22 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
+        "title": "[FEATURE] `longhornctl` supports node maintenance",
+        "url": "https://github.com/longhorn/longhorn/issues/8799",
+        "labels": [
+            "kind/feature",
+            "require/doc",
+            "require/manual-test-plan",
+            "require/important-note",
+            "area/cli",
+            "help wanted"
+        ],
+        "created_at": "2024-06-21T00:48:36Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
         "title": "[IMPROVEMENT] Strictly validate resources spec and status fields in validating webhook",
         "url": "https://github.com/longhorn/longhorn/issues/6793",
         "labels": [
@@ -8850,6 +8868,23 @@
             "help wanted"
         ],
         "created_at": "2023-09-26T17:48:38Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
+        "title": "[BUG] System snapshot has invalid date when volume is restored from volume backup",
+        "url": "https://github.com/longhorn/longhorn/issues/5153",
+        "labels": [
+            "kind/bug",
+            "component/longhorn-manager",
+            "priority/2",
+            "area/volume-backup-restore",
+            "severity/4",
+            "area/snapshot",
+            "help wanted"
+        ],
+        "created_at": "2022-12-27T08:16:31Z"
     },
     {
         "repo": "longhorn/longhorn",
@@ -10023,6 +10058,19 @@
         "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[kube] Add \"podman container inspect\" field to help distinguish init containers",
+        "url": "https://github.com/podman-container-tools/podman/issues/29811",
+        "labels": [
+            "Good First Issue",
+            "kind/feature",
+            "triaged"
+        ],
+        "created_at": "2026-09-21T17:31:54Z"
+    },
+    {
+        "repo": "podman-container-tools/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "podman --remote exec ignores empty detach keys",
         "url": "https://github.com/podman-container-tools/podman/issues/28193",
         "labels": [
@@ -10327,18 +10375,6 @@
             "Good First Issue"
         ],
         "created_at": "2023-04-05T21:03:08Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Distribution API seems missing",
-        "url": "https://github.com/podman-container-tools/podman/issues/17726",
-        "labels": [
-            "Good First Issue",
-            "kind/bug"
-        ],
-        "created_at": "2023-03-09T15:32:05Z"
     },
     {
         "repo": "podman-container-tools/podman",
