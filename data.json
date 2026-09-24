@@ -662,6 +662,20 @@
         "repo": "cadence-workflow/cadence",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Frontend diagnostics: use SystemLocalDomainName constant instead of hardcoded \"cadence-system\"",
+        "url": "https://github.com/cadence-workflow/cadence/issues/8568",
+        "labels": [
+            "good-first-issue",
+            "triage/needs-info",
+            "kind/cleanup",
+            "area/frontend"
+        ],
+        "created_at": "2026-09-23T22:16:46Z"
+    },
+    {
+        "repo": "cadence-workflow/cadence",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "SemaphoreMetadataManager bypasses all persistence wrappers (no metrics, rate limiting, or error injection)",
         "url": "https://github.com/cadence-workflow/cadence/issues/8454",
         "labels": [
@@ -3554,20 +3568,6 @@
             "kind/requirement"
         ],
         "created_at": "2019-01-02T17:14:09Z"
-    },
-    {
-        "repo": "project-zot/zot",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Feat]: Is possible to enforce signatures on images?",
-        "url": "https://github.com/project-zot/zot/issues/4098",
-        "labels": [
-            "feature",
-            "good first issue",
-            "no-issue-activity",
-            "rm-external"
-        ],
-        "created_at": "2026-05-25T06:44:44Z"
     },
     {
         "repo": "project-zot/zot",
@@ -28092,6 +28092,18 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "[Chore]: Make the search depth and page size unsigned on the internal query types",
+        "url": "https://github.com/jaegertracing/jaeger/issues/9637",
+        "labels": [
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2026-09-23T20:59:40Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "ES/OS filter refuses most built-in fields although the schema indexes them",
         "url": "https://github.com/jaegertracing/jaeger/issues/9474",
         "labels": [
@@ -28503,17 +28515,6 @@
             "ui"
         ],
         "created_at": "2020-10-08T20:47:58Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Improve FOSSA integration",
-        "url": "https://github.com/jaegertracing/jaeger/issues/2432",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2020-08-29T11:12:23Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
@@ -30701,21 +30702,6 @@
         "created_at": "2026-09-21T18:44:59Z"
     },
     {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Controller panics if autoscaler class is not set to keda with external autoscaling config",
-        "url": "https://github.com/kserve/kserve/issues/4548",
-        "labels": [
-            "good first issue",
-            "kserve/autoscaling",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2025-06-27T07:35:16Z"
-    },
-    {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
         "lang": "Shell",
@@ -30777,20 +30763,6 @@
             "lifecycle/rotten"
         ],
         "created_at": "2026-06-02T15:14:22Z"
-    },
-    {
-        "repo": "llm-d/llm-d",
-        "tier": "Sandbox",
-        "lang": "Shell",
-        "title": "[CI/CD] OCP nightlies fail with \"Pods did not become ready within 30m\"",
-        "url": "https://github.com/llm-d/llm-d/issues/1570",
-        "labels": [
-            "help wanted",
-            "CI/CD",
-            "lifecycle/rotten",
-            "release/v0.8"
-        ],
-        "created_at": "2026-05-20T13:09:47Z"
     },
     {
         "repo": "llm-d/llm-d",
