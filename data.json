@@ -10080,21 +10080,6 @@
         "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Podman Socket API exceeds file name limit when passing seccomp profile, where Docker would succeed",
-        "url": "https://github.com/podman-container-tools/podman/issues/27710",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "volunteers-wanted",
-            "bugweek",
-            "Contribfest"
-        ],
-        "created_at": "2025-12-08T04:15:18Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "podman farm list doesn't show builder platform support",
         "url": "https://github.com/podman-container-tools/podman/issues/27585",
         "labels": [
@@ -15178,6 +15163,18 @@
             "priority/important-soon"
         ],
         "created_at": "2022-04-02T00:51:30Z"
+    },
+    {
+        "repo": "wasmCloud/wasmCloud",
+        "tier": "Incubating",
+        "lang": "Rust",
+        "title": "`wash oci` ignores `SSL_CERT_FILE` and the OS trust store for private-CA registries",
+        "url": "https://github.com/wasmCloud/wasmCloud/issues/5607",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-09-24T15:59:09Z"
     },
     {
         "repo": "wasmCloud/wasmCloud",
@@ -23405,22 +23402,6 @@
         "repo": "microcks/microcks",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "IBM MQ AsyncAPI support setup",
-        "url": "https://github.com/microcks/microcks/issues/1344",
-        "labels": [
-            "kind/feature",
-            "component/install",
-            "help wanted",
-            "type/Part",
-            "component/kubernetes",
-            "keep-open"
-        ],
-        "created_at": "2024-09-26T15:57:05Z"
-    },
-    {
-        "repo": "microcks/microcks",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "IBM MQ AsyncAPI testing support",
         "url": "https://github.com/microcks/microcks/issues/1343",
         "labels": [
@@ -28709,19 +28690,6 @@
             "plugin"
         ],
         "created_at": "2026-09-08T21:07:37Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "StatChart: Orientation - Condensed View Possibility",
-        "url": "https://github.com/perses/perses/issues/4382",
-        "labels": [
-            "good first issue",
-            "priority/P1",
-            "plugin"
-        ],
-        "created_at": "2026-08-25T10:24:34Z"
     },
     {
         "repo": "perses/perses",
