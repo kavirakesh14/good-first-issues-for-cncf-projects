@@ -11701,21 +11701,6 @@
         "repo": "cozystack/cozystack",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "hack/e2e-chainsaw/README.md omits jq from the bucket suite host requirements",
-        "url": "https://github.com/cozystack/cozystack/issues/4295",
-        "labels": [
-            "kind/documentation",
-            "good first issue",
-            "priority/backlog",
-            "triage/accepted",
-            "area/testing"
-        ],
-        "created_at": "2026-09-16T00:33:41Z"
-    },
-    {
-        "repo": "cozystack/cozystack",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "testing: 89 of 165 packages have no helm test target, including eight user-facing apps",
         "url": "https://github.com/cozystack/cozystack/issues/3631",
         "labels": [
@@ -20236,21 +20221,6 @@
             "help wanted"
         ],
         "created_at": "2024-08-28T12:52:35Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
-        "title": "Artifact content not shown because Monaco Editor fails to load from CDN on isolated network",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/5035",
-        "labels": [
-            "type/bug",
-            "priority/normal",
-            "area/ui",
-            "version/3.x",
-            "help wanted"
-        ],
-        "created_at": "2024-08-15T11:39:41Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
@@ -30690,7 +30660,7 @@
     {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Python",
         "title": "[Guides] update all guides to properly configure request draining",
         "url": "https://github.com/llm-d/llm-d/issues/1525",
         "labels": [
@@ -30703,7 +30673,7 @@
     {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Python",
         "title": "[Doc]: Better Document Operational Flows",
         "url": "https://github.com/llm-d/llm-d/issues/1519",
         "labels": [
@@ -30717,7 +30687,7 @@
     {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Python",
         "title": "[Docs]: A guide for deploying multiple models",
         "url": "https://github.com/llm-d/llm-d/issues/1472",
         "labels": [
@@ -30730,7 +30700,7 @@
     {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Python",
         "title": "Document precise prefix-cache routing limitations",
         "url": "https://github.com/llm-d/llm-d/issues/1708",
         "labels": [
@@ -30741,7 +30711,7 @@
     {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Python",
         "title": "[Autoscaling] Add a guide to show WVA ability to balance between two different InferencePools",
         "url": "https://github.com/llm-d/llm-d/issues/1658",
         "labels": [
@@ -30753,7 +30723,7 @@
     {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Python",
         "title": "[CI/CD] nightly-e2e-predicted-latency-ocp references non-existent reusable workflow",
         "url": "https://github.com/llm-d/llm-d/issues/1567",
         "labels": [
@@ -30766,7 +30736,7 @@
     {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Python",
         "title": "[CI/CD] Nightly matrix health tracker \u2014 May 2026",
         "url": "https://github.com/llm-d/llm-d/issues/1565",
         "labels": [
@@ -30779,7 +30749,7 @@
     {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Python",
         "title": "[Batch] Graduate Async Processor to Production",
         "url": "https://github.com/llm-d/llm-d/issues/1534",
         "labels": [
@@ -30791,7 +30761,7 @@
     {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Python",
         "title": "[P/D] Support Mooncake Connector",
         "url": "https://github.com/llm-d/llm-d/issues/1524",
         "labels": [
@@ -30804,7 +30774,7 @@
     {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
-        "lang": "Shell",
+        "lang": "Python",
         "title": "[CI/CD] Add Nightly P/D test for OCP",
         "url": "https://github.com/llm-d/llm-d/issues/1433",
         "labels": [
