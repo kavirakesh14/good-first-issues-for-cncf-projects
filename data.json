@@ -676,6 +676,20 @@
         "repo": "cadence-workflow/cadence",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "history: HistoryTaskDLQMode config is keyed by DomainName filter but callers pass domainID",
+        "url": "https://github.com/cadence-workflow/cadence/issues/8562",
+        "labels": [
+            "good-first-issue",
+            "triage/needs-info",
+            "triage/accepted",
+            "kind/bug"
+        ],
+        "created_at": "2026-09-21T17:16:33Z"
+    },
+    {
+        "repo": "cadence-workflow/cadence",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "SemaphoreMetadataManager bypasses all persistence wrappers (no metrics, rate limiting, or error injection)",
         "url": "https://github.com/cadence-workflow/cadence/issues/8454",
         "labels": [
@@ -15153,18 +15167,6 @@
         "repo": "wasmCloud/wasmCloud",
         "tier": "Incubating",
         "lang": "Rust",
-        "title": "`wash oci` ignores `SSL_CERT_FILE` and the OS trust store for private-CA registries",
-        "url": "https://github.com/wasmCloud/wasmCloud/issues/5607",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-09-24T15:59:09Z"
-    },
-    {
-        "repo": "wasmCloud/wasmCloud",
-        "tier": "Incubating",
-        "lang": "Rust",
         "title": "chart values.yaml overclaims that every plugins entry is file-backed",
         "url": "https://github.com/wasmCloud/wasmCloud/issues/5551",
         "labels": [
@@ -22423,8 +22425,7 @@
         "labels": [
             "help wanted",
             "bug",
-            "unconfirmed",
-            "Stale"
+            "unconfirmed"
         ],
         "created_at": "2026-04-22T11:07:45Z"
     },
@@ -30656,6 +30657,21 @@
             "good first issue"
         ],
         "created_at": "2026-09-21T18:44:59Z"
+    },
+    {
+        "repo": "kserve/kserve",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Controller panics if autoscaler class is not set to keda with external autoscaling config",
+        "url": "https://github.com/kserve/kserve/issues/4548",
+        "labels": [
+            "good first issue",
+            "kserve/autoscaling",
+            "stale-warning-1",
+            "stale-warning-2",
+            "stale-warning-3"
+        ],
+        "created_at": "2025-06-27T07:35:16Z"
     },
     {
         "repo": "llm-d/llm-d",
