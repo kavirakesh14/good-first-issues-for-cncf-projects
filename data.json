@@ -662,20 +662,6 @@
         "repo": "cadence-workflow/cadence",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Frontend diagnostics: use SystemLocalDomainName constant instead of hardcoded \"cadence-system\"",
-        "url": "https://github.com/cadence-workflow/cadence/issues/8568",
-        "labels": [
-            "good-first-issue",
-            "triage/needs-info",
-            "kind/cleanup",
-            "area/frontend"
-        ],
-        "created_at": "2026-09-23T22:16:46Z"
-    },
-    {
-        "repo": "cadence-workflow/cadence",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "history: HistoryTaskDLQMode config is keyed by DomainName filter but callers pass domainID",
         "url": "https://github.com/cadence-workflow/cadence/issues/8562",
         "labels": [
@@ -2224,20 +2210,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[Docs] Obsolete Jekyll _includes/mesheryctl reference from CLI contributor guide",
-        "url": "https://github.com/meshery/meshery/issues/22059",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-09-23T20:41:08Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[Docs] Broken Relative Links in UI and Server Contributor Guides",
         "url": "https://github.com/meshery/meshery/issues/22056",
         "labels": [
@@ -2247,20 +2219,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-09-23T20:12:13Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Correct invalid `--component` flag in mesheryctl system context create documentation",
-        "url": "https://github.com/meshery/meshery/issues/22055",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-09-23T20:10:18Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2619,6 +2577,34 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-21T00:03:37Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Move code block copy button to the right",
+        "url": "https://github.com/meshery/meshery/issues/20803",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-20T06:33:24Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Broken Tutorials link in archived v0.9 documentation redirects to a 404 page",
+        "url": "https://github.com/meshery/meshery/issues/20781",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-18T10:14:28Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -14269,7 +14255,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3977",
         "labels": [
             "kind/bug",
-            "help wanted"
+            "help wanted",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-08-19T18:46:50Z"
     },
@@ -14302,6 +14289,18 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Support Wildcards [*] and Array Traversal in Custom JSONPath Parser",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3965",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-07-29T16:10:37Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[Bug]: Create/delete ping-pong loop when Edge node controller correctly deletes an invalid synced Pod",
         "url": "https://github.com/kubestellar/kubestellar/issues/3964",
         "labels": [
@@ -14318,7 +14317,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3962",
         "labels": [
             "kind/bug",
-            "help wanted"
+            "help wanted",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-07-28T20:52:34Z"
     },
@@ -14330,7 +14330,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3961",
         "labels": [
             "kind/bug",
-            "help wanted"
+            "help wanted",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-07-28T17:12:53Z"
     },
@@ -14342,7 +14343,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3960",
         "labels": [
             "kind/bug",
-            "help wanted"
+            "help wanted",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-07-28T16:22:18Z"
     },
@@ -14354,9 +14356,106 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3959",
         "labels": [
             "kind/bug",
-            "help wanted"
+            "help wanted",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-07-28T11:35:13Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add CODEOWNERS File for Automated PR Review Assignment",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3952",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-07-26T14:48:43Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add Status Package Unit Tests with Comprehensive CEL Evaluation Coverage",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3938",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-07-22T17:11:43Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "doc: Add Pre-commit Hook for Spell Check in Documentation",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3926",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-07-20T17:19:16Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Improve context.TODO() Usage with Proper Context Propagation",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3922",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-07-19T10:24:10Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add Prometheus Metrics for Binding Controller Operations",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3910",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-07-15T15:43:52Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: recursive read-lock in compareCombinedStatus can deadlock the status controller",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3899",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-07-12T11:37:34Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: groupBy expression returning a list or map panics the status controller (hash of unhashable type)",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3897",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-07-12T11:13:58Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: kubestellar-snapshot.sh misclassifies ControlPlanes created by the core chart, leaving most sections empty",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3889",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-07-09T05:22:14Z"
     },
     {
         "repo": "kubestellar/kubestellar",
@@ -14375,11 +14474,36 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Dead code and redundant boolean logic flagged by staticcheck in pkg/binding and pkg/status",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3880",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-07-04T13:19:46Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Controllers use deprecated untyped workqueue APIs slated for removal",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3877",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-07-04T04:16:04Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "feature: Add unit tests for wrapee.CreateOnly in generic transport controller",
         "url": "https://github.com/kubestellar/kubestellar/issues/3873",
         "labels": [
             "kind/feature",
-            "help wanted"
+            "help wanted",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-07-03T14:02:12Z"
     },
@@ -14391,7 +14515,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3871",
         "labels": [
             "kind/bug",
-            "help wanted"
+            "help wanted",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-07-03T04:46:56Z"
     },
@@ -14403,7 +14528,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3870",
         "labels": [
             "kind/bug",
-            "help wanted"
+            "help wanted",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-07-02T20:25:27Z"
     },
@@ -14415,7 +14541,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3866",
         "labels": [
             "kind/feature",
-            "help wanted"
+            "help wanted",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-06-30T07:50:17Z"
     },
@@ -14427,7 +14554,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3864",
         "labels": [
             "kind/bug",
-            "help wanted"
+            "help wanted",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-06-29T19:01:09Z"
     },
@@ -14439,7 +14567,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3857",
         "labels": [
             "help wanted",
-            "lifecycle/stale"
+            "lifecycle/stale",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-06-25T11:34:09Z"
     },
@@ -14467,148 +14596,6 @@
             "hold"
         ],
         "created_at": "2026-06-23T08:16:59Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] produce a 5-minute KubeStellar demo video for YouTube / KubeCon booth",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3829",
-        "labels": [
-            "help wanted",
-            "outreach"
-        ],
-        "created_at": "2026-06-08T13:25:48Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] kubestellar/ui (172\u2605, 225 forks) is stale \u2014 needs deprecation notice or archive to avoid evaluator confusion",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3828",
-        "labels": [
-            "help wanted",
-            "lifecycle/stale",
-            "outreach"
-        ],
-        "created_at": "2026-06-08T13:25:32Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] GitHub repository topics: add multicluster, platform-engineering, ai-infrastructure for discoverability",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3827",
-        "labels": [
-            "help wanted",
-            "lifecycle/stale",
-            "outreach"
-        ],
-        "created_at": "2026-06-08T13:25:17Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] GitHub Discussions reactivation \u2014 3yr dormant, key CNCF community signal",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3823",
-        "labels": [
-            "help wanted",
-            "lifecycle/stale",
-            "outreach"
-        ],
-        "created_at": "2026-06-08T12:41:35Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] fork-based adopter pipeline \u2014 288 forks, 1 adopter, active evaluation signal",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3822",
-        "labels": [
-            "help wanted",
-            "outreach"
-        ],
-        "created_at": "2026-06-08T12:36:07Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] Kagenti partnership outreach \u2014 co-marketing for multi-cluster AI agent orchestration",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3821",
-        "labels": [
-            "help wanted",
-            "lifecycle/stale",
-            "outreach"
-        ],
-        "created_at": "2026-06-08T12:35:52Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] LLM-d partnership outreach \u2014 co-marketing for multi-cluster inference",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3820",
-        "labels": [
-            "help wanted",
-            "lifecycle/stale",
-            "outreach"
-        ],
-        "created_at": "2026-06-08T12:19:39Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[strategist] governance: agent log files accidentally committed to console main \u2014 audit all hive repos for gitignore gaps",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3819",
-        "labels": [
-            "help wanted",
-            "lifecycle/stale",
-            "roadmap"
-        ],
-        "created_at": "2026-06-08T12:11:49Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[strategist] PR deduplication: #3793 (outreach) + #3801 (strategist) both address adopter friction \u2014 complementary, merge both",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3818",
-        "labels": [
-            "help wanted",
-            "lifecycle/stale",
-            "roadmap"
-        ],
-        "created_at": "2026-06-08T12:11:49Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] CNCF Technical Blog submission \u2014 AI-maintained multi-cluster project story",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3816",
-        "labels": [
-            "help wanted",
-            "lifecycle/stale",
-            "conference",
-            "blog"
-        ],
-        "created_at": "2026-06-08T10:59:31Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[strategist] ecosystem-opportunity: LLM-d inference integration (12 dashboard cards + KB category) unpositioned \u2014 6-month window",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3815",
-        "labels": [
-            "help wanted",
-            "lifecycle/stale",
-            "roadmap"
-        ],
-        "created_at": "2026-06-08T10:59:22Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -28302,7 +28289,7 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "[Feature]: Retrieve trace search results beyond the first page",
+        "title": "[Feature]: Support pagination in query APIs",
         "url": "https://github.com/jaegertracing/jaeger/issues/9631",
         "labels": [
             "enhancement",
