@@ -4296,6 +4296,19 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "No warning or validation when `replicaCount > 1` and `leaderElect=false`",
+        "url": "https://github.com/external-secrets/external-secrets/issues/7025",
+        "labels": [
+            "good first issue",
+            "kind/feature",
+            "area/charts"
+        ],
+        "created_at": "2026-09-24T11:33:55Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "PushSecret always calls DeleteResourcePolicy on AWS Secrets Manager, even when resourcePolicy is not configured",
         "url": "https://github.com/external-secrets/external-secrets/issues/6806",
         "labels": [
@@ -4917,22 +4930,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Much open UDP Sockets after some Time",
-        "url": "https://github.com/keycloak/keycloak/issues/52968",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/production-readiness",
-            "status/auto-expire",
-            "priority/normal"
-        ],
-        "created_at": "2026-09-18T18:59:29Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Organization group roles are not automapped to realm/resource_access",
         "url": "https://github.com/keycloak/keycloak/issues/52764",
         "labels": [
@@ -5385,6 +5382,21 @@
             "area/organizations"
         ],
         "created_at": "2026-07-30T05:54:15Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Device authorization user_code verification has no server-side rate limit",
+        "url": "https://github.com/keycloak/keycloak/issues/51275",
+        "labels": [
+            "area/oidc",
+            "help wanted",
+            "priority/normal",
+            "team/core-protocols",
+            "kind/weakness"
+        ],
+        "created_at": "2026-07-29T15:48:57Z"
     },
     {
         "repo": "keylime/keylime",
@@ -15287,17 +15299,6 @@
             "type/feature"
         ],
         "created_at": "2025-08-27T19:08:54Z"
-    },
-    {
-        "repo": "etcd-io/etcd",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Migrate tests/e2e/ctl_v3_kv_test.go to common testing framework",
-        "url": "https://github.com/etcd-io/etcd/issues/20550",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2025-08-24T09:30:19Z"
     },
     {
         "repo": "etcd-io/etcd",
