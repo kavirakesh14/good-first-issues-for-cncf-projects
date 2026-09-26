@@ -662,20 +662,6 @@
         "repo": "cadence-workflow/cadence",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "history: HistoryTaskDLQMode config is keyed by DomainName filter but callers pass domainID",
-        "url": "https://github.com/cadence-workflow/cadence/issues/8562",
-        "labels": [
-            "good-first-issue",
-            "triage/needs-info",
-            "triage/accepted",
-            "kind/bug"
-        ],
-        "created_at": "2026-09-21T17:16:33Z"
-    },
-    {
-        "repo": "cadence-workflow/cadence",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "SemaphoreMetadataManager bypasses all persistence wrappers (no metrics, rate limiting, or error injection)",
         "url": "https://github.com/cadence-workflow/cadence/issues/8454",
         "labels": [
@@ -8985,6 +8971,7 @@
         "url": "https://github.com/velero-io/velero/issues/9093",
         "labels": [
             "Good first issue",
+            "staled",
             "Area/WindowsSupport"
         ],
         "created_at": "2025-07-17T11:02:34Z"
@@ -11831,7 +11818,8 @@
             "help wanted",
             "reliability",
             "roadmap",
-            "composition"
+            "composition",
+            "stale"
         ],
         "created_at": "2023-10-18T08:56:28Z"
     },
