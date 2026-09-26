@@ -14206,7 +14206,8 @@
         "url": "https://github.com/kubestellar/kubestellar/issues/3978",
         "labels": [
             "kind/bug",
-            "help wanted"
+            "help wanted",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-08-19T21:13:43Z"
     },
@@ -25047,6 +25048,21 @@
             "pinned"
         ],
         "created_at": "2020-06-12T03:45:12Z"
+    },
+    {
+        "repo": "pipe-cd/pipecd",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ci: remove the unused code-butler workflow",
+        "url": "https://github.com/pipe-cd/pipecd/issues/7427",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "dependencies",
+            "area/ci",
+            "github_actions"
+        ],
+        "created_at": "2026-09-26T16:42:51Z"
     },
     {
         "repo": "pipe-cd/pipecd",
