@@ -20763,6 +20763,54 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-20158380]",
+        "url": "https://github.com/backstage/backstage/issues/35908",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-27T12:13:03Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-20158388]",
+        "url": "https://github.com/backstage/backstage/issues/35907",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-27T12:13:03Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-20158384]",
+        "url": "https://github.com/backstage/backstage/issues/35906",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-27T12:13:02Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-20158382]",
+        "url": "https://github.com/backstage/backstage/issues/35905",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-27T12:13:02Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-URIJS-19963963]",
         "url": "https://github.com/backstage/backstage/issues/35828",
         "labels": [
@@ -21070,54 +21118,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-05T00:10:55Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [snyk:lic:npm:editions:Artistic-2.0]",
-        "url": "https://github.com/backstage/backstage/issues/35531",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:55Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [snyk:lic:npm:binaryextensions:Artistic-2.0]",
-        "url": "https://github.com/backstage/backstage/issues/35530",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:54Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-ROLLUP-8073097]",
-        "url": "https://github.com/backstage/backstage/issues/35529",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:54Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-ROLLUP-15340920]",
-        "url": "https://github.com/backstage/backstage/issues/35528",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:53Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -27676,7 +27676,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "gadgets/trace_ssl: Add missing documentation Guide section",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5634",
         "labels": [
@@ -27687,7 +27687,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "gadgets/trace_malloc: Add missing documentation Guide section",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5632",
         "labels": [
@@ -27698,7 +27698,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "gadgets/trace_lsm: Add missing documentation Guide section",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5631",
         "labels": [
@@ -27709,7 +27709,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "gadgets/profile_cuda: Add missing documentation Guide section",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5630",
         "labels": [
@@ -27720,7 +27720,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "gadgets/trace_init_module: Add missing documentation Guide section",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5629",
         "labels": [
@@ -27731,7 +27731,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "Documentation: Add missing Guide sections to gadget docs",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/5628",
         "labels": [
@@ -27744,7 +27744,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "Deduplicate the public key in the repository",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4699",
         "labels": [
@@ -27755,7 +27755,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "[RFE] Add support for client side validation for daemon-config",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4675",
         "labels": [
@@ -27767,7 +27767,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "[RFE] `top_process`: Align CPU and Mem fields name and keep all fields name short",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4594",
         "labels": [
@@ -27778,7 +27778,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "cmd: image build always tries to pull builder image",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4537",
         "labels": [
@@ -27789,7 +27789,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "docs: Extend metrics documentation with instructions to collect them in Prometheus",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4372",
         "labels": [
@@ -27801,7 +27801,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "[RFE] Incorporate use cases to gadgets and improve descriptions",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4029",
         "labels": [
@@ -27812,7 +27812,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "gadgets/deadlock: Use gadget_process structure",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/3740",
         "labels": [
@@ -27823,7 +27823,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "gadgets/trace_ssl: Missing tests",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/3239",
         "labels": [
@@ -27836,7 +27836,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "gadgets/trace_malloc: Missing tests",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/3238",
         "labels": [
@@ -27849,7 +27849,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "gadgets: Run local tests on cri-o too",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/3175",
         "labels": [
@@ -27862,7 +27862,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "gadgets/snapshot_socket: provide human representation of state",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/3154",
         "labels": [
@@ -27873,7 +27873,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "grpc: Use `NewClient` instead of deprecated `Dial`",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/3127",
         "labels": [
@@ -27884,7 +27884,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "gadgets: Provide mechanism to show the name of a network interface based on its index",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/3121",
         "labels": [
@@ -27895,7 +27895,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "[RFE] trace/dns: Improve by including more information in the events ",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/2610",
         "labels": [
@@ -27906,7 +27906,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "trace/dns: Improve tests",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/2591",
         "labels": [
@@ -27919,7 +27919,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "[RFE] Support JSON output for `version` command",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/2565",
         "labels": [
@@ -27930,7 +27930,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "[RFE] Provide helpers to fill `struct gadget_l4endpoint_t` up",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/2526",
         "labels": [
@@ -27942,7 +27942,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "[RFE] Allow using volume for pulled gadgets in gadget pod",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/2203",
         "labels": [
@@ -27954,7 +27954,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "[RFE] New gadget: snapshot file",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1774",
         "labels": [
@@ -27967,7 +27967,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "[RFE] Integration tests for Podman",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1650",
         "labels": [
@@ -27980,7 +27980,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "[RFE] Include OCI runtime (crun/runc) information in container events",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1635",
         "labels": [
@@ -27992,7 +27992,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "Define correct data type for namespace inode id",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1215",
         "labels": [
@@ -28003,7 +28003,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "[RFE] cmd/kubectl-version: Add more information to `version` command",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1060",
         "labels": [
@@ -28016,7 +28016,7 @@
     {
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
-        "lang": "Unknown",
+        "lang": "C",
         "title": "[RFE] trace/network: Add test to verify remote service information",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/1059",
         "labels": [
