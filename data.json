@@ -28029,6 +28029,17 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Enable native-filter coverage in memory-backed integration suites",
+        "url": "https://github.com/jaegertracing/jaeger/issues/9666",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-09-27T18:37:36Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "[Chore]: Make the search depth and page size unsigned on the internal query types",
         "url": "https://github.com/jaegertracing/jaeger/issues/9637",
         "labels": [
