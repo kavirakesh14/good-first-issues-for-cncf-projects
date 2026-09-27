@@ -12147,6 +12147,7 @@
         "labels": [
             "bug",
             "good first issue",
+            "Stale",
             "component/autopilot"
         ],
         "created_at": "2025-11-28T15:23:48Z"
@@ -30640,21 +30641,6 @@
         "created_at": "2026-09-21T18:44:59Z"
     },
     {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Controller panics if autoscaler class is not set to keda with external autoscaling config",
-        "url": "https://github.com/kserve/kserve/issues/4548",
-        "labels": [
-            "good first issue",
-            "kserve/autoscaling",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2025-06-27T07:35:16Z"
-    },
-    {
         "repo": "llm-d/llm-d",
         "tier": "Sandbox",
         "lang": "Python",
@@ -30701,7 +30687,8 @@
         "title": "Document precise prefix-cache routing limitations",
         "url": "https://github.com/llm-d/llm-d/issues/1708",
         "labels": [
-            "help wanted"
+            "help wanted",
+            "lifecycle/stale"
         ],
         "created_at": "2026-06-06T05:55:30Z"
     },
