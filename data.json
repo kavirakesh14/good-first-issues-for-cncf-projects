@@ -875,21 +875,6 @@
         "repo": "kairos-io/kairos",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Make openrc override command logic generic for other services besides k3s",
-        "url": "https://github.com/kairos-io/kairos/issues/2149",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue",
-            "area/agent",
-            "QA: pass"
-        ],
-        "created_at": "2024-01-15T16:41:41Z"
-    },
-    {
-        "repo": "kairos-io/kairos",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": ":seedling: Bundle: samba-operator",
         "url": "https://github.com/kairos-io/kairos/issues/641",
         "labels": [
@@ -1853,21 +1838,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[Docs] Navigation button disappears on hover",
-        "url": "https://github.com/meshery/meshery/issues/21591",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-24T07:22:39Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[UI] Shield icon overlaps text in configuration catalog",
         "url": "https://github.com/meshery/meshery/issues/21457",
         "labels": [
@@ -2166,6 +2136,18 @@
             "framework/react"
         ],
         "created_at": "2025-07-15T12:23:29Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Alignment of Share Btn in Comparison Modal.",
+        "url": "https://github.com/meshery/meshery/issues/15173",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2025-06-24T18:22:33Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2566,6 +2548,19 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-18T10:14:28Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[CI] OpenSSF Scorecard Check: Vulnerabilities",
+        "url": "https://github.com/meshery/meshery/issues/20778",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-07-18T07:33:07Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -12116,6 +12111,18 @@
         "repo": "k0sproject/k0s",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Move internal-only packages under internal/",
+        "url": "https://github.com/k0sproject/k0s/issues/8371",
+        "labels": [
+            "good first issue",
+            "chore"
+        ],
+        "created_at": "2026-09-24T09:10:56Z"
+    },
+    {
+        "repo": "k0sproject/k0s",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Support offline worker startup with cached kubelet configuration",
         "url": "https://github.com/k0sproject/k0s/issues/7379",
         "labels": [
@@ -17114,19 +17121,6 @@
         "repo": "higress-group/higress",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "connect to server through WebSocket with SSL, the higress gateway response 503 Service Unavailable",
-        "url": "https://github.com/higress-group/higress/issues/506",
-        "labels": [
-            "good first issue",
-            "area/config",
-            "sig/ops"
-        ],
-        "created_at": "2023-09-01T17:00:39Z"
-    },
-    {
-        "repo": "higress-group/higress",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "An idea for Higress, what about a new member -- Higress API Portal?",
         "url": "https://github.com/higress-group/higress/issues/501",
         "labels": [
@@ -17216,6 +17210,21 @@
             "sig/controller"
         ],
         "created_at": "2023-04-12T03:29:48Z"
+    },
+    {
+        "repo": "higress-group/higress",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "higress\u5982\u4f55\u652f\u6301\u5065\u5eb7\u68c0\u67e5\u548c\u8def\u7531\u6743\u91cd\u3001\u4f1a\u8bdd\u4fdd\u6301",
+        "url": "https://github.com/higress-group/higress/issues/287",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "area/config",
+            "sig/ops",
+            "faq"
+        ],
+        "created_at": "2023-04-11T01:45:18Z"
     },
     {
         "repo": "higress-group/higress",
@@ -23297,51 +23306,6 @@
         "repo": "microcks/microcks",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "IBM MQ AsyncAPI support documentation",
-        "url": "https://github.com/microcks/microcks/issues/1345",
-        "labels": [
-            "kind/feature",
-            "component/documentation",
-            "help wanted",
-            "type/Part",
-            "keep-open"
-        ],
-        "created_at": "2024-09-26T15:58:03Z"
-    },
-    {
-        "repo": "microcks/microcks",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "IBM MQ AsyncAPI testing support",
-        "url": "https://github.com/microcks/microcks/issues/1343",
-        "labels": [
-            "kind/feature",
-            "component/tests",
-            "help wanted",
-            "type/Part",
-            "keep-open"
-        ],
-        "created_at": "2024-09-26T15:55:51Z"
-    },
-    {
-        "repo": "microcks/microcks",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "IBM MQ AsyncAPI mocking support",
-        "url": "https://github.com/microcks/microcks/issues/1342",
-        "labels": [
-            "kind/feature",
-            "component/mocks",
-            "help wanted",
-            "type/Part",
-            "keep-open"
-        ],
-        "created_at": "2024-09-26T15:54:04Z"
-    },
-    {
-        "repo": "microcks/microcks",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Add support for Apache Pulsar message broker for Mocking/Testing",
         "url": "https://github.com/microcks/microcks/issues/1196",
         "labels": [
@@ -24687,6 +24651,19 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Authorization docs action lists are out of date",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4683",
+        "labels": [
+            "good first issue",
+            "Type/Bug",
+            "area/docs"
+        ],
+        "created_at": "2026-09-08T09:34:52Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Project Promotion is not poping up environment overrides",
         "url": "https://github.com/openchoreo/openchoreo/issues/4489",
         "labels": [
@@ -24779,18 +24756,6 @@
             "Type/Bug"
         ],
         "created_at": "2026-07-02T04:31:39Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Migrate the GitOps doclet sample to the Resource abstraction",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4027",
-        "labels": [
-            "good first issue",
-            "Type/Task"
-        ],
-        "created_at": "2026-06-30T10:11:38Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -30251,18 +30216,6 @@
         "repo": "thanos-io/thanos",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Optimize matcher creation in stores",
-        "url": "https://github.com/thanos-io/thanos/issues/6333",
-        "labels": [
-            "difficulty: medium",
-            "help wanted"
-        ],
-        "created_at": "2023-05-04T09:28:41Z"
-    },
-    {
-        "repo": "thanos-io/thanos",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "TSDB status API served using remote write port",
         "url": "https://github.com/thanos-io/thanos/issues/6239",
         "labels": [
@@ -30335,6 +30288,19 @@
             "needs-investigation"
         ],
         "created_at": "2022-08-22T13:46:01Z"
+    },
+    {
+        "repo": "thanos-io/thanos",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Prometheus Federate API endpoint",
+        "url": "https://github.com/thanos-io/thanos/issues/5541",
+        "labels": [
+            "help wanted",
+            "component: query",
+            "dont-go-stale"
+        ],
+        "created_at": "2022-07-25T12:27:49Z"
     },
     {
         "repo": "trickstercache/trickster",
