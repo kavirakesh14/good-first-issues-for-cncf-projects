@@ -2153,20 +2153,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[Docs] Broken Relative Links in UI and Server Contributor Guides",
-        "url": "https://github.com/meshery/meshery/issues/22056",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-09-23T20:12:13Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[Docs] Encode Markdown images to WebP at build time",
         "url": "https://github.com/meshery/meshery/issues/22038",
         "labels": [
@@ -2589,19 +2575,6 @@
             "triage/accepted"
         ],
         "created_at": "2021-04-13T18:16:11Z"
-    },
-    {
-        "repo": "metal3-io/baremetal-operator",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Fast (out-of-band) inspection is flaky for fixture tests",
-        "url": "https://github.com/metal3-io/baremetal-operator/issues/3688",
-        "labels": [
-            "help wanted",
-            "kind/flake",
-            "triage/accepted"
-        ],
-        "created_at": "2026-09-29T06:09:13Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4851,6 +4824,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Brute force failure counter is not reset on successful SAML (IdP) login, causing users to be permanently locked out",
+        "url": "https://github.com/keycloak/keycloak/issues/53249",
+        "labels": [
+            "area/saml",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-28T11:19:57Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Identity provider mappers can create users with null username, which cannot be edited or deleted",
         "url": "https://github.com/keycloak/keycloak/issues/53164",
         "labels": [
@@ -4868,19 +4858,17 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "MayAct executor rejects valid delegation when the scope parameter is not the exact stored username",
-        "url": "https://github.com/keycloak/keycloak/issues/53138",
+        "title": "`idp-auto-link` links a brokered identity to an existing account that never verified the shared email",
+        "url": "https://github.com/keycloak/keycloak/issues/53041",
         "labels": [
             "kind/bug",
-            "area/token-exchange",
             "help wanted",
-            "status/auto-expire",
+            "area/identity-brokering",
+            "team/core-iam",
             "status/auto-bump",
-            "priority/normal",
-            "team/core-authn",
-            "team/core-protocols"
+            "priority/normal"
         ],
-        "created_at": "2026-09-24T07:27:42Z"
+        "created_at": "2026-09-22T10:18:48Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -4932,6 +4920,23 @@
             "area/organizations"
         ],
         "created_at": "2026-09-15T08:44:17Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Unable to re login after deleting the Identity Provider configurations\ud83d\udc4d",
+        "url": "https://github.com/keycloak/keycloak/issues/52654",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-09-11T05:50:09Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5084,6 +5089,23 @@
             "team/core-protocols"
         ],
         "created_at": "2026-08-31T14:16:23Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Account console: Personal Info save fails with \"The field Username is read only\" for LDAP users with a read-only username",
+        "url": "https://github.com/keycloak/keycloak/issues/52215",
+        "labels": [
+            "kind/bug",
+            "area/account/ui",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-08-31T06:29:34Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5305,57 +5327,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-08-19T00:06:17Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Workflows: `on: client-created` conditions are evaluated before the client is populated, so they can never match",
-        "url": "https://github.com/keycloak/keycloak/issues/51594",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "priority/normal",
-            "area/workflows"
-        ],
-        "created_at": "2026-08-10T22:05:30Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Inconsistent use of Title Case vs. sentence case in default strings",
-        "url": "https://github.com/keycloak/keycloak/issues/51434",
-        "labels": [
-            "kind/bug",
-            "area/translations",
-            "help wanted",
-            "team/community",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-08-04T20:01:59Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Query Performance degradation for user stream is slowed down by distinct query",
-        "url": "https://github.com/keycloak/keycloak/issues/51385",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "area/storage",
-            "help wanted",
-            "team/core-iam",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-08-03T08:02:14Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10061,6 +10032,20 @@
             "Contribfest"
         ],
         "created_at": "2026-03-03T21:10:46Z"
+    },
+    {
+        "repo": "podman-container-tools/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "`podman quadlet install <file/url>` should support tarball",
+        "url": "https://github.com/podman-container-tools/podman/issues/28117",
+        "labels": [
+            "Good First Issue",
+            "kind/feature",
+            "volunteers-wanted",
+            "quadlet"
+        ],
+        "created_at": "2026-02-18T21:54:00Z"
     },
     {
         "repo": "podman-container-tools/podman",
@@ -20763,6 +20748,78 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-GRPCGRPCJS-20251007]",
+        "url": "https://github.com/backstage/backstage/issues/35929",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-29T12:13:24Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-GRPCGRPCJS-20251010]",
+        "url": "https://github.com/backstage/backstage/issues/35928",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-29T12:13:18Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-IPADDRESS-20250983]",
+        "url": "https://github.com/backstage/backstage/issues/35927",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-29T12:13:16Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-PBKDF2-20251013]",
+        "url": "https://github.com/backstage/backstage/issues/35926",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-29T12:13:07Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-SHELLQUOTE-20250993]",
+        "url": "https://github.com/backstage/backstage/issues/35925",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-29T12:13:00Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-IPADDRESS-20250962]",
+        "url": "https://github.com/backstage/backstage/issues/35924",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-29T12:12:52Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-BRACEEXPANSION-20244950]",
         "url": "https://github.com/backstage/backstage/issues/35918",
         "labels": [
@@ -21046,78 +21103,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-06T12:07:25Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635206]",
-        "url": "https://github.com/backstage/backstage/issues/35544",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-06T12:07:25Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-NODEFORGE-19635204]",
-        "url": "https://github.com/backstage/backstage/issues/35543",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-06T08:06:31Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [snyk:lic:npm:version-range:Artistic-2.0]",
-        "url": "https://github.com/backstage/backstage/issues/35533",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:56Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [snyk:lic:npm:textextensions:Artistic-2.0]",
-        "url": "https://github.com/backstage/backstage/issues/35532",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:55Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [snyk:lic:npm:editions:Artistic-2.0]",
-        "url": "https://github.com/backstage/backstage/issues/35531",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:55Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [snyk:lic:npm:binaryextensions:Artistic-2.0]",
-        "url": "https://github.com/backstage/backstage/issues/35530",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:54Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -26878,17 +26863,6 @@
         "repo": "krkn-chaos/krkn",
         "tier": "Sandbox",
         "lang": "Python",
-        "title": "test_v2: migrate CI/tests/test_io_hog.sh to CI/tests_v2/scenarios/io_hog with functional and negative coverage",
-        "url": "https://github.com/krkn-chaos/krkn/issues/1432",
-        "labels": [
-            "good-first-issue"
-        ],
-        "created_at": "2026-06-30T19:32:15Z"
-    },
-    {
-        "repo": "krkn-chaos/krkn",
-        "tier": "Sandbox",
-        "lang": "Python",
         "title": "Pin all loosely-bounded dependencies in requirements.txt",
         "url": "https://github.com/krkn-chaos/krkn/issues/1315",
         "labels": [
@@ -27748,17 +27722,6 @@
         "repo": "inspektor-gadget/inspektor-gadget",
         "tier": "Sandbox",
         "lang": "C",
-        "title": "[RFE] `top_process`: Align CPU and Mem fields name and keep all fields name short",
-        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4594",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2025-06-10T00:40:32Z"
-    },
-    {
-        "repo": "inspektor-gadget/inspektor-gadget",
-        "tier": "Sandbox",
-        "lang": "C",
         "title": "cmd: image build always tries to pull builder image",
         "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/4537",
         "labels": [
@@ -28005,6 +27968,18 @@
             "area/ci"
         ],
         "created_at": "2022-09-21T10:14:35Z"
+    },
+    {
+        "repo": "inspektor-gadget/inspektor-gadget",
+        "tier": "Sandbox",
+        "lang": "C",
+        "title": "[RFE] More demo videos (asciinema gifs)",
+        "url": "https://github.com/inspektor-gadget/inspektor-gadget/issues/954",
+        "labels": [
+            "good first issue",
+            "area/documentation"
+        ],
+        "created_at": "2022-09-19T14:55:50Z"
     },
     {
         "repo": "jaegertracing/jaeger",
@@ -30664,19 +30639,6 @@
             "lifecycle/rotten"
         ],
         "created_at": "2026-06-02T15:14:22Z"
-    },
-    {
-        "repo": "llm-d/llm-d",
-        "tier": "Sandbox",
-        "lang": "Python",
-        "title": "[CI/CD] nightly-e2e-predicted-latency-ocp references non-existent reusable workflow",
-        "url": "https://github.com/llm-d/llm-d/issues/1567",
-        "labels": [
-            "help wanted",
-            "CI/CD",
-            "release/v0.8"
-        ],
-        "created_at": "2026-05-20T13:09:42Z"
     },
     {
         "repo": "llm-d/llm-d",
