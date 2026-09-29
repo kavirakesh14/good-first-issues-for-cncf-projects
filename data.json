@@ -2594,6 +2594,19 @@
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Fast (out-of-band) inspection is flaky for fixture tests",
+        "url": "https://github.com/metal3-io/baremetal-operator/issues/3688",
+        "labels": [
+            "help wanted",
+            "kind/flake",
+            "triage/accepted"
+        ],
+        "created_at": "2026-09-29T06:09:13Z"
+    },
+    {
+        "repo": "metal3-io/baremetal-operator",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "`get-hardware-details` accepts Ironic credentials on the command line",
         "url": "https://github.com/metal3-io/baremetal-operator/issues/3545",
         "labels": [
@@ -4855,6 +4868,24 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "MayAct executor rejects valid delegation when the scope parameter is not the exact stored username",
+        "url": "https://github.com/keycloak/keycloak/issues/53138",
+        "labels": [
+            "kind/bug",
+            "area/token-exchange",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-24T07:27:42Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Basic authentication scheme in Authorization header is matched case-sensitive",
         "url": "https://github.com/keycloak/keycloak/issues/53032",
         "labels": [
@@ -4935,6 +4966,23 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-08T12:34:00Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Organization invite: link in the plain-text part of the email is HTML-escaped and unusable",
+        "url": "https://github.com/keycloak/keycloak/issues/52449",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "area/organizations"
+        ],
+        "created_at": "2026-09-04T13:00:54Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5308,40 +5356,6 @@
             "priority/normal"
         ],
         "created_at": "2026-08-03T08:02:14Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "SAML endpoint returns HTTP 500 on an unauthenticated LogoutRequest when the client has no logout service URL",
-        "url": "https://github.com/keycloak/keycloak/issues/51371",
-        "labels": [
-            "area/saml",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-02T13:56:22Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Duplicate realm roles in access token when multiple client scopes with `User Realm Roles` protocol mapper are requested",
-        "url": "https://github.com/keycloak/keycloak/issues/51360",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-02T00:11:07Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6470,6 +6484,18 @@
             "help wanted"
         ],
         "created_at": "2025-09-25T21:01:08Z"
+    },
+    {
+        "repo": "open-policy-agent/opa",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Allow Capabilities to be set through Configuration",
+        "url": "https://github.com/open-policy-agent/opa/issues/4153",
+        "labels": [
+            "good first issue",
+            "inactive"
+        ],
+        "created_at": "2021-12-16T16:08:35Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -9120,6 +9146,18 @@
             "kind/requirement"
         ],
         "created_at": "2018-05-03T15:15:09Z"
+    },
+    {
+        "repo": "velero-io/velero",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "velero-plugin-for-aws v1.14.3 still sends x-amz-tagging on PutObject with Backblaze B2, despite #309's guard",
+        "url": "https://github.com/velero-io/velero/issues/10584",
+        "labels": [
+            "Help wanted",
+            "Area/storage/backblaze-b2"
+        ],
+        "created_at": "2026-09-25T17:38:44Z"
     },
     {
         "repo": "velero-io/velero",
@@ -20725,6 +20763,42 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BRACEEXPANSION-20244950]",
+        "url": "https://github.com/backstage/backstage/issues/35918",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-29T08:13:20Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BRACEEXPANSION-20244952]",
+        "url": "https://github.com/backstage/backstage/issues/35917",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-29T08:13:12Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BRACEEXPANSION-20244948]",
+        "url": "https://github.com/backstage/backstage/issues/35916",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-29T08:13:10Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-URIJS-19963963]",
         "url": "https://github.com/backstage/backstage/issues/35828",
         "labels": [
@@ -21044,42 +21118,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-05T00:10:54Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-ROLLUP-8073097]",
-        "url": "https://github.com/backstage/backstage/issues/35529",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:54Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-ROLLUP-15340920]",
-        "url": "https://github.com/backstage/backstage/issues/35528",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:53Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-15353389]",
-        "url": "https://github.com/backstage/backstage/issues/35522",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:51Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -24617,6 +24655,18 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "When workload is not present (build not run yet), UX in portal needs fixes",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4779",
+        "labels": [
+            "good first issue",
+            "Type/Bug"
+        ],
+        "created_at": "2026-09-18T08:43:28Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Authorization docs action lists are out of date",
         "url": "https://github.com/openchoreo/openchoreo/issues/4683",
         "labels": [
@@ -24661,6 +24711,19 @@
             "Type/Bug"
         ],
         "created_at": "2026-08-06T10:09:05Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Initial build is not triggered automatically on component creation",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4409",
+        "labels": [
+            "good first issue",
+            "Type/Improvement",
+            "reportedBy/community"
+        ],
+        "created_at": "2026-08-04T11:25:48Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -28394,21 +28457,6 @@
             "critical"
         ],
         "created_at": "2025-10-08T17:53:05Z"
-    },
-    {
-        "repo": "k8sgpt-ai/k8sgpt",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Question]: Details field is empty and some AI responses are in English despite Portuguese configuration",
-        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1566",
-        "labels": [
-            "bug",
-            "documentation",
-            "good first issue",
-            "question",
-            "backend"
-        ],
-        "created_at": "2025-08-13T21:58:39Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
