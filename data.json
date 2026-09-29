@@ -6475,18 +6475,6 @@
         "repo": "open-policy-agent/opa",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Allow Capabilities to be set through Configuration",
-        "url": "https://github.com/open-policy-agent/opa/issues/4153",
-        "labels": [
-            "good first issue",
-            "inactive"
-        ],
-        "created_at": "2021-12-16T16:08:35Z"
-    },
-    {
-        "repo": "open-policy-agent/opa",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Rego Built In support for CBOR and COSE",
         "url": "https://github.com/open-policy-agent/opa/issues/5907",
         "labels": [
@@ -26332,19 +26320,6 @@
             "help wanted"
         ],
         "created_at": "2025-06-19T12:49:40Z"
-    },
-    {
-        "repo": "chaos-mesh/chaos-mesh",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "jvm chaos no support Pod contains more containerd",
-        "url": "https://github.com/chaos-mesh/chaos-mesh/issues/3676",
-        "labels": [
-            "type/enhancement",
-            "good first issue",
-            "chaos/jvm"
-        ],
-        "created_at": "2022-09-27T10:05:29Z"
     },
     {
         "repo": "chaos-mesh/chaos-mesh",
