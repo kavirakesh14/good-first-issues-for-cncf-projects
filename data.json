@@ -13773,6 +13773,20 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "`gsutil` will no longer be available from March 2027",
+        "url": "https://github.com/kubernetes/kubernetes/issues/142384",
+        "labels": [
+            "help wanted",
+            "sig/testing",
+            "sig/cloud-provider",
+            "triage/accepted"
+        ],
+        "created_at": "2026-09-24T12:18:15Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "E2E testing: check for goroutine leaks",
         "url": "https://github.com/kubernetes/kubernetes/issues/141819",
         "labels": [
@@ -14168,20 +14182,6 @@
             "triage/accepted"
         ],
         "created_at": "2025-03-13T17:30:50Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Remove usage of assertion libraries in pkg/scheduler tests",
-        "url": "https://github.com/kubernetes/kubernetes/issues/130407",
-        "labels": [
-            "kind/cleanup",
-            "sig/scheduling",
-            "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2025-02-25T09:56:13Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -21002,18 +21002,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-MULTER-19785644]",
-        "url": "https://github.com/backstage/backstage/issues/35676",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-14T16:12:53Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-WEBPACKDEVMIDDLEWARE-19643962]",
         "url": "https://github.com/backstage/backstage/issues/35580",
         "labels": [
@@ -21124,6 +21112,18 @@
         "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635208]",
         "url": "https://github.com/backstage/backstage/issues/35545",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-06T12:07:25Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635206]",
+        "url": "https://github.com/backstage/backstage/issues/35544",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
@@ -30328,21 +30328,6 @@
             "dont-go-stale"
         ],
         "created_at": "2022-07-25T12:27:49Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Support New Time Series DB Provider: QuestDB",
-        "url": "https://github.com/trickstercache/trickster/issues/1151",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "dpc",
-            "2.2 release",
-            "questdb"
-        ],
-        "created_at": "2026-09-18T08:39:41Z"
     },
     {
         "repo": "trickstercache/trickster",
