@@ -4826,6 +4826,40 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Remove buttons in the FGAP resource selects are icon-only with no accessible name, so screen readers cannot identify them",
+        "url": "https://github.com/keycloak/keycloak/issues/53372",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-09-30T19:49:50Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "SCIM: displayName is accepted and echoed on write but never persisted",
+        "url": "https://github.com/keycloak/keycloak/issues/53352",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal",
+            "area/scim",
+            "status/labeled-by-bot"
+        ],
+        "created_at": "2026-09-30T13:08:11Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Brute force failure counter is not reset on successful SAML (IdP) login, causing users to be permanently locked out",
         "url": "https://github.com/keycloak/keycloak/issues/53249",
         "labels": [
@@ -4938,23 +4972,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-08T12:34:00Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Organization invite: link in the plain-text part of the email is HTML-escaped and unusable",
-        "url": "https://github.com/keycloak/keycloak/issues/52449",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "area/organizations"
-        ],
-        "created_at": "2026-09-04T13:00:54Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5311,23 +5328,6 @@
             "priority/normal"
         ],
         "created_at": "2026-08-03T08:02:14Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "SAML endpoint returns HTTP 500 on an unauthenticated LogoutRequest when the client has no logout service URL",
-        "url": "https://github.com/keycloak/keycloak/issues/51371",
-        "labels": [
-            "area/saml",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-02T13:56:22Z"
     },
     {
         "repo": "keylime/keylime",
