@@ -2153,6 +2153,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Docs] spars-clone example in Contributing guide does not match the fork-and-PR Workflow",
+        "url": "https://github.com/meshery/meshery/issues/22158",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-09-30T15:30:01Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Docs] Encode Markdown images to WebP at build time",
         "url": "https://github.com/meshery/meshery/issues/22038",
         "labels": [
@@ -3652,18 +3666,6 @@
         "repo": "cedar-policy/cedar",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "Allow referencing entites JSON files for `entities` in CLI `run-tests` JSON input",
-        "url": "https://github.com/cedar-policy/cedar/issues/2016",
-        "labels": [
-            "good-first-issue",
-            "feature-request"
-        ],
-        "created_at": "2025-12-02T19:58:27Z"
-    },
-    {
-        "repo": "cedar-policy/cedar",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "Add source location to `PrincipalConstraint`, `ActionConstraint` and `ResourceConstraint`",
         "url": "https://github.com/cedar-policy/cedar/issues/521",
         "labels": [
@@ -4958,40 +4960,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "DPoPBindEnforcerExecutor requires DPoP on client create/update, defeating its own refresh-token-only binding option",
-        "url": "https://github.com/keycloak/keycloak/issues/52441",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-04T11:20:25Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Admin REST OpenAPI schema types groups-in-role responses as UserRepresentation",
-        "url": "https://github.com/keycloak/keycloak/issues/52378",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-09-03T13:56:34Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "URN resource indicator validation does not fully match RFC 8141",
         "url": "https://github.com/keycloak/keycloak/issues/52324",
         "labels": [
@@ -5324,6 +5292,42 @@
             "status/auto-bump"
         ],
         "created_at": "2026-08-04T20:01:59Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Query Performance degradation for user stream is slowed down by distinct query",
+        "url": "https://github.com/keycloak/keycloak/issues/51385",
+        "labels": [
+            "kind/bug",
+            "area/core",
+            "area/storage",
+            "help wanted",
+            "team/core-iam",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-08-03T08:02:14Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "SAML endpoint returns HTTP 500 on an unauthenticated LogoutRequest when the client has no logout service URL",
+        "url": "https://github.com/keycloak/keycloak/issues/51371",
+        "labels": [
+            "area/saml",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-02T13:56:22Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6218,18 +6222,6 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Documentation Bug]: nginx API 401 pass-through example is wrong",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3467",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-07-09T12:00:05Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Support]: How to configure oauth2-proxy with localhost and internal url",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3465",
         "labels": [
@@ -6466,6 +6458,18 @@
             "help wanted"
         ],
         "created_at": "2025-09-25T21:01:08Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: OAuth2 Proxy State Parameter Only Contains Path, Not Full URL",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3205",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2025-09-25T02:37:04Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -7820,18 +7824,6 @@
             "priority/backlog"
         ],
         "created_at": "2024-05-10T22:35:14Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Spire will create CAs that are longer lived than the upstream CA",
-        "url": "https://github.com/spiffe/spire/issues/5097",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2024-04-26T20:13:43Z"
     },
     {
         "repo": "spiffe/spire",
@@ -10026,6 +10018,19 @@
             "help wanted"
         ],
         "created_at": "2022-01-24T11:12:01Z"
+    },
+    {
+        "repo": "podman-container-tools/podman",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "JSON output for podman system hyperv-prep",
+        "url": "https://github.com/podman-container-tools/podman/issues/29860",
+        "labels": [
+            "Good First Issue",
+            "kind/feature",
+            "volunteers-wanted"
+        ],
+        "created_at": "2026-09-29T17:25:22Z"
     },
     {
         "repo": "podman-container-tools/podman",
@@ -20782,6 +20787,66 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-MARKDOWNIT-20335431]",
+        "url": "https://github.com/backstage/backstage/issues/35945",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-30T16:14:33Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-20335421]",
+        "url": "https://github.com/backstage/backstage/issues/35944",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-30T16:14:24Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-20335412]",
+        "url": "https://github.com/backstage/backstage/issues/35943",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-30T16:14:22Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-20335417]",
+        "url": "https://github.com/backstage/backstage/issues/35942",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-30T16:14:18Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-20335419]",
+        "url": "https://github.com/backstage/backstage/issues/35941",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-30T16:14:11Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-GRPCGRPCJS-20251007]",
         "url": "https://github.com/backstage/backstage/issues/35929",
         "labels": [
@@ -21077,66 +21142,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-06T12:07:26Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635210]",
-        "url": "https://github.com/backstage/backstage/issues/35546",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-06T12:07:25Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635208]",
-        "url": "https://github.com/backstage/backstage/issues/35545",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-06T12:07:25Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635206]",
-        "url": "https://github.com/backstage/backstage/issues/35544",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-06T12:07:25Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-NODEFORGE-19635204]",
-        "url": "https://github.com/backstage/backstage/issues/35543",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-06T08:06:31Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [snyk:lic:npm:version-range:Artistic-2.0]",
-        "url": "https://github.com/backstage/backstage/issues/35533",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-05T00:10:56Z"
     },
     {
         "repo": "buildpacks/pack",
