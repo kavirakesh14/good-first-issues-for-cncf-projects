@@ -4213,19 +4213,6 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "No warning or validation when `replicaCount > 1` and `leaderElect=false`",
-        "url": "https://github.com/external-secrets/external-secrets/issues/7025",
-        "labels": [
-            "good first issue",
-            "kind/feature",
-            "area/charts"
-        ],
-        "created_at": "2026-09-24T11:33:55Z"
-    },
-    {
-        "repo": "external-secrets/external-secrets",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "PushSecret always calls DeleteResourcePolicy on AWS Secrets Manager, even when resourcePolicy is not configured",
         "url": "https://github.com/external-secrets/external-secrets/issues/6806",
         "labels": [
@@ -6269,18 +6256,6 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Bug]: bitbucket provider broken since 2026-05-04: ?access_token= query param rejected by Bitbucket API (CHANGE-3052)",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3428",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-05-04T13:53:33Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Bug]: skip_auth_preflight only working in combination with cors_allow_origin",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3427",
         "labels": [
@@ -6457,6 +6432,18 @@
             "help wanted"
         ],
         "created_at": "2025-09-25T02:37:04Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: CSRF Expiry timeout validation is based on Cookie Timeout",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3203",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2025-09-24T10:19:17Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -15695,21 +15682,6 @@
         "repo": "projectcontour/contour",
         "tier": "Incubating",
         "lang": "HTML",
-        "title": "site: upgrade document missing the inline table of contents",
-        "url": "https://github.com/projectcontour/contour/issues/2094",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/website",
-            "area/documentation",
-            "Hacktoberfest"
-        ],
-        "created_at": "2020-01-09T21:51:27Z"
-    },
-    {
-        "repo": "projectcontour/contour",
-        "tier": "Incubating",
-        "lang": "HTML",
         "title": "Document how to integrate with Linkerd",
         "url": "https://github.com/projectcontour/contour/issues/2089",
         "labels": [
@@ -17678,18 +17650,6 @@
             "help wanted"
         ],
         "created_at": "2025-10-09T19:56:55Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Replace runtime TLS validation with API-level CEL rules",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/12338",
-        "labels": [
-            "Good First Issue",
-            "stale"
-        ],
-        "created_at": "2025-09-19T02:42:17Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -20774,6 +20734,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-URIJS-20341609]",
+        "url": "https://github.com/backstage/backstage/issues/35952",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-01T04:13:15Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-MARKDOWNIT-20335431]",
         "url": "https://github.com/backstage/backstage/issues/35945",
         "labels": [
@@ -21112,18 +21084,6 @@
         "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635210]",
         "url": "https://github.com/backstage/backstage/issues/35546",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-06T12:07:25Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635208]",
-        "url": "https://github.com/backstage/backstage/issues/35545",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
@@ -24721,6 +24681,18 @@
             "Type/Bug"
         ],
         "created_at": "2026-08-14T04:00:31Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Add workflow and observability planes to the kiac installer",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4455",
+        "labels": [
+            "good first issue",
+            "reportedBy/community"
+        ],
+        "created_at": "2026-08-08T06:44:59Z"
     },
     {
         "repo": "openchoreo/openchoreo",
