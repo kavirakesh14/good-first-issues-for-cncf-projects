@@ -4800,23 +4800,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Remove buttons in the FGAP resource selects are icon-only with no accessible name, so screen readers cannot identify them",
-        "url": "https://github.com/keycloak/keycloak/issues/53372",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-09-30T19:49:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "SCIM: displayName is accepted and echoed on write but never persisted",
         "url": "https://github.com/keycloak/keycloak/issues/53352",
         "labels": [
@@ -5302,6 +5285,23 @@
             "priority/normal"
         ],
         "created_at": "2026-08-03T08:02:14Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "SAML endpoint returns HTTP 500 on an unauthenticated LogoutRequest when the client has no logout service URL",
+        "url": "https://github.com/keycloak/keycloak/issues/51371",
+        "labels": [
+            "area/saml",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-02T13:56:22Z"
     },
     {
         "repo": "keylime/keylime",
@@ -11264,6 +11264,62 @@
         "created_at": "2024-09-24T10:02:56Z"
     },
     {
+        "repo": "agent-substrate/substrate",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Avoid forwarding the client cert from Envoy to ext_proc through a header",
+        "url": "https://github.com/agent-substrate/substrate/issues/1740",
+        "labels": [
+            "good first issue",
+            "kind/cleanup",
+            "area/security",
+            "area/network"
+        ],
+        "created_at": "2026-09-18T12:41:40Z"
+    },
+    {
+        "repo": "agent-substrate/substrate",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "atelet: no checkpoint timing breakdown log, so suspend has no stage attribution without OTel",
+        "url": "https://github.com/agent-substrate/substrate/issues/1647",
+        "labels": [
+            "good first issue",
+            "kind/feature",
+            "prio/P2",
+            "area/node",
+            "area/observability"
+        ],
+        "created_at": "2026-09-14T22:37:22Z"
+    },
+    {
+        "repo": "agent-substrate/substrate",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Suggestion: Refactor koApply to an Exported Helper",
+        "url": "https://github.com/agent-substrate/substrate/issues/1251",
+        "labels": [
+            "good first issue",
+            "kind/cleanup",
+            "area/tests"
+        ],
+        "created_at": "2026-08-26T23:59:28Z"
+    },
+    {
+        "repo": "agent-substrate/substrate",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Allow kubectl ate logs to filter by container and supervisor",
+        "url": "https://github.com/agent-substrate/substrate/issues/294",
+        "labels": [
+            "good first issue",
+            "kind/feature",
+            "area/cli",
+            "area/observability"
+        ],
+        "created_at": "2026-06-23T23:04:06Z"
+    },
+    {
         "repo": "agones-dev/agones",
         "tier": "Sandbox",
         "lang": "Go",
@@ -14745,6 +14801,57 @@
         "created_at": "2022-03-29T05:29:27Z"
     },
     {
+        "repo": "NVIDIA/OpenShell",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "bug: managed-workspace E2E tests intermittently fail with SQLite lock contention",
+        "url": "https://github.com/NVIDIA/OpenShell/issues/3679",
+        "labels": [
+            "help wanted",
+            "area:build",
+            "topic:testing"
+        ],
+        "created_at": "2026-09-24T22:39:51Z"
+    },
+    {
+        "repo": "NVIDIA/OpenShell",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "feat(driver-mxc): default MXC admission settings to what the driver can enforce",
+        "url": "https://github.com/NVIDIA/OpenShell/issues/3560",
+        "labels": [
+            "help wanted",
+            "os:windows",
+            "roadmap",
+            "area:compute",
+            "state:accepted"
+        ],
+        "created_at": "2026-09-22T17:49:12Z"
+    },
+    {
+        "repo": "NVIDIA/OpenShell",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "feat(server): register standard gRPC reflection on the primary listener",
+        "url": "https://github.com/NVIDIA/OpenShell/issues/3058",
+        "labels": [
+            "help wanted",
+            "state:stale"
+        ],
+        "created_at": "2026-08-31T18:04:47Z"
+    },
+    {
+        "repo": "NVIDIA/OpenShell",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "feat(api)!: split UpdateConfig into typed policy and settings mutations",
+        "url": "https://github.com/NVIDIA/OpenShell/issues/3049",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-08-31T18:04:24Z"
+    },
+    {
         "repo": "volcano-sh/volcano",
         "tier": "Incubating",
         "lang": "Go",
@@ -17650,6 +17757,18 @@
             "help wanted"
         ],
         "created_at": "2025-10-09T19:56:55Z"
+    },
+    {
+        "repo": "kgateway-dev/kgateway",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Replace runtime TLS validation with API-level CEL rules",
+        "url": "https://github.com/kgateway-dev/kgateway/issues/12338",
+        "labels": [
+            "Good First Issue",
+            "stale"
+        ],
+        "created_at": "2025-09-19T02:42:17Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -23220,19 +23339,6 @@
         "repo": "microcks/microcks",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Services list triggers duplicate search API calls when filtering by domain label",
-        "url": "https://github.com/microcks/microcks/issues/2297",
-        "labels": [
-            "kind/bug",
-            "component/ux",
-            "good first issue"
-        ],
-        "created_at": "2026-09-10T15:22:21Z"
-    },
-    {
-        "repo": "microcks/microcks",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "test: migrate webapp ITs from TestRestTemplate to RestTestClient",
         "url": "https://github.com/microcks/microcks/issues/2116",
         "labels": [
@@ -23461,6 +23567,18 @@
             "lifecycle/frozen"
         ],
         "created_at": "2021-02-02T20:05:09Z"
+    },
+    {
+        "repo": "oras-project/oras",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "chore: remove the Docker-based e2e test run now that KinD e2e has landed",
+        "url": "https://github.com/oras-project/oras/issues/2188",
+        "labels": [
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2026-09-23T23:02:06Z"
     },
     {
         "repo": "oras-project/oras",
@@ -27994,6 +28112,18 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Retire the 16-character trace ID form and settle on 32 hex characters everywhere",
+        "url": "https://github.com/jaegertracing/jaeger/issues/9717",
+        "labels": [
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2026-10-01T19:10:30Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "ES/OS filter refuses most built-in fields although the schema indexes them",
         "url": "https://github.com/jaegertracing/jaeger/issues/9474",
         "labels": [
@@ -28405,17 +28535,6 @@
             "ui"
         ],
         "created_at": "2020-10-08T20:47:58Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Improve FOSSA integration",
-        "url": "https://github.com/jaegertracing/jaeger/issues/2432",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2020-08-29T11:12:23Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
@@ -30300,34 +30419,6 @@
             "dont-go-stale"
         ],
         "created_at": "2022-07-25T12:27:49Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Support IP Access Control Lists",
-        "url": "https://github.com/trickstercache/trickster/issues/1148",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "security",
-            "2.2 release"
-        ],
-        "created_at": "2026-09-18T03:41:12Z"
-    },
-    {
-        "repo": "trickstercache/trickster",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Support Rate Limiting",
-        "url": "https://github.com/trickstercache/trickster/issues/1147",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "security",
-            "2.2 release"
-        ],
-        "created_at": "2026-09-18T03:19:17Z"
     },
     {
         "repo": "spinframework/spin",
