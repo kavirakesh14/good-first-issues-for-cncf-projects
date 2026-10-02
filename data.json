@@ -4884,6 +4884,24 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "\"Cannot parse the JSON\" error on Sessions tab on client.",
+        "url": "https://github.com/keycloak/keycloak/issues/53003",
+        "labels": [
+            "kind/bug",
+            "area/admin/api",
+            "help wanted",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-21T11:29:05Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Organization group roles are not automapped to realm/resource_access",
         "url": "https://github.com/keycloak/keycloak/issues/52764",
         "labels": [
@@ -5285,23 +5303,6 @@
             "priority/normal"
         ],
         "created_at": "2026-08-03T08:02:14Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "SAML endpoint returns HTTP 500 on an unauthenticated LogoutRequest when the client has no logout service URL",
-        "url": "https://github.com/keycloak/keycloak/issues/51371",
-        "labels": [
-            "area/saml",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-02T13:56:22Z"
     },
     {
         "repo": "keylime/keylime",
@@ -7630,6 +7631,18 @@
             "help wanted"
         ],
         "created_at": "2015-09-30T16:40:01Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "tpm_devid: expose certificate subject attributes as OID selectors",
+        "url": "https://github.com/spiffe/spire/issues/7307",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2026-09-30T14:39:24Z"
     },
     {
         "repo": "spiffe/spire",
@@ -10198,20 +10211,6 @@
         "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "pull --all-tags : confusing documentation",
-        "url": "https://github.com/podman-container-tools/podman/issues/23625",
-        "labels": [
-            "Good First Issue",
-            "kind/documentation",
-            "volunteers-wanted",
-            "Contribfest"
-        ],
-        "created_at": "2024-08-14T20:04:02Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "`docker login` with docker.io creds  \"successfully\" logs-into `registry.fedoraproject.org` then fails to push to `registry-1.docker.io`",
         "url": "https://github.com/podman-container-tools/podman/issues/22400",
         "labels": [
@@ -10328,21 +10327,6 @@
             "Good First Issue"
         ],
         "created_at": "2023-04-05T21:03:08Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "podman commit --include-volumes does only work with value true documentation needs to reflect that ",
-        "url": "https://github.com/podman-container-tools/podman/issues/15387",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "kind/feature",
-            "volunteers-wanted",
-            "Contribfest"
-        ],
-        "created_at": "2022-08-19T12:20:17Z"
     },
     {
         "repo": "podman-container-tools/podman",
@@ -20700,6 +20684,20 @@
             "help wanted"
         ],
         "created_at": "2020-10-16T12:19:35Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Catalog processor may throw an unbounded error payload to status and exhaust database storage",
+        "url": "https://github.com/backstage/backstage/issues/35955",
+        "labels": [
+            "type:bug",
+            "good first issue",
+            "priority:contrib-needed",
+            "area:catalog"
+        ],
+        "created_at": "2026-10-01T11:28:10Z"
     },
     {
         "repo": "backstage/backstage",
