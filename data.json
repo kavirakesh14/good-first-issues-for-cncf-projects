@@ -23581,18 +23581,6 @@
         "repo": "oras-project/oras",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "chore: remove the Docker-based e2e test run now that KinD e2e has landed",
-        "url": "https://github.com/oras-project/oras/issues/2188",
-        "labels": [
-            "help wanted",
-            "good first issue"
-        ],
-        "created_at": "2026-09-23T23:02:06Z"
-    },
-    {
-        "repo": "oras-project/oras",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Support multiple `--platform` where appropriate",
         "url": "https://github.com/oras-project/oras/issues/1945",
         "labels": [
@@ -25150,21 +25138,6 @@
             "pinned"
         ],
         "created_at": "2020-06-12T03:45:12Z"
-    },
-    {
-        "repo": "pipe-cd/pipecd",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "ci: remove the unused code-butler workflow",
-        "url": "https://github.com/pipe-cd/pipecd/issues/7427",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "dependencies",
-            "area/ci",
-            "github_actions"
-        ],
-        "created_at": "2026-09-26T16:42:51Z"
     },
     {
         "repo": "pipe-cd/pipecd",
@@ -30589,13 +30562,26 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] dashboard: show each sub-agent's effective model on the agent view",
-        "url": "https://github.com/hivecommons/hive/issues/10469",
+        "title": "\u2728 dashboard: Reporter trust copy \u2014 drop closed #9665 link; explain which GitHub associations auto-promote on merge",
+        "url": "https://github.com/hivecommons/hive/issues/10487",
         "labels": [
             "enhancement",
             "help wanted"
         ],
-        "created_at": "2026-10-03T15:05:52Z"
+        "created_at": "2026-10-03T20:16:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 dashboard: expose `classification.review_bots` in Settings; make `min_priority` editable from the Review card",
+        "url": "https://github.com/hivecommons/hive/issues/10481",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "hive/likely-done"
+        ],
+        "created_at": "2026-10-03T19:45:12Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30607,22 +30593,12 @@
             "help wanted",
             "agent/ci-maintainer",
             "hive/hosted-available-oke-11-placeholder-r05x",
-            "ci"
+            "ci",
+            "needs-decision",
+            "hive/already-done",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-10-03T14:54:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b copilot: subagents dispatched with `opus`/`sonnet` aliases run on Claude Opus 5 / Sonnet 5 while 5.5 is available (Copilot CLI 1.0.88)",
-        "url": "https://github.com/hivecommons/hive/issues/10461",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-03T13:49:06Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30652,66 +30628,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] Re-run update-branch on marked PRs when a shared-CI incident closes",
-        "url": "https://github.com/hivecommons/hive/issues/10442",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-03T12:14:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 Re-run shared-CI-affected PRs when the incident fix lands",
-        "url": "https://github.com/hivecommons/hive/issues/10431",
-        "labels": [
-            "help wanted",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-03T11:50:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] upgrades: resolve the dashboard upgrade target from the tracked channel, not a branch head",
-        "url": "https://github.com/hivecommons/hive/issues/10422",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-03T11:24:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] upgrades: use podman-auto-update semantics for registry tracking instead of a silent digest pin",
-        "url": "https://github.com/hivecommons/hive/issues/10421",
-        "labels": [
-            "help wanted",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-03T11:21:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] deploy: migration path for existing Podman installs (reconcile deployment env + bridge units)",
-        "url": "https://github.com/hivecommons/hive/issues/10419",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-03T11:19:58Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83c\udf31 CNCF onboarding: link your GitHub handle to your LFID (maintainers)",
         "url": "https://github.com/hivecommons/hive/issues/10177",
         "labels": [
@@ -30724,20 +30640,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] spektacular: the status-derived tier of the run-detail interview history reads `instruction`/`question` fields the per-artifact `status` verb never emits",
-        "url": "https://github.com/hivecommons/hive/issues/10099",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-02T16:13:39Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83d\udcdd [v6] runs: docs promise an owner can reset or abandon an escalated stage, but no abandon route exists and reset only moves strictly backwards",
         "url": "https://github.com/hivecommons/hive/issues/10066",
         "labels": [
@@ -30745,7 +30647,7 @@
             "priority/medium",
             "kind/bug",
             "kind/documentation",
-            "hive/covered-by-pr"
+            "hive/likely-done"
         ],
         "created_at": "2026-10-02T16:11:34Z"
     },
@@ -30759,7 +30661,7 @@
             "help wanted",
             "priority/high",
             "kind/bug",
-            "hive/covered-by-pr"
+            "hive/likely-done"
         ],
         "created_at": "2026-10-02T16:11:13Z"
     },
@@ -30773,7 +30675,7 @@
             "help wanted",
             "priority/medium",
             "kind/bug",
-            "hive/covered-by-pr"
+            "hive/likely-done"
         ],
         "created_at": "2026-10-02T16:11:02Z"
     },
