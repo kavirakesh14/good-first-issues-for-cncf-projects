@@ -30589,102 +30589,124 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: Pi contributor quota guard assumes Claude regardless of selected provider",
-        "url": "https://github.com/hivecommons/hive/issues/10389",
+        "title": "[scanner] dashboard: show each sub-agent's effective model on the agent view",
+        "url": "https://github.com/hivecommons/hive/issues/10469",
         "labels": [
-            "bug",
-            "help wanted",
-            "hive/likely-done"
+            "enhancement",
+            "help wanted"
         ],
-        "created_at": "2026-10-03T08:12:22Z"
+        "created_at": "2026-10-03T15:05:52Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] docs: runs.engine selector and Writing a planning engine",
-        "url": "https://github.com/hivecommons/hive/issues/10359",
+        "title": "[ci-maintainer] v6 Top-up red since 2026-10-03T12:56Z (15 runs, v6 14 behind): #10448 v5 backport of #10173 conflicts in api_campaigns.go/_test.go/api-reference.md \u2014 keep v6 side + 409 doc row (needs human)",
+        "url": "https://github.com/hivecommons/hive/issues/10467",
         "labels": [
             "help wanted",
-            "needs-decision"
+            "agent/ci-maintainer",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "ci"
         ],
-        "created_at": "2026-10-03T03:01:58Z"
+        "created_at": "2026-10-03T14:54:42Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] planengine: fake-engine conformance tests for lease invariants and the failure-mapping table",
-        "url": "https://github.com/hivecommons/hive/issues/10358",
-        "labels": [
-            "help wanted",
-            "needs-decision"
-        ],
-        "created_at": "2026-10-03T03:01:27Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b dashboard: Upgrade button can never work on a rootless Podman/Quadlet hive (no host bridge for the upgrade helper)",
-        "url": "https://github.com/hivecommons/hive/issues/10344",
+        "title": "\ud83d\udc1b copilot: subagents dispatched with `opus`/`sonnet` aliases run on Claude Opus 5 / Sonnet 5 while 5.5 is available (Copilot CLI 1.0.88)",
+        "url": "https://github.com/hivecommons/hive/issues/10461",
         "labels": [
             "help wanted",
             "kind/bug",
-            "hive/verified-open",
+            "hive/verified-open"
+        ],
+        "created_at": "2026-10-03T13:49:06Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b The `contributor_prs` unstick gate from #9480 was never built, so DIRTY fork lane PRs still wait for a human",
+        "url": "https://github.com/hivecommons/hive/issues/10457",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-03T13:10:20Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Decide fate of the changed-file-intersection gate in pr-auto-update.sh",
+        "url": "https://github.com/hivecommons/hive/issues/10443",
+        "labels": [
+            "help wanted",
             "needs-direction"
         ],
-        "created_at": "2026-10-03T01:04:00Z"
+        "created_at": "2026-10-03T12:14:48Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] Implement planning-engine registry with Spektacular CLI as default engine",
-        "url": "https://github.com/hivecommons/hive/issues/10293",
+        "title": "[scanner] Re-run update-branch on marked PRs when a shared-CI incident closes",
+        "url": "https://github.com/hivecommons/hive/issues/10442",
         "labels": [
-            "help wanted",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-02T22:31:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[meta] 39 verified-fixed human-filed bugs blocked on reporter confirmation to close",
-        "url": "https://github.com/hivecommons/hive/issues/10276",
-        "labels": [
-            "help wanted",
-            "meta",
-            "help-wanted"
-        ],
-        "created_at": "2026-10-02T21:51:22Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 Add explicit controls for hub heartbeat telemetry",
-        "url": "https://github.com/hivecommons/hive/issues/10202",
-        "labels": [
-            "help wanted",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-02T19:08:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: Add per-hive enable/disable controls for contributors",
-        "url": "https://github.com/hivecommons/hive/issues/10186",
-        "labels": [
-            "enhancement",
             "help wanted",
             "hive/covered-by-pr"
         ],
-        "created_at": "2026-10-02T18:21:13Z"
+        "created_at": "2026-10-03T12:14:18Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 Re-run shared-CI-affected PRs when the incident fix lands",
+        "url": "https://github.com/hivecommons/hive/issues/10431",
+        "labels": [
+            "help wanted",
+            "hive/verified-open"
+        ],
+        "created_at": "2026-10-03T11:50:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] upgrades: resolve the dashboard upgrade target from the tracked channel, not a branch head",
+        "url": "https://github.com/hivecommons/hive/issues/10422",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-03T11:24:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] upgrades: use podman-auto-update semantics for registry tracking instead of a silent digest pin",
+        "url": "https://github.com/hivecommons/hive/issues/10421",
+        "labels": [
+            "help wanted",
+            "hive/likely-done"
+        ],
+        "created_at": "2026-10-03T11:21:18Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] deploy: migration path for existing Podman installs (reconcile deployment env + bridge units)",
+        "url": "https://github.com/hivecommons/hive/issues/10419",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-03T11:19:58Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30708,24 +30730,9 @@
             "help wanted",
             "kind/bug",
             "priority/low",
-            "hive/verified-open",
-            "needs-direction"
-        ],
-        "created_at": "2026-10-02T16:13:39Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] spektacular: the in-tree fake CLI encodes behaviour the real CLI does not have and cannot drive the hub executor or version probe, so green tests do not prove the real contract",
-        "url": "https://github.com/hivecommons/hive/issues/10074",
-        "labels": [
-            "help wanted",
-            "priority/medium",
-            "kind/bug",
             "hive/verified-open"
         ],
-        "created_at": "2026-10-02T16:12:02Z"
+        "created_at": "2026-10-02T16:13:39Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30760,20 +30767,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] campaigns: \"Release\" on a Spektacular run campaign revokes the holder's stage lease (by design, tested), and the run then disappears from /api/campaigns and /api/runs/{key}",
-        "url": "https://github.com/hivecommons/hive/issues/10057",
-        "labels": [
-            "help wanted",
-            "priority/medium",
-            "kind/bug",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-02T16:11:06Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83d\udd12 [v6] jam: read-write callers can record comments, revisions and votes under any agent/model name (and cast unlimited poll votes) via caller-supplied `agent`/`model`",
         "url": "https://github.com/hivecommons/hive/issues/10056",
         "labels": [
@@ -30793,23 +30786,9 @@
         "labels": [
             "bug",
             "help wanted",
-            "hive/verified-open",
-            "needs-direction"
+            "hive/verified-open"
         ],
         "created_at": "2026-10-02T15:43:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 agents: upstream watch \u2014 for a forked repo, surface upstream fixes and features as issues in the fork",
-        "url": "https://github.com/hivecommons/hive/issues/9963",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "hold"
-        ],
-        "created_at": "2026-10-02T10:08:47Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30823,22 +30802,6 @@
             "needs-direction"
         ],
         "created_at": "2026-09-30T04:24:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[strategist] v6 line: no GA/release path + undocumented 50-issue bug backlog vs 11 unchecked readiness-bar exercise rows",
-        "url": "https://github.com/hivecommons/hive/issues/9227",
-        "labels": [
-            "help wanted",
-            "agent/strategist",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "needs-human",
-            "roadmap",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-09-27T18:59:21Z"
     },
     {
         "repo": "hivecommons/hive",
