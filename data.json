@@ -18138,19 +18138,6 @@
         "repo": "istio/istio",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Document supported Envoy native stats and access log labels",
-        "url": "https://github.com/istio/istio/issues/31112",
-        "labels": [
-            "area/extensions and telemetry",
-            "lifecycle/staleproof",
-            "help wanted"
-        ],
-        "created_at": "2021-02-26T17:12:12Z"
-    },
-    {
-        "repo": "istio/istio",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "VM mesh expansion, ISTIO_INBOUND_PORTS conflicts with Docker container outbound traffic",
         "url": "https://github.com/istio/istio/issues/27728",
         "labels": [
@@ -28564,21 +28551,6 @@
         "repo": "k8sgpt-ai/k8sgpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Question]: False positives in node problems",
-        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1461",
-        "labels": [
-            "bug",
-            "good first issue",
-            "question",
-            "backend",
-            "critical"
-        ],
-        "created_at": "2025-04-15T12:55:14Z"
-    },
-    {
-        "repo": "k8sgpt-ai/k8sgpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Feature]: Adding flag filter for custom-analyzer",
         "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1374",
         "labels": [
@@ -30617,6 +30589,43 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "\ud83d\udc1b bug: Pi contributor quota guard assumes Claude regardless of selected provider",
+        "url": "https://github.com/hivecommons/hive/issues/10389",
+        "labels": [
+            "bug",
+            "help wanted",
+            "hive/likely-done"
+        ],
+        "created_at": "2026-10-03T08:12:22Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] docs: runs.engine selector and Writing a planning engine",
+        "url": "https://github.com/hivecommons/hive/issues/10359",
+        "labels": [
+            "help wanted",
+            "needs-decision"
+        ],
+        "created_at": "2026-10-03T03:01:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] planengine: fake-engine conformance tests for lease invariants and the failure-mapping table",
+        "url": "https://github.com/hivecommons/hive/issues/10358",
+        "labels": [
+            "help wanted",
+            "needs-decision"
+        ],
+        "created_at": "2026-10-03T03:01:27Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "\ud83d\udc1b dashboard: Upgrade button can never work on a rootless Podman/Quadlet hive (no host bridge for the upgrade helper)",
         "url": "https://github.com/hivecommons/hive/issues/10344",
         "labels": [
@@ -30631,37 +30640,13 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[v5 RFC] Let human-filed sweep / hard-to-verify bugs opt in to close-on-merge (keep `Closes #N` on the fix PR)",
-        "url": "https://github.com/hivecommons/hive/issues/10304",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2026-10-02T22:57:55Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: publish quota readings automatically for standalone contributors",
-        "url": "https://github.com/hivecommons/hive/issues/10299",
+        "title": "[scanner] Implement planning-engine registry with Spektacular CLI as default engine",
+        "url": "https://github.com/hivecommons/hive/issues/10293",
         "labels": [
             "help wanted",
-            "hive/covered-by-pr"
+            "hive/verified-open"
         ],
-        "created_at": "2026-10-02T22:52:54Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Implement external work-source adapter behind a work_source.type registry",
-        "url": "https://github.com/hivecommons/hive/issues/10291",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-02T22:31:36Z"
+        "created_at": "2026-10-02T22:31:43Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30675,32 +30660,6 @@
             "help-wanted"
         ],
         "created_at": "2026-10-02T21:51:22Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[ci-maintainer] hive-merge relay bypasses the #9958 forward-merge guard: MergePR defaults to squash for sync/v*-to-v* PRs (squashed #10214, re-broke v6 Top-up)",
-        "url": "https://github.com/hivecommons/hive/issues/10265",
-        "labels": [
-            "help wanted",
-            "agent/ci-maintainer",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "ci"
-        ],
-        "created_at": "2026-10-02T21:22:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Config: operator switch to disable heartbeat task-status pushes",
-        "url": "https://github.com/hivecommons/hive/issues/10259",
-        "labels": [
-            "help wanted",
-            "needs-direction"
-        ],
-        "created_at": "2026-10-02T21:18:50Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30731,27 +30690,13 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 Add external work-source plugin boundary",
-        "url": "https://github.com/hivecommons/hive/issues/10174",
+        "title": "\ud83c\udf31 CNCF onboarding: link your GitHub handle to your LFID (maintainers)",
+        "url": "https://github.com/hivecommons/hive/issues/10177",
         "labels": [
-            "documentation",
-            "enhancement",
             "help wanted",
-            "hive/verified-open"
+            "blocked"
         ],
-        "created_at": "2026-10-02T17:50:30Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcd6 Track third-party integration guide",
-        "url": "https://github.com/hivecommons/hive/issues/10171",
-        "labels": [
-            "documentation",
-            "help wanted"
-        ],
-        "created_at": "2026-10-02T17:48:02Z"
+        "created_at": "2026-10-02T17:53:00Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30763,65 +30708,10 @@
             "help wanted",
             "kind/bug",
             "priority/low",
-            "hive/verified-open"
+            "hive/verified-open",
+            "needs-direction"
         ],
         "created_at": "2026-10-02T16:13:39Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] spektacular: all three Dockerfiles degrade a failed Spektacular download/checksum to a WARN (image builds without the CLI); `Dockerfile.hub` installs it into an image that never runs it",
-        "url": "https://github.com/hivecommons/hive/issues/10097",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-02T16:13:31Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] runs: posting the Spektacular design artifact comment is fail-hard inside AdvanceStageLease and can block spec advance when the forge write fails or is not configured",
-        "url": "https://github.com/hivecommons/hive/issues/10094",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-02T16:13:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] spektacular: run key -> worktree/lock/artifact slug is lossy, and the admitted repo is unvalidated (distinct runs can share a worktree; `../` repos escape the workspace)",
-        "url": "https://github.com/hivecommons/hive/issues/10080",
-        "labels": [
-            "help wanted",
-            "priority/medium",
-            "kind/bug",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-02T16:12:25Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] spektacular: clone/auth/fetch/init errors and a missing agent credential each spend a stage generation immediately; with the default budget of 2 a short outage escalates every run in about a minute",
-        "url": "https://github.com/hivecommons/hive/issues/10077",
-        "labels": [
-            "help wanted",
-            "priority/medium",
-            "kind/bug",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-02T16:12:13Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30856,34 +30746,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] runs: rejecting a held plan at the plan checkpoint is a silent no-op for the lease, and the reject lease-reset never matches run-imported epics",
-        "url": "https://github.com/hivecommons/hive/issues/10063",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "kind/bug",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-02T16:11:23Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] runs: rejecting a design-mode Spec checkpoint returns 200 but does not retry the spec stage (lease keeps its generation and stays held)",
-        "url": "https://github.com/hivecommons/hive/issues/10062",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "kind/bug",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-02T16:11:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83d\udc1b [v6] campaigns: revising an `owner/repo#N` Spek run creates a phantom campaign with a slug-mangled id (`myorgrepo18450`) next to the live run row; different runs can collide",
         "url": "https://github.com/hivecommons/hive/issues/10060",
         "labels": [
@@ -30893,20 +30755,6 @@
             "hive/covered-by-pr"
         ],
         "created_at": "2026-10-02T16:11:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] campaigns: a freshly admitted Spek run (inception/triage/Strategy Lab) reports lease_owner `hive-triage`, so resume and release both return 409 for everyone",
-        "url": "https://github.com/hivecommons/hive/issues/10059",
-        "labels": [
-            "help wanted",
-            "priority/medium",
-            "kind/bug",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-02T16:11:09Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30940,20 +30788,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udd12 [v6] spektacular: hub-launched agent runs `--allow-all`/`--dangerously-skip-permissions` as a plain child of the hive process, outside the per-agent UID/proxy isolation, with the read-only clone token injected into its env",
-        "url": "https://github.com/hivecommons/hive/issues/10054",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "kind/bug",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-02T16:10:54Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83d\udc1b bug: Possible issues with promotion to release channel \"stable\"",
         "url": "https://github.com/hivecommons/hive/issues/10042",
         "labels": [
@@ -30963,32 +30797,6 @@
             "needs-direction"
         ],
         "created_at": "2026-10-02T15:43:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] /api/nous/status: baseline_pct is unbounded (reports 1565%) once snapshots pass NousBaselineTarget",
-        "url": "https://github.com/hivecommons/hive/issues/10026",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-02T14:48:46Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] upstream watch: dashboard divergence view + port-this kick context",
-        "url": "https://github.com/hivecommons/hive/issues/9969",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-02T10:47:40Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31015,6 +30823,37 @@
             "needs-direction"
         ],
         "created_at": "2026-09-30T04:24:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[strategist] v6 line: no GA/release path + undocumented 50-issue bug backlog vs 11 unchecked readiness-bar exercise rows",
+        "url": "https://github.com/hivecommons/hive/issues/9227",
+        "labels": [
+            "help wanted",
+            "agent/strategist",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "needs-human",
+            "roadmap",
+            "hive/likely-done"
+        ],
+        "created_at": "2026-09-27T18:59:21Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd v6 epic + readiness bar: dashboard-optional operation \u2014 meet humans where they are",
+        "url": "https://github.com/hivecommons/hive/issues/7563",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "roadmap",
+            "meta-tracker"
+        ],
+        "created_at": "2026-09-18T05:32:44Z"
     },
     {
         "repo": "kaito-project/kaito",
