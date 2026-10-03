@@ -23582,6 +23582,18 @@
         "repo": "oras-project/oras",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "chore: drop dead .gitignore entries for the Docker e2e registry mounts",
+        "url": "https://github.com/oras-project/oras/issues/2215",
+        "labels": [
+            "good first issue",
+            "E2E testing"
+        ],
+        "created_at": "2026-10-02T23:30:52Z"
+    },
+    {
+        "repo": "oras-project/oras",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "chore: remove the Docker-based e2e test run now that KinD e2e has landed",
         "url": "https://github.com/oras-project/oras/issues/2188",
         "labels": [
@@ -30605,14 +30617,64 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[shared-ci] actions/setup-go failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/10267",
+        "title": "\ud83d\udc1b dashboard: Upgrade button can never work on a rootless Podman/Quadlet hive (no host bridge for the upgrade helper)",
+        "url": "https://github.com/hivecommons/hive/issues/10344",
         "labels": [
             "help wanted",
-            "ci",
+            "kind/bug",
+            "hive/verified-open",
+            "needs-direction"
+        ],
+        "created_at": "2026-10-03T01:04:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v5 RFC] Let human-filed sweep / hard-to-verify bugs opt in to close-on-merge (keep `Closes #N` on the fix PR)",
+        "url": "https://github.com/hivecommons/hive/issues/10304",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-10-02T22:57:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: publish quota readings automatically for standalone contributors",
+        "url": "https://github.com/hivecommons/hive/issues/10299",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-02T22:52:54Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Implement external work-source adapter behind a work_source.type registry",
+        "url": "https://github.com/hivecommons/hive/issues/10291",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-02T22:31:36Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[meta] 39 verified-fixed human-filed bugs blocked on reporter confirmation to close",
+        "url": "https://github.com/hivecommons/hive/issues/10276",
+        "labels": [
+            "help wanted",
+            "meta",
             "help-wanted"
         ],
-        "created_at": "2026-10-02T21:37:30Z"
+        "created_at": "2026-10-02T21:51:22Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30632,51 +30694,25 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[ci-maintainer] v6 Top-up red since 2026-10-01T23Z (~150 runs): #10214 squash undid the #9956 ancestry repair \u2014 re-merge v5\u2192v6 as a merge commit (needs human)",
-        "url": "https://github.com/hivecommons/hive/issues/10263",
+        "title": "[scanner] Config: operator switch to disable heartbeat task-status pushes",
+        "url": "https://github.com/hivecommons/hive/issues/10259",
         "labels": [
             "help wanted",
-            "agent/ci-maintainer",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "ci"
+            "needs-direction"
         ],
-        "created_at": "2026-10-02T21:21:09Z"
+        "created_at": "2026-10-02T21:18:50Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 Dashboard collapsed summaries visual strips",
-        "url": "https://github.com/hivecommons/hive/issues/10255",
+        "title": "\u2728 Add explicit controls for hub heartbeat telemetry",
+        "url": "https://github.com/hivecommons/hive/issues/10202",
         "labels": [
             "help wanted",
-            "hive/covered-by-pr"
+            "hive/verified-open"
         ],
-        "created_at": "2026-10-02T21:17:21Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b Fix lifecycle timeline rendering empty stripe rows",
-        "url": "https://github.com/hivecommons/hive/issues/10249",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-02T21:06:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: A way to know when my hive will next be updated",
-        "url": "https://github.com/hivecommons/hive/issues/10187",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2026-10-02T18:26:12Z"
+        "created_at": "2026-10-02T19:08:42Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30695,37 +30731,13 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 Track dashboard sparkline redraw animation",
-        "url": "https://github.com/hivecommons/hive/issues/10185",
-        "labels": [
-            "help wanted",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T18:18:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 Generalize Project Inception beyond Spektacular-compatible CLI",
-        "url": "https://github.com/hivecommons/hive/issues/10175",
-        "labels": [
-            "documentation",
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2026-10-02T17:50:32Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\u2728 Add external work-source plugin boundary",
         "url": "https://github.com/hivecommons/hive/issues/10174",
         "labels": [
             "documentation",
             "enhancement",
-            "help wanted"
+            "help wanted",
+            "hive/verified-open"
         ],
         "created_at": "2026-10-02T17:50:30Z"
     },
@@ -30745,262 +30757,264 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b agent(v6): every Claude agent crash-loops at launch \u2014 hive passes --mcp-server, which Claude Code does not have",
-        "url": "https://github.com/hivecommons/hive/issues/10161",
+        "title": "\ud83d\udc1b [v6] spektacular: the status-derived tier of the run-detail interview history reads `instruction`/`question` fields the per-artifact `status` verb never emits",
+        "url": "https://github.com/hivecommons/hive/issues/10099",
         "labels": [
             "help wanted",
             "kind/bug",
-            "priority/critical-urgent",
-            "hive/likely-done"
+            "priority/low",
+            "hive/verified-open"
         ],
-        "created_at": "2026-10-02T17:20:49Z"
+        "created_at": "2026-10-02T16:13:39Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] /api/cost: every claude session attributed to agent \"unknown\" \u2014 DefaultAgentDetector matches nothing on a live hive",
-        "url": "https://github.com/hivecommons/hive/issues/10142",
+        "title": "\ud83d\udc1b [v6] spektacular: all three Dockerfiles degrade a failed Spektacular download/checksum to a WARN (image builds without the CLI); `Dockerfile.hub` installs it into an image that never runs it",
+        "url": "https://github.com/hivecommons/hive/issues/10097",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "priority/low",
+            "hive/verified-open"
+        ],
+        "created_at": "2026-10-02T16:13:31Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] runs: posting the Spektacular design artifact comment is fail-hard inside AdvanceStageLease and can block spec advance when the forge write fails or is not configured",
+        "url": "https://github.com/hivecommons/hive/issues/10094",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "priority/low",
+            "hive/verified-open"
+        ],
+        "created_at": "2026-10-02T16:13:20Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] spektacular: run key -> worktree/lock/artifact slug is lossy, and the admitted repo is unvalidated (distinct runs can share a worktree; `../` repos escape the workspace)",
+        "url": "https://github.com/hivecommons/hive/issues/10080",
         "labels": [
             "help wanted",
             "priority/medium",
             "kind/bug",
-            "hive/likely-done"
+            "hive/verified-open"
         ],
-        "created_at": "2026-10-02T16:23:22Z"
+        "created_at": "2026-10-02T16:12:25Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 [v6] spektacular: unknown `interview` values silently become `human` (no validation on the API or YAML path)",
-        "url": "https://github.com/hivecommons/hive/issues/10130",
+        "title": "\ud83d\udc1b [v6] spektacular: clone/auth/fetch/init errors and a missing agent credential each spend a stage generation immediately; with the default budget of 2 a short outage escalates every run in about a minute",
+        "url": "https://github.com/hivecommons/hive/issues/10077",
+        "labels": [
+            "help wanted",
+            "priority/medium",
+            "kind/bug",
+            "hive/verified-open"
+        ],
+        "created_at": "2026-10-02T16:12:13Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] spektacular: the in-tree fake CLI encodes behaviour the real CLI does not have and cannot drive the hub executor or version probe, so green tests do not prove the real contract",
+        "url": "https://github.com/hivecommons/hive/issues/10074",
+        "labels": [
+            "help wanted",
+            "priority/medium",
+            "kind/bug",
+            "hive/verified-open"
+        ],
+        "created_at": "2026-10-02T16:12:02Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd [v6] runs: docs promise an owner can reset or abandon an escalated stage, but no abandon route exists and reset only moves strictly backwards",
+        "url": "https://github.com/hivecommons/hive/issues/10066",
+        "labels": [
+            "help wanted",
+            "priority/medium",
+            "kind/bug",
+            "kind/documentation",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-02T16:11:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] runs: rejecting a held plan at the plan checkpoint is a silent no-op for the lease, and the reject lease-reset never matches run-imported epics",
+        "url": "https://github.com/hivecommons/hive/issues/10063",
+        "labels": [
+            "help wanted",
+            "priority/high",
+            "kind/bug",
+            "hive/verified-open"
+        ],
+        "created_at": "2026-10-02T16:11:23Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] runs: rejecting a design-mode Spec checkpoint returns 200 but does not retry the spec stage (lease keeps its generation and stays held)",
+        "url": "https://github.com/hivecommons/hive/issues/10062",
+        "labels": [
+            "help wanted",
+            "priority/high",
+            "kind/bug",
+            "hive/verified-open"
+        ],
+        "created_at": "2026-10-02T16:11:20Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] campaigns: revising an `owner/repo#N` Spek run creates a phantom campaign with a slug-mangled id (`myorgrepo18450`) next to the live run row; different runs can collide",
+        "url": "https://github.com/hivecommons/hive/issues/10060",
+        "labels": [
+            "help wanted",
+            "priority/high",
+            "kind/bug",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-02T16:11:13Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] campaigns: a freshly admitted Spek run (inception/triage/Strategy Lab) reports lease_owner `hive-triage`, so resume and release both return 409 for everyone",
+        "url": "https://github.com/hivecommons/hive/issues/10059",
+        "labels": [
+            "help wanted",
+            "priority/medium",
+            "kind/bug",
+            "hive/verified-open"
+        ],
+        "created_at": "2026-10-02T16:11:09Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] campaigns: \"Release\" on a Spektacular run campaign revokes the holder's stage lease (by design, tested), and the run then disappears from /api/campaigns and /api/runs/{key}",
+        "url": "https://github.com/hivecommons/hive/issues/10057",
+        "labels": [
+            "help wanted",
+            "priority/medium",
+            "kind/bug",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-02T16:11:06Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udd12 [v6] jam: read-write callers can record comments, revisions and votes under any agent/model name (and cast unlimited poll votes) via caller-supplied `agent`/`model`",
+        "url": "https://github.com/hivecommons/hive/issues/10056",
+        "labels": [
+            "help wanted",
+            "priority/medium",
+            "kind/bug",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-02T16:11:02Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udd12 [v6] spektacular: hub-launched agent runs `--allow-all`/`--dangerously-skip-permissions` as a plain child of the hive process, outside the per-agent UID/proxy isolation, with the read-only clone token injected into its env",
+        "url": "https://github.com/hivecommons/hive/issues/10054",
+        "labels": [
+            "help wanted",
+            "priority/high",
+            "kind/bug",
+            "hive/verified-open"
+        ],
+        "created_at": "2026-10-02T16:10:54Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Possible issues with promotion to release channel \"stable\"",
+        "url": "https://github.com/hivecommons/hive/issues/10042",
+        "labels": [
+            "bug",
+            "help wanted",
+            "hive/verified-open",
+            "needs-direction"
+        ],
+        "created_at": "2026-10-02T15:43:03Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] /api/nous/status: baseline_pct is unbounded (reports 1565%) once snapshots pass NousBaselineTarget",
+        "url": "https://github.com/hivecommons/hive/issues/10026",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "priority/low",
+            "hive/verified-open"
+        ],
+        "created_at": "2026-10-02T14:48:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] upstream watch: dashboard divergence view + port-this kick context",
+        "url": "https://github.com/hivecommons/hive/issues/9969",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-02T10:47:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 agents: upstream watch \u2014 for a forked repo, surface upstream fixes and features as issues in the fork",
+        "url": "https://github.com/hivecommons/hive/issues/9963",
         "labels": [
             "help wanted",
             "kind/feature",
-            "priority/low"
+            "hold"
         ],
-        "created_at": "2026-10-02T16:15:39Z"
+        "created_at": "2026-10-02T10:08:47Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] dashboard: plan modal links to `/runs?run=<key>` but no `/runs` page route is registered",
-        "url": "https://github.com/hivecommons/hive/issues/10129",
+        "title": "[scanner] v6 readiness live exercise: dashboard chat, inception via chat, standby S5-S6",
+        "url": "https://github.com/hivecommons/hive/issues/9735",
         "labels": [
             "help wanted",
-            "kind/bug",
-            "priority/low",
-            "hive/likely-done"
+            "hold",
+            "needs-direction"
         ],
-        "created_at": "2026-10-02T16:15:35Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] dashboard: spektacularHubExecutorModel is accepted and returned by the features API but the Extensions card has no input for it",
-        "url": "https://github.com/hivecommons/hive/issues/10127",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T16:15:27Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] dashboard: Extensions card shows backend `copilot` (BackendOrDefault(\"\")) while the executor is built with the first enabled agent backend",
-        "url": "https://github.com/hivecommons/hive/issues/10126",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T16:15:23Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd [v6] dashboard: docs/spektacular.md documents `GET/PUT /api/config/governor/features` but only PUT is registered; GET 404s",
-        "url": "https://github.com/hivecommons/hive/issues/10125",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "kind/documentation",
-            "priority/low",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T16:15:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] dashboard: admin MCP feature_settings omits spektacularHubExecutor*/spektacularInterview and does not disclose spektacularEnabled as widening",
-        "url": "https://github.com/hivecommons/hive/issues/10124",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T16:15:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] chat: checkpoint prompt says 'Reply approve or reject <reason>' but dashboard chat forwards only `!`-prefixed text to the chat spine",
-        "url": "https://github.com/hivecommons/hive/issues/10123",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T16:15:09Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] dashboard: PUT /api/config/governor/features mutates the live config before saveConfig; a failed save returns 500 but leaves the changes live and unwired",
-        "url": "https://github.com/hivecommons/hive/issues/10122",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T16:15:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] campaigns: after plan -> implement the campaign activity line and artifact fields report the plan document's final status under \"implement\"",
-        "url": "https://github.com/hivecommons/hive/issues/10121",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low"
-        ],
-        "created_at": "2026-10-02T16:15:01Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] runs: /api/runs activity.lease_heartbeat_at is ~30 min in the future for a hub-held spec stage lease (derived as expiresAt - leaseTTL)",
-        "url": "https://github.com/hivecommons/hive/issues/10120",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low"
-        ],
-        "created_at": "2026-10-02T16:14:57Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] runs: concurrent plan approvals can roll an already-advanced run's plan back to draft",
-        "url": "https://github.com/hivecommons/hive/issues/10119",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low"
-        ],
-        "created_at": "2026-10-02T16:14:53Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] runs: lifecycle timeline merges events per (ref, kind), so reset reason/reset=true stick to later stage_completed events",
-        "url": "https://github.com/hivecommons/hive/issues/10117",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low"
-        ],
-        "created_at": "2026-10-02T16:14:49Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd [v6] campaigns: docs say revise creates a new linked campaign with `revision_of`; code never sets `revision_of` (inception revises in place, Spek runs revise a slug-keyed archive)",
-        "url": "https://github.com/hivecommons/hive/issues/10116",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "kind/documentation",
-            "priority/low",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T16:14:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] runs: Strategy Lab \"Spektacular Run\" approve leaves the Apply card in place, may not org-qualify the repo, maps all errors to 400, and strategy-lab.md omits the mode",
-        "url": "https://github.com/hivecommons/hive/issues/10115",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low"
-        ],
-        "created_at": "2026-10-02T16:14:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] inception: approve marks the inception complete before `AdmitRun`; an admission failure returns 500 after the state change, skips the brainstorm re-pause, and success never reports the run key",
-        "url": "https://github.com/hivecommons/hive/issues/10114",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low"
-        ],
-        "created_at": "2026-10-02T16:14:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udd12 [v6] jam: `jamProjectSyncAuth` matches the GitHub host by hostname only (any port/path/userinfo), looser than the documented \"override never receives GITHUB_TOKEN\"",
-        "url": "https://github.com/hivecommons/hive/issues/10113",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T16:14:34Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] spektacular: `runs/<run>/.executor.lock` and empty run directories are never removed, so finished runs accumulate on the PVC",
-        "url": "https://github.com/hivecommons/hive/issues/10111",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/low",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T16:14:26Z"
+        "created_at": "2026-09-30T04:24:45Z"
     },
     {
         "repo": "kaito-project/kaito",
