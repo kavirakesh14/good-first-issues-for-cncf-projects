@@ -30562,14 +30562,17 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 dashboard: expose `classification.review_bots` in Settings; make `min_priority` editable from the Review card",
-        "url": "https://github.com/hivecommons/hive/issues/10481",
+        "title": "[ci-maintainer] changelog-fragment-guard sync exemption only matches sync/*: agent top-up #10475 (scanner/sync-v5-to-v6) got a bogus changed-10475.md autofix pushed (needs human: workflows perm)",
+        "url": "https://github.com/hivecommons/hive/issues/10498",
         "labels": [
-            "enhancement",
             "help wanted",
+            "agent/scanner",
+            "agent/ci-maintainer",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "ci",
             "hive/verified-open"
         ],
-        "created_at": "2026-10-03T19:45:12Z"
+        "created_at": "2026-10-04T08:24:55Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30623,21 +30626,6 @@
             "blocked"
         ],
         "created_at": "2026-10-02T17:53:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd [v6] runs: docs promise an owner can reset or abandon an escalated stage, but no abandon route exists and reset only moves strictly backwards",
-        "url": "https://github.com/hivecommons/hive/issues/10066",
-        "labels": [
-            "help wanted",
-            "priority/medium",
-            "kind/bug",
-            "kind/documentation",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T16:11:34Z"
     },
     {
         "repo": "hivecommons/hive",
