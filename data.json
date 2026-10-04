@@ -8208,8 +8208,7 @@
             "area/backing-image",
             "require/qa-review-coverage",
             "require/backport",
-            "component/backing-image-manager",
-            "backport/1.13.1"
+            "component/backing-image-manager"
         ],
         "created_at": "2026-09-24T06:02:39Z"
     },
@@ -8708,6 +8707,23 @@
             "help wanted"
         ],
         "created_at": "2023-08-11T21:53:42Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
+        "title": "[BUG] Backup engine SIGSEGV on aarch64 with 16K page size kernel (Fedora Asahi Remix / Apple Silicon) \u2014 v1.11.1",
+        "url": "https://github.com/longhorn/longhorn/issues/12929",
+        "labels": [
+            "kind/bug",
+            "priority/2",
+            "area/volume-backup-restore",
+            "area/distro-platform-arch",
+            "require/qa-review-coverage",
+            "require/backport",
+            "help wanted"
+        ],
+        "created_at": "2026-04-14T22:34:41Z"
     },
     {
         "repo": "longhorn/longhorn",
@@ -20775,7 +20791,8 @@
         "labels": [
             "type:bug",
             "good first issue",
-            "priority:contrib-needed"
+            "priority:contrib-needed",
+            "stale"
         ],
         "created_at": "2026-07-31T08:35:31Z"
     },
@@ -23564,18 +23581,6 @@
             "lifecycle/frozen"
         ],
         "created_at": "2021-02-02T20:05:09Z"
-    },
-    {
-        "repo": "oras-project/oras",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "chore: drop dead .gitignore entries for the Docker e2e registry mounts",
-        "url": "https://github.com/oras-project/oras/issues/2215",
-        "labels": [
-            "good first issue",
-            "E2E testing"
-        ],
-        "created_at": "2026-10-02T23:30:52Z"
     },
     {
         "repo": "oras-project/oras",
@@ -30557,6 +30562,87 @@
             "help wanted"
         ],
         "created_at": "2024-09-18T19:24:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[CI runner canary] self-hosted runner pool unhealthy",
+        "url": "https://github.com/hivecommons/hive/issues/10518",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "priority/critical-urgent",
+            "ci-failure",
+            "ci",
+            "ci-runner-canary"
+        ],
+        "created_at": "2026-10-04T15:51:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcd6 docs: best-practices guide for running a hive at ACMM Level 6",
+        "url": "https://github.com/hivecommons/hive/issues/10516",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-10-04T15:01:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcd6 docs: sign off and promote the Level 6 best-practices guide (review, links, switch notice)",
+        "url": "https://github.com/hivecommons/hive/issues/10515",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-04T15:01:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[sec-check] hive-upgrade-request.sh archive step follows container-planted symlinks (host file overwrite from inside the Hive container)",
+        "url": "https://github.com/hivecommons/hive/issues/10513",
+        "labels": [
+            "help wanted",
+            "agent/sec-check",
+            "security",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-04T14:28:35Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[ci-maintainer] hive-runners-lke pods intermittently missing npm: setup-node/Proxy Tests fail 'Unable to locate executable file: npm' (needs human: runner image)",
+        "url": "https://github.com/hivecommons/hive/issues/10512",
+        "labels": [
+            "help wanted",
+            "ci",
+            "needs-signal"
+        ],
+        "created_at": "2026-10-04T13:34:15Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Bob is not working in agents",
+        "url": "https://github.com/hivecommons/hive/issues/10509",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "hive/covered-by-pr",
+            "user-feedback"
+        ],
+        "created_at": "2026-10-04T12:58:27Z"
     },
     {
         "repo": "hivecommons/hive",
