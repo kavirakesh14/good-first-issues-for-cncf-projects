@@ -30562,24 +30562,12 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 dashboard: Reporter trust copy \u2014 drop closed #9665 link; explain which GitHub associations auto-promote on merge",
-        "url": "https://github.com/hivecommons/hive/issues/10487",
-        "labels": [
-            "enhancement",
-            "help wanted"
-        ],
-        "created_at": "2026-10-03T20:16:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\u2728 dashboard: expose `classification.review_bots` in Settings; make `min_priority` editable from the Review card",
         "url": "https://github.com/hivecommons/hive/issues/10481",
         "labels": [
             "enhancement",
             "help wanted",
-            "hive/likely-done"
+            "hive/verified-open"
         ],
         "created_at": "2026-10-03T19:45:12Z"
     },
@@ -30650,34 +30638,6 @@
             "hive/likely-done"
         ],
         "created_at": "2026-10-02T16:11:34Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v6] campaigns: revising an `owner/repo#N` Spek run creates a phantom campaign with a slug-mangled id (`myorgrepo18450`) next to the live run row; different runs can collide",
-        "url": "https://github.com/hivecommons/hive/issues/10060",
-        "labels": [
-            "help wanted",
-            "priority/high",
-            "kind/bug",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T16:11:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udd12 [v6] jam: read-write callers can record comments, revisions and votes under any agent/model name (and cast unlimited poll votes) via caller-supplied `agent`/`model`",
-        "url": "https://github.com/hivecommons/hive/issues/10056",
-        "labels": [
-            "help wanted",
-            "priority/medium",
-            "kind/bug",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-02T16:11:02Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30760,12 +30720,12 @@
         "repo": "kserve/kserve",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Support InferenceService environment variables for storage-initializer authentication",
-        "url": "https://github.com/kserve/kserve/issues/6260",
+        "title": "Queue-proxy readiness does not reflect agent readiness when agent sidecar is injected",
+        "url": "https://github.com/kserve/kserve/issues/5569",
         "labels": [
             "good first issue"
         ],
-        "created_at": "2026-09-21T18:44:59Z"
+        "created_at": "2026-05-22T05:37:27Z"
     },
     {
         "repo": "llm-d/llm-d",
