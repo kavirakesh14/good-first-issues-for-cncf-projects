@@ -8883,6 +8883,7 @@
         "url": "https://github.com/rook/rook/issues/17239",
         "labels": [
             "bug",
+            "wontfix",
             "good-first-issue"
         ],
         "created_at": "2026-03-24T12:19:21Z"
@@ -12310,8 +12311,7 @@
             "bug",
             "help wanted",
             "good first issue",
-            "auth",
-            "security"
+            "auth"
         ],
         "created_at": "2024-08-02T10:26:24Z"
     },
@@ -12338,8 +12338,7 @@
             "help wanted",
             "good first issue",
             "scaler",
-            "feature",
-            "cost-efficiency"
+            "feature"
         ],
         "created_at": "2023-02-16T13:24:09Z"
     },
@@ -12352,7 +12351,6 @@
         "labels": [
             "help wanted",
             "good first issue",
-            "testing",
             "stale-bot-ignore"
         ],
         "created_at": "2023-01-23T17:43:39Z"
@@ -12457,7 +12455,6 @@
         "labels": [
             "help wanted",
             "feature-request",
-            "testing",
             "stale-bot-ignore"
         ],
         "created_at": "2023-12-21T15:17:01Z"
@@ -12587,8 +12584,7 @@
         "url": "https://github.com/kedacore/keda/issues/3325",
         "labels": [
             "enhancement",
-            "help wanted",
-            "testing"
+            "help wanted"
         ],
         "created_at": "2022-07-04T06:12:36Z"
     },
@@ -12614,8 +12610,6 @@
         "labels": [
             "help wanted",
             "feature",
-            "prometheus",
-            "system-metrics",
             "opentelemetry"
         ],
         "created_at": "2022-06-02T12:11:21Z"
@@ -12640,7 +12634,6 @@
         "url": "https://github.com/kedacore/keda/issues/2666",
         "labels": [
             "help wanted",
-            "testing",
             "stale-bot-ignore"
         ],
         "created_at": "2022-02-23T10:49:44Z"
@@ -12653,8 +12646,6 @@
         "url": "https://github.com/kedacore/keda/issues/2357",
         "labels": [
             "help wanted",
-            "Epic",
-            "testing",
             "stale-bot-ignore"
         ],
         "created_at": "2021-11-29T07:03:44Z"
@@ -20867,6 +20858,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BASICFTP-20419408]",
+        "url": "https://github.com/backstage/backstage/issues/35971",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-04T17:25:11Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-URIJS-20341609]",
         "url": "https://github.com/backstage/backstage/issues/35952",
         "labels": [
@@ -21210,18 +21213,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-06T12:07:26Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635210]",
-        "url": "https://github.com/backstage/backstage/issues/35546",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-06T12:07:25Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -23609,22 +23600,6 @@
             "human required"
         ],
         "created_at": "2025-09-30T15:04:31Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
-        "title": "Podman Setup/Create page cannot find krunkit",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/13482",
-        "labels": [
-            "great first issue",
-            "area/settings \u2699\ufe0f",
-            "engine/podman \ud83e\uddad",
-            "os/macOS \ud83c\udf4e",
-            "area/brew",
-            "human required"
-        ],
-        "created_at": "2025-08-02T01:44:09Z"
     },
     {
         "repo": "podman-desktop/podman-desktop",
@@ -30567,17 +30542,54 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[CI runner canary] self-hosted runner pool unhealthy",
-        "url": "https://github.com/hivecommons/hive/issues/10518",
+        "title": "[fix] kick builder: drop CI-FAILING PRs already deferred to an open shared-ci incident",
+        "url": "https://github.com/hivecommons/hive/issues/10528",
         "labels": [
             "help wanted",
-            "kind/bug",
-            "priority/critical-urgent",
-            "ci-failure",
-            "ci",
-            "ci-runner-canary"
+            "fix"
         ],
-        "created_at": "2026-10-04T15:51:55Z"
+        "created_at": "2026-10-04T18:16:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[fix] claim gate: escalate instead of re-claiming after 2 no-progress claims",
+        "url": "https://github.com/hivecommons/hive/issues/10527",
+        "labels": [
+            "help wanted",
+            "needs-decision",
+            "fix"
+        ],
+        "created_at": "2026-10-04T18:16:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[fix] claim gate: refuse to claim issues labelled needs-human",
+        "url": "https://github.com/hivecommons/hive/issues/10526",
+        "labels": [
+            "help wanted",
+            "fix"
+        ],
+        "created_at": "2026-10-04T18:16:18Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[RFC] [v6] Help agents find knowledge and keep it current: five ideas from operator-memory",
+        "url": "https://github.com/hivecommons/hive/issues/10524",
+        "labels": [
+            "help wanted",
+            "priority/important-longterm",
+            "kind/feature",
+            "architecture discussion",
+            "hold",
+            "needs-decision"
+        ],
+        "created_at": "2026-10-04T17:43:17Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30586,7 +30598,8 @@
         "title": "\ud83d\udcd6 docs: best-practices guide for running a hive at ACMM Level 6",
         "url": "https://github.com/hivecommons/hive/issues/10516",
         "labels": [
-            "help wanted"
+            "help wanted",
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-10-04T15:01:11Z"
     },
@@ -30606,26 +30619,12 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[sec-check] hive-upgrade-request.sh archive step follows container-planted symlinks (host file overwrite from inside the Hive container)",
-        "url": "https://github.com/hivecommons/hive/issues/10513",
-        "labels": [
-            "help wanted",
-            "agent/sec-check",
-            "security",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-04T14:28:35Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[ci-maintainer] hive-runners-lke pods intermittently missing npm: setup-node/Proxy Tests fail 'Unable to locate executable file: npm' (needs human: runner image)",
         "url": "https://github.com/hivecommons/hive/issues/10512",
         "labels": [
             "help wanted",
             "ci",
+            "needs-human",
             "needs-signal"
         ],
         "created_at": "2026-10-04T13:34:15Z"
@@ -30643,22 +30642,6 @@
             "user-feedback"
         ],
         "created_at": "2026-10-04T12:58:27Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[ci-maintainer] changelog-fragment-guard sync exemption only matches sync/*: agent top-up #10475 (scanner/sync-v5-to-v6) got a bogus changed-10475.md autofix pushed (needs human: workflows perm)",
-        "url": "https://github.com/hivecommons/hive/issues/10498",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "agent/ci-maintainer",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "ci",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-04T08:24:55Z"
     },
     {
         "repo": "hivecommons/hive",
