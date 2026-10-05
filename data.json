@@ -4817,6 +4817,74 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "[CIMD] The hostname line on the consent screen is hard-coded English and cannot be localised",
+        "url": "https://github.com/keycloak/keycloak/issues/53515",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-10-05T03:40:36Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Time policy saved from the Admin UI stores empty strings for unused repeat fields; evaluation fails with NumberFormatException (HTTP 500)",
+        "url": "https://github.com/keycloak/keycloak/issues/53456",
+        "labels": [
+            "area/authorization-services",
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-10-02T08:07:01Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Roles from other clients are missing from \"Effective role scope mappings\" in Client Scope Evaluate",
+        "url": "https://github.com/keycloak/keycloak/issues/53436",
+        "labels": [
+            "area/oidc",
+            "help wanted",
+            "kind/task",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-10-01T16:45:29Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Client registration: an OIDC registration with any unknown client metadata property is rejected, but RFC 7591 \u00a72 requires ignoring it",
+        "url": "https://github.com/keycloak/keycloak/issues/53363",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols",
+            "status/labeled-by-bot"
+        ],
+        "created_at": "2026-09-30T16:47:30Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "SCIM: displayName is accepted and echoed on write but never persisted",
         "url": "https://github.com/keycloak/keycloak/issues/53352",
         "labels": [
@@ -4846,6 +4914,22 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-28T11:19:57Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "[CIMD] accept-public-client-with-confidential-client-only-grant silently fails when the jwt-authorization-grant feature is disabled",
+        "url": "https://github.com/keycloak/keycloak/issues/53230",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-26T11:20:25Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -4955,6 +5039,55 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "[CIMD] pkce-enforcer in the profile of a client-id-uri policy is never applied; codes are issued without PKCE",
+        "url": "https://github.com/keycloak/keycloak/issues/52795",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-15T16:21:41Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Registration not possible when using multiselect-checkboxes as required user profile attribute",
+        "url": "https://github.com/keycloak/keycloak/issues/52776",
+        "labels": [
+            "kind/bug",
+            "area/user-profile",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-09-15T11:02:54Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "[ABCA] Resolve the attester key from the `x5c` JOSE header (X.509 trust anchors) in AttestationBasedClientAuthenticator, as done for key attestations since #51042",
+        "url": "https://github.com/keycloak/keycloak/issues/52766",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-15T09:16:21Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Organization group roles are not automapped to realm/resource_access",
         "url": "https://github.com/keycloak/keycloak/issues/52764",
         "labels": [
@@ -4966,6 +5099,40 @@
             "area/organizations"
         ],
         "created_at": "2026-09-15T08:44:17Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "OTPFormAuthenticator succeeds with credential type 'otp', but the terminal LOGIN event does not retain it; WebAuthn does.",
+        "url": "https://github.com/keycloak/keycloak/issues/52725",
+        "labels": [
+            "area/authentication",
+            "kind/bug",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-authn"
+        ],
+        "created_at": "2026-09-13T22:43:17Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "IdpDetectExistingBrokerUserAuthenticator misses cross-browser account-link verification handling implemented in IdpCreateUserIfUniqueAuthenticator",
+        "url": "https://github.com/keycloak/keycloak/issues/52604",
+        "labels": [
+            "area/authentication",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn"
+        ],
+        "created_at": "2026-09-10T07:01:08Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5005,6 +5172,40 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Passkeys conditional UI: HTTP 500 instead of login error page when an identified user has no passkey",
+        "url": "https://github.com/keycloak/keycloak/issues/52464",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/authentication/webauthn",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn"
+        ],
+        "created_at": "2026-09-04T19:06:50Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "ClassNotFound PersistenceManager when starting server",
+        "url": "https://github.com/keycloak/keycloak/issues/52352",
+        "labels": [
+            "kind/bug",
+            "area/adapter/jee",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-03T08:52:39Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "URN resource indicator validation does not fully match RFC 8141",
         "url": "https://github.com/keycloak/keycloak/issues/52324",
         "labels": [
@@ -5032,6 +5233,40 @@
             "priority/normal"
         ],
         "created_at": "2026-09-02T07:43:43Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "OTP key URI encodes spaces in the account name as '+' instead of %20",
+        "url": "https://github.com/keycloak/keycloak/issues/52296",
+        "labels": [
+            "area/authentication",
+            "kind/bug",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-authn"
+        ],
+        "created_at": "2026-09-01T18:08:04Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "NullPointerException parsing an EC JWK missing the \"x\" or \"y\" coordinate",
+        "url": "https://github.com/keycloak/keycloak/issues/52294",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-01T18:08:02Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5067,244 +5302,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-08-31T14:16:23Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Account console: Personal Info save fails with \"The field Username is read only\" for LDAP users with a read-only username",
-        "url": "https://github.com/keycloak/keycloak/issues/52215",
-        "labels": [
-            "kind/bug",
-            "area/account/ui",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-08-31T06:29:34Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Infinispan/JGroups metrics should not use the `cluster` label - it silently overwrites the Kubernetes cluster identity",
-        "url": "https://github.com/keycloak/keycloak/issues/52212",
-        "labels": [
-            "kind/enhancement",
-            "area/infinispan",
-            "help wanted",
-            "team/production-readiness",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-08-30T23:32:14Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Combining client x509 cert credentials and JWT Authorization Grants creates audience clash",
-        "url": "https://github.com/keycloak/keycloak/issues/52192",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-28T20:42:51Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[CIMD] ClientUpdaterSourceGroupsCondition and ClientUpdaterSourceRolesCondition prevent usage of CIMD",
-        "url": "https://github.com/keycloak/keycloak/issues/52152",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-27T16:25:59Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Client parameter \"Valid redirection URI\": the FQDN part of the URI should not be case sensitive",
-        "url": "https://github.com/keycloak/keycloak/issues/52119",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/cloud-native",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-08-27T08:48:03Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "LDAP user search returns HTTP 400 \"Cannot parse the JSON\" with invalid LDAP configuration and pagination enabled",
-        "url": "https://github.com/keycloak/keycloak/issues/52113",
-        "labels": [
-            "kind/bug",
-            "area/ldap",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-08-27T06:59:58Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Disabling a feature (e.g. organization, webauthn) does not clean up realm data that references the associated provider, causing Admin Console errors and broken login flows",
-        "url": "https://github.com/keycloak/keycloak/issues/52102",
-        "labels": [
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-26T19:24:29Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "EC-generated key provider's self-signed certificate is not persisted, causing a new certificate on every restart / node",
-        "url": "https://github.com/keycloak/keycloak/issues/52093",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "area/core",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-26T15:18:39Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Login page: Shift+Enter in username/email field opens a new login window with disabled \"Sign In\" button and stale auth flow",
-        "url": "https://github.com/keycloak/keycloak/issues/52056",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/login/ui",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-authn"
-        ],
-        "created_at": "2026-08-26T07:39:43Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Protocol mapper name is not updated",
-        "url": "https://github.com/keycloak/keycloak/issues/52049",
-        "labels": [
-            "kind/bug",
-            "area/account/api",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-26T04:31:01Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "getCompositeClientRoleMappings does not include parent-group inherited roles for groups",
-        "url": "https://github.com/keycloak/keycloak/issues/52046",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-08-25T19:47:21Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Selected Organization is not preserved across SPA page refresh with login-required",
-        "url": "https://github.com/keycloak/keycloak/issues/52001",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal",
-            "area/organizations"
-        ],
-        "created_at": "2026-08-24T15:54:34Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Special char password policy validation of backend and frontend do not match",
-        "url": "https://github.com/keycloak/keycloak/issues/51874",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/login/ui",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-authn"
-        ],
-        "created_at": "2026-08-20T07:30:35Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "CORS Origin validation rejects non-browser token requests (direct grant, client credentials)",
-        "url": "https://github.com/keycloak/keycloak/issues/51831",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "status/bumped-by-bot",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-19T00:06:17Z"
     },
     {
         "repo": "keylime/keylime",
@@ -23593,20 +23590,6 @@
         "repo": "podman-desktop/podman-desktop",
         "tier": "Sandbox",
         "lang": "TypeScript",
-        "title": "Skipping podman dashboard onbording leads to the black screen on backfield",
-        "url": "https://github.com/podman-desktop/podman-desktop/issues/14146",
-        "labels": [
-            "great first issue",
-            "area/dashboard \ud83d\udcca",
-            "domain/ui-components",
-            "human required"
-        ],
-        "created_at": "2025-09-30T15:04:31Z"
-    },
-    {
-        "repo": "podman-desktop/podman-desktop",
-        "tier": "Sandbox",
-        "lang": "TypeScript",
         "title": "Cannot start from a waypipe session",
         "url": "https://github.com/podman-desktop/podman-desktop/issues/12925",
         "labels": [
@@ -30558,15 +30541,230 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b scanner re-claims a needs-direction issue every 2h (claim does not honour hard-suppress labels)",
-        "url": "https://github.com/hivecommons/hive/issues/10553",
+        "title": "\ud83d\udc1b bug: instance is unreachable and token usage is spiking",
+        "url": "https://github.com/hivecommons/hive/issues/10722",
         "labels": [
             "bug",
             "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-10-05T22:55:35Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Most effective models labels every Pi model local regardless of provider",
+        "url": "https://github.com/hivecommons/hive/issues/10690",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
             "hive/covered-by-pr",
             "claimed"
         ],
-        "created_at": "2026-10-05T12:34:18Z"
+        "created_at": "2026-10-05T19:25:30Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Most effective models displays 0% run rates when no runs were recorded",
+        "url": "https://github.com/hivecommons/hive/issues/10689",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "hive/covered-by-pr",
+            "claimed"
+        ],
+        "created_at": "2026-10-05T19:25:28Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Most effective models 30d/All silently use bounded recent history",
+        "url": "https://github.com/hivecommons/hive/issues/10688",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "hive/covered-by-pr",
+            "claimed"
+        ],
+        "created_at": "2026-10-05T19:25:26Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Most effective models contributor filter joins short repo names against owner/repo keys",
+        "url": "https://github.com/hivecommons/hive/issues/10687",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "hive/covered-by-pr",
+            "claimed"
+        ],
+        "created_at": "2026-10-05T19:25:24Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Hive identity footer makes Most effective models discard valid contributor PR attribution",
+        "url": "https://github.com/hivecommons/hive/issues/10686",
+        "labels": [
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-10-05T19:25:22Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Contribute version footer remains stuck on loading...",
+        "url": "https://github.com/hivecommons/hive/issues/10682",
+        "labels": [
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-10-05T19:14:59Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Ready-work queue shows \u201cEnd of queue reached\u201d before scrolling to the end",
+        "url": "https://github.com/hivecommons/hive/issues/10681",
+        "labels": [
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-10-05T19:13:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Contribute Hub decisions fails with HTML-as-JSON error",
+        "url": "https://github.com/hivecommons/hive/issues/10680",
+        "labels": [
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-10-05T19:11:29Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd proposal: vibe-kanban bridge (hive-triaged queue \u2192 local kanban board, report-only first)",
+        "url": "https://github.com/hivecommons/hive/issues/10641",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-05T16:48:17Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b v5 branch protection only requires gate, allowing red CI merges",
+        "url": "https://github.com/hivecommons/hive/issues/10639",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "hold"
+        ],
+        "created_at": "2026-10-05T16:44:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Docs/examples: document HIVE_CODEX_AUTO_USE_BANKED_RESET and wire it through container and just launch paths",
+        "url": "https://github.com/hivecommons/hive/issues/10599",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-10-05T15:12:20Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Consent-gated banked-reset redemption controller (exhaustion-only, idempotent, re-read before resume)",
+        "url": "https://github.com/hivecommons/hive/issues/10598",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-10-05T15:11:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Contributor quota guard: HIVE_CODEX_AUTO_USE_BANKED_RESET opt-in and reset-backed weekly-reserve admission exception",
+        "url": "https://github.com/hivecommons/hive/issues/10597",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-05T15:11:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Policy decision: authorize opt-in redemption of earned Codex resets (revise #6833/#6964 no-consume rule)",
+        "url": "https://github.com/hivecommons/hive/issues/10595",
+        "labels": [
+            "help wanted",
+            "needs-direction"
+        ],
+        "created_at": "2026-10-05T15:11:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[ci-maintainer] v6 Top-up red since 2026-10-05T13:04Z (13/17 runs, v6 41 behind): v5.133.0 forward-merge conflicts in 5 files + pkg/hub mustParseRFC3339 redeclared \u2014 resolved on branch ci-maintainer/sync-v5-to-v6 (needs human; merge commit not squash)",
+        "url": "https://github.com/hivecommons/hive/issues/10590",
+        "labels": [
+            "help wanted",
+            "kind/failing-test",
+            "agent/ci-maintainer",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "ci",
+            "needs-direction"
+        ],
+        "created_at": "2026-10-05T15:04:12Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: opt-in actions: read for agent scoped tokens (ci-maintainer can't read failed CI logs)",
+        "url": "https://github.com/hivecommons/hive/issues/10574",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "needs-triage"
+        ],
+        "created_at": "2026-10-05T13:59:07Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: opt-in automatic use of banked Codex resets on weekly quota exhaustion",
+        "url": "https://github.com/hivecommons/hive/issues/10552",
+        "labels": [
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-10-05T10:12:54Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30614,30 +30812,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udcd6 docs: best-practices guide for running a hive at ACMM Level 6",
-        "url": "https://github.com/hivecommons/hive/issues/10516",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-04T15:01:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcd6 docs: sign off and promote the Level 6 best-practices guide (review, links, switch notice)",
-        "url": "https://github.com/hivecommons/hive/issues/10515",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-04T15:01:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Bob is not working in agents",
         "url": "https://github.com/hivecommons/hive/issues/10509",
         "labels": [
@@ -30652,37 +30826,14 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b The `contributor_prs` unstick gate from #9480 was never built, so DIRTY fork lane PRs still wait for a human",
-        "url": "https://github.com/hivecommons/hive/issues/10457",
+        "title": "\u2728 feature: A way to know when my hive will next be updated",
+        "url": "https://github.com/hivecommons/hive/issues/10187",
         "labels": [
+            "enhancement",
             "help wanted",
-            "hold"
+            "needs-triage"
         ],
-        "created_at": "2026-10-03T13:10:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Decide fate of the changed-file-intersection gate in pr-auto-update.sh",
-        "url": "https://github.com/hivecommons/hive/issues/10443",
-        "labels": [
-            "help wanted",
-            "approved-direction"
-        ],
-        "created_at": "2026-10-03T12:14:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 CNCF onboarding: link your GitHub handle to your LFID (maintainers)",
-        "url": "https://github.com/hivecommons/hive/issues/10177",
-        "labels": [
-            "help wanted",
-            "blocked"
-        ],
-        "created_at": "2026-10-02T17:53:00Z"
+        "created_at": "2026-10-02T18:26:12Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30692,10 +30843,21 @@
         "url": "https://github.com/hivecommons/hive/issues/10042",
         "labels": [
             "bug",
-            "help wanted",
-            "hive/verified-open"
+            "help wanted"
         ],
         "created_at": "2026-10-02T15:43:03Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Mysterious failure to do inference",
+        "url": "https://github.com/hivecommons/hive/issues/9945",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-02T05:54:00Z"
     },
     {
         "repo": "hivecommons/hive",
