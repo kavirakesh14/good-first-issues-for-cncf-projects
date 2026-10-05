@@ -8256,7 +8256,7 @@
             "kind/bug",
             "good first issue",
             "reproduce/always",
-            "priority/2",
+            "priority/1",
             "require/auto-e2e-test",
             "area/volume-backup-restore",
             "area/volume-encryption",
@@ -30542,13 +30542,14 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[fix] kick builder: drop CI-FAILING PRs already deferred to an open shared-ci incident",
-        "url": "https://github.com/hivecommons/hive/issues/10528",
+        "title": "[ci-maintainer] v4-freeze-gate: gh missing on hive-runners so needs-human label is never applied",
+        "url": "https://github.com/hivecommons/hive/issues/10543",
         "labels": [
             "help wanted",
-            "fix"
+            "agent/ci-maintainer",
+            "ci"
         ],
-        "created_at": "2026-10-04T18:16:40Z"
+        "created_at": "2026-10-05T03:14:20Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30571,6 +30572,7 @@
         "url": "https://github.com/hivecommons/hive/issues/10526",
         "labels": [
             "help wanted",
+            "hive/covered-by-pr",
             "fix"
         ],
         "created_at": "2026-10-04T18:16:18Z"
@@ -30638,7 +30640,7 @@
         "labels": [
             "help wanted",
             "kind/bug",
-            "hive/covered-by-pr",
+            "hive/likely-done",
             "user-feedback"
         ],
         "created_at": "2026-10-04T12:58:27Z"
