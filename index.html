@@ -163,6 +163,7 @@
 <div class="header">
     <h1>CNCF Good First Issues</h1>
     <p>Curated beginner-friendly issues from top Cloud Native projects.</p>
+    <p id="last-updated"></p>
 </div>
 
 <div class="layout">
@@ -234,16 +235,24 @@
     let currentSearch = '';
     let currentTier = 'all';
 
-    async function init() {
-        try {
-            const response = await fetch('./data.json');
-            if (response.ok) {
-                allIssues = await response.json();
-            } else { throw new Error("Local data.json not found"); }
-        } catch (error) {
-            console.log("Using fallback mock data.");
-            allIssues = mockData;
-        }
+   async function init() {
+    try {
+        const response = await fetch('./data.json');
+        if (response.ok) {
+            allIssues = await response.json();
+
+            const lastModified = response.headers.get('Last-Modified');
+
+            if (lastModified) {
+                const formattedDate = new Date(lastModified).toLocaleString();
+                document.getElementById('last-updated').textContent =
+                    `Last updated: ${formattedDate}`;
+            }
+        } else { throw new Error("Local data.json not found"); }
+    } catch (error) {
+        console.log("Using fallback mock data.");
+        allIssues = mockData;
+    }
         
         buildSidebar();
         buildLangDropdown();
