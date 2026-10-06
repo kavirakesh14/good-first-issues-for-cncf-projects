@@ -4294,20 +4294,6 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Update ECRAuthorizationToken to support AWS pod identity",
-        "url": "https://github.com/external-secrets/external-secrets/issues/5296",
-        "labels": [
-            "good first issue",
-            "kind/documentation",
-            "area/aws",
-            "track/providers"
-        ],
-        "created_at": "2025-09-10T17:29:44Z"
-    },
-    {
-        "repo": "external-secrets/external-secrets",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Fine-Grained CRD Installation",
         "url": "https://github.com/external-secrets/external-secrets/issues/4788",
         "labels": [
@@ -4902,6 +4888,58 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Downscope assertion grant enforcer strips the client's own scope mappings and dedicated mappers",
+        "url": "https://github.com/keycloak/keycloak/issues/53280",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-29T06:59:06Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "notEmail password policy compares against the username during registration",
+        "url": "https://github.com/keycloak/keycloak/issues/53270",
+        "labels": [
+            "area/authentication",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn"
+        ],
+        "created_at": "2026-09-28T20:32:19Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Resource indicators: refresh of an offline token ignores the resource parameter and widens aud",
+        "url": "https://github.com/keycloak/keycloak/issues/53261",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols",
+            "status/labeled-by-bot"
+        ],
+        "created_at": "2026-09-28T16:11:29Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Brute force failure counter is not reset on successful SAML (IdP) login, causing users to be permanently locked out",
         "url": "https://github.com/keycloak/keycloak/issues/53249",
         "labels": [
@@ -4947,6 +4985,25 @@
             "priority/normal"
         ],
         "created_at": "2026-09-24T14:04:32Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Realm settings - security defenses",
+        "url": "https://github.com/keycloak/keycloak/issues/53142",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-authn",
+            "backport/26.8"
+        ],
+        "created_at": "2026-09-24T08:00:05Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -4998,25 +5055,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-21T11:29:05Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Admin Console \"Sign out\" on one user session unexpectedly logs out a different, unrelated session for the same user",
-        "url": "https://github.com/keycloak/keycloak/issues/52927",
-        "labels": [
-            "area/authentication",
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "backport/26.8"
-        ],
-        "created_at": "2026-09-18T08:32:59Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5172,23 +5210,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Passkeys conditional UI: HTTP 500 instead of login error page when an identified user has no passkey",
-        "url": "https://github.com/keycloak/keycloak/issues/52464",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/authentication/webauthn",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn"
-        ],
-        "created_at": "2026-09-04T19:06:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "ClassNotFound PersistenceManager when starting server",
         "url": "https://github.com/keycloak/keycloak/issues/52352",
         "labels": [
@@ -5267,41 +5288,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-01T18:08:02Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "LDAP-Sync does not report error if authentification fails",
-        "url": "https://github.com/keycloak/keycloak/issues/52293",
-        "labels": [
-            "kind/bug",
-            "area/ldap",
-            "help wanted",
-            "team/core-iam",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-09-01T16:20:08Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Security Admin console sends all client scopes on client update: May result in a blocked reqeuest due to request size",
-        "url": "https://github.com/keycloak/keycloak/issues/52236",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-31T14:16:23Z"
     },
     {
         "repo": "keylime/keylime",
@@ -14806,6 +14792,20 @@
         "repo": "NVIDIA/OpenShell",
         "tier": "Sandbox",
         "lang": "Rust",
+        "title": "feat: make supervisor base image configurable via build ARG",
+        "url": "https://github.com/NVIDIA/OpenShell/issues/4205",
+        "labels": [
+            "good first issue",
+            "os:linux",
+            "area:build",
+            "Improvement"
+        ],
+        "created_at": "2026-10-05T15:49:06Z"
+    },
+    {
+        "repo": "NVIDIA/OpenShell",
+        "tier": "Sandbox",
+        "lang": "Rust",
         "title": "bug: managed-workspace E2E tests intermittently fail with SQLite lock contention",
         "url": "https://github.com/NVIDIA/OpenShell/issues/3679",
         "labels": [
@@ -15855,18 +15855,6 @@
         "repo": "projectcontour/contour",
         "tier": "Incubating",
         "lang": "HTML",
-        "title": "Support Envoy's `forwarded_proto_config` for PROXY Protocol destination port-based X-Forwarded-Proto",
-        "url": "https://github.com/projectcontour/contour/issues/7392",
-        "labels": [
-            "kind/feature",
-            "help wanted"
-        ],
-        "created_at": "2026-01-30T00:52:34Z"
-    },
-    {
-        "repo": "projectcontour/contour",
-        "tier": "Incubating",
-        "lang": "HTML",
         "title": "Support configuring Envoy Service loadBalancerSourceRanges/loadBalancerClass via ContourDeployment",
         "url": "https://github.com/projectcontour/contour/issues/7334",
         "labels": [
@@ -16204,6 +16192,21 @@
             "help wanted"
         ],
         "created_at": "2022-08-19T00:42:36Z"
+    },
+    {
+        "repo": "projectcontour/contour",
+        "tier": "Incubating",
+        "lang": "HTML",
+        "title": "provisioner: fix reconciliations to only update fields that should change over time",
+        "url": "https://github.com/projectcontour/contour/issues/4473",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/gateway-api",
+            "lifecycle/needs-triage",
+            "area/gateway-provisioner"
+        ],
+        "created_at": "2022-04-15T17:25:29Z"
     },
     {
         "repo": "envoyproxy/envoy",
@@ -22881,6 +22884,22 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "[Enhancement] vela auth has no way to revoke privileges granted by grant-privileges",
+        "url": "https://github.com/kubevela/kubevela/issues/7375",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "effort/small",
+            "area/cli",
+            "area/auth",
+            "type/enhancement"
+        ],
+        "created_at": "2026-09-16T13:38:16Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "[Bug] Shared-resource conflict message carries an empty function name and a stray cue/format error",
         "url": "https://github.com/kubevela/kubevela/issues/7365",
         "labels": [
@@ -22895,13 +22914,63 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "[Bug] multicluster.clusterGateway.port is not propagated to the controller direct URL",
+        "url": "https://github.com/kubevela/kubevela/issues/7336",
+        "labels": [
+            "type/bug",
+            "good first issue",
+            "help wanted",
+            "effort/small",
+            "area/multi-cluster",
+            "area/chart"
+        ],
+        "created_at": "2026-08-18T09:41:27Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "PolicyDefinition CUE templates are validated without the cuex package set",
+        "url": "https://github.com/kubevela/kubevela/issues/7334",
+        "labels": [
+            "type/bug",
+            "good first issue",
+            "help wanted",
+            "effort/small",
+            "area/cue-template",
+            "area/policy",
+            "area/admission"
+        ],
+        "created_at": "2026-08-17T23:09:05Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug] Defkit: CUEGenerator leaks detected imports across Generate* calls",
+        "url": "https://github.com/kubevela/kubevela/issues/7323",
+        "labels": [
+            "type/bug",
+            "good first issue",
+            "help wanted",
+            "effort/small",
+            "area/defkit"
+        ],
+        "created_at": "2026-08-13T22:37:01Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "invalid labelSelector: in conflictsWith is ignored",
         "url": "https://github.com/kubevela/kubevela/issues/7315",
         "labels": [
             "type/bug",
             "good first issue",
+            "help wanted",
             "area/trait",
-            "effort/small"
+            "effort/small",
+            "area/admission"
         ],
         "created_at": "2026-08-13T08:43:07Z"
     },
@@ -22936,6 +23005,39 @@
             "area/defkit"
         ],
         "created_at": "2026-08-05T03:02:33Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "vela cluster join prints a false success message when the overwrite prompt is declined",
+        "url": "https://github.com/kubevela/kubevela/issues/7273",
+        "labels": [
+            "type/bug",
+            "good first issue",
+            "help wanted",
+            "effort/small",
+            "area/multi-cluster",
+            "area/cli",
+            "needs-triage"
+        ],
+        "created_at": "2026-07-30T06:25:12Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "GetClusterInfo always reports MasterNumber as 0 on Kubernetes >= 1.24",
+        "url": "https://github.com/kubevela/kubevela/issues/7265",
+        "labels": [
+            "type/bug",
+            "good first issue",
+            "help wanted",
+            "effort/small",
+            "area/multi-cluster",
+            "area/o11y"
+        ],
+        "created_at": "2026-07-29T03:21:44Z"
     },
     {
         "repo": "kubevela/kubevela",
@@ -23092,6 +23194,131 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "Configs created as Config CRs are missing from list-config and other Factory.ListConfigs consumers",
+        "url": "https://github.com/kubevela/kubevela/issues/7416",
+        "labels": [
+            "type/bug",
+            "help wanted",
+            "effort/medium",
+            "area/cli",
+            "area/workflow",
+            "area/config"
+        ],
+        "created_at": "2026-09-29T21:56:53Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[LFX Mentorship] Legacy Config backward compatibility and migration to CRD-based Config Management",
+        "url": "https://github.com/kubevela/kubevela/issues/7410",
+        "labels": [
+            "type/feature",
+            "help wanted",
+            "effort/large",
+            "area/cli",
+            "program/lfx",
+            "area/workflow",
+            "area/config"
+        ],
+        "created_at": "2026-09-29T15:51:07Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Enhancement] Move `$( )` property expressions onto a shared CEL engine in kubevela/pkg, so workflow steps can evaluate them at run time",
+        "url": "https://github.com/kubevela/kubevela/issues/7409",
+        "labels": [
+            "help wanted",
+            "effort/large",
+            "area/workflow",
+            "area/app-render",
+            "type/enhancement"
+        ],
+        "created_at": "2026-09-29T09:14:16Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Definition inheritance: spec.extends and spec.abstract on X-Definitions",
+        "url": "https://github.com/kubevela/kubevela/issues/7404",
+        "labels": [
+            "type/feature",
+            "help wanted",
+            "area/component",
+            "area/trait",
+            "effort/large",
+            "area/cue-template"
+        ],
+        "created_at": "2026-09-28T20:02:35Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug] vela/velaconfig reader: Secret identity, output namespaces and fallback keys",
+        "url": "https://github.com/kubevela/kubevela/issues/7403",
+        "labels": [
+            "type/bug",
+            "help wanted",
+            "area/cue",
+            "effort/small",
+            "area/provider"
+        ],
+        "created_at": "2026-09-28T15:09:30Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug] Admission validation silently accepts a nonexistent provider function in CUE templates",
+        "url": "https://github.com/kubevela/kubevela/issues/7384",
+        "labels": [
+            "type/bug",
+            "help wanted",
+            "effort/medium",
+            "area/cue-template",
+            "area/admission"
+        ],
+        "created_at": "2026-09-20T09:25:55Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug] resourceKeeper.Delete ignores shared-resource, garbage-collect propagation, and orphan-finalizer protections",
+        "url": "https://github.com/kubevela/kubevela/issues/7377",
+        "labels": [
+            "type/bug",
+            "help wanted",
+            "effort/medium",
+            "security",
+            "area/workflow",
+            "area/resourcekeeper"
+        ],
+        "created_at": "2026-09-16T13:42:44Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug] Compiler construction calls os.Exit(1) when no kubeconfig is present",
+        "url": "https://github.com/kubevela/kubevela/issues/7328",
+        "labels": [
+            "type/bug",
+            "help wanted",
+            "effort/small",
+            "area/cue-template",
+            "area/cli"
+        ],
+        "created_at": "2026-08-15T09:10:04Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "[Enhancement] Defkit: add generated-CUE validation and evaluation helpers",
         "url": "https://github.com/kubevela/kubevela/issues/7291",
         "labels": [
@@ -23122,6 +23349,66 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "op.#List causes nil pointer dereference in KubeVela 1.10.7 when listing namespace-scoped resources",
+        "url": "https://github.com/kubevela/kubevela/issues/7280",
+        "labels": [
+            "type/bug",
+            "help wanted",
+            "effort/medium",
+            "area/workflow",
+            "area/builtin"
+        ],
+        "created_at": "2026-08-04T12:30:06Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "ResourceTracker GC deletes managed resources after rapid A -> B -> A spec updates",
+        "url": "https://github.com/kubevela/kubevela/issues/7278",
+        "labels": [
+            "type/bug",
+            "help wanted",
+            "area/application",
+            "effort/large",
+            "area/resourcekeeper"
+        ],
+        "created_at": "2026-08-03T10:00:18Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Enhancement] Publish Helm charts to GHCR as an alternative source",
+        "url": "https://github.com/kubevela/kubevela/issues/7271",
+        "labels": [
+            "type/feature",
+            "help wanted",
+            "effort/small",
+            "area/chart"
+        ],
+        "created_at": "2026-07-29T15:15:57Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Enhancement] Upgrade Kubernetes dependency version across the KubeVela ecosystem (target: v1.35.x)",
+        "url": "https://github.com/kubevela/kubevela/issues/7238",
+        "labels": [
+            "type/feature",
+            "help wanted",
+            "effort/large",
+            "dependencies",
+            "go",
+            "status/in-progress"
+        ],
+        "created_at": "2026-07-15T17:26:34Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "occur error when vela joined the cluster with ocm",
         "url": "https://github.com/kubevela/kubevela/issues/6763",
         "labels": [
@@ -23129,18 +23416,6 @@
             "help wanted"
         ],
         "created_at": "2025-04-18T11:29:46Z"
-    },
-    {
-        "repo": "kubevela/kubevela",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Wanted: Are you using OAM/KubeVela | \u5982\u679c\u8d35\u53f8\u6b63\u5728\u4f7f\u7528 OAM/KubeVela",
-        "url": "https://github.com/kubevela/kubevela/issues/1662",
-        "labels": [
-            "help wanted",
-            "type/question"
-        ],
-        "created_at": "2021-05-14T09:50:01Z"
     },
     {
         "repo": "kubevirt/kubevirt",
@@ -24724,19 +24999,6 @@
             "Type/Bug"
         ],
         "created_at": "2026-09-18T08:43:28Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Authorization docs action lists are out of date",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4683",
-        "labels": [
-            "good first issue",
-            "Type/Bug",
-            "area/docs"
-        ],
-        "created_at": "2026-09-08T09:34:52Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -28867,19 +29129,6 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Copy dashboards from other projects",
-        "url": "https://github.com/perses/perses/issues/2451",
-        "labels": [
-            "good first issue",
-            "ui",
-            "priority/P1"
-        ],
-        "created_at": "2024-12-02T14:50:06Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Local User profile ",
         "url": "https://github.com/perses/perses/issues/2098",
         "labels": [
@@ -30541,95 +30790,118 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[quality] pkg/hub/notifications_admin.go: admin notifications handlers, webhook private-address guard and hot-reload error paths are at 14.6% coverage",
-        "url": "https://github.com/hivecommons/hive/issues/10785",
+        "title": "\ud83d\udc1b reporter-confirmation gate is invisible: no label, no dashboard signal that an issue awaits maintainer /fixed",
+        "url": "https://github.com/hivecommons/hive/issues/10830",
         "labels": [
             "help wanted",
-            "quality",
-            "testing",
+            "kind/bug"
+        ],
+        "created_at": "2026-10-06T12:04:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Hive/ClankeR PRs omit or suppress Closes/Fixes keywords so issues stay open after merge",
+        "url": "https://github.com/hivecommons/hive/issues/10825",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-06T11:48:33Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Surface reporter-trust hold reason in escalation/hive-advice and dashboard needs-human band",
+        "url": "https://github.com/hivecommons/hive/issues/10818",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-06T11:34:19Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Clear needs-human when a maintainer removes a reporter-trust hold",
+        "url": "https://github.com/hivecommons/hive/issues/10817",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-06T11:34:12Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Navbar agent schedule pills: name/countdown text misaligned inside pill (v5 candidate, hosted)",
+        "url": "https://github.com/hivecommons/hive/issues/10816",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-06T11:26:59Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ci-flake: github.com/hivecommons/hive/pkg/rotation.TestCodexResetRedeem_StaleLockTakeoverRaceHasOneWinner",
+        "url": "https://github.com/hivecommons/hive/issues/10814",
+        "labels": [
+            "help wanted",
+            "ci-flake"
+        ],
+        "created_at": "2026-10-06T11:26:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ci-flake: github.com/hivecommons/hive/pkg/hub.TestVanityRepairKickDedupesInFlightAttempts",
+        "url": "https://github.com/hivecommons/hive/issues/10813",
+        "labels": [
+            "help wanted",
+            "ci-flake"
+        ],
+        "created_at": "2026-10-06T11:26:10Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[ci-maintainer] v6 Top-up red since 2026-10-06T01:52Z (13/13 runs, v6 48 behind): v5\u2192v6 forward-merge conflicts in 6 files incl. ADR-0021 number collision and main.go kick-dispatch block (needs human)",
+        "url": "https://github.com/hivecommons/hive/issues/10797",
+        "labels": [
+            "help wanted",
+            "agent/ci-maintainer",
             "hive/hosted-available-oke-11-placeholder-r05x",
-            "agent/quality",
-            "hive/covered-by-pr",
-            "claimed"
+            "ci",
+            "hive/covered-by-pr"
         ],
-        "created_at": "2026-10-06T03:41:05Z"
+        "created_at": "2026-10-06T04:39:56Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] \u2728 Document clanker_requested policy and add changelog fragment",
-        "url": "https://github.com/hivecommons/hive/issues/10783",
+        "title": "[ci-maintainer] v5 releases blocked since v5.136.0: release PR cannot satisfy v5's new 11 required contexts (6 path-filtered never report; squash gate rejects release-bot commit)",
+        "url": "https://github.com/hivecommons/hive/issues/10795",
         "labels": [
             "help wanted",
-            "kind/feature"
+            "agent/ci-maintainer",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "ci",
+            "hive/likely-done",
+            "hive/verified-open",
+            "needs-direction"
         ],
-        "created_at": "2026-10-06T03:01:24Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 Dashboard Settings controls for clanker_requested policy",
-        "url": "https://github.com/hivecommons/hive/issues/10782",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "claimed"
-        ],
-        "created_at": "2026-10-06T03:00:54Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 Park untrusted non-relay PRs with a clanker-requested label",
-        "url": "https://github.com/hivecommons/hive/issues/10781",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "claimed"
-        ],
-        "created_at": "2026-10-06T03:00:46Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 Add ClankeR paragraph to reporter-trust-wait issue comment",
-        "url": "https://github.com/hivecommons/hive/issues/10780",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "claimed"
-        ],
-        "created_at": "2026-10-06T03:00:35Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b codex_reset_redeem: stale-lock takeover race can redeem twice with different idempotency keys",
-        "url": "https://github.com/hivecommons/hive/issues/10774",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "claimed"
-        ],
-        "created_at": "2026-10-06T02:26:51Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b reporter-trust PR hold is invisible to maintainers: no needs-human label, no escalation",
-        "url": "https://github.com/hivecommons/hive/issues/10773",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "hold"
-        ],
-        "created_at": "2026-10-06T02:25:13Z"
+        "created_at": "2026-10-06T04:34:04Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30640,142 +30912,9 @@
         "labels": [
             "help wanted",
             "kind/bug",
-            "hold"
+            "hive/covered-by-pr"
         ],
         "created_at": "2026-10-06T02:23:51Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: opt-in 'clanker-requested' policy \u2014 steer untrusted reporters/PR authors to ClankeR instead of maintainers closing PRs by hand",
-        "url": "https://github.com/hivecommons/hive/issues/10766",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "claimed"
-        ],
-        "created_at": "2026-10-06T02:02:06Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b manual-provisioning.md copy-config example copies the seed every boot, unlike the template",
-        "url": "https://github.com/hivecommons/hive/issues/10758",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-06T01:46:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcd6 agent-configuration.md tree calls hive.yaml.runtime a K8s snapshot",
-        "url": "https://github.com/hivecommons/hive/issues/10757",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-06T01:46:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcd6 RuntimeConfigFile comment in config.go describes the pre-#2392 Kubernetes boot",
-        "url": "https://github.com/hivecommons/hive/issues/10756",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-06T01:46:16Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcd6 HUB_DISASTER_RECOVERY.md says nothing reads hive.yaml.runtime on a normal boot",
-        "url": "https://github.com/hivecommons/hive/issues/10755",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-06T01:46:15Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcd6 manual-provisioning.md config precedence describes the pre-#2392 boot order",
-        "url": "https://github.com/hivecommons/hive/issues/10754",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-06T01:46:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcd6 config-layering.md calls hive.yaml.runtime a snapshot on Kubernetes, it is the boot input since #2392",
-        "url": "https://github.com/hivecommons/hive/issues/10753",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-06T01:46:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Port Spek continuous convergence (recheck + outward discovery) onto v6's in-place campaign revision model",
-        "url": "https://github.com/hivecommons/hive/issues/10734",
-        "labels": [
-            "help wanted",
-            "kind/feature"
-        ],
-        "created_at": "2026-10-06T00:22:39Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd proposal: vibe-kanban bridge (hive-triaged queue \u2192 local kanban board, report-only first)",
-        "url": "https://github.com/hivecommons/hive/issues/10641",
-        "labels": [
-            "help wanted",
-            "hive/likely-done",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-05T16:48:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Docs/examples: document HIVE_CODEX_AUTO_USE_BANKED_RESET and wire it through container and just launch paths",
-        "url": "https://github.com/hivecommons/hive/issues/10599",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-10-05T15:12:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: opt-in automatic use of banked Codex resets on weekly quota exhaustion",
-        "url": "https://github.com/hivecommons/hive/issues/10552",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-05T10:12:54Z"
     },
     {
         "repo": "hivecommons/hive",
