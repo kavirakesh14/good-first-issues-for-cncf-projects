@@ -30541,118 +30541,205 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: instance is unreachable and token usage is spiking",
-        "url": "https://github.com/hivecommons/hive/issues/10722",
-        "labels": [
-            "bug",
-            "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2026-10-05T22:55:35Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: Most effective models labels every Pi model local regardless of provider",
-        "url": "https://github.com/hivecommons/hive/issues/10690",
+        "title": "[quality] pkg/hub/notifications_admin.go: admin notifications handlers, webhook private-address guard and hot-reload error paths are at 14.6% coverage",
+        "url": "https://github.com/hivecommons/hive/issues/10785",
         "labels": [
             "help wanted",
-            "triage/accepted",
+            "quality",
+            "testing",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "agent/quality",
             "hive/covered-by-pr",
             "claimed"
         ],
-        "created_at": "2026-10-05T19:25:30Z"
+        "created_at": "2026-10-06T03:41:05Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: Most effective models displays 0% run rates when no runs were recorded",
-        "url": "https://github.com/hivecommons/hive/issues/10689",
+        "title": "[scanner] \u2728 Document clanker_requested policy and add changelog fragment",
+        "url": "https://github.com/hivecommons/hive/issues/10783",
         "labels": [
             "help wanted",
-            "triage/accepted",
-            "hive/covered-by-pr",
-            "claimed"
+            "kind/feature"
         ],
-        "created_at": "2026-10-05T19:25:28Z"
+        "created_at": "2026-10-06T03:01:24Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: Most effective models 30d/All silently use bounded recent history",
-        "url": "https://github.com/hivecommons/hive/issues/10688",
+        "title": "[scanner] \u2728 Dashboard Settings controls for clanker_requested policy",
+        "url": "https://github.com/hivecommons/hive/issues/10782",
         "labels": [
             "help wanted",
-            "triage/accepted",
-            "hive/covered-by-pr",
+            "kind/feature",
             "claimed"
         ],
-        "created_at": "2026-10-05T19:25:26Z"
+        "created_at": "2026-10-06T03:00:54Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: Most effective models contributor filter joins short repo names against owner/repo keys",
-        "url": "https://github.com/hivecommons/hive/issues/10687",
+        "title": "[scanner] \u2728 Park untrusted non-relay PRs with a clanker-requested label",
+        "url": "https://github.com/hivecommons/hive/issues/10781",
         "labels": [
             "help wanted",
-            "triage/accepted",
-            "hive/covered-by-pr",
+            "kind/feature",
             "claimed"
         ],
-        "created_at": "2026-10-05T19:25:24Z"
+        "created_at": "2026-10-06T03:00:46Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: Hive identity footer makes Most effective models discard valid contributor PR attribution",
-        "url": "https://github.com/hivecommons/hive/issues/10686",
+        "title": "[scanner] \u2728 Add ClankeR paragraph to reporter-trust-wait issue comment",
+        "url": "https://github.com/hivecommons/hive/issues/10780",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "claimed"
+        ],
+        "created_at": "2026-10-06T03:00:35Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b codex_reset_redeem: stale-lock takeover race can redeem twice with different idempotency keys",
+        "url": "https://github.com/hivecommons/hive/issues/10774",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "claimed"
+        ],
+        "created_at": "2026-10-06T02:26:51Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b reporter-trust PR hold is invisible to maintainers: no needs-human label, no escalation",
+        "url": "https://github.com/hivecommons/hive/issues/10773",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "hold"
+        ],
+        "created_at": "2026-10-06T02:25:13Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b reporter-trust PR hold fires even when the source issue already carries triage/accepted",
+        "url": "https://github.com/hivecommons/hive/issues/10771",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "hold"
+        ],
+        "created_at": "2026-10-06T02:23:51Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: opt-in 'clanker-requested' policy \u2014 steer untrusted reporters/PR authors to ClankeR instead of maintainers closing PRs by hand",
+        "url": "https://github.com/hivecommons/hive/issues/10766",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "claimed"
+        ],
+        "created_at": "2026-10-06T02:02:06Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b manual-provisioning.md copy-config example copies the seed every boot, unlike the template",
+        "url": "https://github.com/hivecommons/hive/issues/10758",
         "labels": [
             "help wanted",
             "triage/accepted"
         ],
-        "created_at": "2026-10-05T19:25:22Z"
+        "created_at": "2026-10-06T01:46:20Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: Contribute version footer remains stuck on loading...",
-        "url": "https://github.com/hivecommons/hive/issues/10682",
+        "title": "\ud83d\udcd6 agent-configuration.md tree calls hive.yaml.runtime a K8s snapshot",
+        "url": "https://github.com/hivecommons/hive/issues/10757",
         "labels": [
             "help wanted",
             "triage/accepted"
         ],
-        "created_at": "2026-10-05T19:14:59Z"
+        "created_at": "2026-10-06T01:46:18Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: Ready-work queue shows \u201cEnd of queue reached\u201d before scrolling to the end",
-        "url": "https://github.com/hivecommons/hive/issues/10681",
+        "title": "\ud83d\udcd6 RuntimeConfigFile comment in config.go describes the pre-#2392 Kubernetes boot",
+        "url": "https://github.com/hivecommons/hive/issues/10756",
         "labels": [
             "help wanted",
             "triage/accepted"
         ],
-        "created_at": "2026-10-05T19:13:48Z"
+        "created_at": "2026-10-06T01:46:16Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: Contribute Hub decisions fails with HTML-as-JSON error",
-        "url": "https://github.com/hivecommons/hive/issues/10680",
+        "title": "\ud83d\udcd6 HUB_DISASTER_RECOVERY.md says nothing reads hive.yaml.runtime on a normal boot",
+        "url": "https://github.com/hivecommons/hive/issues/10755",
         "labels": [
             "help wanted",
             "triage/accepted"
         ],
-        "created_at": "2026-10-05T19:11:29Z"
+        "created_at": "2026-10-06T01:46:15Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcd6 manual-provisioning.md config precedence describes the pre-#2392 boot order",
+        "url": "https://github.com/hivecommons/hive/issues/10754",
+        "labels": [
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-10-06T01:46:13Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcd6 config-layering.md calls hive.yaml.runtime a snapshot on Kubernetes, it is the boot input since #2392",
+        "url": "https://github.com/hivecommons/hive/issues/10753",
+        "labels": [
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-10-06T01:46:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Port Spek continuous convergence (recheck + outward discovery) onto v6's in-place campaign revision model",
+        "url": "https://github.com/hivecommons/hive/issues/10734",
+        "labels": [
+            "help wanted",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-06T00:22:39Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30662,22 +30749,10 @@
         "url": "https://github.com/hivecommons/hive/issues/10641",
         "labels": [
             "help wanted",
-            "hold"
+            "hive/likely-done",
+            "hive/verified-open"
         ],
         "created_at": "2026-10-05T16:48:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b v5 branch protection only requires gate, allowing red CI merges",
-        "url": "https://github.com/hivecommons/hive/issues/10639",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "hold"
-        ],
-        "created_at": "2026-10-05T16:44:44Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30694,70 +30769,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] Consent-gated banked-reset redemption controller (exhaustion-only, idempotent, re-read before resume)",
-        "url": "https://github.com/hivecommons/hive/issues/10598",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-10-05T15:11:58Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Contributor quota guard: HIVE_CODEX_AUTO_USE_BANKED_RESET opt-in and reset-backed weekly-reserve admission exception",
-        "url": "https://github.com/hivecommons/hive/issues/10597",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-05T15:11:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Policy decision: authorize opt-in redemption of earned Codex resets (revise #6833/#6964 no-consume rule)",
-        "url": "https://github.com/hivecommons/hive/issues/10595",
-        "labels": [
-            "help wanted",
-            "needs-direction"
-        ],
-        "created_at": "2026-10-05T15:11:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[ci-maintainer] v6 Top-up red since 2026-10-05T13:04Z (13/17 runs, v6 41 behind): v5.133.0 forward-merge conflicts in 5 files + pkg/hub mustParseRFC3339 redeclared \u2014 resolved on branch ci-maintainer/sync-v5-to-v6 (needs human; merge commit not squash)",
-        "url": "https://github.com/hivecommons/hive/issues/10590",
-        "labels": [
-            "help wanted",
-            "kind/failing-test",
-            "agent/ci-maintainer",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "ci",
-            "needs-direction"
-        ],
-        "created_at": "2026-10-05T15:04:12Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: opt-in actions: read for agent scoped tokens (ci-maintainer can't read failed CI logs)",
-        "url": "https://github.com/hivecommons/hive/issues/10574",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2026-10-05T13:59:07Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\u2728 feature: opt-in automatic use of banked Codex resets on weekly quota exhaustion",
         "url": "https://github.com/hivecommons/hive/issues/10552",
         "labels": [
@@ -30765,87 +30776,6 @@
             "triage/accepted"
         ],
         "created_at": "2026-10-05T10:12:54Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[fix] claim gate: escalate instead of re-claiming after 2 no-progress claims",
-        "url": "https://github.com/hivecommons/hive/issues/10527",
-        "labels": [
-            "help wanted",
-            "needs-decision",
-            "fix"
-        ],
-        "created_at": "2026-10-04T18:16:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[fix] claim gate: refuse to claim issues labelled needs-human",
-        "url": "https://github.com/hivecommons/hive/issues/10526",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr",
-            "fix"
-        ],
-        "created_at": "2026-10-04T18:16:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[RFC] [v6] Help agents find knowledge and keep it current: five ideas from operator-memory",
-        "url": "https://github.com/hivecommons/hive/issues/10524",
-        "labels": [
-            "help wanted",
-            "priority/important-longterm",
-            "kind/feature",
-            "architecture discussion",
-            "hold",
-            "needs-decision"
-        ],
-        "created_at": "2026-10-04T17:43:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Bob is not working in agents",
-        "url": "https://github.com/hivecommons/hive/issues/10509",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "hive/likely-done",
-            "user-feedback"
-        ],
-        "created_at": "2026-10-04T12:58:27Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: A way to know when my hive will next be updated",
-        "url": "https://github.com/hivecommons/hive/issues/10187",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2026-10-02T18:26:12Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: Possible issues with promotion to release channel \"stable\"",
-        "url": "https://github.com/hivecommons/hive/issues/10042",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-10-02T15:43:03Z"
     },
     {
         "repo": "hivecommons/hive",
