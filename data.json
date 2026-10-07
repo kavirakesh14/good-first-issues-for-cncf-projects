@@ -2153,6 +2153,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Docs] Fix typos, missing words, and duplicate tokens in Workspaces and Operator CRDs guides",
+        "url": "https://github.com/meshery/meshery/issues/22254",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-10-07T05:16:31Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Docs] spars-clone example in Contributing guide does not match the fork-and-PR Workflow",
         "url": "https://github.com/meshery/meshery/issues/22158",
         "labels": [
@@ -2548,19 +2562,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-18T10:14:28Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[CI] OpenSSF Scorecard Check: Vulnerabilities",
-        "url": "https://github.com/meshery/meshery/issues/20778",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-07-18T07:33:07Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4786,6 +4787,42 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "LDAP objectGUID uuid decoder ignored in user-attribute-ldap-mapper on Keycloak 26.8.0",
+        "url": "https://github.com/keycloak/keycloak/issues/53608",
+        "labels": [
+            "kind/bug",
+            "area/ldap",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-10-06T12:58:19Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "inputType cannot be set to hidden in admin console",
+        "url": "https://github.com/keycloak/keycloak/issues/53558",
+        "labels": [
+            "kind/bug",
+            "area/user-profile",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-iam",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-10-05T16:35:11Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Legacy login theme shows a raw `{0}` in the client delegation consent sentence",
         "url": "https://github.com/keycloak/keycloak/issues/53516",
         "labels": [
@@ -5252,41 +5289,6 @@
             "status/auto-bump"
         ],
         "created_at": "2026-09-01T16:20:08Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Security Admin console sends all client scopes on client update: May result in a blocked reqeuest due to request size",
-        "url": "https://github.com/keycloak/keycloak/issues/52236",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-31T14:16:23Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Account console: Personal Info save fails with \"The field Username is read only\" for LDAP users with a read-only username",
-        "url": "https://github.com/keycloak/keycloak/issues/52215",
-        "labels": [
-            "kind/bug",
-            "area/account/ui",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-08-31T06:29:34Z"
     },
     {
         "repo": "keylime/keylime",
@@ -19871,17 +19873,49 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "bug(ui): Change version state dialog shows SUNSET as \"Unknown\"",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/10175",
+        "title": "ccompat: return compatibility messages when verbose=true",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/10475",
         "labels": [
-            "type/bug",
-            "Beginner Friendly",
-            "priority/low",
-            "area/ui",
+            "area/rules/compatibility",
+            "area/rest",
+            "area/rules",
+            "area/rest/ccompat",
+            "area/sdk",
+            "area/build",
+            "good first issue"
+        ],
+        "created_at": "2026-10-07T09:42:12Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Custom artifact types: keep the webhook's difference type and paths in compatibility violations",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/10470",
+        "labels": [
+            "area/rules/compatibility",
+            "area/rules",
+            "area/sdk",
+            "area/performance/caching",
+            "good first issue",
+            "area/artifact-types",
+            "area/performance"
+        ],
+        "created_at": "2026-10-07T09:42:00Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "Declare rule violations on draft finalize and on legacy 409 responses",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/10464",
+        "labels": [
+            "area/rest",
+            "area/documentation",
             "area/sdk",
             "good first issue"
         ],
-        "created_at": "2026-09-18T12:01:22Z"
+        "created_at": "2026-10-07T09:41:46Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
@@ -20000,6 +20034,56 @@
             "good first issue"
         ],
         "created_at": "2023-11-27T19:05:10Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "UI: show the explanation and examples for a compatibility violation",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/10474",
+        "labels": [
+            "area/ui",
+            "area/rules/compatibility",
+            "area/rules",
+            "area/examples",
+            "area/AI",
+            "area/performance/caching",
+            "help wanted",
+            "area/AI/prompt-templates",
+            "area/performance"
+        ],
+        "created_at": "2026-10-07T09:42:10Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "UI: highlight compatibility violations in the submitted content and the compared version",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/10473",
+        "labels": [
+            "area/ui",
+            "area/rules/compatibility",
+            "area/rules",
+            "area/documentation",
+            "area/sdk",
+            "help wanted"
+        ],
+        "created_at": "2026-10-07T09:42:07Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "UI: show compatibility violations as a report, and keep the submitted content",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/10472",
+        "labels": [
+            "area/ui",
+            "area/rules/compatibility",
+            "area/rules",
+            "area/rules/validity",
+            "help wanted"
+        ],
+        "created_at": "2026-10-07T09:42:05Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
@@ -20949,18 +21033,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-PBKDF2-20251013]",
-        "url": "https://github.com/backstage/backstage/issues/35926",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-29T12:13:07Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-SHELLQUOTE-20250993]",
         "url": "https://github.com/backstage/backstage/issues/35925",
         "labels": [
@@ -21117,18 +21189,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-PROXYADDR-19812342]",
-        "url": "https://github.com/backstage/backstage/issues/35714",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-15T12:13:26Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-WEBPACKDEVMIDDLEWARE-19643962]",
         "url": "https://github.com/backstage/backstage/issues/35580",
         "labels": [
@@ -21172,6 +21232,30 @@
             "help wanted"
         ],
         "created_at": "2026-09-06T12:07:27Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635218]",
+        "url": "https://github.com/backstage/backstage/issues/35550",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-06T12:07:27Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635216]",
+        "url": "https://github.com/backstage/backstage/issues/35549",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-06T12:07:26Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -22871,22 +22955,6 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[Bug] multicluster.clusterGateway.port is not propagated to the controller direct URL",
-        "url": "https://github.com/kubevela/kubevela/issues/7336",
-        "labels": [
-            "type/bug",
-            "good first issue",
-            "help wanted",
-            "effort/small",
-            "area/multi-cluster",
-            "area/chart"
-        ],
-        "created_at": "2026-08-18T09:41:27Z"
-    },
-    {
-        "repo": "kubevela/kubevela",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "PolicyDefinition CUE templates are validated without the cuex package set",
         "url": "https://github.com/kubevela/kubevela/issues/7334",
         "labels": [
@@ -23146,6 +23214,18 @@
             "area/addon"
         ],
         "created_at": "2021-12-27T05:04:18Z"
+    },
+    {
+        "repo": "kubevela/kubevela",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug] cluster-gateway prometheus annotation port does not follow multicluster.clusterGateway.port",
+        "url": "https://github.com/kubevela/kubevela/issues/7427",
+        "labels": [
+            "help wanted",
+            "area/chart"
+        ],
+        "created_at": "2026-10-07T06:56:43Z"
     },
     {
         "repo": "kubevela/kubevela",
@@ -25321,6 +25401,18 @@
         "repo": "pipe-cd/pipecd",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Skip heavy CI jobs (Go test/lint/build, web, integration) for docs-only changes",
+        "url": "https://github.com/pipe-cd/pipecd/issues/7007",
+        "labels": [
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-07-10T20:11:13Z"
+    },
+    {
+        "repo": "pipe-cd/pipecd",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "ci: add timeout-minutes to scheduled workflow jobs",
         "url": "https://github.com/pipe-cd/pipecd/issues/6902",
         "labels": [
@@ -25578,19 +25670,6 @@
             "good first issue"
         ],
         "created_at": "2021-07-29T03:06:07Z"
-    },
-    {
-        "repo": "pipe-cd/pipecd",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": " Call ListNotCompletedDeployments using cursor until all required deployments are fetched.",
-        "url": "https://github.com/pipe-cd/pipecd/issues/1937",
-        "labels": [
-            "good first issue",
-            "area/piped",
-            "kind/todo"
-        ],
-        "created_at": "2021-05-06T08:46:55Z"
     },
     {
         "repo": "pipe-cd/pipecd",
@@ -28821,19 +28900,6 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Go SDK: support annotations",
-        "url": "https://github.com/perses/perses/issues/4430",
-        "labels": [
-            "good first issue",
-            "api",
-            "plugin"
-        ],
-        "created_at": "2026-09-08T21:07:37Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Include current time range in the Dashboard Links",
         "url": "https://github.com/perses/perses/issues/4176",
         "labels": [
@@ -29076,20 +29142,6 @@
             "priority/P2"
         ],
         "created_at": "2024-07-01T09:39:51Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[0.55 beta] Annotations are cut off when 0 data value not in graph",
-        "url": "https://github.com/perses/perses/issues/4463",
-        "labels": [
-            "help wanted",
-            "ui",
-            "priority/P1",
-            "plugin"
-        ],
-        "created_at": "2026-09-16T16:11:12Z"
     },
     {
         "repo": "perses/perses",
@@ -30766,6 +30818,20 @@
             "needs-direction"
         ],
         "created_at": "2026-09-30T04:24:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Logs from past kicks are only tails",
+        "url": "https://github.com/hivecommons/hive/issues/9579",
+        "labels": [
+            "bug",
+            "help wanted",
+            "needs-triage",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-09-29T16:23:48Z"
     },
     {
         "repo": "hivecommons/hive",
