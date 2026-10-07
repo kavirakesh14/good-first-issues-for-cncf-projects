@@ -1766,18 +1766,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[UI] Badge overlaps with creator name on small screens",
-        "url": "https://github.com/meshery/meshery/issues/21730",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-09-01T21:45:27Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[UI] Dry Run content overflows on small screens in Playground Designs",
         "url": "https://github.com/meshery/meshery/issues/21729",
         "labels": [
@@ -1785,18 +1773,6 @@
             "good first issue"
         ],
         "created_at": "2026-09-01T21:38:40Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[UI] Actions dropdown opens behind the toolbar in Designs",
-        "url": "https://github.com/meshery/meshery/issues/21728",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-09-01T21:33:43Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2148,6 +2124,36 @@
             "good first issue"
         ],
         "created_at": "2025-06-24T18:22:33Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Test] E2E playwright test for Meshery Dashboard",
+        "url": "https://github.com/meshery/meshery/issues/14565",
+        "labels": [
+            "kind/enhancement",
+            "good first issue",
+            "language/javascript",
+            "component/ui",
+            "area/tests",
+            "framework/playwright"
+        ],
+        "created_at": "2025-04-29T18:59:42Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Add support for sort by count for database table in settings registry page",
+        "url": "https://github.com/meshery/meshery/issues/13958",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "language/go"
+        ],
+        "created_at": "2025-03-11T09:09:30Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2787,17 +2793,6 @@
             "good first issue"
         ],
         "created_at": "2020-09-28T13:37:59Z"
-    },
-    {
-        "repo": "nmstate/nmstate",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Raise proper exception when bond is mixing ip over infiniband interface with other interfaces.",
-        "url": "https://github.com/nmstate/nmstate/issues/1354",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2020-09-28T13:28:44Z"
     },
     {
         "repo": "nmstate/nmstate",
@@ -5078,6 +5073,25 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Theme resources: the gzip cache is never invalidated, so browsers keep the old file after a theme change \u2014 and a restart does not help",
+        "url": "https://github.com/keycloak/keycloak/issues/52802",
+        "labels": [
+            "area/authentication",
+            "kind/bug",
+            "area/core",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-authn"
+        ],
+        "created_at": "2026-09-16T03:39:03Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "[CIMD] pkce-enforcer in the profile of a client-id-uri policy is never applied; codes are issued without PKCE",
         "url": "https://github.com/keycloak/keycloak/issues/52795",
         "labels": [
@@ -5272,23 +5286,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-01T18:08:02Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "LDAP-Sync does not report error if authentification fails",
-        "url": "https://github.com/keycloak/keycloak/issues/52293",
-        "labels": [
-            "kind/bug",
-            "area/ldap",
-            "help wanted",
-            "team/core-iam",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-09-01T16:20:08Z"
     },
     {
         "repo": "keylime/keylime",
@@ -6483,18 +6480,6 @@
             "inactive"
         ],
         "created_at": "2020-01-31T17:01:16Z"
-    },
-    {
-        "repo": "open-policy-agent/opa",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Improve TLS identifier to include entire certificate chain",
-        "url": "https://github.com/open-policy-agent/opa/issues/1163",
-        "labels": [
-            "help wanted",
-            "inactive"
-        ],
-        "created_at": "2019-01-15T18:37:18Z"
     },
     {
         "repo": "openfga/openfga",
@@ -8857,7 +8842,6 @@
         "url": "https://github.com/rook/rook/issues/17239",
         "labels": [
             "bug",
-            "wontfix",
             "good-first-issue"
         ],
         "created_at": "2026-03-24T12:19:21Z"
@@ -12153,6 +12137,34 @@
         "repo": "k0sproject/k0s",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Pass `--master=https://<routable-ip>:6443` to kube-router when disabling kube-proxy",
+        "url": "https://github.com/k0sproject/k0s/issues/6940",
+        "labels": [
+            "bug",
+            "good first issue",
+            "area/network",
+            "component/kube-proxy",
+            "component/kube-router"
+        ],
+        "created_at": "2026-01-11T23:15:13Z"
+    },
+    {
+        "repo": "k0sproject/k0s",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Non-default --status-socket or --run-dir break autopilot",
+        "url": "https://github.com/k0sproject/k0s/issues/6750",
+        "labels": [
+            "bug",
+            "good first issue",
+            "component/autopilot"
+        ],
+        "created_at": "2025-11-28T15:23:48Z"
+    },
+    {
+        "repo": "k0sproject/k0s",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "More Detailed CNI Health in `k0s status`",
         "url": "https://github.com/k0sproject/k0s/issues/5886",
         "labels": [
@@ -12647,6 +12659,18 @@
             "feature"
         ],
         "created_at": "2021-05-06T10:39:25Z"
+    },
+    {
+        "repo": "kai-scheduler/KAI-Scheduler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "feat(metrics): add aggregate evicted-pod counters by scheduler action",
+        "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/2352",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-10-07T12:40:45Z"
     },
     {
         "repo": "kai-scheduler/KAI-Scheduler",
@@ -13794,6 +13818,54 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "[Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial]",
+        "url": "https://github.com/kubernetes/kubernetes/issues/141200",
+        "labels": [
+            "sig/node",
+            "kind/flake",
+            "help wanted",
+            "priority/important-longterm",
+            "triage/accepted"
+        ],
+        "created_at": "2026-08-05T15:54:52Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "No e2e coverage for readiness probes during graceful pod termination",
+        "url": "https://github.com/kubernetes/kubernetes/issues/140978",
+        "labels": [
+            "kind/bug",
+            "area/test",
+            "priority/backlog",
+            "area/kubelet",
+            "sig/node",
+            "help wanted",
+            "sig/testing",
+            "triage/accepted"
+        ],
+        "created_at": "2026-07-27T22:22:50Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Ensure Credential Pulled Images tests still flaking with \"pulled record ... never appeared\" after #138527/#138642 (kubelet-gce-e2e-swap-ubuntu-serial)",
+        "url": "https://github.com/kubernetes/kubernetes/issues/140942",
+        "labels": [
+            "sig/node",
+            "kind/flake",
+            "help wanted",
+            "priority/important-longterm",
+            "triage/accepted"
+        ],
+        "created_at": "2026-07-26T09:18:46Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Add `[Feature:Networking-IPv6]` and `[Feature:SCTPConnectivity]` CI",
         "url": "https://github.com/kubernetes/kubernetes/issues/140489",
         "labels": [
@@ -13954,12 +14026,29 @@
         "title": "Make sig-node CI test coverage adhere to defined guidance",
         "url": "https://github.com/kubernetes/kubernetes/issues/134862",
         "labels": [
+            "priority/backlog",
             "sig/node",
             "help wanted",
             "sig/testing",
             "triage/accepted"
         ],
         "created_at": "2025-10-24T17:57:42Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Add e2e test for probes using ContainerRestartRules",
+        "url": "https://github.com/kubernetes/kubernetes/issues/134799",
+        "labels": [
+            "area/test",
+            "priority/backlog",
+            "kind/cleanup",
+            "sig/node",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-10-22T22:34:56Z"
     },
     {
         "repo": "kubernetes/kubernetes",
@@ -13988,6 +14077,22 @@
             "triage/accepted"
         ],
         "created_at": "2025-10-07T16:14:45Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Clean up features for SIG Node e2e tests",
+        "url": "https://github.com/kubernetes/kubernetes/issues/134172",
+        "labels": [
+            "area/test",
+            "kind/cleanup",
+            "sig/node",
+            "help wanted",
+            "priority/important-longterm",
+            "triage/accepted"
+        ],
+        "created_at": "2025-09-19T21:06:37Z"
     },
     {
         "repo": "kubernetes/kubernetes",
@@ -14032,6 +14137,22 @@
             "triage/accepted"
         ],
         "created_at": "2025-08-14T21:05:16Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "skiped e2e test for PodResources API",
+        "url": "https://github.com/kubernetes/kubernetes/issues/133326",
+        "labels": [
+            "area/test",
+            "kind/cleanup",
+            "sig/node",
+            "help wanted",
+            "priority/important-longterm",
+            "triage/accepted"
+        ],
+        "created_at": "2025-07-30T22:37:50Z"
     },
     {
         "repo": "kubernetes/kubernetes",
@@ -14092,89 +14213,6 @@
             "needs-triage"
         ],
         "created_at": "2025-06-09T16:15:58Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Implement checking apiserver memory limit below threshold in list benchmarks",
-        "url": "https://github.com/kubernetes/kubernetes/issues/131885",
-        "labels": [
-            "sig/api-machinery",
-            "kind/feature",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2025-05-21T11:57:50Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Tag Slow e2e tests correctly",
-        "url": "https://github.com/kubernetes/kubernetes/issues/131049",
-        "labels": [
-            "help wanted",
-            "sig/testing",
-            "needs-triage"
-        ],
-        "created_at": "2025-03-25T10:57:17Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "k8s.io/apiserver/pkg/registry/generic/testing: store objects with defaults applied",
-        "url": "https://github.com/kubernetes/kubernetes/issues/130975",
-        "labels": [
-            "kind/bug",
-            "sig/api-machinery",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2025-03-21T10:23:21Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Explore user network namespace for rootless network testing",
-        "url": "https://github.com/kubernetes/kubernetes/issues/130926",
-        "labels": [
-            "sig/network",
-            "help wanted",
-            "sig/testing",
-            "triage/accepted"
-        ],
-        "created_at": "2025-03-19T13:31:38Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Stabilize benchmark list by limiting QPS",
-        "url": "https://github.com/kubernetes/kubernetes/issues/130869",
-        "labels": [
-            "sig/scalability",
-            "sig/api-machinery",
-            "kind/feature",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2025-03-17T17:44:11Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Automate away duplication of defaulting in Fuzzer Funcs",
-        "url": "https://github.com/kubernetes/kubernetes/issues/130791",
-        "labels": [
-            "sig/api-machinery",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2025-03-13T17:30:50Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -20901,6 +20939,30 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-HANDLEBARS-20557395]",
+        "url": "https://github.com/backstage/backstage/issues/36066",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-07T16:21:32Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-HANDLEBARS-20562144]",
+        "url": "https://github.com/backstage/backstage/issues/36065",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-07T16:21:22Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-GRAPHQLTOOLSUTILS-20537055]",
         "url": "https://github.com/backstage/backstage/issues/36027",
         "labels": [
@@ -21232,30 +21294,6 @@
             "help wanted"
         ],
         "created_at": "2026-09-06T12:07:27Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635218]",
-        "url": "https://github.com/backstage/backstage/issues/35550",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-06T12:07:27Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635216]",
-        "url": "https://github.com/backstage/backstage/issues/35549",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-06T12:07:26Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -28578,6 +28616,18 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Explain every exclusion in the storage integration capabilities skip lists",
+        "url": "https://github.com/jaegertracing/jaeger/issues/9788",
+        "labels": [
+            "help wanted",
+            "area/storage"
+        ],
+        "created_at": "2026-10-07T22:17:29Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "[Feature]: Support pagination in query APIs",
         "url": "https://github.com/jaegertracing/jaeger/issues/9631",
         "labels": [
@@ -28749,19 +28799,6 @@
             "performance"
         ],
         "created_at": "2021-04-16T13:58:48Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Allow viewing multiple trace results on a single timeline",
-        "url": "https://github.com/jaegertracing/jaeger/issues/2544",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "ui"
-        ],
-        "created_at": "2020-10-08T20:47:58Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
@@ -29142,6 +29179,18 @@
             "priority/P2"
         ],
         "created_at": "2024-07-01T09:39:51Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Support Jaeger v2 in the Jaeger datasource plugin",
+        "url": "https://github.com/perses/perses/issues/4560",
+        "labels": [
+            "help wanted",
+            "plugin"
+        ],
+        "created_at": "2026-10-07T15:47:52Z"
     },
     {
         "repo": "perses/perses",
@@ -30776,6 +30825,60 @@
             "help wanted"
         ],
         "created_at": "2024-09-18T19:24:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b dashboard: repo card issue counter disagrees with rendered issue list (18 vs 13); no scroll for long lists",
+        "url": "https://github.com/hivecommons/hive/issues/10998",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-07T21:59:04Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b dashboard: v6 still renders the Platform section that v5 dropped in #10143",
+        "url": "https://github.com/hivecommons/hive/issues/10992",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-07T21:44:15Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[CI runner canary] self-hosted runner pool unhealthy",
+        "url": "https://github.com/hivecommons/hive/issues/10987",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "priority/critical-urgent",
+            "ci-failure",
+            "ci",
+            "hive/covered-by-pr",
+            "ci-runner-canary"
+        ],
+        "created_at": "2026-10-07T19:51:54Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug(v6): repo card merge-strategy button (hive-serialized) overlaps the swarm chip",
+        "url": "https://github.com/hivecommons/hive/issues/10980",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "hold"
+        ],
+        "created_at": "2026-10-07T13:52:08Z"
     },
     {
         "repo": "hivecommons/hive",
