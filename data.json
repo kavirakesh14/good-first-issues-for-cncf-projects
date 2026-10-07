@@ -11791,8 +11791,7 @@
             "help wanted",
             "reliability",
             "roadmap",
-            "composition",
-            "stale"
+            "composition"
         ],
         "created_at": "2023-10-18T08:56:28Z"
     },
@@ -12152,20 +12151,6 @@
         "repo": "k0sproject/k0s",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Non-default --status-socket or --run-dir break autopilot",
-        "url": "https://github.com/k0sproject/k0s/issues/6750",
-        "labels": [
-            "bug",
-            "good first issue",
-            "Stale",
-            "component/autopilot"
-        ],
-        "created_at": "2025-11-28T15:23:48Z"
-    },
-    {
-        "repo": "k0sproject/k0s",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "More Detailed CNI Health in `k0s status`",
         "url": "https://github.com/k0sproject/k0s/issues/5886",
         "labels": [
@@ -12226,7 +12211,8 @@
         "url": "https://github.com/kedacore/keda/issues/7675",
         "labels": [
             "bug",
-            "good first issue"
+            "good first issue",
+            "stale"
         ],
         "created_at": "2026-04-22T09:03:23Z"
     },
@@ -13545,6 +13531,20 @@
             "client-gold"
         ],
         "created_at": "2020-02-09T22:44:32Z"
+    },
+    {
+        "repo": "kubefleet-dev/kubefleet",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Hub leader election ID uses legacy project name",
+        "url": "https://github.com/kubefleet-dev/kubefleet/issues/859",
+        "labels": [
+            "good first issue",
+            "area/hubagent",
+            "dont-backport",
+            "release-note/breaking"
+        ],
+        "created_at": "2026-08-31T03:54:45Z"
     },
     {
         "repo": "kubefleet-dev/kubefleet",
@@ -30729,37 +30729,17 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83c\udf31 dashboard: a \"?\" help mark next to every section title, with a plain-language help page",
-        "url": "https://github.com/hivecommons/hive/issues/10915",
+        "title": "Scanner reports in terminal MCP servers reloaded: 0 servers connected, 1 failed (github-mcp-server)",
+        "url": "https://github.com/hivecommons/hive/issues/10943",
         "labels": [
             "help wanted",
-            "claimed"
+            "kind/bug",
+            "needs-human",
+            "claimed",
+            "user-feedback",
+            "needs-reporter-confirmation"
         ],
-        "created_at": "2026-10-06T20:54:06Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 merge-lane: fork PR handling (viewerCanUpdateBranch + contributor base-sync, single author comment)",
-        "url": "https://github.com/hivecommons/hive/issues/10890",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-06T16:48:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 Serialized merge lane: merge-queue safety for personal-account repositories",
-        "url": "https://github.com/hivecommons/hive/issues/10884",
-        "labels": [
-            "help wanted",
-            "hive/likely-done"
-        ],
-        "created_at": "2026-10-06T16:31:39Z"
+        "created_at": "2026-10-07T00:10:21Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30769,7 +30749,8 @@
         "url": "https://github.com/hivecommons/hive/issues/9945",
         "labels": [
             "bug",
-            "help wanted"
+            "help wanted",
+            "needs-reporter-confirmation"
         ],
         "created_at": "2026-10-02T05:54:00Z"
     },
