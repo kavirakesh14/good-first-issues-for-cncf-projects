@@ -559,22 +559,6 @@
         "repo": "cadence-workflow/cadence",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Support Jitter on RetryPolicies",
-        "url": "https://github.com/cadence-workflow/cadence/issues/8238",
-        "labels": [
-            "feature",
-            "up-for-grabs",
-            "good first issue",
-            "good-first-issue",
-            "help-wanted",
-            "kind/feature"
-        ],
-        "created_at": "2026-06-16T16:37:31Z"
-    },
-    {
-        "repo": "cadence-workflow/cadence",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Add gofuzz tests to mapper functions",
         "url": "https://github.com/cadence-workflow/cadence/issues/7611",
         "labels": [
@@ -2231,20 +2215,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": " [Docs] Reference Sistent DESIGN.md in AGENTS.md UI guidelines",
-        "url": "https://github.com/meshery/meshery/issues/21963",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-09-14T19:01:03Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[Docs] Add a troubleshooting note for Meshery Server startup failures",
         "url": "https://github.com/meshery/meshery/issues/21951",
         "labels": [
@@ -2570,6 +2540,19 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-18T10:14:28Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[CI] OpenSSF Scorecard Check: Vulnerabilities",
+        "url": "https://github.com/meshery/meshery/issues/20778",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-07-18T07:33:07Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4771,6 +4754,56 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "kc.sh build output is not reproducible",
+        "url": "https://github.com/keycloak/keycloak/issues/53744",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/cloud-native",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-10-08T13:20:08Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Disabled organizations are still listed on the \"select organization\" login page",
+        "url": "https://github.com/keycloak/keycloak/issues/53736",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "area/organizations"
+        ],
+        "created_at": "2026-10-08T11:28:08Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Removing federated, disabled and read-only user from group fails with read-only error",
+        "url": "https://github.com/keycloak/keycloak/issues/53700",
+        "labels": [
+            "kind/bug",
+            "area/ldap",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-10-07T15:17:10Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "inputType cannot be set to hidden in admin console",
         "url": "https://github.com/keycloak/keycloak/issues/53558",
         "labels": [
@@ -5224,58 +5257,6 @@
             "team/core-authn"
         ],
         "created_at": "2026-09-01T18:08:04Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "NullPointerException parsing an EC JWK missing the \"x\" or \"y\" coordinate",
-        "url": "https://github.com/keycloak/keycloak/issues/52294",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-01T18:08:02Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "LDAP-Sync does not report error if authentification fails",
-        "url": "https://github.com/keycloak/keycloak/issues/52293",
-        "labels": [
-            "kind/bug",
-            "area/ldap",
-            "help wanted",
-            "team/core-iam",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-09-01T16:20:08Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Security Admin console sends all client scopes on client update: May result in a blocked reqeuest due to request size",
-        "url": "https://github.com/keycloak/keycloak/issues/52236",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-08-31T14:16:23Z"
     },
     {
         "repo": "keylime/keylime",
@@ -7592,18 +7573,6 @@
             "help wanted"
         ],
         "created_at": "2015-09-30T16:40:01Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "tpm_devid: expose certificate subject attributes as OID selectors",
-        "url": "https://github.com/spiffe/spire/issues/7307",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2026-09-30T14:39:24Z"
     },
     {
         "repo": "spiffe/spire",
@@ -10389,6 +10358,29 @@
             "Network"
         ],
         "created_at": "2025-10-30T09:31:43Z"
+    },
+    {
+        "repo": "virtual-kubelet/virtual-kubelet",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "There is some `UpdatePod` API calls is unnecessary",
+        "url": "https://github.com/virtual-kubelet/virtual-kubelet/issues/1364",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2025-12-30T06:13:46Z"
+    },
+    {
+        "repo": "virtual-kubelet/virtual-kubelet",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Omit secret/configmap informers when `skipDownwardAPIResolution` is enabled",
+        "url": "https://github.com/virtual-kubelet/virtual-kubelet/issues/1311",
+        "labels": [
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2025-06-16T22:51:54Z"
     },
     {
         "repo": "virtual-kubelet/virtual-kubelet",
@@ -13796,6 +13788,21 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "[Flaking Test] restarted with a non-local redirect http liveness probe",
+        "url": "https://github.com/kubernetes/kubernetes/issues/141786",
+        "labels": [
+            "sig/node",
+            "kind/flake",
+            "help wanted",
+            "priority/important-longterm",
+            "triage/accepted"
+        ],
+        "created_at": "2026-09-02T06:49:22Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "[Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial]",
         "url": "https://github.com/kubernetes/kubernetes/issues/141200",
         "labels": [
@@ -13902,6 +13909,20 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "[Flaking Test] [sig node] with swap stress LimitedSwap should be able to use more than the node memory capacity",
+        "url": "https://github.com/kubernetes/kubernetes/issues/138226",
+        "labels": [
+            "sig/node",
+            "kind/flake",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2026-04-06T13:36:47Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "[Flaking Test] [sig-api-machinery] Simple CustomResourceDefinition creating/deleting custom resource definition objects works [Conformance]",
         "url": "https://github.com/kubernetes/kubernetes/issues/138085",
         "labels": [
@@ -13953,6 +13974,20 @@
             "triage/accepted"
         ],
         "created_at": "2026-01-09T01:02:16Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[Failing Test] [SIG-node] periodic-node-feature-discovery-e2e-test-master.Overall",
+        "url": "https://github.com/kubernetes/kubernetes/issues/136114",
+        "labels": [
+            "sig/node",
+            "help wanted",
+            "kind/failing-test",
+            "needs-triage"
+        ],
+        "created_at": "2026-01-08T20:40:43Z"
     },
     {
         "repo": "kubernetes/kubernetes",
@@ -14146,51 +14181,6 @@
             "triage/accepted"
         ],
         "created_at": "2025-07-15T11:11:07Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Cache NodeInfo for Kubelet admission",
-        "url": "https://github.com/kubernetes/kubernetes/issues/132858",
-        "labels": [
-            "kind/cleanup",
-            "sig/node",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2025-07-10T03:37:55Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Clean up circular dependencies around the kubelet's admitHandlers and the container runtime",
-        "url": "https://github.com/kubernetes/kubernetes/issues/132298",
-        "labels": [
-            "kind/cleanup",
-            "sig/node",
-            "help wanted",
-            "priority/important-longterm",
-            "triage/accepted"
-        ],
-        "created_at": "2025-06-13T20:32:48Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "API can be streamlined: assume same key for some `EnvVarSource`",
-        "url": "https://github.com/kubernetes/kubernetes/issues/132195",
-        "labels": [
-            "priority/backlog",
-            "area/api",
-            "sig/node",
-            "kind/feature",
-            "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2025-06-09T16:15:58Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -17728,6 +17718,18 @@
         "repo": "kgateway-dev/kgateway",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Add Status Condition Messages to Gateway for Invalid Listeners",
+        "url": "https://github.com/kgateway-dev/kgateway/issues/11982",
+        "labels": [
+            "Good First Issue",
+            "stale"
+        ],
+        "created_at": "2025-08-13T09:55:51Z"
+    },
+    {
+        "repo": "kgateway-dev/kgateway",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "e2e: add buffer test",
         "url": "https://github.com/kgateway-dev/kgateway/issues/11946",
         "labels": [
@@ -17747,6 +17749,18 @@
             "help wanted"
         ],
         "created_at": "2026-03-16T07:47:51Z"
+    },
+    {
+        "repo": "kgateway-dev/kgateway",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Setting Max Request Size Forces Buffering (In Memory)",
+        "url": "https://github.com/kgateway-dev/kgateway/issues/13642",
+        "labels": [
+            "help wanted",
+            "kind/ingress-nginx"
+        ],
+        "created_at": "2026-03-11T16:33:33Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -21178,18 +21192,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-WEBPACKDEVMIDDLEWARE-19643962]",
-        "url": "https://github.com/backstage/backstage/issues/35580",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-09-08T17:38:20Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635226]",
         "url": "https://github.com/backstage/backstage/issues/35553",
         "labels": [
@@ -21216,6 +21218,18 @@
         "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635220]",
         "url": "https://github.com/backstage/backstage/issues/35551",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-06T12:07:27Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635218]",
+        "url": "https://github.com/backstage/backstage/issues/35550",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
@@ -22916,23 +22930,6 @@
             "effort/small"
         ],
         "created_at": "2026-09-07T19:42:01Z"
-    },
-    {
-        "repo": "kubevela/kubevela",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "PolicyDefinition CUE templates are validated without the cuex package set",
-        "url": "https://github.com/kubevela/kubevela/issues/7334",
-        "labels": [
-            "type/bug",
-            "good first issue",
-            "help wanted",
-            "effort/small",
-            "area/cue-template",
-            "area/policy",
-            "area/admission"
-        ],
-        "created_at": "2026-08-17T23:09:05Z"
     },
     {
         "repo": "kubevela/kubevela",
@@ -27775,7 +27772,9 @@
         "labels": [
             "kind/bug",
             "documentation",
-            "good first issue"
+            "good first issue",
+            "dx",
+            "oidc"
         ],
         "created_at": "2026-09-09T16:26:28Z"
     },
@@ -30769,101 +30768,447 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[quality] coverage-reporting: integration smoke lanes emit no coverprofile \u2014 e2e coverage is unmeasurable",
-        "url": "https://github.com/hivecommons/hive/issues/11006",
+        "title": "\u2728 feature: Add quality agent coverage % to dashboard",
+        "url": "https://github.com/hivecommons/hive/issues/11150",
         "labels": [
+            "enhancement",
             "help wanted",
-            "quality",
-            "testing",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "agent/quality",
+            "needs-triage"
+        ],
+        "created_at": "2026-10-08T22:22:54Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 GraphQL per-repo PR batch to replace REST pulls/{number} + check-runs fan-out",
+        "url": "https://github.com/hivecommons/hive/issues/11141",
+        "labels": [
+            "enhancement",
+            "help wanted",
             "hive/covered-by-pr"
         ],
-        "created_at": "2026-10-08T00:40:37Z"
+        "created_at": "2026-10-08T22:07:03Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug(v6): repo card merge-strategy button (hive-serialized) overlaps the swarm chip",
-        "url": "https://github.com/hivecommons/hive/issues/10980",
+        "title": "Eval cycle runs full GitHub fan-out even when the installation's core quota is nearly exhausted",
+        "url": "https://github.com/hivecommons/hive/issues/11121",
         "labels": [
             "help wanted",
-            "kind/bug",
-            "hold"
+            "claimed"
         ],
-        "created_at": "2026-10-07T13:52:08Z"
+        "created_at": "2026-10-08T20:31:03Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Scanner reports in terminal MCP servers reloaded: 0 servers connected, 1 failed (github-mcp-server)",
-        "url": "https://github.com/hivecommons/hive/issues/10943",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "needs-human",
-            "claimed",
-            "user-feedback",
-            "needs-reporter-confirmation"
-        ],
-        "created_at": "2026-10-07T00:10:21Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: Mysterious failure to do inference",
-        "url": "https://github.com/hivecommons/hive/issues/9945",
+        "title": "\ud83d\udc1b bug: Issues opened by me are being closed too soon",
+        "url": "https://github.com/hivecommons/hive/issues/11119",
         "labels": [
             "bug",
             "help wanted",
-            "needs-reporter-confirmation"
+            "needs-triage"
         ],
-        "created_at": "2026-10-02T05:54:00Z"
+        "created_at": "2026-10-08T20:15:01Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] v6 readiness live exercise: dashboard chat, inception via chat, standby S5-S6",
-        "url": "https://github.com/hivecommons/hive/issues/9735",
+        "title": "\u2728 Generate and serve repository code maps as scoped knowledge",
+        "url": "https://github.com/hivecommons/hive/issues/11106",
         "labels": [
             "help wanted",
-            "hold",
-            "needs-direction"
+            "triage/accepted",
+            "kind/feature"
         ],
-        "created_at": "2026-09-30T04:24:45Z"
+        "created_at": "2026-10-08T20:04:17Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: Logs from past kicks are only tails",
-        "url": "https://github.com/hivecommons/hive/issues/9579",
+        "title": "\u2728 Add agent-suggested knowledge updates with human approval",
+        "url": "https://github.com/hivecommons/hive/issues/11105",
         "labels": [
-            "bug",
             "help wanted",
-            "needs-triage",
-            "hive/covered-by-pr"
+            "triage/accepted",
+            "kind/feature"
         ],
-        "created_at": "2026-09-29T16:23:48Z"
+        "created_at": "2026-10-08T20:04:15Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udcdd v6 epic + readiness bar: dashboard-optional operation \u2014 meet humans where they are",
-        "url": "https://github.com/hivecommons/hive/issues/7563",
+        "title": "\u2728 Load repository-carried knowledge from a reviewable .hive/wiki directory",
+        "url": "https://github.com/hivecommons/hive/issues/11104",
         "labels": [
             "help wanted",
-            "agent/scanner",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "roadmap",
-            "meta-tracker"
+            "triage/accepted",
+            "kind/feature",
+            "claimed"
         ],
-        "created_at": "2026-09-18T05:32:44Z"
+        "created_at": "2026-10-08T20:04:13Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Expose scoped knowledge table of contents and full-read API to agents",
+        "url": "https://github.com/hivecommons/hive/issues/11103",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "kind/feature",
+            "hive/covered-by-pr",
+            "claimed"
+        ],
+        "created_at": "2026-10-08T20:04:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [Epic] Knowledge lifecycle & per-agent scoping",
+        "url": "https://github.com/hivecommons/hive/issues/11100",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "kind/feature",
+            "priority/important-soon",
+            "Epic"
+        ],
+        "created_at": "2026-10-08T20:04:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 review-pipeline: event-driven review dispatch on PR push / review_requested webhooks with cadence fallback",
+        "url": "https://github.com/hivecommons/hive/issues/11091",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "area/core",
+            "size/L",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:43:49Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 review-pipeline: route below-the-line findings to GitHub Projects / Linear / Jira with fingerprint dedup",
+        "url": "https://github.com/hivecommons/hive/issues/11089",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "area/core",
+            "size/L",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:43:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 review-pipeline: 'Severity & backlog' settings \u2014 blocking line presets and backlog destination",
+        "url": "https://github.com/hivecommons/hive/issues/11088",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "ux",
+            "size/M",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:43:43Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [Epic] Review pipeline view and non-blocking nit backlog: show where every PR is in review and route minor findings to follow-up work instead of blocking merge",
+        "url": "https://github.com/hivecommons/hive/issues/11085",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "ux",
+            "kind/feature",
+            "priority/important-soon",
+            "Epic",
+            "hive/likely-done",
+            "hive/verified-open",
+            "claimed"
+        ],
+        "created_at": "2026-10-08T19:43:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 compliance: hub rollup of spoke framework profiles and posture pass rate",
+        "url": "https://github.com/hivecommons/hive/issues/11083",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "size/M",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:42:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 compliance: FedRAMP Moderate and ISO 27001 Annex A profiles",
+        "url": "https://github.com/hivecommons/hive/issues/11082",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "kind/documentation",
+            "size/M",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:42:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 compliance: posture history, evidence exports and owner attestations panels",
+        "url": "https://github.com/hivecommons/hive/issues/11081",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "ux",
+            "size/M",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:42:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 compliance: Settings \u2192 Compliance tab \u2014 framework profile and controls panels",
+        "url": "https://github.com/hivecommons/hive/issues/11080",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "ux",
+            "size/L",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:42:37Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 compliance: posture checks runner with history (non-author review, SoD, retention, confinement, sentinel, secrets-in-config)",
+        "url": "https://github.com/hivecommons/hive/issues/11079",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "area/core",
+            "size/L",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:42:35Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [Epic] Compliance tab: SOC 2 / FedRAMP / ISO 27001 control settings, posture checks and evidence exports in Settings",
+        "url": "https://github.com/hivecommons/hive/issues/11077",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "ux",
+            "kind/feature",
+            "priority/important-soon",
+            "Epic",
+            "hive/likely-done"
+        ],
+        "created_at": "2026-10-08T19:42:32Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 knowledge-connectors: one-way publish mirror \u2014 render curator-promoted facts as pages in Confluence/Notion/SharePoint/Google Docs",
+        "url": "https://github.com/hivecommons/hive/issues/11076",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "size/L",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:41:15Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 knowledge-connectors: Settings \u2192 Knowledge connectors panel in the dashboard",
+        "url": "https://github.com/hivecommons/hive/issues/11075",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "ux",
+            "size/M",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:41:14Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 knowledge-connectors: Google Drive / Google Docs connector",
+        "url": "https://github.com/hivecommons/hive/issues/11073",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "size/M",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:41:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 knowledge-connectors: SharePoint / OneDrive connector via Microsoft Graph",
+        "url": "https://github.com/hivecommons/hive/issues/11072",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "size/L",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:41:09Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 knowledge-connectors: Notion connector",
+        "url": "https://github.com/hivecommons/hive/issues/11071",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "size/M",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:41:08Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 knowledge-connectors: Confluence connector (Cloud + Data Center) \u2014 reference implementation",
+        "url": "https://github.com/hivecommons/hive/issues/11070",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "size/M",
+            "kind/feature"
+        ],
+        "created_at": "2026-10-08T19:41:06Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 knowledge-connectors: Connector interface, registry, sync scheduler; migrate git_sources and documents onto it",
+        "url": "https://github.com/hivecommons/hive/issues/11069",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "size/L",
+            "kind/feature",
+            "hive/likely-done"
+        ],
+        "created_at": "2026-10-08T19:41:05Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [Epic] Knowledge connectors: sync Notion, Confluence, SharePoint, Google Drive and GitHub Wiki into the hive knowledge base",
+        "url": "https://github.com/hivecommons/hive/issues/11068",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "area/core",
+            "kind/feature",
+            "priority/important-soon",
+            "Epic",
+            "hive/likely-done",
+            "hive/verified-open",
+            "claimed"
+        ],
+        "created_at": "2026-10-08T19:41:03Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 release-notes: one-time 'What changed' banner after a hub-triggered upgrade",
+        "url": "https://github.com/hivecommons/hive/issues/11067",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "ux",
+            "kind/feature",
+            "size/S",
+            "claimed"
+        ],
+        "created_at": "2026-10-08T19:38:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 release-notes: pre-upgrade 'What's new' modal on the spoke's manual Upgrade button",
+        "url": "https://github.com/hivecommons/hive/issues/11066",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "ux",
+            "size/M",
+            "kind/feature",
+            "claimed"
+        ],
+        "created_at": "2026-10-08T19:38:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [Epic] What's new on upgrade: show the release notes between the running version and the offered one",
+        "url": "https://github.com/hivecommons/hive/issues/11064",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "ux",
+            "kind/feature",
+            "priority/important-soon",
+            "Epic",
+            "hive/likely-done",
+            "hive/verified-open",
+            "claimed"
+        ],
+        "created_at": "2026-10-08T19:38:40Z"
     },
     {
         "repo": "kaito-project/kaito",
