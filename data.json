@@ -22589,7 +22589,8 @@
         "url": "https://github.com/helm/helm/issues/31904",
         "labels": [
             "help wanted",
-            "feature"
+            "feature",
+            "Stale"
         ],
         "created_at": "2026-03-05T15:53:08Z"
     },
@@ -28616,6 +28617,19 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "ClickHouse spans table omits schema_url, flags and dropped counts from the OTLP span",
+        "url": "https://github.com/jaegertracing/jaeger/issues/9789",
+        "labels": [
+            "help wanted",
+            "area/storage",
+            "storage/clickhouse"
+        ],
+        "created_at": "2026-10-07T22:51:33Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Explain every exclusion in the storage integration capabilities skip lists",
         "url": "https://github.com/jaegertracing/jaeger/issues/9788",
         "labels": [
@@ -28785,20 +28799,6 @@
             "help wanted"
         ],
         "created_at": "2021-10-05T19:12:32Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Improve Query Performance of GetTrace API for ES data source",
-        "url": "https://github.com/jaegertracing/jaeger/issues/2941",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "storage/elasticsearch",
-            "performance"
-        ],
-        "created_at": "2021-04-16T13:58:48Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
@@ -30830,42 +30830,17 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b dashboard: repo card issue counter disagrees with rendered issue list (18 vs 13); no scroll for long lists",
-        "url": "https://github.com/hivecommons/hive/issues/10998",
+        "title": "[quality] coverage-reporting: integration smoke lanes emit no coverprofile \u2014 e2e coverage is unmeasurable",
+        "url": "https://github.com/hivecommons/hive/issues/11006",
         "labels": [
             "help wanted",
+            "quality",
+            "testing",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "agent/quality",
             "hive/covered-by-pr"
         ],
-        "created_at": "2026-10-07T21:59:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b dashboard: v6 still renders the Platform section that v5 dropped in #10143",
-        "url": "https://github.com/hivecommons/hive/issues/10992",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-07T21:44:15Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[CI runner canary] self-hosted runner pool unhealthy",
-        "url": "https://github.com/hivecommons/hive/issues/10987",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/critical-urgent",
-            "ci-failure",
-            "ci",
-            "hive/covered-by-pr",
-            "ci-runner-canary"
-        ],
-        "created_at": "2026-10-07T19:51:54Z"
+        "created_at": "2026-10-08T00:40:37Z"
     },
     {
         "repo": "hivecommons/hive",
