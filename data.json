@@ -867,7 +867,8 @@
             "help wanted",
             "good first issue",
             "area/agent",
-            "triage"
+            "triage",
+            "QA: pass"
         ],
         "created_at": "2024-06-05T07:58:55Z"
     },
@@ -1895,21 +1896,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[UI] YouTube video fails to load with Error 153 in 'The Cloud Native Playground' modal",
-        "url": "https://github.com/meshery/meshery/issues/20118",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "language/javascript",
-            "component/ui",
-            "framework/react"
-        ],
-        "created_at": "2026-06-18T00:11:00Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[UI] Improve notification content formatting and spacing",
         "url": "https://github.com/meshery/meshery/issues/20044",
         "labels": [
@@ -2154,6 +2140,22 @@
             "language/go"
         ],
         "created_at": "2025-03-11T09:09:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
+        "url": "https://github.com/meshery/meshery/issues/13426",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "issue/willfix",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2025-01-31T17:39:55Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2596,19 +2598,6 @@
             "triage/accepted"
         ],
         "created_at": "2021-04-13T18:16:11Z"
-    },
-    {
-        "repo": "metal3-io/baremetal-operator",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "`get-hardware-details` accepts Ironic credentials on the command line",
-        "url": "https://github.com/metal3-io/baremetal-operator/issues/3545",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-08-20T14:04:01Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4782,23 +4771,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "LDAP objectGUID uuid decoder ignored in user-attribute-ldap-mapper on Keycloak 26.8.0",
-        "url": "https://github.com/keycloak/keycloak/issues/53608",
-        "labels": [
-            "kind/bug",
-            "area/ldap",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-10-06T12:58:19Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "inputType cannot be set to hidden in admin console",
         "url": "https://github.com/keycloak/keycloak/issues/53558",
         "labels": [
@@ -5157,23 +5129,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "IdpDetectExistingBrokerUserAuthenticator misses cross-browser account-link verification handling implemented in IdpCreateUserIfUniqueAuthenticator",
-        "url": "https://github.com/keycloak/keycloak/issues/52604",
-        "labels": [
-            "area/authentication",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn"
-        ],
-        "created_at": "2026-09-10T07:01:08Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "SecureRedirectUrisEnforcerExecutor enforces PostLogoutRedirectURIs only on CRUD operations",
         "url": "https://github.com/keycloak/keycloak/issues/52578",
         "labels": [
@@ -5286,6 +5241,41 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-01T18:08:02Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "LDAP-Sync does not report error if authentification fails",
+        "url": "https://github.com/keycloak/keycloak/issues/52293",
+        "labels": [
+            "kind/bug",
+            "area/ldap",
+            "help wanted",
+            "team/core-iam",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-09-01T16:20:08Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Security Admin console sends all client scopes on client update: May result in a blocked reqeuest due to request size",
+        "url": "https://github.com/keycloak/keycloak/issues/52236",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-08-31T14:16:23Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10118,18 +10108,6 @@
             "kind/bug"
         ],
         "created_at": "2025-09-16T09:53:15Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "feat(kube play): flag to specify resources (pods, secrets, volumes) labels",
-        "url": "https://github.com/podman-container-tools/podman/issues/26450",
-        "labels": [
-            "Good First Issue",
-            "kind/feature"
-        ],
-        "created_at": "2025-06-17T10:28:27Z"
     },
     {
         "repo": "podman-container-tools/podman",
@@ -15296,19 +15274,6 @@
         "repo": "etcd-io/etcd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "lease comparison in txn bug",
-        "url": "https://github.com/etcd-io/etcd/issues/20773",
-        "labels": [
-            "type/bug",
-            "help wanted",
-            "stage/triaged"
-        ],
-        "created_at": "2025-10-08T07:55:28Z"
-    },
-    {
-        "repo": "etcd-io/etcd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "[robustness tests] Consider adding Keys, Count to Kubernetes traffic generator",
         "url": "https://github.com/etcd-io/etcd/issues/20623",
         "labels": [
@@ -17752,37 +17717,12 @@
         "repo": "kgateway-dev/kgateway",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Unregistered tool reference in the GO_TEST_COVERAGE Makefile variable",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/12575",
-        "labels": [
-            "Good First Issue",
-            "stale",
-            "help wanted"
-        ],
-        "created_at": "2025-10-09T19:56:55Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Replace runtime TLS validation with API-level CEL rules",
         "url": "https://github.com/kgateway-dev/kgateway/issues/12338",
         "labels": [
             "Good First Issue"
         ],
         "created_at": "2025-09-19T02:42:17Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Add Status Condition Messages to Gateway for Invalid Listeners",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/11982",
-        "labels": [
-            "Good First Issue",
-            "stale"
-        ],
-        "created_at": "2025-08-13T09:55:51Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -17807,19 +17747,6 @@
             "help wanted"
         ],
         "created_at": "2026-03-16T07:47:51Z"
-    },
-    {
-        "repo": "kgateway-dev/kgateway",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Setting Max Request Size Forces Buffering (In Memory)",
-        "url": "https://github.com/kgateway-dev/kgateway/issues/13642",
-        "labels": [
-            "stale",
-            "help wanted",
-            "kind/ingress-nginx"
-        ],
-        "created_at": "2026-03-11T16:33:33Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -23439,7 +23366,7 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[Enhancement] Upgrade Kubernetes dependency version across the KubeVela ecosystem (target: v1.35.x)",
+        "title": "[Enhancement] Upgrade Kubernetes dependency version across the KubeVela ecosystem (target: v1.37.x)",
         "url": "https://github.com/kubevela/kubevela/issues/7238",
         "labels": [
             "type/feature",
@@ -25033,6 +24960,18 @@
             "help wanted"
         ],
         "created_at": "2022-03-02T19:40:51Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Allow disabling the authz bootstrap hook while keeping authz enabled",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4910",
+        "labels": [
+            "good first issue",
+            "Type/Improvement"
+        ],
+        "created_at": "2026-10-08T05:49:21Z"
     },
     {
         "repo": "openchoreo/openchoreo",
