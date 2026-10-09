@@ -5129,22 +5129,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Organization group roles are not automapped to realm/resource_access",
-        "url": "https://github.com/keycloak/keycloak/issues/52764",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal",
-            "area/organizations"
-        ],
-        "created_at": "2026-09-15T08:44:17Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "OTPFormAuthenticator succeeds with credential type 'otp', but the terminal LOGIN event does not retain it; WebAuthn does.",
         "url": "https://github.com/keycloak/keycloak/issues/52725",
         "labels": [
@@ -5257,6 +5241,23 @@
             "team/core-authn"
         ],
         "created_at": "2026-09-01T18:08:04Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "NullPointerException parsing an EC JWK missing the \"x\" or \"y\" coordinate",
+        "url": "https://github.com/keycloak/keycloak/issues/52294",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-01T18:08:02Z"
     },
     {
         "repo": "keylime/keylime",
@@ -9732,6 +9733,30 @@
         "repo": "lima-vm/lima",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "`limactl menu` should return to the menu after invoking an action (\"Shell\", \"Delete\", etc.)",
+        "url": "https://github.com/lima-vm/lima/issues/5593",
+        "labels": [
+            "good first issue",
+            "area/cli"
+        ],
+        "created_at": "2026-10-09T12:28:37Z"
+    },
+    {
+        "repo": "lima-vm/lima",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "`limactl menu`: SSH port information is not so useful",
+        "url": "https://github.com/lima-vm/lima/issues/5592",
+        "labels": [
+            "good first issue",
+            "area/cli"
+        ],
+        "created_at": "2026-10-09T12:26:27Z"
+    },
+    {
+        "repo": "lima-vm/lima",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "change `type Foo = string` to `type Foo string` for strict type checking",
         "url": "https://github.com/lima-vm/lima/issues/5142",
         "labels": [
@@ -9739,19 +9764,6 @@
             "kind/refactoring"
         ],
         "created_at": "2026-06-22T07:05:53Z"
-    },
-    {
-        "repo": "lima-vm/lima",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Improve logging of essential and optional requirements in hostagent logs",
-        "url": "https://github.com/lima-vm/lima/issues/4553",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "area/cli"
-        ],
-        "created_at": "2026-01-29T17:23:22Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -10358,17 +10370,6 @@
             "Network"
         ],
         "created_at": "2025-10-30T09:31:43Z"
-    },
-    {
-        "repo": "virtual-kubelet/virtual-kubelet",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "There is some `UpdatePod` API calls is unnecessary",
-        "url": "https://github.com/virtual-kubelet/virtual-kubelet/issues/1364",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2025-12-30T06:13:46Z"
     },
     {
         "repo": "virtual-kubelet/virtual-kubelet",
@@ -11886,6 +11887,17 @@
         "created_at": "2020-09-11T05:56:46Z"
     },
     {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "chore: Polish HAMi chart values comments(docs)",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/3197",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-10-09T08:01:12Z"
+    },
+    {
         "repo": "karmada-io/karmada",
         "tier": "Graduated",
         "lang": "Go",
@@ -12096,6 +12108,18 @@
         "repo": "k0sproject/k0s",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Allows setting historyMax in helm.k0sproject.io/v1beta1 Chart",
+        "url": "https://github.com/k0sproject/k0s/issues/8446",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-10-06T18:20:22Z"
+    },
+    {
+        "repo": "k0sproject/k0s",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Move internal-only packages under internal/",
         "url": "https://github.com/k0sproject/k0s/issues/8371",
         "labels": [
@@ -12159,20 +12183,6 @@
             "component/kube-router"
         ],
         "created_at": "2025-05-26T22:41:23Z"
-    },
-    {
-        "repo": "k0sproject/k0s",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Enable lease counting on konnectivity",
-        "url": "https://github.com/k0sproject/k0s/issues/5736",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "area/controlplane",
-            "component/konnectivity"
-        ],
-        "created_at": "2025-04-09T12:32:57Z"
     },
     {
         "repo": "k0sproject/k0s",
@@ -17735,8 +17745,7 @@
         "title": "Add Status Condition Messages to Gateway for Invalid Listeners",
         "url": "https://github.com/kgateway-dev/kgateway/issues/11982",
         "labels": [
-            "Good First Issue",
-            "stale"
+            "Good First Issue"
         ],
         "created_at": "2025-08-13T09:55:51Z"
     },
@@ -19866,6 +19875,22 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
+        "title": "fix(rest): JSON deserialization errors on ccompat endpoints return v3 ProblemDetails instead of the Confluent error shape",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/10521",
+        "labels": [
+            "type/bug",
+            "Beginner Friendly",
+            "area/rest",
+            "area/rest/ccompat",
+            "area/sdk",
+            "good first issue"
+        ],
+        "created_at": "2026-10-09T15:46:14Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
         "title": "ccompat: return compatibility messages when verbose=true",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/10475",
         "labels": [
@@ -20894,42 +20919,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-HANDLEBARS-20574183]",
-        "url": "https://github.com/backstage/backstage/issues/36083",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-09T00:15:59Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-HANDLEBARS-20557395]",
-        "url": "https://github.com/backstage/backstage/issues/36066",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-07T16:21:32Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-HANDLEBARS-20562144]",
-        "url": "https://github.com/backstage/backstage/issues/36065",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-07T16:21:22Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-GRAPHQLTOOLSUTILS-20537055]",
         "url": "https://github.com/backstage/backstage/issues/36027",
         "labels": [
@@ -21249,6 +21238,42 @@
             "help wanted"
         ],
         "created_at": "2026-09-06T12:07:27Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635218]",
+        "url": "https://github.com/backstage/backstage/issues/35550",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-06T12:07:27Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635216]",
+        "url": "https://github.com/backstage/backstage/issues/35549",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-06T12:07:26Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635214]",
+        "url": "https://github.com/backstage/backstage/issues/35548",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-09-06T12:07:26Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -23317,21 +23342,6 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "op.#List causes nil pointer dereference in KubeVela 1.10.7 when listing namespace-scoped resources",
-        "url": "https://github.com/kubevela/kubevela/issues/7280",
-        "labels": [
-            "type/bug",
-            "help wanted",
-            "effort/medium",
-            "area/workflow",
-            "area/builtin"
-        ],
-        "created_at": "2026-08-04T12:30:06Z"
-    },
-    {
-        "repo": "kubevela/kubevela",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "ResourceTracker GC deletes managed resources after rapid A -> B -> A spec updates",
         "url": "https://github.com/kubevela/kubevela/issues/7278",
         "labels": [
@@ -24045,18 +24055,6 @@
             "help wanted"
         ],
         "created_at": "2026-05-14T21:04:16Z"
-    },
-    {
-        "repo": "shipwright-io/build",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[CLEANUP] Moving the PipelineRun test logic from CI to Makefile and invoking them from the CI",
-        "url": "https://github.com/shipwright-io/build/issues/2134",
-        "labels": [
-            "kind/feature",
-            "good first issue"
-        ],
-        "created_at": "2026-03-13T21:16:17Z"
     },
     {
         "repo": "shipwright-io/build",
@@ -24967,18 +24965,6 @@
             "Type/Improvement"
         ],
         "created_at": "2026-10-08T05:49:21Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "k3d update doesn't target locally built controller image",
-        "url": "https://github.com/openchoreo/openchoreo/issues/4892",
-        "labels": [
-            "good first issue",
-            "Type/Bug"
-        ],
-        "created_at": "2026-10-05T09:25:26Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -29246,21 +29232,6 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Provide the complete Dashboard schema",
-        "url": "https://github.com/perses/perses/issues/3596",
-        "labels": [
-            "help wanted",
-            "api",
-            "priority/P2",
-            "cli",
-            "cue"
-        ],
-        "created_at": "2025-11-18T16:47:29Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Plugin request: Parca",
         "url": "https://github.com/perses/perses/issues/3592",
         "labels": [
@@ -30768,211 +30739,260 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 feature: Left-justify Governor settings button",
-        "url": "https://github.com/hivecommons/hive/issues/11190",
+        "title": "\u2728 feature: Make on/off button status more clear",
+        "url": "https://github.com/hivecommons/hive/issues/11328",
         "labels": [
             "enhancement",
             "help wanted",
             "needs-triage"
         ],
-        "created_at": "2026-10-09T03:37:22Z"
+        "created_at": "2026-10-09T21:16:55Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 feature: Add quality agent coverage % to dashboard",
-        "url": "https://github.com/hivecommons/hive/issues/11150",
+        "title": "[shared-ci] overlayfs-exec-guard failing across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/11327",
+        "labels": [
+            "help wanted",
+            "ci",
+            "needs-signal",
+            "claimed"
+        ],
+        "created_at": "2026-10-09T21:14:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Close-on-merge backfill burns core quota after Track C efficiency work",
+        "url": "https://github.com/hivecommons/hive/issues/11324",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-09T20:52:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Move upgraded banner into dashboard alert stack",
+        "url": "https://github.com/hivecommons/hive/issues/11320",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr",
+            "dashboard"
+        ],
+        "created_at": "2026-10-09T20:47:20Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Advisory digest subsection formatting differs from siblings",
+        "url": "https://github.com/hivecommons/hive/issues/11319",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr",
+            "dashboard"
+        ],
+        "created_at": "2026-10-09T20:46:59Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Close-on-merge parses date-stamped branches as issue numbers",
+        "url": "https://github.com/hivecommons/hive/issues/11317",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-09T20:43:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Trusted-author automerge treats sentinel notices as excluded labels",
+        "url": "https://github.com/hivecommons/hive/issues/11316",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-09T20:43:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Automerge records deterministic merge refusals as unknown effects",
+        "url": "https://github.com/hivecommons/hive/issues/11315",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-09T20:43:43Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Automerge required-check gate misses GraphQL branch protection contexts",
+        "url": "https://github.com/hivecommons/hive/issues/11314",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-09T20:43:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[RFC] [v5] Prow compatible mode: let an organisation's acceptance label (triage/accepted) approve work for Hive",
+        "url": "https://github.com/hivecommons/hive/issues/11313",
         "labels": [
             "enhancement",
             "help wanted",
-            "needs-triage"
+            "architecture discussion",
+            "hold"
         ],
-        "created_at": "2026-10-08T22:22:54Z"
+        "created_at": "2026-10-09T20:28:36Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: Issues opened by me are being closed too soon",
-        "url": "https://github.com/hivecommons/hive/issues/11119",
+        "title": "\ud83d\udc1b bug: on v6, `label_driven: true` has no effect (the setting never reaches the un-park sweep)",
+        "url": "https://github.com/hivecommons/hive/issues/11312",
+        "labels": [
+            "help wanted",
+            "claimed"
+        ],
+        "created_at": "2026-10-09T20:27:26Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Add overview test coverage KPI tile",
+        "url": "https://github.com/hivecommons/hive/issues/11303",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "hive/covered-by-pr",
+            "dashboard"
+        ],
+        "created_at": "2026-10-09T20:05:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b dashboard: on a Podman hive installed before the upgrade bridge, \"Upgrade to <sha>\" stays disabled and the reason is hidden and names the wrong fix",
+        "url": "https://github.com/hivecommons/hive/issues/11282",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-09T18:45:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Audit sensitive badge should reveal matching entries",
+        "url": "https://github.com/hivecommons/hive/issues/11271",
+        "labels": [
+            "help wanted",
+            "hive/covered-by-pr"
+        ],
+        "created_at": "2026-10-09T18:16:35Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] compliance export: serve /api/compliance/export inline by default and render in-app (Safari download prompt)",
+        "url": "https://github.com/hivecommons/hive/issues/11265",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-09T17:59:33Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] dashboard: replace client-synthesized downloads (layout JSON, PR CSV, evidence, inception ZIP, agent YAML, backup) with in-app export",
+        "url": "https://github.com/hivecommons/hive/issues/11264",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-09T17:58:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] hub: replace native prompt fallback in My Hives copy and render hive-access CSV export in-app",
+        "url": "https://github.com/hivecommons/hive/issues/11263",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-09T17:58:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: Overlapping and duplicate issues/PRs",
+        "url": "https://github.com/hivecommons/hive/issues/11239",
         "labels": [
             "bug",
             "help wanted",
-            "needs-triage"
+            "triage/accepted",
+            "hive/likely-done",
+            "needs-reporter-confirmation"
         ],
-        "created_at": "2026-10-08T20:15:01Z"
+        "created_at": "2026-10-09T13:33:40Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 Load repository-carried knowledge from a reviewable .hive/wiki directory",
-        "url": "https://github.com/hivecommons/hive/issues/11104",
+        "title": "[shared-ci] test (dashboard shuffle 2/2) failing across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/11238",
         "labels": [
             "help wanted",
-            "triage/accepted",
-            "kind/feature",
+            "kind/test",
+            "ci",
             "hive/covered-by-pr"
         ],
-        "created_at": "2026-10-08T20:04:13Z"
+        "created_at": "2026-10-09T13:29:40Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 [Epic] Knowledge lifecycle & per-agent scoping",
-        "url": "https://github.com/hivecommons/hive/issues/11100",
+        "title": "[quality] coverage-hourly gate counts gate-only (coverage-skipped) runs as covering the next commit",
+        "url": "https://github.com/hivecommons/hive/issues/11230",
         "labels": [
             "help wanted",
-            "triage/accepted",
-            "kind/feature",
-            "priority/important-soon",
-            "Epic",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-08T20:04:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 review-pipeline: route below-the-line findings to GitHub Projects / Linear / Jira with fingerprint dedup",
-        "url": "https://github.com/hivecommons/hive/issues/11089",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "area/core",
-            "size/L",
-            "kind/feature"
-        ],
-        "created_at": "2026-10-08T19:43:46Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 review-pipeline: 'Severity & backlog' settings \u2014 blocking line presets and backlog destination",
-        "url": "https://github.com/hivecommons/hive/issues/11088",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "ux",
-            "size/M",
-            "kind/feature",
+            "quality",
+            "testing",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "agent/quality",
             "hive/covered-by-pr"
         ],
-        "created_at": "2026-10-08T19:43:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 [Epic] Review pipeline view and non-blocking nit backlog: show where every PR is in review and route minor findings to follow-up work instead of blocking merge",
-        "url": "https://github.com/hivecommons/hive/issues/11085",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "ux",
-            "kind/feature",
-            "priority/important-soon",
-            "Epic",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-08T19:43:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 compliance: posture history, evidence exports and owner attestations panels",
-        "url": "https://github.com/hivecommons/hive/issues/11081",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "ux",
-            "size/M",
-            "kind/feature",
-            "claimed"
-        ],
-        "created_at": "2026-10-08T19:42:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 [Epic] Compliance tab: SOC 2 / FedRAMP / ISO 27001 control settings, posture checks and evidence exports in Settings",
-        "url": "https://github.com/hivecommons/hive/issues/11077",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "ux",
-            "kind/feature",
-            "priority/important-soon",
-            "Epic",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-08T19:42:32Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 knowledge-connectors: one-way publish mirror \u2014 render curator-promoted facts as pages in Confluence/Notion/SharePoint/Google Docs",
-        "url": "https://github.com/hivecommons/hive/issues/11076",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "size/L",
-            "kind/feature",
-            "claimed"
-        ],
-        "created_at": "2026-10-08T19:41:15Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 knowledge-connectors: Notion connector",
-        "url": "https://github.com/hivecommons/hive/issues/11071",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "size/M",
-            "kind/feature",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-08T19:41:08Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 knowledge-connectors: Confluence connector (Cloud + Data Center) \u2014 reference implementation",
-        "url": "https://github.com/hivecommons/hive/issues/11070",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "size/M",
-            "kind/feature",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-08T19:41:06Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 knowledge-connectors: Connector interface, registry, sync scheduler; migrate git_sources and documents onto it",
-        "url": "https://github.com/hivecommons/hive/issues/11069",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "size/L",
-            "kind/feature",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-08T19:41:05Z"
+        "created_at": "2026-10-09T12:27:43Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30987,57 +31007,11 @@
             "kind/feature",
             "priority/important-soon",
             "Epic",
-            "hive/verified-open"
+            "needs-human",
+            "hive/verified-open",
+            "needs-reporter-confirmation"
         ],
         "created_at": "2026-10-08T19:41:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 review-evidence: dashboard 'Download evidence' action and merge comment pointer",
-        "url": "https://github.com/hivecommons/hive/issues/11062",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "ux",
-            "size/M",
-            "kind/feature",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-08T19:37:08Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 review-evidence: GET /api/review/evidence and hivectl review evidence",
-        "url": "https://github.com/hivecommons/hive/issues/11061",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "area/cli",
-            "size/M",
-            "kind/feature",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-08T19:37:07Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 [Epic] Per-PR review evidence bundle: durable, exportable, verifiable record of what Hive reviewed and why it merged",
-        "url": "https://github.com/hivecommons/hive/issues/11058",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "kind/feature",
-            "priority/important-soon",
-            "Epic",
-            "hive/verified-open"
-        ],
-        "created_at": "2026-10-08T19:36:17Z"
     },
     {
         "repo": "hivecommons/hive",
