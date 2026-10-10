@@ -8850,19 +8850,6 @@
         "repo": "velero-io/velero",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Publish releases to winget-pkgs",
-        "url": "https://github.com/velero-io/velero/issues/9093",
-        "labels": [
-            "Good first issue",
-            "staled",
-            "Area/WindowsSupport"
-        ],
-        "created_at": "2025-07-17T11:02:34Z"
-    },
-    {
-        "repo": "velero-io/velero",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Log warning instead of error when GCP disk description does not contain JSON",
         "url": "https://github.com/velero-io/velero/issues/3672",
         "labels": [
@@ -30739,114 +30726,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 feature: Make on/off button status more clear",
-        "url": "https://github.com/hivecommons/hive/issues/11328",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "needs-triage"
-        ],
-        "created_at": "2026-10-09T21:16:55Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[shared-ci] overlayfs-exec-guard failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/11327",
+        "title": "[Coverage] packages below 90% threshold",
+        "url": "https://github.com/hivecommons/hive/issues/11394",
         "labels": [
             "help wanted",
-            "ci",
-            "needs-signal",
+            "kind/bug",
+            "ci-coverage",
             "claimed"
         ],
-        "created_at": "2026-10-09T21:14:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b Close-on-merge backfill burns core quota after Track C efficiency work",
-        "url": "https://github.com/hivecommons/hive/issues/11324",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-09T20:52:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b Move upgraded banner into dashboard alert stack",
-        "url": "https://github.com/hivecommons/hive/issues/11320",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr",
-            "dashboard"
-        ],
-        "created_at": "2026-10-09T20:47:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b Advisory digest subsection formatting differs from siblings",
-        "url": "https://github.com/hivecommons/hive/issues/11319",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr",
-            "dashboard"
-        ],
-        "created_at": "2026-10-09T20:46:59Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b Close-on-merge parses date-stamped branches as issue numbers",
-        "url": "https://github.com/hivecommons/hive/issues/11317",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-09T20:43:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b Trusted-author automerge treats sentinel notices as excluded labels",
-        "url": "https://github.com/hivecommons/hive/issues/11316",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-09T20:43:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b Automerge records deterministic merge refusals as unknown effects",
-        "url": "https://github.com/hivecommons/hive/issues/11315",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-09T20:43:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b Automerge required-check gate misses GraphQL branch protection contexts",
-        "url": "https://github.com/hivecommons/hive/issues/11314",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-09T20:43:42Z"
+        "created_at": "2026-10-10T02:01:52Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30866,45 +30754,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: on v6, `label_driven: true` has no effect (the setting never reaches the un-park sweep)",
-        "url": "https://github.com/hivecommons/hive/issues/11312",
-        "labels": [
-            "help wanted",
-            "claimed"
-        ],
-        "created_at": "2026-10-09T20:27:26Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 Add overview test coverage KPI tile",
-        "url": "https://github.com/hivecommons/hive/issues/11303",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "hive/covered-by-pr",
-            "dashboard"
-        ],
-        "created_at": "2026-10-09T20:05:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b dashboard: on a Podman hive installed before the upgrade bridge, \"Upgrade to <sha>\" stays disabled and the reason is hidden and names the wrong fix",
-        "url": "https://github.com/hivecommons/hive/issues/11282",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-09T18:45:58Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83d\udc1b Audit sensitive badge should reveal matching entries",
         "url": "https://github.com/hivecommons/hive/issues/11271",
         "labels": [
@@ -30912,42 +30761,6 @@
             "hive/covered-by-pr"
         ],
         "created_at": "2026-10-09T18:16:35Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] compliance export: serve /api/compliance/export inline by default and render in-app (Safari download prompt)",
-        "url": "https://github.com/hivecommons/hive/issues/11265",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-10-09T17:59:33Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] dashboard: replace client-synthesized downloads (layout JSON, PR CSV, evidence, inception ZIP, agent YAML, backup) with in-app export",
-        "url": "https://github.com/hivecommons/hive/issues/11264",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-10-09T17:58:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] hub: replace native prompt fallback in My Hives copy and render hive-access CSV export in-app",
-        "url": "https://github.com/hivecommons/hive/issues/11263",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-10-09T17:58:34Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30963,71 +30776,6 @@
             "needs-reporter-confirmation"
         ],
         "created_at": "2026-10-09T13:33:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[shared-ci] test (dashboard shuffle 2/2) failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/11238",
-        "labels": [
-            "help wanted",
-            "kind/test",
-            "ci",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-09T13:29:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[quality] coverage-hourly gate counts gate-only (coverage-skipped) runs as covering the next commit",
-        "url": "https://github.com/hivecommons/hive/issues/11230",
-        "labels": [
-            "help wanted",
-            "quality",
-            "testing",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "agent/quality",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-09T12:27:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 [Epic] Knowledge connectors: sync Notion, Confluence, SharePoint, Google Drive and GitHub Wiki into the hive knowledge base",
-        "url": "https://github.com/hivecommons/hive/issues/11068",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "area/core",
-            "kind/feature",
-            "priority/important-soon",
-            "Epic",
-            "needs-human",
-            "hive/verified-open",
-            "needs-reporter-confirmation"
-        ],
-        "created_at": "2026-10-08T19:41:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[quality] coverage-reporting: integration smoke lanes emit no coverprofile \u2014 e2e coverage is unmeasurable",
-        "url": "https://github.com/hivecommons/hive/issues/11006",
-        "labels": [
-            "help wanted",
-            "quality",
-            "testing",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "agent/quality",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-08T00:40:37Z"
     },
     {
         "repo": "hivecommons/hive",
