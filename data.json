@@ -30726,15 +30726,30 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Coverage] packages below 90% threshold",
-        "url": "https://github.com/hivecommons/hive/issues/11394",
+        "title": "[DCO] post-merge trailer failures on v5",
+        "url": "https://github.com/hivecommons/hive/issues/11412",
         "labels": [
             "help wanted",
-            "kind/bug",
-            "ci-coverage",
+            "ci-dco",
             "claimed"
         ],
-        "created_at": "2026-10-10T02:01:52Z"
+        "created_at": "2026-10-10T11:25:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[ci-maintainer] v6 Top-up red since 2026-10-09T17:42Z (57/60 runs, v6 60 behind): v5\u2192v6 forward-merge conflicts in 16 files (47 hunks) \u2014 semantic automerge/sentinel conflicts need a human merge commit",
+        "url": "https://github.com/hivecommons/hive/issues/11403",
+        "labels": [
+            "help wanted",
+            "agent/ci-maintainer",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "ci",
+            "help-wanted",
+            "claimed"
+        ],
+        "created_at": "2026-10-10T09:28:12Z"
     },
     {
         "repo": "hivecommons/hive",
