@@ -9724,21 +9724,9 @@
         "url": "https://github.com/lima-vm/lima/issues/5593",
         "labels": [
             "good first issue",
-            "area/cli"
+            "area/cli/menu"
         ],
         "created_at": "2026-10-09T12:28:37Z"
-    },
-    {
-        "repo": "lima-vm/lima",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "`limactl menu`: SSH port information is not so useful",
-        "url": "https://github.com/lima-vm/lima/issues/5592",
-        "labels": [
-            "good first issue",
-            "area/cli"
-        ],
-        "created_at": "2026-10-09T12:26:27Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -30726,14 +30714,121 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[DCO] post-merge trailer failures on v5",
-        "url": "https://github.com/hivecommons/hive/issues/11412",
+        "title": "\ud83c\udf31 upstream watch (follow-up to #11433): badge for every fork, Check upstream now, immediate first check from the fork point, per-fork schedule, docs",
+        "url": "https://github.com/hivecommons/hive/issues/11450",
         "labels": [
             "help wanted",
-            "ci-dco",
-            "claimed"
+            "hold"
         ],
-        "created_at": "2026-10-10T11:25:40Z"
+        "created_at": "2026-10-10T16:27:43Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b close-on-merge: a person's reopen is undone when GitHub (not Hive) closed the issue at merge",
+        "url": "https://github.com/hivecommons/hive/issues/11449",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-10T16:27:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b upstream watch: since #11437, rate-limit waits can hold the governor eval tick for many minutes (pass has no deadline)",
+        "url": "https://github.com/hivecommons/hive/issues/11448",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-10T16:14:20Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 issue freshness (5/5): document the issue-freshness checks",
+        "url": "https://github.com/hivecommons/hive/issues/11447",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-10T15:29:52Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 issue freshness (4/5): hub keeps a starting point per contributor task; the relay reports whether the issue changed",
+        "url": "https://github.com/hivecommons/hive/issues/11446",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-10T15:29:51Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 issue freshness (3/5): hive agents re-check before requesting a PR; Hive refuses PR requests for closed issues",
+        "url": "https://github.com/hivecommons/hive/issues/11445",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-10T15:29:50Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 issue freshness (2/5): contributor agents re-check the issue before opening a PR or printing a verdict",
+        "url": "https://github.com/hivecommons/hive/issues/11444",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-10T15:29:49Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 issue freshness (1/5): agents read the issue's comments when they start",
+        "url": "https://github.com/hivecommons/hive/issues/11443",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-10T15:29:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 Detect issue changes made while an agent is working on it",
+        "url": "https://github.com/hivecommons/hive/issues/11442",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-10T15:29:47Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 upstream watch: check the upstream license against the fork's before surfacing changes, and pause with a warning (not legal advice) on a problem",
+        "url": "https://github.com/hivecommons/hive/issues/11438",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-10T14:20:38Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30746,8 +30841,8 @@
             "agent/ci-maintainer",
             "hive/hosted-available-oke-11-placeholder-r05x",
             "ci",
-            "help-wanted",
-            "claimed"
+            "hive/verified-open",
+            "help-wanted"
         ],
         "created_at": "2026-10-10T09:28:12Z"
     },
@@ -30764,18 +30859,6 @@
             "hold"
         ],
         "created_at": "2026-10-09T20:28:36Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b Audit sensitive badge should reveal matching entries",
-        "url": "https://github.com/hivecommons/hive/issues/11271",
-        "labels": [
-            "help wanted",
-            "hive/covered-by-pr"
-        ],
-        "created_at": "2026-10-09T18:16:35Z"
     },
     {
         "repo": "hivecommons/hive",
