@@ -30714,78 +30714,63 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 Per-agent Variables tab; make quality coverage goal (91%) configurable",
-        "url": "https://github.com/hivecommons/hive/issues/11453",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-10-10T16:46:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 upstream watch (follow-up to #11433): badge for every fork, Check upstream now, immediate first check from the fork point, per-fork schedule, docs",
-        "url": "https://github.com/hivecommons/hive/issues/11450",
+        "title": "\ud83d\udc1b dashboard: needs-decision / needs-direction / needs-spec issues still show as grey FILTERED on repo cards (v6)",
+        "url": "https://github.com/hivecommons/hive/issues/11490",
         "labels": [
             "help wanted",
-            "hold"
+            "kind/bug"
         ],
-        "created_at": "2026-10-10T16:27:43Z"
+        "created_at": "2026-10-11T02:58:11Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b close-on-merge: a person's reopen is undone when GitHub (not Hive) closed the issue at merge",
-        "url": "https://github.com/hivecommons/hive/issues/11449",
+        "title": "[quality] automerge merged #11471 with 27 failing checks: known-empty required set is treated as server-enforced on unprotected v6",
+        "url": "https://github.com/hivecommons/hive/issues/11489",
         "labels": [
             "help wanted",
-            "hold"
+            "quality",
+            "testing",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "agent/quality",
+            "claimed"
         ],
-        "created_at": "2026-10-10T16:27:42Z"
+        "created_at": "2026-10-11T02:48:18Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b upstream watch: since #11437, rate-limit waits can hold the governor eval tick for many minutes (pass has no deadline)",
-        "url": "https://github.com/hivecommons/hive/issues/11448",
+        "title": "[quality] notice-drift gate reports go-licenses source-lookup timeouts (Source: Unknown) as NOTICE drift",
+        "url": "https://github.com/hivecommons/hive/issues/11486",
         "labels": [
             "help wanted",
-            "hold"
+            "quality",
+            "testing",
+            "hive/hosted-available-oke-11-placeholder-r05x",
+            "agent/quality",
+            "hive/covered-by-pr"
         ],
-        "created_at": "2026-10-10T16:14:20Z"
+        "created_at": "2026-10-11T02:43:18Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83c\udf31 issue freshness (2/2): contributor agents re-check the issue before opening a PR or printing a verdict",
-        "url": "https://github.com/hivecommons/hive/issues/11444",
+        "title": "\ud83c\udf31 upstream watch: a fork's first pass starts where it last matched upstream (or at `start_from`), and a truncated listing never advances the watermark",
+        "url": "https://github.com/hivecommons/hive/issues/11476",
         "labels": [
             "help wanted",
-            "hold"
+            "claimed"
         ],
-        "created_at": "2026-10-10T15:29:49Z"
+        "created_at": "2026-10-10T21:49:04Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83c\udf31 issue freshness (1/2): agents read the issue's comments when they start",
-        "url": "https://github.com/hivecommons/hive/issues/11443",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-10T15:29:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 Detect issue changes made while an agent is working on it",
+        "title": "\ud83c\udf31 [tracker] Detect issue changes made while an agent is working on it",
         "url": "https://github.com/hivecommons/hive/issues/11442",
         "labels": [
             "help wanted",
@@ -30797,53 +30782,12 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83c\udf31 upstream watch: check the upstream license against the fork's before surfacing changes, and pause with a warning (not legal advice) on a problem",
-        "url": "https://github.com/hivecommons/hive/issues/11438",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-10T14:20:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] dashboard: show superseded PRs in Review Queue with a superseded reason",
-        "url": "https://github.com/hivecommons/hive/issues/11430",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-10-10T13:32:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Post-hoc evidence for stable promotion to 8a0539c",
         "url": "https://github.com/hivecommons/hive/issues/11426",
         "labels": [
-            "help wanted",
-            "claimed"
+            "help wanted"
         ],
         "created_at": "2026-10-10T13:27:07Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[ci-maintainer] v6 Top-up red since 2026-10-09T17:42Z (57/60 runs, v6 60 behind): v5\u2192v6 forward-merge conflicts in 16 files (47 hunks) \u2014 semantic automerge/sentinel conflicts need a human merge commit",
-        "url": "https://github.com/hivecommons/hive/issues/11403",
-        "labels": [
-            "help wanted",
-            "agent/ci-maintainer",
-            "hive/hosted-available-oke-11-placeholder-r05x",
-            "ci",
-            "hive/covered-by-pr",
-            "hive/verified-open",
-            "help-wanted"
-        ],
-        "created_at": "2026-10-10T09:28:12Z"
     },
     {
         "repo": "hivecommons/hive",
