@@ -9568,6 +9568,18 @@
         "repo": "lima-vm/lima",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "`limactl menu`: ESC should be supported in the `Actions for <INSTANCE>` screen",
+        "url": "https://github.com/lima-vm/lima/issues/5682",
+        "labels": [
+            "good first issue",
+            "area/cli/menu"
+        ],
+        "created_at": "2026-10-26T08:22:43Z"
+    },
+    {
+        "repo": "lima-vm/lima",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "change `type Foo = string` to `type Foo string` for strict type checking",
         "url": "https://github.com/lima-vm/lima/issues/5142",
         "labels": [
@@ -11674,17 +11686,6 @@
             "kind/feature"
         ],
         "created_at": "2026-10-21T16:00:31Z"
-    },
-    {
-        "repo": "karmada-io/karmada",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "`make update` fails with `goimports: command not found` when `$GOPATH/bin` is not in PATH",
-        "url": "https://github.com/karmada-io/karmada/issues/7973",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-10-23T09:07:54Z"
     },
     {
         "repo": "karmada-io/karmada",
@@ -24828,6 +24829,18 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Change how the trace start time is displayed in the console",
+        "url": "https://github.com/openchoreo/openchoreo/issues/5177",
+        "labels": [
+            "good first issue",
+            "Type/Improvement"
+        ],
+        "created_at": "2026-10-26T05:12:45Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Allow disabling the authz bootstrap hook while keeping authz enabled",
         "url": "https://github.com/openchoreo/openchoreo/issues/4910",
         "labels": [
@@ -28573,18 +28586,6 @@
         "repo": "k8sgpt-ai/k8sgpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "bug: HPA analyzer rejects lowercase scaleTargetRef.kind (e.g. \"statefulset\") as \"not an option\"",
-        "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1860",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-10-21T13:54:47Z"
-    },
-    {
-        "repo": "k8sgpt-ai/k8sgpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Feature]: Add Generic CRD Analyzer Support for Custom Resources",
         "url": "https://github.com/k8sgpt-ai/k8sgpt/issues/1528",
         "labels": [
@@ -28592,33 +28593,6 @@
             "help wanted"
         ],
         "created_at": "2025-06-17T22:25:05Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Update clomonitor list of checked repositories and info",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2658",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "difficulty/easy"
-        ],
-        "created_at": "2026-10-23T20:06:50Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "docs(go): Installation and contributing docs hardcode the Go version",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2652",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "docs",
-            "difficulty/easy"
-        ],
-        "created_at": "2026-10-23T14:52:28Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
@@ -28681,19 +28655,6 @@
             "difficulty/hard"
         ],
         "created_at": "2026-10-22T10:53:45Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Document the requirements and limits of MIG power attribution with dcgm-exporter",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2635",
-        "labels": [
-            "kind/documentation",
-            "help wanted",
-            "difficulty/medium"
-        ],
-        "created_at": "2026-10-22T10:53:26Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
@@ -29029,13 +28990,14 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Support Jaeger v2 in the Jaeger datasource plugin",
-        "url": "https://github.com/perses/perses/issues/4560",
+        "title": "percli plugin generate: scaffold Go SDK and resolve Go dependencies pinned to the percli version",
+        "url": "https://github.com/perses/perses/issues/4645",
         "labels": [
             "help wanted",
-            "plugin"
+            "priority/P2",
+            "cli"
         ],
-        "created_at": "2026-10-07T15:47:52Z"
+        "created_at": "2026-10-26T10:28:22Z"
     },
     {
         "repo": "perses/perses",
@@ -30719,158 +30681,68 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: knowledge primer: dropped facts over the byte cap",
-        "url": "https://github.com/hivecommons/hive/issues/14328",
+        "title": "triage: duplicate and overlapping open issues/PRs to consolidate",
+        "url": "https://github.com/hivecommons/hive/issues/14359",
         "labels": [
             "help wanted",
-            "hive/claimed-by-scanner",
+            "agent/dedupe",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-26T11:28:43Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: agent GitHub API hourly cap reached",
+        "url": "https://github.com/hivecommons/hive/issues/14346",
+        "labels": [
+            "help wanted",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-26T02:04:00Z"
+        "created_at": "2026-10-26T04:28:17Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] ci_poll_nudge: agent kept polling CI on its own PR after the kick: stop-polling nudge sent (2 \u2026",
-        "url": "https://github.com/hivecommons/hive/issues/14327",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-26T01:48:21Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: jsonResponse encode failed",
-        "url": "https://github.com/hivecommons/hive/issues/14325",
+        "title": "[scanner] v5\u2192v6 forward-merge (v6-topup) failing: 109 conflicts incl. the pkg/agent\u2192crux/agent rename",
+        "url": "https://github.com/hivecommons/hive/issues/14340",
         "labels": [
             "help wanted",
             "kind/bug",
-            "needs-triage",
-            "hive/claimed-by-scanner",
-            "fleet-report",
+            "agent/scanner",
+            "ci",
             "hive/selfreport",
-            "trigger:runtime-error",
-            "stage/040-covered-by-pr",
-            "severity:low",
-            "class:unclassified-error-repeated"
+            "stage/045-needs-decision"
         ],
-        "created_at": "2026-10-26T01:12:18Z"
+        "created_at": "2026-10-26T03:13:56Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (correctness): Nested-group GitLab git smart-HTTP paths still extract no repo",
-        "url": "https://github.com/hivecommons/hive/issues/14324",
+        "title": "\ud83d\udc1b contributor image: bob 2.x still gets --auth-method from backends.conf (#8644 only fixed hub-side pod agents)",
+        "url": "https://github.com/hivecommons/hive/issues/14335",
         "labels": [
             "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
+            "needs-triage",
+            "stage/015-triage-needed"
         ],
-        "created_at": "2026-10-26T00:56:11Z"
+        "created_at": "2026-10-26T02:48:11Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Hub orphan sweep (20m) abandons upgrades the spoke is draining (45m) - reported as floating-tag failure",
-        "url": "https://github.com/hivecommons/hive/issues/14323",
+        "title": "\ud83d\udc1b contributor image: bob 2.x still gets --auth-method from backends.conf (#8644 only fixed hub-side pod agents)",
+        "url": "https://github.com/hivecommons/hive/issues/14334",
         "labels": [
             "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
+            "needs-triage",
+            "stage/015-triage-needed"
         ],
-        "created_at": "2026-10-26T00:52:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (intent-alignment): Namespace or project named like a resource segment is truncated",
-        "url": "https://github.com/hivecommons/hive/issues/14321",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-26T00:29:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (security): gitLabProjectResources list is not exhaustive; unknown sub-resources are absorbed into the slug (fails closed)",
-        "url": "https://github.com/hivecommons/hive/issues/14318",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-26T00:27:25Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "dashboard: show age on blocked rows in the activity monitor",
-        "url": "https://github.com/hivecommons/hive/issues/14316",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-26T00:02:31Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (security): Releasing a live supersede adoption orphans an open hive-owned superseding PR",
-        "url": "https://github.com/hivecommons/hive/issues/14311",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-25T23:30:19Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: dashboard chat stops polling after the tab sleeps; !status replies not shown until reload",
-        "url": "https://github.com/hivecommons/hive/issues/14310",
-        "labels": [
-            "bug",
-            "help wanted",
-            "triage/accepted",
-            "hive/claimed-by-scanner",
-            "stage/020-claimed"
-        ],
-        "created_at": "2026-10-25T22:26:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug:  claude agents stall on the Bypass Permissions screen; nothing auto-answers it",
-        "url": "https://github.com/hivecommons/hive/issues/14307",
-        "labels": [
-            "bug",
-            "help wanted",
-            "triage/accepted",
-            "priority/high",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-25T21:45:24Z"
+        "created_at": "2026-10-26T02:47:30Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30910,7 +30782,7 @@
             "help wanted",
             "triage/accepted",
             "approved-direction",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-25T01:31:56Z"
     },
@@ -30924,7 +30796,7 @@
             "help wanted",
             "triage/accepted",
             "approved-direction",
-            "stage/010-actionable"
+            "stage/045-needs-decision"
         ],
         "created_at": "2026-10-23T20:50:58Z"
     },
