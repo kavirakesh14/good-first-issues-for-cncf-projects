@@ -14091,7 +14091,8 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-10-24T22:54:19Z"
     },
@@ -22537,7 +22538,8 @@
         "url": "https://github.com/helm/helm/issues/31505",
         "labels": [
             "help wanted",
-            "feature"
+            "feature",
+            "Stale"
         ],
         "created_at": "2025-11-13T20:29:58Z"
     },
@@ -22690,8 +22692,7 @@
         "url": "https://github.com/helm/helm/issues/11735",
         "labels": [
             "help wanted",
-            "feature",
-            "Stale"
+            "feature"
         ],
         "created_at": "2023-01-17T10:01:42Z"
     },
@@ -30718,29 +30719,173 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[outreach] Org profile links a stale ADOPTERS.md in hivecommons/.github: Project Bluefin missing, tunaos.org shown as development",
-        "url": "https://github.com/hivecommons/hive/issues/14295",
+        "title": "[selfreport] unclassified_error_repeated: knowledge primer: dropped facts over the byte cap",
+        "url": "https://github.com/hivecommons/hive/issues/14328",
         "labels": [
             "help wanted",
-            "agent/outreach",
-            "community",
-            "stage/010-actionable"
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-25T20:00:03Z"
+        "created_at": "2026-10-26T02:04:00Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (style): Third `startup kick dropped` variant remains unclassified",
-        "url": "https://github.com/hivecommons/hive/issues/14292",
+        "title": "[selfreport] ci_poll_nudge: agent kept polling CI on its own PR after the kick: stop-polling nudge sent (2 \u2026",
+        "url": "https://github.com/hivecommons/hive/issues/14327",
+        "labels": [
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-26T01:48:21Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: jsonResponse encode failed",
+        "url": "https://github.com/hivecommons/hive/issues/14325",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "needs-triage",
+            "hive/claimed-by-scanner",
+            "fleet-report",
+            "hive/selfreport",
+            "trigger:runtime-error",
+            "stage/040-covered-by-pr",
+            "severity:low",
+            "class:unclassified-error-repeated"
+        ],
+        "created_at": "2026-10-26T01:12:18Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (correctness): Nested-group GitLab git smart-HTTP paths still extract no repo",
+        "url": "https://github.com/hivecommons/hive/issues/14324",
         "labels": [
             "help wanted",
             "agent/reviewer",
             "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-25T19:35:02Z"
+        "created_at": "2026-10-26T00:56:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Hub orphan sweep (20m) abandons upgrades the spoke is draining (45m) - reported as floating-tag failure",
+        "url": "https://github.com/hivecommons/hive/issues/14323",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-26T00:52:41Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (intent-alignment): Namespace or project named like a resource segment is truncated",
+        "url": "https://github.com/hivecommons/hive/issues/14321",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-26T00:29:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (security): gitLabProjectResources list is not exhaustive; unknown sub-resources are absorbed into the slug (fails closed)",
+        "url": "https://github.com/hivecommons/hive/issues/14318",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-26T00:27:25Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "dashboard: show age on blocked rows in the activity monitor",
+        "url": "https://github.com/hivecommons/hive/issues/14316",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-26T00:02:31Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (security): Releasing a live supersede adoption orphans an open hive-owned superseding PR",
+        "url": "https://github.com/hivecommons/hive/issues/14311",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-25T23:30:19Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: dashboard chat stops polling after the tab sleeps; !status replies not shown until reload",
+        "url": "https://github.com/hivecommons/hive/issues/14310",
+        "labels": [
+            "bug",
+            "help wanted",
+            "triage/accepted",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-25T22:26:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug:  claude agents stall on the Bypass Permissions screen; nothing auto-answers it",
+        "url": "https://github.com/hivecommons/hive/issues/14307",
+        "labels": [
+            "bug",
+            "help wanted",
+            "triage/accepted",
+            "priority/high",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-25T21:45:24Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[outreach] Org profile links a stale ADOPTERS.md in hivecommons/.github: Project Bluefin missing, tunaos.org shown as development",
+        "url": "https://github.com/hivecommons/hive/issues/14295",
+        "labels": [
+            "help wanted",
+            "agent/outreach",
+            "community",
+            "approved-direction",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-25T20:00:03Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30759,45 +30904,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udcdd [scanner] spec: generic tool policy for the MITM proxy (rules are GitHub-shaped today)",
-        "url": "https://github.com/hivecommons/hive/issues/14228",
+        "title": "\ud83d\udcd6 goose: land the unattended Goose-at-scale guide upstream in AAIF's repo",
+        "url": "https://github.com/hivecommons/hive/issues/14095",
         "labels": [
             "help wanted",
-            "agent/scanner",
-            "kind/design",
-            "stage/040-covered-by-pr",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-10-25T14:14:49Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 ci: self-hosted Forgejo smoke running the minimal governor loop",
-        "url": "https://github.com/hivecommons/hive/issues/14116",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
+            "triage/accepted",
             "approved-direction",
-            "stage/040-covered-by-pr",
-            "hive/claimed-by-human"
+            "stage/010-actionable"
         ],
-        "created_at": "2026-10-25T01:49:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 forge(proxy): GitLab/Gitea write-gate rule table (deny MR create/accept for all agent levels)",
-        "url": "https://github.com/hivecommons/hive/issues/14114",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "approved-direction",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-25T01:47:23Z"
+        "created_at": "2026-10-25T01:31:56Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30808,7 +30923,8 @@
         "labels": [
             "help wanted",
             "triage/accepted",
-            "stage/045-needs-decision"
+            "approved-direction",
+            "stage/010-actionable"
         ],
         "created_at": "2026-10-23T20:50:58Z"
     },
@@ -30925,5 +31041,40 @@
             "good first issue"
         ],
         "created_at": "2026-05-22T05:37:27Z"
+    },
+    {
+        "repo": "llm-d/llm-d",
+        "tier": "Sandbox",
+        "lang": "Python",
+        "title": "RFC: Fleet-level multi-cluster inference orchestration for llm-d",
+        "url": "https://github.com/llm-d/llm-d/issues/2380",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-08-26T02:35:47Z"
+    },
+    {
+        "repo": "llm-d/llm-d",
+        "tier": "Sandbox",
+        "lang": "Python",
+        "title": "[Feature]: keep aws-gpu-* image components in sync with gpu-* to prevent version drift",
+        "url": "https://github.com/llm-d/llm-d/issues/1944",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-06-25T08:25:46Z"
+    },
+    {
+        "repo": "llm-d/llm-d",
+        "tier": "Sandbox",
+        "lang": "Python",
+        "title": "[Guides][GB200][WideEP] Add GB200 WideEP Guide",
+        "url": "https://github.com/llm-d/llm-d/issues/1527",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2026-05-16T15:31:50Z"
     }
 ]
