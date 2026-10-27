@@ -1146,21 +1146,6 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "kpt fn eval swallow functionConfig in output",
-        "url": "https://github.com/kptdev/kpt/issues/3260",
-        "labels": [
-            "bug",
-            "help wanted",
-            "good first issue",
-            "area/hydrate",
-            "p2"
-        ],
-        "created_at": "2022-05-25T23:04:02Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Display function Results by Severity level",
         "url": "https://github.com/kptdev/kpt/issues/2996",
         "labels": [
@@ -2102,6 +2087,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Docs] Dead in-page anchor `#preserving-manually-added-documentation` across CLI reference pages",
+        "url": "https://github.com/meshery/meshery/issues/22617",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-10-27T12:21:15Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Docs]",
         "url": "https://github.com/meshery/meshery/issues/22610",
         "labels": [
@@ -2466,22 +2465,6 @@
             "help wanted"
         ],
         "created_at": "2026-08-02T20:33:57Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Improve the ease of navigation of the table of contents sidebar",
-        "url": "https://github.com/meshery/meshery/issues/20840",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "area/ux",
-            "language/css",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-21T03:32:54Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4656,6 +4639,57 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Account Console Groups page: the per-row \"Direct membership\" checkbox has no accessible name (axe label, WCAG 1.3.1 / 4.1.2)",
+        "url": "https://github.com/keycloak/keycloak/issues/54361",
+        "labels": [
+            "kind/bug",
+            "area/account/ui",
+            "help wanted",
+            "team/core-iam",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-10-26T21:16:39Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Account Console / Admin Console masthead: the narrow-width \"options-kebab\" MenuToggle has no accessible name (axe button-name, WCAG 4.1.2)",
+        "url": "https://github.com/keycloak/keycloak/issues/54360",
+        "labels": [
+            "kind/bug",
+            "area/account/ui",
+            "help wanted",
+            "team/core-iam",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-10-26T21:15:52Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Admin Console / Account Console masthead: in RTL locales the masthead dropdowns (user menu, kebab, admin Help) open at the physical right and can leave the viewport",
+        "url": "https://github.com/keycloak/keycloak/issues/54359",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-iam",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-10-26T21:15:04Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Logout confirmation error handling can throw NPE for a protocol-less authentication session (residual path after #32435)",
         "url": "https://github.com/keycloak/keycloak/issues/54349",
         "labels": [
@@ -4736,6 +4770,42 @@
             "team/core-protocols"
         ],
         "created_at": "2026-10-23T18:11:38Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Brokered login fails with \"already linked\" when the IdP sends a known user's federated ID in a different case",
+        "url": "https://github.com/keycloak/keycloak/issues/54288",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-10-23T12:46:31Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Inconsistent validation between UI and API",
+        "url": "https://github.com/keycloak/keycloak/issues/54239",
+        "labels": [
+            "kind/bug",
+            "area/storage",
+            "area/admin/api",
+            "help wanted",
+            "team/core-iam",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-10-21T21:20:43Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -4876,6 +4946,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "AD user federation in READ_ONLY mode: pwdLastSet=0 never produces UPDATE_PASSWORD (MSAD account control mapper)",
+        "url": "https://github.com/keycloak/keycloak/issues/53680",
+        "labels": [
+            "kind/bug",
+            "area/ldap",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal",
+            "status/labeled-by-bot"
+        ],
+        "created_at": "2026-10-07T12:51:48Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Add explicit EC point-on-curve validation in ElytronEcdhEsAlgorithmProvider",
         "url": "https://github.com/keycloak/keycloak/issues/53639",
         "labels": [
@@ -4888,6 +4975,23 @@
             "team/core-protocols"
         ],
         "created_at": "2026-10-07T07:08:42Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "GroupStorageProvider group IDs cannot be assigned to local users because USER_GROUP_MEMBERSHIP.GROUP_ID is VARCHAR(36)",
+        "url": "https://github.com/keycloak/keycloak/issues/53566",
+        "labels": [
+            "kind/bug",
+            "area/storage",
+            "help wanted",
+            "team/core-iam",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-10-05T19:48:13Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5044,124 +5148,6 @@
             "status/labeled-by-bot"
         ],
         "created_at": "2026-09-28T16:11:29Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Brute force failure counter is not reset on successful SAML (IdP) login, causing users to be permanently locked out",
-        "url": "https://github.com/keycloak/keycloak/issues/53249",
-        "labels": [
-            "area/saml",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-28T11:19:57Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[CIMD] accept-public-client-with-confidential-client-only-grant silently fails when the jwt-authorization-grant feature is disabled",
-        "url": "https://github.com/keycloak/keycloak/issues/53230",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-26T11:20:25Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Identity provider mappers can create users with null username, which cannot be edited or deleted",
-        "url": "https://github.com/keycloak/keycloak/issues/53164",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-09-24T14:04:32Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "`idp-auto-link` links a brokered identity to an existing account that never verified the shared email",
-        "url": "https://github.com/keycloak/keycloak/issues/53041",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/identity-brokering",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-09-22T10:18:48Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Basic authentication scheme in Authorization header is matched case-sensitive",
-        "url": "https://github.com/keycloak/keycloak/issues/53032",
-        "labels": [
-            "area/saml",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-22T07:51:19Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "\"Cannot parse the JSON\" error on Sessions tab on client.",
-        "url": "https://github.com/keycloak/keycloak/issues/53003",
-        "labels": [
-            "kind/bug",
-            "area/admin/api",
-            "help wanted",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-21T11:29:05Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "ResetCredentialsActionToken still requires int expiration despite migration to Time.currentTimeSeconds()",
-        "url": "https://github.com/keycloak/keycloak/issues/52899",
-        "labels": [
-            "area/authentication",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn"
-        ],
-        "created_at": "2026-09-17T12:59:05Z"
     },
     {
         "repo": "keylime/keylime",
@@ -11820,6 +11806,18 @@
             "kind/cleanup"
         ],
         "created_at": "2022-12-30T03:13:15Z"
+    },
+    {
+        "repo": "kcp-dev/kcp",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "TODOs",
+        "url": "https://github.com/kcp-dev/kcp/issues/4502",
+        "labels": [
+            "good first issue",
+            "kind/chore"
+        ],
+        "created_at": "2026-10-27T14:07:26Z"
     },
     {
         "repo": "kcp-dev/kcp",
@@ -20720,20 +20718,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "\ud83d\udc1bTechDocs: table of contents is not displayed correctly",
-        "url": "https://github.com/backstage/backstage/issues/36071",
-        "labels": [
-            "type:bug",
-            "good first issue",
-            "priority:contrib-needed",
-            "area:techdocs"
-        ],
-        "created_at": "2026-10-08T06:44:08Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Catalog processor may throw an unbounded error payload to status and exhaust database storage",
         "url": "https://github.com/backstage/backstage/issues/35955",
         "labels": [
@@ -20836,7 +20820,6 @@
         "labels": [
             "type:suggestion",
             "good first issue",
-            "stale",
             "area:core",
             "priority:contrib-welcome"
         ],
@@ -20855,6 +20838,18 @@
             "domain:docs"
         ],
         "created_at": "2026-05-05T21:18:55Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-QS-21755395]",
+        "url": "https://github.com/backstage/backstage/issues/36496",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-27T16:44:29Z"
     },
     {
         "repo": "backstage/backstage",
@@ -21203,18 +21198,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:20Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181017]",
-        "url": "https://github.com/backstage/backstage/issues/36394",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:19Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -24747,20 +24730,6 @@
         "repo": "argoproj/argo-cd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Update docs about Helm",
-        "url": "https://github.com/argoproj/argo-cd/issues/9822",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "group:hacktoberfest-2023",
-            "component:docs"
-        ],
-        "created_at": "2022-06-29T09:49:17Z"
-    },
-    {
-        "repo": "argoproj/argo-cd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Core mode should allow persistent usage of custom K8s client configuration",
         "url": "https://github.com/argoproj/argo-cd/issues/7992",
         "labels": [
@@ -24784,6 +24753,19 @@
             "group:hacktoberfest-2023"
         ],
         "created_at": "2021-05-26T18:08:07Z"
+    },
+    {
+        "repo": "argoproj/argo-cd",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Overridden values from an Application CRD values block are not visualized under Parameters",
+        "url": "https://github.com/argoproj/argo-cd/issues/6086",
+        "labels": [
+            "bug",
+            "good first issue",
+            "group:hacktoberfest-2023"
+        ],
+        "created_at": "2021-04-22T11:30:13Z"
     },
     {
         "repo": "fluxcd/flux2",
@@ -30636,15 +30618,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (style): Forward-merge conflict expected with #14401 (merged to v6) on the same block",
-        "url": "https://github.com/hivecommons/hive/issues/14539",
+        "title": "[scanner] repeat-failure: backend-specific routes (copilot, omp, openhands, muse, agy, aider) and real-run evidence",
+        "url": "https://github.com/hivecommons/hive/issues/14559",
         "labels": [
             "good first issue",
             "help wanted",
-            "agent/reviewer",
+            "agent/scanner",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-27T10:05:15Z"
+        "created_at": "2026-10-27T11:31:44Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30664,39 +30646,137 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] bug: retro review-rework autonomy signals never fire (nothing writes the rework count)",
-        "url": "https://github.com/hivecommons/hive/issues/14547",
+        "title": "[scanner] ci-runners: pinned gh 2.103.2 vanished from the apt repo again; cli-pin-bump does not cover GITHUB_CLI_VERSION",
+        "url": "https://github.com/hivecommons/hive/issues/14611",
         "labels": [
             "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-27T17:07:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b contribute-hive clankers still dial the retired *.hive.kubestellar.io domain and loop on a TLS altname mismatch forever",
+        "url": "https://github.com/hivecommons/hive/issues/14609",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-27T17:06:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[RFC] Harden the Hub's GitHub authorization-code login with PKCE",
+        "url": "https://github.com/hivecommons/hive/issues/14598",
+        "labels": [
+            "help wanted",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-27T16:04:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "review: held PRs are dispatched without a body digest, so head verdicts split and never converge",
+        "url": "https://github.com/hivecommons/hive/issues/14594",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-27T15:54:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] agent_pane_timeout: prompt timeout \u2014 dumping pane",
+        "url": "https://github.com/hivecommons/hive/issues/14586",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "needs-triage",
+            "fleet-report",
+            "hive/selfreport",
+            "trigger:runtime-error",
+            "stage/015-triage-needed",
+            "severity:low",
+            "class:agent-pane-timeout"
+        ],
+        "created_at": "2026-10-27T15:25:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] retro human-review lessons: GitHub trusted review-feedback source",
+        "url": "https://github.com/hivecommons/hive/issues/14584",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-27T15:13:32Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Activity tracker: draft PRs show no status pill and look stuck",
+        "url": "https://github.com/hivecommons/hive/issues/14572",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-27T14:32:31Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] repeat-failure: dashboard row note, check states, no-data safeguard, coverage table and docs",
+        "url": "https://github.com/hivecommons/hive/issues/14558",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
             "hive/claimed-by-scanner",
             "stage/020-claimed"
         ],
-        "created_at": "2026-10-27T11:12:39Z"
+        "created_at": "2026-10-27T11:31:03Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] bug: knowledge export sends draft, deprecated and superseded facts to contributor agents",
-        "url": "https://github.com/hivecommons/hive/issues/14546",
+        "title": "\ud83c\udf31 [v6] retro: learn from what human reviewers wrote (lessons wait for owner approval)",
+        "url": "https://github.com/hivecommons/hive/issues/14551",
         "labels": [
             "help wanted",
-            "stage/010-actionable"
+            "approved-direction",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
         ],
-        "created_at": "2026-10-27T11:12:38Z"
+        "created_at": "2026-10-27T11:13:02Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[quality] Stray agent scratch files (pr-body.txt, issue14138.txt, section.md) committed at repo root; .gitignore guard covers only /pr-body.md",
-        "url": "https://github.com/hivecommons/hive/issues/14543",
+        "title": "\ud83c\udf31 [v6] agents: notice an agent repeating the same failing command (every backend, monitor-only)",
+        "url": "https://github.com/hivecommons/hive/issues/14550",
         "labels": [
             "help wanted",
-            "agent/quality",
-            "stage/040-covered-by-pr"
+            "hive/verified-open",
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
-        "created_at": "2026-10-27T11:04:43Z"
+        "created_at": "2026-10-27T11:12:49Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30706,7 +30786,6 @@
         "url": "https://github.com/hivecommons/hive/issues/14541",
         "labels": [
             "help wanted",
-            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-27T10:54:43Z"
@@ -30715,40 +30794,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (correctness): Race closed only post hoc; UpdateBranchExpectedHead already exists",
-        "url": "https://github.com/hivecommons/hive/issues/14537",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-27T10:01:16Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] crux-publish.sh: docs/MODULE.md relative ../docs/ links are dead in the published hivecommons/crux repo",
-        "url": "https://github.com/hivecommons/hive/issues/14525",
-        "labels": [
-            "bug",
-            "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/030-pr-in-progress"
-        ],
-        "created_at": "2026-10-27T07:19:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[v6] \ud83d\udc1b contribute-hive local mode never writes agent.md, so the relay always reports a knowledge error",
         "url": "https://github.com/hivecommons/hive/issues/14521",
         "labels": [
+            "bug",
             "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
+            "triage/accepted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr",
+            "hive/claimed-by-human"
         ],
         "created_at": "2026-10-27T04:24:26Z"
     },
@@ -30760,23 +30814,9 @@
         "url": "https://github.com/hivecommons/hive/issues/14491",
         "labels": [
             "help wanted",
-            "hold",
             "proposal"
         ],
         "created_at": "2026-10-27T01:19:08Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (correctness): price-table-refresh.yml removes merged fragments, not just earlier ones on the branch",
-        "url": "https://github.com/hivecommons/hive/issues/14436",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-26T20:52:25Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30794,22 +30834,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-26T03:13:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] Org profile links a stale ADOPTERS.md in hivecommons/.github: Project Bluefin missing, tunaos.org shown as development",
-        "url": "https://github.com/hivecommons/hive/issues/14295",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "agent/outreach",
-            "community",
-            "approved-direction",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-10-25T20:00:03Z"
     },
     {
         "repo": "hivecommons/hive",
