@@ -2102,6 +2102,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Docs]",
+        "url": "https://github.com/meshery/meshery/issues/22610",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-10-27T11:15:36Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[CI] Release v1.0.72 has no mesheryctl binaries, so install and download fail",
         "url": "https://github.com/meshery/meshery/issues/22506",
         "labels": [
@@ -2468,20 +2482,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-21T03:32:54Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Contributing: Include contributor instructions regarding sparse cloning, excluding /models and other dirs",
-        "url": "https://github.com/meshery/meshery/issues/20837",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-07-21T00:03:37Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4656,6 +4656,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Logout confirmation error handling can throw NPE for a protocol-less authentication session (residual path after #32435)",
+        "url": "https://github.com/keycloak/keycloak/issues/54349",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-10-26T16:06:32Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "FAPI 2.0 Message Signing: Duplicate `iss` claims in JARM responses cause OpenID Foundation conformance suite failures",
         "url": "https://github.com/keycloak/keycloak/issues/54329",
         "labels": [
@@ -4719,6 +4736,22 @@
             "team/core-protocols"
         ],
         "created_at": "2026-10-23T18:11:38Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Authorization endpoint JSON error responses put message text in `error` instead of an OAuth error code",
+        "url": "https://github.com/keycloak/keycloak/issues/54134",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-10-19T18:35:02Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5129,38 +5162,6 @@
             "team/core-authn"
         ],
         "created_at": "2026-09-17T12:59:05Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[CIMD] pkce-enforcer in the profile of a client-id-uri policy is never applied; codes are issued without PKCE",
-        "url": "https://github.com/keycloak/keycloak/issues/52795",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-15T16:21:41Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[ABCA] Resolve the attester key from the `x5c` JOSE header (X.509 trust anchors) in AttestationBasedClientAuthenticator, as done for key attestations since #51042",
-        "url": "https://github.com/keycloak/keycloak/issues/52766",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-15T09:16:21Z"
     },
     {
         "repo": "keylime/keylime",
@@ -9565,6 +9566,18 @@
             "help wanted"
         ],
         "created_at": "2023-09-06T03:11:36Z"
+    },
+    {
+        "repo": "lima-vm/lima",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "`docs/config/plain` explains a non-existent flag: `limactl edit <instance> --plain`",
+        "url": "https://github.com/lima-vm/lima/issues/5688",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-10-27T10:33:34Z"
     },
     {
         "repo": "lima-vm/lima",
@@ -28592,19 +28605,6 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "health: add LFX Insights Badge to the main README.md",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2681",
-        "labels": [
-            "good first issue",
-            "docs",
-            "difficulty/easy"
-        ],
-        "created_at": "2026-10-26T15:58:05Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Helm chart prints nothing after install (no NOTES.txt)",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2675",
         "labels": [
@@ -30636,29 +30636,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (correctness): Package-var mutation outside TestMain contradicts the documented rule on the pacing seams",
-        "url": "https://github.com/hivecommons/hive/issues/14493",
+        "title": "Review backlog (style): Forward-merge conflict expected with #14401 (merged to v6) on the same block",
+        "url": "https://github.com/hivecommons/hive/issues/14539",
         "labels": [
             "good first issue",
             "help wanted",
             "agent/reviewer",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-27T01:28:31Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (intent-alignment): TestRestart_CancelsPendingAsyncKick failure symptom may not be readiness-timeout bound",
-        "url": "https://github.com/hivecommons/hive/issues/14492",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-27T01:27:07Z"
+        "created_at": "2026-10-27T10:05:15Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30678,17 +30664,93 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] [shared-ci] test (agent 4/5) failing across hivecommons/hive v6 fork PRs \u2014 #14415 thrash-poller fix not forward-ported to v6",
-        "url": "https://github.com/hivecommons/hive/issues/14506",
+        "title": "\ud83d\udc1b [v6] bug: retro review-rework autonomy signals never fire (nothing writes the rework count)",
+        "url": "https://github.com/hivecommons/hive/issues/14547",
         "labels": [
             "help wanted",
-            "kind/test",
-            "agent/scanner",
-            "ci",
             "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-27T11:12:39Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] bug: knowledge export sends draft, deprecated and superseded facts to contributor agents",
+        "url": "https://github.com/hivecommons/hive/issues/14546",
+        "labels": [
+            "help wanted",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-27T02:05:23Z"
+        "created_at": "2026-10-27T11:12:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[quality] Stray agent scratch files (pr-body.txt, issue14138.txt, section.md) committed at repo root; .gitignore guard covers only /pr-body.md",
+        "url": "https://github.com/hivecommons/hive/issues/14543",
+        "labels": [
+            "help wanted",
+            "agent/quality",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-27T11:04:43Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] feedback_issue_refresh_failed: feedback: issue refresh failed",
+        "url": "https://github.com/hivecommons/hive/issues/14541",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-27T10:54:43Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (correctness): Race closed only post hoc; UpdateBranchExpectedHead already exists",
+        "url": "https://github.com/hivecommons/hive/issues/14537",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-27T10:01:16Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] crux-publish.sh: docs/MODULE.md relative ../docs/ links are dead in the published hivecommons/crux repo",
+        "url": "https://github.com/hivecommons/hive/issues/14525",
+        "labels": [
+            "bug",
+            "help wanted",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/030-pr-in-progress"
+        ],
+        "created_at": "2026-10-27T07:19:04Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \ud83d\udc1b contribute-hive local mode never writes agent.md, so the relay always reports a knowledge error",
+        "url": "https://github.com/hivecommons/hive/issues/14521",
+        "labels": [
+            "help wanted",
+            "needs-triage",
+            "stage/015-triage-needed"
+        ],
+        "created_at": "2026-10-27T04:24:26Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30707,32 +30769,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog parks every finding on the reviewed PR, even when the PR does not touch the cited file",
-        "url": "https://github.com/hivecommons/hive/issues/14473",
-        "labels": [
-            "bug",
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-27T00:35:32Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (correctness): changes-requested PRs count as 'waiting on review'",
-        "url": "https://github.com/hivecommons/hive/issues/14437",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-26T20:53:36Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Review backlog (correctness): price-table-refresh.yml removes merged fragments, not just earlier ones on the branch",
         "url": "https://github.com/hivecommons/hive/issues/14436",
         "labels": [
@@ -30741,19 +30777,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-26T20:52:25Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (docs-currency): Self-managed manifest and manual template still provision failureThreshold: 30",
-        "url": "https://github.com/hivecommons/hive/issues/14425",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-26T20:09:15Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30800,19 +30823,6 @@
             "proposal"
         ],
         "created_at": "2026-10-25T19:23:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd RFC: [v6] crewAI-inspired features \u2014 learn from review feedback, count repeat lessons, extend the thrash breaker",
-        "url": "https://github.com/hivecommons/hive/issues/13895",
-        "labels": [
-            "help wanted",
-            "hold",
-            "proposal"
-        ],
-        "created_at": "2026-10-23T20:23:34Z"
     },
     {
         "repo": "hivecommons/hive",
