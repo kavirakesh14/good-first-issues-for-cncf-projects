@@ -3661,7 +3661,8 @@
             "area/api",
             "good first issue",
             "kind/feature",
-            "priority/important-longterm"
+            "priority/important-longterm",
+            "lifecycle/stale"
         ],
         "created_at": "2020-04-19T04:59:44Z"
     },
@@ -5289,6 +5290,90 @@
             "help wanted"
         ],
         "created_at": "2022-11-07T20:46:31Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Document All Supported Network Protocol Values",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2962",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-10-28T21:58:35Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Document DNS Query Matching",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2961",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-10-28T21:56:25Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Improve Documentation for Process Argument Matching",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2960",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-10-28T21:50:29Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Document `execname` in Process Path Rules",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2959",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-10-28T21:42:46Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Document the `pts` Field",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2958",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-10-28T21:37:55Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Per-rule `severity`, `tags`, `message`, `action` overrides",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2957",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-10-28T21:33:31Z"
+    },
+    {
+        "repo": "kubearmor/kubearmor",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Undocumented / Underdocumented CRD Features",
+        "url": "https://github.com/kubearmor/KubeArmor/issues/2956",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-10-28T21:19:04Z"
     },
     {
         "repo": "kubearmor/kubearmor",
@@ -11648,6 +11733,30 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "[Bug]: Nil pointer dereference panic in computeWorstSingleCard / computeBestCombination under topology policy",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/3319",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-10-28T18:21:51Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Bug]: vGPUmonitor shuts down global NVML context on every /metrics scrape, breaking container metrics and watchAndFeedback",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/3318",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-10-28T18:21:48Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Deprecate the `limit` label of `hami_resource_quota_used`",
         "url": "https://github.com/Project-HAMi/HAMi/issues/3289",
         "labels": [
@@ -13609,21 +13718,6 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "[Flaking Test] restarted with a non-local redirect http liveness probe",
-        "url": "https://github.com/kubernetes/kubernetes/issues/141786",
-        "labels": [
-            "sig/node",
-            "kind/flake",
-            "help wanted",
-            "priority/important-longterm",
-            "triage/accepted"
-        ],
-        "created_at": "2026-09-02T06:49:22Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "[Flaking Test] [sig-node] [Feature:GPUDevicePlugin] Sanity test using nvidia-smi [Provider:aws,gce] should run nvidia-smi and cuda-demo-suite [Serial]",
         "url": "https://github.com/kubernetes/kubernetes/issues/141200",
         "labels": [
@@ -13973,6 +14067,20 @@
             "triage/accepted"
         ],
         "created_at": "2025-09-03T15:53:33Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[FG:InPlacePodVerticalScaling] Investigate recovery from failure when setting allocated resources",
+        "url": "https://github.com/kubernetes/kubernetes/issues/133538",
+        "labels": [
+            "priority/backlog",
+            "sig/node",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-08-14T21:05:16Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -14586,6 +14694,19 @@
             "FEATURE-v2"
         ],
         "created_at": "2021-02-09T15:24:19Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "gRPC work agent leaves same-name recreated ManifestWork unapplied until restart (suspected cache race)",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1757",
+        "labels": [
+            "bug",
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-10-19T08:10:04Z"
     },
     {
         "repo": "open-cluster-management-io/ocm",
@@ -20833,6 +20954,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-SYSTEMINFORMATION-21771271]",
+        "url": "https://github.com/backstage/backstage/issues/36513",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-28T20:11:24Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-FOLLOWREDIRECTS-21762031]",
         "url": "https://github.com/backstage/backstage/issues/36503",
         "labels": [
@@ -21171,18 +21304,6 @@
         "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-ADMZIP-20335419]",
         "url": "https://github.com/backstage/backstage/issues/36396",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:20Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-19963965]",
-        "url": "https://github.com/backstage/backstage/issues/36395",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
@@ -30593,20 +30714,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] review: fetch the linked Linear issue at dispatch and carry it on review.PullRequest",
-        "url": "https://github.com/hivecommons/hive/issues/14910",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-28T11:11:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] hub-auth: pin Hub login contract with fail-closed and no-secret-in-URL/log tests",
         "url": "https://github.com/hivecommons/hive/issues/14636",
         "labels": [
@@ -30636,14 +30743,163 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] merge: a PR merges even when the merge would close an issue it says stays open, or another PR named in a commit message",
-        "url": "https://github.com/hivecommons/hive/issues/15025",
+        "title": "[selfreport] unclassified_error_repeated: inference token sink write failed",
+        "url": "https://github.com/hivecommons/hive/issues/15132",
         "labels": [
             "help wanted",
-            "stage/020-claimed",
-            "hive/claimed-by-human"
+            "kind/bug",
+            "needs-triage",
+            "fleet-report",
+            "hive/selfreport",
+            "trigger:runtime-error",
+            "severity:low",
+            "class:unclassified-error-repeated"
         ],
-        "created_at": "2026-10-28T17:33:28Z"
+        "created_at": "2026-10-28T22:01:30Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (security): Prior correctness note: filtered-out drawn_under parent hides PR strip",
+        "url": "https://github.com/hivecommons/hive/issues/15119",
+        "labels": [
+            "help wanted",
+            "agent/reviewer"
+        ],
+        "created_at": "2026-10-28T21:46:01Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (docs-currency): Filtered-out/paged-out drawn_under parent hides the PR strip (prior finding, still present)",
+        "url": "https://github.com/hivecommons/hive/issues/15116",
+        "labels": [
+            "help wanted",
+            "agent/reviewer"
+        ],
+        "created_at": "2026-10-28T21:44:27Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\"Let hive decide\" loops forever on capability-gap needs-human (App lacks workflows permission)",
+        "url": "https://github.com/hivecommons/hive/issues/15099",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T21:25:25Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Activity Monitor: operator-readability findings from a live walkthrough (12:11\u201316:59 ET, 0470256 \u2192 aa9b530)",
+        "url": "https://github.com/hivecommons/hive/issues/15096",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T21:04:47Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Merge-eligible list includes PRs the contributor-lane tier gate refuses (newcomer author) \u2014 every kick re-fails the same merges",
+        "url": "https://github.com/hivecommons/hive/issues/15093",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T20:49:05Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: (hub): surface \"Pause hive\" action in the hub spoke dropdown menu",
+        "url": "https://github.com/hivecommons/hive/issues/15092",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "triage/accepted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T20:38:04Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] contributor-lane auto-promotion runs hive-wide searches per PR (bots included, no per-author memo) and trips GitHub's search secondary limit",
+        "url": "https://github.com/hivecommons/hive/issues/15088",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T20:18:37Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Activity Monitor: Adopt now and Reroute to another clanker for PRs waiting on a contributor's clanker",
+        "url": "https://github.com/hivecommons/hive/issues/15082",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T19:50:27Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (correctness): Pending ledger record written after async job starts can be settled too early",
+        "url": "https://github.com/hivecommons/hive/issues/15064",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T19:13:05Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Activity Monitor: presence indicator (clanker online / offline / none) on the waiting-on pill so the operator can anticipate wait vs adopt",
+        "url": "https://github.com/hivecommons/hive/issues/15051",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "stage/040-covered-by-pr",
+            "has-open-pr"
+        ],
+        "created_at": "2026-10-28T18:40:03Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] adoption: the 074 stall clock runs while the adopted PR waits unattempted in the fixer queue",
+        "url": "https://github.com/hivecommons/hive/issues/15036",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "approved-direction",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T18:04:07Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30665,21 +30921,11 @@
         "url": "https://github.com/hivecommons/hive/issues/15021",
         "labels": [
             "help wanted",
+            "triage/accepted",
+            "approved-direction",
             "stage/010-actionable"
         ],
         "created_at": "2026-10-28T17:27:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Adoption never takes a repository maintainer's clanker PR and the UI never says why (#14524 stuck 26h at 072)",
-        "url": "https://github.com/hivecommons/hive/issues/15015",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-28T17:00:38Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30698,54 +30944,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] Activity monitor: persistent \u2713 badge and decision-trail tooltip on acted rows",
-        "url": "https://github.com/hivecommons/hive/issues/14998",
+        "title": "Review backlog (correctness): Untrusted manifest dir keeps short poll cadence indefinitely",
+        "url": "https://github.com/hivecommons/hive/issues/14993",
         "labels": [
             "help wanted",
-            "kind/feature",
-            "agent/scanner",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-28T16:28:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Activity monitor: record row actions server-side and expose last_operator_action",
-        "url": "https://github.com/hivecommons/hive/issues/14996",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-28T16:28:01Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Activity monitor: show that I acted on an item, what I chose, and what hive did next",
-        "url": "https://github.com/hivecommons/hive/issues/14991",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-28T16:19:33Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 Let a Job-sandboxed reviewer post reviews: relay accepts verdict files from the /data sandbox workspace",
-        "url": "https://github.com/hivecommons/hive/issues/14986",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-28T15:57:36Z"
+        "created_at": "2026-10-28T16:22:01Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30759,12 +30966,26 @@
             "agent/scanner",
             "ci",
             "needs-human",
+            "hive/verified-open",
             "needs-signal",
             "approved-direction",
             "hive/partially-addressed",
             "stage/045-needs-decision"
         ],
         "created_at": "2026-10-28T15:40:39Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (style): base_sync config-table row does not mention the serialized-lane fork gate",
+        "url": "https://github.com/hivecommons/hive/issues/14946",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T13:48:09Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30789,19 +31010,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-28T13:32:50Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] review: render the inlined Linear issue in the kick's scope contract section",
-        "url": "https://github.com/hivecommons/hive/issues/14911",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-28T11:12:27Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30843,14 +31051,16 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] hub-auth: add S256 PKCE verifier cookie to Hub GitHub login",
-        "url": "https://github.com/hivecommons/hive/issues/14633",
+        "title": "\ud83d\udc1b bug: reviewer agent has mysteriously inconsistent configuration for inference",
+        "url": "https://github.com/hivecommons/hive/issues/14678",
         "labels": [
+            "bug",
             "help wanted",
-            "agent/scanner",
+            "triage/accepted",
+            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-27T17:42:03Z"
+        "created_at": "2026-10-27T19:25:36Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30861,7 +31071,8 @@
         "labels": [
             "help wanted",
             "hive/verified-open",
-            "stage/010-actionable",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr",
             "hive/partially-addressed"
         ],
         "created_at": "2026-10-27T16:04:55Z"
@@ -30902,63 +31113,6 @@
             "hold"
         ],
         "created_at": "2026-10-20T02:36:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: opt-in actions: read for agent scoped tokens (ci-maintainer can't read failed CI logs)",
-        "url": "https://github.com/hivecommons/hive/issues/10574",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "hold",
-            "hive/selfreport"
-        ],
-        "created_at": "2026-10-05T13:59:07Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] v6 readiness live exercise: dashboard chat, inception via chat, standby S5-S6",
-        "url": "https://github.com/hivecommons/hive/issues/9735",
-        "labels": [
-            "help wanted",
-            "hold",
-            "needs-human",
-            "approved-direction"
-        ],
-        "created_at": "2026-09-30T04:24:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd v6 epic + readiness bar: dashboard-optional operation \u2014 meet humans where they are",
-        "url": "https://github.com/hivecommons/hive/issues/7563",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hold",
-            "roadmap",
-            "meta-tracker"
-        ],
-        "created_at": "2026-09-18T05:32:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1d Hive Advisory Report",
-        "url": "https://github.com/hivecommons/hive/issues/2364",
-        "labels": [
-            "help wanted",
-            "hive/advisory",
-            "hold",
-            "hive/selfreport"
-        ],
-        "created_at": "2026-07-31T17:17:23Z"
     },
     {
         "repo": "kaito-project/kaito",
