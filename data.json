@@ -4665,23 +4665,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Organization Identity-First Login forwards email instead of username (UPN) as login_hint to external OIDC IdP",
-        "url": "https://github.com/keycloak/keycloak/issues/54377",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "area/organizations"
-        ],
-        "created_at": "2026-10-27T15:10:36Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Account Console Groups page: the per-row \"Direct membership\" checkbox has no accessible name (axe label, WCAG 1.3.1 / 4.1.2)",
         "url": "https://github.com/keycloak/keycloak/issues/54361",
         "labels": [
@@ -4711,23 +4694,6 @@
             "status/auto-bump"
         ],
         "created_at": "2026-10-26T21:15:52Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Admin Console / Account Console masthead: in RTL locales the masthead dropdowns (user menu, kebab, admin Help) open at the physical right and can leave the viewport",
-        "url": "https://github.com/keycloak/keycloak/issues/54359",
-        "labels": [
-            "kind/bug",
-            "area/admin/ui",
-            "help wanted",
-            "team/core-iam",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-10-26T21:15:04Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -4830,25 +4796,6 @@
             "status/auto-bump"
         ],
         "created_at": "2026-10-23T12:46:31Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Inconsistent validation between UI and API",
-        "url": "https://github.com/keycloak/keycloak/issues/54239",
-        "labels": [
-            "kind/bug",
-            "area/storage",
-            "area/admin/api",
-            "help wanted",
-            "team/core-iam",
-            "team/core-shared",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-10-21T21:20:43Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5174,6 +5121,56 @@
             "team/core-authn"
         ],
         "created_at": "2026-09-28T20:32:19Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Resource indicators: refresh of an offline token ignores the resource parameter and widens aud",
+        "url": "https://github.com/keycloak/keycloak/issues/53261",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols",
+            "status/labeled-by-bot"
+        ],
+        "created_at": "2026-09-28T16:11:29Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Brute force failure counter is not reset on successful SAML (IdP) login, causing users to be permanently locked out",
+        "url": "https://github.com/keycloak/keycloak/issues/53249",
+        "labels": [
+            "area/saml",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-28T11:19:57Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "[CIMD] accept-public-client-with-confidential-client-only-grant silently fails when the jwt-authorization-grant feature is disabled",
+        "url": "https://github.com/keycloak/keycloak/issues/53230",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-09-26T11:20:25Z"
     },
     {
         "repo": "keylime/keylime",
@@ -9878,22 +9875,6 @@
         "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "`podman wait` doesn't always distinguish \"exited\" \"stopped\" \"created\" as different conditions",
-        "url": "https://github.com/podman-container-tools/podman/issues/27423",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "volunteers-wanted",
-            "bugweek",
-            "triaged",
-            "Contribfest"
-        ],
-        "created_at": "2025-11-01T20:09:15Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Bootc disk build fails on a rootful Podman machine when the host's root user container storage is mounted.",
         "url": "https://github.com/podman-container-tools/podman/issues/27183",
         "labels": [
@@ -12439,7 +12420,9 @@
         "url": "https://github.com/kai-scheduler/KAI-Scheduler/issues/2352",
         "labels": [
             "enhancement",
-            "good first issue"
+            "good first issue",
+            "theme/preemption-and-reclaim",
+            "theme/observability"
         ],
         "created_at": "2026-10-07T12:40:45Z"
     },
@@ -12467,7 +12450,8 @@
             "enhancement",
             "good first issue",
             "theme/k8s-update",
-            "theme/workload-apis"
+            "theme/workload-apis",
+            "workshop"
         ],
         "created_at": "2026-03-25T07:19:11Z"
     },
@@ -13781,7 +13765,6 @@
             "priority/backlog",
             "sig/node",
             "help wanted",
-            "triage/needs-information",
             "triage/accepted"
         ],
         "created_at": "2026-03-23T01:57:47Z"
@@ -20850,13 +20833,13 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-QS-21755395]",
-        "url": "https://github.com/backstage/backstage/issues/36496",
+        "title": "Snyk vulnerability [SNYK-JS-FOLLOWREDIRECTS-21762031]",
+        "url": "https://github.com/backstage/backstage/issues/36503",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
         ],
-        "created_at": "2026-10-27T16:44:29Z"
+        "created_at": "2026-10-28T12:11:56Z"
     },
     {
         "repo": "backstage/backstage",
@@ -30610,28 +30593,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (docs-currency): Search hits surface under the 'knowledge' hit kind",
-        "url": "https://github.com/hivecommons/hive/issues/14876",
+        "title": "[scanner] review: fetch the linked Linear issue at dispatch and carry it on review.PullRequest",
+        "url": "https://github.com/hivecommons/hive/issues/14910",
         "labels": [
             "good first issue",
             "help wanted",
-            "agent/reviewer"
+            "agent/scanner",
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-28T07:13:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[aw] Detection Runs",
-        "url": "https://github.com/hivecommons/hive/issues/14646",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "stage/010-actionable",
-            "agentic-workflows"
-        ],
-        "created_at": "2026-10-27T17:57:23Z"
+        "created_at": "2026-10-28T11:11:52Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30643,22 +30613,10 @@
             "good first issue",
             "help wanted",
             "agent/scanner",
-            "stage/040-covered-by-pr"
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-10-27T17:45:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Weekly competitor report",
-        "url": "https://github.com/hivecommons/hive/issues/14613",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "hive/already-done"
-        ],
-        "created_at": "2026-10-27T17:10:13Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30678,26 +30636,159 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (docs-currency): Pre-existing stale client.go line citations in labels-and-control-signals.md",
-        "url": "https://github.com/hivecommons/hive/issues/14917",
+        "title": "\ud83d\udc1b [v6] merge: a PR merges even when the merge would close an issue it says stays open, or another PR named in a commit message",
+        "url": "https://github.com/hivecommons/hive/issues/15025",
         "labels": [
             "help wanted",
-            "agent/reviewer"
+            "stage/020-claimed",
+            "hive/claimed-by-human"
         ],
-        "created_at": "2026-10-28T11:52:27Z"
+        "created_at": "2026-10-28T17:33:28Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "triage: duplicate and overlapping open issues/PRs to consolidate",
-        "url": "https://github.com/hivecommons/hive/issues/14914",
+        "title": "\u2728 [v6] contribute: record the blocker a relay's blocked verdict names, so the hive lifts blocked when it closes",
+        "url": "https://github.com/hivecommons/hive/issues/15023",
         "labels": [
             "help wanted",
-            "agent/dedupe",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T17:32:09Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] agent_login_required: login required detected",
+        "url": "https://github.com/hivecommons/hive/issues/15021",
+        "labels": [
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-28T17:27:18Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Adoption never takes a repository maintainer's clanker PR and the UI never says why (#14524 stuck 26h at 072)",
+        "url": "https://github.com/hivecommons/hive/issues/15015",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T17:00:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: stage labels: PR waits on the hive past the stage dwell \u2014 reviewer lane needs\u2026",
+        "url": "https://github.com/hivecommons/hive/issues/15009",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr",
+            "has-open-pr"
+        ],
+        "created_at": "2026-10-28T16:49:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Activity monitor: persistent \u2713 badge and decision-trail tooltip on acted rows",
+        "url": "https://github.com/hivecommons/hive/issues/14998",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T16:28:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Activity monitor: record row actions server-side and expose last_operator_action",
+        "url": "https://github.com/hivecommons/hive/issues/14996",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T16:28:01Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Activity monitor: show that I acted on an item, what I chose, and what hive did next",
+        "url": "https://github.com/hivecommons/hive/issues/14991",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T16:19:33Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Let a Job-sandboxed reviewer post reviews: relay accepts verdict files from the /data sandbox workspace",
+        "url": "https://github.com/hivecommons/hive/issues/14986",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T15:57:36Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[shared-ci] Go module proxy stream resets (INTERNAL_ERROR) failing golangci-lint, overlayfs-exec-guard and docker (hub) across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/14976",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "agent/scanner",
+            "ci",
+            "needs-human",
+            "needs-signal",
+            "approved-direction",
+            "hive/partially-addressed",
             "stage/045-needs-decision"
         ],
-        "created_at": "2026-10-28T11:38:46Z"
+        "created_at": "2026-10-28T15:40:39Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] queue accepts what merge will refuse: empty dashboard.authorized_users, and PAT-queued \"@internal\" approvals, never merge",
+        "url": "https://github.com/hivecommons/hive/issues/14938",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T13:32:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] serialized lane: a `hold` label on the front PR never releases the front, so the lane is blocked until the front timeout",
+        "url": "https://github.com/hivecommons/hive/issues/14934",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T13:32:50Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30707,146 +30798,10 @@
         "url": "https://github.com/hivecommons/hive/issues/14911",
         "labels": [
             "help wanted",
-            "agent/scanner"
+            "agent/scanner",
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-28T11:12:27Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] review: fetch the linked Linear issue at dispatch and carry it on review.PullRequest",
-        "url": "https://github.com/hivecommons/hive/issues/14910",
-        "labels": [
-            "help wanted",
-            "agent/scanner"
-        ],
-        "created_at": "2026-10-28T11:11:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] review: recognise Linear issue identifiers in reviewScopeContract",
-        "url": "https://github.com/hivecommons/hive/issues/14909",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-28T11:11:09Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "review: changing review.perspectives strands mid-review PRs: heads wait forever on removed perspectives",
-        "url": "https://github.com/hivecommons/hive/issues/14905",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-28T10:49:53Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] pr_request_head_unpushed: pr-request watcher: head branch is not on the remote \u2014 the agent's push did n\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/14884",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "hive/claimed-by-scanner",
-            "fleet-report",
-            "hive/selfreport",
-            "severity:medium",
-            "trigger:runtime-error",
-            "stage/040-covered-by-pr",
-            "has-open-pr",
-            "class:pr-request-head-unpushed"
-        ],
-        "created_at": "2026-10-28T08:14:28Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: false claim of no reference",
-        "url": "https://github.com/hivecommons/hive/issues/14859",
-        "labels": [
-            "bug",
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-10-28T05:36:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: FMA hive is not upgrading",
-        "url": "https://github.com/hivecommons/hive/issues/14856",
-        "labels": [
-            "bug",
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-10-28T05:25:21Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b hive labels the gh-aw tracking issue good first issue and keeps offering it to contributors",
-        "url": "https://github.com/hivecommons/hive/issues/14835",
-        "labels": [
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-10-28T04:38:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b contribute-stop ignores local-mode relays, so a restart runs two relays with one contributor ID",
-        "url": "https://github.com/hivecommons/hive/issues/14833",
-        "labels": [
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-10-28T04:31:33Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b contribute-hive local mode starts on Ubuntu with restricted userns, then every agent command fails and the task counts as complete",
-        "url": "https://github.com/hivecommons/hive/issues/14832",
-        "labels": [
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-10-28T04:31:31Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b standby relay sends ready on CLI start and on the multi-hub retry, and gets ordinary work",
-        "url": "https://github.com/hivecommons/hive/issues/14831",
-        "labels": [
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-10-28T04:28:04Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30915,21 +30870,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udcdd RFC: Portfolio search and repo-health index across managed repos",
-        "url": "https://github.com/hivecommons/hive/issues/14491",
-        "labels": [
-            "help wanted",
-            "hive/verified-open",
-            "proposal",
-            "stage/040-covered-by-pr",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-27T01:19:08Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83d\udcdd RFC: [v6] Proxy egress allowlist and brokered secrets",
         "url": "https://github.com/hivecommons/hive/issues/14291",
         "labels": [
@@ -30990,6 +30930,21 @@
             "approved-direction"
         ],
         "created_at": "2026-09-30T04:24:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd v6 epic + readiness bar: dashboard-optional operation \u2014 meet humans where they are",
+        "url": "https://github.com/hivecommons/hive/issues/7563",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hold",
+            "roadmap",
+            "meta-tracker"
+        ],
+        "created_at": "2026-09-18T05:32:44Z"
     },
     {
         "repo": "hivecommons/hive",
