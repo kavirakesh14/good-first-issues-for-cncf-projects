@@ -9560,18 +9560,6 @@
         "repo": "lima-vm/lima",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "`docs/config/plain` explains a non-existent flag: `limactl edit <instance> --plain`",
-        "url": "https://github.com/lima-vm/lima/issues/5688",
-        "labels": [
-            "documentation",
-            "good first issue"
-        ],
-        "created_at": "2026-10-27T10:33:34Z"
-    },
-    {
-        "repo": "lima-vm/lima",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "`limactl menu`: ESC should be supported in the `Actions for <INSTANCE>` screen",
         "url": "https://github.com/lima-vm/lima/issues/5682",
         "labels": [
@@ -27154,18 +27142,6 @@
         "repo": "cortexproject/cortex",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Usage Statistics page railse error if some ingester is LEAVING",
-        "url": "https://github.com/cortexproject/cortex/issues/4936",
-        "labels": [
-            "type/bug",
-            "good first issue"
-        ],
-        "created_at": "2022-10-25T03:55:18Z"
-    },
-    {
-        "repo": "cortexproject/cortex",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Unit tests leak goroutines",
         "url": "https://github.com/cortexproject/cortex/issues/3962",
         "labels": [
@@ -27408,18 +27384,6 @@
         "repo": "cortexproject/cortex",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "The \"consul\" word in \"cortex_consul_request_duration_seconds\" metric is misleading",
-        "url": "https://github.com/cortexproject/cortex/issues/3226",
-        "labels": [
-            "help wanted",
-            "type/observability"
-        ],
-        "created_at": "2020-09-23T09:46:32Z"
-    },
-    {
-        "repo": "cortexproject/cortex",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Add integration tests for compactor",
         "url": "https://github.com/cortexproject/cortex/issues/3096",
         "labels": [
@@ -27497,42 +27461,6 @@
         "repo": "cortexproject/cortex",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Experimental feature in use logged even if unused",
-        "url": "https://github.com/cortexproject/cortex/issues/2499",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2020-04-22T10:31:03Z"
-    },
-    {
-        "repo": "cortexproject/cortex",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Refactor Cortex fingerprint mapper",
-        "url": "https://github.com/cortexproject/cortex/issues/1871",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2019-12-03T14:11:13Z"
-    },
-    {
-        "repo": "cortexproject/cortex",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Error message for 'label value too long' misses important information",
-        "url": "https://github.com/cortexproject/cortex/issues/1582",
-        "labels": [
-            "type/chore",
-            "component/ingester",
-            "help wanted",
-            "size/small"
-        ],
-        "created_at": "2019-08-16T07:38:29Z"
-    },
-    {
-        "repo": "cortexproject/cortex",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "user_stats call errors if one ingester is down",
         "url": "https://github.com/cortexproject/cortex/issues/1448",
         "labels": [
@@ -27548,14 +27476,62 @@
         "repo": "cortexproject/cortex",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "Test that metric names and series IDs are marshalled correctly",
-        "url": "https://github.com/cortexproject/cortex/issues/1436",
+        "title": "Ruler should be protected against high-cardinality output",
+        "url": "https://github.com/cortexproject/cortex/issues/1396",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2019-05-17T15:51:07Z"
+    },
+    {
+        "repo": "cortexproject/cortex",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Send strings once per Push call",
+        "url": "https://github.com/cortexproject/cortex/issues/1227",
+        "labels": [
+            "help wanted",
+            "type/performance",
+            "keepalive"
+        ],
+        "created_at": "2019-02-08T11:50:37Z"
+    },
+    {
+        "repo": "cortexproject/cortex",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Add FOSSA Badge for License Scanning",
+        "url": "https://github.com/cortexproject/cortex/issues/1017",
+        "labels": [
+            "help wanted",
+            "CNCF migration"
+        ],
+        "created_at": "2018-09-20T20:45:18Z"
+    },
+    {
+        "repo": "cortexproject/cortex",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "docs: summarise how cortex compares to alternatives",
+        "url": "https://github.com/cortexproject/cortex/issues/865",
+        "labels": [
+            "help wanted",
+            "component/documentation",
+            "keepalive"
+        ],
+        "created_at": "2018-07-04T07:11:30Z"
+    },
+    {
+        "repo": "cortexproject/cortex",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Remove prometheus 'model' types",
+        "url": "https://github.com/cortexproject/cortex/issues/765",
         "labels": [
             "type/chore",
-            "help wanted",
-            "hacktoberfest"
+            "help wanted"
         ],
-        "created_at": "2019-06-02T16:47:01Z"
+        "created_at": "2018-03-23T12:02:20Z"
     },
     {
         "repo": "fluent/fluentd",
@@ -30375,7 +30351,6 @@
         "title": "Chore: migrate remaining JSON marshaling/unmarshaling to v2 / jsontext",
         "url": "https://github.com/trickstercache/trickster/issues/1204",
         "labels": [
-            "help wanted",
             "good first issue",
             "chore",
             "2.3 release"
@@ -30625,6 +30600,34 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Review backlog (style): Pre-existing: packAgentBackend doc comment attached to the wrong function",
+        "url": "https://github.com/hivecommons/hive/issues/14725",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-27T22:22:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (correctness): Repair path cannot move two or more late-added pack-owned CLI agents",
+        "url": "https://github.com/hivecommons/hive/issues/14721",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-27T22:14:19Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[aw] Detection Runs",
         "url": "https://github.com/hivecommons/hive/issues/14646",
         "labels": [
@@ -30653,26 +30656,14 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Weekly competitor report",
-        "url": "https://github.com/hivecommons/hive/issues/14613",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-27T17:10:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] repeat-failure: backend-specific routes (copilot, omp, openhands, muse, agy, aider) and real-run evidence",
         "url": "https://github.com/hivecommons/hive/issues/14559",
         "labels": [
             "good first issue",
             "help wanted",
             "agent/scanner",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-10-27T11:31:44Z"
     },
@@ -30694,53 +30685,173 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b bug: feedback button overlaps other header content",
-        "url": "https://github.com/hivecommons/hive/issues/13135",
+        "title": "Supersession sweep flags duplicate PRs but stage tracker shows closed issue \u2192 open PR with no superseded signal; 085 park is overwritten by 071/072",
+        "url": "https://github.com/hivecommons/hive/issues/14814",
         "labels": [
-            "bug",
-            "good first issue",
             "help wanted",
-            "triage/accepted",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-20T14:30:09Z"
+        "created_at": "2026-10-28T02:59:18Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] ioscan_classifier_unavailable: ioscan fail-closed blocked kick",
-        "url": "https://github.com/hivecommons/hive/issues/14714",
+        "title": "Review backlog (security): Existing Copilot transcript readers also follow symlinks (operator-facing only)",
+        "url": "https://github.com/hivecommons/hive/issues/14811",
         "labels": [
             "help wanted",
+            "agent/reviewer",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-27T21:29:28Z"
+        "created_at": "2026-10-28T02:38:36Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] Gate proposal: auto-re-anchor drifted src/docs line-range citations",
-        "url": "https://github.com/hivecommons/hive/issues/14713",
+        "title": "Review backlog (docs-currency): Operator docs describe only the BASH_ENV route; new per-backend routes undocumented in prose",
+        "url": "https://github.com/hivecommons/hive/issues/14810",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-28T02:38:08Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (docs-currency): Docs cite wrong path for repeat_failure_coverage.go",
+        "url": "https://github.com/hivecommons/hive/issues/14809",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-28T02:37:57Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Auto-resolve same-issue duplicate open PRs: earlier green PR wins",
+        "url": "https://github.com/hivecommons/hive/issues/14805",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/045-needs-decision"
+            "stage/010-actionable"
         ],
-        "created_at": "2026-10-27T21:17:10Z"
+        "created_at": "2026-10-28T02:25:32Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: review-request watcher: verdict missing review body digest, discarded",
-        "url": "https://github.com/hivecommons/hive/issues/14709",
+        "title": "[scanner] Pre-dispatch guard: refuse claims on issues that already have an open linked PR",
+        "url": "https://github.com/hivecommons/hive/issues/14804",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T02:25:19Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Dashboard \u25b6 terminal only shows 'tmux session not created yet' for sandbox.runtime: job agents",
+        "url": "https://github.com/hivecommons/hive/issues/14798",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-10-28T01:54:59Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] agent_github_api_cap_reached: agent GitHub API hourly cap reached",
+        "url": "https://github.com/hivecommons/hive/issues/14797",
         "labels": [
             "help wanted",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-27T21:07:24Z"
+        "created_at": "2026-10-28T01:53:19Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "README: outcome cards render with fallback fonts and glow; rasterize to PNG",
+        "url": "https://github.com/hivecommons/hive/issues/14786",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T01:23:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Re-measure cost per merged PR after GPT-6.1 Terra",
+        "url": "https://github.com/hivecommons/hive/issues/14762",
+        "labels": [
+            "help wanted",
+            "kind/feature",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-28T00:36:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[sec-check] Workflow-path fence: unmarked owner approval binds to the head commit's committer date",
+        "url": "https://github.com/hivecommons/hive/issues/14754",
+        "labels": [
+            "help wanted",
+            "agent/sec-check",
+            "security",
+            "hive/claimed-by-sec-check",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-28T00:31:19Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] repeat-failure: muse route emits the shared command record + re-runnable harness",
+        "url": "https://github.com/hivecommons/hive/issues/14749",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable",
+            "hive/partially-addressed"
+        ],
+        "created_at": "2026-10-28T00:22:12Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] repeat-failure: openhands route emits the shared command record + re-runnable harness",
+        "url": "https://github.com/hivecommons/hive/issues/14748",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/010-actionable",
+            "hive/partially-addressed"
+        ],
+        "created_at": "2026-10-28T00:20:46Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30750,7 +30861,7 @@
         "url": "https://github.com/hivecommons/hive/issues/14708",
         "labels": [
             "help wanted",
-            "stage/040-covered-by-pr"
+            "hive/likely-done"
         ],
         "created_at": "2026-10-27T21:03:01Z"
     },
@@ -30762,105 +30873,9 @@
         "url": "https://github.com/hivecommons/hive/issues/14707",
         "labels": [
             "help wanted",
-            "stage/040-covered-by-pr"
+            "hive/likely-done"
         ],
         "created_at": "2026-10-27T21:03:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "review: recording a head verdict does not wake dispatch, so reviewers idle until the next governor cycle",
-        "url": "https://github.com/hivecommons/hive/issues/14705",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-27T20:55:28Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: overview export encode failed",
-        "url": "https://github.com/hivecommons/hive/issues/14696",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "needs-triage",
-            "hive/claimed-by-scanner",
-            "fleet-report",
-            "hive/selfreport",
-            "trigger:runtime-error",
-            "stage/040-covered-by-pr",
-            "severity:low",
-            "class:unclassified-error-repeated"
-        ],
-        "created_at": "2026-10-27T20:06:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b kubejob ignores sandbox env_allowlist \u2014 Job pods get zero allowlisted env (docs say they are copied in)",
-        "url": "https://github.com/hivecommons/hive/issues/14691",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-27T19:55:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: reviewer agent has mysteriously inconsistent configuration for inference",
-        "url": "https://github.com/hivecommons/hive/issues/14678",
-        "labels": [
-            "bug",
-            "help wanted",
-            "triage/accepted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-27T19:25:36Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b tracker: mention-tier links bind uncovered sibling issues ('#N remain') and closed superseded PRs into PR rows",
-        "url": "https://github.com/hivecommons/hive/issues/14667",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-27T18:34:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b adoption: dco-rehome never re-homes the inherited unsigned commit; fix kicks only cite CI so the adopted PR stays no-dco",
-        "url": "https://github.com/hivecommons/hive/issues/14666",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-27T18:34:09Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "dashboard: merge-gate pills (sentinel, needs-human, unauthorized) show before the PR reaches the gate",
-        "url": "https://github.com/hivecommons/hive/issues/14650",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-27T18:02:50Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30931,20 +30946,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] search: add pkg/search core (Backend interface + embedded inverted index)",
-        "url": "https://github.com/hivecommons/hive/issues/14634",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-27T17:42:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] hub-auth: add S256 PKCE verifier cookie to Hub GitHub login",
         "url": "https://github.com/hivecommons/hive/issues/14633",
         "labels": [
@@ -30953,18 +30954,6 @@
             "stage/010-actionable"
         ],
         "created_at": "2026-10-27T17:42:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b dashboard: refs-linked issues show \"(title unavailable)\" \u2014 no title/state enrichment for soft links (not covered by #14579)",
-        "url": "https://github.com/hivecommons/hive/issues/14606",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-27T16:58:07Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30986,23 +30975,11 @@
         "url": "https://github.com/hivecommons/hive/issues/14598",
         "labels": [
             "help wanted",
+            "hive/verified-open",
             "stage/010-actionable",
             "hive/partially-addressed"
         ],
         "created_at": "2026-10-27T16:04:55Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] retro human-review lessons: GitHub trusted review-feedback source",
-        "url": "https://github.com/hivecommons/hive/issues/14584",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-27T15:13:32Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31021,28 +30998,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] repeat-failure: dashboard row note, check states, no-data safeguard, coverage table and docs",
-        "url": "https://github.com/hivecommons/hive/issues/14558",
+        "title": "\ud83c\udf31 [v6] agents: notice an agent repeating the same failing command (every backend, monitor-only)",
+        "url": "https://github.com/hivecommons/hive/issues/14550",
         "labels": [
             "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
+            "hive/verified-open",
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
-        "created_at": "2026-10-27T11:31:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 [v6] retro: learn from what human reviewers wrote (lessons wait for owner approval)",
-        "url": "https://github.com/hivecommons/hive/issues/14551",
-        "labels": [
-            "help wanted",
-            "approved-direction",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-27T11:13:02Z"
+        "created_at": "2026-10-27T11:12:49Z"
     },
     {
         "repo": "kaito-project/kaito",
