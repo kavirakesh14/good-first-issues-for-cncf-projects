@@ -9504,19 +9504,6 @@
         "repo": "cri-o/cri-o",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Add BATS_TEST_TIMEOUT for integration tests",
-        "url": "https://github.com/cri-o/cri-o/issues/10079",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "lifecycle/stale"
-        ],
-        "created_at": "2026-06-29T14:00:06Z"
-    },
-    {
-        "repo": "cri-o/cri-o",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Add option to enable only UNIX socket for metrics endpoint",
         "url": "https://github.com/cri-o/cri-o/issues/8541",
         "labels": [
@@ -30715,80 +30702,156 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "ci-flake: github.com/hivecommons/hive/pkg/github.TestFetchWebhookItemSnapshot_ClassifiesForGovernor",
-        "url": "https://github.com/hivecommons/hive/issues/15535",
-        "labels": [
-            "help wanted",
-            "ci-flake",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-29T21:37:58Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (docs-currency): ADR 0025 stage_tracker.go:957-962 citation points at a doc comment, not the store read",
-        "url": "https://github.com/hivecommons/hive/issues/15533",
+        "title": "Review backlog (intent-alignment): Queued caption persists when hold label is added after Adopt now",
+        "url": "https://github.com/hivecommons/hive/issues/15665",
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "stage/040-covered-by-pr"
+            "blocked"
         ],
-        "created_at": "2026-10-29T21:33:18Z"
+        "created_at": "2026-10-30T03:51:37Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (style): ADR 0025 citation of stage_tracker.go:957-962 was already stale",
-        "url": "https://github.com/hivecommons/hive/issues/15532",
+        "title": "Review backlog (security): Previous intent-alignment note (waiver will recur per squash) still structurally true",
+        "url": "https://github.com/hivecommons/hive/issues/15660",
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "stage/010-actionable"
+            "blocked"
         ],
-        "created_at": "2026-10-29T21:32:56Z"
+        "created_at": "2026-10-30T03:39:52Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (intent-alignment): ADR 0025 line-range citation into stage_tracker.go was already stale before the split",
-        "url": "https://github.com/hivecommons/hive/issues/15531",
+        "title": "Review backlog (docs-currency): Prior finding still present: waiver will recur per squash",
+        "url": "https://github.com/hivecommons/hive/issues/15659",
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "stage/040-covered-by-pr"
+            "blocked"
         ],
-        "created_at": "2026-10-29T21:32:39Z"
+        "created_at": "2026-10-30T03:39:04Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (security): Issue-row caller still passes '' instead of null when lineage chip is empty (carried over)",
-        "url": "https://github.com/hivecommons/hive/issues/15523",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T21:01:06Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (docs-currency): operator-reference Dashboard metrics section does not point at the monitoring component or alert runbooks",
-        "url": "https://github.com/hivecommons/hive/issues/15514",
+        "title": "Review backlog (correctness): Empty-diff head age measured from updated_at, not head commit",
+        "url": "https://github.com/hivecommons/hive/issues/15603",
         "labels": [
             "help wanted",
             "agent/reviewer",
             "hive/claimed-by-scanner",
-            "stage/020-claimed"
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-29T20:08:46Z"
+        "created_at": "2026-10-30T01:13:47Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "refactor: src/cmd/hive/main.go is a merge hotspot \u2014 split into 4 units",
+        "url": "https://github.com/hivecommons/hive/issues/15585",
+        "labels": [
+            "help wanted",
+            "kind/cleanup",
+            "agent/ci-maintainer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-30T00:28:31Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: review dispatch promoted: head starved of a reviewer walked ahead of the queue",
+        "url": "https://github.com/hivecommons/hive/issues/15578",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "kind/bug",
+            "fleet-report",
+            "hive/selfreport",
+            "trigger:runtime-error",
+            "stage/040-covered-by-pr",
+            "severity:low",
+            "class:unclassified-error-repeated"
+        ],
+        "created_at": "2026-10-29T23:56:20Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "refactor: src/pkg/dashboard/stage_tracker_ui_test.go is a merge hotspot \u2014 split into 4 units",
+        "url": "https://github.com/hivecommons/hive/issues/15563",
+        "labels": [
+            "help wanted",
+            "kind/cleanup",
+            "agent/ci-maintainer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-29T23:20:10Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "refactor: src/pkg/dashboard/static-src/js/tracker-words.js is a merge hotspot \u2014 split into 4 units",
+        "url": "https://github.com/hivecommons/hive/issues/15562",
+        "labels": [
+            "help wanted",
+            "kind/cleanup",
+            "agent/ci-maintainer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-29T23:20:02Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (docs-currency): Earlier unreleased changelog fragment still advertises 18 px digits and a grown pill",
+        "url": "https://github.com/hivecommons/hive/issues/15548",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-29T22:48:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[DCO] post-merge trailer failures on v5",
+        "url": "https://github.com/hivecommons/hive/issues/15542",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "ci-dco",
+            "approved-direction",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-29T22:40:31Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (docs-currency): Dashboard help marks still land on index stub page (advisory, unchanged)",
+        "url": "https://github.com/hivecommons/hive/issues/15540",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-29T22:33:22Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30836,83 +30899,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "ci-flake: github.com/hivecommons/hive/pkg/github.TestFetchWebhookItemSnapshotReadsOnePRAndOneIssue",
-        "url": "https://github.com/hivecommons/hive/issues/15500",
-        "labels": [
-            "help wanted",
-            "ci-flake",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T19:49:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (correctness): Link memo keyed by issue only while result depends on per-row exclude (currently a no-op)",
-        "url": "https://github.com/hivecommons/hive/issues/15495",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T19:45:25Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (security): closedByPullRequestsReferences may name a cross-repo PR as a same-repo number",
-        "url": "https://github.com/hivecommons/hive/issues/15494",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T19:44:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (correctness): Issue-row caller still passes '' (not null) when the lineage chip renders empty, leaving a pre-existing trailing space",
-        "url": "https://github.com/hivecommons/hive/issues/15493",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T19:38:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: kick ref withheld: snapshot not fresh enough to act on",
-        "url": "https://github.com/hivecommons/hive/issues/15465",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T19:02:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "ci-flake: github.com/hivecommons/hive/pkg/dashboard.TestRepoItemDecisionMergeDecisionsGuard",
-        "url": "https://github.com/hivecommons/hive/issues/15461",
-        "labels": [
-            "help wanted",
-            "ci-flake",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T18:45:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[v6] \u2728 deploy: Grafana dashboard for Hive metrics",
         "url": "https://github.com/hivecommons/hive/issues/15439",
         "labels": [
@@ -30939,14 +30925,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (correctness): Docs still describe the ledger claimant source as claim-comment",
-        "url": "https://github.com/hivecommons/hive/issues/15434",
+        "title": "Review backlog (intent-alignment): Grounding budget wording predates fan-out",
+        "url": "https://github.com/hivecommons/hive/issues/15435",
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr",
+            "has-open-pr"
         ],
-        "created_at": "2026-10-29T16:51:07Z"
+        "created_at": "2026-10-29T17:13:33Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30960,19 +30947,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-29T16:33:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (correctness): Previous security finding unchanged (workflow not touched by delta)",
-        "url": "https://github.com/hivecommons/hive/issues/15340",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T07:05:17Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31061,19 +31035,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (security): Armed follow-through routes workflow-path fork PRs to a fixer push the App token cannot complete",
-        "url": "https://github.com/hivecommons/hive/issues/15133",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-28T22:02:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83d\udcdd RFC: [v6] Proxy egress allowlist and brokered secrets",
         "url": "https://github.com/hivecommons/hive/issues/14291",
         "labels": [
@@ -31082,6 +31043,30 @@
             "proposal"
         ],
         "created_at": "2026-10-25T19:23:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [v6] Risk-tiered ACMM level holds: let test-only and docs-only agent PRs with green checks skip the human checkpoint (opt-in)",
+        "url": "https://github.com/hivecommons/hive/issues/13606",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-22T20:39:18Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 RFC: Repo-targeted Experiment Lab campaigns run on Nous's own discovery",
+        "url": "https://github.com/hivecommons/hive/issues/13096",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-20T02:36:10Z"
     },
     {
         "repo": "kaito-project/kaito",
