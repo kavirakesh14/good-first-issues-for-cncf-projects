@@ -2114,6 +2114,46 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[CI] auto-merge-meeting-minutes validates only the first 100 changed files (no pagination), so extra files can be auto-merged to master",
+        "url": "https://github.com/meshery/meshery/issues/22684",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-10-30T16:06:34Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[CI] Move build-ui-and-server workflows from pull_request_target to pull_request",
+        "url": "https://github.com/meshery/meshery/issues/22682",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-10-30T15:17:14Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Fix \"Everytime\" typo in build and release guide",
+        "url": "https://github.com/meshery/meshery/issues/22674",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-10-30T13:49:21Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[Docs] Clarify Docker startup delay and local site URL",
         "url": "https://github.com/meshery/meshery/issues/22649",
         "labels": [
@@ -2451,48 +2491,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-08-27T10:22:06Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Sign-off (DCO) VS Code screenshot misaligned to the right on wide screens",
-        "url": "https://github.com/meshery/meshery/issues/21538",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-21T12:35:10Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "make golangci is red: 6 pre-existing SA5011 false positives in credentials_handlers_test.go",
-        "url": "https://github.com/meshery/meshery/issues/21453",
-        "labels": [
-            "help wanted",
-            "kind/chore",
-            "area/ci",
-            "language/go"
-        ],
-        "created_at": "2026-08-18T00:24:30Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs]Refactor the Meshery REST API documentation to source from the published OpenAPI schemas instead of Golang code comments.",
-        "url": "https://github.com/meshery/meshery/issues/21409",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/jekyll"
-        ],
-        "created_at": "2026-08-14T14:43:32Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -6187,18 +6185,6 @@
         "repo": "oauth2-proxy/oauth2-proxy",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Bug]: WebSocket Origin header mismatch behind oauth2-proxy causes n8n real-time push (WS) to fail",
-        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3444",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2026-06-02T13:06:06Z"
-    },
-    {
-        "repo": "oauth2-proxy/oauth2-proxy",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[Bug]: can't pass test due absent IPv6 support",
         "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3441",
         "labels": [
@@ -6411,6 +6397,18 @@
             "help wanted"
         ],
         "created_at": "2025-09-24T10:19:17Z"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug]: TLS not working",
+        "url": "https://github.com/oauth2-proxy/oauth2-proxy/issues/3199",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2025-09-15T17:57:59Z"
     },
     {
         "repo": "open-policy-agent/opa",
@@ -11063,6 +11061,20 @@
             "cilium"
         ],
         "created_at": "2024-09-24T10:02:56Z"
+    },
+    {
+        "repo": "agent-substrate/substrate",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "demos/{sandbox,jupyter,multi-template}: add ingress prerequisite, fix Quickstart links, CLI states, and counter output",
+        "url": "https://github.com/agent-substrate/substrate/issues/3494",
+        "labels": [
+            "kind/bug",
+            "kind/docs",
+            "good first issue",
+            "area/demos"
+        ],
+        "created_at": "2026-10-30T14:51:38Z"
     },
     {
         "repo": "agent-substrate/substrate",
@@ -20902,6 +20914,7 @@
             "area:documentation",
             "good first issue",
             "priority:contrib-needed",
+            "stale",
             "domain:docs"
         ],
         "created_at": "2026-05-05T21:18:55Z"
@@ -28697,6 +28710,18 @@
         "created_at": "2026-02-26T08:12:02Z"
     },
     {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "gpu: power after a GPU process exits is active but goes to no process",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2666",
+        "labels": [
+            "help wanted",
+            "kind/bug"
+        ],
+        "created_at": "2026-10-24T10:34:21Z"
+    },
+    {
         "repo": "kuberhealthy/kuberhealthy",
         "tier": "Sandbox",
         "lang": "Go",
@@ -30666,82 +30691,332 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Review backlog (correctness): Retained 'drum cell per digit' clause still contradicts the newer odometer fragment (still present, advisory)",
-        "url": "https://github.com/hivecommons/hive/issues/15576",
+        "title": "[scanner] Stage tracker: push detail on every CI / Review PR row",
+        "url": "https://github.com/hivecommons/hive/issues/15797",
         "labels": [
             "good first issue",
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-30T14:57:15Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Add an abandoned column to the dashboard and contribute-landing leaderboards",
+        "url": "https://github.com/hivecommons/hive/issues/15796",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-30T14:57:07Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (style): headIsBaseRefreshChainOf doc comment does not match per-hop oldHead tolerance",
+        "url": "https://github.com/hivecommons/hive/issues/15835",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-30T17:02:07Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Serialize final base preparation to stop waiting-head CI churn",
+        "url": "https://github.com/hivecommons/hive/issues/15833",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr",
+            "has-open-pr"
+        ],
+        "created_at": "2026-10-30T16:56:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 dashboard: pop out the Hive activity monitor into its own window and a full-screen toggle",
+        "url": "https://github.com/hivecommons/hive/issues/15829",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-30T16:39:21Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b activity monitor: some merges show no toast; merge toast lacks countdown bar; bee/odometer skipped for off-board rows",
+        "url": "https://github.com/hivecommons/hive/issues/15828",
+        "labels": [
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-30T16:36:49Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b merge train seats PRs whose current head is not green or reviewed and keeps a regressed front",
+        "url": "https://github.com/hivecommons/hive/issues/15825",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr",
+            "has-open-pr"
+        ],
+        "created_at": "2026-10-30T16:28:36Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Reviewer slots wasted: verdicts discarded after head moves, no merge-readiness ordering, canary-only audit previews",
+        "url": "https://github.com/hivecommons/hive/issues/15823",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-30T16:21:54Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: inference backend refused on a spending limit",
+        "url": "https://github.com/hivecommons/hive/issues/15809",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr",
+            "has-open-pr"
+        ],
+        "created_at": "2026-10-30T15:49:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Stage tracker: the PR sub-row should name the other issues it also closes",
+        "url": "https://github.com/hivecommons/hive/issues/15806",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-30T15:30:29Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Carry abandoned counts in the spoke heartbeat leaderboard and the hub's merged /api/hub/leaderboard",
+        "url": "https://github.com/hivecommons/hive/issues/15799",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-30T14:57:54Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Show abandoned count on the Contributors tile and in /api/status.contributorPool",
+        "url": "https://github.com/hivecommons/hive/issues/15795",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-30T14:56:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: hub heartbeat rejected",
+        "url": "https://github.com/hivecommons/hive/issues/15789",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-30T14:48:29Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Show the upgrade animation for every roll (hub roll, kubectl rollout restart, SIGTERM) \u2014 not only self-upgrades",
+        "url": "https://github.com/hivecommons/hive/issues/15788",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-30T14:48:05Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: merge-eligible lane gate could not evaluate PR; leaving it listed",
+        "url": "https://github.com/hivecommons/hive/issues/15786",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-30T14:30:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: trusted-author automerge sweep skipped PR",
+        "url": "https://github.com/hivecommons/hive/issues/15785",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "fleet-report",
+            "hive/selfreport",
+            "trigger:runtime-error",
+            "stage/040-covered-by-pr",
+            "origin/selfreport",
+            "severity:low",
+            "class:unclassified-error-repeated"
+        ],
+        "created_at": "2026-10-30T14:30:41Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Track per-clanker abandoned counts when the hive adopts a contributor PR",
+        "url": "https://github.com/hivecommons/hive/issues/15782",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-30T14:22:01Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Reconcile pass starved by wake-driven cached cycles; tracker age keeps counting across unblock",
+        "url": "https://github.com/hivecommons/hive/issues/15779",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-30T14:13:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "stage tracker: 'Let hive decide' gives no feedback and answers slowly; covered issues inherit the PR's chip; \ud83d\udc64 chevrons never say why",
+        "url": "https://github.com/hivecommons/hive/issues/15773",
+        "labels": [
+            "bug",
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-30T14:00:08Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "dashboard: onboarding and GitHub App errors should point to the Getting Started guide",
+        "url": "https://github.com/hivecommons/hive/issues/15772",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "stage/040-covered-by-pr",
+            "has-open-pr"
+        ],
+        "created_at": "2026-10-30T13:57:16Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Delegated plan for an advisory: would close / keep open while the hive works k/N items",
+        "url": "https://github.com/hivecommons/hive/issues/15764",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-30T13:10:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Auto-merge hive-authored superseding PRs without an operator decision",
+        "url": "https://github.com/hivecommons/hive/issues/15756",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-30T12:40:51Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Review backlog (style): ask policy has the same promise-then-flip gap",
+        "url": "https://github.com/hivecommons/hive/issues/15745",
+        "labels": [
             "help wanted",
             "agent/reviewer",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-29T23:54:38Z"
+        "created_at": "2026-10-30T12:11:40Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[v6] \u2728 deploy: PrometheusRule alerts for a running hive",
-        "url": "https://github.com/hivecommons/hive/issues/15438",
+        "title": "\ud83d\udc1b [reviewer] PR stays at 070 Fixing for hours after the fixer exhausted its attempts",
+        "url": "https://github.com/hivecommons/hive/issues/15744",
         "labels": [
-            "good first issue",
             "help wanted",
-            "triage/accepted",
-            "stage/040-covered-by-pr"
+            "stage/040-covered-by-pr",
+            "has-open-pr"
         ],
-        "created_at": "2026-10-29T17:23:33Z"
+        "created_at": "2026-10-30T12:08:07Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[v6] \ud83d\udc1b inception moves to scaffold after 3 of 6 answers and drops the rest with a raw HTTP 400",
-        "url": "https://github.com/hivecommons/hive/issues/13216",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "triage/accepted",
-            "hold"
-        ],
-        "created_at": "2026-10-20T17:12:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (security): destructiveCmdRe still misses equivalent root-removal spellings (//, /., quoted /, split flags, ${HOME})",
-        "url": "https://github.com/hivecommons/hive/issues/15740",
+        "title": "Review backlog (intent-alignment): Same pre-due countdown gap exists under maintainer_policy: ask",
+        "url": "https://github.com/hivecommons/hive/issues/15742",
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "blocked"
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-30T11:59:24Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "triage: duplicate and overlapping open issues/PRs to consolidate",
-        "url": "https://github.com/hivecommons/hive/issues/15734",
-        "labels": [
-            "help wanted",
-            "agent/dedupe",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-10-30T11:50:06Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [reviewer] already-landed empty-diff contributor PRs park at 085 instead of closing as superseded",
-        "url": "https://github.com/hivecommons/hive/issues/15732",
-        "labels": [
-            "help wanted",
-            "stage/020-claimed",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-10-30T11:49:37Z"
+        "created_at": "2026-10-30T12:04:58Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30786,65 +31061,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[v6] \ud83d\udc1b standby dispatch returns 403 for the owner on a self-hosted hive",
-        "url": "https://github.com/hivecommons/hive/issues/15723",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-30T10:22:19Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b standby tile is never visible: it renders into the hidden oc-gov-strip",
-        "url": "https://github.com/hivecommons/hive/issues/15720",
-        "labels": [
-            "help wanted",
-            "triage/accepted"
-        ],
-        "created_at": "2026-10-30T09:39:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[v6] \ud83d\udcdd RFC: Gateway API path for exposing Hive now that ingress-nginx is retired",
         "url": "https://github.com/hivecommons/hive/issues/15716",
         "labels": [
             "help wanted",
-            "triage/accepted"
+            "triage/accepted",
+            "needs-human",
+            "stage/045-needs-decision"
         ],
         "created_at": "2026-10-30T09:01:01Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "refactor: src/pkg/dashboard/api_repo_item_decision_test.go is a merge hotspot \u2014 split into 4 units",
-        "url": "https://github.com/hivecommons/hive/issues/15702",
-        "labels": [
-            "help wanted",
-            "kind/cleanup",
-            "agent/ci-maintainer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-30T06:01:22Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "refactor: src/pkg/review/prompts.go is a merge hotspot \u2014 split into 4 units",
-        "url": "https://github.com/hivecommons/hive/issues/15701",
-        "labels": [
-            "help wanted",
-            "kind/cleanup",
-            "agent/ci-maintainer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-30T06:01:15Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30858,206 +31083,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-30T05:41:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (correctness): maintainer_policy=never rows read 'hive adopts it in Nm' until the due moment",
-        "url": "https://github.com/hivecommons/hive/issues/15692",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-30T04:55:51Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "refactor: src/pkg/dashboard/static-src/js/tracker-filter.js is a merge hotspot \u2014 split into 4 units",
-        "url": "https://github.com/hivecommons/hive/issues/15677",
-        "labels": [
-            "help wanted",
-            "kind/cleanup",
-            "agent/ci-maintainer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-30T04:17:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (docs-currency): Earlier unreleased changelog fragment still advertises 18 px digits and a grown pill",
-        "url": "https://github.com/hivecommons/hive/issues/15548",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T22:48:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (docs-currency): Dashboard help marks still land on index stub page (advisory, unchanged)",
-        "url": "https://github.com/hivecommons/hive/issues/15540",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T22:33:22Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "refactor: src/pkg/github/automerge/automerge_sweep.go is a merge hotspot \u2014 split into 4 units",
-        "url": "https://github.com/hivecommons/hive/issues/15513",
-        "labels": [
-            "help wanted",
-            "kind/cleanup",
-            "agent/ci-maintainer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-29T20:04:51Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "refactor: src/pkg/dashboard/static-src/js/tracker-row.js is a merge hotspot \u2014 split into 4 units",
-        "url": "https://github.com/hivecommons/hive/issues/15512",
-        "labels": [
-            "help wanted",
-            "kind/cleanup",
-            "agent/ci-maintainer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T20:04:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "refactor: src/docs/operator-reference.md is a merge hotspot \u2014 split into 4 sections",
-        "url": "https://github.com/hivecommons/hive/issues/15510",
-        "labels": [
-            "help wanted",
-            "kind/cleanup",
-            "agent/ci-maintainer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T20:04:31Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \u2728 deploy: Grafana dashboard for Hive metrics",
-        "url": "https://github.com/hivecommons/hive/issues/15439",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T17:23:36Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \u2728 deploy: opt-in Kustomize monitoring component with a ServiceMonitor for /metrics",
-        "url": "https://github.com/hivecommons/hive/issues/15437",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T17:23:31Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: agents can't reach OMP_AUTH_BROKER_URL \u2014 the proxy's private-address guard refuses it, so the CLI exits on start",
-        "url": "https://github.com/hivecommons/hive/issues/15432",
-        "labels": [
-            "bug",
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T16:33:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd RFC: admission-side #5117 \u2014 hold unacknowledged hive-filed proposals before any kick",
-        "url": "https://github.com/hivecommons/hive/issues/15329",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "architecture discussion",
-            "kind/design",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-10-29T06:10:21Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (style): Blocker ledger not cleared on ordinary issue close",
-        "url": "https://github.com/hivecommons/hive/issues/15273",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T03:22:07Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: enqueue into GitHub's native merge queue instead of skipping with merge-queue-required",
-        "url": "https://github.com/hivecommons/hive/issues/15198",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T00:41:22Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd RFC: [v6] Proxy egress allowlist and brokered secrets",
-        "url": "https://github.com/hivecommons/hive/issues/14291",
-        "labels": [
-            "help wanted",
-            "hold",
-            "proposal"
-        ],
-        "created_at": "2026-10-25T19:23:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 [v6] Risk-tiered ACMM level holds: let test-only and docs-only agent PRs with green checks skip the human checkpoint (opt-in)",
-        "url": "https://github.com/hivecommons/hive/issues/13606",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-22T20:39:18Z"
     },
     {
         "repo": "kaito-project/kaito",
