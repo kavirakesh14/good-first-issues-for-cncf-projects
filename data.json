@@ -7588,6 +7588,30 @@
         "repo": "spiffe/spire",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Federation bundle client reads the bundle endpoint response without a size limit",
+        "url": "https://github.com/spiffe/spire/issues/7366",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2026-10-28T11:41:21Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "x509pop: SHA-384 support for policy-constrained deployments",
+        "url": "https://github.com/spiffe/spire/issues/7361",
+        "labels": [
+            "help wanted",
+            "priority/backlog"
+        ],
+        "created_at": "2026-10-26T09:13:04Z"
+    },
+    {
+        "repo": "spiffe/spire",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "azure_imds: handle Flexible VMSS members as standard Azure VMs",
         "url": "https://github.com/spiffe/spire/issues/7296",
         "labels": [
@@ -20831,6 +20855,7 @@
             "type:suggestion",
             "good first issue",
             "priority:contrib-needed",
+            "stale",
             "area:search"
         ],
         "created_at": "2026-08-27T05:15:50Z"
@@ -28651,6 +28676,18 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "fix(lint): handle unchecked error in TestProbeEndToEnd",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2705",
+        "labels": [
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-10-31T08:57:33Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Helm chart prints nothing after install (no NOTES.txt)",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2675",
         "labels": [
@@ -30679,55 +30716,156 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (docs-currency): Doc says 'Hive is deciding\u2026' but the caption is 'Hive deciding\u2026'",
-        "url": "https://github.com/hivecommons/hive/issues/15954",
+        "title": "\ud83d\udc1b Adopted conflicting PR sits on Rebasing attempt 1/2 indefinitely while the fixer is busy",
+        "url": "https://github.com/hivecommons/hive/issues/16023",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-31T11:30:08Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Activity Monitor: author's force-push after a 071 ask still reads \"no response\" / Needs @author",
+        "url": "https://github.com/hivecommons/hive/issues/16021",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2026-10-31T11:18:52Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (docs-currency): close-read missing from API decision body enum",
+        "url": "https://github.com/hivecommons/hive/issues/16019",
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "blocked"
+            "stage/010-actionable"
         ],
-        "created_at": "2026-10-31T03:34:07Z"
+        "created_at": "2026-10-31T11:14:51Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] effect_ledger_op_stuck: effect ledger op stuck: label_mutation has been Unknown for 1h23m0s; retries re\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/15944",
+        "title": "\ud83d\udc1b Activity Monitor: registered contributor's PR reads as a person while the hive adopts it as a clanker's",
+        "url": "https://github.com/hivecommons/hive/issues/16015",
         "labels": [
             "help wanted",
-            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-31T02:49:35Z"
+        "created_at": "2026-10-31T11:07:05Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[shared-ci] native-queue-policy failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/15943",
+        "title": "[reviewer] Review backlog (style): Redundant predicates in card.go helpers",
+        "url": "https://github.com/hivecommons/hive/issues/16006",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-31T10:11:01Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (correctness): Docs describe a Matrix view the dashboard does not serve yet; DASHBOARD_PATH view=matrix is currently ignored",
+        "url": "https://github.com/hivecommons/hive/issues/16003",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-31T09:33:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (security): activityStore is not purged when a hive is removed from the registry",
+        "url": "https://github.com/hivecommons/hive/issues/16002",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-31T09:19:13Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Prepare a disabled-by-default independent hivecommonsfleet broadcast of a public-safe hub activity view",
+        "url": "https://github.com/hivecommons/hive/issues/15966",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "ci",
-            "stage/045-needs-decision"
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-10-31T02:48:53Z"
+        "created_at": "2026-10-31T04:37:33Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] Announce RFC documents proposed as pull requests",
-        "url": "https://github.com/hivecommons/hive/issues/15942",
+        "title": "[scanner] Add the hub Fleet activity page /activity reusing the smallest tracker row-presentation asset",
+        "url": "https://github.com/hivecommons/hive/issues/15965",
         "labels": [
             "help wanted",
-            "kind/feature",
             "agent/scanner",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-31T02:35:50Z"
+        "created_at": "2026-10-31T04:36:21Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Carry bounded activity events through the heartbeat and hub ring for fleet stage hops and merge toasts",
+        "url": "https://github.com/hivecommons/hive/issues/15964",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-31T04:35:51Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Publish the bounded activity digest from the spoke heartbeat with coalesced 15 s change updates",
+        "url": "https://github.com/hivecommons/hive/issues/15963",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-31T04:34:23Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: put \"finding\" above \"evidence\" on Hive review backlog issue body",
+        "url": "https://github.com/hivecommons/hive/issues/15955",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "triage/accepted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-10-31T03:42:39Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30739,37 +30877,9 @@
             "help wanted",
             "kind/feature",
             "agent/scanner",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-31T02:35:30Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Post one Discord thread per RFC with durable idempotent mapping, reconciliation and opt-in backlink",
-        "url": "https://github.com/hivecommons/hive/issues/15939",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-31T02:35:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Document Matrix mode and add inactive hivecommonsmatrix streamer overlay",
-        "url": "https://github.com/hivecommons/hive/issues/15937",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-31T02:18:59Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30781,7 +30891,7 @@
             "help wanted",
             "kind/feature",
             "agent/scanner",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-31T02:18:29Z"
     },
@@ -30795,210 +30905,9 @@
             "help wanted",
             "kind/feature",
             "agent/scanner",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-31T02:17:32Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Build Matrix line source: scrub-drop safety pipeline, dedup and bounded backlog",
-        "url": "https://github.com/hivecommons/hive/issues/15934",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-31T02:17:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Add bounded optional PatchObserver to the sentinel PR-patch fetch",
-        "url": "https://github.com/hivecommons/hive/issues/15933",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-31T02:16:31Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Rotate Activity Monitor display mode between URL-defined views",
-        "url": "https://github.com/hivecommons/hive/issues/15932",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-31T02:16:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Add density=tv, burn-in shift and reduced motion to Activity Monitor display mode",
-        "url": "https://github.com/hivecommons/hive/issues/15931",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-31T02:15:50Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Dim the Activity Monitor display-mode board when its data goes stale",
-        "url": "https://github.com/hivecommons/hive/issues/15930",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-31T02:15:33Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Add explicit Exit, Copy link, Full screen and Keep awake controls to Activity Monitor display mode",
-        "url": "https://github.com/hivecommons/hive/issues/15929",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-31T02:15:09Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Add opt-in dashboard.matrix config block (default off, explicit repo allowlist)",
-        "url": "https://github.com/hivecommons/hive/issues/15928",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-31T02:14:57Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Render RFC notices as summary-card embeds when rfc_format: card",
-        "url": "https://github.com/hivecommons/hive/issues/15927",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-31T02:14:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Add opt-in rich RFC notify config, designated-announcer gate and private-repo gate",
-        "url": "https://github.com/hivecommons/hive/issues/15926",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-31T02:14:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Add attended ?display=1 mode with a \ud83d\udcfa header button to the Activity Monitor",
-        "url": "https://github.com/hivecommons/hive/issues/15925",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-31T02:13:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Describe Activity Monitor filters in am.* URL parameters",
-        "url": "https://github.com/hivecommons/hive/issues/15924",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-31T02:12:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (style): Regex comment overstates trailing-dot handling",
-        "url": "https://github.com/hivecommons/hive/issues/15922",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-31T02:03:53Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (style): --sp-* spacing tokens are declared only on .config-modal, not :root",
-        "url": "https://github.com/hivecommons/hive/issues/15920",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-31T01:49:24Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): destructiveCmdRe still misses /.., /./ and ~/. root/home spellings",
-        "url": "https://github.com/hivecommons/hive/issues/15917",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr",
-            "has-open-pr"
-        ],
-        "created_at": "2026-10-31T01:48:09Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31008,10 +30917,12 @@
         "url": "https://github.com/hivecommons/hive/issues/15869",
         "labels": [
             "help wanted",
+            "hive/verified-open",
             "approved-direction",
             "kind/design",
             "proposal",
-            "stage/040-covered-by-pr"
+            "stage/040-covered-by-pr",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-10-30T19:09:50Z"
     },
@@ -31023,10 +30934,12 @@
         "url": "https://github.com/hivecommons/hive/issues/15862",
         "labels": [
             "help wanted",
+            "hive/verified-open",
             "approved-direction",
             "kind/design",
             "proposal",
-            "stage/040-covered-by-pr"
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-10-30T18:54:33Z"
     },
@@ -31049,47 +30962,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udcdd RFC: Activity Monitor kiosk/display mode for wall-screen dashboards",
-        "url": "https://github.com/hivecommons/hive/issues/15860",
-        "labels": [
-            "help wanted",
-            "approved-direction",
-            "kind/design",
-            "proposal",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-30T18:54:29Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 Show online ClankeR IDs on the Contributors count pill",
-        "url": "https://github.com/hivecommons/hive/issues/15848",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr",
-            "has-open-pr"
-        ],
-        "created_at": "2026-10-30T18:00:05Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "stage tracker: 'Let hive decide' gives no feedback and answers slowly; covered issues inherit the PR's chip; \ud83d\udc64 chevrons never say why",
-        "url": "https://github.com/hivecommons/hive/issues/15773",
-        "labels": [
-            "bug",
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-30T14:00:08Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Review backlog (docs-currency): Dashboard help marks still land on index stub page (advisory, unchanged)",
         "url": "https://github.com/hivecommons/hive/issues/15540",
         "labels": [
@@ -31098,6 +30970,101 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-29T22:33:22Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: admission-side #5117 \u2014 hold unacknowledged hive-filed proposals before any kick",
+        "url": "https://github.com/hivecommons/hive/issues/15329",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "architecture discussion",
+            "kind/design",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-10-29T06:10:21Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: [v6] Proxy egress allowlist and brokered secrets",
+        "url": "https://github.com/hivecommons/hive/issues/14291",
+        "labels": [
+            "help wanted",
+            "hold",
+            "proposal"
+        ],
+        "created_at": "2026-10-25T19:23:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [v6] Risk-tiered ACMM level holds: let test-only and docs-only agent PRs with green checks skip the human checkpoint (opt-in)",
+        "url": "https://github.com/hivecommons/hive/issues/13606",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-22T20:39:18Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 RFC: Repo-targeted Experiment Lab campaigns run on Nous's own discovery",
+        "url": "https://github.com/hivecommons/hive/issues/13096",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-20T02:36:10Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: opt-in actions: read for agent scoped tokens (ci-maintainer can't read failed CI logs)",
+        "url": "https://github.com/hivecommons/hive/issues/10574",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "hold",
+            "hive/selfreport"
+        ],
+        "created_at": "2026-10-05T13:59:07Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] v6 readiness live exercise: dashboard chat, inception via chat, standby S5-S6",
+        "url": "https://github.com/hivecommons/hive/issues/9735",
+        "labels": [
+            "help wanted",
+            "hold",
+            "needs-human",
+            "approved-direction"
+        ],
+        "created_at": "2026-09-30T04:24:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd v6 epic + readiness bar: dashboard-optional operation \u2014 meet humans where they are",
+        "url": "https://github.com/hivecommons/hive/issues/7563",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hold",
+            "roadmap",
+            "meta-tracker"
+        ],
+        "created_at": "2026-09-18T05:32:44Z"
     },
     {
         "repo": "kaito-project/kaito",
