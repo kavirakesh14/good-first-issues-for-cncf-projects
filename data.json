@@ -2209,20 +2209,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[Docs]",
-        "url": "https://github.com/meshery/meshery/issues/22610",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-10-27T11:15:36Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[CI] Release v1.0.72 has no mesheryctl binaries, so install and download fail",
         "url": "https://github.com/meshery/meshery/issues/22506",
         "labels": [
@@ -2492,6 +2478,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-08-21T12:35:10Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "make golangci is red: 6 pre-existing SA5011 false positives in credentials_handlers_test.go",
+        "url": "https://github.com/meshery/meshery/issues/21453",
+        "labels": [
+            "help wanted",
+            "kind/chore",
+            "area/ci",
+            "language/go"
+        ],
+        "created_at": "2026-08-18T00:24:30Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -12373,18 +12373,6 @@
         "repo": "kedacore/keda",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Provide support for scale-to-zero in Kubernetes Workload scaler and integrate pod condition status",
-        "url": "https://github.com/kedacore/keda/issues/4394",
-        "labels": [
-            "help wanted",
-            "feature"
-        ],
-        "created_at": "2023-03-21T10:40:40Z"
-    },
-    {
-        "repo": "kedacore/keda",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Keda Cron Scaler can't be unsuspended",
         "url": "https://github.com/kedacore/keda/issues/4044",
         "labels": [
@@ -12559,6 +12547,20 @@
             "feature"
         ],
         "created_at": "2021-05-06T10:39:25Z"
+    },
+    {
+        "repo": "kedacore/keda",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "KEDA for multi-cluster use-case",
+        "url": "https://github.com/kedacore/keda/issues/1587",
+        "labels": [
+            "help wanted",
+            "needs-discussion",
+            "feature-request",
+            "stale-bot-ignore"
+        ],
+        "created_at": "2021-02-09T16:58:48Z"
     },
     {
         "repo": "kai-scheduler/KAI-Scheduler",
@@ -13422,18 +13424,6 @@
             "windows"
         ],
         "created_at": "2021-05-16T17:38:13Z"
-    },
-    {
-        "repo": "kube-rs/kube",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Add generic helpers to kube-core",
-        "url": "https://github.com/kube-rs/kube/issues/428",
-        "labels": [
-            "help wanted",
-            "core"
-        ],
-        "created_at": "2021-02-21T21:33:44Z"
     },
     {
         "repo": "kube-rs/kube",
@@ -15589,17 +15579,6 @@
             "stage/tracked"
         ],
         "created_at": "2018-11-08T22:00:34Z"
-    },
-    {
-        "repo": "k8gb-io/k8gb",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Bring New \"CLO Monitor - Agent Readiness\" report to 100%",
-        "url": "https://github.com/k8gb-io/k8gb/issues/2539",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-09-22T08:26:34Z"
     },
     {
         "repo": "k8gb-io/k8gb",
@@ -24279,18 +24258,6 @@
         "repo": "telepresenceio/telepresence",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Support for Linuxbrew",
-        "url": "https://github.com/telepresenceio/telepresence/issues/2821",
-        "labels": [
-            "feature",
-            "help wanted"
-        ],
-        "created_at": "2022-10-20T09:55:04Z"
-    },
-    {
-        "repo": "telepresenceio/telepresence",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[v2] telepresence should be able to be installed via packagecloud",
         "url": "https://github.com/telepresenceio/telepresence/issues/1712",
         "labels": [
@@ -25296,6 +25263,46 @@
             "pinned"
         ],
         "created_at": "2020-06-12T03:45:12Z"
+    },
+    {
+        "repo": "pipe-cd/pipecd",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Pass context.Context into lifecycle.DownloadBinary",
+        "url": "https://github.com/pipe-cd/pipecd/issues/7566",
+        "labels": [
+            "kind/enhancement",
+            "good first issue",
+            "area/piped",
+            "area/launcher"
+        ],
+        "created_at": "2026-11-01T15:00:39Z"
+    },
+    {
+        "repo": "pipe-cd/pipecd",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Fix misspellings in Go comments, log messages and error strings",
+        "url": "https://github.com/pipe-cd/pipecd/issues/7565",
+        "labels": [
+            "kind/enhancement",
+            "good first issue",
+            "area/go"
+        ],
+        "created_at": "2026-11-01T15:00:36Z"
+    },
+    {
+        "repo": "pipe-cd/pipecd",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Fix misspellings in docs-dev and the kubernetes plugin README",
+        "url": "https://github.com/pipe-cd/pipecd/issues/7564",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "area/docs"
+        ],
+        "created_at": "2026-11-01T15:00:33Z"
     },
     {
         "repo": "pipe-cd/pipecd",
@@ -28442,6 +28449,19 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Send a Content-Security-Policy with base-uri 'self' from the UI static handler",
+        "url": "https://github.com/jaegertracing/jaeger/issues/10011",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "security"
+        ],
+        "created_at": "2026-11-01T19:35:22Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "ClickHouse spans table omits schema_url, flags and dropped counts from the OTLP span",
         "url": "https://github.com/jaegertracing/jaeger/issues/9789",
         "labels": [
@@ -28610,20 +28630,6 @@
             "help wanted"
         ],
         "created_at": "2021-10-05T19:12:32Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Improve Query Performance of GetTrace API for ES data source",
-        "url": "https://github.com/jaegertracing/jaeger/issues/2941",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "storage/elasticsearch",
-            "performance"
-        ],
-        "created_at": "2021-04-16T13:58:48Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
@@ -30707,15 +30713,28 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (docs-currency): GitRetagger.git doc comment still says 'combined output' after ExecRunner.Run stopped combining on success",
-        "url": "https://github.com/hivecommons/hive/issues/16160",
+        "title": "[reviewer] Review backlog (security): Escaped command word and escaped dot still bypass the rm root check",
+        "url": "https://github.com/hivecommons/hive/issues/16176",
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-01T11:58:51Z"
+        "created_at": "2026-11-01T21:19:35Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[outreach] Six hivecommons repos show stale or missing GitHub description/homepage/topics (owner-only gh repo edit)",
+        "url": "https://github.com/hivecommons/hive/issues/16167",
+        "labels": [
+            "help wanted",
+            "agent/outreach",
+            "community",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-11-01T17:58:26Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30726,7 +30745,6 @@
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-01T09:58:58Z"
@@ -30740,7 +30758,6 @@
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-01T09:55:50Z"
