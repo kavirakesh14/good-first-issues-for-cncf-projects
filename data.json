@@ -11196,8 +11196,7 @@
         "url": "https://github.com/agones-dev/agones/issues/4726",
         "labels": [
             "help wanted",
-            "kind/cleanup",
-            "stale"
+            "kind/cleanup"
         ],
         "created_at": "2026-09-07T00:22:39Z"
     },
@@ -20952,6 +20951,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-22111072]",
+        "url": "https://github.com/backstage/backstage/issues/36560",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-01T09:10:42Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-ADMZIP-21707815]",
         "url": "https://github.com/backstage/backstage/issues/36459",
         "labels": [
@@ -21295,18 +21306,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:20Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181017]",
-        "url": "https://github.com/backstage/backstage/issues/36394",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:19Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -30708,29 +30707,69 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (style): Closed-PR no-op message literal duplicated",
-        "url": "https://github.com/hivecommons/hive/issues/16133",
+        "title": "[reviewer] Review backlog (docs-currency): GitRetagger.git doc comment still says 'combined output' after ExecRunner.Run stopped combining on success",
+        "url": "https://github.com/hivecommons/hive/issues/16160",
         "labels": [
             "help wanted",
             "agent/reviewer",
             "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-01T02:30:51Z"
+        "created_at": "2026-11-01T11:58:51Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (security): handleDeleteHive does not invalidate the public activity cache",
-        "url": "https://github.com/hivecommons/hive/issues/16117",
+        "title": "[reviewer] Review backlog (docs-currency): stripTrailingBlankLines doc comment says it makes no additional git call",
+        "url": "https://github.com/hivecommons/hive/issues/16145",
         "labels": [
             "help wanted",
             "agent/reviewer",
             "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-01T00:31:08Z"
+        "created_at": "2026-11-01T09:58:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (security): Normalisation amend commits working-tree content of touched files, not HEAD blob + fix",
+        "url": "https://github.com/hivecommons/hive/issues/16144",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-01T09:55:50Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] merge gate: hive host clock is 1h behind GitHub since the DST fall-back; min_head_age clamps every fresh head to \"0s ago\" and stalls relayed merges",
+        "url": "https://github.com/hivecommons/hive/issues/16141",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-11-01T09:31:16Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: Supersede the Matrix code view with a passive Code activity reader",
+        "url": "https://github.com/hivecommons/hive/issues/16137",
+        "labels": [
+            "help wanted",
+            "hold",
+            "proposal"
+        ],
+        "created_at": "2026-11-01T03:51:13Z"
     },
     {
         "repo": "hivecommons/hive",
