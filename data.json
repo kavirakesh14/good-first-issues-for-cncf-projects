@@ -2141,20 +2141,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[Docs] Clarify Docker startup delay and local site URL",
-        "url": "https://github.com/meshery/meshery/issues/22649",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-10-29T17:57:19Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[CI] Replace legacy setInterval polling helper (waitFor.ts) with Playwright expect.poll",
         "url": "https://github.com/meshery/meshery/issues/22643",
         "labels": [
@@ -2492,6 +2478,20 @@
             "language/go"
         ],
         "created_at": "2026-08-18T00:24:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs]Refactor the Meshery REST API documentation to source from the published OpenAPI schemas instead of Golang code comments.",
+        "url": "https://github.com/meshery/meshery/issues/21409",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2026-08-14T14:43:32Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -3374,20 +3374,6 @@
             "kind/requirement"
         ],
         "created_at": "2019-01-02T17:14:09Z"
-    },
-    {
-        "repo": "project-zot/zot",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Feat]: Consolidate AWS DynamoDB table names in configuration to a table name prefix",
-        "url": "https://github.com/project-zot/zot/issues/2966",
-        "labels": [
-            "feature",
-            "good first issue",
-            "no-issue-activity",
-            "rm-external"
-        ],
-        "created_at": "2025-02-14T19:04:44Z"
     },
     {
         "repo": "bank-vaults/bank-vaults",
@@ -11092,20 +11078,6 @@
         "repo": "agent-substrate/substrate",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "demos/{sandbox,jupyter,multi-template}: add ingress prerequisite, fix Quickstart links, CLI states, and counter output",
-        "url": "https://github.com/agent-substrate/substrate/issues/3494",
-        "labels": [
-            "kind/bug",
-            "kind/docs",
-            "good first issue",
-            "area/demos"
-        ],
-        "created_at": "2026-10-30T14:51:38Z"
-    },
-    {
-        "repo": "agent-substrate/substrate",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Avoid forwarding the client cert from Envoy to ext_proc through a header",
         "url": "https://github.com/agent-substrate/substrate/issues/1740",
         "labels": [
@@ -13429,6 +13401,18 @@
         "repo": "kube-rs/kube",
         "tier": "Sandbox",
         "lang": "Rust",
+        "title": "Add generic helpers to kube-core",
+        "url": "https://github.com/kube-rs/kube/issues/428",
+        "labels": [
+            "help wanted",
+            "core"
+        ],
+        "created_at": "2021-02-21T21:33:44Z"
+    },
+    {
+        "repo": "kube-rs/kube",
+        "tier": "Sandbox",
+        "lang": "Rust",
         "title": "Condition creation & management helpers",
         "url": "https://github.com/kube-rs/kube/issues/427",
         "labels": [
@@ -15124,18 +15108,6 @@
             "priority/important-soon"
         ],
         "created_at": "2023-04-01T08:16:52Z"
-    },
-    {
-        "repo": "volcano-sh/volcano",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[Feature] Support the Kubernetes NodeDeclaredFeatures scheduling plugin",
-        "url": "https://github.com/volcano-sh/volcano/issues/6140",
-        "labels": [
-            "help wanted",
-            "kind/feature"
-        ],
-        "created_at": "2026-10-22T08:05:43Z"
     },
     {
         "repo": "volcano-sh/volcano",
@@ -28724,17 +28696,6 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Make `metricsCacheTTL` configurable",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2429",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-02-26T08:12:02Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "gpu: power after a GPU process exits is active but goes to no process",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2666",
         "labels": [
@@ -30713,14 +30674,48 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (security): Escaped command word and escaped dot still bypass the rm root check",
-        "url": "https://github.com/hivecommons/hive/issues/16176",
+        "title": "[selfreport] unclassified_error_repeated: automerge workflow approval still required after ok-to-test grace; install the \u2026",
+        "url": "https://github.com/hivecommons/hive/issues/16199",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "hive/claimed-by-scanner",
+            "fleet-report",
+            "hive/selfreport",
+            "trigger:runtime-error",
+            "stage/040-covered-by-pr",
+            "origin/selfreport",
+            "severity:low",
+            "class:unclassified-error-repeated"
+        ],
+        "created_at": "2026-11-02T03:18:23Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (correctness): src/proxy C3 terminal-authorization tests fail at merge-base independent of this bump",
+        "url": "https://github.com/hivecommons/hive/issues/16194",
         "labels": [
             "help wanted",
             "agent/reviewer",
+            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-01T21:19:35Z"
+        "created_at": "2026-11-02T03:07:57Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: signed-commit reconciler: could not re-author the unsigned tail as a GitHub-sig\u2026",
+        "url": "https://github.com/hivecommons/hive/issues/16193",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-02T03:00:41Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30740,27 +30735,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (docs-currency): stripTrailingBlankLines doc comment says it makes no additional git call",
-        "url": "https://github.com/hivecommons/hive/issues/16145",
+        "title": "[reviewer] Review backlog (correctness): Restore of uncommitted edit loses staged (index) state for touched paths",
+        "url": "https://github.com/hivecommons/hive/issues/16158",
         "labels": [
             "help wanted",
             "agent/reviewer",
+            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-01T09:58:58Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (security): Normalisation amend commits working-tree content of touched files, not HEAD blob + fix",
-        "url": "https://github.com/hivecommons/hive/issues/16144",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-01T09:55:50Z"
+        "created_at": "2026-11-01T11:03:54Z"
     },
     {
         "repo": "hivecommons/hive",
