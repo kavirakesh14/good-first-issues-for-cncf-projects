@@ -2114,6 +2114,19 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[CI] auto-merge-meeting-minutes: workflow_dispatch can run a branch-modified workflow with COMMUNITY_MANAGER_TOKEN",
+        "url": "https://github.com/meshery/meshery/issues/22754",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-11-02T07:38:14Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[CI] auto-merge-meeting-minutes validates only the first 100 changed files (no pagination), so extra files can be auto-merged to master",
         "url": "https://github.com/meshery/meshery/issues/22684",
         "labels": [
@@ -2141,19 +2154,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[CI] Replace legacy setInterval polling helper (waitFor.ts) with Playwright expect.poll",
-        "url": "https://github.com/meshery/meshery/issues/22643",
-        "labels": [
-            "help wanted",
-            "area/ci",
-            "area/devops"
-        ],
-        "created_at": "2026-10-29T08:59:20Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "[CI] Fix malformed workflow-run URL in generate_keys failure email",
         "url": "https://github.com/meshery/meshery/issues/22630",
         "labels": [
@@ -2162,34 +2162,6 @@
             "area/devops"
         ],
         "created_at": "2026-10-28T09:37:27Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Fix broken DCO documentation link in PR welcome comment",
-        "url": "https://github.com/meshery/meshery/issues/22623",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-10-27T19:06:48Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Dead in-page anchor `#preserving-manually-added-documentation` across CLI reference pages",
-        "url": "https://github.com/meshery/meshery/issues/22617",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-10-27T12:21:15Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2494,6 +2466,34 @@
         "created_at": "2026-08-14T14:43:32Z"
     },
     {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Relationships] Identify and add all meaningful relationships for Azure Batch",
+        "url": "https://github.com/meshery/meshery/issues/21403",
+        "labels": [
+            "help wanted",
+            "area/devops",
+            "area/models",
+            "azure"
+        ],
+        "created_at": "2026-08-14T14:43:03Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Standardize image embedding across documentation",
+        "url": "https://github.com/meshery/meshery/issues/21198",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-07T05:35:27Z"
+    },
+    {
         "repo": "metal3-io/baremetal-operator",
         "tier": "Incubating",
         "lang": "Go",
@@ -2755,20 +2755,6 @@
             "test-command"
         ],
         "created_at": "2026-02-11T13:14:10Z"
-    },
-    {
-        "repo": "opentofu/opentofu",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Display module versions in a similar fashion that provider versions are displayed with `version`",
-        "url": "https://github.com/opentofu/opentofu/issues/3270",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "needs-community-input",
-            "accepted"
-        ],
-        "created_at": "2025-09-15T18:36:02Z"
     },
     {
         "repo": "opentofu/opentofu",
@@ -4706,6 +4692,24 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Operator: `keycloak-operator-clusterrole-binding` binds the ServiceAccount in the namespace `keycloak`, also when the operator is installed in another namespace",
+        "url": "https://github.com/keycloak/keycloak/issues/54335",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/cloud-native",
+            "area/operator",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "status/labeled-by-bot"
+        ],
+        "created_at": "2026-10-26T11:44:12Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "FAPI 2.0 Message Signing: Duplicate `iss` claims in JARM responses cause OpenID Foundation conformance suite failures",
         "url": "https://github.com/keycloak/keycloak/issues/54329",
         "labels": [
@@ -4786,22 +4790,6 @@
             "status/auto-bump"
         ],
         "created_at": "2026-10-23T12:46:31Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Authorization endpoint JSON error responses put message text in `error` instead of an OAuth error code",
-        "url": "https://github.com/keycloak/keycloak/issues/54134",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-10-19T18:35:02Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -9089,18 +9077,6 @@
         "repo": "velero-io/velero",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[ceph] velero-plugin-for-aws: checksumAlgorithm: \"\" does not suppress AWS SDK v2 trailing checksum - PutObject 400 InvalidArgument on S3-compatible storage",
-        "url": "https://github.com/velero-io/velero/issues/9804",
-        "labels": [
-            "Help wanted",
-            "Area/Storage/Ceph"
-        ],
-        "created_at": "2026-05-20T12:49:14Z"
-    },
-    {
-        "repo": "velero-io/velero",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Support for EBS snapshots and volume restoration on AWS Outposts",
         "url": "https://github.com/velero-io/velero/issues/9733",
         "labels": [
@@ -9897,17 +9873,6 @@
             "help wanted"
         ],
         "created_at": "2022-01-24T11:12:01Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Suspicions UID/GID confusion in DefineCreateFlags",
-        "url": "https://github.com/podman-container-tools/podman/issues/29885",
-        "labels": [
-            "Good First Issue"
-        ],
-        "created_at": "2026-10-02T17:16:20Z"
     },
     {
         "repo": "podman-container-tools/podman",
@@ -14192,6 +14157,47 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "bug: \"get at least version\" may be blank",
+        "url": "https://github.com/kubestellar/kubestellar/issues/4037",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "stage/040-covered-by-pr",
+            "has-open-pr"
+        ],
+        "created_at": "2026-11-02T06:01:52Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: flake in ginkgo test case \"singleton status creation and deletion\"",
+        "url": "https://github.com/kubestellar/kubestellar/issues/4036",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-02T05:57:54Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: check_pre_req.sh can not handle clusteradm from `go install`",
+        "url": "https://github.com/kubestellar/kubestellar/issues/4035",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "stage/040-covered-by-pr",
+            "has-open-pr"
+        ],
+        "created_at": "2026-11-02T05:52:18Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "bug: transient error reading a Namespace is treated as \"no match\" and withdraws workloads from WECs",
         "url": "https://github.com/kubestellar/kubestellar/issues/4029",
         "labels": [
@@ -14533,43 +14539,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-07-12T11:13:58Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug: kubestellar-snapshot.sh misclassifies ControlPlanes created by the core chart, leaving most sections empty",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3889",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-07-09T05:22:14Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug: Add proper error handling in CombinedStatus Resolver",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3886",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-07-08T17:03:45Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Dead code and redundant boolean logic flagged by staticcheck in pkg/binding and pkg/status",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3880",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-07-04T13:19:46Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -17876,10 +17845,11 @@
         "repo": "kgateway-dev/kgateway",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Support File or SDS based cert type",
+        "title": "Support SDS based cert type",
         "url": "https://github.com/kgateway-dev/kgateway/issues/11073",
         "labels": [
             "Type: Enhancement",
+            "no stalebot",
             "help wanted"
         ],
         "created_at": "2025-04-10T13:16:30Z"
@@ -18948,20 +18918,6 @@
             "no-stale"
         ],
         "created_at": "2026-09-08T06:00:29Z"
-    },
-    {
-        "repo": "cloudnative-pg/cloudnative-pg",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Feature]: Support for `CREATE` and `USAGE` grants on database schemas",
-        "url": "https://github.com/cloudnative-pg/cloudnative-pg/issues/7872",
-        "labels": [
-            "enhancement :magic_wand:",
-            "good first issue",
-            "no-stale",
-            "LFX Mentorship"
-        ],
-        "created_at": "2025-06-23T12:38:35Z"
     },
     {
         "repo": "openeverest/openeverest",
@@ -20902,6 +20858,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-I18NEXT-22132583]",
+        "url": "https://github.com/backstage/backstage/issues/36573",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-02T12:11:14Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-22111072]",
         "url": "https://github.com/backstage/backstage/issues/36560",
         "labels": [
@@ -21240,18 +21208,6 @@
         "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-ADMZIP-20335419]",
         "url": "https://github.com/backstage/backstage/issues/36396",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:20Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-19963965]",
-        "url": "https://github.com/backstage/backstage/issues/36395",
         "labels": [
             "snyk-vulnerability",
             "help wanted"
@@ -30674,16 +30630,57 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[shared-ci] gosec (insecure patterns) failing across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/16048",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "agent/scanner",
+            "ci",
+            "approved-direction",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-10-31T13:33:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 Upgrade gh-aw compiler and regenerate workflow locks together",
+        "url": "https://github.com/hivecommons/hive/issues/16226",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-02T14:08:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] \ud83d\udc1b contribute-hive local mode drops AGENT_MODEL and effort but still reports them to the hub",
+        "url": "https://github.com/hivecommons/hive/issues/16222",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "stage/020-claimed",
+            "hive/claimed-by-human"
+        ],
+        "created_at": "2026-11-02T10:38:15Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[selfreport] unclassified_error_repeated: automerge workflow approval still required after ok-to-test grace; install the \u2026",
         "url": "https://github.com/hivecommons/hive/issues/16199",
         "labels": [
             "help wanted",
             "kind/bug",
-            "hive/claimed-by-scanner",
             "fleet-report",
             "hive/selfreport",
             "trigger:runtime-error",
-            "stage/040-covered-by-pr",
+            "stage/010-actionable",
             "origin/selfreport",
             "severity:low",
             "class:unclassified-error-repeated"
@@ -30694,67 +30691,13 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): src/proxy C3 terminal-authorization tests fail at merge-base independent of this bump",
-        "url": "https://github.com/hivecommons/hive/issues/16194",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-02T03:07:57Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: signed-commit reconciler: could not re-author the unsigned tail as a GitHub-sig\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/16193",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-02T03:00:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[outreach] Six hivecommons repos show stale or missing GitHub description/homepage/topics (owner-only gh repo edit)",
-        "url": "https://github.com/hivecommons/hive/issues/16167",
-        "labels": [
-            "help wanted",
-            "agent/outreach",
-            "community",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-11-01T17:58:26Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): Restore of uncommitted edit loses staged (index) state for touched paths",
-        "url": "https://github.com/hivecommons/hive/issues/16158",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-01T11:03:54Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] merge gate: hive host clock is 1h behind GitHub since the DST fall-back; min_head_age clamps every fresh head to \"0s ago\" and stalls relayed merges",
         "url": "https://github.com/hivecommons/hive/issues/16141",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/045-needs-decision"
+            "approved-direction",
+            "stage/010-actionable"
         ],
         "created_at": "2026-11-01T09:31:16Z"
     },
@@ -30781,7 +30724,8 @@
             "help wanted",
             "agent/sec-check",
             "security",
-            "stage/045-needs-decision"
+            "approved-direction",
+            "stage/010-actionable"
         ],
         "created_at": "2026-10-31T19:11:28Z"
     },
@@ -30793,9 +30737,10 @@
         "url": "https://github.com/hivecommons/hive/issues/16075",
         "labels": [
             "help wanted",
+            "approved-direction",
             "kind/design",
             "proposal",
-            "stage/045-needs-decision"
+            "stage/010-actionable"
         ],
         "created_at": "2026-10-31T16:50:58Z"
     },
@@ -30810,36 +30755,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-31T14:52:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[shared-ci] gosec (insecure patterns) failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/16048",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "ci",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-10-31T13:33:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] ci: gosec (insecure patterns) repeatedly loses its self-hosted runner (6+ runs, no code cause)",
-        "url": "https://github.com/hivecommons/hive/issues/16040",
-        "labels": [
-            "help wanted",
-            "kind/test",
-            "agent/scanner",
-            "ci",
-            "needs-signal",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-31T13:08:29Z"
     },
     {
         "repo": "hivecommons/hive",
