@@ -4625,6 +4625,41 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "FAPI 2.0: HolderOfKeyEnforcerExecutor returns `invalid_grant` instead of `invalid_request` / `invalid_client` when refresh token certificate binding fails",
+        "url": "https://github.com/keycloak/keycloak/issues/54582",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-11-03T12:55:10Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Ineffective \"Valid post logout redirect URIs\" in SAML Client GUI; misleading documentation.",
+        "url": "https://github.com/keycloak/keycloak/issues/54563",
+        "labels": [
+            "kind/bug",
+            "area/admin/ui",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-11-02T19:24:30Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Group names with invisible Unicode characters (e.g. U+2060 WORD JOINER) are accepted without validation and silently break UMA authorization",
         "url": "https://github.com/keycloak/keycloak/issues/54532",
         "labels": [
@@ -4642,6 +4677,41 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Component update without providerType crashes with a 500",
+        "url": "https://github.com/keycloak/keycloak/issues/54504",
+        "labels": [
+            "kind/bug",
+            "area/admin/api",
+            "help wanted",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-10-30T22:57:54Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Device authorization endpoint returns invalid_grant for malformed requests",
+        "url": "https://github.com/keycloak/keycloak/issues/54475",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-10-30T02:29:57Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "kc.sh exits 0 at once under ksh93 (illumos /bin/sh): $! is empty",
         "url": "https://github.com/keycloak/keycloak/issues/54429",
         "labels": [
@@ -4653,6 +4723,25 @@
             "priority/normal"
         ],
         "created_at": "2026-10-28T17:33:41Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "ContentSecurityPolicyBuilder widens a realm CSP that repeats a directive, and appends sources to 'none'",
+        "url": "https://github.com/keycloak/keycloak/issues/54396",
+        "labels": [
+            "kind/bug",
+            "area/core",
+            "help wanted",
+            "team/core-shared",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "team/core-protocols",
+            "status/labeled-by-bot"
+        ],
+        "created_at": "2026-10-28T00:27:03Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5043,93 +5132,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-10-01T16:45:29Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Client registration: an OIDC registration with any unknown client metadata property is rejected, but RFC 7591 \u00a72 requires ignoring it",
-        "url": "https://github.com/keycloak/keycloak/issues/53363",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols",
-            "status/labeled-by-bot"
-        ],
-        "created_at": "2026-09-30T16:47:30Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "SCIM: displayName is accepted and echoed on write but never persisted",
-        "url": "https://github.com/keycloak/keycloak/issues/53352",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal",
-            "area/scim",
-            "status/labeled-by-bot"
-        ],
-        "created_at": "2026-09-30T13:08:11Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Downscope assertion grant enforcer strips the client's own scope mappings and dedicated mappers",
-        "url": "https://github.com/keycloak/keycloak/issues/53280",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-29T06:59:06Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "notEmail password policy compares against the username during registration",
-        "url": "https://github.com/keycloak/keycloak/issues/53270",
-        "labels": [
-            "area/authentication",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-authn"
-        ],
-        "created_at": "2026-09-28T20:32:19Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Resource indicators: refresh of an offline token ignores the resource parameter and widens aud",
-        "url": "https://github.com/keycloak/keycloak/issues/53261",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols",
-            "status/labeled-by-bot"
-        ],
-        "created_at": "2026-09-28T16:11:29Z"
     },
     {
         "repo": "keylime/keylime",
@@ -7607,18 +7609,6 @@
             "priority/backlog"
         ],
         "created_at": "2026-09-07T21:00:09Z"
-    },
-    {
-        "repo": "spiffe/spire",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "aws_iid NodeAttestor: support attesting nodes across multiple AWS partitions from a single server",
-        "url": "https://github.com/spiffe/spire/issues/7217",
-        "labels": [
-            "help wanted",
-            "priority/backlog"
-        ],
-        "created_at": "2026-08-14T22:11:02Z"
     },
     {
         "repo": "spiffe/spire",
@@ -14650,6 +14640,19 @@
         "repo": "open-cluster-management-io/ocm",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Placement debug endpoint shows cluster names and scores to users who cannot read ManagedClusters",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1802",
+        "labels": [
+            "bug",
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-11-03T16:20:00Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "AppliedManifestWork eviction cannot distinguish hub-deleted ManifestWork from not-yet-replayed local store (cloudevents driver)",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1786",
         "labels": [
@@ -14671,19 +14674,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-19T08:10:04Z"
-    },
-    {
-        "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "grpc work agent can leave a ManifestWork stuck in deletion when it contains a CR and its ClusterRole",
-        "url": "https://github.com/open-cluster-management-io/ocm/issues/1752",
-        "labels": [
-            "bug",
-            "good first issue",
-            "help wanted"
-        ],
-        "created_at": "2026-10-14T06:29:18Z"
     },
     {
         "repo": "open-cluster-management-io/ocm",
@@ -15226,6 +15216,19 @@
             "priority/important-soon"
         ],
         "created_at": "2022-04-02T00:51:30Z"
+    },
+    {
+        "repo": "wasmCloud/wasmCloud",
+        "tier": "Incubating",
+        "lang": "Rust",
+        "title": "test(operator): cover workload placement request construction",
+        "url": "https://github.com/wasmCloud/wasmCloud/issues/5870",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "go"
+        ],
+        "created_at": "2026-11-03T22:45:01Z"
     },
     {
         "repo": "wasmCloud/wasmCloud",
@@ -18848,7 +18851,7 @@
     },
     {
         "repo": "cloudnative-pg/cloudnative-pg",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "[Feature]: no metric for role password expiry (VALID UNTIL)",
         "url": "https://github.com/cloudnative-pg/cloudnative-pg/issues/11459",
@@ -20023,21 +20026,6 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
-        "title": "UI: show compatibility violations as a report, and keep the submitted content",
-        "url": "https://github.com/Apicurio/apicurio-registry/issues/10472",
-        "labels": [
-            "area/ui",
-            "area/rules/compatibility",
-            "area/rules",
-            "area/rules/validity",
-            "help wanted"
-        ],
-        "created_at": "2026-10-07T09:42:05Z"
-    },
-    {
-        "repo": "Apicurio/apicurio-registry",
-        "tier": "Sandbox",
-        "lang": "Java",
         "title": "implement getSubjectMetadata endpoint",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/9708",
         "labels": [
@@ -21171,7 +21159,7 @@
         "repo": "buildpacks/pack",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "canBeRegistryRef returns falso on registry names with port numbers",
+        "title": "canBeRegistryRef returns false on registry names with port numbers",
         "url": "https://github.com/buildpacks/pack/issues/2536",
         "labels": [
             "type/bug",
@@ -28923,6 +28911,18 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Table: Column conditional formatting remove units",
+        "url": "https://github.com/perses/perses/issues/4705",
+        "labels": [
+            "help wanted",
+            "ui"
+        ],
+        "created_at": "2026-11-03T14:24:36Z"
+    },
+    {
+        "repo": "perses/perses",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "percli plugin generate: scaffold Go SDK and resolve Go dependencies pinned to the percli version",
         "url": "https://github.com/perses/perses/issues/4645",
         "labels": [
@@ -30598,149 +30598,18 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] crux/lanes: TestTwoCruxProcessesFenceDelayedExpiredPublicationGeneration flakes on macOS (1s retention window, lost child error)",
-        "url": "https://github.com/hivecommons/hive/issues/16427",
-        "labels": [
-            "help wanted",
-            "kind/test",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-03T13:21:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[dedupe] triage: duplicate and overlapping open issues/PRs to consolidate",
-        "url": "https://github.com/hivecommons/hive/issues/16424",
-        "labels": [
-            "help wanted",
-            "agent/dedupe",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-11-03T12:18:15Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b large task prompts are lost on claude relays: tmux send-keys says command too long",
-        "url": "https://github.com/hivecommons/hive/issues/16423",
-        "labels": [
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-11-03T11:52:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b multi-hub standby relay rejects donated work: hub is not the active polling slot",
-        "url": "https://github.com/hivecommons/hive/issues/16422",
-        "labels": [
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-11-03T11:46:28Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udcd6 docs: v6 readiness runbook standby row misses lane mode, private repo opt-in and the Kubernetes config edit",
-        "url": "https://github.com/hivecommons/hive/issues/16421",
-        "labels": [
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-11-03T11:37:31Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] \ud83d\udc1b standby tile counts an item for a lane that dispatch then refuses (lane split mismatch)",
-        "url": "https://github.com/hivecommons/hive/issues/16420",
-        "labels": [
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-11-03T11:37:19Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] native-queue-policy cannot pass when the DCO app hits its 250-commit ceiling (forward-merge PRs)",
         "url": "https://github.com/hivecommons/hive/issues/16404",
         "labels": [
             "help wanted",
             "agent/scanner",
             "ci",
+            "needs-human",
+            "hive/verified-open",
+            "hive/partially-addressed",
             "stage/045-needs-decision"
         ],
         "created_at": "2026-11-03T08:45:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[sec-check] human_merge_pin_only waives the human-merge-path hold on PR author login alone \u2014 head commits and action SHA upstream reachability are never verified",
-        "url": "https://github.com/hivecommons/hive/issues/16399",
-        "labels": [
-            "help wanted",
-            "agent/sec-check",
-            "security",
-            "hive/claimed-by-sec-check",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-03T07:53:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (intent-alignment): Normal-mode stage-note create remains a raw go-github CreateComment",
-        "url": "https://github.com/hivecommons/hive/issues/16393",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-03T05:33:31Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (security): Pin-only exception trusts PR opener login, not the pushed commits",
-        "url": "https://github.com/hivecommons/hive/issues/16380",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-03T03:44:37Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Attention pilot: Hive-maintained Actions workflows update or skip when the runtime covers the condition",
-        "url": "https://github.com/hivecommons/hive/issues/16363",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-03T02:10:50Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30777,8 +30646,8 @@
         "url": "https://github.com/hivecommons/hive/issues/16137",
         "labels": [
             "help wanted",
-            "hold",
-            "proposal"
+            "proposal",
+            "stage/045-needs-decision"
         ],
         "created_at": "2026-11-01T03:51:13Z"
     },
