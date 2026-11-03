@@ -4625,6 +4625,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Group names with invisible Unicode characters (e.g. U+2060 WORD JOINER) are accepted without validation and silently break UMA authorization",
+        "url": "https://github.com/keycloak/keycloak/issues/54532",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "area/organizations"
+        ],
+        "created_at": "2026-11-02T11:19:35Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "kc.sh exits 0 at once under ksh93 (illumos /bin/sh): $! is empty",
         "url": "https://github.com/keycloak/keycloak/issues/54429",
         "labels": [
@@ -5113,23 +5130,6 @@
             "status/labeled-by-bot"
         ],
         "created_at": "2026-09-28T16:11:29Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Brute force failure counter is not reset on successful SAML (IdP) login, causing users to be permanently locked out",
-        "url": "https://github.com/keycloak/keycloak/issues/53249",
-        "labels": [
-            "area/saml",
-            "kind/bug",
-            "help wanted",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-28T11:19:57Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8454,21 +8454,6 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
-        "title": "[IMPROVEMENT] Implementing CLI Checks for Critical Resource Labels and Fields",
-        "url": "https://github.com/longhorn/longhorn/issues/9458",
-        "labels": [
-            "good first issue",
-            "priority/1",
-            "kind/improvement",
-            "area/troubleshoot",
-            "area/cli"
-        ],
-        "created_at": "2024-09-13T11:07:16Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
         "title": "[IMPROVEMENT] Cleanup of left over resources after CLI command interruptions",
         "url": "https://github.com/longhorn/longhorn/issues/9311",
         "labels": [
@@ -8622,6 +8607,23 @@
         "repo": "longhorn/longhorn",
         "tier": "Incubating",
         "lang": "Shell",
+        "title": "[IMPROVEMENT] share-manager-pvc should have its own toleration setting or nodeaffinity for replica zones",
+        "url": "https://github.com/longhorn/longhorn/issues/6509",
+        "labels": [
+            "good first issue",
+            "priority/0",
+            "require/auto-e2e-test",
+            "require/doc",
+            "area/volume-rwx",
+            "kind/improvement",
+            "help wanted"
+        ],
+        "created_at": "2023-08-11T21:53:42Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
         "title": "[BUG] Backup engine SIGSEGV on aarch64 with 16K page size kernel (Fedora Asahi Remix / Apple Silicon) \u2014 v1.11.1",
         "url": "https://github.com/longhorn/longhorn/issues/12929",
         "labels": [
@@ -8721,23 +8723,6 @@
             "help wanted"
         ],
         "created_at": "2023-09-26T17:48:38Z"
-    },
-    {
-        "repo": "longhorn/longhorn",
-        "tier": "Incubating",
-        "lang": "Shell",
-        "title": "[IMPROVEMENT] share-manager-pvc should have its own toleration setting or nodeaffinity for replica zones",
-        "url": "https://github.com/longhorn/longhorn/issues/6509",
-        "labels": [
-            "good first issue",
-            "priority/0",
-            "require/auto-e2e-test",
-            "require/doc",
-            "area/volume-rwx",
-            "kind/improvement",
-            "help wanted"
-        ],
-        "created_at": "2023-08-11T21:53:42Z"
     },
     {
         "repo": "longhorn/longhorn",
@@ -9883,6 +9868,7 @@
         "labels": [
             "Good First Issue",
             "kind/feature",
+            "stale-issue",
             "volunteers-wanted",
             "windows"
         ],
@@ -14146,7 +14132,8 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-11-02T05:57:54Z"
     },
@@ -16794,19 +16781,6 @@
             "hacktoberfest"
         ],
         "created_at": "2022-06-15T08:25:17Z"
-    },
-    {
-        "repo": "metallb/metallb",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Add support for AS path prepending",
-        "url": "https://github.com/metallb/metallb/issues/808",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "protocol/BGP"
-        ],
-        "created_at": "2021-02-10T14:49:51Z"
     },
     {
         "repo": "metallb/metallb",
@@ -20825,6 +20799,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINCATALOGBACKEND-22149957]",
+        "url": "https://github.com/backstage/backstage/issues/36585",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-03T12:11:18Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-I18NEXT-22132583]",
         "url": "https://github.com/backstage/backstage/issues/36573",
         "labels": [
@@ -21168,18 +21154,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:21Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-20335419]",
-        "url": "https://github.com/backstage/backstage/issues/36396",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:20Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -23484,6 +23458,20 @@
             "keep-open"
         ],
         "created_at": "2026-05-11T22:27:02Z"
+    },
+    {
+        "repo": "microcks/microcks",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Microcks v2:  kick-off of the discussion and state of the thinking",
+        "url": "https://github.com/microcks/microcks/issues/2412",
+        "labels": [
+            ">experimental",
+            "help wanted",
+            "type/Epic",
+            "keep-open"
+        ],
+        "created_at": "2026-11-03T10:02:41Z"
     },
     {
         "repo": "microcks/microcks",
@@ -30610,193 +30598,149 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): Journal.Get no longer blocks to refresh when a peer process holds the flock",
-        "url": "https://github.com/hivecommons/hive/issues/16324",
+        "title": "[scanner] crux/lanes: TestTwoCruxProcessesFenceDelayedExpiredPublicationGeneration flakes on macOS (1s retention window, lost child error)",
+        "url": "https://github.com/hivecommons/hive/issues/16427",
         "labels": [
-            "good first issue",
             "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
+            "kind/test",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-02T22:13:36Z"
+        "created_at": "2026-11-03T13:21:04Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (style): Integrations intro still only describes Planned rows",
-        "url": "https://github.com/hivecommons/hive/issues/16323",
+        "title": "[dedupe] triage: duplicate and overlapping open issues/PRs to consolidate",
+        "url": "https://github.com/hivecommons/hive/issues/16424",
         "labels": [
-            "good first issue",
             "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
+            "agent/dedupe",
+            "stage/045-needs-decision"
         ],
-        "created_at": "2026-11-02T22:09:23Z"
+        "created_at": "2026-11-03T12:18:15Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (style): dependabot.yml has no commit-message prefix, so every Dependabot PR fails PR Type until retitled",
-        "url": "https://github.com/hivecommons/hive/issues/16336",
+        "title": "[v6] \ud83d\udc1b large task prompts are lost on claude relays: tmux send-keys says command too long",
+        "url": "https://github.com/hivecommons/hive/issues/16423",
         "labels": [
             "help wanted",
-            "agent/reviewer"
+            "needs-triage",
+            "stage/015-triage-needed"
         ],
-        "created_at": "2026-11-03T00:13:56Z"
+        "created_at": "2026-11-03T11:52:56Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[shared-ci] test (rest 2/4) / test (rest 3/4) failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/16335",
+        "title": "[v6] \ud83d\udc1b multi-hub standby relay rejects donated work: hub is not the active polling slot",
+        "url": "https://github.com/hivecommons/hive/issues/16422",
         "labels": [
             "help wanted",
-            "testing",
-            "agent/quality"
+            "needs-triage",
+            "stage/015-triage-needed"
         ],
-        "created_at": "2026-11-03T00:11:03Z"
+        "created_at": "2026-11-03T11:46:28Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (docs-currency): github.attention is an opaque leaf for the Settings parity gate; admitter/flap_window are not individually tracked",
-        "url": "https://github.com/hivecommons/hive/issues/16331",
+        "title": "[v6] \ud83d\udcd6 docs: v6 readiness runbook standby row misses lane mode, private repo opt-in and the Kubernetes config edit",
+        "url": "https://github.com/hivecommons/hive/issues/16421",
         "labels": [
             "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
+            "needs-triage",
+            "stage/015-triage-needed"
         ],
-        "created_at": "2026-11-02T23:52:55Z"
+        "created_at": "2026-11-03T11:37:31Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (docs-currency): New operator doc attention-episodes.md is not listed in documentation-map.md or docs README",
-        "url": "https://github.com/hivecommons/hive/issues/16330",
+        "title": "[v6] \ud83d\udc1b standby tile counts an item for a lane that dispatch then refuses (lane split mismatch)",
+        "url": "https://github.com/hivecommons/hive/issues/16420",
         "labels": [
             "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
+            "needs-triage",
+            "stage/015-triage-needed"
         ],
-        "created_at": "2026-11-02T23:52:48Z"
+        "created_at": "2026-11-03T11:37:19Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Coverage] packages below 90% threshold",
-        "url": "https://github.com/hivecommons/hive/issues/16329",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "ci-coverage",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-02T23:47:55Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (intent-alignment): Merge-queue-required quarantine raises no operator alert",
-        "url": "https://github.com/hivecommons/hive/issues/16322",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-02T21:57:37Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (security): Empty command substitution glued to protected path passes clean (rm -rf $(true)/)",
-        "url": "https://github.com/hivecommons/hive/issues/16320",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-02T21:49:29Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] transcript_scan_slow: copilot transcript activity scan outlived its interval; agent liveness reads ma\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/16292",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "kind/bug",
-            "fleet-report",
-            "hive/selfreport",
-            "trigger:runtime-error",
-            "stage/040-covered-by-pr",
-            "origin/selfreport",
-            "severity:low",
-            "class:transcript-scan-slow"
-        ],
-        "created_at": "2026-11-02T19:23:22Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Scope per-recipient attention budgets with opt-in digest overflow (off by default, never drop new asks)",
-        "url": "https://github.com/hivecommons/hive/issues/16271",
+        "title": "[scanner] native-queue-policy cannot pass when the DCO app hits its 250-commit ceiling (forward-merge PRs)",
+        "url": "https://github.com/hivecommons/hive/issues/16404",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/010-actionable",
-            "hive/partially-addressed"
+            "ci",
+            "stage/045-needs-decision"
         ],
-        "created_at": "2026-11-02T17:31:16Z"
+        "created_at": "2026-11-03T08:45:03Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] Issue-side hive:status consolidation, actionable attention events, 24h reminders and GitHub-native action queue (opt-in pilot)",
-        "url": "https://github.com/hivecommons/hive/issues/16270",
+        "title": "[sec-check] human_merge_pin_only waives the human-merge-path hold on PR author login alone \u2014 head commits and action SHA upstream reachability are never verified",
+        "url": "https://github.com/hivecommons/hive/issues/16399",
         "labels": [
             "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
+            "agent/sec-check",
+            "security",
+            "hive/claimed-by-sec-check",
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-02T17:29:41Z"
+        "created_at": "2026-11-03T07:53:03Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] Persist producer-independent condition episodes with single per-repo attention admitter and uncertain-POST reconciliation",
-        "url": "https://github.com/hivecommons/hive/issues/16267",
+        "title": "[reviewer] Review backlog (intent-alignment): Normal-mode stage-note create remains a raw go-github CreateComment",
+        "url": "https://github.com/hivecommons/hive/issues/16393",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-03T05:33:31Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (security): Pin-only exception trusts PR opener login, not the pushed commits",
+        "url": "https://github.com/hivecommons/hive/issues/16380",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-03T03:44:37Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Attention pilot: Hive-maintained Actions workflows update or skip when the runtime covers the condition",
+        "url": "https://github.com/hivecommons/hive/issues/16363",
         "labels": [
             "help wanted",
             "agent/scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-02T17:27:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] human-merge pin-only exception: enforce in automerge sweep and /approve",
-        "url": "https://github.com/hivecommons/hive/issues/16266",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-02T17:26:56Z"
+        "created_at": "2026-11-03T02:10:50Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30807,36 +30751,9 @@
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/010-actionable",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-11-02T17:26:10Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] human-merge pin-only exception: config schema + pure pin-only diff classifier",
-        "url": "https://github.com/hivecommons/hive/issues/16262",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-02T17:24:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (security): Positional parameters read as opaque: rm -rf /$1 and /\"$@\" pass clean",
-        "url": "https://github.com/hivecommons/hive/issues/16245",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-02T15:32:50Z"
+        "created_at": "2026-11-02T17:26:10Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30846,7 +30763,9 @@
         "url": "https://github.com/hivecommons/hive/issues/16242",
         "labels": [
             "help wanted",
-            "stage/040-covered-by-pr"
+            "hive/verified-open",
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-11-02T15:27:09Z"
     },
@@ -30862,22 +30781,6 @@
             "proposal"
         ],
         "created_at": "2026-11-01T03:51:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd [v5 RFC] Reduce notification fatigue: actionable requests, cross-producer deduplication, and maintainer attention budgets",
-        "url": "https://github.com/hivecommons/hive/issues/16075",
-        "labels": [
-            "help wanted",
-            "approved-direction",
-            "kind/design",
-            "proposal",
-            "stage/010-actionable",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-10-31T16:50:58Z"
     },
     {
         "repo": "hivecommons/hive",
