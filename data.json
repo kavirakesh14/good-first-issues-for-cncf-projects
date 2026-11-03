@@ -4692,24 +4692,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Operator: `keycloak-operator-clusterrole-binding` binds the ServiceAccount in the namespace `keycloak`, also when the operator is installed in another namespace",
-        "url": "https://github.com/keycloak/keycloak/issues/54335",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/cloud-native",
-            "area/operator",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "status/labeled-by-bot"
-        ],
-        "created_at": "2026-10-26T11:44:12Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "FAPI 2.0 Message Signing: Duplicate `iss` claims in JARM responses cause OpenID Foundation conformance suite failures",
         "url": "https://github.com/keycloak/keycloak/issues/54329",
         "labels": [
@@ -4790,6 +4772,23 @@
             "status/auto-bump"
         ],
         "created_at": "2026-10-23T12:46:31Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Kubernetes IdP: cannot disable pod-token forwarding to public JWKS endpoints",
+        "url": "https://github.com/keycloak/keycloak/issues/54193",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/cloud-native",
+            "area/identity-brokering",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-10-20T16:49:25Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -4998,6 +4997,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Uncaught RuntimeException (HTTP 500) on OIDC authorization endpoint when POST uses multipart/form-data with a file part",
+        "url": "https://github.com/keycloak/keycloak/issues/53460",
+        "labels": [
+            "kind/bug",
+            "area/dist/quarkus",
+            "help wanted",
+            "team/cloud-native",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-10-02T09:57:50Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Roles from other clients are missing from \"Effective role scope mappings\" in Client Scope Evaluate",
         "url": "https://github.com/keycloak/keycloak/issues/53436",
         "labels": [
@@ -5114,22 +5130,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-09-28T11:19:57Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[CIMD] accept-public-client-with-confidential-client-only-grant silently fails when the jwt-authorization-grant feature is disabled",
-        "url": "https://github.com/keycloak/keycloak/issues/53230",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-09-26T11:20:25Z"
     },
     {
         "repo": "keylime/keylime",
@@ -11979,8 +11979,7 @@
         "url": "https://github.com/k0sproject/k0s/issues/8371",
         "labels": [
             "good first issue",
-            "chore",
-            "Stale"
+            "chore"
         ],
         "created_at": "2026-09-24T09:10:56Z"
     },
@@ -11996,21 +11995,6 @@
             "area/worker"
         ],
         "created_at": "2026-04-01T14:04:05Z"
-    },
-    {
-        "repo": "k0sproject/k0s",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Pass `--master=https://<routable-ip>:6443` to kube-router when disabling kube-proxy",
-        "url": "https://github.com/k0sproject/k0s/issues/6940",
-        "labels": [
-            "bug",
-            "good first issue",
-            "area/network",
-            "component/kube-proxy",
-            "component/kube-router"
-        ],
-        "created_at": "2026-01-11T23:15:13Z"
     },
     {
         "repo": "k0sproject/k0s",
@@ -14157,20 +14141,6 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "bug: \"get at least version\" may be blank",
-        "url": "https://github.com/kubestellar/kubestellar/issues/4037",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "stage/040-covered-by-pr",
-            "has-open-pr"
-        ],
-        "created_at": "2026-11-02T06:01:52Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "bug: flake in ginkgo test case \"singleton status creation and deletion\"",
         "url": "https://github.com/kubestellar/kubestellar/issues/4036",
         "labels": [
@@ -14179,20 +14149,6 @@
             "stage/010-actionable"
         ],
         "created_at": "2026-11-02T05:57:54Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug: check_pre_req.sh can not handle clusteradm from `go install`",
-        "url": "https://github.com/kubestellar/kubestellar/issues/4035",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "stage/040-covered-by-pr",
-            "has-open-pr"
-        ],
-        "created_at": "2026-11-02T05:52:18Z"
     },
     {
         "repo": "kubestellar/kubestellar",
@@ -14539,6 +14495,31 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-07-12T11:13:58Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: kubestellar-snapshot.sh misclassifies ControlPlanes created by the core chart, leaving most sections empty",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3889",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-07-09T05:22:14Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: Add proper error handling in CombinedStatus Resolver",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3886",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-07-08T17:03:45Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -16865,20 +16846,6 @@
             "area/security"
         ],
         "created_at": "2026-10-10T14:57:46Z"
-    },
-    {
-        "repo": "praxis-proxy/praxis",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Require useful detail in bug reports",
-        "url": "https://github.com/praxis-proxy/praxis/issues/1225",
-        "labels": [
-            "documentation",
-            "good first issue",
-            "triage/accepted",
-            "area/community"
-        ],
-        "created_at": "2026-09-18T21:49:02Z"
     },
     {
         "repo": "praxis-proxy/praxis",
@@ -23896,6 +23863,20 @@
         "repo": "radius-project/radius",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "CLI hides Kubernetes API errors behind empty ARM error details",
+        "url": "https://github.com/radius-project/radius/issues/13491",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "triaged",
+            "bug"
+        ],
+        "created_at": "2026-10-26T19:10:16Z"
+    },
+    {
+        "repo": "radius-project/radius",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Nix package",
         "url": "https://github.com/radius-project/radius/issues/10761",
         "labels": [
@@ -25191,20 +25172,6 @@
             "pinned"
         ],
         "created_at": "2020-06-12T03:45:12Z"
-    },
-    {
-        "repo": "pipe-cd/pipecd",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Pass context.Context into lifecycle.DownloadBinary",
-        "url": "https://github.com/pipe-cd/pipecd/issues/7566",
-        "labels": [
-            "kind/enhancement",
-            "good first issue",
-            "area/piped",
-            "area/launcher"
-        ],
-        "created_at": "2026-11-01T15:00:39Z"
     },
     {
         "repo": "pipe-cd/pipecd",
@@ -28613,6 +28580,19 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "health: show fossa security badge on main readme.md",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2713",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "difficulty/easy"
+        ],
+        "created_at": "2026-11-02T21:03:33Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Helm chart prints nothing after install (no NOTES.txt)",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2675",
         "labels": [
@@ -30630,76 +30610,245 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[shared-ci] gosec (insecure patterns) failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/16048",
+        "title": "[reviewer] Review backlog (correctness): Journal.Get no longer blocks to refresh when a peer process holds the flock",
+        "url": "https://github.com/hivecommons/hive/issues/16324",
         "labels": [
             "good first issue",
             "help wanted",
-            "agent/scanner",
-            "ci",
-            "approved-direction",
+            "agent/reviewer",
             "stage/010-actionable"
         ],
-        "created_at": "2026-10-31T13:33:38Z"
+        "created_at": "2026-11-02T22:13:36Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83c\udf31 Upgrade gh-aw compiler and regenerate workflow locks together",
-        "url": "https://github.com/hivecommons/hive/issues/16226",
+        "title": "[reviewer] Review backlog (style): Integrations intro still only describes Planned rows",
+        "url": "https://github.com/hivecommons/hive/issues/16323",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-02T22:09:23Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (style): dependabot.yml has no commit-message prefix, so every Dependabot PR fails PR Type until retitled",
+        "url": "https://github.com/hivecommons/hive/issues/16336",
         "labels": [
             "help wanted",
-            "stage/040-covered-by-pr"
+            "agent/reviewer"
         ],
-        "created_at": "2026-11-02T14:08:40Z"
+        "created_at": "2026-11-03T00:13:56Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[v6] \ud83d\udc1b contribute-hive local mode drops AGENT_MODEL and effort but still reports them to the hub",
-        "url": "https://github.com/hivecommons/hive/issues/16222",
+        "title": "[shared-ci] test (rest 2/4) / test (rest 3/4) failing across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/16335",
+        "labels": [
+            "help wanted",
+            "testing",
+            "agent/quality"
+        ],
+        "created_at": "2026-11-03T00:11:03Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (docs-currency): github.attention is an opaque leaf for the Settings parity gate; admitter/flap_window are not individually tracked",
+        "url": "https://github.com/hivecommons/hive/issues/16331",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-02T23:52:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (docs-currency): New operator doc attention-episodes.md is not listed in documentation-map.md or docs README",
+        "url": "https://github.com/hivecommons/hive/issues/16330",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-02T23:52:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Coverage] packages below 90% threshold",
+        "url": "https://github.com/hivecommons/hive/issues/16329",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "ci-coverage",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-02T23:47:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (intent-alignment): Merge-queue-required quarantine raises no operator alert",
+        "url": "https://github.com/hivecommons/hive/issues/16322",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-02T21:57:37Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (security): Empty command substitution glued to protected path passes clean (rm -rf $(true)/)",
+        "url": "https://github.com/hivecommons/hive/issues/16320",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-02T21:49:29Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] transcript_scan_slow: copilot transcript activity scan outlived its interval; agent liveness reads ma\u2026",
+        "url": "https://github.com/hivecommons/hive/issues/16292",
         "labels": [
             "help wanted",
             "triage/accepted",
-            "stage/020-claimed",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-11-02T10:38:15Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: automerge workflow approval still required after ok-to-test grace; install the \u2026",
-        "url": "https://github.com/hivecommons/hive/issues/16199",
-        "labels": [
-            "help wanted",
             "kind/bug",
             "fleet-report",
             "hive/selfreport",
             "trigger:runtime-error",
-            "stage/010-actionable",
+            "stage/040-covered-by-pr",
             "origin/selfreport",
             "severity:low",
-            "class:unclassified-error-repeated"
+            "class:transcript-scan-slow"
         ],
-        "created_at": "2026-11-02T03:18:23Z"
+        "created_at": "2026-11-02T19:23:22Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] merge gate: hive host clock is 1h behind GitHub since the DST fall-back; min_head_age clamps every fresh head to \"0s ago\" and stalls relayed merges",
-        "url": "https://github.com/hivecommons/hive/issues/16141",
+        "title": "[scanner] Scope per-recipient attention budgets with opt-in digest overflow (off by default, never drop new asks)",
+        "url": "https://github.com/hivecommons/hive/issues/16271",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "approved-direction",
+            "stage/010-actionable",
+            "hive/partially-addressed"
+        ],
+        "created_at": "2026-11-02T17:31:16Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Issue-side hive:status consolidation, actionable attention events, 24h reminders and GitHub-native action queue (opt-in pilot)",
+        "url": "https://github.com/hivecommons/hive/issues/16270",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
             "stage/010-actionable"
         ],
-        "created_at": "2026-11-01T09:31:16Z"
+        "created_at": "2026-11-02T17:29:41Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Persist producer-independent condition episodes with single per-repo attention admitter and uncertain-POST reconciliation",
+        "url": "https://github.com/hivecommons/hive/issues/16267",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-02T17:27:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] human-merge pin-only exception: enforce in automerge sweep and /approve",
+        "url": "https://github.com/hivecommons/hive/issues/16266",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-02T17:26:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] human-merge pin-only exception: enforce in merge-request relay",
+        "url": "https://github.com/hivecommons/hive/issues/16265",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable",
+            "hive/claimed-by-human"
+        ],
+        "created_at": "2026-11-02T17:26:10Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] human-merge pin-only exception: config schema + pure pin-only diff classifier",
+        "url": "https://github.com/hivecommons/hive/issues/16262",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-02T17:24:20Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (security): Positional parameters read as opaque: rm -rf /$1 and /\"$@\" pass clean",
+        "url": "https://github.com/hivecommons/hive/issues/16245",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-02T15:32:50Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "feat: bounded trusted pin-only exception to per-repository human-merge paths",
+        "url": "https://github.com/hivecommons/hive/issues/16242",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-02T15:27:09Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30718,21 +30867,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[sec-check] Gate proposal: destructive-rm detector needs a spelling-equivalence test, not a fifth per-bypass patch",
-        "url": "https://github.com/hivecommons/hive/issues/16094",
-        "labels": [
-            "help wanted",
-            "agent/sec-check",
-            "security",
-            "approved-direction",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-10-31T19:11:28Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83d\udcdd [v5 RFC] Reduce notification fatigue: actionable requests, cross-producer deduplication, and maintainer attention budgets",
         "url": "https://github.com/hivecommons/hive/issues/16075",
         "labels": [
@@ -30740,34 +30874,10 @@
             "approved-direction",
             "kind/design",
             "proposal",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-10-31T16:50:58Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b Completed preparation ownership causes independent ready PRs to wait",
-        "url": "https://github.com/hivecommons/hive/issues/16051",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-31T14:52:43Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Review backlog (docs-currency): Dashboard help marks still land on index stub page (advisory, unchanged)",
-        "url": "https://github.com/hivecommons/hive/issues/15540",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-10-29T22:33:22Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30808,18 +30918,6 @@
             "hold"
         ],
         "created_at": "2026-10-22T20:39:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 RFC: Repo-targeted Experiment Lab campaigns run on Nous's own discovery",
-        "url": "https://github.com/hivecommons/hive/issues/13096",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-20T02:36:10Z"
     },
     {
         "repo": "hivecommons/hive",
