@@ -311,18 +311,6 @@
         "repo": "runatlantis/atlantis",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Apply support for custom commands/workflows",
-        "url": "https://github.com/runatlantis/atlantis/issues/2498",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2022-09-07T11:46:12Z"
-    },
-    {
-        "repo": "runatlantis/atlantis",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Threaded comments in Azure Devops",
         "url": "https://github.com/runatlantis/atlantis/issues/2485",
         "labels": [
@@ -497,30 +485,6 @@
         "repo": "runatlantis/atlantis",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "feature: Atlantis should support gitHub groups for approving polices along with individual users",
-        "url": "https://github.com/runatlantis/atlantis/issues/2116",
-        "labels": [
-            "feature",
-            "help wanted"
-        ],
-        "created_at": "2022-03-04T20:48:10Z"
-    },
-    {
-        "repo": "runatlantis/atlantis",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "feature request/question: Ability to accept an .atlantisignore file",
-        "url": "https://github.com/runatlantis/atlantis/issues/2094",
-        "labels": [
-            "feature",
-            "help wanted"
-        ],
-        "created_at": "2022-03-01T22:27:16Z"
-    },
-    {
-        "repo": "runatlantis/atlantis",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Feature Request - allow atlantis to be less strict on commenting",
         "url": "https://github.com/runatlantis/atlantis/issues/1752",
         "labels": [
@@ -528,18 +492,6 @@
             "help wanted"
         ],
         "created_at": "2021-08-10T20:06:10Z"
-    },
-    {
-        "repo": "runatlantis/atlantis",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Feature request - Atlantis autoplan with terraform workspaces - check target branch first",
-        "url": "https://github.com/runatlantis/atlantis/issues/1738",
-        "labels": [
-            "feature",
-            "help wanted"
-        ],
-        "created_at": "2021-08-05T17:37:31Z"
     },
     {
         "repo": "runatlantis/atlantis",
@@ -554,6 +506,55 @@
             "never-stale"
         ],
         "created_at": "2021-07-21T23:02:46Z"
+    },
+    {
+        "repo": "runatlantis/atlantis",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Automerge happens on an apply of 0 projects",
+        "url": "https://github.com/runatlantis/atlantis/issues/1674",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2021-06-29T18:53:29Z"
+    },
+    {
+        "repo": "runatlantis/atlantis",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Atlantis pipeline icons not appearing in Gitlab when running from a fork repository",
+        "url": "https://github.com/runatlantis/atlantis/issues/1586",
+        "labels": [
+            "bug",
+            "help wanted",
+            "provider/gitlab"
+        ],
+        "created_at": "2021-05-18T19:46:40Z"
+    },
+    {
+        "repo": "runatlantis/atlantis",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Atlantis Plan Specific Workflow",
+        "url": "https://github.com/runatlantis/atlantis/issues/1271",
+        "labels": [
+            "feature",
+            "help wanted"
+        ],
+        "created_at": "2020-11-25T00:30:20Z"
+    },
+    {
+        "repo": "runatlantis/atlantis",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Improper markdown formatting with multi-comment plan outputs",
+        "url": "https://github.com/runatlantis/atlantis/issues/1097",
+        "labels": [
+            "bug",
+            "help wanted"
+        ],
+        "created_at": "2020-06-26T21:21:43Z"
     },
     {
         "repo": "cadence-workflow/cadence",
@@ -2724,6 +2725,19 @@
             "good first issue"
         ],
         "created_at": "2020-09-04T08:46:53Z"
+    },
+    {
+        "repo": "opentofu/opentofu",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Uninitialized symbol libraries cause crash",
+        "url": "https://github.com/opentofu/opentofu/issues/4733",
+        "labels": [
+            "bug",
+            "help wanted",
+            "accepted"
+        ],
+        "created_at": "2026-10-18T17:51:19Z"
     },
     {
         "repo": "opentofu/opentofu",
@@ -11941,6 +11955,19 @@
         "repo": "k0sproject/k0s",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "csr-approver should refuse loopback, link-local, unspecified and multicast IP SANs",
+        "url": "https://github.com/k0sproject/k0s/issues/8737",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "area/controlplane"
+        ],
+        "created_at": "2026-11-04T16:27:44Z"
+    },
+    {
+        "repo": "k0sproject/k0s",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Allows setting historyMax in helm.k0sproject.io/v1beta1 Chart",
         "url": "https://github.com/k0sproject/k0s/issues/8446",
         "labels": [
@@ -14628,7 +14655,7 @@
     },
     {
         "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "Placement debug endpoint shows cluster names and scores to users who cannot read ManagedClusters",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1802",
@@ -14641,7 +14668,7 @@
     },
     {
         "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "AppliedManifestWork eviction cannot distinguish hub-deleted ManifestWork from not-yet-replayed local store (cloudevents driver)",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1786",
@@ -14654,7 +14681,7 @@
     },
     {
         "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "gRPC work agent leaves same-name recreated ManifestWork unapplied until restart (suspected cache race)",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1757",
@@ -14667,7 +14694,7 @@
     },
     {
         "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "Document and test a hub backup-and-restore runbook",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1735",
@@ -14679,7 +14706,7 @@
     },
     {
         "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "Publish measured per-cluster CPU and memory at representative fleet sizes",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1734",
@@ -14691,7 +14718,7 @@
     },
     {
         "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "Export named Prometheus metrics for cluster availability and ManifestWork success",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1733",
@@ -14703,7 +14730,7 @@
     },
     {
         "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "configurable healthcheck process port in klusterlet",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1032",
@@ -14715,7 +14742,7 @@
     },
     {
         "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "ManifestWorkReplicaSet: status reports stale or premature results across generations",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1768",
@@ -14727,7 +14754,7 @@
     },
     {
         "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "Add `azure` registration driver: AKS-native authentication via Azure AD (Environment / Managed Identity / Workload Identity Federation)",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1676",
@@ -14738,7 +14765,7 @@
     },
     {
         "repo": "open-cluster-management-io/ocm",
-        "tier": "Sandbox",
+        "tier": "Incubating",
         "lang": "Go",
         "title": "Add SPIFFE based registration driver for OCM cluster and add-on registration",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/866",
@@ -23213,7 +23240,7 @@
     },
     {
         "repo": "kubevirt/kubevirt",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "approved-vep label removed from PR when VEP-check workflow hits a GitHub API error",
         "url": "https://github.com/kubevirt/kubevirt/issues/19465",
@@ -23225,7 +23252,7 @@
     },
     {
         "repo": "kubevirt/kubevirt",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Transition to using gRPC error model",
         "url": "https://github.com/kubevirt/kubevirt/issues/18285",
@@ -23240,7 +23267,7 @@
     },
     {
         "repo": "kubevirt/kubevirt",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Transition away from go-kit in kubevirt client-go/log",
         "url": "https://github.com/kubevirt/kubevirt/issues/18265",
@@ -23254,7 +23281,7 @@
     },
     {
         "repo": "kubevirt/kubevirt",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Consolidate duplicate imagePullPolicy fields in KubeVirt CR",
         "url": "https://github.com/kubevirt/kubevirt/issues/18246",
@@ -23269,7 +23296,7 @@
     },
     {
         "repo": "kubevirt/kubevirt",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Enhancement: Feature Gate Dependency Tracking; good first issue",
         "url": "https://github.com/kubevirt/kubevirt/issues/16998",
@@ -23281,7 +23308,7 @@
     },
     {
         "repo": "kubevirt/kubevirt",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "KubeVirt CR spec gets validated on update but not on creation",
         "url": "https://github.com/kubevirt/kubevirt/issues/16401",
@@ -23296,7 +23323,7 @@
     },
     {
         "repo": "kubevirt/kubevirt",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "\"Enhance\" failure message",
         "url": "https://github.com/kubevirt/kubevirt/issues/10347",
@@ -23309,7 +23336,7 @@
     },
     {
         "repo": "kubevirt/kubevirt",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Cache `make generate` results with Bazel",
         "url": "https://github.com/kubevirt/kubevirt/issues/8165",
@@ -23321,7 +23348,7 @@
     },
     {
         "repo": "kubevirt/kubevirt",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "Add a setup procedure to `virtctl` to allow people configuring preferences",
         "url": "https://github.com/kubevirt/kubevirt/issues/6617",
@@ -23334,7 +23361,7 @@
     },
     {
         "repo": "kubevirt/kubevirt",
-        "tier": "Incubating",
+        "tier": "Graduated",
         "lang": "Go",
         "title": "k8s enables structured logging more and more, consider switching to their structured logger",
         "url": "https://github.com/kubevirt/kubevirt/issues/5932",
@@ -30548,99 +30575,56 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b Activity Monitor: \"Awaiting human: rerun\u2026\" renders in the Merge queue column instead of PR in progress",
-        "url": "https://github.com/hivecommons/hive/issues/16592",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-04T13:14:47Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): Un-park sweep still treats the held issue as parked and keeps offering /hive approve|decision",
-        "url": "https://github.com/hivecommons/hive/issues/16591",
+        "title": "[reviewer] Review backlog (intent-alignment): StageTrackerActivity type comment still says CI activity comes only from required checks",
+        "url": "https://github.com/hivecommons/hive/issues/16673",
         "labels": [
             "help wanted",
             "agent/reviewer",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-04T13:12:21Z"
+        "created_at": "2026-11-04T22:35:27Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] ci_poll_nudge: repeated CI-status commands observed after the kick: stop-polling nudge sent (3\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/16588",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "kind/bug",
-            "fleet-report",
-            "hive/selfreport",
-            "trigger:runtime-error",
-            "stage/010-actionable",
-            "origin/selfreport",
-            "class:ci-poll-nudge",
-            "severity:low"
-        ],
-        "created_at": "2026-11-04T12:42:28Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): Redundant Issues.Get each retry pass before the store override",
-        "url": "https://github.com/hivecommons/hive/issues/16586",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-04T12:40:37Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[dedupe] triage: duplicate and overlapping open issues/PRs to consolidate",
-        "url": "https://github.com/hivecommons/hive/issues/16581",
-        "labels": [
-            "help wanted",
-            "agent/dedupe",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-04T12:23:06Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b controller: re-parks issues to needs-decision after a human decision when the remaining checklist is human-only",
-        "url": "https://github.com/hivecommons/hive/issues/16579",
-        "labels": [
-            "bug",
-            "help wanted",
-            "stage/040-covered-by-pr",
-            "has-open-pr"
-        ],
-        "created_at": "2026-11-04T12:12:06Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Cutover: Code activity supersedes and retires the Matrix code-view entry point (part 3/3 of #16137)",
-        "url": "https://github.com/hivecommons/hive/issues/16477",
+        "title": "[scanner] ci: docker image builds fail on transient npm notarget for cline transitive deps",
+        "url": "https://github.com/hivecommons/hive/issues/16666",
         "labels": [
             "help wanted",
             "agent/scanner",
+            "ci",
+            "needs-signal",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-03T23:57:26Z"
+        "created_at": "2026-11-04T21:01:16Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: dashboard navigation is unavailable at my preferred browser width",
+        "url": "https://github.com/hivecommons/hive/issues/16654",
+        "labels": [
+            "bug",
+            "help wanted",
+            "triage/accepted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-04T19:44:03Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Auto-approve workflow runs gated on GitHub's approve-workflows for trusted bots and admitted PRs",
+        "url": "https://github.com/hivecommons/hive/issues/16603",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-04T14:04:16Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30651,7 +30635,8 @@
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/040-covered-by-pr"
+            "stage/040-covered-by-pr",
+            "hive/re-authored"
         ],
         "created_at": "2026-11-02T17:26:10Z"
     },
@@ -30664,26 +30649,10 @@
         "labels": [
             "help wanted",
             "hive/verified-open",
-            "stage/010-actionable",
+            "stage/040-covered-by-pr",
             "hive/partially-addressed"
         ],
         "created_at": "2026-11-02T15:27:09Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd RFC: Supersede the Matrix code view with a passive Code activity reader",
-        "url": "https://github.com/hivecommons/hive/issues/16137",
-        "labels": [
-            "help wanted",
-            "hive/verified-open",
-            "approved-direction",
-            "proposal",
-            "stage/010-actionable",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-11-01T03:51:13Z"
     },
     {
         "repo": "hivecommons/hive",
