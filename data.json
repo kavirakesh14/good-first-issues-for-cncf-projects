@@ -2114,6 +2114,17 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[mesheryctl] golangci-lint fails on master: unused const errPatternMsg in design/error.go",
+        "url": "https://github.com/meshery/meshery/issues/22809",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-11-03T23:51:37Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[CI] auto-merge-meeting-minutes: workflow_dispatch can run a branch-modified workflow with COMMUNITY_MANAGER_TOKEN",
         "url": "https://github.com/meshery/meshery/issues/22754",
         "labels": [
@@ -2478,20 +2489,6 @@
             "azure"
         ],
         "created_at": "2026-08-14T14:43:03Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs] Standardize image embedding across documentation",
-        "url": "https://github.com/meshery/meshery/issues/21198",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-07T05:35:27Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -28617,20 +28614,6 @@
         "created_at": "2026-10-24T10:34:21Z"
     },
     {
-        "repo": "kuberhealthy/kuberhealthy",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "ARM64 image for kuberhealthy/network-connection-check",
-        "url": "https://github.com/kuberhealthy/kuberhealthy/issues/1262",
-        "labels": [
-            "good first issue",
-            "tooling",
-            "feature request",
-            "do-not-close"
-        ],
-        "created_at": "2024-06-11T10:02:25Z"
-    },
-    {
         "repo": "kube-logging/logging-operator",
         "tier": "Sandbox",
         "lang": "Go",
@@ -30598,18 +30581,151 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] native-queue-policy cannot pass when the DCO app hits its 250-commit ceiling (forward-merge PRs)",
-        "url": "https://github.com/hivecommons/hive/issues/16404",
+        "title": "\ud83d\udc1b Activity Monitor rows light three chevrons; unreported CI checks render amber",
+        "url": "https://github.com/hivecommons/hive/issues/16540",
+        "labels": [
+            "bug",
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-04T04:02:40Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Governor: per-PR deferred fix-kick queue position + dashboard 'fixer queued, N ahead'",
+        "url": "https://github.com/hivecommons/hive/issues/16537",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "ci",
-            "needs-human",
-            "hive/verified-open",
-            "hive/partially-addressed",
-            "stage/045-needs-decision"
+            "stage/020-claimed",
+            "hive/claimed-by-human"
         ],
-        "created_at": "2026-11-03T08:45:03Z"
+        "created_at": "2026-11-04T03:51:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Fixer lane: route fix kicks to fallback agent when primary fixer is undeliverable",
+        "url": "https://github.com/hivecommons/hive/issues/16536",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-04T03:51:02Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] CI-failure webhook kick: bounded retry + per-PR pending queue instead of one-shot WARN",
+        "url": "https://github.com/hivecommons/hive/issues/16534",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-04T03:50:14Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b Fixer lane never picks up changes-requested hive PRs while scanner is wedged in a long turn; CI-failure webhook kick fails once and is dropped",
+        "url": "https://github.com/hivecommons/hive/issues/16526",
+        "labels": [
+            "bug",
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-04T03:01:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: automerge sweep skipped PR",
+        "url": "https://github.com/hivecommons/hive/issues/16520",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "kind/bug",
+            "fleet-report",
+            "hive/selfreport",
+            "trigger:runtime-error",
+            "stage/040-covered-by-pr",
+            "origin/selfreport",
+            "severity:low",
+            "class:unclassified-error-repeated"
+        ],
+        "created_at": "2026-11-04T02:35:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (correctness): Sibling collect-timeout outcome notices still file as unclassified_error_repeated",
+        "url": "https://github.com/hivecommons/hive/issues/16516",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-04T02:21:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: hub heartbeat collect budget exceeded \u2014 slowest collectors (in-flight = still\u2026",
+        "url": "https://github.com/hivecommons/hive/issues/16502",
+        "labels": [
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-04T01:31:17Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (correctness): Consumed forced adoption leaves the adopt-supersede label, so the refusal log keeps firing per sweep",
+        "url": "https://github.com/hivecommons/hive/issues/16489",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-04T00:22:52Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Cutover: Code activity supersedes and retires the Matrix code-view entry point (part 3/3 of #16137)",
+        "url": "https://github.com/hivecommons/hive/issues/16477",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-03T23:57:26Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Code activity: published-checkpoint diff source (part 2/3 of #16137)",
+        "url": "https://github.com/hivecommons/hive/issues/16476",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-03T23:56:57Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30646,8 +30762,9 @@
         "url": "https://github.com/hivecommons/hive/issues/16137",
         "labels": [
             "help wanted",
+            "approved-direction",
             "proposal",
-            "stage/045-needs-decision"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-01T03:51:13Z"
     },
