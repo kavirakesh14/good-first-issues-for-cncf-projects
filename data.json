@@ -4622,18 +4622,52 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "FAPI 2.0: HolderOfKeyEnforcerExecutor returns `invalid_grant` instead of `invalid_request` / `invalid_client` when refresh token certificate binding fails",
-        "url": "https://github.com/keycloak/keycloak/issues/54582",
+        "title": "Token exchange returns HTTP 500 when the subject token payload is the JSON literal `null` and the jwt-claim-enforcer executor is active",
+        "url": "https://github.com/keycloak/keycloak/issues/54608",
         "labels": [
             "area/oidc",
             "kind/bug",
             "help wanted",
+            "priority/low",
             "status/auto-expire",
             "status/auto-bump",
-            "priority/normal",
             "team/core-protocols"
         ],
-        "created_at": "2026-11-03T12:55:10Z"
+        "created_at": "2026-11-03T19:17:56Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Importing SAML IdP metadata whose KeyInfo has no X509Certificate returns HTTP 500",
+        "url": "https://github.com/keycloak/keycloak/issues/54607",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/identity-brokering",
+            "team/core-iam",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-11-03T19:14:04Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Device authorization grant returns HTTP 500 when the client session has expired but the user session is still alive",
+        "url": "https://github.com/keycloak/keycloak/issues/54606",
+        "labels": [
+            "area/oidc",
+            "kind/bug",
+            "help wanted",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-protocols"
+        ],
+        "created_at": "2026-11-03T19:10:12Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -4669,6 +4703,22 @@
             "area/organizations"
         ],
         "created_at": "2026-11-02T11:19:35Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "SCIM: PUT on a group with \"members\": [] returns 200 but removes nobody",
+        "url": "https://github.com/keycloak/keycloak/issues/54530",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-bump",
+            "priority/normal",
+            "area/scim"
+        ],
+        "created_at": "2026-11-02T10:50:05Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -4720,6 +4770,24 @@
             "priority/normal"
         ],
         "created_at": "2026-10-28T17:33:41Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Casting UserProvider to the OnUserCache without checking",
+        "url": "https://github.com/keycloak/keycloak/issues/54410",
+        "labels": [
+            "kind/bug",
+            "area/infinispan",
+            "help wanted",
+            "team/core-iam",
+            "team/core-shared",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump"
+        ],
+        "created_at": "2026-10-28T11:06:26Z"
     },
     {
         "repo": "keycloak/keycloak",
@@ -5062,73 +5130,6 @@
             "status/auto-bump"
         ],
         "created_at": "2026-10-05T19:48:13Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Legacy login theme shows a raw `{0}` in the client delegation consent sentence",
-        "url": "https://github.com/keycloak/keycloak/issues/53516",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "area/login/ui",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump",
-            "team/core-authn"
-        ],
-        "created_at": "2026-10-05T03:41:39Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[CIMD] The hostname line on the consent screen is hard-coded English and cannot be localised",
-        "url": "https://github.com/keycloak/keycloak/issues/53515",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-10-05T03:40:36Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Uncaught RuntimeException (HTTP 500) on OIDC authorization endpoint when POST uses multipart/form-data with a file part",
-        "url": "https://github.com/keycloak/keycloak/issues/53460",
-        "labels": [
-            "kind/bug",
-            "area/dist/quarkus",
-            "help wanted",
-            "team/cloud-native",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-10-02T09:57:50Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Roles from other clients are missing from \"Effective role scope mappings\" in Client Scope Evaluate",
-        "url": "https://github.com/keycloak/keycloak/issues/53436",
-        "labels": [
-            "area/oidc",
-            "help wanted",
-            "kind/task",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-10-01T16:45:29Z"
     },
     {
         "repo": "keylime/keylime",
@@ -10725,6 +10726,21 @@
         "repo": "cilium/cilium",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "CiliumPodIPPool v2 sets maxItems: 32 on spec.ipv4.cidrs / spec.ipv6.cidrs",
+        "url": "https://github.com/cilium/cilium/issues/49828",
+        "labels": [
+            "kind/bug",
+            "good-first-issue",
+            "kind/community-report",
+            "kind/regression",
+            "area/multipool"
+        ],
+        "created_at": "2026-11-04T02:21:44Z"
+    },
+    {
+        "repo": "cilium/cilium",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Incorrect validation: `reserved:.*` required even with only exclusive label patterns",
         "url": "https://github.com/cilium/cilium/issues/48776",
         "labels": [
@@ -11820,17 +11836,6 @@
             "kind/cleanup"
         ],
         "created_at": "2022-12-30T03:13:15Z"
-    },
-    {
-        "repo": "kcp-dev/kcp",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Add e2e tests for webhook grants passing through authz gates",
-        "url": "https://github.com/kcp-dev/kcp/issues/4512",
-        "labels": [
-            "good first issue"
-        ],
-        "created_at": "2026-10-29T16:24:36Z"
     },
     {
         "repo": "kcp-dev/kcp",
@@ -13219,18 +13224,6 @@
             "api"
         ],
         "created_at": "2022-12-15T21:26:40Z"
-    },
-    {
-        "repo": "kube-rs/kube",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "getting \"unexpected EOF during chunk size line\" when showing container logs",
-        "url": "https://github.com/kube-rs/kube/issues/1075",
-        "labels": [
-            "bug",
-            "help wanted"
-        ],
-        "created_at": "2022-11-07T16:32:44Z"
     },
     {
         "repo": "kube-rs/kube",
@@ -16622,7 +16615,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": ":warning: Action Required: Replace Deprecated gcr.io/kubebuilder/kube-rbac-proxy",
         "url": "https://github.com/metallb/metallb/issues/2619",
         "labels": [
@@ -16635,7 +16628,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "Document which tests should be run / skipped",
         "url": "https://github.com/metallb/metallb/issues/2204",
         "labels": [
@@ -16650,7 +16643,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "Automated test focus / skip",
         "url": "https://github.com/metallb/metallb/issues/2203",
         "labels": [
@@ -16666,7 +16659,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "Containerized unit tests",
         "url": "https://github.com/metallb/metallb/issues/2200",
         "labels": [
@@ -16681,7 +16674,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "Webhook improvements",
         "url": "https://github.com/metallb/metallb/issues/1577",
         "labels": [
@@ -16694,7 +16687,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "Custom local AS per peer basis with FRR",
         "url": "https://github.com/metallb/metallb/issues/1226",
         "labels": [
@@ -16708,7 +16701,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "move the go module vanity url to metallb.io",
         "url": "https://github.com/metallb/metallb/issues/2393",
         "labels": [
@@ -16721,7 +16714,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "Add a inv preview-site command",
         "url": "https://github.com/metallb/metallb/issues/2382",
         "labels": [
@@ -16734,7 +16727,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "Move to netip and bump github.com/mdlayher/ndp",
         "url": "https://github.com/metallb/metallb/issues/2376",
         "labels": [
@@ -16746,7 +16739,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "automate/add to process bumping metallb in minikbue ?",
         "url": "https://github.com/metallb/metallb/issues/1862",
         "labels": [
@@ -16758,7 +16751,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "Stable Host Numbering ",
         "url": "https://github.com/metallb/metallb/issues/1605",
         "labels": [
@@ -16772,7 +16765,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "Controller-runtime metrics",
         "url": "https://github.com/metallb/metallb/issues/1434",
         "labels": [
@@ -16785,7 +16778,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "layer2: Consider waiting for go routines to finish on shutdown",
         "url": "https://github.com/metallb/metallb/issues/663",
         "labels": [
@@ -16797,7 +16790,7 @@
     {
         "repo": "metallb/metallb",
         "tier": "Sandbox",
-        "lang": "Go",
+        "lang": "Unknown",
         "title": "RIP protocol support",
         "url": "https://github.com/metallb/metallb/issues/9",
         "labels": [
@@ -23785,19 +23778,6 @@
         "repo": "getporter/porter",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Enable creating parameter/credentials using referenced bundles",
-        "url": "https://github.com/getporter/porter/issues/2300",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "2 - \ud83c\udf55"
-        ],
-        "created_at": "2022-08-16T07:37:27Z"
-    },
-    {
-        "repo": "getporter/porter",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Add quickstart doc for bundle authors",
         "url": "https://github.com/getporter/porter/issues/2292",
         "labels": [
@@ -28553,19 +28533,6 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "health: show fossa security badge on main readme.md",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2713",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "difficulty/easy"
-        ],
-        "created_at": "2026-11-02T21:03:33Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Helm chart prints nothing after install (no NOTES.txt)",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2675",
         "labels": [
@@ -30581,74 +30548,33 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b Activity Monitor rows light three chevrons; unreported CI checks render amber",
-        "url": "https://github.com/hivecommons/hive/issues/16540",
+        "title": "\ud83d\udc1b Activity Monitor: \"Awaiting human: rerun\u2026\" renders in the Merge queue column instead of PR in progress",
+        "url": "https://github.com/hivecommons/hive/issues/16592",
         "labels": [
-            "bug",
             "help wanted",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-04T04:02:40Z"
+        "created_at": "2026-11-04T13:14:47Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] Governor: per-PR deferred fix-kick queue position + dashboard 'fixer queued, N ahead'",
-        "url": "https://github.com/hivecommons/hive/issues/16537",
+        "title": "[reviewer] Review backlog (correctness): Un-park sweep still treats the held issue as parked and keeps offering /hive approve|decision",
+        "url": "https://github.com/hivecommons/hive/issues/16591",
         "labels": [
             "help wanted",
-            "agent/scanner",
-            "stage/020-claimed",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-11-04T03:51:34Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Fixer lane: route fix kicks to fallback agent when primary fixer is undeliverable",
-        "url": "https://github.com/hivecommons/hive/issues/16536",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
+            "agent/reviewer",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-04T03:51:02Z"
+        "created_at": "2026-11-04T13:12:21Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] CI-failure webhook kick: bounded retry + per-PR pending queue instead of one-shot WARN",
-        "url": "https://github.com/hivecommons/hive/issues/16534",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-04T03:50:14Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b Fixer lane never picks up changes-requested hive PRs while scanner is wedged in a long turn; CI-failure webhook kick fails once and is dropped",
-        "url": "https://github.com/hivecommons/hive/issues/16526",
-        "labels": [
-            "bug",
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-04T03:01:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: automerge sweep skipped PR",
-        "url": "https://github.com/hivecommons/hive/issues/16520",
+        "title": "[selfreport] ci_poll_nudge: repeated CI-status commands observed after the kick: stop-polling nudge sent (3\u2026",
+        "url": "https://github.com/hivecommons/hive/issues/16588",
         "labels": [
             "help wanted",
             "triage/accepted",
@@ -30656,50 +30582,52 @@
             "fleet-report",
             "hive/selfreport",
             "trigger:runtime-error",
-            "stage/040-covered-by-pr",
+            "stage/010-actionable",
             "origin/selfreport",
-            "severity:low",
-            "class:unclassified-error-repeated"
+            "class:ci-poll-nudge",
+            "severity:low"
         ],
-        "created_at": "2026-11-04T02:35:58Z"
+        "created_at": "2026-11-04T12:42:28Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): Sibling collect-timeout outcome notices still file as unclassified_error_repeated",
-        "url": "https://github.com/hivecommons/hive/issues/16516",
+        "title": "[reviewer] Review backlog (correctness): Redundant Issues.Get each retry pass before the store override",
+        "url": "https://github.com/hivecommons/hive/issues/16586",
         "labels": [
             "help wanted",
             "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-04T02:21:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: hub heartbeat collect budget exceeded \u2014 slowest collectors (in-flight = still\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/16502",
-        "labels": [
-            "help wanted",
             "stage/010-actionable"
         ],
-        "created_at": "2026-11-04T01:31:17Z"
+        "created_at": "2026-11-04T12:40:37Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): Consumed forced adoption leaves the adopt-supersede label, so the refusal log keeps firing per sweep",
-        "url": "https://github.com/hivecommons/hive/issues/16489",
+        "title": "[dedupe] triage: duplicate and overlapping open issues/PRs to consolidate",
+        "url": "https://github.com/hivecommons/hive/issues/16581",
         "labels": [
             "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
+            "agent/dedupe",
+            "stage/010-actionable"
         ],
-        "created_at": "2026-11-04T00:22:52Z"
+        "created_at": "2026-11-04T12:23:06Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b controller: re-parks issues to needs-decision after a human decision when the remaining checklist is human-only",
+        "url": "https://github.com/hivecommons/hive/issues/16579",
+        "labels": [
+            "bug",
+            "help wanted",
+            "stage/040-covered-by-pr",
+            "has-open-pr"
+        ],
+        "created_at": "2026-11-04T12:12:06Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30713,19 +30641,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-03T23:57:26Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Code activity: published-checkpoint diff source (part 2/3 of #16137)",
-        "url": "https://github.com/hivecommons/hive/issues/16476",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-03T23:56:57Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30762,9 +30677,11 @@
         "url": "https://github.com/hivecommons/hive/issues/16137",
         "labels": [
             "help wanted",
+            "hive/verified-open",
             "approved-direction",
             "proposal",
-            "stage/040-covered-by-pr"
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-11-01T03:51:13Z"
     },
