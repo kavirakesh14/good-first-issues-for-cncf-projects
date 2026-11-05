@@ -2115,6 +2115,34 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Docs] Non-existent command in CLI UX Guide and mismatched command in Perf Reference",
+        "url": "https://github.com/meshery/meshery/issues/22875",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-11-05T22:31:56Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[Docs] Missing anchor and dead link for `#meshsync-deployment-mode` in connection guides",
+        "url": "https://github.com/meshery/meshery/issues/22874",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-11-05T22:30:11Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "[mesheryctl] golangci-lint fails on master: unused const errPatternMsg in design/error.go",
         "url": "https://github.com/meshery/meshery/issues/22809",
         "labels": [
@@ -2462,34 +2490,6 @@
             "language/go"
         ],
         "created_at": "2026-08-18T00:24:30Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Docs]Refactor the Meshery REST API documentation to source from the published OpenAPI schemas instead of Golang code comments.",
-        "url": "https://github.com/meshery/meshery/issues/21409",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/jekyll"
-        ],
-        "created_at": "2026-08-14T14:43:32Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "[Relationships] Identify and add all meaningful relationships for Azure Batch",
-        "url": "https://github.com/meshery/meshery/issues/21403",
-        "labels": [
-            "help wanted",
-            "area/devops",
-            "area/models",
-            "azure"
-        ],
-        "created_at": "2026-08-14T14:43:03Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -3458,20 +3458,6 @@
         "repo": "cartography-cncf/cartography",
         "tier": "Sandbox",
         "lang": "Python",
-        "title": "feat(aws): Adding the ability to map WAF/WebACL with AWS",
-        "url": "https://github.com/cartography-cncf/cartography/issues/1067",
-        "labels": [
-            "good first issue",
-            "data-addition",
-            "module:AWS",
-            "keep fresh"
-        ],
-        "created_at": "2022-12-31T10:36:52Z"
-    },
-    {
-        "repo": "cartography-cncf/cartography",
-        "tier": "Sandbox",
-        "lang": "Python",
         "title": "feat(gcp): support Gcp App Engine",
         "url": "https://github.com/cartography-cncf/cartography/issues/882",
         "labels": [
@@ -4070,6 +4056,18 @@
             "priority/P2"
         ],
         "created_at": "2016-02-17T18:25:38Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Feature parity/expectations mismatch: Apply template.metadata.finalizers to non-Secret manifest targets",
+        "url": "https://github.com/external-secrets/external-secrets/issues/7246",
+        "labels": [
+            "good first issue",
+            "kind/bug"
+        ],
+        "created_at": "2026-11-05T13:55:41Z"
     },
     {
         "repo": "external-secrets/external-secrets",
@@ -10035,19 +10033,6 @@
         "repo": "podman-container-tools/podman",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Non-actionable error message: 'Error: unsupported transport \"docker\" for looking up local images'",
-        "url": "https://github.com/podman-container-tools/podman/issues/20775",
-        "labels": [
-            "Good First Issue",
-            "kind/bug",
-            "volunteers-wanted"
-        ],
-        "created_at": "2023-11-24T21:07:33Z"
-    },
-    {
-        "repo": "podman-container-tools/podman",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Turn --authfile into an alias for --auth-file",
         "url": "https://github.com/podman-container-tools/podman/issues/20693",
         "labels": [
@@ -14121,6 +14106,19 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "docs: Update PR template after website docs moved to separate repository",
+        "url": "https://github.com/kubestellar/kubestellar/issues/4042",
+        "labels": [
+            "help wanted",
+            "kind/documentation",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-05T16:33:34Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "bug: flake in ginkgo test case \"singleton status creation and deletion\"",
         "url": "https://github.com/kubestellar/kubestellar/issues/4036",
         "labels": [
@@ -14488,19 +14486,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-07-09T05:22:14Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "bug: Add proper error handling in CombinedStatus Resolver",
-        "url": "https://github.com/kubestellar/kubestellar/issues/3886",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-07-08T17:03:45Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -16898,20 +16883,6 @@
         "repo": "emissary-ingress/emissary",
         "tier": "Incubating",
         "lang": "Python",
-        "title": "mapping: invalid add_response_headers causes pod crash",
-        "url": "https://github.com/emissary-ingress/emissary/issues/4760",
-        "labels": [
-            "stale",
-            "t:feature",
-            "good first issue",
-            "contrib-fest"
-        ],
-        "created_at": "2022-12-14T19:38:08Z"
-    },
-    {
-        "repo": "emissary-ingress/emissary",
-        "tier": "Incubating",
-        "lang": "Python",
         "title": "Temporarily misconfigured routes after mapping change",
         "url": "https://github.com/emissary-ingress/emissary/issues/4629",
         "labels": [
@@ -16920,18 +16891,6 @@
             "good first issue"
         ],
         "created_at": "2022-10-17T13:44:45Z"
-    },
-    {
-        "repo": "emissary-ingress/emissary",
-        "tier": "Incubating",
-        "lang": "Python",
-        "title": "`apiext` should eagerly generate TLS certificates",
-        "url": "https://github.com/emissary-ingress/emissary/issues/4275",
-        "labels": [
-            "t:bug",
-            "good first issue"
-        ],
-        "created_at": "2022-06-10T22:58:39Z"
     },
     {
         "repo": "emissary-ingress/emissary",
@@ -20818,6 +20777,30 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-OPEN-22112123]",
+        "url": "https://github.com/backstage/backstage/issues/36623",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-05T20:12:09Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-GLOB-22112102]",
+        "url": "https://github.com/backstage/backstage/issues/36622",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-05T20:12:00Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINCATALOGBACKEND-22149957]",
         "url": "https://github.com/backstage/backstage/issues/36585",
         "labels": [
@@ -21149,30 +21132,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:23Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635206]",
-        "url": "https://github.com/backstage/backstage/issues/36399",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:22Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-OCTOKITREQUESTERROR-8730854]",
-        "url": "https://github.com/backstage/backstage/issues/36397",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:21Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -30589,36 +30548,13 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[outreach] Link the biweekly community meeting from README, CONTRIBUTING and the first-contribution guide",
-        "url": "https://github.com/hivecommons/hive/issues/16763",
+        "title": "\ud83d\udc1b [v6] Workflows blocker card says \"grant the App workflows: write\" when the App has it; never offers the workflows-lane hand-off",
+        "url": "https://github.com/hivecommons/hive/issues/16804",
         "labels": [
             "help wanted",
-            "agent/outreach",
-            "community",
-            "stage/010-actionable",
-            "hive/claimed-by-outreach"
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-05T13:50:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: could not post the prow/lgtm status warning comment",
-        "url": "https://github.com/hivecommons/hive/issues/16753",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "kind/bug",
-            "fleet-report",
-            "hive/selfreport",
-            "trigger:runtime-error",
-            "stage/040-covered-by-pr",
-            "origin/selfreport",
-            "severity:low",
-            "class:unclassified-error-repeated"
-        ],
-        "created_at": "2026-11-05T12:56:23Z"
+        "created_at": "2026-11-05T20:09:19Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30633,74 +30569,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-05T04:16:21Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): On v5 the advertised merged-only read is always refused for quality",
-        "url": "https://github.com/hivecommons/hive/issues/16716",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "agent/reviewer",
-            "approved-direction",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-05T04:12:46Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (security): parkText feeds untrusted pre-park comments into the landed-change match",
-        "url": "https://github.com/hivecommons/hive/issues/16697",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-05T02:03:48Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): Docs say sweep runs after every CI enrichment pass; it is skipped in API-budget conserve mode",
-        "url": "https://github.com/hivecommons/hive/issues/16695",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-05T01:46:08Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): Visible 'Navigation' label is hidden at phone widths (<=600px)",
-        "url": "https://github.com/hivecommons/hive/issues/16690",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-05T01:35:46Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 Auto-approve workflow runs gated on GitHub's approve-workflows for trusted bots and admitted PRs",
-        "url": "https://github.com/hivecommons/hive/issues/16603",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "stage/040-covered-by-pr",
-            "hive/re-authored"
-        ],
-        "created_at": "2026-11-04T14:04:16Z"
     },
     {
         "repo": "hivecommons/hive",
