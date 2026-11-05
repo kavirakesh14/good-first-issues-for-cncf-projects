@@ -13204,19 +13204,6 @@
         "repo": "kube-rs/kube",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "Allow default values to be set in the top level field of custom resources such as status, specs, etc.",
-        "url": "https://github.com/kube-rs/kube/issues/1239",
-        "labels": [
-            "help wanted",
-            "question",
-            "derive"
-        ],
-        "created_at": "2023-07-04T04:46:01Z"
-    },
-    {
-        "repo": "kube-rs/kube",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "Potential extension of PatchParams::validate to cover for invalid patch footgun",
         "url": "https://github.com/kube-rs/kube/issues/1164",
         "labels": [
@@ -14657,6 +14644,32 @@
         "repo": "open-cluster-management-io/ocm",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "ClusterManager: allow customizing the generated gRPC LoadBalancer Service",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1809",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-11-05T03:08:32Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "gRPC server stops serving subscribers while /healthz stays healthy; only a restart recovers",
+        "url": "https://github.com/open-cluster-management-io/ocm/issues/1808",
+        "labels": [
+            "bug",
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-11-05T03:08:31Z"
+    },
+    {
+        "repo": "open-cluster-management-io/ocm",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Placement debug endpoint shows cluster names and scores to users who cannot read ManagedClusters",
         "url": "https://github.com/open-cluster-management-io/ocm/issues/1802",
         "labels": [
@@ -15437,7 +15450,8 @@
             "help wanted",
             "type/cleanup",
             "contribfest",
-            "priority/important-longterm"
+            "priority/important-longterm",
+            "AI Allowed"
         ],
         "created_at": "2024-07-26T18:22:35Z"
     },
@@ -24768,6 +24782,19 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "occ login has no refresh tokens without offline_access and Entra ID needs the scope on the code exchange",
+        "url": "https://github.com/openchoreo/openchoreo/issues/5321",
+        "labels": [
+            "good first issue",
+            "Type/Improvement",
+            "reportedBy/community"
+        ],
+        "created_at": "2026-11-05T09:49:49Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "set-version.js doesn't normalize CHANGELOG.md headers to the pinned release version",
         "url": "https://github.com/openchoreo/openchoreo/issues/5241",
         "labels": [
@@ -25165,19 +25192,6 @@
             "area/go"
         ],
         "created_at": "2026-11-01T15:00:36Z"
-    },
-    {
-        "repo": "pipe-cd/pipecd",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Fix misspellings in docs-dev and the kubernetes plugin README",
-        "url": "https://github.com/pipe-cd/pipecd/issues/7564",
-        "labels": [
-            "kind/bug",
-            "good first issue",
-            "area/docs"
-        ],
-        "created_at": "2026-11-01T15:00:33Z"
     },
     {
         "repo": "pipe-cd/pipecd",
@@ -30575,43 +30589,104 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (intent-alignment): StageTrackerActivity type comment still says CI activity comes only from required checks",
-        "url": "https://github.com/hivecommons/hive/issues/16673",
+        "title": "[outreach] Link the biweekly community meeting from README, CONTRIBUTING and the first-contribution guide",
+        "url": "https://github.com/hivecommons/hive/issues/16763",
+        "labels": [
+            "help wanted",
+            "agent/outreach",
+            "community",
+            "stage/010-actionable",
+            "hive/claimed-by-outreach"
+        ],
+        "created_at": "2026-11-05T13:50:41Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: could not post the prow/lgtm status warning comment",
+        "url": "https://github.com/hivecommons/hive/issues/16753",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "kind/bug",
+            "fleet-report",
+            "hive/selfreport",
+            "trigger:runtime-error",
+            "stage/040-covered-by-pr",
+            "origin/selfreport",
+            "severity:low",
+            "class:unclassified-error-repeated"
+        ],
+        "created_at": "2026-11-05T12:56:23Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] meta: merge-eligible contributor PRs refused every kick by contributor-lane:no-claim (dibs#602/#603, hive#16687/#16691/#16680)",
+        "url": "https://github.com/hivecommons/hive/issues/16717",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "meta",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-05T04:16:21Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (correctness): On v5 the advertised merged-only read is always refused for quality",
+        "url": "https://github.com/hivecommons/hive/issues/16716",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "agent/reviewer",
+            "approved-direction",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-05T04:12:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (security): parkText feeds untrusted pre-park comments into the landed-change match",
+        "url": "https://github.com/hivecommons/hive/issues/16697",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-05T02:03:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (correctness): Docs say sweep runs after every CI enrichment pass; it is skipped in API-budget conserve mode",
+        "url": "https://github.com/hivecommons/hive/issues/16695",
         "labels": [
             "help wanted",
             "agent/reviewer",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-04T22:35:27Z"
+        "created_at": "2026-11-05T01:46:08Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] ci: docker image builds fail on transient npm notarget for cline transitive deps",
-        "url": "https://github.com/hivecommons/hive/issues/16666",
+        "title": "[reviewer] Review backlog (correctness): Visible 'Navigation' label is hidden at phone widths (<=600px)",
+        "url": "https://github.com/hivecommons/hive/issues/16690",
         "labels": [
             "help wanted",
-            "agent/scanner",
-            "ci",
-            "needs-signal",
+            "agent/reviewer",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-04T21:01:16Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: dashboard navigation is unavailable at my preferred browser width",
-        "url": "https://github.com/hivecommons/hive/issues/16654",
-        "labels": [
-            "bug",
-            "help wanted",
-            "triage/accepted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-04T19:44:03Z"
+        "created_at": "2026-11-05T01:35:46Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30622,7 +30697,8 @@
         "labels": [
             "enhancement",
             "help wanted",
-            "stage/040-covered-by-pr"
+            "stage/040-covered-by-pr",
+            "hive/re-authored"
         ],
         "created_at": "2026-11-04T14:04:16Z"
     },
