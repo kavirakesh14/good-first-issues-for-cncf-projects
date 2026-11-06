@@ -2115,15 +2115,15 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "[Docs] Non-existent command in CLI UX Guide and mismatched command in Perf Reference",
-        "url": "https://github.com/meshery/meshery/issues/22875",
+        "title": "[Docs] GraphQL and events docs use API paths the server does not have",
+        "url": "https://github.com/meshery/meshery/issues/22934",
         "labels": [
             "help wanted",
             "area/docs",
             "language/markdown",
             "framework/hugo"
         ],
-        "created_at": "2026-11-05T22:31:56Z"
+        "created_at": "2026-11-06T19:39:08Z"
     },
     {
         "repo": "meshery/meshery",
@@ -4721,22 +4721,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "SCIM: PUT on a group with \"members\": [] returns 200 but removes nobody",
-        "url": "https://github.com/keycloak/keycloak/issues/54530",
-        "labels": [
-            "kind/bug",
-            "help wanted",
-            "team/core-iam",
-            "status/auto-bump",
-            "priority/normal",
-            "area/scim"
-        ],
-        "created_at": "2026-11-02T10:50:05Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "Component update without providerType crashes with a 500",
         "url": "https://github.com/keycloak/keycloak/issues/54504",
         "labels": [
@@ -5143,6 +5127,23 @@
             "status/auto-bump"
         ],
         "created_at": "2026-10-05T19:48:13Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Legacy login theme shows a raw `{0}` in the client delegation consent sentence",
+        "url": "https://github.com/keycloak/keycloak/issues/53516",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "area/login/ui",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "team/core-authn"
+        ],
+        "created_at": "2026-10-05T03:41:39Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8774,18 +8775,6 @@
             "help wanted"
         ],
         "created_at": "2020-06-02T06:04:15Z"
-    },
-    {
-        "repo": "rook/rook",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Report if an OSD ID is detected multiple times",
-        "url": "https://github.com/rook/rook/issues/17239",
-        "labels": [
-            "bug",
-            "good-first-issue"
-        ],
-        "created_at": "2026-03-24T12:19:21Z"
     },
     {
         "repo": "rook/rook",
@@ -13853,20 +13842,6 @@
         "repo": "kubernetes/kubernetes",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "DRA: measure and track performance of \"experimental\" allocator",
-        "url": "https://github.com/kubernetes/kubernetes/issues/135058",
-        "labels": [
-            "kind/feature",
-            "help wanted",
-            "needs-triage",
-            "wg/device-management"
-        ],
-        "created_at": "2025-11-03T13:09:39Z"
-    },
-    {
-        "repo": "kubernetes/kubernetes",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Make sig-node CI test coverage adhere to defined guidance",
         "url": "https://github.com/kubernetes/kubernetes/issues/134862",
         "labels": [
@@ -13997,6 +13972,20 @@
             "triage/accepted"
         ],
         "created_at": "2025-07-30T22:37:50Z"
+    },
+    {
+        "repo": "kubernetes/kubernetes",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Cache NodeInfo for Kubelet admission",
+        "url": "https://github.com/kubernetes/kubernetes/issues/132858",
+        "labels": [
+            "kind/cleanup",
+            "sig/node",
+            "help wanted",
+            "triage/accepted"
+        ],
+        "created_at": "2025-07-10T03:37:55Z"
     },
     {
         "repo": "kubeslice/kubeslice",
@@ -20755,7 +20744,6 @@
             "area:documentation",
             "good first issue",
             "priority:contrib-needed",
-            "stale",
             "domain:docs"
         ],
         "created_at": "2026-05-05T21:18:55Z"
@@ -30542,6 +30530,31 @@
             "help wanted"
         ],
         "created_at": "2024-09-18T19:24:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] agent_login_required: login required detected",
+        "url": "https://github.com/hivecommons/hive/issues/16953",
+        "labels": [
+            "help wanted",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-11-06T18:30:47Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (correctness): Optional early-exit for cosmetic label flips not implemented (per #16942 it is optional)",
+        "url": "https://github.com/hivecommons/hive/issues/16945",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-06T17:04:51Z"
     },
     {
         "repo": "hivecommons/hive",
