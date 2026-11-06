@@ -30548,18 +30548,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b [v6] Workflows blocker card says \"grant the App workflows: write\" when the App has it; never offers the workflows-lane hand-off",
-        "url": "https://github.com/hivecommons/hive/issues/16804",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-05T20:09:19Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] meta: merge-eligible contributor PRs refused every kick by contributor-lane:no-claim (dibs#602/#603, hive#16687/#16691/#16680)",
         "url": "https://github.com/hivecommons/hive/issues/16717",
         "labels": [
