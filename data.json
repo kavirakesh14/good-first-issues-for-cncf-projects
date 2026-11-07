@@ -1773,18 +1773,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[UI] Dashboard edit options are not fully visible on small screens",
-        "url": "https://github.com/meshery/meshery/issues/21726",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-09-01T21:16:42Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "[UI] Fix inconsistent tab heights on small screens",
         "url": "https://github.com/meshery/meshery/issues/21722",
         "labels": [
@@ -2110,6 +2098,22 @@
             "language/go"
         ],
         "created_at": "2025-03-11T09:09:30Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Docs] Include Meshery, Playground, and Extensions in Awesome Lists",
+        "url": "https://github.com/meshery/meshery/issues/13426",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "area/docs",
+            "issue/willfix",
+            "language/markdown",
+            "framework/jekyll"
+        ],
+        "created_at": "2025-01-31T17:39:55Z"
     },
     {
         "repo": "meshery/meshery",
@@ -5787,6 +5791,32 @@
             "hacktoberfest"
         ],
         "created_at": "2021-12-13T09:21:43Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[Feature] Ensure the PSS policy set can generate native VAPs",
+        "url": "https://github.com/kyverno/kyverno/issues/18509",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "triage"
+        ],
+        "created_at": "2026-11-07T20:57:47Z"
+    },
+    {
+        "repo": "kyverno/kyverno",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[Feature] Align validationFailureAction with VPOL actions and default to Warn",
+        "url": "https://github.com/kyverno/kyverno/issues/18508",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "triage"
+        ],
+        "created_at": "2026-11-07T20:54:32Z"
     },
     {
         "repo": "kyverno/kyverno",
@@ -23032,23 +23062,6 @@
         "repo": "kubevela/kubevela",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[LFX Mentorship] Legacy Config backward compatibility and migration to CRD-based Config Management",
-        "url": "https://github.com/kubevela/kubevela/issues/7410",
-        "labels": [
-            "type/feature",
-            "help wanted",
-            "effort/large",
-            "area/cli",
-            "program/lfx",
-            "area/workflow",
-            "area/config"
-        ],
-        "created_at": "2026-09-29T15:51:07Z"
-    },
-    {
-        "repo": "kubevela/kubevela",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "[Enhancement] Move `$( )` property expressions onto a shared CEL engine in kubevela/pkg, so workflow steps can evaluate them at run time",
         "url": "https://github.com/kubevela/kubevela/issues/7409",
         "labels": [
@@ -28275,6 +28288,17 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Return durations from the MCP tools as strings, matching their inputs",
+        "url": "https://github.com/jaegertracing/jaeger/issues/10076",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-11-07T04:13:59Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Send a Content-Security-Policy with base-uri 'self' from the UI static handler",
         "url": "https://github.com/jaegertracing/jaeger/issues/10011",
         "labels": [
@@ -28445,17 +28469,6 @@
             "storage/elasticsearch"
         ],
         "created_at": "2022-02-24T08:35:39Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Storage backends for adaptive sampling",
-        "url": "https://github.com/jaegertracing/jaeger/issues/3305",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2021-10-05T19:12:32Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
@@ -30526,128 +30539,228 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (security): apply_patch with body-only paths still bypasses the guardrail-path check",
-        "url": "https://github.com/hivecommons/hive/issues/16979",
+        "title": "[reviewer] Review backlog (correctness): Review fallback 'waiting for CI' still promises a reviewer when the swarm is off",
+        "url": "https://github.com/hivecommons/hive/issues/17095",
         "labels": [
+            "good first issue",
             "help wanted",
             "agent/reviewer",
             "stage/010-actionable"
         ],
-        "created_at": "2026-11-07T08:10:51Z"
+        "created_at": "2026-11-07T20:12:16Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[sec-check] toolapprove guardrail-path check skipped for write tools outside the IsLocalWrite allowlist (create, apply_patch, str_replace_editor\u2026)",
-        "url": "https://github.com/hivecommons/hive/issues/16976",
+        "title": "[reviewer] Review backlog (correctness): move-hub-registered-cutover.md cites env-vars.md:306-321 for derived keys, but that section is at 464-475",
+        "url": "https://github.com/hivecommons/hive/issues/17038",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "agent/reviewer",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-07T18:28:41Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd Nous \u2192 Spek: feed the winning Nous experiment into spek-new as a source",
+        "url": "https://github.com/hivecommons/hive/issues/17020",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "proposal",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-07T17:16:30Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] PR Type gate rejects the documented \ud83d\udcdd proposal: title prefix; hive normaliser rewrites titles into it",
+        "url": "https://github.com/hivecommons/hive/issues/17105",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-07T20:42:01Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: stage transition suppressed by dampener",
+        "url": "https://github.com/hivecommons/hive/issues/17103",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "hive/claimed-by-scanner",
+            "fleet-report",
+            "hive/selfreport",
+            "trigger:runtime-error",
+            "stage/040-covered-by-pr",
+            "origin/selfreport",
+            "severity:low",
+            "class:unclassified-error-repeated"
+        ],
+        "created_at": "2026-11-07T20:40:10Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[sec-check] crux checkout: repo allowlist is a raw string prefix \u2014 dot segments and mid-segment prefixes clone repos off the allowlist",
+        "url": "https://github.com/hivecommons/hive/issues/17102",
         "labels": [
             "help wanted",
             "agent/sec-check",
             "security",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-07T08:02:29Z"
+        "created_at": "2026-11-07T20:40:07Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Unable to see prompts injected into my agent kicks",
-        "url": "https://github.com/hivecommons/hive/issues/16973",
+        "title": "\ud83d\udcdd RFC: v7 - Hive for teams (shared sessions, org policy, multi-forge, entitlements, audit)",
+        "url": "https://github.com/hivecommons/hive/issues/17091",
         "labels": [
             "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
+            "hold",
+            "kind/design",
+            "proposal"
         ],
-        "created_at": "2026-11-07T06:24:23Z"
+        "created_at": "2026-11-07T19:48:28Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] pr_request_head_unpushed: pr-request watcher: head branch is not on the remote \u2014 the agent's push did n\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/16969",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "needs-triage",
-            "fleet-report",
-            "hive/selfreport",
-            "severity:medium",
-            "trigger:runtime-error",
-            "origin/selfreport",
-            "stage/045-needs-decision",
-            "class:pr-request-head-unpushed"
-        ],
-        "created_at": "2026-11-07T05:11:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] agent_login_required: login required detected",
-        "url": "https://github.com/hivecommons/hive/issues/16953",
-        "labels": [
-            "help wanted",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-11-06T18:30:47Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): Optional early-exit for cosmetic label flips not implemented (per #16942 it is optional)",
-        "url": "https://github.com/hivecommons/hive/issues/16945",
+        "title": "[reviewer] Review backlog (correctness): bobPreflightUnlocked still probes /data/home/.bob writability though bob state now lands in the per-agent ~/.bob",
+        "url": "https://github.com/hivecommons/hive/issues/17062",
         "labels": [
             "help wanted",
             "agent/reviewer",
+            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-06T17:04:51Z"
+        "created_at": "2026-11-07T18:50:00Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] meta: merge-eligible contributor PRs refused every kick by contributor-lane:no-claim (dibs#602/#603, hive#16687/#16691/#16680)",
-        "url": "https://github.com/hivecommons/hive/issues/16717",
+        "title": "[reviewer] Review backlog (security): Shared agent-writable ~/.claude/settings.json remains a cross-agent hook/apiKeyHelper execution channel",
+        "url": "https://github.com/hivecommons/hive/issues/17059",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-07T18:47:35Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \u2728 knowledge: review flow + never-prime for auto-memory drafts, legacy migration, operator docs (phase 3 of #17033)",
+        "url": "https://github.com/hivecommons/hive/issues/17058",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "meta",
-            "stage/040-covered-by-pr"
+            "stage/010-actionable"
         ],
-        "created_at": "2026-11-05T04:16:21Z"
+        "created_at": "2026-11-07T18:46:37Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] human-merge pin-only exception: enforce in merge-request relay",
-        "url": "https://github.com/hivecommons/hive/issues/16265",
+        "title": "[scanner] \u2728 knowledge: Claude Code SessionEnd/PostToolUse auto-memory drain hook (phase 2 of #17033)",
+        "url": "https://github.com/hivecommons/hive/issues/17057",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/040-covered-by-pr",
-            "hive/re-authored"
+            "stage/010-actionable"
         ],
-        "created_at": "2026-11-02T17:26:10Z"
+        "created_at": "2026-11-07T18:45:49Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "feat: bounded trusted pin-only exception to per-repository human-merge paths",
-        "url": "https://github.com/hivecommons/hive/issues/16242",
+        "title": "[scanner] \u2728 knowledge: CLI memory drain library + manager-side drain for Codex/Gemini (phase 1 of #17033)",
+        "url": "https://github.com/hivecommons/hive/issues/17056",
         "labels": [
             "help wanted",
-            "hive/verified-open",
-            "stage/040-covered-by-pr",
-            "hive/partially-addressed"
+            "agent/scanner",
+            "stage/010-actionable"
         ],
-        "created_at": "2026-11-02T15:27:09Z"
+        "created_at": "2026-11-07T18:44:50Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: LLM-ranked knowledge advisor (OMP-style)",
+        "url": "https://github.com/hivecommons/hive/issues/17054",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-07T18:44:04Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: AGENTS.md carries tone only; knowledge becomes scoped skills surfaced on demand",
+        "url": "https://github.com/hivecommons/hive/issues/17043",
+        "labels": [
+            "help wanted",
+            "Epic",
+            "kind/design",
+            "proposal",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-07T18:37:53Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ci: 'verify PR contents' is required on v5 but pr-verifier.yml skips dependabot, so dependabot PRs can never merge",
+        "url": "https://github.com/hivecommons/hive/issues/17036",
+        "labels": [
+            "bug",
+            "help wanted",
+            "ci",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-07T18:21:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: cut over Crux development to hivecommons/crux on 2026-11-16",
+        "url": "https://github.com/hivecommons/hive/issues/17004",
+        "labels": [
+            "help wanted",
+            "kind/design",
+            "proposal",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-07T15:33:26Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30659,8 +30772,9 @@
             "enhancement",
             "help wanted",
             "architecture discussion",
-            "kind/design",
-            "stage/045-needs-decision"
+            "needs-human",
+            "approved-direction",
+            "kind/design"
         ],
         "created_at": "2026-10-29T06:10:21Z"
     },
