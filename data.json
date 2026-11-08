@@ -20858,18 +20858,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-AZUREMSALNODE-21689163]",
-        "url": "https://github.com/backstage/backstage/issues/36444",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-24T12:12:38Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-BODYPARSER-21431495]",
         "url": "https://github.com/backstage/backstage/issues/36424",
         "labels": [
@@ -21141,6 +21129,18 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:23Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635206]",
+        "url": "https://github.com/backstage/backstage/issues/36399",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T16:29:22Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -22431,19 +22431,6 @@
         "repo": "helm/helm",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Getting `panic: failed to create default capabilities` when building with Bazel",
-        "url": "https://github.com/helm/helm/issues/31904",
-        "labels": [
-            "help wanted",
-            "feature",
-            "Stale"
-        ],
-        "created_at": "2026-03-05T15:53:08Z"
-    },
-    {
-        "repo": "helm/helm",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Helm v4 postrenderer wasm plugin does not receive manifests input",
         "url": "https://github.com/helm/helm/issues/31832",
         "labels": [
@@ -22682,6 +22669,19 @@
             "bug"
         ],
         "created_at": "2021-05-14T21:05:08Z"
+    },
+    {
+        "repo": "helm/helm",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Respect helm.sh/resource-policy annotation of remote resource",
+        "url": "https://github.com/helm/helm/issues/8132",
+        "labels": [
+            "help wanted",
+            "feature",
+            "keep open"
+        ],
+        "created_at": "2020-05-15T02:42:48Z"
     },
     {
         "repo": "ko-build/ko",
@@ -30539,92 +30539,202 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): Review fallback 'waiting for CI' still promises a reviewer when the swarm is off",
-        "url": "https://github.com/hivecommons/hive/issues/17095",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-07T20:12:16Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): move-hub-registered-cutover.md cites env-vars.md:306-321 for derived keys, but that section is at 464-475",
-        "url": "https://github.com/hivecommons/hive/issues/17038",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "agent/reviewer",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-07T18:28:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd Nous \u2192 Spek: feed the winning Nous experiment into spek-new as a source",
-        "url": "https://github.com/hivecommons/hive/issues/17020",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "proposal",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-07T17:16:30Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] PR Type gate rejects the documented \ud83d\udcdd proposal: title prefix; hive normaliser rewrites titles into it",
-        "url": "https://github.com/hivecommons/hive/issues/17105",
+        "title": "[shared-ci] mobile-shots failing across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/17186",
         "labels": [
             "help wanted",
-            "kind/bug",
             "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
+            "ci",
+            "stage/010-actionable"
         ],
-        "created_at": "2026-11-07T20:42:01Z"
+        "created_at": "2026-11-08T02:53:16Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: stage transition suppressed by dampener",
-        "url": "https://github.com/hivecommons/hive/issues/17103",
+        "title": "[v6] Hosted hives never get GitHub webhooks (the hub never gives them the webhook secret) \u2014 design decision",
+        "url": "https://github.com/hivecommons/hive/issues/17182",
         "labels": [
             "help wanted",
-            "kind/bug",
-            "hive/claimed-by-scanner",
-            "fleet-report",
-            "hive/selfreport",
-            "trigger:runtime-error",
-            "stage/040-covered-by-pr",
-            "origin/selfreport",
-            "severity:low",
-            "class:unclassified-error-repeated"
+            "hold"
         ],
-        "created_at": "2026-11-07T20:40:10Z"
+        "created_at": "2026-11-08T02:37:11Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[sec-check] crux checkout: repo allowlist is a raw string prefix \u2014 dot segments and mid-segment prefixes clone repos off the allowlist",
-        "url": "https://github.com/hivecommons/hive/issues/17102",
+        "title": "\u2728 dashboard: Activity monitor merged/queue popovers become a modal sheet on phones",
+        "url": "https://github.com/hivecommons/hive/issues/17165",
         "labels": [
+            "enhancement",
             "help wanted",
-            "agent/sec-check",
-            "security",
+            "dashboard",
+            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-07T20:40:07Z"
+        "created_at": "2026-11-08T01:54:37Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 dashboard: Activity monitor 12px text floor on phones",
+        "url": "https://github.com/hivecommons/hive/issues/17164",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "dashboard",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-08T01:54:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 dashboard: Activity monitor puts 'waiting on you' rows first on phones",
+        "url": "https://github.com/hivecommons/hive/issues/17162",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "dashboard",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-08T01:54:25Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 dashboard: card-per-row Activity monitor layout on phones",
+        "url": "https://github.com/hivecommons/hive/issues/17161",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "dashboard",
+            "stage/010-actionable",
+            "hive/partially-addressed",
+            "hive/claimed-by-clubanderson"
+        ],
+        "created_at": "2026-11-08T01:54:23Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 dashboard: Activity monitor usable on a phone",
+        "url": "https://github.com/hivecommons/hive/issues/17158",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "Epic",
+            "approved-direction",
+            "dashboard",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-08T01:51:04Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 sidecar: /v1/knowledge/advise callback so sidecar hives get the mid-task adviser (advisor phase 2, slice 5)",
+        "url": "https://github.com/hivecommons/hive/issues/17157",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/core",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-08T01:48:02Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 retro: record the knowledge-advisor arm per bead for the holdout outcome comparison (advisor phase 2, slice 4)",
+        "url": "https://github.com/hivecommons/hive/issues/17156",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/scheduler",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-08T01:47:46Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 knowledge: LLM ranking decorator over the mid-task adviser \u2014 rank-only, fail-closed, shadow/rank/holdout (advisor phase 2, slice 3)",
+        "url": "https://github.com/hivecommons/hive/issues/17155",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/scheduler",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-08T01:47:25Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 crux: asynchronous KnowledgeAdviser with scope Action and scrubbed PaneTail (advisor phase 2, slice 1)",
+        "url": "https://github.com/hivecommons/hive/issues/17153",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "area/core",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-08T01:47:20Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b stage engine: proposal/kind-design issues read as Actionable after their RFC lands",
+        "url": "https://github.com/hivecommons/hive/issues/17150",
+        "labels": [
+            "bug",
+            "help wanted",
+            "area/scheduler",
+            "dashboard",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-08T01:43:09Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] crux-file-size-ratchet.yml pins a stale crux baseline (1658/1389) looser than crux main (1657/1348)",
+        "url": "https://github.com/hivecommons/hive/issues/17149",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "ci",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-08T01:42:37Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: contributor-lane auto-promotion repo search failed; counting the PR's repositor\u2026",
+        "url": "https://github.com/hivecommons/hive/issues/17148",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-08T01:39:18Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30639,47 +30749,6 @@
             "proposal"
         ],
         "created_at": "2026-11-07T19:48:28Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (correctness): bobPreflightUnlocked still probes /data/home/.bob writability though bob state now lands in the per-agent ~/.bob",
-        "url": "https://github.com/hivecommons/hive/issues/17062",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-07T18:50:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[reviewer] Review backlog (security): Shared agent-writable ~/.claude/settings.json remains a cross-agent hook/apiKeyHelper execution channel",
-        "url": "https://github.com/hivecommons/hive/issues/17059",
-        "labels": [
-            "help wanted",
-            "agent/reviewer",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-07T18:47:35Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 knowledge: review flow + never-prime for auto-memory drafts, legacy migration, operator docs (phase 3 of #17033)",
-        "url": "https://github.com/hivecommons/hive/issues/17058",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-07T18:46:37Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30703,7 +30772,7 @@
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-07T18:44:50Z"
     },
@@ -30715,38 +30784,11 @@
         "url": "https://github.com/hivecommons/hive/issues/17054",
         "labels": [
             "help wanted",
+            "Epic",
+            "approved-direction",
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-07T18:44:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd RFC: AGENTS.md carries tone only; knowledge becomes scoped skills surfaced on demand",
-        "url": "https://github.com/hivecommons/hive/issues/17043",
-        "labels": [
-            "help wanted",
-            "Epic",
-            "kind/design",
-            "proposal",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-07T18:37:53Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "ci: 'verify PR contents' is required on v5 but pr-verifier.yml skips dependabot, so dependabot PRs can never merge",
-        "url": "https://github.com/hivecommons/hive/issues/17036",
-        "labels": [
-            "bug",
-            "help wanted",
-            "ci",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-07T18:21:11Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30877,9 +30919,21 @@
         "title": "Queue-proxy readiness does not reflect agent readiness when agent sidecar is injected",
         "url": "https://github.com/kserve/kserve/issues/5569",
         "labels": [
-            "good first issue"
+            "good first issue",
+            "stale-warning-1"
         ],
         "created_at": "2026-05-22T05:37:27Z"
+    },
+    {
+        "repo": "llm-d/llm-d",
+        "tier": "Sandbox",
+        "lang": "Python",
+        "title": "Consolidate keda-epp-saturation and keda-epp-queue guides into one",
+        "url": "https://github.com/llm-d/llm-d/issues/2565",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-09-23T14:57:57Z"
     },
     {
         "repo": "llm-d/llm-d",
