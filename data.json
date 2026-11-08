@@ -1877,22 +1877,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[Docs] \"primary\" alert color has illegible contrast",
-        "url": "https://github.com/meshery/meshery/issues/19286",
-        "labels": [
-            "help wanted",
-            "good first issue",
-            "area/docs",
-            "first-timers-only",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-05-12T23:30:47Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "[Docs] Hugo build warning",
         "url": "https://github.com/meshery/meshery/issues/19197",
         "labels": [
@@ -2114,6 +2098,22 @@
             "framework/jekyll"
         ],
         "created_at": "2025-01-31T17:39:55Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Template] Create a Brainstorming template",
+        "url": "https://github.com/meshery/meshery/issues/12503",
+        "labels": [
+            "kind/enhancement",
+            "help wanted",
+            "good first issue",
+            "issue/willfix",
+            "component/extensions",
+            "type/visual-design"
+        ],
+        "created_at": "2024-10-28T14:47:23Z"
     },
     {
         "repo": "meshery/meshery",
@@ -8815,6 +8815,7 @@
         "labels": [
             "feature",
             "help wanted",
+            "wontfix",
             "needs-design-document"
         ],
         "created_at": "2026-04-07T04:45:04Z"
@@ -15447,22 +15448,6 @@
         "repo": "etcd-io/etcd",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "Enable `unexported-return` linter rule",
-        "url": "https://github.com/etcd-io/etcd/issues/18370",
-        "labels": [
-            "area/testing",
-            "help wanted",
-            "type/cleanup",
-            "contribfest",
-            "priority/important-longterm",
-            "AI Allowed"
-        ],
-        "created_at": "2024-07-26T18:22:35Z"
-    },
-    {
-        "repo": "etcd-io/etcd",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "panic when two snapshots are received in short period",
         "url": "https://github.com/etcd-io/etcd/issues/18055",
         "labels": [
@@ -20701,7 +20686,6 @@
             "type:suggestion",
             "good first issue",
             "priority:contrib-needed",
-            "stale",
             "area:search"
         ],
         "created_at": "2026-08-27T05:15:50Z"
@@ -20788,6 +20772,66 @@
             "domain:docs"
         ],
         "created_at": "2026-05-05T21:18:55Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-22370261]",
+        "url": "https://github.com/backstage/backstage/issues/36708",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-08T20:10:56Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-22291102]",
+        "url": "https://github.com/backstage/backstage/issues/36707",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-08T16:10:13Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-22290988]",
+        "url": "https://github.com/backstage/backstage/issues/36706",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-08T16:10:12Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-22291127]",
+        "url": "https://github.com/backstage/backstage/issues/36705",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-08T16:10:10Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-22291066]",
+        "url": "https://github.com/backstage/backstage/issues/36704",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-08T16:09:49Z"
     },
     {
         "repo": "backstage/backstage",
@@ -21088,66 +21132,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:25Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-ADMZIP-19846655]",
-        "url": "https://github.com/backstage/backstage/issues/36403",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:24Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181005]",
-        "url": "https://github.com/backstage/backstage/issues/36402",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:24Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635218]",
-        "url": "https://github.com/backstage/backstage/issues/36401",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:23Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635214]",
-        "url": "https://github.com/backstage/backstage/issues/36400",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:23Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635206]",
-        "url": "https://github.com/backstage/backstage/issues/36399",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:22Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -24752,18 +24736,6 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "set-version.js doesn't normalize CHANGELOG.md headers to the pinned release version",
-        "url": "https://github.com/openchoreo/openchoreo/issues/5241",
-        "labels": [
-            "good first issue",
-            "type/release"
-        ],
-        "created_at": "2026-10-29T10:16:08Z"
-    },
-    {
-        "repo": "openchoreo/openchoreo",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Helm: prevent duplicate pod label keys across deployments",
         "url": "https://github.com/openchoreo/openchoreo/issues/5206",
         "labels": [
@@ -26551,19 +26523,6 @@
             "help wanted"
         ],
         "created_at": "2022-04-28T07:55:25Z"
-    },
-    {
-        "repo": "chaos-mesh/chaos-mesh",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[Feature Request] Artifact Hub friendly helm charts",
-        "url": "https://github.com/chaos-mesh/chaos-mesh/issues/3188",
-        "labels": [
-            "type/enhancement",
-            "component/helm",
-            "help wanted"
-        ],
-        "created_at": "2022-04-26T03:09:09Z"
     },
     {
         "repo": "chaos-mesh/chaos-mesh",
@@ -30546,44 +30505,95 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Tests] v5 test failure on 58f593d",
-        "url": "https://github.com/hivecommons/hive/issues/17227",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "ci-failure",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-08T12:36:14Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[shared-ci] github.com release-download 504s (golangci-lint, docker, FOSSA, runtime-tests, typos) failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/17224",
+        "title": "[scanner] Regression test: contributor-claimed, PR-covered issue refuses a second epic-driven implementation",
+        "url": "https://github.com/hivecommons/hive/issues/17302",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "ci",
             "stage/010-actionable"
         ],
-        "created_at": "2026-11-08T12:00:26Z"
+        "created_at": "2026-11-08T21:13:02Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[ci-maintainer] crux-file-size-ratchet.yml pins a stale crux baseline \u2014 hive allowed agent/manager.go to 1658 while crux enforces 1657, breaking crux main for 4h on 11-07",
-        "url": "https://github.com/hivecommons/hive/issues/17221",
+        "title": "[scanner] Overlap check: list every shared path between open PRs, including add/add on new paths",
+        "url": "https://github.com/hivecommons/hive/issues/17301",
         "labels": [
             "help wanted",
-            "agent/ci-maintainer",
-            "ci",
-            "hive/claimed-by-scanner",
-            "stage/020-claimed"
+            "agent/scanner",
+            "stage/010-actionable"
         ],
-        "created_at": "2026-11-08T10:39:36Z"
+        "created_at": "2026-11-08T21:12:20Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Keep the contributor claim when their PR covers the issue instead of releasing it on lease revoke",
+        "url": "https://github.com/hivecommons/hive/issues/17300",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-08T21:12:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Claim a self-filed next-step issue in the same request that files it",
+        "url": "https://github.com/hivecommons/hive/issues/17299",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-08T21:12:02Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Refuse to start or open a PR whose Fixes/Closes target is claimed or covered by another author",
+        "url": "https://github.com/hivecommons/hive/issues/17298",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-08T21:11:52Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: hold guard: keeping held PR mergeable failed",
+        "url": "https://github.com/hivecommons/hive/issues/17294",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-08T20:51:39Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Hive implemented its own help-wanted issue while a contributor held the claim and had a covering PR",
+        "url": "https://github.com/hivecommons/hive/issues/17292",
+        "labels": [
+            "bug",
+            "help wanted",
+            "kind/bug",
+            "stage/010-actionable",
+            "needs-sha"
+        ],
+        "created_at": "2026-11-08T20:48:12Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30596,61 +30606,6 @@
             "hold"
         ],
         "created_at": "2026-11-08T02:37:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 sidecar: /v1/knowledge/advise callback so sidecar hives get the mid-task adviser (advisor phase 2, slice 5)",
-        "url": "https://github.com/hivecommons/hive/issues/17157",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/core",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-08T01:48:02Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b stage engine: proposal/kind-design issues read as Actionable after their RFC lands",
-        "url": "https://github.com/hivecommons/hive/issues/17150",
-        "labels": [
-            "bug",
-            "help wanted",
-            "area/scheduler",
-            "dashboard",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-08T01:43:09Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] crux-file-size-ratchet.yml pins a stale crux baseline (1658/1389) looser than crux main (1657/1348)",
-        "url": "https://github.com/hivecommons/hive/issues/17149",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "ci",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-08T01:42:37Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: contributor-lane auto-promotion repo search failed; counting the PR's repositor\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/17148",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-08T01:39:18Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30677,8 +30632,9 @@
             "Epic",
             "hive/verified-open",
             "approved-direction",
-            "stage/010-actionable",
-            "hive/partially-addressed"
+            "proposal",
+            "hive/partially-addressed",
+            "stage/018-open-for-discussion"
         ],
         "created_at": "2026-11-07T18:44:04Z"
     },
@@ -30692,7 +30648,7 @@
             "help wanted",
             "kind/design",
             "proposal",
-            "stage/010-actionable"
+            "stage/018-open-for-discussion"
         ],
         "created_at": "2026-11-07T15:33:26Z"
     },
