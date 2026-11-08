@@ -2447,20 +2447,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[Docs]Refactor the Meshery REST API documentation to source from the published OpenAPI schemas instead of Golang code comments.",
-        "url": "https://github.com/meshery/meshery/issues/21409",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/jekyll"
-        ],
-        "created_at": "2026-08-14T14:43:32Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "[Relationships] Identify and add all meaningful relationships for Azure Batch",
         "url": "https://github.com/meshery/meshery/issues/21403",
         "labels": [
@@ -2498,6 +2484,17 @@
             "framework/hugo"
         ],
         "created_at": "2026-08-05T04:35:13Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Test Plan] Test #3: Install mesheryctl and select the platform to deploy on prompt",
+        "url": "https://github.com/meshery/meshery/issues/21078",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-08-02T20:33:57Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -11719,6 +11716,18 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "[AWS Neuron] Requests-only whole-device allocations are incorrectly encoded as NeuronCore allocations",
+        "url": "https://github.com/Project-HAMi/HAMi/issues/3394",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-11-08T07:30:26Z"
+    },
+    {
+        "repo": "Project-HAMi/HAMi",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Deprecate the `limit` label of `hami_resource_quota_used`",
         "url": "https://github.com/Project-HAMi/HAMi/issues/3289",
         "labels": [
@@ -17331,6 +17340,17 @@
         "repo": "higress-group/higress",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Higress\u4e0eNacos3\u7248\u672c\u517c\u5bb9\u7684\u95ee\u9898",
+        "url": "https://github.com/higress-group/higress/issues/5217",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T06:14:29Z"
+    },
+    {
+        "repo": "higress-group/higress",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Support OpenAI Responses API affinity across multiple providers/deployments",
         "url": "https://github.com/higress-group/higress/issues/3841",
         "labels": [
@@ -17690,19 +17710,6 @@
             "area/ai"
         ],
         "created_at": "2024-12-26T11:08:25Z"
-    },
-    {
-        "repo": "higress-group/higress",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Implement a mock service for Alibaba Cloud Content Security",
-        "url": "https://github.com/higress-group/higress/issues/1635",
-        "labels": [
-            "help wanted",
-            "area/e2e",
-            "area/ai"
-        ],
-        "created_at": "2024-12-26T11:08:23Z"
     },
     {
         "repo": "kgateway-dev/kgateway",
@@ -30539,15 +30546,44 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[shared-ci] mobile-shots failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/17186",
+        "title": "[Tests] v5 test failure on 58f593d",
+        "url": "https://github.com/hivecommons/hive/issues/17227",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "ci-failure",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-08T12:36:14Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[shared-ci] github.com release-download 504s (golangci-lint, docker, FOSSA, runtime-tests, typos) failing across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/17224",
         "labels": [
             "help wanted",
             "agent/scanner",
             "ci",
             "stage/010-actionable"
         ],
-        "created_at": "2026-11-08T02:53:16Z"
+        "created_at": "2026-11-08T12:00:26Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[ci-maintainer] crux-file-size-ratchet.yml pins a stale crux baseline \u2014 hive allowed agent/manager.go to 1658 while crux enforces 1657, breaking crux main for 4h on 11-07",
+        "url": "https://github.com/hivecommons/hive/issues/17221",
+        "labels": [
+            "help wanted",
+            "agent/ci-maintainer",
+            "ci",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-11-08T10:39:36Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30565,83 +30601,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 dashboard: Activity monitor merged/queue popovers become a modal sheet on phones",
-        "url": "https://github.com/hivecommons/hive/issues/17165",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "dashboard",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-08T01:54:37Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 dashboard: Activity monitor 12px text floor on phones",
-        "url": "https://github.com/hivecommons/hive/issues/17164",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "dashboard",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-08T01:54:34Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 dashboard: Activity monitor puts 'waiting on you' rows first on phones",
-        "url": "https://github.com/hivecommons/hive/issues/17162",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "dashboard",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-08T01:54:25Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 dashboard: card-per-row Activity monitor layout on phones",
-        "url": "https://github.com/hivecommons/hive/issues/17161",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "dashboard",
-            "stage/010-actionable",
-            "hive/partially-addressed",
-            "hive/claimed-by-clubanderson"
-        ],
-        "created_at": "2026-11-08T01:54:23Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 dashboard: Activity monitor usable on a phone",
-        "url": "https://github.com/hivecommons/hive/issues/17158",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "Epic",
-            "approved-direction",
-            "dashboard",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-08T01:51:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\u2728 sidecar: /v1/knowledge/advise callback so sidecar hives get the mid-task adviser (advisor phase 2, slice 5)",
         "url": "https://github.com/hivecommons/hive/issues/17157",
         "labels": [
@@ -30651,49 +30610,6 @@
             "stage/010-actionable"
         ],
         "created_at": "2026-11-08T01:48:02Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 retro: record the knowledge-advisor arm per bead for the holdout outcome comparison (advisor phase 2, slice 4)",
-        "url": "https://github.com/hivecommons/hive/issues/17156",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/scheduler",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-08T01:47:46Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 knowledge: LLM ranking decorator over the mid-task adviser \u2014 rank-only, fail-closed, shadow/rank/holdout (advisor phase 2, slice 3)",
-        "url": "https://github.com/hivecommons/hive/issues/17155",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/scheduler",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-08T01:47:25Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 crux: asynchronous KnowledgeAdviser with scope Action and scrubbed PaneTail (advisor phase 2, slice 1)",
-        "url": "https://github.com/hivecommons/hive/issues/17153",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "area/core",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-08T01:47:20Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30754,39 +30670,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] \u2728 knowledge: Claude Code SessionEnd/PostToolUse auto-memory drain hook (phase 2 of #17033)",
-        "url": "https://github.com/hivecommons/hive/issues/17057",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-07T18:45:49Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 knowledge: CLI memory drain library + manager-side drain for Codex/Gemini (phase 1 of #17033)",
-        "url": "https://github.com/hivecommons/hive/issues/17056",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-07T18:44:50Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83d\udcdd RFC: LLM-ranked knowledge advisor (OMP-style)",
         "url": "https://github.com/hivecommons/hive/issues/17054",
         "labels": [
             "help wanted",
             "Epic",
+            "hive/verified-open",
             "approved-direction",
-            "stage/040-covered-by-pr"
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-11-07T18:44:04Z"
     },
