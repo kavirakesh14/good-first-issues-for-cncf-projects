@@ -11717,18 +11717,6 @@
         "repo": "Project-HAMi/HAMi",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[AWS Neuron] Requests-only whole-device allocations are incorrectly encoded as NeuronCore allocations",
-        "url": "https://github.com/Project-HAMi/HAMi/issues/3394",
-        "labels": [
-            "kind/bug",
-            "good first issue"
-        ],
-        "created_at": "2026-11-08T07:30:26Z"
-    },
-    {
-        "repo": "Project-HAMi/HAMi",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "Deprecate the `limit` label of `hami_resource_quota_used`",
         "url": "https://github.com/Project-HAMi/HAMi/issues/3289",
         "labels": [
@@ -15070,18 +15058,6 @@
             "priority/important-soon"
         ],
         "created_at": "2023-04-01T08:16:52Z"
-    },
-    {
-        "repo": "volcano-sh/volcano",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Upgrade Volcano k8s dependencies to v1.37 for release-1.17",
-        "url": "https://github.com/volcano-sh/volcano/issues/6092",
-        "labels": [
-            "help wanted",
-            "kind/feature"
-        ],
-        "created_at": "2026-10-14T07:11:39Z"
     },
     {
         "repo": "volcano-sh/volcano",
@@ -30505,80 +30481,28 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[scanner] Bump gh-aw compiler pin v1.0.1 \u2192 v1.2.1 and recompile weekly-competitor-report (unblocks the gh-aw-actions/setup bump)",
+        "url": "https://github.com/hivecommons/hive/issues/17344",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "ci",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-09T03:47:24Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[scanner] Regression test: contributor-claimed, PR-covered issue refuses a second epic-driven implementation",
         "url": "https://github.com/hivecommons/hive/issues/17302",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-08T21:13:02Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Overlap check: list every shared path between open PRs, including add/add on new paths",
-        "url": "https://github.com/hivecommons/hive/issues/17301",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-08T21:12:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Keep the contributor claim when their PR covers the issue instead of releasing it on lease revoke",
-        "url": "https://github.com/hivecommons/hive/issues/17300",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-08T21:12:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Claim a self-filed next-step issue in the same request that files it",
-        "url": "https://github.com/hivecommons/hive/issues/17299",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-08T21:12:02Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Refuse to start or open a PR whose Fixes/Closes target is claimed or covered by another author",
-        "url": "https://github.com/hivecommons/hive/issues/17298",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-08T21:11:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: hold guard: keeping held PR mergeable failed",
-        "url": "https://github.com/hivecommons/hive/issues/17294",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-08T20:51:39Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30590,8 +30514,7 @@
             "bug",
             "help wanted",
             "kind/bug",
-            "stage/010-actionable",
-            "needs-sha"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-08T20:48:12Z"
     },
