@@ -1384,20 +1384,6 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Feature request: Ability to format `kpt pkg tree` output as json",
-        "url": "https://github.com/kptdev/kpt/issues/2098",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "area/pkg",
-            "triaged"
-        ],
-        "created_at": "2021-05-25T16:24:09Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "All examples in documentation need to have e2e testing",
         "url": "https://github.com/kptdev/kpt/issues/1655",
         "labels": [
@@ -2224,15 +2210,28 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[Docs] mesheryctl command reference lists flags that don't exist (adapter --tokenpath, system config --token, ...)",
-        "url": "https://github.com/meshery/meshery/issues/23095",
+        "title": "[Docs] `MESHERY_SERVER_CALLBACK_URL` shown as a bare host, causing a login loop",
+        "url": "https://github.com/meshery/meshery/issues/23186",
         "labels": [
             "help wanted",
             "area/docs",
             "language/markdown",
             "framework/hugo"
         ],
-        "created_at": "2026-11-09T17:48:56Z"
+        "created_at": "2026-11-10T19:57:03Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[CI] Docs deploy (hugo.yml) can be rejected by a concurrent PR-preview push to gh-pages",
+        "url": "https://github.com/meshery/meshery/issues/23163",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-11-10T15:04:07Z"
     },
     {
         "repo": "meshery/meshery",
@@ -2589,20 +2588,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-08-07T05:35:27Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Docs: Broken link to \"Contributing to Models Quick Start\" on Academy exam page",
-        "url": "https://github.com/meshery/meshery/issues/21139",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-05T04:35:13Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4884,24 +4869,6 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
-        "title": "Casting UserProvider to the OnUserCache without checking",
-        "url": "https://github.com/keycloak/keycloak/issues/54410",
-        "labels": [
-            "kind/bug",
-            "area/infinispan",
-            "help wanted",
-            "team/core-iam",
-            "team/core-shared",
-            "priority/low",
-            "status/auto-expire",
-            "status/auto-bump"
-        ],
-        "created_at": "2026-10-28T11:06:26Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
         "title": "ContentSecurityPolicyBuilder widens a realm CSP that repeats a directive, and appends sources to 'none'",
         "url": "https://github.com/keycloak/keycloak/issues/54396",
         "labels": [
@@ -5255,6 +5222,23 @@
             "team/core-protocols"
         ],
         "created_at": "2026-10-05T03:40:36Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
+        "title": "Uncaught RuntimeException (HTTP 500) on OIDC authorization endpoint when POST uses multipart/form-data with a file part",
+        "url": "https://github.com/keycloak/keycloak/issues/53460",
+        "labels": [
+            "kind/bug",
+            "area/dist/quarkus",
+            "help wanted",
+            "team/cloud-native",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal"
+        ],
+        "created_at": "2026-10-02T09:57:50Z"
     },
     {
         "repo": "keylime/keylime",
@@ -19901,6 +19885,18 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
+        "title": "Replacing a branch's versions with a duplicated version reports it as already on the branch",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/11049",
+        "labels": [
+            "area/storage",
+            "good first issue"
+        ],
+        "created_at": "2026-11-10T15:10:00Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
         "title": "fix(rest): JSON deserialization errors on ccompat endpoints return v3 ProblemDetails instead of the Confluent error shape",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/10521",
         "labels": [
@@ -30578,44 +30574,43 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[v6] PRs on auto-merge-off repos (and every repo below L6) are never staged: lanes skip the repo before recording stage evidence",
-        "url": "https://github.com/hivecommons/hive/issues/17552",
+        "title": "[selfreport] github_app_not_installed: github app installation id is unset: minting scoped token for quality: github a\u2026",
+        "url": "https://github.com/hivecommons/hive/issues/17600",
         "labels": [
             "help wanted",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-11-10T12:40:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[DCO] post-merge trailer failures on v6",
-        "url": "https://github.com/hivecommons/hive/issues/17501",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "ci-dco",
-            "approved-direction",
+            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-10T02:23:54Z"
+        "created_at": "2026-11-10T22:20:34Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[quality] Gate proposal: Go branches covered but never asserted (advisory mutation testing on changed packages)",
-        "url": "https://github.com/hivecommons/hive/issues/17349",
+        "title": "[scanner] \u2728 [v5] Knowledge: Edit an existing git source (PUT /api/knowledge/git-sources)",
+        "url": "https://github.com/hivecommons/hive/issues/17588",
         "labels": [
+            "enhancement",
             "help wanted",
-            "testing",
-            "agent/quality",
-            "approved-direction",
-            "stage/010-actionable",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-10T20:06:03Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v5] Knowledge: Clone & Index gives no visible error for missing required fields; no way to edit an existing git source",
+        "url": "https://github.com/hivecommons/hive/issues/17583",
+        "labels": [
+            "bug",
+            "help wanted",
+            "stage/040-covered-by-pr",
             "hive/partially-addressed"
         ],
-        "created_at": "2026-11-09T05:36:35Z"
+        "created_at": "2026-11-10T19:45:06Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30839,6 +30834,360 @@
             "help wanted"
         ],
         "created_at": "2026-05-16T15:31:50Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Refactor] Use `RAY_AUTH_TOKEN_SECRET_KEY` instead of hard-coded \"auth_token\"",
+        "url": "https://github.com/kuberay-project/kuberay/issues/5375",
+        "labels": [
+            "good-first-issue",
+            "operator",
+            "cli",
+            "refactor"
+        ],
+        "created_at": "2026-10-04T09:28:00Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[History Server] Set the ray version to 2.58 in history server example yaml",
+        "url": "https://github.com/kuberay-project/kuberay/issues/5356",
+        "labels": [
+            "good-first-issue"
+        ],
+        "created_at": "2026-09-30T09:18:42Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[CI][History Server] Move the remaining historyserver gosec exclusions into the permanent section with a reason",
+        "url": "https://github.com/kuberay-project/kuberay/issues/5279",
+        "labels": [
+            "enhancement",
+            "good-first-issue"
+        ],
+        "created_at": "2026-09-12T10:07:51Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[CI][History Server] Remove the gosec G110 lint exclusion by deleting the unused DecompressStream helper",
+        "url": "https://github.com/kuberay-project/kuberay/issues/5278",
+        "labels": [
+            "enhancement",
+            "good-first-issue"
+        ],
+        "created_at": "2026-09-12T10:07:48Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[CI][History Server] Remove the nilerr lint exclusion by fixing the os.Stat error handling in MoveSessionLogsToPrevLogs",
+        "url": "https://github.com/kuberay-project/kuberay/issues/5277",
+        "labels": [
+            "enhancement",
+            "good-first-issue"
+        ],
+        "created_at": "2026-09-12T10:07:41Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[CI][History Server] Remove the errcheck lint exclusion by handling go-restful response write errors",
+        "url": "https://github.com/kuberay-project/kuberay/issues/5276",
+        "labels": [
+            "enhancement",
+            "good-first-issue"
+        ],
+        "created_at": "2026-09-12T09:52:13Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[CI][History Server] Remove the noctx lint exclusion for historyserver/test by using context-aware HTTP and exec calls",
+        "url": "https://github.com/kuberay-project/kuberay/issues/5275",
+        "labels": [
+            "enhancement",
+            "good-first-issue"
+        ],
+        "created_at": "2026-09-12T09:50:00Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[CI][History Server] Remove the unused lint exclusion for historyserver/test by restoring the /api/cluster_status e2e tests",
+        "url": "https://github.com/kuberay-project/kuberay/issues/5274",
+        "labels": [
+            "enhancement",
+            "good-first-issue"
+        ],
+        "created_at": "2026-09-12T09:49:23Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[CI][History Server] Remove the gosec G114 lint exclusion by giving the event collector timeouts",
+        "url": "https://github.com/kuberay-project/kuberay/issues/5273",
+        "labels": [
+            "enhancement",
+            "good-first-issue"
+        ],
+        "created_at": "2026-09-12T09:48:38Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Umbrella][CI][History Server] Burn down the historyserver golangci-lint exclusion baseline",
+        "url": "https://github.com/kuberay-project/kuberay/issues/5271",
+        "labels": [
+            "enhancement",
+            "good-first-issue"
+        ],
+        "created_at": "2026-09-12T06:25:42Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Doc] Update the history server doc",
+        "url": "https://github.com/kuberay-project/kuberay/issues/5135",
+        "labels": [
+            "docs",
+            "good-first-issue"
+        ],
+        "created_at": "2026-08-12T03:34:24Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[History Server] Replace private getter assertions with BuildSnapshot() in unit tests",
+        "url": "https://github.com/kuberay-project/kuberay/issues/4937",
+        "labels": [
+            "good-first-issue"
+        ],
+        "created_at": "2026-06-23T02:41:29Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Standardize license handling by using only the root LICENSE",
+        "url": "https://github.com/kuberay-project/kuberay/issues/4936",
+        "labels": [
+            "good-first-issue"
+        ],
+        "created_at": "2026-06-23T02:13:31Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[RayCluster][Kueue] Ensure all RayCluster-owned resources are deleted during suspension",
+        "url": "https://github.com/kuberay-project/kuberay/issues/4876",
+        "labels": [
+            "enhancement",
+            "good-first-issue",
+            "P1",
+            "raycluster",
+            "kueue",
+            "1.7.0"
+        ],
+        "created_at": "2026-05-26T20:33:32Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[RayJob][Kueue] Ensure all RayJob-owned resources are deleted during suspension",
+        "url": "https://github.com/kuberay-project/kuberay/issues/4875",
+        "labels": [
+            "enhancement",
+            "good-first-issue",
+            "P1",
+            "rayjob",
+            "kueue",
+            "1.7.0"
+        ],
+        "created_at": "2026-05-26T20:32:16Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Remove legacy DeletionPolicy / OnSuccess / OnFailure fields from RayJob API",
+        "url": "https://github.com/kuberay-project/kuberay/issues/4696",
+        "labels": [
+            "good-first-issue"
+        ],
+        "created_at": "2026-04-11T02:26:26Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Bug] Fix G115 integer overflow and file descriptor leak in log extraction",
+        "url": "https://github.com/kuberay-project/kuberay/issues/4695",
+        "labels": [
+            "bug",
+            "good-first-issue"
+        ],
+        "created_at": "2026-04-10T23:19:41Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Making changes to RayService-rayClusterConfig-workerGroupSpecs-maxReplicas does not reflect in the corresponding RayCluster.",
+        "url": "https://github.com/kuberay-project/kuberay/issues/4568",
+        "labels": [
+            "good-first-issue"
+        ],
+        "created_at": "2026-03-06T00:04:49Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Feature] Deprecate env DELETE_RAYJOB_CR_AFTER_JOB_FINISHES",
+        "url": "https://github.com/kuberay-project/kuberay/issues/4415",
+        "labels": [
+            "enhancement",
+            "good-first-issue"
+        ],
+        "created_at": "2026-01-19T16:26:50Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Refactor] [Test] Extract a shared helper for applying a RayJob and waiting for completion in e2e tests",
+        "url": "https://github.com/kuberay-project/kuberay/issues/4373",
+        "labels": [
+            "good-first-issue"
+        ],
+        "created_at": "2026-01-13T13:43:41Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Feature] Add a util function to update all Pods to Running for env tests",
+        "url": "https://github.com/kuberay-project/kuberay/issues/3549",
+        "labels": [
+            "enhancement",
+            "good-first-issue",
+            "refactor"
+        ],
+        "created_at": "2025-05-05T18:23:06Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Feature] Support all HTTP request in apiserver V2",
+        "url": "https://github.com/kuberay-project/kuberay/issues/3496",
+        "labels": [
+            "enhancement",
+            "good-first-issue",
+            "help-wanted",
+            "apiserver",
+            "P0.5",
+            "1.5.0"
+        ],
+        "created_at": "2025-04-27T10:11:56Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Feature] Add timeout and retry for apiserver",
+        "url": "https://github.com/kuberay-project/kuberay/issues/3344",
+        "labels": [
+            "enhancement",
+            "good-first-issue",
+            "help-wanted",
+            "apiserver"
+        ],
+        "created_at": "2025-04-13T00:25:58Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Feature][RayCluster] Set default ports for users",
+        "url": "https://github.com/kuberay-project/kuberay/issues/3245",
+        "labels": [
+            "enhancement",
+            "good-first-issue",
+            "rayjob",
+            "raycluster"
+        ],
+        "created_at": "2025-03-28T14:28:03Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Feature] Run Ginkgo tests with Ginkgo CLI",
+        "url": "https://github.com/kuberay-project/kuberay/issues/2658",
+        "labels": [
+            "enhancement",
+            "good-first-issue",
+            "ci"
+        ],
+        "created_at": "2024-12-17T01:21:44Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[auth] RBAC to support both Autoscaler and Auth",
+        "url": "https://github.com/kuberay-project/kuberay/issues/2585",
+        "labels": [
+            "enhancement",
+            "good-first-issue",
+            "1.3.0",
+            "auth"
+        ],
+        "created_at": "2024-11-27T19:29:25Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[Feature][GCS FT] Test the behavior of `cleanup_redis_storage`",
+        "url": "https://github.com/kuberay-project/kuberay/issues/1422",
+        "labels": [
+            "enhancement",
+            "good-first-issue",
+            "gcs-ft"
+        ],
+        "created_at": "2023-09-15T01:21:06Z"
+    },
+    {
+        "repo": "ray-project/kuberay",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "How does ray cluster support third-party resources besides GPU and CPU",
+        "url": "https://github.com/kuberay-project/kuberay/issues/1135",
+        "labels": [
+            "docs",
+            "enhancement",
+            "good-first-issue"
+        ],
+        "created_at": "2023-06-02T02:47:02Z"
     },
     {
         "repo": "matrixhub-ai/matrixhub",
