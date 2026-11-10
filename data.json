@@ -672,6 +672,111 @@
         "created_at": "2026-08-20T22:00:18Z"
     },
     {
+        "repo": "caipe-io/ai-platform-engineering",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "feat(webex): support opt-in identity auto-linking for direct messages",
+        "url": "https://github.com/caipe-io/ai-platform-engineering/issues/3140",
+        "labels": [
+            "good first issue",
+            "help wanted",
+            "area/bots-webhooks",
+            "webex-bot"
+        ],
+        "created_at": "2026-10-29T13:35:57Z"
+    },
+    {
+        "repo": "caipe-io/ai-platform-engineering",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "feat(aws): authorize Dynamic Agent writes through AgentGateway and CAS",
+        "url": "https://github.com/caipe-io/ai-platform-engineering/issues/3051",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "security",
+            "gateways",
+            "area/dynamic-agents",
+            "area/rbac-auth"
+        ],
+        "created_at": "2026-10-22T20:32:03Z"
+    },
+    {
+        "repo": "caipe-io/ai-platform-engineering",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Session refresh causes unsaved changes to be lost in editor",
+        "url": "https://github.com/caipe-io/ai-platform-engineering/issues/2163",
+        "labels": [
+            "good first issue",
+            "0.5.x"
+        ],
+        "created_at": "2026-07-09T14:18:50Z"
+    },
+    {
+        "repo": "caipe-io/ai-platform-engineering",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "feat(dynamic-agents): per-agent MCP credentials for autonomous agents",
+        "url": "https://github.com/caipe-io/ai-platform-engineering/issues/1969",
+        "labels": [
+            "good first issue",
+            "P2",
+            "0.5.x"
+        ],
+        "created_at": "2026-06-22T10:38:24Z"
+    },
+    {
+        "repo": "caipe-io/ai-platform-engineering",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "feat: Support pluggable agent runtimes (Claude SDK, Strands, Hermes, and others)",
+        "url": "https://github.com/caipe-io/ai-platform-engineering/issues/1848",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-06-15T15:00:34Z"
+    },
+    {
+        "repo": "caipe-io/ai-platform-engineering",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "feat: Add file upload and edit capabilities for agent workspace (Memory.md and other files)",
+        "url": "https://github.com/caipe-io/ai-platform-engineering/issues/1847",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-06-15T14:59:06Z"
+    },
+    {
+        "repo": "caipe-io/ai-platform-engineering",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "Slack conversation are bleeding into webui",
+        "url": "https://github.com/caipe-io/ai-platform-engineering/issues/1310",
+        "labels": [
+            "good first issue",
+            "0.4.x-hotfix",
+            "area/bots-webhooks"
+        ],
+        "created_at": "2026-04-28T17:56:32Z"
+    },
+    {
+        "repo": "caipe-io/ai-platform-engineering",
+        "tier": "Sandbox",
+        "lang": "TypeScript",
+        "title": "[Bug]: User input agent in task builder not showing prompt correctly",
+        "url": "https://github.com/caipe-io/ai-platform-engineering/issues/1039",
+        "labels": [
+            "bug",
+            "good first issue",
+            "area/dynamic-agents"
+        ],
+        "created_at": "2026-03-25T14:44:14Z"
+    },
+    {
         "repo": "cloud-custodian/cloud-custodian",
         "tier": "Incubating",
         "lang": "Python",
@@ -2119,6 +2224,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "[Docs] mesheryctl command reference lists flags that don't exist (adapter --tokenpath, system config --token, ...)",
+        "url": "https://github.com/meshery/meshery/issues/23095",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-11-09T17:48:56Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "[Docs] Missing anchor and dead link for `#meshsync-deployment-mode` in connection guides",
         "url": "https://github.com/meshery/meshery/issues/22874",
         "labels": [
@@ -2484,17 +2603,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-08-05T04:35:13Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[Test Plan] Test #3: Install mesheryctl and select the platform to deploy on prompt",
-        "url": "https://github.com/meshery/meshery/issues/21078",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2026-08-02T20:33:57Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -3549,7 +3657,7 @@
             "good first issue",
             "kind/feature",
             "priority/backlog",
-            "lifecycle/stale"
+            "lifecycle/rotten"
         ],
         "created_at": "2026-01-23T22:00:39Z"
     },
@@ -4639,6 +4747,23 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Review the payload for linking IdPs to organizations for better `application/json` content type compatibility",
+        "url": "https://github.com/keycloak/keycloak/issues/54674",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "priority/low",
+            "status/auto-expire",
+            "status/auto-bump",
+            "area/organizations"
+        ],
+        "created_at": "2026-11-05T09:01:38Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Token exchange returns HTTP 500 when the subject token payload is the JSON literal `null` and the jwt-claim-enforcer executor is active",
         "url": "https://github.com/keycloak/keycloak/issues/54608",
         "labels": [
@@ -5130,23 +5255,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-10-05T03:40:36Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Uncaught RuntimeException (HTTP 500) on OIDC authorization endpoint when POST uses multipart/form-data with a file part",
-        "url": "https://github.com/keycloak/keycloak/issues/53460",
-        "labels": [
-            "kind/bug",
-            "area/dist/quarkus",
-            "help wanted",
-            "team/cloud-native",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-10-02T09:57:50Z"
     },
     {
         "repo": "keylime/keylime",
@@ -9686,6 +9794,18 @@
         "repo": "lima-vm/lima",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "krunkit: use upstream Homebrew",
+        "url": "https://github.com/lima-vm/lima/issues/5772",
+        "labels": [
+            "good first issue",
+            "component/krunkit"
+        ],
+        "created_at": "2026-11-09T17:55:12Z"
+    },
+    {
+        "repo": "lima-vm/lima",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "change `type Foo = string` to `type Foo string` for strict type checking",
         "url": "https://github.com/lima-vm/lima/issues/5142",
         "labels": [
@@ -12508,7 +12628,7 @@
             "good first issue",
             "theme/k8s-update",
             "theme/workload-apis",
-            "workshop"
+            "dsx-ws-1109"
         ],
         "created_at": "2026-03-25T07:19:11Z"
     },
@@ -21064,30 +21184,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-19635210]",
-        "url": "https://github.com/backstage/backstage/issues/36406",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:26Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181009]",
-        "url": "https://github.com/backstage/backstage/issues/36405",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:25Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-HTTPCACHESEMANTICS-19964064]",
         "url": "https://github.com/backstage/backstage/issues/36404",
         "labels": [
@@ -21095,6 +21191,30 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:25Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181005]",
+        "url": "https://github.com/backstage/backstage/issues/36402",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T16:29:24Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-OCTOKITREQUESTERROR-8730854]",
+        "url": "https://github.com/backstage/backstage/issues/36397",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T16:29:21Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -30444,43 +30564,124 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: self-authored automerge sweep skipped PR",
-        "url": "https://github.com/hivecommons/hive/issues/17400",
+        "title": "[selfreport] unclassified_error_repeated: giving up on token-triggered restart: the agent is still at a login prompt",
+        "url": "https://github.com/hivecommons/hive/issues/17483",
         "labels": [
             "help wanted",
-            "stage/020-claimed",
-            "hive/claimed-by-human"
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-09T14:32:32Z"
+        "created_at": "2026-11-10T00:26:01Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] Gate proposal: Scorecard push trigger must be default-branch-aware (v6 pushes red: 'Only the default branch v5 is supported')",
-        "url": "https://github.com/hivecommons/hive/issues/17392",
+        "title": "[scanner] \ud83d\udc1b dashboard: link Tide's status description so a missing Prow presubmit is distinguishable from a failing check",
+        "url": "https://github.com/hivecommons/hive/issues/17476",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "ci",
-            "stage/045-needs-decision"
+            "stage/040-covered-by-pr",
+            "hive/claimed-by-human"
         ],
-        "created_at": "2026-11-09T13:09:25Z"
+        "created_at": "2026-11-09T23:45:54Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[quality] runtime-tests: 'Install just' curl has no --retry, fails green runs on GitHub release-CDN 504s (3 workflows)",
-        "url": "https://github.com/hivecommons/hive/issues/17357",
+        "title": "[scanner] \ud83d\udc1b dashboard: surface Prow's rejection of relayed /lgtm /approve instead of showing approved",
+        "url": "https://github.com/hivecommons/hive/issues/17475",
         "labels": [
             "help wanted",
-            "testing",
-            "agent/quality",
+            "agent/scanner",
+            "stage/040-covered-by-pr",
+            "has-open-pr"
+        ],
+        "created_at": "2026-11-09T23:45:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] \ud83d\udc1b prow: post /ok-to-test once when the hive opens or pushes to a non-member fork PR",
+        "url": "https://github.com/hivecommons/hive/issues/17474",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
             "stage/040-covered-by-pr",
             "hive/claimed-by-human"
         ],
-        "created_at": "2026-11-09T07:43:05Z"
+        "created_at": "2026-11-09T23:45:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[DCO] post-merge trailer failures on v6",
+        "url": "https://github.com/hivecommons/hive/issues/17470",
+        "labels": [
+            "help wanted",
+            "ci-dco",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-09T23:14:57Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b /etc/hive/hive.yaml is an emptyDir on hosted spokes \u2014 edits don't survive restart",
+        "url": "https://github.com/hivecommons/hive/issues/17468",
+        "labels": [
+            "bug",
+            "help wanted",
+            "area/core",
+            "hive/claimed-by-scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-09T22:59:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[shared-ci] mutation failing across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/17463",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-09T22:36:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83c\udf31 Fork PRs from non-member agents stall: Prow presubmits need /ok-to-test and bot-relayed /lgtm /approve are rejected",
+        "url": "https://github.com/hivecommons/hive/issues/17451",
+        "labels": [
+            "help wanted",
+            "hive/verified-open",
+            "stage/040-covered-by-pr",
+            "hive/partially-addressed"
+        ],
+        "created_at": "2026-11-09T21:40:25Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b stage: workflow-opened PRs on a user PAT are staged as author/human and park at 071 waiting on a push nobody will make",
+        "url": "https://github.com/hivecommons/hive/issues/17450",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr",
+            "hive/claimed-by-human"
+        ],
+        "created_at": "2026-11-09T21:38:12Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30492,7 +30693,9 @@
             "help wanted",
             "testing",
             "agent/quality",
-            "stage/045-needs-decision"
+            "approved-direction",
+            "stage/010-actionable",
+            "hive/partially-addressed"
         ],
         "created_at": "2026-11-09T05:36:35Z"
     },
@@ -30718,5 +30921,117 @@
             "help wanted"
         ],
         "created_at": "2026-05-16T15:31:50Z"
+    },
+    {
+        "repo": "matrixhub-ai/matrixhub",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Remote rule names must be unique",
+        "url": "https://github.com/matrixhub-ai/matrixhub/issues/460",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "ai-factory",
+            "ai-factory-done"
+        ],
+        "created_at": "2026-04-20T02:32:42Z"
+    },
+    {
+        "repo": "matrixhub-ai/matrixhub",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "The warehouse name can be duplicated, but there is no distinction when using it, which makes it impossible to know which warehouse information is being used",
+        "url": "https://github.com/matrixhub-ai/matrixhub/issues/456",
+        "labels": [
+            "kind/bug",
+            "good first issue",
+            "ai-factory",
+            "ai-factory-done"
+        ],
+        "created_at": "2026-04-17T08:38:20Z"
+    },
+    {
+        "repo": "matrixhub-ai/matrixhub",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Warehouse name cannot be entered in two or more Chinese characters at once",
+        "url": "https://github.com/matrixhub-ai/matrixhub/issues/455",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-04-17T08:33:41Z"
+    },
+    {
+        "repo": "matrixhub-ai/matrixhub",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "In English mode, there is a Chinese prompt",
+        "url": "https://github.com/matrixhub-ai/matrixhub/issues/432",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-04-15T09:08:44Z"
+    },
+    {
+        "repo": "matrixhub-ai/matrixhub",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "The copy button for the model repository is not working",
+        "url": "https://github.com/matrixhub-ai/matrixhub/issues/430",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-04-15T08:57:10Z"
+    },
+    {
+        "repo": "matrixhub-ai/matrixhub",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "clicking 'copy' after successfully creating the key does not take effect, and the key information cannot be copied down",
+        "url": "https://github.com/matrixhub-ai/matrixhub/issues/425",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-04-15T02:38:56Z"
+    },
+    {
+        "repo": "matrixhub-ai/matrixhub",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "users created on the platform need to display 'built-in' in the source column of the user management list",
+        "url": "https://github.com/matrixhub-ai/matrixhub/issues/422",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-04-15T02:21:28Z"
+    },
+    {
+        "repo": "matrixhub-ai/matrixhub",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "suggestions for aligning actions in the user management page list",
+        "url": "https://github.com/matrixhub-ai/matrixhub/issues/421",
+        "labels": [
+            "kind/bug",
+            "good first issue"
+        ],
+        "created_at": "2026-04-15T02:19:02Z"
+    },
+    {
+        "repo": "matrixhub-ai/matrixhub",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Revise Quick Start Section in README.md for MatrixHub",
+        "url": "https://github.com/matrixhub-ai/matrixhub/issues/29",
+        "labels": [
+            "kind/documentation",
+            "help wanted"
+        ],
+        "created_at": "2026-01-16T06:34:51Z"
     }
 ]
