@@ -10854,21 +10854,6 @@
         "repo": "cilium/cilium",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "CiliumPodIPPool v2 sets maxItems: 32 on spec.ipv4.cidrs / spec.ipv6.cidrs",
-        "url": "https://github.com/cilium/cilium/issues/49828",
-        "labels": [
-            "kind/bug",
-            "good-first-issue",
-            "kind/community-report",
-            "kind/regression",
-            "area/multipool"
-        ],
-        "created_at": "2026-11-04T02:21:44Z"
-    },
-    {
-        "repo": "cilium/cilium",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Incorrect validation: `reserved:.*` required even with only exclusive label patterns",
         "url": "https://github.com/cilium/cilium/issues/48776",
         "labels": [
@@ -14360,7 +14345,8 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "stage/010-actionable"
+            "stage/010-actionable",
+            "stage/stalled"
         ],
         "created_at": "2026-10-14T18:20:28Z"
     },
@@ -24794,6 +24780,18 @@
         "repo": "openchoreo/openchoreo",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Add log-format for occ logs command",
+        "url": "https://github.com/openchoreo/openchoreo/issues/5375",
+        "labels": [
+            "good first issue",
+            "Type/Task"
+        ],
+        "created_at": "2026-11-10T08:16:51Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "occ login has no refresh tokens without offline_access and Entra ID needs the scope on the code exchange",
         "url": "https://github.com/openchoreo/openchoreo/issues/5321",
         "labels": [
@@ -24934,6 +24932,18 @@
             "Type/Task"
         ],
         "created_at": "2026-07-10T04:17:43Z"
+    },
+    {
+        "repo": "openchoreo/openchoreo",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Filter logs by container name for multi-container components",
+        "url": "https://github.com/openchoreo/openchoreo/issues/4106",
+        "labels": [
+            "good first issue",
+            "Type/Improvement"
+        ],
+        "created_at": "2026-07-08T04:44:37Z"
     },
     {
         "repo": "openchoreo/openchoreo",
@@ -29398,20 +29408,6 @@
         "repo": "prometheus/prometheus",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "TestScrapeReportLimit is flaky",
-        "url": "https://github.com/prometheus/prometheus/issues/16906",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "priority/P2",
-            "component/tests"
-        ],
-        "created_at": "2025-07-22T08:05:30Z"
-    },
-    {
-        "repo": "prometheus/prometheus",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "Prometheus crashes with SIGSEGV when accessing mapped chunk during PromQL query",
         "url": "https://github.com/prometheus/prometheus/issues/16621",
         "labels": [
@@ -29445,18 +29441,6 @@
             "component/scraping"
         ],
         "created_at": "2025-04-28T17:19:59Z"
-    },
-    {
-        "repo": "prometheus/prometheus",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "TestDBReadOnly_Querier_NoAlteration is flaky on Windows",
-        "url": "https://github.com/prometheus/prometheus/issues/16176",
-        "labels": [
-            "help wanted",
-            "component/tests"
-        ],
-        "created_at": "2025-03-06T11:19:06Z"
     },
     {
         "repo": "prometheus/prometheus",
@@ -29526,18 +29510,6 @@
             "kind/feature"
         ],
         "created_at": "2024-12-06T09:31:43Z"
-    },
-    {
-        "repo": "prometheus/prometheus",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Add Feature to Set Retention Time per Metric",
-        "url": "https://github.com/prometheus/prometheus/issues/15350",
-        "labels": [
-            "help wanted",
-            "kind/feature"
-        ],
-        "created_at": "2024-11-06T13:03:12Z"
     },
     {
         "repo": "prometheus/prometheus",
@@ -29633,6 +29605,48 @@
             "component/service discovery/kubernetes"
         ],
         "created_at": "2024-06-28T10:32:45Z"
+    },
+    {
+        "repo": "prometheus/prometheus",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[agent] metrics reported by prometheus in agent mode break meta monitoring",
+        "url": "https://github.com/prometheus/prometheus/issues/14349",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "component/agent"
+        ],
+        "created_at": "2024-06-26T13:09:48Z"
+    },
+    {
+        "repo": "prometheus/prometheus",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "[Remote Write 2.x] Arrow Proto Message Experiment & Benchmark",
+        "url": "https://github.com/prometheus/prometheus/issues/14342",
+        "labels": [
+            "help wanted",
+            "priority/Pmaybe",
+            "component/remote storage",
+            "not-as-easy-as-it-looks",
+            "kind/optimization"
+        ],
+        "created_at": "2024-06-25T07:06:59Z"
+    },
+    {
+        "repo": "prometheus/prometheus",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Add relabeling action that drops sample if any label matches pattern",
+        "url": "https://github.com/prometheus/prometheus/issues/14057",
+        "labels": [
+            "help wanted",
+            "component/config",
+            "priority/P3",
+            "kind/feature"
+        ],
+        "created_at": "2024-05-06T17:46:09Z"
     },
     {
         "repo": "thanos-io/thanos",
@@ -30564,124 +30578,28 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: giving up on token-triggered restart: the agent is still at a login prompt",
-        "url": "https://github.com/hivecommons/hive/issues/17483",
+        "title": "[v6] PRs on auto-merge-off repos (and every repo below L6) are never staged: lanes skip the repo before recording stage evidence",
+        "url": "https://github.com/hivecommons/hive/issues/17552",
         "labels": [
             "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
+            "stage/045-needs-decision"
         ],
-        "created_at": "2026-11-10T00:26:01Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \ud83d\udc1b dashboard: link Tide's status description so a missing Prow presubmit is distinguishable from a failing check",
-        "url": "https://github.com/hivecommons/hive/issues/17476",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-11-09T23:45:54Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \ud83d\udc1b dashboard: surface Prow's rejection of relayed /lgtm /approve instead of showing approved",
-        "url": "https://github.com/hivecommons/hive/issues/17475",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr",
-            "has-open-pr"
-        ],
-        "created_at": "2026-11-09T23:45:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \ud83d\udc1b prow: post /ok-to-test once when the hive opens or pushes to a non-member fork PR",
-        "url": "https://github.com/hivecommons/hive/issues/17474",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-11-09T23:45:34Z"
+        "created_at": "2026-11-10T12:40:42Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
         "title": "[DCO] post-merge trailer failures on v6",
-        "url": "https://github.com/hivecommons/hive/issues/17470",
+        "url": "https://github.com/hivecommons/hive/issues/17501",
         "labels": [
             "help wanted",
+            "triage/accepted",
             "ci-dco",
-            "hive/claimed-by-scanner",
+            "approved-direction",
             "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-09T23:14:57Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b /etc/hive/hive.yaml is an emptyDir on hosted spokes \u2014 edits don't survive restart",
-        "url": "https://github.com/hivecommons/hive/issues/17468",
-        "labels": [
-            "bug",
-            "help wanted",
-            "area/core",
-            "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-09T22:59:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[shared-ci] mutation failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/17463",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-09T22:36:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 Fork PRs from non-member agents stall: Prow presubmits need /ok-to-test and bot-relayed /lgtm /approve are rejected",
-        "url": "https://github.com/hivecommons/hive/issues/17451",
-        "labels": [
-            "help wanted",
-            "hive/verified-open",
-            "stage/040-covered-by-pr",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-11-09T21:40:25Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b stage: workflow-opened PRs on a user PAT are staged as author/human and park at 071 waiting on a push nobody will make",
-        "url": "https://github.com/hivecommons/hive/issues/17450",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-11-09T21:38:12Z"
+        "created_at": "2026-11-10T02:23:54Z"
     },
     {
         "repo": "hivecommons/hive",
