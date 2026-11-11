@@ -2210,20 +2210,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[Docs] `MESHERY_SERVER_CALLBACK_URL` shown as a bare host, causing a login loop",
-        "url": "https://github.com/meshery/meshery/issues/23186",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-11-10T19:57:03Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "[CI] Docs deploy (hugo.yml) can be rejected by a concurrent PR-preview push to gh-pages",
         "url": "https://github.com/meshery/meshery/issues/23163",
         "labels": [
@@ -2588,6 +2574,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-08-07T05:35:27Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "Docs: Broken link to \"Contributing to Models Quick Start\" on Academy exam page",
+        "url": "https://github.com/meshery/meshery/issues/21139",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-08-05T04:35:13Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -4732,6 +4732,20 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "persian language is missing font and styling",
+        "url": "https://github.com/keycloak/keycloak/issues/55023",
+        "labels": [
+            "kind/enhancement",
+            "area/translations",
+            "help wanted",
+            "team/community"
+        ],
+        "created_at": "2026-11-11T05:14:49Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "Review the payload for linking IdPs to organizations for better `application/json` content type compatibility",
         "url": "https://github.com/keycloak/keycloak/issues/54674",
         "labels": [
@@ -5222,23 +5236,6 @@
             "team/core-protocols"
         ],
         "created_at": "2026-10-05T03:40:36Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "Uncaught RuntimeException (HTTP 500) on OIDC authorization endpoint when POST uses multipart/form-data with a file part",
-        "url": "https://github.com/keycloak/keycloak/issues/53460",
-        "labels": [
-            "kind/bug",
-            "area/dist/quarkus",
-            "help wanted",
-            "team/cloud-native",
-            "status/auto-expire",
-            "status/auto-bump",
-            "priority/normal"
-        ],
-        "created_at": "2026-10-02T09:57:50Z"
     },
     {
         "repo": "keylime/keylime",
@@ -8103,6 +8100,162 @@
             "good first issue"
         ],
         "created_at": "2022-06-19T20:46:12Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Add description and repository metadata to workspace crates",
+        "url": "https://github.com/CurvineIO/curvine/issues/2031",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-11-11T04:24:50Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[DOCS] Add supported versions and GitHub private reporting to SECURITY.md",
+        "url": "https://github.com/CurvineIO/curvine/issues/2029",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-11-11T04:24:39Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Pin GitHub Actions to commit SHAs in all workflows",
+        "url": "https://github.com/CurvineIO/curvine/issues/2028",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-11-11T04:24:36Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Add shell completion to the cv CLI",
+        "url": "https://github.com/CurvineIO/curvine/issues/2027",
+        "labels": [
+            "enhancement",
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-11-11T04:24:33Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[BUG]: restart-all.sh kills every process matching \"curvine\"",
+        "url": "https://github.com/CurvineIO/curvine/issues/2025",
+        "labels": [
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2026-11-11T04:24:19Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] fuse: make core FileSystem ops required and document dangerous ENOSYS defaults (by LiAuto)",
+        "url": "https://github.com/CurvineIO/curvine/issues/1101",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-07-14T07:01:49Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Manage bare-metal Curvine processes with systemd instead of nohup [LiAuto]",
+        "url": "https://github.com/CurvineIO/curvine/issues/1035",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-07-09T02:54:38Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Master supports log rotation and allows configuration of rotation policies.",
+        "url": "https://github.com/CurvineIO/curvine/issues/925",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-06-22T11:13:18Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] helm install csi-node , can not set request args while using embedded mode",
+        "url": "https://github.com/CurvineIO/curvine/issues/774",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-04-01T08:22:22Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] spark on yarn with curvine,  set spark.file.transferTo = false to disable this NIO feature",
+        "url": "https://github.com/CurvineIO/curvine/issues/580",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-01-13T10:18:19Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[BUG]: Encountered a port conflict error when deploying Curvine using Helm.",
+        "url": "https://github.com/CurvineIO/curvine/issues/520",
+        "labels": [
+            "bug",
+            "good first issue"
+        ],
+        "created_at": "2025-12-24T02:47:46Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "Are there any benchmarks for object storage read/write performance",
+        "url": "https://github.com/CurvineIO/curvine/issues/466",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2025-12-08T12:02:49Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Add a separate configuration file to mount external data sources, such as OSS, S3, and UFS.",
+        "url": "https://github.com/CurvineIO/curvine/issues/546",
+        "labels": [
+            "enhancement",
+            "help wanted"
+        ],
+        "created_at": "2025-12-29T11:20:14Z"
     },
     {
         "repo": "kanisterio/kanister",
@@ -11185,6 +11338,19 @@
         "repo": "agones-dev/agones",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Upgrade golangci-lint to v2.15.0",
+        "url": "https://github.com/agones-dev/agones/issues/4839",
+        "labels": [
+            "help wanted",
+            "good first issue",
+            "kind/cleanup"
+        ],
+        "created_at": "2026-11-11T09:27:42Z"
+    },
+    {
+        "repo": "agones-dev/agones",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "Is there any sample code for a C# server?",
         "url": "https://github.com/agones-dev/agones/issues/2404",
         "labels": [
@@ -11955,6 +12121,7 @@
         "url": "https://github.com/kcp-dev/kcp/issues/3942",
         "labels": [
             "good first issue",
+            "lifecycle/stale",
             "cli",
             "area/cli"
         ],
@@ -20843,6 +21010,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-22409044]",
+        "url": "https://github.com/backstage/backstage/issues/36756",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-11T12:12:21Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-UNDICI-22392401]",
         "url": "https://github.com/backstage/backstage/issues/36749",
         "labels": [
@@ -21186,18 +21365,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:25Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181005]",
-        "url": "https://github.com/backstage/backstage/issues/36402",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:24Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -30575,14 +30742,43 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] github_app_not_installed: github app installation id is unset: minting scoped token for scanner: github a\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/17627",
+        "title": "\u2728 OpenShell runtime: prototype latency and image-size measurement on an LKE spoke",
+        "url": "https://github.com/hivecommons/hive/issues/17643",
         "labels": [
             "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/020-claimed"
+            "needs-human",
+            "stage/045-needs-decision"
         ],
-        "created_at": "2026-11-11T03:10:34Z"
+        "created_at": "2026-11-11T04:34:16Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 OpenShell sandbox runtime (ADR-0026 phase 1)",
+        "url": "https://github.com/hivecommons/hive/issues/17642",
+        "labels": [
+            "help wanted",
+            "needs-human",
+            "hive/verified-open",
+            "hive/partially-addressed",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-11-11T04:33:52Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[sec-check] Gate proposal: pull_request workflows persist a write-scoped GITHUB_TOKEN in .git/config while running PR-tree code (5 sites + changelog-fragment-guard)",
+        "url": "https://github.com/hivecommons/hive/issues/17636",
+        "labels": [
+            "help wanted",
+            "agent/sec-check",
+            "security",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-11-11T04:10:42Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30598,34 +30794,6 @@
             "proposal"
         ],
         "created_at": "2026-11-11T01:37:04Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 [v5] Knowledge: Edit an existing git source (PUT /api/knowledge/git-sources)",
-        "url": "https://github.com/hivecommons/hive/issues/17588",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-10T20:06:03Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b [v5] Knowledge: Clone & Index gives no visible error for missing required fields; no way to edit an existing git source",
-        "url": "https://github.com/hivecommons/hive/issues/17583",
-        "labels": [
-            "bug",
-            "help wanted",
-            "stage/040-covered-by-pr",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-11-10T19:45:06Z"
     },
     {
         "repo": "hivecommons/hive",
