@@ -11632,7 +11632,8 @@
             "help wanted",
             "good first issue",
             "test",
-            "composition"
+            "composition",
+            "stale"
         ],
         "created_at": "2025-09-08T21:21:15Z"
     },
@@ -20842,6 +20843,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-22392401]",
+        "url": "https://github.com/backstage/backstage/issues/36749",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-11T00:13:16Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-UNDICI-22370261]",
         "url": "https://github.com/backstage/backstage/issues/36708",
         "labels": [
@@ -21185,18 +21198,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:24Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-OCTOKITREQUESTERROR-8730854]",
-        "url": "https://github.com/backstage/backstage/issues/36397",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:21Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -30574,14 +30575,29 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] github_app_not_installed: github app installation id is unset: minting scoped token for quality: github a\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/17600",
+        "title": "[selfreport] github_app_not_installed: github app installation id is unset: minting scoped token for scanner: github a\u2026",
+        "url": "https://github.com/hivecommons/hive/issues/17627",
         "labels": [
             "help wanted",
             "hive/claimed-by-scanner",
-            "stage/040-covered-by-pr"
+            "stage/020-claimed"
         ],
-        "created_at": "2026-11-10T22:20:34Z"
+        "created_at": "2026-11-11T03:10:34Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: Workflow models \u2014 ingest, store, edit and select a repository's workflow without changing the built-in one",
+        "url": "https://github.com/hivecommons/hive/issues/17620",
+        "labels": [
+            "help wanted",
+            "area/core",
+            "hold",
+            "kind/design",
+            "proposal"
+        ],
+        "created_at": "2026-11-11T01:37:04Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30593,7 +30609,6 @@
             "enhancement",
             "help wanted",
             "agent/scanner",
-            "hive/claimed-by-scanner",
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-10T20:06:03Z"
