@@ -1338,21 +1338,6 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "kpt fn source should accept multiple directories",
-        "url": "https://github.com/kptdev/kpt/issues/2595",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue",
-            "area/hydrate",
-            "p1"
-        ],
-        "created_at": "2021-11-20T03:41:48Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "EPIC: Improve imperative user experience for setters",
         "url": "https://github.com/kptdev/kpt/issues/2485",
         "labels": [
@@ -2210,6 +2195,32 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "[CI] Fix failure email content in go-mod-sync workflow",
+        "url": "https://github.com/meshery/meshery/issues/23224",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-11-11T15:22:57Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[CI] docs.meshery.io has not updated since Nov 6: GitHub Pages deploy fails because the site exceeds the 1 GB artifact limit",
+        "url": "https://github.com/meshery/meshery/issues/23221",
+        "labels": [
+            "help wanted",
+            "area/ci",
+            "area/devops"
+        ],
+        "created_at": "2026-11-11T15:08:34Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "[CI] Docs deploy (hugo.yml) can be rejected by a concurrent PR-preview push to gh-pages",
         "url": "https://github.com/meshery/meshery/issues/23163",
         "labels": [
@@ -2399,20 +2410,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[Docs/API] Duplicate response schema entries in Registry Connection API",
-        "url": "https://github.com/meshery/meshery/issues/21931",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-09-11T13:38:51Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "[Docs] Remove outdated Jekyll reference from automated release notes documentation",
         "url": "https://github.com/meshery/meshery/issues/21907",
         "labels": [
@@ -2476,20 +2473,6 @@
             "kind/chore"
         ],
         "created_at": "2026-09-01T15:03:14Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "[Docs]: Fix grammar, spelling, and formatting errors in mesheryctl E2E testing guide",
-        "url": "https://github.com/meshery/meshery/issues/21708",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-09-01T09:04:58Z"
     },
     {
         "repo": "meshery/meshery",
@@ -4154,18 +4137,6 @@
             "priority/P2"
         ],
         "created_at": "2016-02-17T18:25:38Z"
-    },
-    {
-        "repo": "external-secrets/external-secrets",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Feature parity/expectations mismatch: Apply template.metadata.finalizers to non-Secret manifest targets",
-        "url": "https://github.com/external-secrets/external-secrets/issues/7246",
-        "labels": [
-            "good first issue",
-            "kind/bug"
-        ],
-        "created_at": "2026-11-05T13:55:41Z"
     },
     {
         "repo": "external-secrets/external-secrets",
@@ -6745,6 +6716,35 @@
             "Stale"
         ],
         "created_at": "2023-11-08T17:13:45Z"
+    },
+    {
+        "repo": "NVIDIA/OpenShell",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "bug: managed-workspace E2E tests intermittently fail with SQLite lock contention",
+        "url": "https://github.com/NVIDIA/OpenShell/issues/3679",
+        "labels": [
+            "help wanted",
+            "area:build",
+            "topic:testing"
+        ],
+        "created_at": "2026-09-24T22:39:51Z"
+    },
+    {
+        "repo": "NVIDIA/OpenShell",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "feat(driver-mxc): default MXC admission settings to what the driver can enforce",
+        "url": "https://github.com/NVIDIA/OpenShell/issues/3560",
+        "labels": [
+            "help wanted",
+            "os:windows",
+            "roadmap",
+            "state:stale",
+            "area:compute",
+            "state:accepted"
+        ],
+        "created_at": "2026-09-22T17:49:12Z"
     },
     {
         "repo": "oscal-compass/compliance-trestle",
@@ -11134,17 +11134,6 @@
         "created_at": "2025-08-15T05:46:58Z"
     },
     {
-        "repo": "kube-vip/kube-vip",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Binary deployment kube-vip",
-        "url": "https://github.com/kube-vip/kube-vip/issues/706",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2024-01-03T03:31:28Z"
-    },
-    {
         "repo": "networkservicemesh/api",
         "tier": "Sandbox",
         "lang": "Go",
@@ -14497,8 +14486,7 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "stage/010-actionable",
-            "stage/stalled"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-14T18:20:28Z"
     },
@@ -15062,35 +15050,6 @@
             "priority/high"
         ],
         "created_at": "2022-03-29T05:29:27Z"
-    },
-    {
-        "repo": "NVIDIA/OpenShell",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "bug: managed-workspace E2E tests intermittently fail with SQLite lock contention",
-        "url": "https://github.com/NVIDIA/OpenShell/issues/3679",
-        "labels": [
-            "help wanted",
-            "area:build",
-            "topic:testing"
-        ],
-        "created_at": "2026-09-24T22:39:51Z"
-    },
-    {
-        "repo": "NVIDIA/OpenShell",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "feat(driver-mxc): default MXC admission settings to what the driver can enforce",
-        "url": "https://github.com/NVIDIA/OpenShell/issues/3560",
-        "labels": [
-            "help wanted",
-            "os:windows",
-            "roadmap",
-            "state:stale",
-            "area:compute",
-            "state:accepted"
-        ],
-        "created_at": "2026-09-22T17:49:12Z"
     },
     {
         "repo": "volcano-sh/volcano",
@@ -20977,20 +20936,6 @@
             "area:auth"
         ],
         "created_at": "2026-07-28T07:11:07Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Support internationalization for title param on plugins and PageBlueprints",
-        "url": "https://github.com/backstage/backstage/issues/34139",
-        "labels": [
-            "type:suggestion",
-            "good first issue",
-            "area:core",
-            "priority:contrib-welcome"
-        ],
-        "created_at": "2026-05-06T09:53:17Z"
     },
     {
         "repo": "backstage/backstage",
@@ -30742,43 +30687,276 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 OpenShell runtime: prototype latency and image-size measurement on an LKE spoke",
-        "url": "https://github.com/hivecommons/hive/issues/17643",
+        "title": "[scanner] [v6] claude auth: document the operator setup-token flow (env-vars, agent-configuration, backend auth recovery runbook)",
+        "url": "https://github.com/hivecommons/hive/issues/17761",
         "labels": [
+            "good first issue",
             "help wanted",
-            "needs-human",
-            "stage/045-needs-decision"
+            "agent/scanner",
+            "stage/010-actionable"
         ],
-        "created_at": "2026-11-11T04:34:16Z"
+        "created_at": "2026-11-11T20:52:10Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\u2728 OpenShell sandbox runtime (ADR-0026 phase 1)",
-        "url": "https://github.com/hivecommons/hive/issues/17642",
+        "title": "[scanner] [v6] claude auth: skip the credential re-bridge and durable-credential watchdog while HIVE_CLAUDE_OAUTH_TOKEN is set",
+        "url": "https://github.com/hivecommons/hive/issues/17760",
         "labels": [
+            "good first issue",
             "help wanted",
-            "needs-human",
-            "hive/verified-open",
-            "hive/partially-addressed",
-            "stage/045-needs-decision"
+            "agent/scanner",
+            "stage/010-actionable"
         ],
-        "created_at": "2026-11-11T04:33:52Z"
+        "created_at": "2026-11-11T20:51:44Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[sec-check] Gate proposal: pull_request workflows persist a write-scoped GITHUB_TOKEN in .git/config while running PR-tree code (5 sites + changelog-fragment-guard)",
-        "url": "https://github.com/hivecommons/hive/issues/17636",
+        "title": "[sec-check] Marketplace: spoke-triggered refresh accepts any ?repo=, making the hub ingest and publish arbitrary repositories its GitHub identity can read",
+        "url": "https://github.com/hivecommons/hive/issues/17799",
         "labels": [
             "help wanted",
             "agent/sec-check",
             "security",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-11T23:39:19Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: hub heartbeat collect budget exceeded \u2014 slowest collectors (in-flight = still\u2026",
+        "url": "https://github.com/hivecommons/hive/issues/17797",
+        "labels": [
+            "help wanted",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-11-11T23:36:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b dashboard: 'Needs human \u00b7 decision' + 'waiting on hive reviewer \u00b7 re-review' on a hive-rebased human PR stalled by a false hive-signoff-attribution (#17780)",
+        "url": "https://github.com/hivecommons/hive/issues/17789",
+        "labels": [
+            "bug",
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-11T23:03:00Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Agent card: render Substrate preflight warnings like the OpenShell ones",
+        "url": "https://github.com/hivecommons/hive/issues/17779",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-11T22:30:26Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] Dashboard terminal pane: show substrate kicks (actor, state, SPIFFE id, suspend/resume) and stream bridge /run output",
+        "url": "https://github.com/hivecommons/hive/issues/17777",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "agent/scanner",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-11-11T22:29:08Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[dedupe] triage: duplicate and overlapping open issues/PRs to consolidate",
+        "url": "https://github.com/hivecommons/hive/issues/17774",
+        "labels": [
+            "help wanted",
+            "agent/dedupe",
             "stage/045-needs-decision"
         ],
-        "created_at": "2026-11-11T04:10:42Z"
+        "created_at": "2026-11-11T22:22:23Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] substrate snapshot_on_idle leaks a suspended actor + snapshot per kick; nothing ever resumes them",
+        "url": "https://github.com/hivecommons/hive/issues/17770",
+        "labels": [
+            "bug",
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-11T21:59:33Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] substratebridge.Unpack follows tar symlinks: actor can write arbitrary host files on workspace Pull",
+        "url": "https://github.com/hivecommons/hive/issues/17769",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "security",
+            "stage/010-actionable",
+            "has-open-pr"
+        ],
+        "created_at": "2026-11-11T21:59:23Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[shared-ci] native-queue-policy failing across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/17768",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "ci",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-11T21:55:37Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] [v6] claude auth: report long-lived-token vs dashboard-sign-in mode on the auth status (dashboard + MCP) and surface 401 as token rejected",
+        "url": "https://github.com/hivecommons/hive/issues/17759",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-11T20:51:25Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] [v6] claude auth: accept HIVE_CLAUDE_OAUTH_TOKEN and inject it as CLAUDE_CODE_OAUTH_TOKEN for every claude agent",
+        "url": "https://github.com/hivecommons/hive/issues/17758",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/010-actionable",
+            "has-open-pr"
+        ],
+        "created_at": "2026-11-11T20:50:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [v6] claude auth: run Claude agents on an operator-supplied long-lived token (claude setup-token) so nothing refreshes",
+        "url": "https://github.com/hivecommons/hive/issues/17753",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-11T20:23:52Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: failed to persist reach state",
+        "url": "https://github.com/hivecommons/hive/issues/17728",
+        "labels": [
+            "help wanted",
+            "hive/selfreport",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-11T19:12:05Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: failed to persist state",
+        "url": "https://github.com/hivecommons/hive/issues/17726",
+        "labels": [
+            "help wanted",
+            "hive/selfreport",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-11T19:00:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: review swarm kick not delivered; re-planned next cycle",
+        "url": "https://github.com/hivecommons/hive/issues/17724",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "fleet-report",
+            "hive/selfreport",
+            "trigger:runtime-error",
+            "stage/040-covered-by-pr",
+            "origin/selfreport",
+            "severity:low",
+            "class:unclassified-error-repeated"
+        ],
+        "created_at": "2026-11-11T18:33:13Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Dashboard: Substrate sandbox settings and terminal pane",
+        "url": "https://github.com/hivecommons/hive/issues/17699",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-11T16:29:44Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b connect-repo succeeds for private org repo without App installation; scans then fail silently",
+        "url": "https://github.com/hivecommons/hive/issues/17696",
+        "labels": [
+            "bug",
+            "help wanted",
+            "stage/040-covered-by-pr",
+            "hive/claimed-by-human"
+        ],
+        "created_at": "2026-11-11T16:29:31Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Substrate sandbox runtime (ADR-0026 phase 2)",
+        "url": "https://github.com/hivecommons/hive/issues/17695",
+        "labels": [
+            "help wanted",
+            "stage/045-needs-decision"
+        ],
+        "created_at": "2026-11-11T16:28:54Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30920,21 +31098,6 @@
             "approved-direction"
         ],
         "created_at": "2026-09-30T04:24:45Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd v6 epic + readiness bar: dashboard-optional operation \u2014 meet humans where they are",
-        "url": "https://github.com/hivecommons/hive/issues/7563",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "hold",
-            "roadmap",
-            "meta-tracker"
-        ],
-        "created_at": "2026-09-18T05:32:44Z"
     },
     {
         "repo": "kaito-project/kaito",
