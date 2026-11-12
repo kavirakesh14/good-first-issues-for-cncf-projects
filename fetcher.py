@@ -265,7 +265,8 @@ def enrich_existing_issues(repos, output_path="data.json"):
     if not isinstance(issues, list):
         raise ValueError("data.json must contain a JSON list of issue records.")
 
-    classified_repos = set()
+    matched_repos = set()
+    matched_issues = 0
     for issue in issues:
         repo = str(issue.get("repo", "")).strip().lower()
         meta = repos.get(repo)
@@ -274,24 +275,37 @@ def enrich_existing_issues(repos, output_path="data.json"):
             issue.setdefault("ai_related", False)
             continue
 
+        matched_repos.add(repo)
+        matched_issues += 1
         issue["category"] = meta.get("category", "")
         issue["subcategory"] = meta.get("subcategory", "")
         issue["description"] = meta.get("description", "")
         issue["ai_related"] = bool(meta.get("ai_related", False))
-        if issue["ai_related"]:
-            classified_repos.add(repo)
 
-    with open(output_path, "w", encoding="utf-8") as data_file:
-        json.dump(issues, data_file, indent=2, ensure_ascii=False)
+    if not matched_repos:
+        raise ValueError(
+            "No existing issue repositories matched CNCF landscape metadata; "
+            "data.json was not changed."
+        )
 
+    # Write to a temporary file and replace atomically to avoid truncating
+    # the dashboard data if the process is interrupted during serialization.
+    temp_path = f"{output_path}.tmp"
+    try:
+        with open(temp_path, "w", encoding="utf-8") as data_file:
+            json.dump(issues, data_file, indent=2, ensure_ascii=False)
+            data_file.write("\\n")
+        os.replace(temp_path, output_path)
+    finally:
+        if os.path.exists(temp_path):
+            os.remove(temp_path)
+
+    ai_issue_count = sum(issue.get("ai_related") is True for issue in issues)
     print(
-        f"Enriched {len(issues)} existing issues; "
-        f"{len(classified_repos)} AI Native repositories matched."
+        f"Preserved {len(issues)} existing issues; enriched {matched_issues} "
+        f"issues across {len(matched_repos)} matched repositories."
     )
-    print(
-        f"AI Native issues in existing dashboard data: "
-        f"{sum(issue.get('ai_related') is True for issue in issues)}"
-    )
+    print(f"AI Native issues in existing dashboard data: {ai_issue_count}")
     return issues
 
 
