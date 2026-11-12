@@ -8130,19 +8130,6 @@
         "repo": "CurvineIO/curvine",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "[FEATURE] Pin GitHub Actions to commit SHAs in all workflows",
-        "url": "https://github.com/CurvineIO/curvine/issues/2028",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "help wanted"
-        ],
-        "created_at": "2026-11-11T04:24:36Z"
-    },
-    {
-        "repo": "CurvineIO/curvine",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "[FEATURE] Add shell completion to the cv CLI",
         "url": "https://github.com/CurvineIO/curvine/issues/2027",
         "labels": [
@@ -30693,7 +30680,8 @@
             "good first issue",
             "help wanted",
             "agent/scanner",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr",
+            "hive/claimed-by-human"
         ],
         "created_at": "2026-11-11T20:52:10Z"
     },
@@ -30701,140 +30689,15 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] [v6] claude auth: skip the credential re-bridge and durable-credential watchdog while HIVE_CLAUDE_OAUTH_TOKEN is set",
-        "url": "https://github.com/hivecommons/hive/issues/17760",
-        "labels": [
-            "good first issue",
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-11T20:51:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[sec-check] Marketplace: spoke-triggered refresh accepts any ?repo=, making the hub ingest and publish arbitrary repositories its GitHub identity can read",
-        "url": "https://github.com/hivecommons/hive/issues/17799",
-        "labels": [
-            "help wanted",
-            "agent/sec-check",
-            "security",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-11T23:39:19Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: hub heartbeat collect budget exceeded \u2014 slowest collectors (in-flight = still\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/17797",
-        "labels": [
-            "help wanted",
-            "hive/claimed-by-scanner",
-            "stage/020-claimed"
-        ],
-        "created_at": "2026-11-11T23:36:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b dashboard: 'Needs human \u00b7 decision' + 'waiting on hive reviewer \u00b7 re-review' on a hive-rebased human PR stalled by a false hive-signoff-attribution (#17780)",
-        "url": "https://github.com/hivecommons/hive/issues/17789",
-        "labels": [
-            "bug",
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-11T23:03:00Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Agent card: render Substrate preflight warnings like the OpenShell ones",
-        "url": "https://github.com/hivecommons/hive/issues/17779",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-11T22:30:26Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] Dashboard terminal pane: show substrate kicks (actor, state, SPIFFE id, suspend/resume) and stream bridge /run output",
-        "url": "https://github.com/hivecommons/hive/issues/17777",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "agent/scanner",
-            "hive/claimed-by-scanner",
-            "stage/020-claimed"
-        ],
-        "created_at": "2026-11-11T22:29:08Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[dedupe] triage: duplicate and overlapping open issues/PRs to consolidate",
-        "url": "https://github.com/hivecommons/hive/issues/17774",
-        "labels": [
-            "help wanted",
-            "agent/dedupe",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-11-11T22:22:23Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] substrate snapshot_on_idle leaks a suspended actor + snapshot per kick; nothing ever resumes them",
-        "url": "https://github.com/hivecommons/hive/issues/17770",
-        "labels": [
-            "bug",
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-11T21:59:33Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] substratebridge.Unpack follows tar symlinks: actor can write arbitrary host files on workspace Pull",
-        "url": "https://github.com/hivecommons/hive/issues/17769",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "security",
-            "stage/010-actionable",
-            "has-open-pr"
-        ],
-        "created_at": "2026-11-11T21:59:23Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[shared-ci] native-queue-policy failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/17768",
+        "title": "[scanner] hive-baseline-check.sh is blocked by the gh wrapper (gh pr list enumeration_disabled) so the mandatory baseline triage always exits 2",
+        "url": "https://github.com/hivecommons/hive/issues/17835",
         "labels": [
             "help wanted",
             "agent/scanner",
             "ci",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr"
         ],
-        "created_at": "2026-11-11T21:55:37Z"
+        "created_at": "2026-11-12T02:50:42Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30858,7 +30721,7 @@
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/010-actionable",
+            "stage/040-covered-by-pr",
             "has-open-pr"
         ],
         "created_at": "2026-11-11T20:50:44Z"
@@ -30874,63 +30737,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-11T20:23:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: failed to persist reach state",
-        "url": "https://github.com/hivecommons/hive/issues/17728",
-        "labels": [
-            "help wanted",
-            "hive/selfreport",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-11T19:12:05Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: failed to persist state",
-        "url": "https://github.com/hivecommons/hive/issues/17726",
-        "labels": [
-            "help wanted",
-            "hive/selfreport",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-11T19:00:56Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: review swarm kick not delivered; re-planned next cycle",
-        "url": "https://github.com/hivecommons/hive/issues/17724",
-        "labels": [
-            "help wanted",
-            "kind/bug",
-            "fleet-report",
-            "hive/selfreport",
-            "trigger:runtime-error",
-            "stage/040-covered-by-pr",
-            "origin/selfreport",
-            "severity:low",
-            "class:unclassified-error-repeated"
-        ],
-        "created_at": "2026-11-11T18:33:13Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 Dashboard: Substrate sandbox settings and terminal pane",
-        "url": "https://github.com/hivecommons/hive/issues/17699",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-11T16:29:44Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31098,6 +30904,21 @@
             "approved-direction"
         ],
         "created_at": "2026-09-30T04:24:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd v6 epic + readiness bar: dashboard-optional operation \u2014 meet humans where they are",
+        "url": "https://github.com/hivecommons/hive/issues/7563",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "hold",
+            "roadmap",
+            "meta-tracker"
+        ],
+        "created_at": "2026-09-18T05:32:44Z"
     },
     {
         "repo": "kaito-project/kaito",
