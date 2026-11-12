@@ -13,6 +13,11 @@ on:
 permissions:
   contents: write
 
+# Serialize all dashboard sync runs so they cannot race while updating data.json.
+concurrency:
+  group: cncf-dashboard-data-sync
+  cancel-in-progress: false
+
 jobs:
   sync-ecosystem:
     runs-on: ubuntu-latest
@@ -21,6 +26,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}
+          fetch-depth: 0
 
       - name: Initialize Python Environment
         uses: actions/setup-python@v5
@@ -68,7 +74,22 @@ jobs:
           git add data.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: enrich dashboard data with AI Native classification [skip ci]"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
+
+            # Rebase onto the newest remote tip before pushing. If the branch
+            # advances between fetch and push, fetch/rebase and retry safely.
+            branch="${GITHUB_REF_NAME}"
+            for attempt in 1 2 3; do
+              git fetch origin "${branch}"
+              git rebase "origin/${branch}"
+              if git push origin "HEAD:refs/heads/${branch}"; then
+                echo "Dashboard data pushed successfully."
+                exit 0
+              fi
+              echo "Push attempt ${attempt} failed; refreshing the remote branch before retrying."
+            done
+
+            echo "Unable to push after 3 safe retries; no force-push was attempted."
+            exit 1
           else
             echo "Dashboard data is already up to date."
           fi
