@@ -32,6 +32,7 @@ AI_NATIVE_CATEGORY_NAMES = {
     "ai native infra",
     "ai native infrastructure",
     "ai agents",
+    "ai agent",
     "artificial intelligence",
     "machine learning",
     "generative ai",
@@ -59,9 +60,11 @@ def normalize(value):
 def _landscape_path_names(value):
     """Yield normalized category names from CNCF's flexible second_path field."""
     if isinstance(value, str):
-        name = normalize(value)
-        if name:
-            yield name
+        # Landscape paths can be hierarchical, e.g. "AI Native Infra / Gateway".
+        for part in value.split("/"):
+            name = normalize(part)
+            if name:
+                yield name
     elif isinstance(value, dict):
         # Landscape metadata may represent path entries as {name: ...}.
         name = normalize(value.get("name"))
