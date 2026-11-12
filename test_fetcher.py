@@ -25,10 +25,37 @@ class AiNativeClassificationTests(unittest.TestCase):
             )
         )
 
-    def test_description_keyword_is_fallback(self):
+    def test_ai_related_description_is_fallback(self):
         self.assertTrue(
             is_ai_native(
                 {"name": "Example", "description": "A machine learning runtime"},
+                {"name": "Other"},
+                {"name": "Other"},
+            )
+        )
+
+    def test_generic_training_category_does_not_match(self):
+        self.assertFalse(
+            is_ai_native(
+                {"name": "Example", "description": "General developer tools"},
+                {"name": "Training"},
+                {"name": "Other"},
+            )
+        )
+
+    def test_generic_inference_category_does_not_match(self):
+        self.assertFalse(
+            is_ai_native(
+                {"name": "Example", "description": "A data processing engine"},
+                {"name": "Other"},
+                {"name": "Inference"},
+            )
+        )
+
+    def test_keyword_must_be_a_complete_term(self):
+        self.assertFalse(
+            is_ai_native(
+                {"name": "LLMonitor", "description": "Monitor application logs"},
                 {"name": "Other"},
                 {"name": "Other"},
             )
