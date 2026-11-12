@@ -1,8 +1,8 @@
 """Fetch open beginner issues for CNCF projects and annotate AI Native metadata.
 
-The AI Native filter is based on explicit category/subcategory/tag metadata when
-available. Name/description keyword matching is a fallback, so the field is a
-discovery aid rather than an official CNCF certification.
+AI Native classification prioritizes explicit landscape categories and tags.
+Name/description matching is a conservative fallback, not an official CNCF
+certification.
 """
 import json
 import os
@@ -24,15 +24,17 @@ if GITHUB_TOKEN:
 SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
 
-# These are workload names used by the CNCF AI Native Landscape.
+# Explicit AI-focused categories only. Generic "training" and "inference"
+# are intentionally excluded because they occur in many non-AI projects.
 AI_NATIVE_CATEGORY_NAMES = {
     "ai native",
     "ai native landscape",
     "ai native infra",
     "ai native infrastructure",
     "ai agents",
-    "inference",
-    "training",
+    "artificial intelligence",
+    "machine learning",
+    "generative ai",
 }
 AI_NATIVE_TERMS = (
     "artificial intelligence",
@@ -51,7 +53,7 @@ AI_NATIVE_TERMS = (
 
 def normalize(value):
     """Normalize optional metadata for safe, case-insensitive comparisons."""
-    return re.sub(r"\s+", " ", str(value or "")).strip().casefold()
+    return re.sub(r"\\s+", " ", str(value or "")).strip().casefold()
 
 
 def is_ai_native(item, category, subcategory):
@@ -71,16 +73,11 @@ def is_ai_native(item, category, subcategory):
     if any("ai-native" in tag or "cnai" in tag for tag in tag_names):
         return True
 
-    # The AI Native Landscape's workload subcategories are meaningful only
-    # when their parent category identifies the AI Native landscape.
-    if (
-        "ai native" in category_name
-        and subcategory_name
-    ):
+    # A named workload under an explicitly AI Native parent is meaningful.
+    if "ai native" in category_name and subcategory_name:
         return True
 
-    # Fallback for sources that expose project descriptions but not category
-    # metadata. Keep this broad enough for discovery, and document its limits.
+    # Conservative fallback: match complete terms, not arbitrary substrings.
     searchable_text = " ".join(
         normalize(value)
         for value in (
@@ -90,7 +87,10 @@ def is_ai_native(item, category, subcategory):
             subcategory.get("name"),
         )
     )
-    return any(term in searchable_text for term in AI_NATIVE_TERMS)
+    return any(
+        re.search(r"(?<![a-z0-9])" + re.escape(term) + r"(?![a-z0-9])", searchable_text)
+        for term in AI_NATIVE_TERMS
+    )
 
 
 def get_live_cncf_repos():
@@ -116,7 +116,7 @@ def get_live_cncf_repos():
                 if not isinstance(repo_url, str):
                     continue
                 match = re.fullmatch(
-                    r"https://github\.com/([^/]+/[^/]+)/?",
+                    r"https://github\\.com/([^/]+/[^/]+)/?",
                     repo_url.strip().removesuffix(".git"),
                     flags=re.IGNORECASE,
                 )
