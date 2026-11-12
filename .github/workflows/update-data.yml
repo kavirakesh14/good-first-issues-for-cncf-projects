@@ -39,7 +39,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python fetcher.py
+          python fetcher.py --enrich-existing
           python - <<'PY'
           import json
           from pathlib import Path
