@@ -53,7 +53,26 @@ AI_NATIVE_TERMS = (
 
 def normalize(value):
     """Normalize optional metadata for safe, case-insensitive comparisons."""
-    return re.sub(r"\s+", " ", str(value or "")).strip().casefold()
+    return re.sub(r"\\s+", " ", str(value or "")).strip().casefold()
+
+
+def _landscape_path_names(value):
+    """Yield normalized category names from CNCF's flexible second_path field."""
+    if isinstance(value, str):
+        name = normalize(value)
+        if name:
+            yield name
+    elif isinstance(value, dict):
+        # Landscape metadata may represent path entries as {name: ...}.
+        name = normalize(value.get("name"))
+        if name:
+            yield name
+        for key, child in value.items():
+            if key != "name":
+                yield from _landscape_path_names(child)
+    elif isinstance(value, (list, tuple, set)):
+        for child in value:
+            yield from _landscape_path_names(child)
 
 
 def is_ai_native(item, category, subcategory):
@@ -65,6 +84,15 @@ def is_ai_native(item, category, subcategory):
         normalize(tag.get("name") if isinstance(tag, dict) else tag)
         for tag in item_tags
     }
+
+    # CNCF Landscape's explicit AI marker is authoritative.
+    extra = item.get("extra")
+    if isinstance(extra, dict) and extra.get("ai") is True:
+        return True
+
+    second_path_names = set(_landscape_path_names(item.get("second_path")))
+    if second_path_names & AI_NATIVE_CATEGORY_NAMES:
+        return True
 
     if category_name in AI_NATIVE_CATEGORY_NAMES:
         return True
@@ -116,7 +144,7 @@ def get_live_cncf_repos():
                 if not isinstance(repo_url, str):
                     continue
                 match = re.fullmatch(
-                    r"https://github\.com/([^/]+/[^/]+)/?",
+                    r"https://github\\.com/([^/]+/[^/]+)/?",
                     repo_url.strip().removesuffix(".git"),
                     flags=re.IGNORECASE,
                 )
