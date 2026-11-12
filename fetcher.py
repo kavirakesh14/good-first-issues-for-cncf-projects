@@ -4,6 +4,7 @@ AI Native classification prioritizes explicit landscape categories and tags.
 Name/description matching is a conservative fallback, not an official CNCF
 certification.
 """
+import argparse
 import json
 import os
 import re
@@ -256,11 +257,60 @@ def fetch_issues(repos, output_path="data.json"):
     return all_issues
 
 
+def enrich_existing_issues(repos, output_path="data.json"):
+    """Add current landscape metadata without replacing or dropping dashboard issues."""
+    with open(output_path, encoding="utf-8") as data_file:
+        issues = json.load(data_file)
+
+    if not isinstance(issues, list):
+        raise ValueError("data.json must contain a JSON list of issue records.")
+
+    classified_repos = set()
+    for issue in issues:
+        repo = str(issue.get("repo", "")).strip().lower()
+        meta = repos.get(repo)
+        if meta is None:
+            # Preserve unknown records and their existing metadata.
+            issue.setdefault("ai_related", False)
+            continue
+
+        issue["category"] = meta.get("category", "")
+        issue["subcategory"] = meta.get("subcategory", "")
+        issue["description"] = meta.get("description", "")
+        issue["ai_related"] = bool(meta.get("ai_related", False))
+        if issue["ai_related"]:
+            classified_repos.add(repo)
+
+    with open(output_path, "w", encoding="utf-8") as data_file:
+        json.dump(issues, data_file, indent=2, ensure_ascii=False)
+
+    print(
+        f"Enriched {len(issues)} existing issues; "
+        f"{len(classified_repos)} AI Native repositories matched."
+    )
+    print(
+        f"AI Native issues in existing dashboard data: "
+        f"{sum(issue.get('ai_related') is True for issue in issues)}"
+    )
+    return issues
+
+
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Sync or enrich CNCF dashboard issue data.")
+    parser.add_argument(
+        "--enrich-existing",
+        action="store_true",
+        help="Annotate existing data.json records without fetching, replacing, or dropping issues.",
+    )
+    args = parser.parse_args()
+
     cncf_repos = get_live_cncf_repos()
-    if cncf_repos:
-        fetch_issues(cncf_repos)
-    else:
+    if not cncf_repos:
         raise SystemExit(
             "No repositories were fetched. data.json was left unchanged."
         )
+
+    if args.enrich_existing:
+        enrich_existing_issues(cncf_repos)
+    else:
+        fetch_issues(cncf_repos)
