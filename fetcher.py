@@ -294,7 +294,7 @@ def enrich_existing_issues(repos, output_path="data.json"):
     try:
         with open(temp_path, "w", encoding="utf-8") as data_file:
             json.dump(issues, data_file, indent=2, ensure_ascii=False)
-            data_file.write("\\n")
+            data_file.write("\n")
         os.replace(temp_path, output_path)
     finally:
         if os.path.exists(temp_path):
