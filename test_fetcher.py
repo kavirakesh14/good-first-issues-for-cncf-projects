@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from fetcher import fetch_issues, is_ai_native, normalize
+from fetcher import enrich_existing_issues, fetch_issues, is_ai_native, normalize
 
 
 class AiNativeClassificationTests(unittest.TestCase):
@@ -173,6 +173,60 @@ class IssueDataPreservationTests(unittest.TestCase):
         self.assertEqual(saved[0]["labels"], ["good first issue", "help wanted"])
         self.assertEqual(saved[0]["created_at"], issue["created_at"])
         self.assertEqual(saved[0]["lang"], "Python")
+
+
+
+class ExistingDashboardEnrichmentTests(unittest.TestCase):
+    def test_enrichment_preserves_all_existing_issue_records_and_fields(self):
+        original = [
+            {
+                "repo": "example/ai-project",
+                "tier": "Sandbox",
+                "lang": "Python",
+                "title": "Existing issue title",
+                "url": "https://github.com/example/ai-project/issues/7",
+                "labels": ["help wanted"],
+                "created_at": "2026-01-01T00:00:00Z",
+                "custom_existing_field": "must survive",
+            },
+            {
+                "repo": "example/unmatched",
+                "tier": "Incubating",
+                "lang": "Go",
+                "title": "Unmatched issue",
+                "url": "https://github.com/example/unmatched/issues/8",
+                "labels": ["good first issue"],
+                "created_at": "2026-01-02T00:00:00Z",
+            },
+        ]
+        repos = {
+            "example/ai-project": {
+                "category": "AI Native",
+                "subcategory": "Infrastructure",
+                "description": "AI platform",
+                "ai_related": True,
+            }
+        }
+
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = os.path.join(directory, "data.json")
+            with open(output_path, "w", encoding="utf-8") as data_file:
+                json.dump(original, data_file)
+
+            enriched = enrich_existing_issues(repos, output_path)
+
+            with open(output_path, encoding="utf-8") as data_file:
+                saved = json.load(data_file)
+
+        self.assertEqual(len(saved), len(original))
+        self.assertEqual(saved, enriched)
+        self.assertEqual(saved[0]["url"], original[0]["url"])
+        self.assertEqual(saved[0]["labels"], original[0]["labels"])
+        self.assertEqual(saved[0]["custom_existing_field"], "must survive")
+        self.assertTrue(saved[0]["ai_related"])
+        self.assertEqual(saved[0]["category"], "AI Native")
+        self.assertEqual(saved[1]["title"], original[1]["title"])
+        self.assertFalse(saved[1]["ai_related"])
 
 
 if __name__ == "__main__":
