@@ -2195,6 +2195,20 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "[Docs] Fix broken \"help-wanted\" search link in Docker Extension README",
+        "url": "https://github.com/meshery/meshery/issues/23296",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-11-12T09:54:35Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "[CI] Fix failure email content in go-mod-sync workflow",
         "url": "https://github.com/meshery/meshery/issues/23224",
         "labels": [
@@ -2557,20 +2571,6 @@
             "framework/hugo"
         ],
         "created_at": "2026-08-07T05:35:27Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Docs: Broken link to \"Contributing to Models Quick Start\" on Academy exam page",
-        "url": "https://github.com/meshery/meshery/issues/21139",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-08-05T04:35:13Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -8105,19 +8105,6 @@
         "repo": "CurvineIO/curvine",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "[FEATURE] Add description and repository metadata to workspace crates",
-        "url": "https://github.com/CurvineIO/curvine/issues/2031",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "help wanted"
-        ],
-        "created_at": "2026-11-11T04:24:50Z"
-    },
-    {
-        "repo": "CurvineIO/curvine",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "[DOCS] Add supported versions and GitHub private reporting to SECURITY.md",
         "url": "https://github.com/CurvineIO/curvine/issues/2029",
         "labels": [
@@ -8138,18 +8125,6 @@
             "help wanted"
         ],
         "created_at": "2026-11-11T04:24:33Z"
-    },
-    {
-        "repo": "CurvineIO/curvine",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "[BUG]: restart-all.sh kills every process matching \"curvine\"",
-        "url": "https://github.com/CurvineIO/curvine/issues/2025",
-        "labels": [
-            "bug",
-            "good first issue"
-        ],
-        "created_at": "2026-11-11T04:24:19Z"
     },
     {
         "repo": "CurvineIO/curvine",
@@ -9827,81 +9802,6 @@
             "kind/cleanup"
         ],
         "created_at": "2023-09-06T07:34:04Z"
-    },
-    {
-        "repo": "hyperlight-dev/hyperlight",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Use workspace dependencies for shared deps across hyperlight crates",
-        "url": "https://github.com/hyperlight-dev/hyperlight/issues/1454",
-        "labels": [
-            "good first issue",
-            "lifecycle/confirmed",
-            "help-wanted"
-        ],
-        "created_at": "2026-05-14T19:16:33Z"
-    },
-    {
-        "repo": "hyperlight-dev/hyperlight",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Implement Additional tests for Guest Mapping",
-        "url": "https://github.com/hyperlight-dev/hyperlight/issues/1131",
-        "labels": [
-            "good first issue",
-            "lifecycle/confirmed"
-        ],
-        "created_at": "2025-12-19T19:06:42Z"
-    },
-    {
-        "repo": "hyperlight-dev/hyperlight",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Fuzz on Windows",
-        "url": "https://github.com/hyperlight-dev/hyperlight/issues/1082",
-        "labels": [
-            "good first issue",
-            "lifecycle/confirmed"
-        ],
-        "created_at": "2025-12-08T11:03:48Z"
-    },
-    {
-        "repo": "hyperlight-dev/hyperlight",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Allow configuration of guest trace storage",
-        "url": "https://github.com/hyperlight-dev/hyperlight/issues/1008",
-        "labels": [
-            "good first issue",
-            "lifecycle/confirmed",
-            "help-wanted"
-        ],
-        "created_at": "2025-11-05T11:28:04Z"
-    },
-    {
-        "repo": "hyperlight-dev/hyperlight",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Define a common format for logs in Hyperlight",
-        "url": "https://github.com/hyperlight-dev/hyperlight/issues/375",
-        "labels": [
-            "good first issue",
-            "lifecycle/confirmed"
-        ],
-        "created_at": "2025-03-21T13:42:33Z"
-    },
-    {
-        "repo": "hyperlight-dev/hyperlight",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "Create tool for verifying access to kvm/mshv/whp",
-        "url": "https://github.com/hyperlight-dev/hyperlight/issues/288",
-        "labels": [
-            "good first issue",
-            "lifecycle/confirmed",
-            "help-wanted"
-        ],
-        "created_at": "2025-02-26T00:53:17Z"
     },
     {
         "repo": "kuasar-io/kuasar",
@@ -29135,20 +29035,6 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Custom branding",
-        "url": "https://github.com/perses/perses/issues/2686",
-        "labels": [
-            "help wanted",
-            "ui",
-            "api",
-            "priority/P2"
-        ],
-        "created_at": "2025-02-26T09:39:17Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Panels in error are not getting refreshed",
         "url": "https://github.com/perses/perses/issues/2343",
         "labels": [
@@ -30674,16 +30560,65 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] [v6] claude auth: document the operator setup-token flow (env-vars, agent-configuration, backend auth recovery runbook)",
-        "url": "https://github.com/hivecommons/hive/issues/17761",
+        "title": "\ud83d\udc1b [v5] hosted hives reject every relayed GitHub webhook: the hub never gives the spoke a way to verify them",
+        "url": "https://github.com/hivecommons/hive/issues/17911",
         "labels": [
-            "good first issue",
             "help wanted",
-            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-12T12:01:30Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] hosted hives reject every relayed GitHub webhook: the hub never gives the spoke a way to verify them",
+        "url": "https://github.com/hivecommons/hive/issues/17910",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-12T12:00:39Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b [v6] deep health says ok while every agent's tmux session is gone and every kick fails",
+        "url": "https://github.com/hivecommons/hive/issues/17908",
+        "labels": [
+            "help wanted",
             "stage/040-covered-by-pr",
             "hive/claimed-by-human"
         ],
-        "created_at": "2026-11-11T20:52:10Z"
+        "created_at": "2026-11-12T11:57:17Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd Voice recorders as first-class input sources (Inbox)",
+        "url": "https://github.com/hivecommons/hive/issues/17875",
+        "labels": [
+            "help wanted",
+            "Epic",
+            "hive/verified-open",
+            "stage/010-actionable",
+            "hive/partially-addressed"
+        ],
+        "created_at": "2026-11-12T06:47:33Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v5] claude auth: forward-port the operator long-lived token family (HIVE_CLAUDE_OAUTH_TOKEN) from v6",
+        "url": "https://github.com/hivecommons/hive/issues/17852",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-12T05:35:31Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30698,59 +30633,6 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-12T02:50:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] [v6] claude auth: report long-lived-token vs dashboard-sign-in mode on the auth status (dashboard + MCP) and surface 401 as token rejected",
-        "url": "https://github.com/hivecommons/hive/issues/17759",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-11T20:51:25Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] [v6] claude auth: accept HIVE_CLAUDE_OAUTH_TOKEN and inject it as CLAUDE_CODE_OAUTH_TOKEN for every claude agent",
-        "url": "https://github.com/hivecommons/hive/issues/17758",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr",
-            "has-open-pr"
-        ],
-        "created_at": "2026-11-11T20:50:44Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 [v6] claude auth: run Claude agents on an operator-supplied long-lived token (claude setup-token) so nothing refreshes",
-        "url": "https://github.com/hivecommons/hive/issues/17753",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-11T20:23:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b connect-repo succeeds for private org repo without App installation; scans then fail silently",
-        "url": "https://github.com/hivecommons/hive/issues/17696",
-        "labels": [
-            "bug",
-            "help wanted",
-            "stage/040-covered-by-pr",
-            "hive/claimed-by-human"
-        ],
-        "created_at": "2026-11-11T16:29:31Z"
     },
     {
         "repo": "hivecommons/hive",
