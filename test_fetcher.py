@@ -1,4 +1,6 @@
 import json
+
+import fetcher
 import os
 import tempfile
 import unittest
@@ -119,6 +121,58 @@ class AiNativeClassificationTests(unittest.TestCase):
                 {"name": "Container runtime"},
             )
         )
+
+
+class LandscapeMetadataParsingTests(unittest.TestCase):
+    def test_live_parser_reads_extra_ai_and_second_path(self):
+        landscape_yaml = """
+landscape:
+  - name: Cloud Native
+    subcategories:
+      - name: Infrastructure
+        items:
+          - name: Explicit AI project
+            project: sandbox
+            repo_url: https://github.com/example/explicit-ai
+            extra:
+              ai: true
+          - name: AI Native path project
+            project: incubating
+            repo_url: https://github.com/example/path-ai.git
+            second_path: AI Native Infra / Gateway
+"""
+        class Response:
+            text = landscape_yaml
+
+            def raise_for_status(self):
+                return None
+
+        with patch("fetcher.SESSION.get", return_value=Response()):
+            repos = fetcher.get_live_cncf_repos()
+
+        self.assertTrue(repos["example/explicit-ai"]["ai_related"])
+        self.assertTrue(repos["example/path-ai"]["ai_related"])
+        self.assertEqual(repos["example/explicit-ai"]["tier"], "Sandbox")
+        self.assertEqual(repos["example/path-ai"]["tier"], "Incubating")
+
+    def test_enrichment_refuses_to_rewrite_when_no_repository_matches(self):
+        original = [{
+            "repo": "example/not-in-landscape",
+            "title": "Keep this issue",
+            "url": "https://github.com/example/not-in-landscape/issues/1",
+        }]
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = os.path.join(directory, "data.json")
+            with open(output_path, "w", encoding="utf-8") as data_file:
+                json.dump(original, data_file)
+
+            with self.assertRaisesRegex(ValueError, "No existing issue repositories matched"):
+                enrich_existing_issues({}, output_path)
+
+            with open(output_path, encoding="utf-8") as data_file:
+                saved = json.load(data_file)
+
+        self.assertEqual(saved, original)
 
 
 class IssueDataPreservationTests(unittest.TestCase):
