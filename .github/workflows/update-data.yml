@@ -2,52 +2,73 @@ name: Auto-Sync CNCF Good First Issues
 
 on:
   schedule:
-    # Runs every 6 hours (At minute 0 of every 6th hour)
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Allows you to manually trigger the pipeline anytime from the GitHub UI
+  workflow_dispatch:
+  push:
+    branches:
+      - fix/ai-native-filter-upstream-sync
+    paths-ignore:
+      - data.json
 
-# Fixes the Node.js 20 deprecation warning across all actions
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
-# Explicitly grant write access so the runner can push data.json back to the repo
 permissions:
   contents: write
 
 jobs:
   sync-ecosystem:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository Code
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: Initialize Python Environment
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          # Removed cache: 'pip' to fix the missing requirements.txt error
 
       - name: Install Project Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests pyyaml
 
-      - name: Execute Auto-Discovery Engine
+      - name: Run Classification and Preservation Tests
+        run: python -m unittest discover -v
+
+      - name: Execute Auto-Discovery and Enrichment
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python fetcher.py
-
-      - name: Commit and Push Updated Data Artifacts
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Only stage, commit, and push if data.json actually changed
+          python fetcher.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("data.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+          if not isinstance(data, list) or not data:
+              raise SystemExit("Validation failed: data.json is empty or not a list.")
+          required = {"repo", "tier", "lang", "title", "url", "labels", "created_at", "ai_related"}
+          missing = [i for i, issue in enumerate(data) if not required.issubset(issue)]
+          if missing:
+              raise SystemExit(f"Validation failed: {len(missing)} issue records are missing required fields.")
+          ai_count = sum(issue["ai_related"] is True for issue in data)
+          repo_count = len({issue["repo"] for issue in data})
+          print(f"Validated {len(data)} issues across {repo_count} repositories; {ai_count} AI Native issues.")
+          if ai_count == 0:
+              raise SystemExit("Validation failed: no AI Native issues were classified; refusing to publish.")
+          PY
+
+      - name: Commit and Push Updated Dashboard Data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
-          if ! git diff --staged --quiet; then
-            git commit -m "chore: automated sync of CNCF issue database [skip ci]"
-            git push origin main
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: enrich dashboard data with AI Native classification [skip ci]"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           else
-            echo "No database changes detected during this synchronization window."
+            echo "Dashboard data is already up to date."
           fi
