@@ -53,7 +53,7 @@ AI_NATIVE_TERMS = (
 
 def normalize(value):
     """Normalize optional metadata for safe, case-insensitive comparisons."""
-    return re.sub(r"\\s+", " ", str(value or "")).strip().casefold()
+    return re.sub(r"\s+", " ", str(value or "")).strip().casefold()
 
 
 def is_ai_native(item, category, subcategory):
@@ -116,7 +116,7 @@ def get_live_cncf_repos():
                 if not isinstance(repo_url, str):
                     continue
                 match = re.fullmatch(
-                    r"https://github\\.com/([^/]+/[^/]+)/?",
+                    r"https://github\.com/([^/]+/[^/]+)/?",
                     repo_url.strip().removesuffix(".git"),
                     flags=re.IGNORECASE,
                 )
