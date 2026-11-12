@@ -48,6 +48,15 @@ class AiNativeClassificationTests(unittest.TestCase):
             )
         )
 
+    def test_second_path_hierarchical_ai_native_infra_matches(self):
+        self.assertTrue(
+            is_ai_native(
+                {"name": "Example", "second_path": ["AI Native Infra / Gateway"]},
+                {"name": "Other"},
+                {"name": "Other"},
+            )
+        )
+
     def test_second_path_dict_name_matches(self):
         self.assertTrue(
             is_ai_native(
