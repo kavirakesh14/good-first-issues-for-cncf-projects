@@ -4704,6 +4704,24 @@
         "repo": "keycloak/keycloak",
         "tier": "Incubating",
         "lang": "Java",
+        "title": "Creating a realm from a representation drops the description of organization groups",
+        "url": "https://github.com/keycloak/keycloak/issues/55134",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "team/core-iam",
+            "status/auto-expire",
+            "status/auto-bump",
+            "priority/normal",
+            "area/organizations",
+            "status/labeled-by-bot"
+        ],
+        "created_at": "2026-11-12T23:15:19Z"
+    },
+    {
+        "repo": "keycloak/keycloak",
+        "tier": "Incubating",
+        "lang": "Java",
         "title": "persian language is missing font and styling",
         "url": "https://github.com/keycloak/keycloak/issues/55023",
         "labels": [
@@ -5192,22 +5210,6 @@
             "team/core-authn"
         ],
         "created_at": "2026-10-05T03:41:39Z"
-    },
-    {
-        "repo": "keycloak/keycloak",
-        "tier": "Incubating",
-        "lang": "Java",
-        "title": "[CIMD] The hostname line on the consent screen is hard-coded English and cannot be localised",
-        "url": "https://github.com/keycloak/keycloak/issues/53515",
-        "labels": [
-            "area/oidc",
-            "kind/bug",
-            "help wanted",
-            "status/auto-bump",
-            "priority/normal",
-            "team/core-protocols"
-        ],
-        "created_at": "2026-10-05T03:40:36Z"
     },
     {
         "repo": "keylime/keylime",
@@ -14224,19 +14226,6 @@
         "repo": "kubestellar/kubestellar",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "docs: Update PR template after website docs moved to separate repository",
-        "url": "https://github.com/kubestellar/kubestellar/issues/4042",
-        "labels": [
-            "help wanted",
-            "kind/documentation",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-05T16:33:34Z"
-    },
-    {
-        "repo": "kubestellar/kubestellar",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "bug: flake in ginkgo test case \"singleton status creation and deletion\"",
         "url": "https://github.com/kubestellar/kubestellar/issues/4036",
         "labels": [
@@ -14283,8 +14272,7 @@
         "labels": [
             "kind/bug",
             "help wanted",
-            "stage/010-actionable",
-            "stage/stalled"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-10-24T19:49:17Z"
     },
@@ -14603,6 +14591,19 @@
             "stage/040-covered-by-pr"
         ],
         "created_at": "2026-07-09T05:22:14Z"
+    },
+    {
+        "repo": "kubestellar/kubestellar",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "bug: Add proper error handling in CombinedStatus Resolver",
+        "url": "https://github.com/kubestellar/kubestellar/issues/3886",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-07-08T17:03:45Z"
     },
     {
         "repo": "kubereboot/kured",
@@ -19881,6 +19882,20 @@
             "report/customer"
         ],
         "created_at": "2019-11-15T07:24:02Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
+        "title": "UI: versions list on the artifact overview tab is hidden below ~1040px until the drawer splitter is dragged",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/11112",
+        "labels": [
+            "type/bug",
+            "Beginner Friendly",
+            "good first issue",
+            "help wanted"
+        ],
+        "created_at": "2026-11-13T11:45:39Z"
     },
     {
         "repo": "Apicurio/apicurio-registry",
@@ -28829,19 +28844,6 @@
         "repo": "perses/perses",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "QueryEditorProps should be removed from the code base",
-        "url": "https://github.com/perses/perses/issues/3202",
-        "labels": [
-            "good first issue",
-            "ui",
-            "priority/P2"
-        ],
-        "created_at": "2025-08-19T10:21:41Z"
-    },
-    {
-        "repo": "perses/perses",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Long text legend can not be scrolled",
         "url": "https://github.com/perses/perses/issues/3157",
         "labels": [
@@ -30576,6 +30578,60 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[RFC] [v6] Contributor-only lanes: running a hive with no resident agents and no model budget",
+        "url": "https://github.com/hivecommons/hive/issues/18069",
+        "labels": [
+            "help wanted",
+            "Epic",
+            "architecture discussion",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-13T11:26:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[RFC] [v6] Contributor relays as reviewers: let a trusted contributor's agent take a review perspective, behind a model floor",
+        "url": "https://github.com/hivecommons/hive/issues/18068",
+        "labels": [
+            "help wanted",
+            "Epic",
+            "architecture discussion",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-13T11:09:41Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[shared-ci] test (rest 3/4) failing across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/18067",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "ci",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-13T08:43:15Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] inference_caller_unidentified: inference request from unidentified caller refused",
+        "url": "https://github.com/hivecommons/hive/issues/18061",
+        "labels": [
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-13T05:22:37Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "\ud83d\udcdd RFC: self-service registration of self-hosted Hives on a hub (GUI), with per-Hive rotatable keys and a credential fence",
         "url": "https://github.com/hivecommons/hive/issues/18060",
         "labels": [
@@ -30888,61 +30944,6 @@
             "stage/010-actionable"
         ],
         "created_at": "2026-11-12T20:47:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] review: resolve perspectives_source at startup and reload and reinstall the relay perspective set",
-        "url": "https://github.com/hivecommons/hive/issues/17988",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-12T20:46:40Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 feature: live-link review perspectives from a GitHub file (like `definition_source`)",
-        "url": "https://github.com/hivecommons/hive/issues/17975",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "stage/040-covered-by-pr",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-11-12T19:38:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] \u2728 Substrate phase 3: SVID-authenticated broker delegation over the atenet mTLS channel",
-        "url": "https://github.com/hivecommons/hive/issues/17933",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/045-needs-decision"
-        ],
-        "created_at": "2026-11-12T16:34:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd Voice recorders as first-class input sources (Inbox)",
-        "url": "https://github.com/hivecommons/hive/issues/17875",
-        "labels": [
-            "help wanted",
-            "Epic",
-            "hive/verified-open",
-            "stage/010-actionable",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-11-12T06:47:33Z"
     },
     {
         "repo": "kaito-project/kaito",
