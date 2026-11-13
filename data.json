@@ -1309,20 +1309,6 @@
         "repo": "kptdev/kpt",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "If parent directory does not exist kpt should create it ",
-        "url": "https://github.com/kptdev/kpt/issues/2824",
-        "labels": [
-            "enhancement",
-            "good first issue",
-            "area/pkg",
-            "p2"
-        ],
-        "created_at": "2022-02-23T08:22:43Z"
-    },
-    {
-        "repo": "kptdev/kpt",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "`kpt fn render` changes yaml integer to scientific notation ",
         "url": "https://github.com/kptdev/kpt/issues/2768",
         "labels": [
@@ -2314,20 +2300,6 @@
         "repo": "meshery/meshery",
         "tier": "Incubating",
         "lang": "Go",
-        "title": "[Docs] spars-clone example in Contributing guide does not match the fork-and-PR Workflow",
-        "url": "https://github.com/meshery/meshery/issues/22158",
-        "labels": [
-            "help wanted",
-            "area/docs",
-            "language/markdown",
-            "framework/hugo"
-        ],
-        "created_at": "2026-09-30T15:30:01Z"
-    },
-    {
-        "repo": "meshery/meshery",
-        "tier": "Incubating",
-        "lang": "Go",
         "title": "[Docs] Encode Markdown images to WebP at build time",
         "url": "https://github.com/meshery/meshery/issues/22038",
         "labels": [
@@ -2572,6 +2544,20 @@
             "framework/hugo"
         ],
         "created_at": "2026-07-21T03:32:54Z"
+    },
+    {
+        "repo": "meshery/meshery",
+        "tier": "Incubating",
+        "lang": "Go",
+        "title": "[Docs] Contributing: Include contributor instructions regarding sparse cloning, excluding /models and other dirs",
+        "url": "https://github.com/meshery/meshery/issues/20837",
+        "labels": [
+            "help wanted",
+            "area/docs",
+            "language/markdown",
+            "framework/hugo"
+        ],
+        "created_at": "2026-07-21T00:03:37Z"
     },
     {
         "repo": "metal3-io/baremetal-operator",
@@ -19887,6 +19873,20 @@
         "repo": "Apicurio/apicurio-registry",
         "tier": "Sandbox",
         "lang": "Java",
+        "title": "feat(cli): keep cookies across gitops validate requests, for cookie-based sticky routing",
+        "url": "https://github.com/Apicurio/apicurio-registry/issues/11131",
+        "labels": [
+            "type/enhancement",
+            "area/storage/gitops",
+            "area/CLI",
+            "good first issue"
+        ],
+        "created_at": "2026-11-13T18:39:19Z"
+    },
+    {
+        "repo": "Apicurio/apicurio-registry",
+        "tier": "Sandbox",
+        "lang": "Java",
         "title": "UI: versions list on the artifact overview tab is hidden below ~1040px until the drawer splitter is dragged",
         "url": "https://github.com/Apicurio/apicurio-registry/issues/11112",
         "labels": [
@@ -20734,6 +20734,32 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "[Catalog Import] Migrate the `PreviewCatalogInfoComponent` component to Backstage UI (BUI)",
+        "url": "https://github.com/backstage/backstage/issues/36506",
+        "labels": [
+            "good first issue",
+            "area:catalog"
+        ],
+        "created_at": "2026-10-28T13:56:35Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Generating TechDocs fails with error: Unsupported Python YAML tag 'tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji'",
+        "url": "https://github.com/backstage/backstage/issues/35961",
+        "labels": [
+            "type:bug",
+            "good first issue",
+            "area:techdocs",
+            "needs:triage"
+        ],
+        "created_at": "2026-10-02T08:47:47Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Catalog processor may throw an unbounded error payload to status and exhaust database storage",
         "url": "https://github.com/backstage/backstage/issues/35955",
         "labels": [
@@ -20756,6 +20782,17 @@
             "area:catalog"
         ],
         "created_at": "2026-09-17T06:44:15Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "OpenAPI package generation emits duplicate imports across tags and exits 0 after lint failure",
+        "url": "https://github.com/backstage/backstage/issues/35578",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-09-08T15:49:39Z"
     },
     {
         "repo": "backstage/backstage",
@@ -20817,6 +20854,21 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Corepack No Longer Part of Node as of v25",
+        "url": "https://github.com/backstage/backstage/issues/35008",
+        "labels": [
+            "type:suggestion",
+            "good first issue",
+            "no stale",
+            "needs:triage",
+            "area:framework"
+        ],
+        "created_at": "2026-07-29T23:03:22Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "auth: OAuth token response hard-codes expires_in: 3600, ignoring auth.backstageTokenExpiration",
         "url": "https://github.com/backstage/backstage/issues/34985",
         "labels": [
@@ -20825,6 +20877,20 @@
             "area:auth"
         ],
         "created_at": "2026-07-28T07:11:07Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "CatalogExportButton is not being exported",
+        "url": "https://github.com/backstage/backstage/issues/34820",
+        "labels": [
+            "type:bug",
+            "good first issue",
+            "area:catalog",
+            "needs:triage"
+        ],
+        "created_at": "2026-07-09T12:24:54Z"
     },
     {
         "repo": "backstage/backstage",
@@ -20839,6 +20905,129 @@
             "domain:docs"
         ],
         "created_at": "2026-05-05T21:18:55Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "[DevTools] Migrate the `InfoDependenciesTable` component to Backstage Ui (BUI)",
+        "url": "https://github.com/backstage/backstage/issues/32748",
+        "labels": [
+            "good first issue",
+            "needs:triage"
+        ],
+        "created_at": "2026-02-08T15:12:46Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "TechdocsPicker does not account for entities using backstage.io/techdocs-entity",
+        "url": "https://github.com/backstage/backstage/issues/30740",
+        "labels": [
+            "type:bug",
+            "good first issue",
+            "area:techdocs"
+        ],
+        "created_at": "2025-08-04T11:21:20Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Incremental Ingestion Admin Interface",
+        "url": "https://github.com/backstage/backstage/issues/30442",
+        "labels": [
+            "type:suggestion",
+            "good first issue",
+            "priority:contrib-needed",
+            "area:catalog"
+        ],
+        "created_at": "2025-07-03T19:59:31Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "\ud83d\ude80 Feature: Make glossary more usable",
+        "url": "https://github.com/backstage/backstage/issues/29655",
+        "labels": [
+            "area:documentation",
+            "type:suggestion",
+            "good first issue",
+            "no stale"
+        ],
+        "created_at": "2025-04-17T17:23:54Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "\ud83d\ude80 Feature: Write a guide to upgrading Backstage",
+        "url": "https://github.com/backstage/backstage/issues/21921",
+        "labels": [
+            "area:documentation",
+            "type:suggestion",
+            "good first issue",
+            "no stale"
+        ],
+        "created_at": "2023-12-18T21:06:20Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "\ud83d\ude80 Feature: Write instructions for installing and configuring plugins",
+        "url": "https://github.com/backstage/backstage/issues/21920",
+        "labels": [
+            "area:documentation",
+            "type:suggestion",
+            "good first issue",
+            "no stale"
+        ],
+        "created_at": "2023-12-18T20:26:32Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "\ud83d\ude80 Feature: Write start and stop instructions for production Backstage server",
+        "url": "https://github.com/backstage/backstage/issues/21916",
+        "labels": [
+            "area:documentation",
+            "type:suggestion",
+            "good first issue",
+            "no stale",
+            "area:microsite"
+        ],
+        "created_at": "2023-12-18T18:55:19Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "\ud83d\ude80 Feature: Use the Catalog presentation API",
+        "url": "https://github.com/backstage/backstage/issues/20955",
+        "labels": [
+            "good first issue",
+            "priority:contrib-needed",
+            "area:catalog"
+        ],
+        "created_at": "2023-11-03T09:36:12Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Asciidoc Techdocs support",
+        "url": "https://github.com/backstage/backstage/issues/13402",
+        "labels": [
+            "type:suggestion",
+            "good first issue",
+            "priority:contrib-needed",
+            "area:techdocs"
+        ],
+        "created_at": "2022-08-29T12:30:37Z"
     },
     {
         "repo": "backstage/backstage",
@@ -25479,6 +25668,19 @@
         "repo": "tektoncd/pipeline",
         "tier": "Incubating",
         "lang": "Go",
+        "title": "config-defaults values are not validated: invalid values silently break runs or invert limits",
+        "url": "https://github.com/tektoncd/pipeline/issues/11007",
+        "labels": [
+            "kind/bug",
+            "help wanted",
+            "good first issue"
+        ],
+        "created_at": "2026-11-13T14:04:42Z"
+    },
+    {
+        "repo": "tektoncd/pipeline",
+        "tier": "Incubating",
+        "lang": "Go",
         "title": "Hub Resolver: Add a default catalog for StepAction kind",
         "url": "https://github.com/tektoncd/pipeline/issues/10419",
         "labels": [
@@ -26077,20 +26279,6 @@
             "area/api"
         ],
         "created_at": "2024-04-17T07:18:43Z"
-    },
-    {
-        "repo": "tektoncd/pipeline",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "TEP-152 Tekton Conformance Verification",
-        "url": "https://github.com/tektoncd/pipeline/issues/7828",
-        "labels": [
-            "help wanted",
-            "area/testing",
-            "area/api",
-            "kind/tep"
-        ],
-        "created_at": "2024-04-03T17:58:12Z"
     },
     {
         "repo": "flatcar/Flatcar",
@@ -28122,19 +28310,6 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
-        "title": "jaeger_query: support serving UI assets from an archive, not just a directory",
-        "url": "https://github.com/jaegertracing/jaeger/issues/9065",
-        "labels": [
-            "enhancement",
-            "help wanted",
-            "good first issue"
-        ],
-        "created_at": "2026-07-21T19:41:51Z"
-    },
-    {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
         "title": "[feature]: Support Jaeger-specific CLI commands in custom OCB distributions",
         "url": "https://github.com/jaegertracing/jaeger/issues/8831",
         "labels": [
@@ -28501,6 +28676,17 @@
             "storage/elasticsearch"
         ],
         "created_at": "2022-02-24T08:35:39Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Storage backends for adaptive sampling",
+        "url": "https://github.com/jaegertracing/jaeger/issues/3305",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2021-10-05T19:12:32Z"
     },
     {
         "repo": "k8sgpt-ai/k8sgpt",
@@ -30548,31 +30734,66 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Coverage] packages below 90% threshold",
-        "url": "https://github.com/hivecommons/hive/issues/18057",
+        "title": "\ud83d\udc1b config: per-agent overlay written for derived replica (reviewer-2.yaml) bricks the hive on next restart",
+        "url": "https://github.com/hivecommons/hive/issues/18137",
         "labels": [
-            "good first issue",
             "help wanted",
+            "triage/accepted",
             "kind/bug",
-            "ci-coverage",
             "stage/010-actionable"
         ],
-        "created_at": "2026-11-13T02:49:56Z"
+        "created_at": "2026-11-13T23:04:11Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[Tests] v5 test failure on 88f6c9c",
-        "url": "https://github.com/hivecommons/hive/issues/18056",
+        "title": "\u2728 dashboard: settings UI for project.reference_repos",
+        "url": "https://github.com/hivecommons/hive/issues/18136",
         "labels": [
-            "good first issue",
             "help wanted",
-            "kind/bug",
-            "ci-failure",
+            "triage/accepted",
             "stage/010-actionable"
         ],
-        "created_at": "2026-11-13T02:38:02Z"
+        "created_at": "2026-11-13T22:27:18Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[shared-ci] native-queue-policy failing across hivecommons/hive",
+        "url": "https://github.com/hivecommons/hive/issues/18128",
+        "labels": [
+            "help wanted",
+            "agent/scanner",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-13T20:32:02Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] unclassified_error_repeated: permissions watcher: chown failed",
+        "url": "https://github.com/hivecommons/hive/issues/18120",
+        "labels": [
+            "help wanted",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-13T18:59:55Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[reviewer] Review backlog (security): UID-less agents sharing the proxy UID can spoof another agent's inference identity",
+        "url": "https://github.com/hivecommons/hive/issues/18115",
+        "labels": [
+            "help wanted",
+            "agent/reviewer",
+            "stage/040-covered-by-pr"
+        ],
+        "created_at": "2026-11-13T18:28:27Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30606,32 +30827,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[shared-ci] test (rest 3/4) failing across hivecommons/hive",
-        "url": "https://github.com/hivecommons/hive/issues/18067",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "ci",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-13T08:43:15Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] inference_caller_unidentified: inference request from unidentified caller refused",
-        "url": "https://github.com/hivecommons/hive/issues/18061",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-13T05:22:37Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83d\udcdd RFC: self-service registration of self-hosted Hives on a hub (GUI), with per-Hive rotatable keys and a credential fence",
         "url": "https://github.com/hivecommons/hive/issues/18060",
         "labels": [
@@ -30639,88 +30834,10 @@
             "help wanted",
             "architecture discussion",
             "kind/design",
+            "hive/partially-addressed",
             "stage/018-open-for-discussion"
         ],
         "created_at": "2026-11-13T03:28:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: contributor-lane auto-promotion search cannot see repository for this author; l\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/18059",
-        "labels": [
-            "help wanted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-13T03:19:31Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: ugrading hive dropped PDF knowledge source",
-        "url": "https://github.com/hivecommons/hive/issues/18058",
-        "labels": [
-            "bug",
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-11-13T02:50:20Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: issues not staying held when set",
-        "url": "https://github.com/hivecommons/hive/issues/18054",
-        "labels": [
-            "bug",
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-11-13T02:14:06Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "ci-flake: github.com/hivecommons/hive/cmd/hive.TestAPIBudgetPacingNeverShortensTodaysInterval",
-        "url": "https://github.com/hivecommons/hive/issues/18053",
-        "labels": [
-            "help wanted",
-            "ci-flake",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-13T01:37:51Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "ci-flake: github.com/hivecommons/hive/pkg/github.TestBackfillCoveredByLedger_HealsRecordBelow040",
-        "url": "https://github.com/hivecommons/hive/issues/18044",
-        "labels": [
-            "help wanted",
-            "ci-flake",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-12T23:37:22Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "ci-flake: github.com/hivecommons/hive/pkg/hub.TestMarketplaceRefreshRoutesAndStatus",
-        "url": "https://github.com/hivecommons/hive/issues/18043",
-        "labels": [
-            "help wanted",
-            "ci-flake",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-12T23:37:21Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30731,6 +30848,7 @@
         "labels": [
             "help wanted",
             "triage/accepted",
+            "approved-direction",
             "stage/010-actionable"
         ],
         "created_at": "2026-11-12T23:34:29Z"
@@ -30752,170 +30870,13 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udc1b Benchmarks: same model listed under several ids (claude-sonnet-5-5 vs 5.5, openai-codex/gpt-6.1-sol vs gpt-6.1-sol)",
-        "url": "https://github.com/hivecommons/hive/issues/18036",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-12T23:30:34Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "Hub + spoke FAQ: link to the fleet benchmarks page",
-        "url": "https://github.com/hivecommons/hive/issues/18034",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-12T23:29:35Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 Activity Monitor: stage-meaning placeholder icons in inactive workflow chevrons, with an optional per-column icon override",
-        "url": "https://github.com/hivecommons/hive/issues/18033",
-        "labels": [
-            "help wanted",
-            "stage/040-covered-by-pr"
-        ],
-        "created_at": "2026-11-12T23:22:52Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] docs: owner guide for GitHub webhook setup (hosted via relay vs self-hosted own secret) with troubleshooting",
-        "url": "https://github.com/hivecommons/hive/issues/18031",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-12T23:11:47Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] dashboard: Settings \u2192 Forge App \u2192 GitHub webhooks card (payload URL, events, generate secret, create hook, live status)",
-        "url": "https://github.com/hivecommons/hive/issues/18029",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-12T23:11:07Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] dashboard: POST /api/config/github/webhooks/create \u2014 create the org/repo hook through the App when hook permissions are granted",
-        "url": "https://github.com/hivecommons/hive/issues/18028",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-12T23:10:55Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] dashboard: owner API GET /api/config/github/webhooks and POST .../webhooks/secret (generate, store 0600, return once)",
-        "url": "https://github.com/hivecommons/hive/issues/18026",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-12T23:10:07Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] github: WebhookSecret() reads GITHUB_WEBHOOK_SECRET else /data/github-webhook-secret.key (0600), receiver and status use it",
-        "url": "https://github.com/hivecommons/hive/issues/18025",
-        "labels": [
-            "help wanted",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-12T23:09:19Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] docs: project.reference_repos in operator-reference, agent-configuration, github-write-surface and hive.yaml.example",
-        "url": "https://github.com/hivecommons/hive/issues/18022",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-12T22:59:19Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] dashboard: show reference repos with a reference \u00b7 read-only / issues+prs chip, no ACMM eval, no work items",
-        "url": "https://github.com/hivecommons/hive/issues/18021",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-12T22:58:58Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] kicks: list reference repos as read-only reference material and keep items that cite them in scope",
-        "url": "https://github.com/hivecommons/hive/issues/18020",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-12T22:58:38Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[scanner] proxy: reference_repos read-only tier \u2014 allow public GETs/clone, refuse writes with a 403 naming reference_repos",
-        "url": "https://github.com/hivecommons/hive/issues/18019",
-        "labels": [
-            "help wanted",
-            "kind/feature",
-            "agent/scanner",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-12T22:58:18Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "[scanner] project.reference_repos: config field, validation and ReferenceRepoTier accessor",
         "url": "https://github.com/hivecommons/hive/issues/18018",
         "labels": [
             "help wanted",
             "kind/feature",
             "agent/scanner",
-            "stage/010-actionable"
+            "stage/040-covered-by-pr"
         ],
         "created_at": "2026-11-12T22:57:28Z"
     },
@@ -30923,27 +30884,187 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] docs: document review.perspectives_source and add changelog fragment",
-        "url": "https://github.com/hivecommons/hive/issues/17990",
+        "title": "[scanner] \u2728 Substrate phase 3: SVID-authenticated broker delegation over the atenet mTLS channel",
+        "url": "https://github.com/hivecommons/hive/issues/17933",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/010-actionable"
+            "stage/045-needs-decision"
         ],
-        "created_at": "2026-11-12T20:47:49Z"
+        "created_at": "2026-11-12T16:34:17Z"
     },
     {
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[scanner] dashboard: show linked review perspectives source read-only in Review Gate",
-        "url": "https://github.com/hivecommons/hive/issues/17989",
+        "title": "\ud83d\udcdd Voice recorders as first-class input sources (Inbox)",
+        "url": "https://github.com/hivecommons/hive/issues/17875",
+        "labels": [
+            "help wanted",
+            "Epic",
+            "hive/verified-open",
+            "stage/010-actionable",
+            "stage/stalled",
+            "hive/partially-addressed"
+        ],
+        "created_at": "2026-11-12T06:47:33Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: Workflow models \u2014 ingest, store, edit and select a repository's workflow without changing the built-in one",
+        "url": "https://github.com/hivecommons/hive/issues/17620",
+        "labels": [
+            "help wanted",
+            "area/core",
+            "hold",
+            "kind/design",
+            "proposal"
+        ],
+        "created_at": "2026-11-11T01:37:04Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[v6] Hosted hives never get GitHub webhooks (the hub never gives them the webhook secret) \u2014 design decision",
+        "url": "https://github.com/hivecommons/hive/issues/17182",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-11-08T02:37:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: v7 - Hive for teams (shared sessions, org policy, multi-forge, entitlements, audit)",
+        "url": "https://github.com/hivecommons/hive/issues/17091",
+        "labels": [
+            "help wanted",
+            "hold",
+            "kind/design",
+            "proposal"
+        ],
+        "created_at": "2026-11-07T19:48:28Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: LLM-ranked knowledge advisor (OMP-style)",
+        "url": "https://github.com/hivecommons/hive/issues/17054",
+        "labels": [
+            "help wanted",
+            "Epic",
+            "hive/verified-open",
+            "approved-direction",
+            "proposal",
+            "hive/partially-addressed",
+            "stage/018-open-for-discussion"
+        ],
+        "created_at": "2026-11-07T18:44:04Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: cut over Crux development to hivecommons/crux on 2026-11-16",
+        "url": "https://github.com/hivecommons/hive/issues/17004",
+        "labels": [
+            "help wanted",
+            "kind/design",
+            "proposal",
+            "stage/018-open-for-discussion"
+        ],
+        "created_at": "2026-11-07T15:33:26Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: admission-side #5117 \u2014 hold unacknowledged hive-filed proposals before any kick",
+        "url": "https://github.com/hivecommons/hive/issues/15329",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "architecture discussion",
+            "needs-human",
+            "approved-direction",
+            "kind/design"
+        ],
+        "created_at": "2026-10-29T06:10:21Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd RFC: [v6] Proxy egress allowlist and brokered secrets",
+        "url": "https://github.com/hivecommons/hive/issues/14291",
+        "labels": [
+            "help wanted",
+            "hold",
+            "proposal"
+        ],
+        "created_at": "2026-10-25T19:23:11Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 [v6] Risk-tiered ACMM level holds: let test-only and docs-only agent PRs with green checks skip the human checkpoint (opt-in)",
+        "url": "https://github.com/hivecommons/hive/issues/13606",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-10-22T20:39:18Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: opt-in actions: read for agent scoped tokens (ci-maintainer can't read failed CI logs)",
+        "url": "https://github.com/hivecommons/hive/issues/10574",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "triage/accepted",
+            "hold",
+            "hive/selfreport"
+        ],
+        "created_at": "2026-10-05T13:59:07Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[scanner] v6 readiness live exercise: dashboard chat, inception via chat, standby S5-S6",
+        "url": "https://github.com/hivecommons/hive/issues/9735",
+        "labels": [
+            "help wanted",
+            "hold",
+            "needs-human",
+            "approved-direction"
+        ],
+        "created_at": "2026-09-30T04:24:45Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udcdd v6 epic + readiness bar: dashboard-optional operation \u2014 meet humans where they are",
+        "url": "https://github.com/hivecommons/hive/issues/7563",
         "labels": [
             "help wanted",
             "agent/scanner",
-            "stage/010-actionable"
+            "hold",
+            "roadmap",
+            "meta-tracker"
         ],
-        "created_at": "2026-11-12T20:47:11Z"
+        "created_at": "2026-09-18T05:32:44Z"
     },
     {
         "repo": "kaito-project/kaito",
