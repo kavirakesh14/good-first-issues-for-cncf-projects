@@ -4129,6 +4129,17 @@
         "repo": "external-secrets/external-secrets",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "Support unhealthyPodEvictionPolicy on the chart's PodDisruptionBudgets",
+        "url": "https://github.com/external-secrets/external-secrets/issues/7301",
+        "labels": [
+            "good first issue"
+        ],
+        "created_at": "2026-11-12T15:44:58Z"
+    },
+    {
+        "repo": "external-secrets/external-secrets",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "PushSecret always calls DeleteResourcePolicy on AWS Secrets Manager, even when resourcePolicy is not configured",
         "url": "https://github.com/external-secrets/external-secrets/issues/6806",
         "labels": [
@@ -6708,7 +6719,7 @@
             "os:windows",
             "roadmap",
             "state:stale",
-            "area:compute",
+            "retired:area:compute",
             "state:accepted"
         ],
         "created_at": "2026-09-22T17:49:12Z"
@@ -20835,19 +20846,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "auth: OAuth token response hard-codes expires_in: 3600, ignoring auth.backstageTokenExpiration",
-        "url": "https://github.com/backstage/backstage/issues/34985",
-        "labels": [
-            "good first issue",
-            "priority:contrib-needed",
-            "area:auth"
-        ],
-        "created_at": "2026-07-28T07:11:07Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Add analytic events to default catalog filters",
         "url": "https://github.com/backstage/backstage/issues/34907",
         "labels": [
@@ -21093,6 +21091,19 @@
             "needs:triage"
         ],
         "created_at": "2025-10-21T11:28:32Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "TechdocsPicker does not account for entities using backstage.io/techdocs-entity",
+        "url": "https://github.com/backstage/backstage/issues/30740",
+        "labels": [
+            "type:bug",
+            "good first issue",
+            "area:techdocs"
+        ],
+        "created_at": "2025-08-04T11:21:20Z"
     },
     {
         "repo": "backstage/backstage",
@@ -28832,6 +28843,32 @@
         "created_at": "2026-10-24T10:34:21Z"
     },
     {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "hwmon: zones with the same name on different devices are merged into one zone",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2639",
+        "labels": [
+            "help wanted",
+            "kind/bug",
+            "difficulty/hard"
+        ],
+        "created_at": "2026-10-22T10:53:45Z"
+    },
+    {
+        "repo": "sustainable-computing-io/kepler",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "Release workflow publishes amd64 images only; publish arm64 and a multi-arch manifest",
+        "url": "https://github.com/sustainable-computing-io/kepler/issues/2638",
+        "labels": [
+            "kind/feature",
+            "help wanted",
+            "difficulty/medium"
+        ],
+        "created_at": "2026-10-22T10:53:41Z"
+    },
+    {
         "repo": "kube-logging/logging-operator",
         "tier": "Sandbox",
         "lang": "Go",
@@ -30776,6 +30813,18 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
+        "title": "[v6] Contributor agents can read the contributor's personal GitHub token in both relay modes",
+        "url": "https://github.com/hivecommons/hive/issues/18238",
+        "labels": [
+            "help wanted",
+            "hold"
+        ],
+        "created_at": "2026-11-14T20:32:25Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
         "title": "[RFC] [v6] Contributor-only lanes: running a hive with no resident agents and no model budget",
         "url": "https://github.com/hivecommons/hive/issues/18069",
         "labels": [
@@ -30791,7 +30840,7 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[RFC] [v6] Contributor relays as reviewers: let a trusted contributor's agent take a review perspective, behind a model floor",
+        "title": "[RFC] [v6] Contributor relays as reviewers: let a trusted contributor's agent take a review perspective",
         "url": "https://github.com/hivecommons/hive/issues/18068",
         "labels": [
             "help wanted",
@@ -30801,19 +30850,6 @@
             "stage/018-open-for-discussion"
         ],
         "created_at": "2026-11-13T11:09:41Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83c\udf31 Top up v6 from v5 after #18024 lands",
-        "url": "https://github.com/hivecommons/hive/issues/18041",
-        "labels": [
-            "help wanted",
-            "triage/accepted",
-            "stage/010-actionable"
-        ],
-        "created_at": "2026-11-12T23:34:15Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30912,7 +30948,7 @@
             "help wanted",
             "kind/design",
             "proposal",
-            "stage/018-open-for-discussion"
+            "stage/045-needs-decision"
         ],
         "created_at": "2026-11-07T15:33:26Z"
     },
