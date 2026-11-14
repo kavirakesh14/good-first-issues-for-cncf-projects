@@ -2841,24 +2841,6 @@
     "subcategory": "Automation & Configuration",
     "description": "",
     "ai_related": false,
-    "title": "[Docs] Fix typos in reference docs (mesheryctl command list, GraphQL APIs, operator CRDs, providers)",
-    "url": "https://github.com/meshery/meshery/issues/23568",
-    "labels": [
-      "help wanted",
-      "area/docs",
-      "language/markdown",
-      "framework/hugo"
-    ],
-    "created_at": "2026-11-14T12:50:12Z"
-  },
-  {
-    "repo": "meshery/meshery",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Automation & Configuration",
-    "description": "",
-    "ai_related": false,
     "title": "[CI] Docs deploy (hugo.yml) can be rejected by a concurrent PR-preview push to gh-pages",
     "url": "https://github.com/meshery/meshery/issues/23163",
     "labels": [
@@ -3326,6 +3308,24 @@
       "framework/hugo"
     ],
     "created_at": "2026-07-21T03:32:54Z"
+  },
+  {
+    "repo": "meshery/meshery",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "description": "",
+    "ai_related": false,
+    "title": "[Docs] Contributing: Include contributor instructions regarding sparse cloning, excluding /models and other dirs",
+    "url": "https://github.com/meshery/meshery/issues/20837",
+    "labels": [
+      "help wanted",
+      "area/docs",
+      "language/markdown",
+      "framework/hugo"
+    ],
+    "created_at": "2026-07-21T00:03:37Z"
   },
   {
     "repo": "metal3-io/baremetal-operator",
@@ -8731,7 +8731,7 @@
       "os:windows",
       "roadmap",
       "state:stale",
-      "area:compute",
+      "retired:area:compute",
       "state:accepted"
     ],
     "created_at": "2026-09-22T17:49:12Z"
@@ -27126,23 +27126,6 @@
     "subcategory": "Application Definition & Image Build",
     "description": "Backstage is an open platform for building developer portals",
     "ai_related": false,
-    "title": "auth: OAuth token response hard-codes expires_in: 3600, ignoring auth.backstageTokenExpiration",
-    "url": "https://github.com/backstage/backstage/issues/34985",
-    "labels": [
-      "good first issue",
-      "priority:contrib-needed",
-      "area:auth"
-    ],
-    "created_at": "2026-07-28T07:11:07Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
     "title": "Add analytic events to default catalog filters",
     "url": "https://github.com/backstage/backstage/issues/34907",
     "labels": [
@@ -27456,6 +27439,23 @@
       "needs:triage"
     ],
     "created_at": "2025-10-21T11:28:32Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "TechdocsPicker does not account for entities using backstage.io/techdocs-entity",
+    "url": "https://github.com/backstage/backstage/issues/30740",
+    "labels": [
+      "type:bug",
+      "good first issue",
+      "area:techdocs"
+    ],
+    "created_at": "2025-08-04T11:21:20Z"
   },
   {
     "repo": "backstage/backstage",
@@ -37607,6 +37607,40 @@
     "created_at": "2026-10-24T10:34:21Z"
   },
   {
+    "repo": "sustainable-computing-io/kepler",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "description": "Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption at the Pod and Node level by reading hardware sensors, attributing it to containers, and giving per-workload visibility into where energy goes. Let's make every watt matter.",
+    "ai_related": false,
+    "title": "hwmon: zones with the same name on different devices are merged into one zone",
+    "url": "https://github.com/sustainable-computing-io/kepler/issues/2639",
+    "labels": [
+      "help wanted",
+      "kind/bug",
+      "difficulty/hard"
+    ],
+    "created_at": "2026-10-22T10:53:45Z"
+  },
+  {
+    "repo": "sustainable-computing-io/kepler",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "Observability and Analysis",
+    "subcategory": "Observability",
+    "description": "Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption at the Pod and Node level by reading hardware sensors, attributing it to containers, and giving per-workload visibility into where energy goes. Let's make every watt matter.",
+    "ai_related": false,
+    "title": "Release workflow publishes amd64 images only; publish arm64 and a multi-arch manifest",
+    "url": "https://github.com/sustainable-computing-io/kepler/issues/2638",
+    "labels": [
+      "kind/feature",
+      "help wanted",
+      "difficulty/medium"
+    ],
+    "created_at": "2026-10-22T10:53:41Z"
+  },
+  {
     "repo": "kube-logging/logging-operator",
     "tier": "Sandbox",
     "lang": "Go",
@@ -40143,6 +40177,22 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
+    "title": "[v6] Contributor agents can read the contributor's personal GitHub token in both relay modes",
+    "url": "https://github.com/hivecommons/hive/issues/18238",
+    "labels": [
+      "help wanted",
+      "hold"
+    ],
+    "created_at": "2026-11-14T20:32:25Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
     "title": "[RFC] [v6] Contributor-only lanes: running a hive with no resident agents and no model budget",
     "url": "https://github.com/hivecommons/hive/issues/18069",
     "labels": [
@@ -40162,7 +40212,7 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "[RFC] [v6] Contributor relays as reviewers: let a trusted contributor's agent take a review perspective, behind a model floor",
+    "title": "[RFC] [v6] Contributor relays as reviewers: let a trusted contributor's agent take a review perspective",
     "url": "https://github.com/hivecommons/hive/issues/18068",
     "labels": [
       "help wanted",
@@ -40172,23 +40222,6 @@
       "stage/018-open-for-discussion"
     ],
     "created_at": "2026-11-13T11:09:41Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "🌱 Top up v6 from v5 after #18024 lands",
-    "url": "https://github.com/hivecommons/hive/issues/18041",
-    "labels": [
-      "help wanted",
-      "triage/accepted",
-      "stage/010-actionable"
-    ],
-    "created_at": "2026-11-12T23:34:15Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40315,7 +40348,7 @@
       "help wanted",
       "kind/design",
       "proposal",
-      "stage/018-open-for-discussion"
+      "stage/045-needs-decision"
     ],
     "created_at": "2026-11-07T15:33:26Z"
   },
