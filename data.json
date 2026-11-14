@@ -2841,6 +2841,24 @@
     "subcategory": "Automation & Configuration",
     "description": "",
     "ai_related": false,
+    "title": "[Docs] Fix typos in reference docs (mesheryctl command list, GraphQL APIs, operator CRDs, providers)",
+    "url": "https://github.com/meshery/meshery/issues/23568",
+    "labels": [
+      "help wanted",
+      "area/docs",
+      "language/markdown",
+      "framework/hugo"
+    ],
+    "created_at": "2026-11-14T12:50:12Z"
+  },
+  {
+    "repo": "meshery/meshery",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "description": "",
+    "ai_related": false,
     "title": "[CI] Docs deploy (hugo.yml) can be rejected by a concurrent PR-preview push to gh-pages",
     "url": "https://github.com/meshery/meshery/issues/23163",
     "labels": [
@@ -3308,24 +3326,6 @@
       "framework/hugo"
     ],
     "created_at": "2026-07-21T03:32:54Z"
-  },
-  {
-    "repo": "meshery/meshery",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Automation & Configuration",
-    "description": "",
-    "ai_related": false,
-    "title": "[Docs] Contributing: Include contributor instructions regarding sparse cloning, excluding /models and other dirs",
-    "url": "https://github.com/meshery/meshery/issues/20837",
-    "labels": [
-      "help wanted",
-      "area/docs",
-      "language/markdown",
-      "framework/hugo"
-    ],
-    "created_at": "2026-07-21T00:03:37Z"
   },
   {
     "repo": "metal3-io/baremetal-operator",
@@ -5368,6 +5368,21 @@
       "priority/P2"
     ],
     "created_at": "2016-02-17T18:25:38Z"
+  },
+  {
+    "repo": "external-secrets/external-secrets",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Security & Compliance",
+    "description": "External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.",
+    "ai_related": false,
+    "title": "Support unhealthyPodEvictionPolicy on the chart's PodDisruptionBudgets",
+    "url": "https://github.com/external-secrets/external-secrets/issues/7301",
+    "labels": [
+      "good first issue"
+    ],
+    "created_at": "2026-11-12T15:44:58Z"
   },
   {
     "repo": "external-secrets/external-secrets",
@@ -9964,22 +9979,6 @@
       "help wanted"
     ],
     "created_at": "2015-09-30T16:40:01Z"
-  },
-  {
-    "repo": "spiffe/spire",
-    "tier": "Graduated",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Key Management",
-    "description": "The SPIFFE Runtime Environment",
-    "ai_related": false,
-    "title": "x509pop: SHA-384 support for policy-constrained deployments",
-    "url": "https://github.com/spiffe/spire/issues/7361",
-    "labels": [
-      "help wanted",
-      "priority/backlog"
-    ],
-    "created_at": "2026-10-26T09:13:04Z"
   },
   {
     "repo": "spiffe/spire",
@@ -32528,21 +32527,6 @@
     "subcategory": "Continuous Integration & Delivery",
     "description": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit",
     "ai_related": false,
-    "title": "`flux create source git` with `--password` fails to create secret",
-    "url": "https://github.com/fluxcd/flux2/issues/3892",
-    "labels": [
-      "good first issue"
-    ],
-    "created_at": "2023-05-17T16:57:35Z"
-  },
-  {
-    "repo": "fluxcd/flux2",
-    "tier": "Graduated",
-    "lang": "Go",
-    "category": "App Definition and Development",
-    "subcategory": "Continuous Integration & Delivery",
-    "description": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit",
-    "ai_related": false,
     "title": "Review and enforce CRD Validation",
     "url": "https://github.com/fluxcd/flux2/issues/2993",
     "labels": [
@@ -40188,24 +40172,6 @@
       "stage/018-open-for-discussion"
     ],
     "created_at": "2026-11-13T11:09:41Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "🌱 Upgrade Nate's techdocs hive to candidate with #18013 + reference_repos, then verify",
-    "url": "https://github.com/hivecommons/hive/issues/18042",
-    "labels": [
-      "help wanted",
-      "triage/accepted",
-      "approved-direction",
-      "stage/010-actionable"
-    ],
-    "created_at": "2026-11-12T23:34:29Z"
   },
   {
     "repo": "hivecommons/hive",
