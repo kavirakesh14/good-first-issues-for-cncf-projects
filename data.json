@@ -1713,24 +1713,6 @@
     "subcategory": "Automation & Configuration",
     "description": "Automate Kubernetes Configuration Editing",
     "ai_related": false,
-    "title": "If parent directory does not exist kpt should create it ",
-    "url": "https://github.com/kptdev/kpt/issues/2824",
-    "labels": [
-      "enhancement",
-      "good first issue",
-      "area/pkg",
-      "p2"
-    ],
-    "created_at": "2022-02-23T08:22:43Z"
-  },
-  {
-    "repo": "kptdev/kpt",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Automation & Configuration",
-    "description": "Automate Kubernetes Configuration Editing",
-    "ai_related": false,
     "title": "`kpt fn render` changes yaml integer to scientific notation ",
     "url": "https://github.com/kptdev/kpt/issues/2768",
     "labels": [
@@ -7600,8 +7582,9 @@
     "labels": [
       "enhancement",
       "good first issue",
-      "triage",
-      "Contribfest"
+      "Contribfest",
+      "area/generation",
+      "triage:decision"
     ],
     "created_at": "2026-11-07T20:57:47Z"
   },
@@ -7618,8 +7601,9 @@
     "labels": [
       "enhancement",
       "good first issue",
-      "triage",
-      "Contribfest"
+      "Contribfest",
+      "area/validation",
+      "triage:decision"
     ],
     "created_at": "2026-11-07T20:54:32Z"
   },
@@ -7638,8 +7622,9 @@
       "good first issue",
       "type:cli",
       "JMESPath",
-      "triage",
-      "cli:other"
+      "cli:other",
+      "area/cli",
+      "triage:needs-repro"
     ],
     "created_at": "2026-07-07T12:02:10Z"
   },
@@ -7656,7 +7641,8 @@
     "labels": [
       "enhancement",
       "good first issue",
-      "events"
+      "events",
+      "triage:decision"
     ],
     "created_at": "2026-03-09T13:19:12Z"
   },
@@ -7673,7 +7659,8 @@
     "labels": [
       "enhancement",
       "good first issue",
-      "type:controller"
+      "type:controller",
+      "triage:decision"
     ],
     "created_at": "2026-02-15T18:04:11Z"
   },
@@ -7690,7 +7677,8 @@
     "labels": [
       "bug",
       "good first issue",
-      "validate.cel"
+      "validate.cel",
+      "triage:needs-repro"
     ],
     "created_at": "2025-11-03T15:40:41Z"
   },
@@ -7708,48 +7696,11 @@
       "bug",
       "good first issue",
       "mutation",
-      "end user"
+      "end user",
+      "area/generation",
+      "triage:needs-repro"
     ],
     "created_at": "2025-09-05T12:07:47Z"
-  },
-  {
-    "repo": "kyverno/kyverno",
-    "tier": "Graduated",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "",
-    "ai_related": false,
-    "title": "[Bug] namespaceSelector not working 1.14.1",
-    "url": "https://github.com/kyverno/kyverno/issues/13093",
-    "labels": [
-      "bug",
-      "good first issue",
-      "validation",
-      "stale",
-      "type:clusterpolicy",
-      "type_legacy"
-    ],
-    "created_at": "2025-05-09T07:05:36Z"
-  },
-  {
-    "repo": "kyverno/kyverno",
-    "tier": "Graduated",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Security & Compliance",
-    "description": "",
-    "ai_related": false,
-    "title": "[Bug] [CLI] Kyverno test labels a test run passing if the test expects a fail but the policy a pass",
-    "url": "https://github.com/kyverno/kyverno/issues/11519",
-    "labels": [
-      "bug",
-      "good first issue",
-      "type:cli",
-      "test",
-      "cli:test"
-    ],
-    "created_at": "2024-11-04T03:33:20Z"
   },
   {
     "repo": "kyverno/kyverno",
@@ -7765,7 +7716,8 @@
       "enhancement",
       "good first issue",
       "log enhancement",
-      "type_legacy"
+      "type_legacy",
+      "triage:scope-review"
     ],
     "created_at": "2024-01-31T12:31:42Z"
   },
@@ -14662,24 +14614,6 @@
       "awaiting-maintainer"
     ],
     "created_at": "2026-05-16T18:58:33Z"
-  },
-  {
-    "repo": "agones-dev/agones",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "Orchestration & Management",
-    "subcategory": "Scheduling & Orchestration",
-    "description": "Agones is a library for hosting, running, and scaling dedicated game servers on Kubernetes.",
-    "ai_related": false,
-    "title": "Proposal: Remove `PlayerTracking` Alpha Feature",
-    "url": "https://github.com/agones-dev/agones/issues/4491",
-    "labels": [
-      "help wanted",
-      "kind/cleanup",
-      "area/user-experience",
-      "awaiting-maintainer"
-    ],
-    "created_at": "2026-03-29T22:09:43Z"
   },
   {
     "repo": "agones-dev/agones",
@@ -27000,6 +26934,58 @@
     "subcategory": "Application Definition & Image Build",
     "description": "Backstage is an open platform for building developer portals",
     "ai_related": false,
+    "title": "[Catalog Import] Migrate the `PreviewCatalogInfoComponent` component to Backstage UI (BUI)",
+    "url": "https://github.com/backstage/backstage/issues/36506",
+    "labels": [
+      "good first issue",
+      "area:catalog"
+    ],
+    "created_at": "2026-10-28T13:56:35Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "🐛 Bug Report: GitlabUrlReader.readTree/search serve a stale tree forever when merged commits are older than the path's newest commit",
+    "url": "https://github.com/backstage/backstage/issues/36155",
+    "labels": [
+      "good first issue",
+      "area:catalog",
+      "area:search",
+      "integration:gitlab"
+    ],
+    "created_at": "2026-10-13T16:49:11Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Generating TechDocs fails with error: Unsupported Python YAML tag 'tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji'",
+    "url": "https://github.com/backstage/backstage/issues/35961",
+    "labels": [
+      "type:bug",
+      "good first issue",
+      "area:techdocs",
+      "needs:triage"
+    ],
+    "created_at": "2026-10-02T08:47:47Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
     "title": "Catalog processor may throw an unbounded error payload to status and exhaust database storage",
     "url": "https://github.com/backstage/backstage/issues/35955",
     "labels": [
@@ -27026,6 +27012,21 @@
       "area:catalog"
     ],
     "created_at": "2026-09-17T06:44:15Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "OpenAPI package generation emits duplicate imports across tags and exits 0 after lint failure",
+    "url": "https://github.com/backstage/backstage/issues/35578",
+    "labels": [
+      "good first issue"
+    ],
+    "created_at": "2026-09-08T15:49:39Z"
   },
   {
     "repo": "backstage/backstage",
@@ -27107,6 +27108,25 @@
     "subcategory": "Application Definition & Image Build",
     "description": "Backstage is an open platform for building developer portals",
     "ai_related": false,
+    "title": "Corepack No Longer Part of Node as of v25",
+    "url": "https://github.com/backstage/backstage/issues/35008",
+    "labels": [
+      "type:suggestion",
+      "good first issue",
+      "no stale",
+      "needs:triage",
+      "area:framework"
+    ],
+    "created_at": "2026-07-29T23:03:22Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
     "title": "auth: OAuth token response hard-codes expires_in: 3600, ignoring auth.backstageTokenExpiration",
     "url": "https://github.com/backstage/backstage/issues/34985",
     "labels": [
@@ -27115,6 +27135,79 @@
       "area:auth"
     ],
     "created_at": "2026-07-28T07:11:07Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Add analytic events to default catalog filters",
+    "url": "https://github.com/backstage/backstage/issues/34907",
+    "labels": [
+      "type:suggestion",
+      "good first issue",
+      "area:catalog",
+      "area:events",
+      "needs:triage"
+    ],
+    "created_at": "2026-07-20T15:13:21Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "CatalogExportButton is not being exported",
+    "url": "https://github.com/backstage/backstage/issues/34820",
+    "labels": [
+      "type:bug",
+      "good first issue",
+      "area:catalog",
+      "needs:triage"
+    ],
+    "created_at": "2026-07-09T12:24:54Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Not documented changes regarding Analytics plugin API",
+    "url": "https://github.com/backstage/backstage/issues/34593",
+    "labels": [
+      "area:documentation",
+      "good first issue",
+      "domain:docs",
+      "needs:triage"
+    ],
+    "created_at": "2026-06-15T15:29:14Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Allow custom active-match logic on SidebarItem via an isActive prop",
+    "url": "https://github.com/backstage/backstage/issues/34281",
+    "labels": [
+      "type:suggestion",
+      "good first issue",
+      "area:design-system",
+      "needs:triage"
+    ],
+    "created_at": "2026-05-18T13:03:52Z"
   },
   {
     "repo": "backstage/backstage",
@@ -27133,6 +27226,237 @@
       "domain:docs"
     ],
     "created_at": "2026-05-05T21:18:55Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "NFS: User Settings to allow adding cards/tabs to the page",
+    "url": "https://github.com/backstage/backstage/issues/33330",
+    "labels": [
+      "type:suggestion",
+      "good first issue",
+      "needs:triage"
+    ],
+    "created_at": "2026-03-13T07:07:13Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "backstage-cli - info - Map package version to release",
+    "url": "https://github.com/backstage/backstage/issues/32858",
+    "labels": [
+      "type:suggestion",
+      "good first issue",
+      "area:tooling"
+    ],
+    "created_at": "2026-02-15T21:03:12Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "fetch:template does not error on missing required Cookiecutter variables when cookiecutterCompat is set to true",
+    "url": "https://github.com/backstage/backstage/issues/32834",
+    "labels": [
+      "type:bug",
+      "good first issue",
+      "area:catalog",
+      "integration:github",
+      "needs:triage"
+    ],
+    "created_at": "2026-02-13T11:14:10Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Azurite cannot be configured for the catalog",
+    "url": "https://github.com/backstage/backstage/issues/32802",
+    "labels": [
+      "type:bug",
+      "good first issue",
+      "area:catalog",
+      "integration:azure",
+      "area:framework"
+    ],
+    "created_at": "2026-02-11T18:53:27Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "gitlab:group:ensureExists fails when owner is a GitLab user namespace",
+    "url": "https://github.com/backstage/backstage/issues/32785",
+    "labels": [
+      "type:bug",
+      "good first issue",
+      "area:scaffolder",
+      "integration:gitlab",
+      "needs:triage"
+    ],
+    "created_at": "2026-02-10T13:43:52Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "[DevTools] Migrate the `ScheduledTasksContent` component to Backstage UI",
+    "url": "https://github.com/backstage/backstage/issues/32750",
+    "labels": [
+      "good first issue",
+      "needs:triage"
+    ],
+    "created_at": "2026-02-08T15:16:34Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "[DevTools] Migrate the `InfoDependenciesTable` component to Backstage Ui (BUI)",
+    "url": "https://github.com/backstage/backstage/issues/32748",
+    "labels": [
+      "good first issue",
+      "needs:triage"
+    ],
+    "created_at": "2026-02-08T15:12:46Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Backstage Template Task list filtering not applied through pagination",
+    "url": "https://github.com/backstage/backstage/issues/32353",
+    "labels": [
+      "type:bug",
+      "good first issue",
+      "area:scaffolder",
+      "needs:triage"
+    ],
+    "created_at": "2026-01-16T14:13:57Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "[golden-path] Administrator Guide: Readying for a production deployment",
+    "url": "https://github.com/backstage/backstage/issues/31752",
+    "labels": [
+      "area:documentation",
+      "good first issue",
+      "domain:docs",
+      "needs:triage"
+    ],
+    "created_at": "2025-11-13T15:18:56Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "[golden-path] Adoption Guide: Prioritizing Development",
+    "url": "https://github.com/backstage/backstage/issues/31751",
+    "labels": [
+      "area:documentation",
+      "good first issue",
+      "domain:docs",
+      "needs:triage"
+    ],
+    "created_at": "2025-11-13T15:14:04Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "[golden-path] Adoption Guide: Building organizational support",
+    "url": "https://github.com/backstage/backstage/issues/31750",
+    "labels": [
+      "area:documentation",
+      "good first issue",
+      "domain:docs",
+      "needs:triage"
+    ],
+    "created_at": "2025-11-13T15:06:07Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "[golden-path] Adoption Guide: Stories of Adoption",
+    "url": "https://github.com/backstage/backstage/issues/31749",
+    "labels": [
+      "area:documentation",
+      "good first issue",
+      "domain:docs",
+      "needs:triage"
+    ],
+    "created_at": "2025-11-13T14:49:33Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Provide possibility to preview techdocs with custom backstage app",
+    "url": "https://github.com/backstage/backstage/issues/31487",
+    "labels": [
+      "type:suggestion",
+      "good first issue",
+      "area:techdocs",
+      "needs:triage"
+    ],
+    "created_at": "2025-10-21T11:28:32Z"
   },
   {
     "repo": "backstage/backstage",
@@ -29351,23 +29675,6 @@
     "subcategory": "Application Definition & Image Build",
     "description": "The Kubernetes Package Manager",
     "ai_related": false,
-    "title": "`helm package` clobbers subcharts with different aliases and versions",
-    "url": "https://github.com/helm/helm/issues/30821",
-    "labels": [
-      "help wanted",
-      "bug",
-      "Stale"
-    ],
-    "created_at": "2025-05-01T13:41:41Z"
-  },
-  {
-    "repo": "helm/helm",
-    "tier": "Graduated",
-    "lang": "Go",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "The Kubernetes Package Manager",
-    "ai_related": false,
     "title": "Add support for `org.opencontainers.image.revision` OCI annotation/label",
     "url": "https://github.com/helm/helm/issues/30732",
     "labels": [
@@ -29405,7 +29712,8 @@
     "url": "https://github.com/helm/helm/issues/13182",
     "labels": [
       "help wanted",
-      "feature"
+      "feature",
+      "Stale"
     ],
     "created_at": "2024-07-16T08:42:33Z"
   },
@@ -39851,82 +40159,14 @@
     "subcategory": "Workflow Orchestration",
     "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
     "ai_related": true,
-    "title": "[selfreport] unclassified_error_repeated: contributor-lane automerge sweep skipped PR",
-    "url": "https://github.com/hivecommons/hive/issues/18121",
-    "labels": [
-      "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
-    ],
-    "created_at": "2026-11-13T19:24:57Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[selfreport] unclassified_error_repeated: permissions watcher: chown failed",
-    "url": "https://github.com/hivecommons/hive/issues/18120",
-    "labels": [
-      "help wanted",
-      "stage/010-actionable"
-    ],
-    "created_at": "2026-11-13T18:59:55Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "🐛 [v5] dashboard: an agent out of provider quota (Copilot \"exceeded your monthly quota\") is shown green and \"authenticated\"",
-    "url": "https://github.com/hivecommons/hive/issues/18111",
-    "labels": [
-      "help wanted",
-      "kind/bug",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
-    ],
-    "created_at": "2026-11-13T18:25:08Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "Knowledge connectors: hot-load the syncer when a connector is added via the dashboard (no hive restart)",
-    "url": "https://github.com/hivecommons/hive/issues/18091",
-    "labels": [
-      "help wanted",
-      "triage/accepted",
-      "kind/feature",
-      "stage/040-covered-by-pr"
-    ],
-    "created_at": "2026-11-13T17:12:13Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
     "title": "[RFC] [v6] Contributor-only lanes: running a hive with no resident agents and no model budget",
     "url": "https://github.com/hivecommons/hive/issues/18069",
     "labels": [
       "help wanted",
       "Epic",
       "architecture discussion",
-      "stage/010-actionable"
+      "kind/design",
+      "stage/018-open-for-discussion"
     ],
     "created_at": "2026-11-13T11:26:58Z"
   },
@@ -39944,46 +40184,10 @@
       "help wanted",
       "Epic",
       "architecture discussion",
-      "stage/010-actionable"
-    ],
-    "created_at": "2026-11-13T11:09:41Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[selfreport] inference_caller_unidentified: inference request from unidentified caller refused",
-    "url": "https://github.com/hivecommons/hive/issues/18061",
-    "labels": [
-      "help wanted",
-      "stage/040-covered-by-pr",
-      "hive/claimed-by-human"
-    ],
-    "created_at": "2026-11-13T05:22:37Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "📝 RFC: self-service registration of self-hosted Hives on a hub (GUI), with per-Hive rotatable keys and a credential fence",
-    "url": "https://github.com/hivecommons/hive/issues/18060",
-    "labels": [
-      "enhancement",
-      "help wanted",
-      "architecture discussion",
       "kind/design",
-      "hive/partially-addressed",
       "stage/018-open-for-discussion"
     ],
-    "created_at": "2026-11-13T03:28:20Z"
+    "created_at": "2026-11-13T11:09:41Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40016,63 +40220,9 @@
     "labels": [
       "help wanted",
       "triage/accepted",
-      "hive/claimed-by-scanner",
-      "stage/040-covered-by-pr"
+      "stage/010-actionable"
     ],
     "created_at": "2026-11-12T23:34:15Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[scanner] project.reference_repos: config field, validation and ReferenceRepoTier accessor",
-    "url": "https://github.com/hivecommons/hive/issues/18018",
-    "labels": [
-      "help wanted",
-      "kind/feature",
-      "agent/scanner",
-      "stage/040-covered-by-pr"
-    ],
-    "created_at": "2026-11-12T22:57:28Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[scanner] docs: document review.perspectives_source and add changelog fragment",
-    "url": "https://github.com/hivecommons/hive/issues/17990",
-    "labels": [
-      "help wanted",
-      "agent/scanner",
-      "stage/040-covered-by-pr"
-    ],
-    "created_at": "2026-11-12T20:47:49Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "✨ feature: live-link review perspectives from a GitHub file (like `definition_source`)",
-    "url": "https://github.com/hivecommons/hive/issues/17975",
-    "labels": [
-      "help wanted",
-      "triage/accepted",
-      "stage/010-actionable",
-      "hive/partially-addressed"
-    ],
-    "created_at": "2026-11-12T19:38:17Z"
   },
   {
     "repo": "hivecommons/hive",
@@ -40276,43 +40426,6 @@
     "created_at": "2026-10-05T13:59:07Z"
   },
   {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "[scanner] v6 readiness live exercise: dashboard chat, inception via chat, standby S5-S6",
-    "url": "https://github.com/hivecommons/hive/issues/9735",
-    "labels": [
-      "help wanted",
-      "hold",
-      "needs-human",
-      "approved-direction"
-    ],
-    "created_at": "2026-09-30T04:24:45Z"
-  },
-  {
-    "repo": "hivecommons/hive",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "AI Agent",
-    "subcategory": "Workflow Orchestration",
-    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-    "ai_related": true,
-    "title": "📝 v6 epic + readiness bar: dashboard-optional operation — meet humans where they are",
-    "url": "https://github.com/hivecommons/hive/issues/7563",
-    "labels": [
-      "help wanted",
-      "agent/scanner",
-      "hold",
-      "roadmap",
-      "meta-tracker"
-    ],
-    "created_at": "2026-09-18T05:32:44Z"
-  },
-  {
     "repo": "kaito-project/kaito",
     "tier": "Sandbox",
     "lang": "Go",
@@ -40384,12 +40497,45 @@
     "subcategory": "Framework",
     "description": "llm-d is a Kubernetes-native, high-performance distributed LLM inference framework built on vLLM and the Kubernetes Gateway API Inference Extension, providing intelligent inference scheduling, prefix-cache-aware routing, prefill/decode disaggregation, hierarchical KV offloading, and traffic- and hardware-aware autoscaling across NVIDIA, AMD, Intel, and Google TPU accelerators.",
     "ai_related": true,
+    "title": "llm-d-lens: An AI-Powered llm-d Extension for Easier Deployment with Optimal Configurations",
+    "url": "https://github.com/llm-d/llm-d/issues/2475",
+    "labels": [
+      "help wanted"
+    ],
+    "created_at": "2026-09-11T09:01:03Z"
+  },
+  {
+    "repo": "llm-d/llm-d",
+    "tier": "Sandbox",
+    "lang": "Python",
+    "category": "Inference",
+    "subcategory": "Framework",
+    "description": "llm-d is a Kubernetes-native, high-performance distributed LLM inference framework built on vLLM and the Kubernetes Gateway API Inference Extension, providing intelligent inference scheduling, prefix-cache-aware routing, prefill/decode disaggregation, hierarchical KV offloading, and traffic- and hardware-aware autoscaling across NVIDIA, AMD, Intel, and Google TPU accelerators.",
+    "ai_related": true,
     "title": "RFC: Fleet-level multi-cluster inference orchestration for llm-d",
     "url": "https://github.com/llm-d/llm-d/issues/2380",
     "labels": [
       "help wanted"
     ],
     "created_at": "2026-08-26T02:35:47Z"
+  },
+  {
+    "repo": "llm-d/llm-d",
+    "tier": "Sandbox",
+    "lang": "Python",
+    "category": "Inference",
+    "subcategory": "Framework",
+    "description": "llm-d is a Kubernetes-native, high-performance distributed LLM inference framework built on vLLM and the Kubernetes Gateway API Inference Extension, providing intelligent inference scheduling, prefix-cache-aware routing, prefill/decode disaggregation, hierarchical KV offloading, and traffic- and hardware-aware autoscaling across NVIDIA, AMD, Intel, and Google TPU accelerators.",
+    "ai_related": true,
+    "title": "[Tracker] Deprecate llm-d images",
+    "url": "https://github.com/llm-d/llm-d/issues/2338",
+    "labels": [
+      "help wanted",
+      "official-guides",
+      "CI/CD",
+      "Image builds"
+    ],
+    "created_at": "2026-08-20T15:56:41Z"
   },
   {
     "repo": "llm-d/llm-d",
