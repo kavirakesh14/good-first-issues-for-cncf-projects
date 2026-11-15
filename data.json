@@ -8063,6 +8063,198 @@
         "repo": "CurvineIO/curvine",
         "tier": "Sandbox",
         "lang": "Rust",
+        "title": "[DOCS] Comment out the placeholder NVMe-oF targets in etc/curvine-cluster.toml",
+        "url": "https://github.com/CurvineIO/curvine/issues/2156",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:27:39Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[DOCS] Add a crate map for the workspace under crates/",
+        "url": "https://github.com/CurvineIO/curvine/issues/2155",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:27:36Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[TEST] Add unit tests for cv fs chmod and chown argument parsing",
+        "url": "https://github.com/CurvineIO/curvine/issues/2153",
+        "labels": [
+            "good first issue",
+            "test"
+        ],
+        "created_at": "2026-11-15T08:27:30Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Show the real build version in the Web UI overview",
+        "url": "https://github.com/CurvineIO/curvine/issues/2152",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:26:33Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[DOCS] Add a top-level README for curvine-csi",
+        "url": "https://github.com/CurvineIO/curvine/issues/2151",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:26:30Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[DOCS] Replace the Vue CLI boilerplate in curvine-web/webui/README.md",
+        "url": "https://github.com/CurvineIO/curvine/issues/2150",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:26:28Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[DOCS] Update .github/workflows/README.md to match the current workflows",
+        "url": "https://github.com/CurvineIO/curvine/issues/2149",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:26:25Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[DOCS] Complete the empty \"Integrated with Master\" section in the S3 gateway README",
+        "url": "https://github.com/CurvineIO/curvine/issues/2148",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:25:36Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[DOCS] Fix the Python SDK source-build instructions",
+        "url": "https://github.com/CurvineIO/curvine/issues/2147",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:25:33Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[DOCS] Fix the build and test commands in CONTRIBUTING.md",
+        "url": "https://github.com/CurvineIO/curvine/issues/2146",
+        "labels": [
+            "documentation",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:25:30Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Add a cv fs tail command",
+        "url": "https://github.com/CurvineIO/curvine/issues/2144",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:24:42Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Accept multiple paths in cv fs du",
+        "url": "https://github.com/CurvineIO/curvine/issues/2143",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:24:38Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Add --json output to cv fs stat",
+        "url": "https://github.com/CurvineIO/curvine/issues/2142",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:24:35Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Support symbolic + and - modes in cv fs chmod",
+        "url": "https://github.com/CurvineIO/curvine/issues/2141",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:24:32Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Add -f/--force to cv fs rm",
+        "url": "https://github.com/CurvineIO/curvine/issues/2140",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:23:26Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
+        "title": "[FEATURE] Add --offset and --length to cv fs cat",
+        "url": "https://github.com/CurvineIO/curvine/issues/2139",
+        "labels": [
+            "enhancement",
+            "good first issue"
+        ],
+        "created_at": "2026-11-15T08:23:23Z"
+    },
+    {
+        "repo": "CurvineIO/curvine",
+        "tier": "Sandbox",
+        "lang": "Rust",
         "title": "[DOCS] Add supported versions and GitHub private reporting to SECURITY.md",
         "url": "https://github.com/CurvineIO/curvine/issues/2029",
         "labels": [
@@ -21100,6 +21292,18 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-HONONODESERVER-22552120]",
+        "url": "https://github.com/backstage/backstage/issues/36857",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-15T12:12:13Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-BASICFTP-22549670]",
         "url": "https://github.com/backstage/backstage/issues/36853",
         "labels": [
@@ -21443,18 +21647,6 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:28Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-APIDEVTOOLSJSONSCHEMAREFPARSER-17937352]",
-        "url": "https://github.com/backstage/backstage/issues/36409",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:27Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -28800,19 +28992,6 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Make the stdout exporter interval configurable",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2674",
-        "labels": [
-            "kind/feature",
-            "good first issue",
-            "difficulty/easy"
-        ],
-        "created_at": "2026-10-26T12:52:45Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Split `internal/device/hwmon_power_meter.go` into smaller files",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2634",
         "labels": [
@@ -30800,6 +30979,61 @@
             "help wanted"
         ],
         "created_at": "2024-09-18T19:24:38Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "[selfreport] forge_unreachable: github host unreachable during token mint: minting scoped token for quality: cr\u2026",
+        "url": "https://github.com/hivecommons/hive/issues/18262",
+        "labels": [
+            "help wanted",
+            "stage/040-covered-by-pr",
+            "hive/claimed-by-human"
+        ],
+        "created_at": "2026-11-15T12:59:06Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature: Dashboard chat: support sending a full !inception interview as one multi-line message",
+        "url": "https://github.com/hivecommons/hive/issues/18261",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "needs-triage",
+            "stage/015-triage-needed"
+        ],
+        "created_at": "2026-11-15T12:51:48Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: inception scaffold ignores the answered language and generates Go",
+        "url": "https://github.com/hivecommons/hive/issues/18260",
+        "labels": [
+            "bug",
+            "help wanted",
+            "needs-triage",
+            "stage/015-triage-needed"
+        ],
+        "created_at": "2026-11-15T12:15:58Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 feature[v6]: Dashboard Chat:  report scaffold file count and download path on inception approve",
+        "url": "https://github.com/hivecommons/hive/issues/18259",
+        "labels": [
+            "enhancement",
+            "help wanted",
+            "needs-triage",
+            "stage/015-triage-needed"
+        ],
+        "created_at": "2026-11-15T11:21:53Z"
     },
     {
         "repo": "hivecommons/hive",
