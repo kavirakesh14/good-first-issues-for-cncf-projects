@@ -6703,8 +6703,9 @@
         "url": "https://github.com/NVIDIA/OpenShell/issues/3679",
         "labels": [
             "help wanted",
-            "area:build",
-            "topic:testing"
+            "topic:testing",
+            "area:platform",
+            "topic:reliability"
         ],
         "created_at": "2026-09-24T22:39:51Z"
     },
@@ -6716,11 +6717,14 @@
         "url": "https://github.com/NVIDIA/OpenShell/issues/3560",
         "labels": [
             "help wanted",
+            "topic:security",
             "os:windows",
             "roadmap",
             "state:stale",
-            "retired:area:compute",
-            "state:accepted"
+            "state:accepted",
+            "area:drivers",
+            "topic:documentation",
+            "topic:operability"
         ],
         "created_at": "2026-09-22T17:49:12Z"
     },
@@ -11259,19 +11263,6 @@
             "awaiting-maintainer"
         ],
         "created_at": "2026-01-03T21:09:33Z"
-    },
-    {
-        "repo": "agones-dev/agones",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[Question] Why does memory usage increase over time when running Agones SDK Health checks in a Go gRPC server?",
-        "url": "https://github.com/agones-dev/agones/issues/4210",
-        "labels": [
-            "help wanted",
-            "stale",
-            "obsolete"
-        ],
-        "created_at": "2025-06-22T23:37:25Z"
     },
     {
         "repo": "agones-dev/agones",
@@ -21109,6 +21100,42 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BASICFTP-22549670]",
+        "url": "https://github.com/backstage/backstage/issues/36853",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-15T00:13:17Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-BASICFTP-22549672]",
+        "url": "https://github.com/backstage/backstage/issues/36852",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-15T00:13:14Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-HONONODESERVER-22549644]",
+        "url": "https://github.com/backstage/backstage/issues/36851",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-11-15T00:13:03Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-22409044]",
         "url": "https://github.com/backstage/backstage/issues/36756",
         "labels": [
@@ -21430,42 +21457,6 @@
         "created_at": "2026-10-22T16:29:27Z"
     },
     {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21185768]",
-        "url": "https://github.com/backstage/backstage/issues/36408",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:27Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21181019]",
-        "url": "https://github.com/backstage/backstage/issues/36407",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:26Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-HTTPCACHESEMANTICS-19964064]",
-        "url": "https://github.com/backstage/backstage/issues/36404",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-10-22T16:29:25Z"
-    },
-    {
         "repo": "buildpacks/pack",
         "tier": "Graduated",
         "lang": "Go",
@@ -21641,19 +21632,6 @@
             "status/ready"
         ],
         "created_at": "2026-03-31T11:28:19Z"
-    },
-    {
-        "repo": "buildpacks/pack",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Address breaking changes to go packages in docker 29.0.0 release",
-        "url": "https://github.com/buildpacks/pack/issues/2470",
-        "labels": [
-            "help wanted",
-            "type/chore",
-            "status/ready"
-        ],
-        "created_at": "2025-11-18T16:03:25Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -21983,6 +21961,20 @@
             "status/ready"
         ],
         "created_at": "2023-05-24T08:59:53Z"
+    },
+    {
+        "repo": "buildpacks/pack",
+        "tier": "Graduated",
+        "lang": "Go",
+        "title": "Pack build on windows fails when using `--report-output-dir`",
+        "url": "https://github.com/buildpacks/pack/issues/1731",
+        "labels": [
+            "type/bug",
+            "help wanted",
+            "os/windows",
+            "status/ready"
+        ],
+        "created_at": "2023-04-19T14:20:27Z"
     },
     {
         "repo": "carvel-dev/ytt",
@@ -30868,22 +30860,6 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "\ud83d\udcdd Voice recorders as first-class input sources (Inbox)",
-        "url": "https://github.com/hivecommons/hive/issues/17875",
-        "labels": [
-            "help wanted",
-            "Epic",
-            "hive/verified-open",
-            "stage/010-actionable",
-            "stage/stalled",
-            "hive/partially-addressed"
-        ],
-        "created_at": "2026-11-12T06:47:33Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "\ud83d\udcdd RFC: Workflow models \u2014 ingest, store, edit and select a repository's workflow without changing the built-in one",
         "url": "https://github.com/hivecommons/hive/issues/17620",
         "labels": [
@@ -31041,7 +31017,8 @@
         "labels": [
             "good first issue",
             "stale-warning-1",
-            "stale-warning-2"
+            "stale-warning-2",
+            "stale-warning-3"
         ],
         "created_at": "2026-05-22T05:37:27Z"
     },
