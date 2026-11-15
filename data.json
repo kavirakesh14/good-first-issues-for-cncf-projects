@@ -9165,20 +9165,6 @@
         "created_at": "2020-06-02T06:04:15Z"
     },
     {
-        "repo": "rook/rook",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Allow versioning to be enabled via ObjectBucketClaim",
-        "url": "https://github.com/rook/rook/issues/17318",
-        "labels": [
-            "feature",
-            "help wanted",
-            "wontfix",
-            "needs-design-document"
-        ],
-        "created_at": "2026-04-07T04:45:04Z"
-    },
-    {
         "repo": "velero-io/velero",
         "tier": "Sandbox",
         "lang": "Go",
@@ -21292,18 +21278,6 @@
         "repo": "backstage/backstage",
         "tier": "Incubating",
         "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-HONONODESERVER-22552120]",
-        "url": "https://github.com/backstage/backstage/issues/36857",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-11-15T12:12:13Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
         "title": "Snyk vulnerability [SNYK-JS-BASICFTP-22549670]",
         "url": "https://github.com/backstage/backstage/issues/36853",
         "labels": [
@@ -21323,18 +21297,6 @@
             "help wanted"
         ],
         "created_at": "2026-11-15T00:13:14Z"
-    },
-    {
-        "repo": "backstage/backstage",
-        "tier": "Incubating",
-        "lang": "TypeScript",
-        "title": "Snyk vulnerability [SNYK-JS-HONONODESERVER-22549644]",
-        "url": "https://github.com/backstage/backstage/issues/36851",
-        "labels": [
-            "snyk-vulnerability",
-            "help wanted"
-        ],
-        "created_at": "2026-11-15T00:13:03Z"
     },
     {
         "repo": "backstage/backstage",
@@ -21647,6 +21609,30 @@
             "help wanted"
         ],
         "created_at": "2026-10-22T16:29:28Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-APIDEVTOOLSJSONSCHEMAREFPARSER-17937352]",
+        "url": "https://github.com/backstage/backstage/issues/36409",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T16:29:27Z"
+    },
+    {
+        "repo": "backstage/backstage",
+        "tier": "Incubating",
+        "lang": "TypeScript",
+        "title": "Snyk vulnerability [SNYK-JS-UNDICI-21185768]",
+        "url": "https://github.com/backstage/backstage/issues/36408",
+        "labels": [
+            "snyk-vulnerability",
+            "help wanted"
+        ],
+        "created_at": "2026-10-22T16:29:27Z"
     },
     {
         "repo": "buildpacks/pack",
@@ -28732,6 +28718,17 @@
         "repo": "jaegertracing/jaeger",
         "tier": "Graduated",
         "lang": "Go",
+        "title": "Track backward-compatibility scenarios for new storage options",
+        "url": "https://github.com/jaegertracing/jaeger/issues/10187",
+        "labels": [
+            "help wanted"
+        ],
+        "created_at": "2026-11-15T21:19:06Z"
+    },
+    {
+        "repo": "jaegertracing/jaeger",
+        "tier": "Graduated",
+        "lang": "Go",
         "title": "Return durations from the MCP tools as strings, matching their inputs",
         "url": "https://github.com/jaegertracing/jaeger/issues/10076",
         "labels": [
@@ -28915,17 +28912,6 @@
         "created_at": "2022-02-24T08:35:39Z"
     },
     {
-        "repo": "jaegertracing/jaeger",
-        "tier": "Graduated",
-        "lang": "Go",
-        "title": "Storage backends for adaptive sampling",
-        "url": "https://github.com/jaegertracing/jaeger/issues/3305",
-        "labels": [
-            "help wanted"
-        ],
-        "created_at": "2021-10-05T19:12:32Z"
-    },
-    {
         "repo": "k8sgpt-ai/k8sgpt",
         "tier": "Sandbox",
         "lang": "Go",
@@ -28979,19 +28965,6 @@
         "repo": "sustainable-computing-io/kepler",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "Helm chart prints nothing after install (no NOTES.txt)",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2675",
-        "labels": [
-            "kind/feature",
-            "good first issue",
-            "difficulty/easy"
-        ],
-        "created_at": "2026-10-26T12:52:47Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
         "title": "Split `internal/device/hwmon_power_meter.go` into smaller files",
         "url": "https://github.com/sustainable-computing-io/kepler/issues/2634",
         "labels": [
@@ -29000,18 +28973,6 @@
             "difficulty/easy"
         ],
         "created_at": "2026-10-22T10:53:22Z"
-    },
-    {
-        "repo": "sustainable-computing-io/kepler",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "gpu: power after a GPU process exits is active but goes to no process",
-        "url": "https://github.com/sustainable-computing-io/kepler/issues/2666",
-        "labels": [
-            "help wanted",
-            "kind/bug"
-        ],
-        "created_at": "2026-10-24T10:34:21Z"
     },
     {
         "repo": "sustainable-computing-io/kepler",
@@ -30984,14 +30945,48 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] forge_unreachable: github host unreachable during token mint: minting scoped token for quality: cr\u2026",
-        "url": "https://github.com/hivecommons/hive/issues/18262",
+        "title": "[selfreport] unclassified_error_repeated: issue comment suppressed: per-issue bot comment budget reached",
+        "url": "https://github.com/hivecommons/hive/issues/18345",
         "labels": [
             "help wanted",
-            "stage/040-covered-by-pr",
-            "hive/claimed-by-human"
+            "kind/bug",
+            "needs-triage",
+            "fleet-report",
+            "hive/selfreport",
+            "trigger:runtime-error",
+            "origin/selfreport",
+            "stage/015-triage-needed",
+            "severity:low",
+            "class:unclassified-error-repeated"
         ],
-        "created_at": "2026-11-15T12:59:06Z"
+        "created_at": "2026-11-15T21:47:29Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "ci-flake: github.com/hivecommons/hive/pkg/dashboard.TestSessionsCreateValidation",
+        "url": "https://github.com/hivecommons/hive/issues/18324",
+        "labels": [
+            "help wanted",
+            "ci-flake",
+            "stage/010-actionable"
+        ],
+        "created_at": "2026-11-15T18:48:42Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\ud83d\udc1b bug: changelog fragments left in src/changelog.d/ never reached CHANGELOG.md (14 on v5, 81 on v6)",
+        "url": "https://github.com/hivecommons/hive/issues/18264",
+        "labels": [
+            "bug",
+            "help wanted",
+            "needs-triage",
+            "stage/015-triage-needed"
+        ],
+        "created_at": "2026-11-15T13:45:46Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31034,48 +31029,6 @@
             "stage/015-triage-needed"
         ],
         "created_at": "2026-11-15T11:21:53Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[v6] Contributor agents can read the contributor's personal GitHub token in both relay modes",
-        "url": "https://github.com/hivecommons/hive/issues/18238",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-11-14T20:32:25Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[RFC] [v6] Contributor-only lanes: running a hive with no resident agents and no model budget",
-        "url": "https://github.com/hivecommons/hive/issues/18069",
-        "labels": [
-            "help wanted",
-            "Epic",
-            "architecture discussion",
-            "kind/design",
-            "stage/018-open-for-discussion"
-        ],
-        "created_at": "2026-11-13T11:26:58Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "[RFC] [v6] Contributor relays as reviewers: let a trusted contributor's agent take a review perspective",
-        "url": "https://github.com/hivecommons/hive/issues/18068",
-        "labels": [
-            "help wanted",
-            "Epic",
-            "architecture discussion",
-            "kind/design",
-            "stage/018-open-for-discussion"
-        ],
-        "created_at": "2026-11-13T11:09:41Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31177,31 +31130,6 @@
             "kind/design"
         ],
         "created_at": "2026-10-29T06:10:21Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd RFC: [v6] Proxy egress allowlist and brokered secrets",
-        "url": "https://github.com/hivecommons/hive/issues/14291",
-        "labels": [
-            "help wanted",
-            "hold",
-            "proposal"
-        ],
-        "created_at": "2026-10-25T19:23:11Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\u2728 [v6] Risk-tiered ACMM level holds: let test-only and docs-only agent PRs with green checks skip the human checkpoint (opt-in)",
-        "url": "https://github.com/hivecommons/hive/issues/13606",
-        "labels": [
-            "help wanted",
-            "hold"
-        ],
-        "created_at": "2026-10-22T20:39:18Z"
     },
     {
         "repo": "hivecommons/hive",
