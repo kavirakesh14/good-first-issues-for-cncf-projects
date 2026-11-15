@@ -2841,24 +2841,6 @@
     "subcategory": "Automation & Configuration",
     "description": "",
     "ai_related": false,
-    "title": "[Docs] Fix broken links in contributing guides (sistent repo, CLI golden file, relocated server/meshmodel)",
-    "url": "https://github.com/meshery/meshery/issues/23616",
-    "labels": [
-      "help wanted",
-      "area/docs",
-      "language/markdown",
-      "framework/hugo"
-    ],
-    "created_at": "2026-11-15T04:46:03Z"
-  },
-  {
-    "repo": "meshery/meshery",
-    "tier": "Incubating",
-    "lang": "Go",
-    "category": "Provisioning",
-    "subcategory": "Automation & Configuration",
-    "description": "",
-    "ai_related": false,
     "title": "[CI] Docs deploy (hugo.yml) can be rejected by a concurrent PR-preview push to gh-pages",
     "url": "https://github.com/meshery/meshery/issues/23163",
     "labels": [
@@ -3326,6 +3308,24 @@
       "framework/hugo"
     ],
     "created_at": "2026-07-21T03:32:54Z"
+  },
+  {
+    "repo": "meshery/meshery",
+    "tier": "Incubating",
+    "lang": "Go",
+    "category": "Provisioning",
+    "subcategory": "Automation & Configuration",
+    "description": "",
+    "ai_related": false,
+    "title": "[Docs] Contributing: Include contributor instructions regarding sparse cloning, excluding /models and other dirs",
+    "url": "https://github.com/meshery/meshery/issues/20837",
+    "labels": [
+      "help wanted",
+      "area/docs",
+      "language/markdown",
+      "framework/hugo"
+    ],
+    "created_at": "2026-07-21T00:03:37Z"
   },
   {
     "repo": "metal3-io/baremetal-operator",
@@ -10494,6 +10494,262 @@
       "good first issue"
     ],
     "created_at": "2022-06-19T20:46:12Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[DOCS] Comment out the placeholder NVMe-oF targets in etc/curvine-cluster.toml",
+    "url": "https://github.com/CurvineIO/curvine/issues/2156",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:27:39Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[DOCS] Add a crate map for the workspace under crates/",
+    "url": "https://github.com/CurvineIO/curvine/issues/2155",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:27:36Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[TEST] Add unit tests for cv fs chmod and chown argument parsing",
+    "url": "https://github.com/CurvineIO/curvine/issues/2153",
+    "labels": [
+      "good first issue",
+      "test"
+    ],
+    "created_at": "2026-11-15T08:27:30Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[FEATURE] Show the real build version in the Web UI overview",
+    "url": "https://github.com/CurvineIO/curvine/issues/2152",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:26:33Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[DOCS] Add a top-level README for curvine-csi",
+    "url": "https://github.com/CurvineIO/curvine/issues/2151",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:26:30Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[DOCS] Replace the Vue CLI boilerplate in curvine-web/webui/README.md",
+    "url": "https://github.com/CurvineIO/curvine/issues/2150",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:26:28Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[DOCS] Update .github/workflows/README.md to match the current workflows",
+    "url": "https://github.com/CurvineIO/curvine/issues/2149",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:26:25Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[DOCS] Complete the empty \"Integrated with Master\" section in the S3 gateway README",
+    "url": "https://github.com/CurvineIO/curvine/issues/2148",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:25:36Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[DOCS] Fix the Python SDK source-build instructions",
+    "url": "https://github.com/CurvineIO/curvine/issues/2147",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:25:33Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[DOCS] Fix the build and test commands in CONTRIBUTING.md",
+    "url": "https://github.com/CurvineIO/curvine/issues/2146",
+    "labels": [
+      "documentation",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:25:30Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[FEATURE] Add a cv fs tail command",
+    "url": "https://github.com/CurvineIO/curvine/issues/2144",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:24:42Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[FEATURE] Accept multiple paths in cv fs du",
+    "url": "https://github.com/CurvineIO/curvine/issues/2143",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:24:38Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[FEATURE] Add --json output to cv fs stat",
+    "url": "https://github.com/CurvineIO/curvine/issues/2142",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:24:35Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[FEATURE] Support symbolic + and - modes in cv fs chmod",
+    "url": "https://github.com/CurvineIO/curvine/issues/2141",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:24:32Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[FEATURE] Add -f/--force to cv fs rm",
+    "url": "https://github.com/CurvineIO/curvine/issues/2140",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:23:26Z"
+  },
+  {
+    "repo": "curvineio/curvine",
+    "tier": "Sandbox",
+    "lang": "Rust",
+    "category": "Runtime",
+    "subcategory": "Cloud Native Storage",
+    "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
+    "ai_related": false,
+    "title": "[FEATURE] Add --offset and --length to cv fs cat",
+    "url": "https://github.com/CurvineIO/curvine/issues/2139",
+    "labels": [
+      "enhancement",
+      "good first issue"
+    ],
+    "created_at": "2026-11-15T08:23:23Z"
   },
   {
     "repo": "curvineio/curvine",
@@ -27484,22 +27740,6 @@
     "subcategory": "Application Definition & Image Build",
     "description": "Backstage is an open platform for building developer portals",
     "ai_related": false,
-    "title": "Snyk vulnerability [SNYK-JS-HONONODESERVER-22549644]",
-    "url": "https://github.com/backstage/backstage/issues/36851",
-    "labels": [
-      "snyk-vulnerability",
-      "help wanted"
-    ],
-    "created_at": "2026-11-15T00:13:03Z"
-  },
-  {
-    "repo": "backstage/backstage",
-    "tier": "Incubating",
-    "lang": "TypeScript",
-    "category": "App Definition and Development",
-    "subcategory": "Application Definition & Image Build",
-    "description": "Backstage is an open platform for building developer portals",
-    "ai_related": false,
     "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-22409044]",
     "url": "https://github.com/backstage/backstage/issues/36756",
     "labels": [
@@ -27918,6 +28158,22 @@
     "ai_related": false,
     "title": "Snyk vulnerability [SNYK-JS-APIDEVTOOLSJSONSCHEMAREFPARSER-17937352]",
     "url": "https://github.com/backstage/backstage/issues/36409",
+    "labels": [
+      "snyk-vulnerability",
+      "help wanted"
+    ],
+    "created_at": "2026-10-22T16:29:27Z"
+  },
+  {
+    "repo": "backstage/backstage",
+    "tier": "Incubating",
+    "lang": "TypeScript",
+    "category": "App Definition and Development",
+    "subcategory": "Application Definition & Image Build",
+    "description": "Backstage is an open platform for building developer portals",
+    "ai_related": false,
+    "title": "Snyk vulnerability [SNYK-JS-UNDICI-21185768]",
+    "url": "https://github.com/backstage/backstage/issues/36408",
     "labels": [
       "snyk-vulnerability",
       "help wanted"
@@ -37552,23 +37808,6 @@
     "subcategory": "Observability",
     "description": "Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption at the Pod and Node level by reading hardware sensors, attributing it to containers, and giving per-workload visibility into where energy goes. Let's make every watt matter.",
     "ai_related": false,
-    "title": "Make the stdout exporter interval configurable",
-    "url": "https://github.com/sustainable-computing-io/kepler/issues/2674",
-    "labels": [
-      "kind/feature",
-      "good first issue",
-      "difficulty/easy"
-    ],
-    "created_at": "2026-10-26T12:52:45Z"
-  },
-  {
-    "repo": "sustainable-computing-io/kepler",
-    "tier": "Sandbox",
-    "lang": "Go",
-    "category": "Observability and Analysis",
-    "subcategory": "Observability",
-    "description": "Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption at the Pod and Node level by reading hardware sensors, attributing it to containers, and giving per-workload visibility into where energy goes. Let's make every watt matter.",
-    "ai_related": false,
     "title": "Split `internal/device/hwmon_power_meter.go` into smaller files",
     "url": "https://github.com/sustainable-computing-io/kepler/issues/2634",
     "labels": [
@@ -40156,6 +40395,97 @@
       "help wanted"
     ],
     "created_at": "2024-09-18T19:24:38Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "[Tests] v5 test failure on 32c600e",
+    "url": "https://github.com/hivecommons/hive/issues/18321",
+    "labels": [
+      "help wanted",
+      "kind/bug",
+      "ci-failure",
+      "stage/040-covered-by-pr",
+      "hive/claimed-by-human"
+    ],
+    "created_at": "2026-11-15T18:36:38Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 bug: changelog fragments left in src/changelog.d/ never reached CHANGELOG.md (14 on v5, 81 on v6)",
+    "url": "https://github.com/hivecommons/hive/issues/18264",
+    "labels": [
+      "bug",
+      "help wanted",
+      "needs-triage",
+      "stage/015-triage-needed"
+    ],
+    "created_at": "2026-11-15T13:45:46Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "✨ feature: Dashboard chat: support sending a full !inception interview as one multi-line message",
+    "url": "https://github.com/hivecommons/hive/issues/18261",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "needs-triage",
+      "stage/015-triage-needed"
+    ],
+    "created_at": "2026-11-15T12:51:48Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "🐛 bug: inception scaffold ignores the answered language and generates Go",
+    "url": "https://github.com/hivecommons/hive/issues/18260",
+    "labels": [
+      "bug",
+      "help wanted",
+      "needs-triage",
+      "stage/015-triage-needed"
+    ],
+    "created_at": "2026-11-15T12:15:58Z"
+  },
+  {
+    "repo": "hivecommons/hive",
+    "tier": "Sandbox",
+    "lang": "Go",
+    "category": "AI Agent",
+    "subcategory": "Workflow Orchestration",
+    "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+    "ai_related": true,
+    "title": "✨ feature[v6]: Dashboard Chat:  report scaffold file count and download path on inception approve",
+    "url": "https://github.com/hivecommons/hive/issues/18259",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "needs-triage",
+      "stage/015-triage-needed"
+    ],
+    "created_at": "2026-11-15T11:21:53Z"
   },
   {
     "repo": "hivecommons/hive",
