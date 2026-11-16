@@ -195,9 +195,38 @@ def github_get(url, params=None, max_retries=3):
     return None
 
 
+def _response_json(response, expected_type, context):
+    """Decode an API response and reject unexpected payloads."""
+    try:
+        payload = response.json()
+    except ValueError as exc:
+        raise RuntimeError(f"Invalid JSON returned while {context}.") from exc
+
+    if not isinstance(payload, expected_type):
+        raise RuntimeError(
+            f"Unexpected API response while {context}: "
+            f"expected {expected_type.__name__}, got {type(payload).__name__}."
+        )
+    return payload
+
+
+def _write_json_atomically(output, output_path):
+    """Write JSON without truncating the previous file if writing fails."""
+    temp_path = f"{output_path}.tmp"
+    try:
+        with open(temp_path, "w", encoding="utf-8") as output_file:
+            json.dump(output, output_file, indent=2, ensure_ascii=False)
+            output_file.write("\n")
+        os.replace(temp_path, output_path)
+    finally:
+        if os.path.exists(temp_path):
+            os.remove(temp_path)
+
+
 def fetch_issues(repos, output_path="data.json"):
-    """Fetch open beginner issues and write the dashboard's JSON data."""
+    """Fetch all open beginner issues; never replace data after a partial fetch."""
     issue_labels = ("good first issue", "good-first-issue", "help wanted")
+    per_page = 100
     all_issues = []
     seen_issue_urls = set()
 
@@ -205,50 +234,94 @@ def fetch_issues(repos, output_path="data.json"):
         repo = meta.get("repo", repo_key)
         print(f"Checking {repo} ({meta['tier']})...")
         repo_response = github_get(f"{GITHUB_API}/repos/{repo}")
-        if repo_response is not None:
-            meta["lang"] = repo_response.json().get("language") or "Unknown"
+        if repo_response is None:
+            raise RuntimeError(
+                f"Could not fetch repository metadata for {repo}; "
+                f"{output_path} was left unchanged."
+            )
+
+        repo_data = _response_json(
+            repo_response, dict, f"reading repository metadata for {repo}"
+        )
+        meta["lang"] = repo_data.get("language") or "Unknown"
 
         for label in issue_labels:
-            response = github_get(
-                f"{GITHUB_API}/repos/{repo}/issues",
-                params={"state": "open", "labels": label, "per_page": 30},
-            )
-            if response is None:
-                continue
+            page = 1
+            while True:
+                response = github_get(
+                    f"{GITHUB_API}/repos/{repo}/issues",
+                    params={
+                        "state": "open",
+                        "labels": label,
+                        "per_page": per_page,
+                        "page": page,
+                    },
+                )
+                if response is None:
+                    raise RuntimeError(
+                        f"Could not fetch page {page} of '{label}' issues for "
+                        f"{repo}; {output_path} was left unchanged."
+                    )
 
-            for issue in response.json():
-                if "pull_request" in issue:
-                    continue
-                issue_url = issue.get("html_url")
-                if not issue_url or issue_url in seen_issue_urls:
-                    continue
+                issues_page = _response_json(
+                    response,
+                    list,
+                    f"reading page {page} of '{label}' issues for {repo}",
+                )
+                for issue in issues_page:
+                    if not isinstance(issue, dict):
+                        raise RuntimeError(
+                            f"Invalid issue record in {repo} response; "
+                            f"{output_path} was left unchanged."
+                        )
+                    if "pull_request" in issue:
+                        continue
 
-                all_issues.append({
-                    "repo": repo,
-                    "tier": meta["tier"],
-                    "lang": meta["lang"],
-                    "category": meta.get("category", ""),
-                    "subcategory": meta.get("subcategory", ""),
-                    "description": meta.get("description", ""),
-                    "ai_related": bool(meta.get("ai_related", False)),
-                    "title": issue.get("title", ""),
-                    "url": issue_url,
-                    "labels": [
-                        label_data.get("name", "")
-                        for label_data in issue.get("labels", [])
-                    ],
-                    "created_at": issue.get("created_at", ""),
-                })
-                seen_issue_urls.add(issue_url)
+                    issue_url = issue.get("html_url")
+                    if not issue_url:
+                        raise RuntimeError(
+                            f"Issue record without html_url in {repo}; "
+                            f"{output_path} was left unchanged."
+                        )
+                    if issue_url in seen_issue_urls:
+                        continue
+
+                    issue_labels_data = issue.get("labels", [])
+                    if not isinstance(issue_labels_data, list):
+                        raise RuntimeError(
+                            f"Invalid labels for issue {issue_url}; "
+                            f"{output_path} was left unchanged."
+                        )
+
+                    all_issues.append({
+                        "repo": repo,
+                        "tier": meta["tier"],
+                        "lang": meta["lang"],
+                        "category": meta.get("category", ""),
+                        "subcategory": meta.get("subcategory", ""),
+                        "description": meta.get("description", ""),
+                        "ai_related": bool(meta.get("ai_related", False)),
+                        "title": issue.get("title", ""),
+                        "url": issue_url,
+                        "labels": [
+                            label_data.get("name", "")
+                            for label_data in issue_labels_data
+                            if isinstance(label_data, dict)
+                        ],
+                        "created_at": issue.get("created_at", ""),
+                    })
+                    seen_issue_urls.add(issue_url)
+
+                if len(issues_page) < per_page:
+                    break
+                page += 1
         time.sleep(0.5)
 
     output = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
         "issues": all_issues,
     }
-    with open(output_path, "w", encoding="utf-8") as output_file:
-        json.dump(output, output_file, indent=2, ensure_ascii=False)
-        output_file.write("\n")
+    _write_json_atomically(output, output_path)
 
     print(f"Saved {len(all_issues)} beginner issues to {output_path}.")
     return output
