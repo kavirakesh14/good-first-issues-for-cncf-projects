@@ -249,6 +249,123 @@ class IssueDataPreservationTests(unittest.TestCase):
 
 
 
+class FetchFailureSafetyTests(unittest.TestCase):
+    def setUp(self):
+        self.repo = "example/project"
+        self.repos = {
+            self.repo: {
+                "repo": self.repo,
+                "tier": "Sandbox",
+                "lang": "Unknown",
+                "ai_related": False,
+            }
+        }
+        self.original_data = '{"last_updated":"previous","issues":[{"title":"keep me"}]}'
+
+    def _write_existing_data(self, directory):
+        output_path = os.path.join(directory, "data.json")
+        with open(output_path, "w", encoding="utf-8") as data_file:
+            data_file.write(self.original_data)
+        return output_path
+
+    def _assert_existing_data_unchanged(self, output_path):
+        with open(output_path, encoding="utf-8") as data_file:
+            self.assertEqual(data_file.read(), self.original_data)
+        self.assertFalse(os.path.exists(output_path + ".tmp"))
+
+    def test_all_issue_requests_failing_does_not_overwrite_existing_data(self):
+        class Response:
+            def json(self):
+                return {"language": "Python"}
+
+        def fake_github_get(url, params=None):
+            if url.endswith(f"/repos/{self.repo}"):
+                return Response()
+            return None
+
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = self._write_existing_data(directory)
+            with patch("fetcher.github_get", side_effect=fake_github_get), patch(
+                "fetcher.time.sleep"
+            ):
+                with self.assertRaisesRegex(RuntimeError, "was left unchanged"):
+                    fetch_issues(self.repos, output_path)
+            self._assert_existing_data_unchanged(output_path)
+
+    def test_partial_label_failure_does_not_overwrite_existing_data(self):
+        class Response:
+            def __init__(self, payload):
+                self.payload = payload
+
+            def json(self):
+                return self.payload
+
+        issue = {
+            "html_url": "https://github.com/example/project/issues/1",
+            "title": "Fetched issue",
+            "labels": [{"name": "good first issue"}],
+        }
+
+        def fake_github_get(url, params=None):
+            if url.endswith(f"/repos/{self.repo}"):
+                return Response({"language": "Python"})
+            if params["labels"] == "good first issue":
+                return Response([issue])
+            return None
+
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = self._write_existing_data(directory)
+            with patch("fetcher.github_get", side_effect=fake_github_get), patch(
+                "fetcher.time.sleep"
+            ):
+                with self.assertRaisesRegex(RuntimeError, "was left unchanged"):
+                    fetch_issues(self.repos, output_path)
+            self._assert_existing_data_unchanged(output_path)
+
+    def test_failed_next_page_does_not_overwrite_existing_data(self):
+        class Response:
+            def __init__(self, payload):
+                self.payload = payload
+
+            def json(self):
+                return self.payload
+
+        first_page = [
+            {
+                "html_url": f"https://github.com/example/project/issues/{number}",
+                "title": f"Issue {number}",
+                "labels": [],
+            }
+            for number in range(1, 101)
+        ]
+
+        def fake_github_get(url, params=None):
+            if url.endswith(f"/repos/{self.repo}"):
+                return Response({"language": "Python"})
+            if params["page"] == 1:
+                return Response(first_page)
+            return None
+
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = self._write_existing_data(directory)
+            with patch("fetcher.github_get", side_effect=fake_github_get), patch(
+                "fetcher.time.sleep"
+            ):
+                with self.assertRaisesRegex(RuntimeError, "page 2"):
+                    fetch_issues(self.repos, output_path)
+            self._assert_existing_data_unchanged(output_path)
+
+    def test_repository_metadata_failure_does_not_overwrite_existing_data(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = self._write_existing_data(directory)
+            with patch("fetcher.github_get", return_value=None), patch(
+                "fetcher.time.sleep"
+            ):
+                with self.assertRaisesRegex(RuntimeError, "repository metadata"):
+                    fetch_issues(self.repos, output_path)
+            self._assert_existing_data_unchanged(output_path)
+
+
 class ExistingDashboardEnrichmentTests(unittest.TestCase):
     def test_enrichment_preserves_all_existing_issue_records_and_fields(self):
         original = [
