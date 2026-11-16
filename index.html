@@ -391,6 +391,10 @@
             const card = document.createElement("div");
             card.className = "issue-card";
 
+            const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
+                "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+            })[char]);
+
             const tierClass = issue.tier
                 ? escapeHtml(issue.tier.toLowerCase())
                 : "";
@@ -403,10 +407,6 @@
                     day: "numeric"
                 }
             );
-
-            const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
-                "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
-            })[char]);
 
             const labelsHtml = (issue.labels || [])
                 .map(label => `<span class="tag issue-label">${escapeHtml(label)}</span>`)
