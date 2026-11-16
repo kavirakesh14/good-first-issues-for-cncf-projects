@@ -191,6 +191,10 @@
                 <select id="lang-filter">
                     <option value="all">All Languages</option>
                 </select>
+                <select id="ai-filter">
+                    <option value="all">All Projects</option>
+                    <option value="ai">AI Native (CNAI) Projects</option>
+                </select>
                 <select id="sort-filter">
                     <option value="newest">Newest First</option>
                     <option value="oldest">Oldest First</option>
@@ -234,6 +238,7 @@
     let currentProject = 'all';
     let currentSearch = '';
     let currentTier = 'all';
+    let currentAiFilter = 'all';
 
     async function init() {
         try {
@@ -257,6 +262,10 @@
         // Event Listeners for controls
         document.getElementById('lang-filter').addEventListener('change', renderIssues);
         document.getElementById('sort-filter').addEventListener('change', renderIssues);
+        document.getElementById('ai-filter').addEventListener('change', (e) => {
+            currentAiFilter = e.target.value;
+            renderIssues();
+        });
         
         // New Event Listeners
         document.getElementById('search-input').addEventListener('input', (e) => {
@@ -321,64 +330,116 @@
     }
 
     function renderIssues() {
-        const container = document.getElementById('issues-container');
-        const langFilter = document.getElementById('lang-filter').value;
-        const sortFilter = document.getElementById('sort-filter').value;
-        
-        // Combined Filter Logic
-        let filtered = allIssues.filter(issue => {
-            const matchesProject = currentProject === 'all' || issue.repo === currentProject;
-            const matchesLang = langFilter === 'all' || issue.lang === langFilter;
-            
-            // Tier Filter Check
-            const matchesTier = currentTier === 'all' || (issue.tier && issue.tier.toLowerCase() === currentTier);
-            
-            // Search Check (checks both repo name and issue title)
-            const searchTarget = (issue.repo + " " + issue.title).toLowerCase();
-            const matchesSearch = currentSearch === '' || searchTarget.includes(currentSearch);
+        const container = document.getElementById("issues-container");
+        const langFilter = document.getElementById("lang-filter").value;
+        const sortFilter = document.getElementById("sort-filter").value;
 
-            return matchesProject && matchesLang && matchesTier && matchesSearch;
+        // Apply all selected filters together.
+        let filtered = allIssues.filter(issue => {
+            const matchesProject =
+                currentProject === "all" || issue.repo === currentProject;
+
+            const matchesLang =
+                langFilter === "all" || issue.lang === langFilter;
+
+            const matchesTier =
+                currentTier === "all" ||
+                (issue.tier && issue.tier.toLowerCase() === currentTier);
+
+            const searchTarget =
+                (issue.repo + " " + issue.title + " " + (issue.category || "") + " " + (issue.subcategory || "") + " " + (issue.description || "")).toLowerCase();
+
+            const matchesSearch =
+                currentSearch === "" || searchTarget.includes(currentSearch);
+
+            // AI Native classification is supplied by fetcher.py from landscape metadata.
+            const matchesAi =
+                currentAiFilter === "all" || issue.ai_related === true;
+
+            return (
+                matchesProject &&
+                matchesLang &&
+                matchesTier &&
+                matchesSearch &&
+                matchesAi
+            );
         });
-        
-        // Sort
+
+        // Sort issues by creation date.
         filtered.sort((a, b) => {
             const dateA = new Date(a.created_at);
             const dateB = new Date(b.created_at);
-            return sortFilter === 'newest' ? dateB - dateA : dateA - dateB;
+
+            return sortFilter === "newest"
+                ? dateB - dateA
+                : dateA - dateB;
         });
 
-        // Render
-        container.innerHTML = '';
+        // Render the issue cards.
+        container.innerHTML = "";
+
         if (filtered.length === 0) {
-            container.innerHTML = '<p style="text-align:center; color: var(--text-muted); padding: 2rem;">No issues found matching your filters.</p>';
+            container.innerHTML = `
+                <p style="text-align: center; color: var(--text-muted); padding: 2rem;">
+                    No issues found matching your filters.
+                </p>
+            `;
             return;
         }
 
         filtered.forEach(issue => {
-            const card = document.createElement('div');
-            card.className = 'issue-card';
-            
-            const tierClass = issue.tier ? issue.tier.toLowerCase() : '';
-            const dateStr = new Date(issue.created_at).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
-            
-            const labelsHtml = issue.labels.map(label => `<span class="tag issue-label">${label}</span>`).join('');
+            const card = document.createElement("div");
+            card.className = "issue-card";
+
+            const tierClass = issue.tier
+                ? escapeHtml(issue.tier.toLowerCase())
+                : "";
+
+            const dateStr = new Date(issue.created_at).toLocaleDateString(
+                undefined,
+                {
+                    year: "numeric",
+                    month: "short",
+                    day: "numeric"
+                }
+            );
+
+            const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({
+                "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+            })[char]);
+
+            const labelsHtml = (issue.labels || [])
+                .map(label => `<span class="tag issue-label">${escapeHtml(label)}</span>`)
+                .join("");
+            const aiTag = issue.ai_related === true
+                ? '<span class="tag issue-label">AI Native</span>'
+                : "";
 
             card.innerHTML = `
                 <div class="card-header">
-                    <span class="repo-name">${issue.repo}</span>
-                    <span class="date-posted">Opened: ${dateStr}</span>
+                    <span class="repo-name">${escapeHtml(issue.repo)}</span>
+                    <span class="date-posted">Opened: ${escapeHtml(dateStr)}</span>
                 </div>
+
                 <h3 class="issue-title">
-                    <a href="${issue.url}" target="_blank" rel="noopener noreferrer">${issue.title}</a>
+                    <a
+                        href="${escapeHtml(issue.url)}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >${escapeHtml(issue.title)}</a>
                 </h3>
+
                 <div class="tags-container">
-                    <span class="tag ${tierClass}">${issue.tier}</span>
-                    <span class="tag lang">${issue.lang}</span>
+                    <span class="tag ${tierClass}">${escapeHtml(issue.tier || "Unknown")}</span>
+                    <span class="tag lang">${escapeHtml(issue.lang || "Unknown")}</span>
                 </div>
+
                 <div class="tags-container" style="margin-top: 0.5rem;">
                     ${labelsHtml}
+                    ${aiTag}
                 </div>
             `;
+
             container.appendChild(card);
         });
     }

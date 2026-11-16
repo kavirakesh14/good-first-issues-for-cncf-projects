@@ -6,7 +6,7 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch: # Allows you to manually trigger the pipeline anytime from the GitHub UI
 
-# Fixes the Node.js 20 deprecation warning across all actions
+# Keep JavaScript actions on the supported Node.js runtime.
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -33,10 +33,34 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pyyaml
 
+      - name: Run unit tests
+        run: python -m unittest discover -v
+
       - name: Execute Auto-Discovery Engine
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python fetcher.py
+
+      - name: Validate Dashboard Data
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path("data.json").read_text(encoding="utf-8"))
+          if not isinstance(data, dict) or not isinstance(data.get("issues"), list):
+              raise SystemExit("data.json must be an object containing an issues list.")
+          if not isinstance(data.get("last_updated"), str) or not data["last_updated"]:
+              raise SystemExit("data.json is missing last_updated.")
+          required = {"repo", "tier", "lang", "title", "url", "labels", "created_at", "ai_related"}
+          issues = data["issues"]
+          missing = [i for i, issue in enumerate(issues) if not isinstance(issue, dict) or not required.issubset(issue)]
+          if missing:
+              raise SystemExit(f"{len(missing)} issue records are missing required fields.")
+          ai_count = sum(issue["ai_related"] is True for issue in issues)
+          repo_count = len({issue["repo"] for issue in issues})
+          print(f"Validated {len(issues)} issues across {repo_count} repositories; {ai_count} AI Native issues.")
+          PY
 
       - name: Commit and Push Updated Data Artifacts
         run: |
