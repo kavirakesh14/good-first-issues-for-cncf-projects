@@ -118,7 +118,7 @@ def fetch_issues(repos):
 
         time.sleep(0.5)
 
- output = {
+    output = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
         "issues": all_issues
     }
