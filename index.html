@@ -163,6 +163,7 @@
 <div class="header">
     <h1>CNCF Good First Issues</h1>
     <p>Curated beginner-friendly issues from top Cloud Native projects.</p>
+    <p id="last-updated" style="font-size: 0.85rem; color: var(--text-muted); margin-top: -0.5rem;"></p>
 </div>
 
 <div class="layout">
@@ -238,12 +239,25 @@
         try {
             const response = await fetch('./data.json');
             if (response.ok) {
-                allIssues = await response.json();
+                const data = await response.json();
+                allIssues = data.issues;
+                updateLastUpdated(data.last_updated);
             } else { throw new Error("Local data.json not found"); }
         } catch (error) {
             console.log("Using fallback mock data.");
             allIssues = mockData;
         }
+
+        function updateLastUpdated(isoString) {
+        if (!isoString) return;
+        const el = document.getElementById('last-updated');
+        const date = new Date(isoString);
+        const formatted = date.toLocaleString(undefined, {
+            year: 'numeric', month: 'short', day: 'numeric',
+            hour: '2-digit', minute: '2-digit'
+        });
+        el.textContent = `Last updated: ${formatted}`;
+    }
         
         buildSidebar();
         buildLangDropdown();
