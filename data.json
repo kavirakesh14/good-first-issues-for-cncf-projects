@@ -8219,30 +8219,6 @@
         "repo": "CurvineIO/curvine",
         "tier": "Sandbox",
         "lang": "Rust",
-        "title": "[FEATURE] Support symbolic + and - modes in cv fs chmod",
-        "url": "https://github.com/CurvineIO/curvine/issues/2141",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-11-15T08:24:32Z"
-    },
-    {
-        "repo": "CurvineIO/curvine",
-        "tier": "Sandbox",
-        "lang": "Rust",
-        "title": "[FEATURE] Add -f/--force to cv fs rm",
-        "url": "https://github.com/CurvineIO/curvine/issues/2140",
-        "labels": [
-            "enhancement",
-            "good first issue"
-        ],
-        "created_at": "2026-11-15T08:23:26Z"
-    },
-    {
-        "repo": "CurvineIO/curvine",
-        "tier": "Sandbox",
-        "lang": "Rust",
         "title": "[FEATURE] Add --offset and --length to cv fs cat",
         "url": "https://github.com/CurvineIO/curvine/issues/2139",
         "labels": [
@@ -9009,6 +8985,18 @@
             "help wanted"
         ],
         "created_at": "2023-08-11T21:53:42Z"
+    },
+    {
+        "repo": "longhorn/longhorn",
+        "tier": "Incubating",
+        "lang": "Shell",
+        "title": "[BUG] Example Grafana dashboard (grafana.com #13032) shows no data / wrong counts since volume state & robustness metrics became label-based",
+        "url": "https://github.com/longhorn/longhorn/issues/14142",
+        "labels": [
+            "area/monitoring",
+            "help wanted"
+        ],
+        "created_at": "2026-09-30T19:22:39Z"
     },
     {
         "repo": "longhorn/longhorn",
@@ -30945,8 +30933,8 @@
         "repo": "hivecommons/hive",
         "tier": "Sandbox",
         "lang": "Go",
-        "title": "[selfreport] unclassified_error_repeated: issue comment suppressed: per-issue bot comment budget reached",
-        "url": "https://github.com/hivecommons/hive/issues/18345",
+        "title": "[selfreport] unclassified_error_repeated: dashboard: rejected hub-proxied request with unverified proxy proof; hub and sp\u2026",
+        "url": "https://github.com/hivecommons/hive/issues/18377",
         "labels": [
             "help wanted",
             "kind/bug",
@@ -30959,7 +30947,67 @@
             "severity:low",
             "class:unclassified-error-repeated"
         ],
-        "created_at": "2026-11-15T21:47:29Z"
+        "created_at": "2026-11-16T03:37:32Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Workflow models: model reply verbs on PR states and un-parked issues",
+        "url": "https://github.com/hivecommons/hive/issues/18357",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "kind/feature",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-11-16T02:37:56Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Workflow models: watch post-merge pipeline runs for Main CI, Release and Deploy columns",
+        "url": "https://github.com/hivecommons/hive/issues/18356",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "kind/feature",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-11-16T02:37:54Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Workflow models: emit .hive/workflows/checks.yml through a PR",
+        "url": "https://github.com/hivecommons/hive/issues/18355",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "kind/feature",
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
+        ],
+        "created_at": "2026-11-16T02:37:52Z"
+    },
+    {
+        "repo": "hivecommons/hive",
+        "tier": "Sandbox",
+        "lang": "Go",
+        "title": "\u2728 Workflow models: engine writes model state labels onto items",
+        "url": "https://github.com/hivecommons/hive/issues/18354",
+        "labels": [
+            "help wanted",
+            "triage/accepted",
+            "kind/feature",
+            "stage/040-covered-by-pr",
+            "hive/claimed-by-human"
+        ],
+        "created_at": "2026-11-16T02:37:51Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -30970,23 +31018,10 @@
         "labels": [
             "help wanted",
             "ci-flake",
-            "stage/010-actionable"
+            "hive/claimed-by-scanner",
+            "stage/020-claimed"
         ],
         "created_at": "2026-11-15T18:48:42Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udc1b bug: changelog fragments left in src/changelog.d/ never reached CHANGELOG.md (14 on v5, 81 on v6)",
-        "url": "https://github.com/hivecommons/hive/issues/18264",
-        "labels": [
-            "bug",
-            "help wanted",
-            "needs-triage",
-            "stage/015-triage-needed"
-        ],
-        "created_at": "2026-11-15T13:45:46Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31042,21 +31077,6 @@
             "stage/045-needs-decision"
         ],
         "created_at": "2026-11-12T16:34:17Z"
-    },
-    {
-        "repo": "hivecommons/hive",
-        "tier": "Sandbox",
-        "lang": "Go",
-        "title": "\ud83d\udcdd RFC: Workflow models \u2014 ingest, store, edit and select a repository's workflow without changing the built-in one",
-        "url": "https://github.com/hivecommons/hive/issues/17620",
-        "labels": [
-            "help wanted",
-            "area/core",
-            "hold",
-            "kind/design",
-            "proposal"
-        ],
-        "created_at": "2026-11-11T01:37:04Z"
     },
     {
         "repo": "hivecommons/hive",
@@ -31169,20 +31189,6 @@
             "good first issue"
         ],
         "created_at": "2025-07-17T16:55:48Z"
-    },
-    {
-        "repo": "kserve/kserve",
-        "tier": "Incubating",
-        "lang": "Go",
-        "title": "Queue-proxy readiness does not reflect agent readiness when agent sidecar is injected",
-        "url": "https://github.com/kserve/kserve/issues/5569",
-        "labels": [
-            "good first issue",
-            "stale-warning-1",
-            "stale-warning-2",
-            "stale-warning-3"
-        ],
-        "created_at": "2026-05-22T05:37:27Z"
     },
     {
         "repo": "llm-d/llm-d",
