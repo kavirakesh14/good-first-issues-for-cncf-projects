@@ -1,0 +1,137 @@
+name: Python Tests
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests pyyaml
+
+      - name: Run unit tests
+        run: python -m unittest discover -v
+
+      - name: Validate workflow YAML syntax
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import yaml
+
+          for path in Path(".github/workflows").glob("*.yml"):
+              yaml.safe_load(path.read_text(encoding="utf-8"))
+              print(f"Valid YAML: {path}")
+          PY
+
+      - name: Check dashboard JavaScript syntax
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          html = Path("index.html").read_text(encoding="utf-8")
+          match = re.search(r"<script>(.*?)</script>", html, re.DOTALL)
+          if not match:
+              raise SystemExit("Could not find the dashboard script.")
+          Path("/tmp/dashboard.js").write_text(match.group(1), encoding="utf-8")
+          PY
+          node --check /tmp/dashboard.js
+
+      - name: Smoke-test dashboard rendering and AI filter
+        run: |
+          node <<'NODE'
+          const fs = require("node:fs");
+          const vm = require("node:vm");
+
+          class Element {
+            constructor() {
+              this.children = [];
+              this.listeners = {};
+              this.value = "all";
+              this.dataset = {};
+              this.classList = { add() {}, remove() {} };
+              this.textContent = "";
+              this._innerHTML = "";
+            }
+            appendChild(child) { this.children.push(child); return child; }
+            addEventListener(name, callback) { this.listeners[name] = callback; }
+            set innerHTML(value) {
+              this._innerHTML = value;
+              if (value === "") this.children = [];
+            }
+            get innerHTML() { return this._innerHTML; }
+            get firstElementChild() { return this.children[0] || null; }
+          }
+
+          const ids = [
+            "lang-filter", "sort-filter", "ai-filter", "search-input",
+            "tier-filter", "last-updated", "project-list", "issues-container"
+          ];
+          const elements = Object.fromEntries(ids.map(id => [id, new Element()]));
+          elements["project-list"].appendChild(new Element());
+          elements["sort-filter"].value = "newest";
+
+          const document = {
+            getElementById(id) { return elements[id]; },
+            createElement() { return new Element(); },
+            querySelectorAll() { return []; }
+          };
+
+          const issues = [
+            {
+              repo: "example/ai-project", tier: "Sandbox", lang: "Python",
+              title: "AI issue", url: "https://example.com/1", labels: ["help wanted"],
+              created_at: "2026-11-16T00:00:00Z", ai_related: true
+            },
+            {
+              repo: "example/regular-project", tier: "Sandbox", lang: "Go",
+              title: "Regular issue", url: "https://example.com/2", labels: ["good first issue"],
+              created_at: "2026-11-15T00:00:00Z", ai_related: false
+            }
+          ];
+
+          const fetch = async () => ({
+            ok: true,
+            json: async () => ({
+              last_updated: "2026-11-16T00:00:00Z",
+              issues
+            })
+          });
+
+          const html = fs.readFileSync("index.html", "utf8");
+          const match = html.match(/<script>([\s\S]*?)<\/script>/);
+          if (!match) throw new Error("Dashboard script not found.");
+
+          vm.runInNewContext(match[1], { document, fetch, console, Date });
+          setTimeout(() => {
+            if (elements["issues-container"].children.length !== 2) {
+              throw new Error("Dashboard did not render both issues.");
+            }
+            elements["ai-filter"].value = "ai";
+            elements["ai-filter"].listeners.change({ target: elements["ai-filter"] });
+            if (elements["issues-container"].children.length !== 1) {
+              throw new Error("AI Native filter did not isolate the AI issue.");
+            }
+            if (!elements["last-updated"].textContent.startsWith("Last updated:")) {
+              throw new Error("Last-updated timestamp was not rendered.");
+            }
+            console.log("Dashboard render, AI filter, and last-updated smoke test passed.");
+          }, 0);
+          NODE
