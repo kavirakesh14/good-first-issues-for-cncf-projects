@@ -372,6 +372,20 @@ class FetchFailureSafetyTests(unittest.TestCase):
         self.assertEqual(result["issues"][0]["repo"], "example/available")
         self.assertEqual(result["issues"][0]["title"], "Keep this issue")
 
+    def test_repeated_github_server_errors_are_retried_then_fail(self):
+        class Response:
+            status_code = 503
+            headers = {}
+
+        with patch("fetcher.SESSION.get", return_value=Response()) as request, patch(
+            "fetcher.time.sleep"
+        ):
+            self.assertIsNone(
+                fetcher.github_get("https://api.github.com/repos/example/project")
+            )
+
+        self.assertEqual(request.call_count, 3)
+
     def test_all_issue_requests_failing_does_not_overwrite_existing_data(self):
         class Response:
             def json(self):
