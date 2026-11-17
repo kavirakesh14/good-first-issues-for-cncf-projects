@@ -189,7 +189,13 @@ def github_get(url, params=None, max_retries=3):
             reset = response.headers.get("X-RateLimit-Reset")
             wait = 2 * (attempt + 1)
             if remaining == "0" and reset:
-                wait = min(max(int(reset) - int(time.time()), 1), 60)
+                try:
+                    reset_timestamp = int(reset)
+                except (TypeError, ValueError):
+                    # Ignore malformed rate-limit metadata and use backoff.
+                    reset_timestamp = None
+                if reset_timestamp is not None:
+                    wait = min(max(reset_timestamp - int(time.time()), 1), 60)
             if attempt < max_retries - 1:
                 print(f"GitHub rate limit; waiting {wait}s before retry.")
                 time.sleep(wait)
