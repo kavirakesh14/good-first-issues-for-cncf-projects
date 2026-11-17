@@ -383,6 +383,156 @@ class FetchFailureSafetyTests(unittest.TestCase):
         self.assertEqual(result["issues"][0]["repo"], "example/available")
         self.assertEqual(result["issues"][0]["title"], "Keep this issue")
 
+    def test_repository_410_is_skipped_and_next_repository_is_processed(self):
+        class Response:
+            def __init__(self, status_code=200, payload=None):
+                self.status_code = status_code
+                self.payload = payload
+
+            def json(self):
+                return self.payload
+
+        repos = {
+            "example/gone": {
+                "repo": "example/gone",
+                "tier": "Sandbox",
+                "lang": "Unknown",
+            },
+            "example/available": {
+                "repo": "example/available",
+                "tier": "Incubating",
+                "lang": "Unknown",
+            },
+        }
+        issue = {
+            "html_url": "https://github.com/example/available/issues/3",
+            "title": "Available after HTTP 410",
+            "labels": [],
+        }
+
+        def fake_github_get(url, params=None):
+            if url.endswith("/repos/example/gone"):
+                return Response(410, {"message": "Gone"})
+            if url.endswith("/repos/example/available"):
+                return Response(200, {"language": "Python"})
+            return Response(200, [issue] if params["labels"] == "good first issue" else [])
+
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = os.path.join(directory, "data.json")
+            with patch("fetcher.github_get", side_effect=fake_github_get), patch(
+                "fetcher.time.sleep"
+            ):
+                result = fetch_issues(repos, output_path)
+
+        self.assertEqual(len(result["issues"]), 1)
+        self.assertEqual(result["issues"][0]["repo"], "example/available")
+
+    def test_issue_404_discards_partial_repository_results_and_continues(self):
+        class Response:
+            def __init__(self, status_code=200, payload=None):
+                self.status_code = status_code
+                self.payload = payload
+
+            def json(self):
+                return self.payload
+
+        repos = {
+            "example/disabled": {
+                "repo": "example/disabled",
+                "tier": "Sandbox",
+                "lang": "Unknown",
+            },
+            "example/available": {
+                "repo": "example/available",
+                "tier": "Incubating",
+                "lang": "Unknown",
+            },
+        }
+        partial_issue = {
+            "html_url": "https://github.com/example/disabled/issues/4",
+            "title": "Must be discarded",
+            "labels": [],
+        }
+        available_issue = {
+            "html_url": "https://github.com/example/available/issues/5",
+            "title": "Keep this issue",
+            "labels": [],
+        }
+
+        def fake_github_get(url, params=None):
+            if url.endswith("/repos/example/disabled") or url.endswith("/repos/example/available"):
+                return Response(200, {"language": "Python"})
+            if "/repos/example/disabled/issues" in url:
+                if params["labels"] == "good first issue":
+                    return Response(200, [partial_issue])
+                return Response(404, {"message": "Not Found"})
+            return Response(
+                200,
+                [available_issue] if params["labels"] == "good first issue" else [],
+            )
+
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = os.path.join(directory, "data.json")
+            with patch("fetcher.github_get", side_effect=fake_github_get), patch(
+                "fetcher.time.sleep"
+            ):
+                result = fetch_issues(repos, output_path)
+
+        self.assertEqual(len(result["issues"]), 1)
+        self.assertEqual(result["issues"][0]["repo"], "example/available")
+        self.assertEqual(result["issues"][0]["title"], "Keep this issue")
+
+    def test_rate_limit_responses_are_retried_then_return_failure(self):
+        class Response:
+            def __init__(self, status_code, headers):
+                self.status_code = status_code
+                self.headers = headers
+
+        scenarios = (
+            (403, {"X-RateLimit-Remaining": "0", "X-RateLimit-Reset": "1001"}),
+            (429, {}),
+            (403, {"X-RateLimit-Remaining": "0", "X-RateLimit-Reset": "invalid"}),
+        )
+        for status_code, headers in scenarios:
+            with self.subTest(status_code=status_code, headers=headers):
+                with patch(
+                    "fetcher.SESSION.get",
+                    return_value=Response(status_code, headers),
+                ) as request, patch("fetcher.time.sleep"), patch(
+                    "fetcher.time.time", return_value=1000
+                ):
+                    self.assertIsNone(
+                        fetcher.github_get(
+                            "https://api.github.com/repos/example/project"
+                        )
+                    )
+                self.assertEqual(request.call_count, 3)
+
+    def test_network_errors_are_retried_then_return_failure(self):
+        with patch(
+            "fetcher.SESSION.get",
+            side_effect=fetcher.requests.ConnectionError("connection lost"),
+        ) as request, patch("fetcher.time.sleep"):
+            self.assertIsNone(
+                fetcher.github_get("https://api.github.com/repos/example/project")
+            )
+        self.assertEqual(request.call_count, 3)
+
+    def test_repeated_server_errors_preserve_existing_data(self):
+        class Response:
+            status_code = 503
+            headers = {}
+
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = self._write_existing_data(directory)
+            with patch("fetcher.SESSION.get", return_value=Response()) as request, patch(
+                "fetcher.time.sleep"
+            ):
+                with self.assertRaisesRegex(RuntimeError, "was left unchanged"):
+                    fetch_issues(self.repos, output_path)
+            self.assertEqual(request.call_count, 3)
+            self._assert_existing_data_unchanged(output_path)
+
     def test_repeated_github_server_errors_are_retried_then_fail(self):
         class Response:
             status_code = 503
