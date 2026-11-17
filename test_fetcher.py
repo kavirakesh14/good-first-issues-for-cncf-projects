@@ -295,11 +295,19 @@ class FetchFailureSafetyTests(unittest.TestCase):
             },
         }
 
+        available_issue = {
+            "html_url": "https://github.com/example/available/issues/1",
+            "title": "Fetched after the missing repository",
+            "labels": [{"name": "good first issue"}],
+        }
+
         def fake_github_get(url, params=None):
             if url.endswith("/repos/example/missing"):
                 return Response(404, {"message": "Not Found"})
             if url.endswith("/repos/example/available"):
                 return Response(200, {"language": "Python"})
+            if params["labels"] == "good first issue":
+                return Response(200, [available_issue])
             return Response(200, [])
 
         with tempfile.TemporaryDirectory() as directory:
@@ -313,7 +321,10 @@ class FetchFailureSafetyTests(unittest.TestCase):
                 saved = json.load(data_file)
 
         self.assertEqual(saved, result)
-        self.assertEqual(result["issues"], [])
+        self.assertEqual(len(result["issues"]), 1)
+        self.assertEqual(
+            result["issues"][0]["title"], "Fetched after the missing repository"
+        )
         self.assertEqual(repos["example/available"]["lang"], "Python")
 
     def test_issues_410_discards_partial_repository_results_and_continues(self):
