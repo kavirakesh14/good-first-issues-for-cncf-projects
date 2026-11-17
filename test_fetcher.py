@@ -510,6 +510,41 @@ class FetchFailureSafetyTests(unittest.TestCase):
                     fetch_issues(repos, output_path)
             self._assert_existing_data_unchanged(output_path)
 
+    def test_all_issue_endpoints_unavailable_preserves_existing_data(self):
+        class Response:
+            def __init__(self, status_code=200, payload=None):
+                self.status_code = status_code
+                self.payload = payload
+
+            def json(self):
+                return self.payload
+
+        repos = {
+            "example/disabled-one": {
+                "repo": "example/disabled-one",
+                "tier": "Sandbox",
+                "lang": "Unknown",
+            },
+            "example/disabled-two": {
+                "repo": "example/disabled-two",
+                "tier": "Sandbox",
+                "lang": "Unknown",
+            },
+        }
+
+        def fake_github_get(url, params=None):
+            if url.endswith("/repos/example/disabled-one") or url.endswith("/repos/example/disabled-two"):
+                return Response(200, {"language": "Python"})
+            status_code = 404 if "disabled-one" in url else 410
+            return Response(status_code, {"message": "Issues unavailable"})
+
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = self._write_existing_data(directory)
+            with patch("fetcher.github_get", side_effect=fake_github_get):
+                with self.assertRaisesRegex(RuntimeError, "No repositories could be processed"):
+                    fetch_issues(repos, output_path)
+            self._assert_existing_data_unchanged(output_path)
+
     def test_empty_repository_list_preserves_existing_data(self):
         with tempfile.TemporaryDirectory() as directory:
             output_path = self._write_existing_data(directory)
