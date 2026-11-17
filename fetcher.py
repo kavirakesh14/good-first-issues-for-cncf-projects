@@ -250,6 +250,12 @@ def fetch_issues(repos, output_path="data.json"):
     per_page = 100
     all_issues = []
     seen_issue_urls = set()
+    processed_repos = 0
+
+    if not repos:
+        raise RuntimeError(
+            f"No repositories were provided; {output_path} was left unchanged."
+        )
 
     for repo_key, meta in repos.items():
         repo = meta.get("repo", repo_key)
@@ -366,9 +372,15 @@ def fetch_issues(repos, output_path="data.json"):
         if repo_unavailable:
             continue
 
+        processed_repos += 1
         all_issues.extend(repo_issues)
         seen_issue_urls.update(repo_seen_urls)
         time.sleep(0.5)
+
+    if processed_repos == 0:
+        raise RuntimeError(
+            f"No repositories could be processed; {output_path} was left unchanged."
+        )
 
     output = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
