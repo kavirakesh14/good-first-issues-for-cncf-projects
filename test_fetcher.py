@@ -482,6 +482,41 @@ class FetchFailureSafetyTests(unittest.TestCase):
         self.assertEqual(result["issues"][0]["repo"], "example/available")
         self.assertEqual(result["issues"][0]["title"], "Keep this issue")
 
+    def test_all_repositories_unavailable_preserves_existing_data(self):
+        class Response:
+            def __init__(self, status_code):
+                self.status_code = status_code
+
+        repos = {
+            "example/missing": {
+                "repo": "example/missing",
+                "tier": "Sandbox",
+                "lang": "Unknown",
+            },
+            "example/gone": {
+                "repo": "example/gone",
+                "tier": "Sandbox",
+                "lang": "Unknown",
+            },
+        }
+
+        def fake_github_get(url, params=None):
+            return Response(404 if "missing" in url else 410)
+
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = self._write_existing_data(directory)
+            with patch("fetcher.github_get", side_effect=fake_github_get):
+                with self.assertRaisesRegex(RuntimeError, "No repositories could be processed"):
+                    fetch_issues(repos, output_path)
+            self._assert_existing_data_unchanged(output_path)
+
+    def test_empty_repository_list_preserves_existing_data(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = self._write_existing_data(directory)
+            with self.assertRaisesRegex(RuntimeError, "No repositories were provided"):
+                fetch_issues({}, output_path)
+            self._assert_existing_data_unchanged(output_path)
+
     def test_rate_limit_responses_are_retried_then_return_failure(self):
         class Response:
             def __init__(self, status_code, headers):
