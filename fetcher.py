@@ -179,6 +179,11 @@ def github_get(url, params=None, max_retries=3):
         if response.status_code == 200:
             return response
 
+        # A missing/deleted repository (or disabled Issues endpoint) is a
+        # repository-level condition. Let fetch_issues decide to skip it.
+        if response.status_code in (404, 410):
+            return response
+
         if response.status_code in (403, 429):
             remaining = response.headers.get("X-RateLimit-Remaining")
             reset = response.headers.get("X-RateLimit-Reset")
@@ -187,6 +192,16 @@ def github_get(url, params=None, max_retries=3):
                 wait = min(max(int(reset) - int(time.time()), 1), 60)
             if attempt < max_retries - 1:
                 print(f"GitHub rate limit; waiting {wait}s before retry.")
+                time.sleep(wait)
+                continue
+
+        if 500 <= response.status_code <= 599:
+            if attempt < max_retries - 1:
+                wait = 2 * (attempt + 1)
+                print(
+                    f"GitHub server error ({response.status_code}); "
+                    f"retrying in {wait}s."
+                )
                 time.sleep(wait)
                 continue
 
@@ -224,7 +239,7 @@ def _write_json_atomically(output, output_path):
 
 
 def fetch_issues(repos, output_path="data.json"):
-    """Fetch all open beginner issues; never replace data after a partial fetch."""
+    """Fetch open beginner issues; skip unavailable repos and protect saved data."""
     issue_labels = ("good first issue", "good-first-issue", "help wanted")
     per_page = 100
     all_issues = []
@@ -240,10 +255,24 @@ def fetch_issues(repos, output_path="data.json"):
                 f"{output_path} was left unchanged."
             )
 
+        if getattr(repo_response, "status_code", 200) in (404, 410):
+            print(
+                f"Skipping {repo}: repository returned "
+                f"HTTP {repo_response.status_code}."
+            )
+            continue
+
         repo_data = _response_json(
             repo_response, dict, f"reading repository metadata for {repo}"
         )
         meta["lang"] = repo_data.get("language") or "Unknown"
+
+        # Keep each repository's results separate until every label/page
+        # succeeds. If Issues is disabled midway, discard this repo's partial
+        # results rather than publishing an incomplete snapshot.
+        repo_issues = []
+        repo_seen_urls = set()
+        repo_unavailable = False
 
         for label in issue_labels:
             page = 1
@@ -262,6 +291,15 @@ def fetch_issues(repos, output_path="data.json"):
                         f"Could not fetch page {page} of '{label}' issues for "
                         f"{repo}; {output_path} was left unchanged."
                     )
+
+                status_code = getattr(response, "status_code", 200)
+                if status_code in (404, 410):
+                    print(
+                        f"Skipping {repo}: its Issues endpoint returned "
+                        f"HTTP {status_code}; discarding partial results."
+                    )
+                    repo_unavailable = True
+                    break
 
                 issues_page = _response_json(
                     response,
@@ -283,7 +321,7 @@ def fetch_issues(repos, output_path="data.json"):
                             f"Issue record without html_url in {repo}; "
                             f"{output_path} was left unchanged."
                         )
-                    if issue_url in seen_issue_urls:
+                    if issue_url in seen_issue_urls or issue_url in repo_seen_urls:
                         continue
 
                     issue_labels_data = issue.get("labels", [])
@@ -293,7 +331,7 @@ def fetch_issues(repos, output_path="data.json"):
                             f"{output_path} was left unchanged."
                         )
 
-                    all_issues.append({
+                    repo_issues.append({
                         "repo": repo,
                         "tier": meta["tier"],
                         "lang": meta["lang"],
@@ -310,11 +348,20 @@ def fetch_issues(repos, output_path="data.json"):
                         ],
                         "created_at": issue.get("created_at", ""),
                     })
-                    seen_issue_urls.add(issue_url)
+                    repo_seen_urls.add(issue_url)
 
                 if len(issues_page) < per_page:
                     break
                 page += 1
+
+            if repo_unavailable:
+                break
+
+        if repo_unavailable:
+            continue
+
+        all_issues.extend(repo_issues)
+        seen_issue_urls.update(repo_seen_urls)
         time.sleep(0.5)
 
     output = {
