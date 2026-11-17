@@ -273,6 +273,105 @@ class FetchFailureSafetyTests(unittest.TestCase):
             self.assertEqual(data_file.read(), self.original_data)
         self.assertFalse(os.path.exists(output_path + ".tmp"))
 
+    def test_repository_404_is_skipped_and_next_repository_is_processed(self):
+        class Response:
+            def __init__(self, status_code=200, payload=None):
+                self.status_code = status_code
+                self.payload = payload
+
+            def json(self):
+                return self.payload
+
+        repos = {
+            "example/missing": {
+                "repo": "example/missing",
+                "tier": "Sandbox",
+                "lang": "Unknown",
+            },
+            "example/available": {
+                "repo": "example/available",
+                "tier": "Incubating",
+                "lang": "Unknown",
+            },
+        }
+
+        def fake_github_get(url, params=None):
+            if url.endswith("/repos/example/missing"):
+                return Response(404, {"message": "Not Found"})
+            if url.endswith("/repos/example/available"):
+                return Response(200, {"language": "Python"})
+            return Response(200, [])
+
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = os.path.join(directory, "data.json")
+            with patch("fetcher.github_get", side_effect=fake_github_get), patch(
+                "fetcher.time.sleep"
+            ):
+                result = fetch_issues(repos, output_path)
+
+            with open(output_path, encoding="utf-8") as data_file:
+                saved = json.load(data_file)
+
+        self.assertEqual(saved, result)
+        self.assertEqual(result["issues"], [])
+        self.assertEqual(repos["example/available"]["lang"], "Python")
+
+    def test_issues_410_discards_partial_repository_results_and_continues(self):
+        class Response:
+            def __init__(self, status_code=200, payload=None):
+                self.status_code = status_code
+                self.payload = payload
+
+            def json(self):
+                return self.payload
+
+        repos = {
+            "example/disabled": {
+                "repo": "example/disabled",
+                "tier": "Sandbox",
+                "lang": "Unknown",
+            },
+            "example/available": {
+                "repo": "example/available",
+                "tier": "Incubating",
+                "lang": "Unknown",
+            },
+        }
+        partial_issue = {
+            "html_url": "https://github.com/example/disabled/issues/1",
+            "title": "Must be discarded",
+            "labels": [],
+        }
+        available_issue = {
+            "html_url": "https://github.com/example/available/issues/2",
+            "title": "Keep this issue",
+            "labels": [{"name": "good first issue"}],
+        }
+
+        def fake_github_get(url, params=None):
+            if url.endswith("/repos/example/disabled"):
+                return Response(200, {"language": "Python"})
+            if url.endswith("/repos/example/available"):
+                return Response(200, {"language": "Go"})
+            if "/repos/example/disabled/issues" in url:
+                if params["labels"] == "good first issue":
+                    return Response(200, [partial_issue])
+                return Response(410, {"message": "Gone"})
+            if params["labels"] == "good first issue":
+                return Response(200, [available_issue])
+            return Response(200, [])
+
+        with tempfile.TemporaryDirectory() as directory:
+            output_path = os.path.join(directory, "data.json")
+            with patch("fetcher.github_get", side_effect=fake_github_get), patch(
+                "fetcher.time.sleep"
+            ):
+                result = fetch_issues(repos, output_path)
+
+        self.assertEqual(len(result["issues"]), 1)
+        self.assertEqual(result["issues"][0]["repo"], "example/available")
+        self.assertEqual(result["issues"][0]["title"], "Keep this issue")
+
     def test_all_issue_requests_failing_does_not_overwrite_existing_data(self):
         class Response:
             def json(self):
