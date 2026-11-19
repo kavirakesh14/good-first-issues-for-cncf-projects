@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18T23:50:59.378287+00:00",
+  "last_updated": "2026-11-19T05:24:17.547783+00:00",
   "issues": [
     {
       "repo": "project-akri/akri",
@@ -20965,22 +20965,6 @@
       "subcategory": "Cloud Native Storage",
       "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
       "ai_related": false,
-      "title": "[BUG]: cv fs blocks --format silently accepts invalid values",
-      "url": "https://github.com/CurvineIO/curvine/issues/2257",
-      "labels": [
-        "bug",
-        "good first issue"
-      ],
-      "created_at": "2026-11-18T11:10:16Z"
-    },
-    {
-      "repo": "CurvineIO/curvine",
-      "tier": "Sandbox",
-      "lang": "Rust",
-      "category": "Runtime",
-      "subcategory": "Cloud Native Storage",
-      "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-      "ai_related": false,
       "title": "[BUG]: cv duration parsing panics on non-ASCII suffixes",
       "url": "https://github.com/CurvineIO/curvine/issues/2256",
       "labels": [
@@ -21020,38 +21004,6 @@
         "good first issue"
       ],
       "created_at": "2026-11-18T11:09:52Z"
-    },
-    {
-      "repo": "CurvineIO/curvine",
-      "tier": "Sandbox",
-      "lang": "Rust",
-      "category": "Runtime",
-      "subcategory": "Cloud Native Storage",
-      "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-      "ai_related": false,
-      "title": "[DOCS] Make the S3 gateway development instructions runnable",
-      "url": "https://github.com/CurvineIO/curvine/issues/2253",
-      "labels": [
-        "documentation",
-        "good first issue"
-      ],
-      "created_at": "2026-11-18T11:09:48Z"
-    },
-    {
-      "repo": "CurvineIO/curvine",
-      "tier": "Sandbox",
-      "lang": "Rust",
-      "category": "Runtime",
-      "subcategory": "Cloud Native Storage",
-      "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-      "ai_related": false,
-      "title": "[DOCS] Correct the CSI volume-expansion claims across READMEs",
-      "url": "https://github.com/CurvineIO/curvine/issues/2252",
-      "labels": [
-        "documentation",
-        "good first issue"
-      ],
-      "created_at": "2026-11-18T11:09:38Z"
     },
     {
       "repo": "CurvineIO/curvine",
@@ -69557,6 +69509,22 @@
       "subcategory": "Continuous Integration & Delivery",
       "description": "A developer platform for Kubernetes that delivers higher-level abstractions with a Backstage-powered portal, CI/CD, GitOps, and built-in observability.",
       "ai_related": false,
+      "title": "openchoreo-api: authorize Component and Resource updates against the stored object",
+      "url": "https://github.com/openchoreo/openchoreo/issues/5197",
+      "labels": [
+        "good first issue",
+        "Type/Improvement"
+      ],
+      "created_at": "2026-10-27T05:21:23Z"
+    },
+    {
+      "repo": "openchoreo/openchoreo",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "App Definition and Development",
+      "subcategory": "Continuous Integration & Delivery",
+      "description": "A developer platform for Kubernetes that delivers higher-level abstractions with a Backstage-powered portal, CI/CD, GitOps, and built-in observability.",
+      "ai_related": false,
       "title": "Change how the trace start time is displayed in the console",
       "url": "https://github.com/openchoreo/openchoreo/issues/5177",
       "labels": [
@@ -79807,14 +79775,15 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
-      "title": "[selfreport] unclassified_error_repeated: merge-request watcher: merge failed, giving up after max attempts",
-      "url": "https://github.com/hivecommons/hive/issues/19174",
+      "title": "📖 ask: docs coverage and vendor checklist for Ask AI help (phase 3 of #19177)",
+      "url": "https://github.com/hivecommons/hive/issues/19182",
       "labels": [
         "help wanted",
-        "stage/040-covered-by-pr",
+        "stage/010-actionable",
+        "hive/partially-addressed",
         "hive/claimed-by-human"
       ],
-      "created_at": "2026-11-18T23:39:17Z"
+      "created_at": "2026-11-18T23:57:21Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -79824,14 +79793,14 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
-      "title": "✨ Hub: per-person, per-hive consent record, provenance for name and organization, and the consent page (phase 1 of #19088)",
-      "url": "https://github.com/hivecommons/hive/issues/19160",
+      "title": "📖 Customers: disclosure text, docs and live verification for hub import (phase 4 of #19088)",
+      "url": "https://github.com/hivecommons/hive/issues/19164",
       "labels": [
         "help wanted",
-        "stage/040-covered-by-pr",
-        "hive/claimed-by-human"
+        "hive/claimed-by-scanner",
+        "stage/020-claimed"
       ],
-      "created_at": "2026-11-18T22:54:16Z"
+      "created_at": "2026-11-18T22:54:28Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -79841,14 +79810,14 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
-      "title": "Un-park sweep silently ignores a maintainer's plain \"Decision: option N\" comment on a parked issue",
-      "url": "https://github.com/hivecommons/hive/issues/19155",
+      "title": "✨ Customers: import hub-consented fields with hub provenance, tombstones and a Settings switch (phase 3 of #19088)",
+      "url": "https://github.com/hivecommons/hive/issues/19163",
       "labels": [
         "help wanted",
-        "stage/040-covered-by-pr",
-        "hive/claimed-by-human"
+        "hive/claimed-by-scanner",
+        "stage/020-claimed"
       ],
-      "created_at": "2026-11-18T22:16:04Z"
+      "created_at": "2026-11-18T22:54:25Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -79858,84 +79827,14 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
-      "title": "[scanner] Owner-only Settings card for review_feedback.rules.* (Features, Review)",
-      "url": "https://github.com/hivecommons/hive/issues/19148",
+      "title": "✨ Hub: per-hive match endpoint that answers only for people who consented (phase 2 of #19088)",
+      "url": "https://github.com/hivecommons/hive/issues/19162",
       "labels": [
         "help wanted",
-        "agent/scanner",
-        "stage/040-covered-by-pr"
+        "hive/claimed-by-scanner",
+        "stage/020-claimed"
       ],
-      "created_at": "2026-11-18T21:22:13Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "[scanner] review_feedback.rules.* settings in hive.yaml plus owner-only Settings card",
-      "url": "https://github.com/hivecommons/hive/issues/19138",
-      "labels": [
-        "help wanted",
-        "agent/scanner",
-        "stage/020-claimed",
-        "hive/claimed-by-human"
-      ],
-      "created_at": "2026-11-18T21:10:15Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "🐛 Reviewer-stated rules are skipped once feedback is handled, in plain PR comments, and their preferences have no Settings home",
-      "url": "https://github.com/hivecommons/hive/issues/19135",
-      "labels": [
-        "help wanted",
-        "triage/accepted",
-        "stage/040-covered-by-pr"
-      ],
-      "created_at": "2026-11-18T21:04:28Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "🐛 Em-dashes still reach GitHub through agent writes on the egress proxy",
-      "url": "https://github.com/hivecommons/hive/issues/19103",
-      "labels": [
-        "help wanted",
-        "triage/accepted",
-        "stage/040-covered-by-pr",
-        "has-open-pr"
-      ],
-      "created_at": "2026-11-18T19:15:54Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "🐛 Review-feedback agent cannot reply on review threads of its own PR (proxy refuses replies, allows probe comments)",
-      "url": "https://github.com/hivecommons/hive/issues/19096",
-      "labels": [
-        "help wanted",
-        "triage/accepted",
-        "stage/040-covered-by-pr"
-      ],
-      "created_at": "2026-11-18T19:04:17Z"
+      "created_at": "2026-11-18T22:54:23Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -79985,7 +79884,9 @@
       "labels": [
         "help wanted",
         "agent/scanner",
-        "stage/040-covered-by-pr"
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human",
+        "hive/re-authored"
       ],
       "created_at": "2026-11-18T14:18:53Z"
     },
@@ -80056,7 +79957,8 @@
         "help wanted",
         "area/core",
         "approved-direction",
-        "stage/040-covered-by-pr"
+        "stage/010-actionable",
+        "hive/partially-addressed"
       ],
       "created_at": "2026-11-08T01:48:02Z"
     },
