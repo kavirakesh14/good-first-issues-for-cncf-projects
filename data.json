@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T14:48:28.761552+00:00",
+  "last_updated": "2026-11-20T23:37:11.217613+00:00",
   "issues": [
     {
       "repo": "project-akri/akri",
@@ -9130,22 +9130,6 @@
       "subcategory": "Security & Compliance",
       "description": "",
       "ai_related": false,
-      "title": "if certificate is already expired, it shown like a True",
-      "url": "https://github.com/cert-manager/cert-manager/issues/7895",
-      "labels": [
-        "help wanted",
-        "priority/important-soon"
-      ],
-      "created_at": "2025-08-04T13:36:38Z"
-    },
-    {
-      "repo": "cert-manager/cert-manager",
-      "tier": "Graduated",
-      "lang": "Go",
-      "category": "Provisioning",
-      "subcategory": "Security & Compliance",
-      "description": "",
-      "ai_related": false,
       "title": "Integration with ExternalDNS",
       "url": "https://github.com/cert-manager/cert-manager/issues/3521",
       "labels": [
@@ -9502,22 +9486,6 @@
         "low hanging fruit"
       ],
       "created_at": "2019-07-30T07:41:28Z"
-    },
-    {
-      "repo": "dexidp/dex",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "Provisioning",
-      "subcategory": "Security & Compliance",
-      "description": "OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors",
-      "ai_related": false,
-      "title": "incorrect response for github connector is user not in required org",
-      "url": "https://github.com/dexidp/dex/issues/1438",
-      "labels": [
-        "help wanted",
-        "area/connector"
-      ],
-      "created_at": "2019-04-29T11:13:18Z"
     },
     {
       "repo": "dexidp/dex",
@@ -19192,7 +19160,7 @@
       "description": "OpenShell provides secure, policy-enforced sandboxed runtimes for autonomous AI agents.",
       "ai_related": true,
       "title": "bug: managed-workspace E2E tests intermittently fail with SQLite lock contention",
-      "url": "https://github.com/ai-openshell/OpenShell/issues/3679",
+      "url": "https://github.com/ai-openshell/openshell/issues/3679",
       "labels": [
         "help wanted",
         "topic:testing",
@@ -19210,7 +19178,7 @@
       "description": "OpenShell provides secure, policy-enforced sandboxed runtimes for autonomous AI agents.",
       "ai_related": true,
       "title": "feat(driver-mxc): default MXC admission settings to what the driver can enforce",
-      "url": "https://github.com/ai-openshell/OpenShell/issues/3560",
+      "url": "https://github.com/ai-openshell/openshell/issues/3560",
       "labels": [
         "help wanted",
         "topic:security",
@@ -20608,7 +20576,8 @@
       "url": "https://github.com/spiffe/spire/issues/6447",
       "labels": [
         "help wanted",
-        "priority/backlog"
+        "priority/backlog",
+        "stale"
       ],
       "created_at": "2025-11-19T10:01:02Z"
     },
@@ -61051,6 +61020,230 @@
       "subcategory": "Application Definition & Image Build",
       "description": "Backstage is an open platform for building developer portals",
       "ai_related": false,
+      "title": "Snyk vulnerability [snyk:lic:npm:binaryextensions:Artistic-2.0]",
+      "url": "https://github.com/backstage/backstage/issues/37041",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:45Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [snyk:lic:npm:version-range:Artistic-2.0]",
+      "url": "https://github.com/backstage/backstage/issues/37040",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:44Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [snyk:lic:npm:textextensions:Artistic-2.0]",
+      "url": "https://github.com/backstage/backstage/issues/37039",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:44Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [snyk:lic:npm:editions:Artistic-2.0]",
+      "url": "https://github.com/backstage/backstage/issues/37038",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:43Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [SNYK-JS-ROLLUP-15340920]",
+      "url": "https://github.com/backstage/backstage/issues/37037",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:41Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-15353387]",
+      "url": "https://github.com/backstage/backstage/issues/37036",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:39Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [SNYK-JS-LODASH-15869625]",
+      "url": "https://github.com/backstage/backstage/issues/37035",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:39Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [SNYK-JS-JSYAML-17342520]",
+      "url": "https://github.com/backstage/backstage/issues/37034",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:38Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-15353389]",
+      "url": "https://github.com/backstage/backstage/issues/37033",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:37Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [SNYK-JS-JSYAML-17900054]",
+      "url": "https://github.com/backstage/backstage/issues/37032",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:36Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8023175]",
+      "url": "https://github.com/backstage/backstage/issues/37031",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:28Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERNODE-8454494]",
+      "url": "https://github.com/backstage/backstage/issues/37030",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:25Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [snyk:lic:npm:isomorphic-git:pgp-plugin:LGPL-3.0]",
+      "url": "https://github.com/backstage/backstage/issues/37029",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:22Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
+      "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8022917]",
+      "url": "https://github.com/backstage/backstage/issues/37028",
+      "labels": [
+        "snyk-vulnerability",
+        "help wanted"
+      ],
+      "created_at": "2026-11-20T20:12:15Z"
+    },
+    {
+      "repo": "backstage/backstage",
+      "tier": "Incubating",
+      "lang": "TypeScript",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Backstage is an open platform for building developer portals",
+      "ai_related": false,
       "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINAPPBACKEND-8163063]",
       "url": "https://github.com/backstage/backstage/issues/37011",
       "labels": [
@@ -62843,74 +63036,6 @@
       "subcategory": "Application Definition & Image Build",
       "description": "Backstage is an open platform for building developer portals",
       "ai_related": false,
-      "title": "Snyk vulnerability [snyk:lic:npm:version-range:Artistic-2.0]",
-      "url": "https://github.com/backstage/backstage/issues/35533",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:56Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
-      "title": "Snyk vulnerability [snyk:lic:npm:textextensions:Artistic-2.0]",
-      "url": "https://github.com/backstage/backstage/issues/35532",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:55Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
-      "title": "Snyk vulnerability [snyk:lic:npm:editions:Artistic-2.0]",
-      "url": "https://github.com/backstage/backstage/issues/35531",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:55Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
-      "title": "Snyk vulnerability [snyk:lic:npm:binaryextensions:Artistic-2.0]",
-      "url": "https://github.com/backstage/backstage/issues/35530",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:54Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
       "title": "Snyk vulnerability [SNYK-JS-ROLLUP-8073097]",
       "url": "https://github.com/backstage/backstage/issues/35529",
       "labels": [
@@ -62927,74 +63052,6 @@
       "subcategory": "Application Definition & Image Build",
       "description": "Backstage is an open platform for building developer portals",
       "ai_related": false,
-      "title": "Snyk vulnerability [SNYK-JS-ROLLUP-15340920]",
-      "url": "https://github.com/backstage/backstage/issues/35528",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:53Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
-      "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-15353389]",
-      "url": "https://github.com/backstage/backstage/issues/35522",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:51Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
-      "title": "Snyk vulnerability [SNYK-JS-MINIMATCH-15353387]",
-      "url": "https://github.com/backstage/backstage/issues/35521",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:51Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
-      "title": "Snyk vulnerability [SNYK-JS-LODASH-15869625]",
-      "url": "https://github.com/backstage/backstage/issues/35520",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:50Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
       "title": "Snyk vulnerability [SNYK-JS-LODASH-15869619]",
       "url": "https://github.com/backstage/backstage/issues/35519",
       "labels": [
@@ -63002,57 +63059,6 @@
         "help wanted"
       ],
       "created_at": "2026-09-05T00:10:49Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
-      "title": "Snyk vulnerability [SNYK-JS-JSYAML-17900054]",
-      "url": "https://github.com/backstage/backstage/issues/35518",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:49Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
-      "title": "Snyk vulnerability [SNYK-JS-JSYAML-17342520]",
-      "url": "https://github.com/backstage/backstage/issues/35517",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:49Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
-      "title": "Snyk vulnerability [snyk:lic:npm:isomorphic-git:pgp-plugin:LGPL-3.0]",
-      "url": "https://github.com/backstage/backstage/issues/35516",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:48Z"
     },
     {
       "repo": "backstage/backstage",
@@ -63101,57 +63107,6 @@
         "help wanted"
       ],
       "created_at": "2026-09-05T00:10:41Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
-      "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8023175]",
-      "url": "https://github.com/backstage/backstage/issues/35499",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:41Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
-      "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINTECHDOCSBACKEND-8022917]",
-      "url": "https://github.com/backstage/backstage/issues/35498",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:41Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
-      "title": "Snyk vulnerability [SNYK-JS-BACKSTAGEPLUGINSCAFFOLDERNODE-8454494]",
-      "url": "https://github.com/backstage/backstage/issues/35497",
-      "labels": [
-        "stale",
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-09-05T00:10:40Z"
     },
     {
       "repo": "backstage/backstage",
@@ -67932,6 +67887,22 @@
       "subcategory": "Application Definition & Image Build",
       "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
       "ai_related": false,
+      "title": "Dynamic RP reports schema fetch and storage failures as InvalidRequestContent",
+      "url": "https://github.com/radius-project/radius/issues/13847",
+      "labels": [
+        "good first issue",
+        "bug"
+      ],
+      "created_at": "2026-11-20T19:54:50Z"
+    },
+    {
+      "repo": "radius-project/radius",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+      "ai_related": false,
       "title": "rad credential register azure accepts an empty client ID and tenant ID",
       "url": "https://github.com/radius-project/radius/issues/13749",
       "labels": [
@@ -67940,6 +67911,57 @@
         "bug"
       ],
       "created_at": "2026-11-11T05:30:10Z"
+    },
+    {
+      "repo": "radius-project/radius",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+      "ai_related": false,
+      "title": "Schema lookup helpers panic on parser-accepted IDs without a UCP plane",
+      "url": "https://github.com/radius-project/radius/issues/13744",
+      "labels": [
+        "good first issue",
+        "triaged",
+        "bug"
+      ],
+      "created_at": "2026-11-11T00:27:01Z"
+    },
+    {
+      "repo": "radius-project/radius",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+      "ai_related": false,
+      "title": "Dynamic RP treats schema service failures as an absent schema",
+      "url": "https://github.com/radius-project/radius/issues/13743",
+      "labels": [
+        "good first issue",
+        "triaged",
+        "bug"
+      ],
+      "created_at": "2026-11-11T00:26:52Z"
+    },
+    {
+      "repo": "radius-project/radius",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+      "ai_related": false,
+      "title": "rad bicep generate-kubernetes-manifest help example uses a nonexistent --resource-group flag",
+      "url": "https://github.com/radius-project/radius/issues/13585",
+      "labels": [
+        "good first issue",
+        "triaged",
+        "bug"
+      ],
+      "created_at": "2026-10-30T18:45:25Z"
     },
     {
       "repo": "radius-project/radius",
@@ -67958,6 +67980,57 @@
         "bug"
       ],
       "created_at": "2026-10-26T19:10:16Z"
+    },
+    {
+      "repo": "radius-project/radius",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+      "ai_related": false,
+      "title": "Terraform Debug Logging Workaround: OS-Restricted Environment Variables in terraform-exec",
+      "url": "https://github.com/radius-project/radius/issues/10028",
+      "labels": [
+        "good first issue",
+        "triaged",
+        "feature"
+      ],
+      "created_at": "2025-07-21T16:59:48Z"
+    },
+    {
+      "repo": "radius-project/radius",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+      "ai_related": false,
+      "title": "Usability: Invalid error message when using upper case for a Bicep template",
+      "url": "https://github.com/radius-project/radius/issues/9645",
+      "labels": [
+        "good first issue",
+        "triaged",
+        "bug"
+      ],
+      "created_at": "2025-05-27T22:55:03Z"
+    },
+    {
+      "repo": "radius-project/radius",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "App Definition and Development",
+      "subcategory": "Application Definition & Image Build",
+      "description": "Radius is a cloud-native application platform that enables developers and the platform engineers that support them to collaborate on delivering and managing cloud-native applications that follow organizational best practices for cost, operations and security, by default.",
+      "ai_related": false,
+      "title": "Usability: `rad workspace list` should highlight the current workspace",
+      "url": "https://github.com/radius-project/radius/issues/9413",
+      "labels": [
+        "good first issue",
+        "triaged",
+        "bug"
+      ],
+      "created_at": "2025-05-09T16:42:07Z"
     },
     {
       "repo": "radius-project/radius",
@@ -79564,6 +79637,91 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
+      "title": "[selfreport] issue_request_stuck: issue-request stuck: issue request failed 3 attempts over 2m0s",
+      "url": "https://github.com/hivecommons/hive/issues/19400",
+      "labels": [
+        "help wanted",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
+      ],
+      "created_at": "2026-11-20T20:17:09Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "✨ feature: let any lane refresh a hive-authored PR's body after review (edit_pr relay)",
+      "url": "https://github.com/hivecommons/hive/issues/19399",
+      "labels": [
+        "help wanted",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
+      ],
+      "created_at": "2026-11-20T20:13:23Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "[selfreport] proxy_connect_dial_failed: proxy: CONNECT dial failed",
+      "url": "https://github.com/hivecommons/hive/issues/19397",
+      "labels": [
+        "help wanted",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
+      ],
+      "created_at": "2026-11-20T18:34:25Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "📝 RFC: v6 - Opt-in timer for the hive to take over a person's sent-back PR",
+      "url": "https://github.com/hivecommons/hive/issues/19395",
+      "labels": [
+        "help wanted",
+        "proposal",
+        "stage/045-needs-decision"
+      ],
+      "created_at": "2026-11-20T15:42:53Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "[selfreport] agent_lifecycle_repeated: watchdog: would restart dead agent (observe mode; no action taken)",
+      "url": "https://github.com/hivecommons/hive/issues/19393",
+      "labels": [
+        "help wanted",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
+      ],
+      "created_at": "2026-11-20T15:16:15Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
       "title": "ci-flake: github.com/hivecommons/hive/cmd/hive.TestStageBaseRedRemembered",
       "url": "https://github.com/hivecommons/hive/issues/19385",
       "labels": [
@@ -79830,6 +79988,7 @@
       "labels": [
         "help wanted",
         "stage/010-actionable",
+        "stage/stalled",
         "hive/partially-addressed"
       ],
       "created_at": "2026-11-18T22:54:28Z"
@@ -79866,6 +80025,7 @@
         "hive/verified-open",
         "approved-direction",
         "stage/010-actionable",
+        "stage/stalled",
         "hive/partially-addressed"
       ],
       "created_at": "2026-11-18T18:34:07Z"
