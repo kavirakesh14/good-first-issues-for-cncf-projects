@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T05:04:49.823856+00:00",
+  "last_updated": "2026-11-21T14:03:58.253751+00:00",
   "issues": [
     {
       "repo": "project-akri/akri",
@@ -2483,6 +2483,24 @@
         "hacktoberfest"
       ],
       "created_at": "2024-06-17T11:47:26Z"
+    },
+    {
+      "repo": "meshery/meshery",
+      "tier": "Incubating",
+      "lang": "Go",
+      "category": "Provisioning",
+      "subcategory": "Automation & Configuration",
+      "description": "Infrastructure by Design",
+      "ai_related": false,
+      "title": "[mesheryctl] Fix duplicate word \"one one\" in system context switch description",
+      "url": "https://github.com/meshery/meshery/issues/24084",
+      "labels": [
+        "kind/bug",
+        "good first issue",
+        "component/mesheryctl",
+        "language/go"
+      ],
+      "created_at": "2026-11-21T12:34:31Z"
     },
     {
       "repo": "meshery/meshery",
@@ -23387,6 +23405,54 @@
       "subcategory": "Container Runtime",
       "description": "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely.",
       "ai_related": false,
+      "title": "Checkpoint/Restore documentation out of date",
+      "url": "https://github.com/gvisor/gvisor/issues/17056",
+      "labels": [
+        "good first issue"
+      ],
+      "created_at": "2026-11-05T19:00:15Z"
+    },
+    {
+      "repo": "gvisor/gvisor",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "Runtime",
+      "subcategory": "Container Runtime",
+      "description": "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely.",
+      "ai_related": false,
+      "title": "`madvise` returns success for an unaligned, overflowing, or unmapped range when the advice is one that gVisor ignores",
+      "url": "https://github.com/gvisor/gvisor/issues/16047",
+      "labels": [
+        "type: bug",
+        "good first issue"
+      ],
+      "created_at": "2026-10-20T07:31:15Z"
+    },
+    {
+      "repo": "gvisor/gvisor",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "Runtime",
+      "subcategory": "Container Runtime",
+      "description": "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely.",
+      "ai_related": false,
+      "title": "Handle NETLINK_PKTINFO sockopt",
+      "url": "https://github.com/gvisor/gvisor/issues/13398",
+      "labels": [
+        "type: enhancement",
+        "good first issue",
+        "systemd"
+      ],
+      "created_at": "2026-06-09T22:29:46Z"
+    },
+    {
+      "repo": "gvisor/gvisor",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "Runtime",
+      "subcategory": "Container Runtime",
+      "description": "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely.",
+      "ai_related": false,
       "title": "unit tests fail in buildkite",
       "url": "https://github.com/gvisor/gvisor/issues/10045",
       "labels": [
@@ -23405,6 +23471,40 @@
       "subcategory": "Container Runtime",
       "description": "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely.",
       "ai_related": false,
+      "title": "doc: update CNI to v1.0.0",
+      "url": "https://github.com/gvisor/gvisor/issues/8120",
+      "labels": [
+        "type: enhancement",
+        "good first issue"
+      ],
+      "created_at": "2022-10-26T20:49:40Z"
+    },
+    {
+      "repo": "gvisor/gvisor",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "Runtime",
+      "subcategory": "Container Runtime",
+      "description": "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely.",
+      "ai_related": false,
+      "title": "Parsing non-sendable cmsg in SendMsg syscall should fail",
+      "url": "https://github.com/gvisor/gvisor/issues/7188",
+      "labels": [
+        "type: bug",
+        "good first issue",
+        "area: networking",
+        "no-auto-close"
+      ],
+      "created_at": "2022-02-15T18:11:02Z"
+    },
+    {
+      "repo": "gvisor/gvisor",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "Runtime",
+      "subcategory": "Container Runtime",
+      "description": "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely.",
+      "ai_related": false,
       "title": "tcpip.Endpoint.Write() doc is out of date",
       "url": "https://github.com/gvisor/gvisor/issues/6024",
       "labels": [
@@ -23413,6 +23513,59 @@
         "area: networking"
       ],
       "created_at": "2021-05-19T00:42:06Z"
+    },
+    {
+      "repo": "gvisor/gvisor",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "Runtime",
+      "subcategory": "Container Runtime",
+      "description": "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely.",
+      "ai_related": false,
+      "title": "ICMP bind errors do not match Linux",
+      "url": "https://github.com/gvisor/gvisor/issues/6021",
+      "labels": [
+        "type: bug",
+        "good first issue",
+        "area: networking",
+        "revived"
+      ],
+      "created_at": "2021-05-18T22:28:35Z"
+    },
+    {
+      "repo": "gvisor/gvisor",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "Runtime",
+      "subcategory": "Container Runtime",
+      "description": "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely.",
+      "ai_related": false,
+      "title": "Implement unit tests for the IPv4OptionIterator type",
+      "url": "https://github.com/gvisor/gvisor/issues/5513",
+      "labels": [
+        "type: enhancement",
+        "good first issue",
+        "area: networking"
+      ],
+      "created_at": "2021-02-11T19:07:09Z"
+    },
+    {
+      "repo": "gvisor/gvisor",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "Runtime",
+      "subcategory": "Container Runtime",
+      "description": "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely.",
+      "ai_related": false,
+      "title": "Add test to verify that bound NIC for an endpoint",
+      "url": "https://github.com/gvisor/gvisor/issues/3691",
+      "labels": [
+        "type: enhancement",
+        "good first issue",
+        "area: networking",
+        "area: tests"
+      ],
+      "created_at": "2020-08-19T19:07:06Z"
     },
     {
       "repo": "gvisor/gvisor",
@@ -23489,6 +23642,25 @@
         "priority: p3"
       ],
       "created_at": "2019-07-04T07:26:45Z"
+    },
+    {
+      "repo": "gvisor/gvisor",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "Runtime",
+      "subcategory": "Container Runtime",
+      "description": "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely.",
+      "ai_related": false,
+      "title": "NULL msghdr pointers are not treated as zero length",
+      "url": "https://github.com/gvisor/gvisor/issues/207",
+      "labels": [
+        "type: bug",
+        "good first issue",
+        "area: compatibility",
+        "priority: p2",
+        "revived"
+      ],
+      "created_at": "2019-04-22T17:58:58Z"
     },
     {
       "repo": "gvisor/gvisor",
@@ -61406,22 +61578,6 @@
       "subcategory": "Application Definition & Image Build",
       "description": "Backstage is an open platform for building developer portals",
       "ai_related": false,
-      "title": "Snyk vulnerability [SNYK-JS-NODEMAILER-22409044]",
-      "url": "https://github.com/backstage/backstage/issues/36756",
-      "labels": [
-        "snyk-vulnerability",
-        "help wanted"
-      ],
-      "created_at": "2026-11-11T12:12:21Z"
-    },
-    {
-      "repo": "backstage/backstage",
-      "tier": "Incubating",
-      "lang": "TypeScript",
-      "category": "App Definition and Development",
-      "subcategory": "Application Definition & Image Build",
-      "description": "Backstage is an open platform for building developer portals",
-      "ai_related": false,
       "title": "Snyk vulnerability [SNYK-JS-UNDICI-22392401]",
       "url": "https://github.com/backstage/backstage/issues/36749",
       "labels": [
@@ -79748,6 +79904,7 @@
         "fleet-report",
         "hive/selfreport",
         "trigger:runtime-error",
+        "stage/stalled",
         "origin/selfreport",
         "stage/015-triage-needed",
         "severity:low",
