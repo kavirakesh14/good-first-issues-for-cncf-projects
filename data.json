@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T23:37:11.217613+00:00",
+  "last_updated": "2026-11-21T05:04:49.823856+00:00",
   "issues": [
     {
       "repo": "project-akri/akri",
@@ -3479,6 +3479,57 @@
         "component/catalog"
       ],
       "created_at": "2023-11-01T20:10:44Z"
+    },
+    {
+      "repo": "meshery/meshery",
+      "tier": "Incubating",
+      "lang": "Go",
+      "category": "Provisioning",
+      "subcategory": "Automation & Configuration",
+      "description": "Infrastructure by Design",
+      "ai_related": false,
+      "title": "[CI] Docs: Hugo and Dart Sass versions differ between local dev and CI",
+      "url": "https://github.com/meshery/meshery/issues/24069",
+      "labels": [
+        "help wanted",
+        "area/ci",
+        "area/devops"
+      ],
+      "created_at": "2026-11-21T02:21:50Z"
+    },
+    {
+      "repo": "meshery/meshery",
+      "tier": "Incubating",
+      "lang": "Go",
+      "category": "Provisioning",
+      "subcategory": "Automation & Configuration",
+      "description": "Infrastructure by Design",
+      "ai_related": false,
+      "title": "[CI] Docs deploy: size handling re-measures the site and checks out previews before knowing they fit",
+      "url": "https://github.com/meshery/meshery/issues/24068",
+      "labels": [
+        "help wanted",
+        "area/ci",
+        "area/devops"
+      ],
+      "created_at": "2026-11-21T02:10:59Z"
+    },
+    {
+      "repo": "meshery/meshery",
+      "tier": "Incubating",
+      "lang": "Go",
+      "category": "Provisioning",
+      "subcategory": "Automation & Configuration",
+      "description": "Infrastructure by Design",
+      "ai_related": false,
+      "title": "[CI]: Docs previews can't fit next to production on gh-pages",
+      "url": "https://github.com/meshery/meshery/issues/24067",
+      "labels": [
+        "help wanted",
+        "area/ci",
+        "area/devops"
+      ],
+      "created_at": "2026-11-21T02:00:13Z"
     },
     {
       "repo": "meshery/meshery",
@@ -20972,22 +21023,6 @@
       "subcategory": "Cloud Native Storage",
       "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
       "ai_related": false,
-      "title": "[BUG]: cv fs mkdir and touch write status lines to stdout",
-      "url": "https://github.com/CurvineIO/curvine/issues/2318",
-      "labels": [
-        "bug",
-        "good first issue"
-      ],
-      "created_at": "2026-11-19T15:22:15Z"
-    },
-    {
-      "repo": "CurvineIO/curvine",
-      "tier": "Sandbox",
-      "lang": "Rust",
-      "category": "Runtime",
-      "subcategory": "Cloud Native Storage",
-      "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-      "ai_related": false,
       "title": "[BUG]: Python SDK CurvineFileSystem.open() rejects the fsspec mode argument",
       "url": "https://github.com/CurvineIO/curvine/issues/2317",
       "labels": [
@@ -25232,7 +25267,6 @@
       "labels": [
         "enhancement",
         "help wanted",
-        "stale",
         "cilium"
       ],
       "created_at": "2024-09-24T10:02:56Z"
@@ -79637,23 +79671,6 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
-      "title": "[selfreport] issue_request_stuck: issue-request stuck: issue request failed 3 attempts over 2m0s",
-      "url": "https://github.com/hivecommons/hive/issues/19400",
-      "labels": [
-        "help wanted",
-        "stage/040-covered-by-pr",
-        "hive/claimed-by-human"
-      ],
-      "created_at": "2026-11-20T20:17:09Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
       "title": "✨ feature: let any lane refresh a hive-authored PR's body after review (edit_pr relay)",
       "url": "https://github.com/hivecommons/hive/issues/19399",
       "labels": [
@@ -79662,57 +79679,6 @@
         "hive/claimed-by-human"
       ],
       "created_at": "2026-11-20T20:13:23Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "[selfreport] proxy_connect_dial_failed: proxy: CONNECT dial failed",
-      "url": "https://github.com/hivecommons/hive/issues/19397",
-      "labels": [
-        "help wanted",
-        "stage/040-covered-by-pr",
-        "hive/claimed-by-human"
-      ],
-      "created_at": "2026-11-20T18:34:25Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "📝 RFC: v6 - Opt-in timer for the hive to take over a person's sent-back PR",
-      "url": "https://github.com/hivecommons/hive/issues/19395",
-      "labels": [
-        "help wanted",
-        "proposal",
-        "stage/045-needs-decision"
-      ],
-      "created_at": "2026-11-20T15:42:53Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "[selfreport] agent_lifecycle_repeated: watchdog: would restart dead agent (observe mode; no action taken)",
-      "url": "https://github.com/hivecommons/hive/issues/19393",
-      "labels": [
-        "help wanted",
-        "stage/040-covered-by-pr",
-        "hive/claimed-by-human"
-      ],
-      "created_at": "2026-11-20T15:16:15Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -79773,23 +79739,6 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
-      "title": "[selfreport] agent_pane_timeout: prompt timeout — dumping pane",
-      "url": "https://github.com/hivecommons/hive/issues/19376",
-      "labels": [
-        "help wanted",
-        "stage/040-covered-by-pr",
-        "hive/claimed-by-human"
-      ],
-      "created_at": "2026-11-20T05:43:45Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
       "title": "[selfreport] unclassified_error_repeated: review swarm kick not delivered; re-planned next cycle",
       "url": "https://github.com/hivecommons/hive/issues/19373",
       "labels": [
@@ -79805,23 +79754,6 @@
         "class:unclassified-error-repeated"
       ],
       "created_at": "2026-11-20T05:09:40Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "[selfreport] unclassified_error_repeated: issue stage labels: merged full-fix PR issue close failed",
-      "url": "https://github.com/hivecommons/hive/issues/19369",
-      "labels": [
-        "help wanted",
-        "stage/040-covered-by-pr",
-        "hive/claimed-by-human"
-      ],
-      "created_at": "2026-11-20T04:42:18Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -79974,24 +79906,6 @@
         "hive/partially-addressed"
       ],
       "created_at": "2026-11-18T23:57:21Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "📖 Customers: disclosure text, docs and live verification for hub import (phase 4 of #19088)",
-      "url": "https://github.com/hivecommons/hive/issues/19164",
-      "labels": [
-        "help wanted",
-        "stage/010-actionable",
-        "stage/stalled",
-        "hive/partially-addressed"
-      ],
-      "created_at": "2026-11-18T22:54:28Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -80246,6 +80160,21 @@
         "Image builds"
       ],
       "created_at": "2026-08-20T15:56:41Z"
+    },
+    {
+      "repo": "llm-d/llm-d",
+      "tier": "Sandbox",
+      "lang": "Python",
+      "category": "Inference",
+      "subcategory": "Framework",
+      "description": "llm-d is a Kubernetes-native, high-performance distributed LLM inference framework built on vLLM and the Kubernetes Gateway API Inference Extension, providing intelligent inference scheduling, prefix-cache-aware routing, prefill/decode disaggregation, hierarchical KV offloading, and traffic- and hardware-aware autoscaling across NVIDIA, AMD, Intel, and Google TPU accelerators.",
+      "ai_related": true,
+      "title": "Benchmark e-disaggregation guide with e/p/d and e/pd coordination approach",
+      "url": "https://github.com/llm-d/llm-d/issues/1966",
+      "labels": [
+        "help wanted"
+      ],
+      "created_at": "2026-06-26T22:25:21Z"
     },
     {
       "repo": "llm-d/llm-d",
