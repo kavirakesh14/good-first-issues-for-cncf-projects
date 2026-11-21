@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T14:03:58.253751+00:00",
+  "last_updated": "2026-11-21T22:44:17.705382+00:00",
   "issues": [
     {
       "repo": "project-akri/akri",
@@ -3497,6 +3497,24 @@
         "component/catalog"
       ],
       "created_at": "2023-11-01T20:10:44Z"
+    },
+    {
+      "repo": "meshery/meshery",
+      "tier": "Incubating",
+      "lang": "Go",
+      "category": "Provisioning",
+      "subcategory": "Automation & Configuration",
+      "description": "Infrastructure by Design",
+      "ai_related": false,
+      "title": "[Docs] Fix broken screenshot and image relative paths across CLI reference and contributing guides",
+      "url": "https://github.com/meshery/meshery/issues/24114",
+      "labels": [
+        "help wanted",
+        "area/docs",
+        "language/markdown",
+        "framework/hugo"
+      ],
+      "created_at": "2026-11-21T21:26:22Z"
     },
     {
       "repo": "meshery/meshery",
@@ -24802,6 +24820,56 @@
         "Hacktoberfest"
       ],
       "created_at": "2021-07-14T13:23:25Z"
+    },
+    {
+      "repo": "youki-dev/youki",
+      "tier": "Sandbox",
+      "lang": "Rust",
+      "category": "Runtime",
+      "subcategory": "Container Runtime",
+      "description": "A container runtime written in Rust",
+      "ai_related": false,
+      "title": "[Bug]: device rules with type 'u' or 'p' are rejected or accepted depending on the other rules",
+      "url": "https://github.com/youki-dev/youki/issues/3909",
+      "labels": [
+        "good first issue",
+        "kind/bug"
+      ],
+      "created_at": "2026-11-21T14:44:00Z"
+    },
+    {
+      "repo": "youki-dev/youki",
+      "tier": "Sandbox",
+      "lang": "Rust",
+      "category": "Runtime",
+      "subcategory": "Container Runtime",
+      "description": "A container runtime written in Rust",
+      "ai_related": false,
+      "title": "[FEATURE]: build the device rule Emulator in one place for the cgroupfs v2 and systemd drivers",
+      "url": "https://github.com/youki-dev/youki/issues/3908",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "kind/cleanup"
+      ],
+      "created_at": "2026-11-21T14:43:58Z"
+    },
+    {
+      "repo": "youki-dev/youki",
+      "tier": "Sandbox",
+      "lang": "Rust",
+      "category": "Runtime",
+      "subcategory": "Container Runtime",
+      "description": "A container runtime written in Rust",
+      "ai_related": false,
+      "title": "[FEATURE]: deduplicate Variant serialization in dbus_native/serialize.rs",
+      "url": "https://github.com/youki-dev/youki/issues/3907",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "kind/cleanup"
+      ],
+      "created_at": "2026-11-21T14:43:56Z"
     },
     {
       "repo": "youki-dev/youki",
@@ -74797,6 +74865,22 @@
       "subcategory": "Observability",
       "description": "Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot transactions in complex distributed systems",
       "ai_related": false,
+      "title": "[Bug]: Memory storage races when reading a trace while more spans arrive",
+      "url": "https://github.com/jaegertracing/jaeger/issues/9933",
+      "labels": [
+        "bug",
+        "help wanted"
+      ],
+      "created_at": "2026-10-24T20:45:43Z"
+    },
+    {
+      "repo": "jaegertracing/jaeger",
+      "tier": "Graduated",
+      "lang": "Go",
+      "category": "Observability and Analysis",
+      "subcategory": "Observability",
+      "description": "Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot transactions in complex distributed systems",
+      "ai_related": false,
       "title": "ClickHouse spans table omits schema_url, flags and dropped counts from the OTLP span",
       "url": "https://github.com/jaegertracing/jaeger/issues/9789",
       "labels": [
@@ -79827,6 +79911,23 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
+      "title": "investigate trentina for strategeis to mitigate prompt injections",
+      "url": "https://github.com/hivecommons/hive/issues/19433",
+      "labels": [
+        "help wanted",
+        "hive/claimed-by-scanner",
+        "stage/020-claimed"
+      ],
+      "created_at": "2026-11-21T20:35:04Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
       "title": "✨ feature: let any lane refresh a hive-authored PR's body after review (edit_pr relay)",
       "url": "https://github.com/hivecommons/hive/issues/19399",
       "labels": [
@@ -79886,31 +79987,6 @@
         "stage/040-covered-by-pr"
       ],
       "created_at": "2026-11-20T11:35:43Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "[selfreport] unclassified_error_repeated: review swarm kick not delivered; re-planned next cycle",
-      "url": "https://github.com/hivecommons/hive/issues/19373",
-      "labels": [
-        "help wanted",
-        "kind/bug",
-        "needs-triage",
-        "fleet-report",
-        "hive/selfreport",
-        "trigger:runtime-error",
-        "stage/stalled",
-        "origin/selfreport",
-        "stage/015-triage-needed",
-        "severity:low",
-        "class:unclassified-error-repeated"
-      ],
-      "created_at": "2026-11-20T05:09:40Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -79984,30 +80060,11 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
-      "title": "🐛 bug: rotating a Model Gateways key never reaches sandboxed (runtime: job) agents, which keep the old key until it's revoked",
-      "url": "https://github.com/hivecommons/hive/issues/19337",
-      "labels": [
-        "help wanted",
-        "triage/accepted",
-        "stage/040-covered-by-pr",
-        "hive/claimed-by-human"
-      ],
-      "created_at": "2026-11-19T19:31:51Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
       "title": "✨ Enforce the push broker's sign-off rules on in-pod agent pushes at the egress proxy",
       "url": "https://github.com/hivecommons/hive/issues/19297",
       "labels": [
         "help wanted",
-        "stage/040-covered-by-pr",
-        "hive/claimed-by-human"
+        "stage/010-actionable"
       ],
       "created_at": "2026-11-19T17:34:35Z"
     },
@@ -80096,7 +80153,6 @@
         "hive/verified-open",
         "approved-direction",
         "stage/010-actionable",
-        "stage/stalled",
         "hive/partially-addressed"
       ],
       "created_at": "2026-11-18T18:34:07Z"
