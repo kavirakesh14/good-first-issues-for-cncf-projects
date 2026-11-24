@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T03:47:13.508640+00:00",
+  "last_updated": "2026-11-24T16:54:14.646845+00:00",
   "issues": [
     {
       "repo": "project-akri/akri",
@@ -2492,6 +2492,26 @@
       "subcategory": "Automation & Configuration",
       "description": "Infrastructure by Design",
       "ai_related": false,
+      "title": "[UI] Extensions page shows \"Unable to fetch list of adapters\" when the server returns no adapters",
+      "url": "https://github.com/meshery/meshery/issues/24242",
+      "labels": [
+        "kind/bug",
+        "help wanted",
+        "good first issue",
+        "language/javascript",
+        "component/ui",
+        "framework/react"
+      ],
+      "created_at": "2026-11-24T07:01:59Z"
+    },
+    {
+      "repo": "meshery/meshery",
+      "tier": "Incubating",
+      "lang": "Go",
+      "category": "Provisioning",
+      "subcategory": "Automation & Configuration",
+      "description": "Infrastructure by Design",
+      "ai_related": false,
       "title": "[mesheryctl] system dashboard panics when the external endpoint is unavailable",
       "url": "https://github.com/meshery/meshery/issues/24135",
       "labels": [
@@ -4763,25 +4783,6 @@
       "subcategory": "Automation & Configuration",
       "description": "Infrastructure by Design",
       "ai_related": false,
-      "title": "[UI] Restructure Phase 5.b.6 - Migrate registry modals to shared modal primitives",
-      "url": "https://github.com/meshery/meshery/issues/18754",
-      "labels": [
-        "kind/enhancement",
-        "help wanted",
-        "language/javascript",
-        "component/ui",
-        "framework/react"
-      ],
-      "created_at": "2026-04-15T20:49:25Z"
-    },
-    {
-      "repo": "meshery/meshery",
-      "tier": "Incubating",
-      "lang": "Go",
-      "category": "Provisioning",
-      "subcategory": "Automation & Configuration",
-      "description": "Infrastructure by Design",
-      "ai_related": false,
       "title": "[UI] Migrate Docker Extension UI from webpack (CRA) to modern bundler",
       "url": "https://github.com/meshery/meshery/issues/18625",
       "labels": [
@@ -6535,26 +6536,6 @@
         "issue/remind"
       ],
       "created_at": "2024-07-02T21:57:10Z"
-    },
-    {
-      "repo": "meshery/meshery",
-      "tier": "Incubating",
-      "lang": "Go",
-      "category": "Provisioning",
-      "subcategory": "Automation & Configuration",
-      "description": "Infrastructure by Design",
-      "ai_related": false,
-      "title": "[Docs] Enhance \"Use mesheryctl to Push or Pull a Model Image\" page with explanation and registry examples",
-      "url": "https://github.com/meshery/meshery/issues/11268",
-      "labels": [
-        "help wanted",
-        "area/docs",
-        "issue/willfix",
-        "kind/child",
-        "framework/jekyll",
-        "issue/remind"
-      ],
-      "created_at": "2024-06-28T20:12:39Z"
     },
     {
       "repo": "meshery/meshery",
@@ -10106,7 +10087,6 @@
         "help wanted",
         "kind/bug",
         "area/webhook-provider",
-        "Stale",
         "size/s"
       ],
       "created_at": "2026-07-18T10:00:23Z"
@@ -10991,26 +10971,6 @@
         "team/core-authn"
       ],
       "created_at": "2026-10-30T12:18:38Z"
-    },
-    {
-      "repo": "keycloak/keycloak",
-      "tier": "Incubating",
-      "lang": "Java",
-      "category": "Provisioning",
-      "subcategory": "Security & Compliance",
-      "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-      "ai_related": false,
-      "title": "kc.sh exits 0 at once under ksh93 (illumos /bin/sh): $! is empty",
-      "url": "https://github.com/keycloak/keycloak/issues/54429",
-      "labels": [
-        "kind/bug",
-        "help wanted",
-        "team/cloud-native",
-        "status/auto-expire",
-        "status/auto-bump",
-        "priority/normal"
-      ],
-      "created_at": "2026-10-28T17:33:41Z"
     },
     {
       "repo": "keycloak/keycloak",
@@ -19266,7 +19226,7 @@
       "created_at": "2024-11-06T02:06:07Z"
     },
     {
-      "repo": "NVIDIA/OpenShell",
+      "repo": "ai-openshell/openshell",
       "tier": "Sandbox",
       "lang": "Rust",
       "category": "Provisioning",
@@ -19284,7 +19244,7 @@
       "created_at": "2026-09-24T22:39:51Z"
     },
     {
-      "repo": "NVIDIA/OpenShell",
+      "repo": "ai-openshell/openshell",
       "tier": "Sandbox",
       "lang": "Rust",
       "category": "Provisioning",
@@ -24875,22 +24835,6 @@
       "subcategory": "Container Runtime",
       "description": "A container runtime written in Rust",
       "ai_related": false,
-      "title": "[Bug]: youki accepts errno values for SCMP_ACT_ALLOW",
-      "url": "https://github.com/youki-dev/youki/issues/3817",
-      "labels": [
-        "good first issue",
-        "kind/bug"
-      ],
-      "created_at": "2026-10-13T10:43:56Z"
-    },
-    {
-      "repo": "youki-dev/youki",
-      "tier": "Sandbox",
-      "lang": "Rust",
-      "category": "Runtime",
-      "subcategory": "Container Runtime",
-      "description": "A container runtime written in Rust",
-      "ai_related": false,
       "title": "refactor(test): move checkpoint-only tests out of ContainerLifecycle into a dedicated checkpoint test group",
       "url": "https://github.com/youki-dev/youki/issues/3641",
       "labels": [
@@ -29479,25 +29423,6 @@
       "subcategory": "Scheduling & Orchestration",
       "description": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications",
       "ai_related": false,
-      "title": "[Failing Test] [SIG-node] periodic-node-feature-discovery-e2e-test-master.Overall",
-      "url": "https://github.com/kubernetes/kubernetes/issues/136114",
-      "labels": [
-        "priority/important-soon",
-        "sig/node",
-        "help wanted",
-        "kind/failing-test",
-        "triage/accepted"
-      ],
-      "created_at": "2026-01-08T20:40:43Z"
-    },
-    {
-      "repo": "kubernetes/kubernetes",
-      "tier": "Graduated",
-      "lang": "Go",
-      "category": "Orchestration & Management",
-      "subcategory": "Scheduling & Orchestration",
-      "description": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications",
-      "ai_related": false,
       "title": "Graduate old Alpha metrics to Beta",
       "url": "https://github.com/kubernetes/kubernetes/issues/136107",
       "labels": [
@@ -32482,7 +32407,8 @@
       "url": "https://github.com/kubestellar/kubestellar/issues/3862",
       "labels": [
         "help wanted",
-        "stage/010-actionable"
+        "stage/010-actionable",
+        "stage/stalled"
       ],
       "created_at": "2026-06-29T02:58:18Z"
     },
@@ -74881,22 +74807,6 @@
       "subcategory": "Observability",
       "description": "Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot transactions in complex distributed systems",
       "ai_related": false,
-      "title": "[Bug]: V2 memory GetDependencies excludes traces with spans inside the query interval",
-      "url": "https://github.com/jaegertracing/jaeger/issues/10249",
-      "labels": [
-        "bug",
-        "help wanted"
-      ],
-      "created_at": "2026-11-21T08:26:24Z"
-    },
-    {
-      "repo": "jaegertracing/jaeger",
-      "tier": "Graduated",
-      "lang": "Go",
-      "category": "Observability and Analysis",
-      "subcategory": "Observability",
-      "description": "Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot transactions in complex distributed systems",
-      "ai_related": false,
       "title": "[ES/OpenSearch] Trace search slow at high ingest rate: terms aggregation on traceID rebuilds global ordinals after every refresh",
       "url": "https://github.com/jaegertracing/jaeger/issues/10239",
       "labels": [
@@ -80017,14 +79927,14 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
-      "title": "✨ feature: copy the workspace into sandbox Jobs so `runtime: job` works without ReadWriteMany storage",
-      "url": "https://github.com/hivecommons/hive/issues/19621",
+      "title": "✨ feature: add a Settings toggle for dashboard.github_sign_in",
+      "url": "https://github.com/hivecommons/hive/issues/19721",
       "labels": [
         "help wanted",
         "needs-triage",
         "stage/015-triage-needed"
       ],
-      "created_at": "2026-11-24T01:05:26Z"
+      "created_at": "2026-11-24T16:35:18Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -80034,14 +79944,67 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
-      "title": "✨ feature: serve a spoke dashboard under a URL path prefix",
-      "url": "https://github.com/hivecommons/hive/issues/19620",
+      "title": "[reviewer] Review backlog (security): Forge PRs now flow into GitHub-client steps later in the eval cycle",
+      "url": "https://github.com/hivecommons/hive/issues/19709",
       "labels": [
         "help wanted",
-        "needs-triage",
-        "stage/015-triage-needed"
+        "agent/reviewer",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
       ],
-      "created_at": "2026-11-24T01:05:19Z"
+      "created_at": "2026-11-24T15:21:33Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "[selfreport] unclassified_error_repeated: github app token proactive refresh failed; serving still-valid cached token",
+      "url": "https://github.com/hivecommons/hive/issues/19706",
+      "labels": [
+        "help wanted",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
+      ],
+      "created_at": "2026-11-24T15:04:37Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "[reviewer] Review backlog (security): Automerge approval label not bound to reviewed head SHA",
+      "url": "https://github.com/hivecommons/hive/issues/19701",
+      "labels": [
+        "help wanted",
+        "agent/reviewer",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
+      ],
+      "created_at": "2026-11-24T14:29:02Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "✨ feature: copy the workspace into sandbox Jobs so `runtime: job` works without ReadWriteMany storage",
+      "url": "https://github.com/hivecommons/hive/issues/19621",
+      "labels": [
+        "help wanted",
+        "triage/accepted",
+        "stage/040-covered-by-pr"
+      ],
+      "created_at": "2026-11-24T01:05:26Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -80055,27 +80018,10 @@
       "url": "https://github.com/hivecommons/hive/issues/19619",
       "labels": [
         "help wanted",
-        "needs-triage",
-        "stage/015-triage-needed"
+        "triage/accepted",
+        "stage/040-covered-by-pr"
       ],
       "created_at": "2026-11-24T01:05:06Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "✨ feature: let a self-hosted spoke replace its GitHub sign-in with sign-in through its hub",
-      "url": "https://github.com/hivecommons/hive/issues/19618",
-      "labels": [
-        "help wanted",
-        "needs-triage",
-        "stage/015-triage-needed"
-      ],
-      "created_at": "2026-11-24T01:04:51Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -80089,95 +80035,11 @@
       "url": "https://github.com/hivecommons/hive/issues/19617",
       "labels": [
         "help wanted",
-        "needs-triage",
-        "stage/015-triage-needed"
+        "triage/accepted",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
       ],
       "created_at": "2026-11-24T01:04:33Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "[dedupe] triage: duplicate and overlapping open issues/PRs to consolidate",
-      "url": "https://github.com/hivecommons/hive/issues/19616",
-      "labels": [
-        "help wanted",
-        "agent/dedupe",
-        "stage/045-needs-decision"
-      ],
-      "created_at": "2026-11-24T00:29:00Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "[selfreport] github_app_not_installed: github app installation id is unset: minting scoped token for scanner: github a…",
-      "url": "https://github.com/hivecommons/hive/issues/19614",
-      "labels": [
-        "help wanted",
-        "stage/010-actionable"
-      ],
-      "created_at": "2026-11-24T00:09:03Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "✨ feature: document the label contract for the cncf/techdocs assessment model",
-      "url": "https://github.com/hivecommons/hive/issues/19608",
-      "labels": [
-        "help wanted",
-        "stage/040-covered-by-pr",
-        "hive/claimed-by-human"
-      ],
-      "created_at": "2026-11-23T23:51:46Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "ci-flake: github.com/hivecommons/hive/crux/agent.TestReconcileAgentsIntoSandboxStopsTmuxSession",
-      "url": "https://github.com/hivecommons/hive/issues/19597",
-      "labels": [
-        "help wanted",
-        "ci-flake",
-        "stage/040-covered-by-pr",
-        "hive/claimed-by-human"
-      ],
-      "created_at": "2026-11-23T21:41:08Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "[DCO] post-merge trailer failures on v6",
-      "url": "https://github.com/hivecommons/hive/issues/19527",
-      "labels": [
-        "help wanted",
-        "ci-dco",
-        "stage/040-covered-by-pr"
-      ],
-      "created_at": "2026-11-23T11:40:27Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -80191,7 +80053,9 @@
       "url": "https://github.com/hivecommons/hive/issues/19494",
       "labels": [
         "help wanted",
-        "stage/015-triage-needed"
+        "triage/accepted",
+        "stage/010-actionable",
+        "hive/partially-addressed"
       ],
       "created_at": "2026-11-22T23:17:46Z"
     },
@@ -80219,6 +80083,22 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
+      "title": "✨ Enforce the push broker's sign-off rules on in-pod agent pushes at the egress proxy",
+      "url": "https://github.com/hivecommons/hive/issues/19297",
+      "labels": [
+        "help wanted",
+        "stage/010-actionable"
+      ],
+      "created_at": "2026-11-19T17:34:35Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
       "title": "✨ Companion meetings: let Betty speak into the call (spoken replies)",
       "url": "https://github.com/hivecommons/hive/issues/19091",
       "labels": [
@@ -80227,6 +80107,24 @@
         "stage/045-needs-decision"
       ],
       "created_at": "2026-11-18T18:56:10Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "📝 RFC: session taint - track sensitive reads across an agent's tool calls and restrict later outbound actions",
+      "url": "https://github.com/hivecommons/hive/issues/18987",
+      "labels": [
+        "help wanted",
+        "hive/verified-open",
+        "hive/partially-addressed",
+        "stage/018-open-for-discussion"
+      ],
+      "created_at": "2026-11-18T14:06:33Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -80318,24 +80216,6 @@
         "hive/partially-addressed"
       ],
       "created_at": "2026-11-07T18:44:04Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "📝 RFC: cut over Crux development to hivecommons/crux on 2026-11-16",
-      "url": "https://github.com/hivecommons/hive/issues/17004",
-      "labels": [
-        "help wanted",
-        "kind/design",
-        "proposal",
-        "stage/045-needs-decision"
-      ],
-      "created_at": "2026-11-07T15:33:26Z"
     },
     {
       "repo": "hivecommons/hive",
