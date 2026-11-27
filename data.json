@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T01:27:10.970710+00:00",
+  "last_updated": "2026-11-27T16:00:48.878959+00:00",
   "issues": [
     {
       "repo": "project-akri/akri",
@@ -3581,24 +3581,6 @@
       "subcategory": "Automation & Configuration",
       "description": "Infrastructure by Design",
       "ai_related": false,
-      "title": "[mesheryctl] Update model export synopsis to include required [model-name]",
-      "url": "https://github.com/meshery/meshery/issues/24405",
-      "labels": [
-        "kind/bug",
-        "help wanted",
-        "component/mesheryctl",
-        "language/go"
-      ],
-      "created_at": "2026-11-26T12:41:26Z"
-    },
-    {
-      "repo": "meshery/meshery",
-      "tier": "Incubating",
-      "lang": "Go",
-      "category": "Provisioning",
-      "subcategory": "Automation & Configuration",
-      "description": "Infrastructure by Design",
-      "ai_related": false,
       "title": "[Docs] Command reference tables on /reference/mesheryctl/ overflow underneath the right hand \"On this page\" sidebar",
       "url": "https://github.com/meshery/meshery/issues/24352",
       "labels": [
@@ -5697,24 +5679,6 @@
         "aws"
       ],
       "created_at": "2025-08-04T17:39:11Z"
-    },
-    {
-      "repo": "meshery/meshery",
-      "tier": "Incubating",
-      "lang": "Go",
-      "category": "Provisioning",
-      "subcategory": "Automation & Configuration",
-      "description": "Infrastructure by Design",
-      "ai_related": false,
-      "title": "Fail to export design as OCI-compatible meshery design",
-      "url": "https://github.com/meshery/meshery/issues/15239",
-      "labels": [
-        "kind/bug",
-        "help wanted",
-        "language/go",
-        "component/server"
-      ],
-      "created_at": "2025-06-27T09:14:31Z"
     },
     {
       "repo": "meshery/meshery",
@@ -10553,6 +10517,25 @@
       "subcategory": "Security & Compliance",
       "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
       "ai_related": false,
+      "title": "Organization invite registration link fails when targeting a client with multiple redirect URIs",
+      "url": "https://github.com/keycloak/keycloak/issues/55412",
+      "labels": [
+        "kind/bug",
+        "help wanted",
+        "team/core-iam",
+        "priority/normal",
+        "area/organizations"
+      ],
+      "created_at": "2026-11-20T12:54:58Z"
+    },
+    {
+      "repo": "keycloak/keycloak",
+      "tier": "Incubating",
+      "lang": "Java",
+      "category": "Provisioning",
+      "subcategory": "Security & Compliance",
+      "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
+      "ai_related": false,
       "title": "Offline token rejected on its very first use (\"refresh token issued before the client session started\") when the database is slow",
       "url": "https://github.com/keycloak/keycloak/issues/55314",
       "labels": [
@@ -10740,29 +10723,6 @@
       "subcategory": "Security & Compliance",
       "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
       "ai_related": false,
-      "title": "Creating a group with a name longer than 255 characters returns HTTP 500 instead of 400",
-      "url": "https://github.com/keycloak/keycloak/issues/54720",
-      "labels": [
-        "kind/bug",
-        "area/admin/api",
-        "help wanted",
-        "team/core-iam",
-        "team/core-shared",
-        "status/auto-expire",
-        "status/auto-bump",
-        "priority/normal",
-        "status/labeled-by-bot"
-      ],
-      "created_at": "2026-11-05T19:23:53Z"
-    },
-    {
-      "repo": "keycloak/keycloak",
-      "tier": "Incubating",
-      "lang": "Java",
-      "category": "Provisioning",
-      "subcategory": "Security & Compliance",
-      "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-      "ai_related": false,
       "title": "Review the payload for linking IdPs to organizations for better `application/json` content type compatibility",
       "url": "https://github.com/keycloak/keycloak/issues/54674",
       "labels": [
@@ -10817,27 +10777,6 @@
         "status/auto-bump"
       ],
       "created_at": "2026-11-03T19:14:04Z"
-    },
-    {
-      "repo": "keycloak/keycloak",
-      "tier": "Incubating",
-      "lang": "Java",
-      "category": "Provisioning",
-      "subcategory": "Security & Compliance",
-      "description": "Keycloak is an open-source identity and access management solution for modern applications and services,  built on top of industry security standard protocols.",
-      "ai_related": false,
-      "title": "Device authorization grant returns HTTP 500 when the client session has expired but the user session is still alive",
-      "url": "https://github.com/keycloak/keycloak/issues/54606",
-      "labels": [
-        "area/oidc",
-        "kind/bug",
-        "help wanted",
-        "priority/low",
-        "status/auto-expire",
-        "status/auto-bump",
-        "team/core-protocols"
-      ],
-      "created_at": "2026-11-03T19:10:12Z"
     },
     {
       "repo": "keycloak/keycloak",
@@ -16456,22 +16395,6 @@
       "subcategory": "Security & Compliance",
       "description": "Runtime protection for Kubernetes & other cloud Workloads. Kubearmor provides a observability and policy enforcement system to restrict any unwanted, malicious behaviour of cloud-native workloads at runtime.",
       "ai_related": false,
-      "title": "Document the `pts` Field",
-      "url": "https://github.com/kubearmor/KubeArmor/issues/2958",
-      "labels": [
-        "documentation",
-        "good first issue"
-      ],
-      "created_at": "2026-10-28T21:37:55Z"
-    },
-    {
-      "repo": "kubearmor/kubearmor",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "Provisioning",
-      "subcategory": "Security & Compliance",
-      "description": "Runtime protection for Kubernetes & other cloud Workloads. Kubearmor provides a observability and policy enforcement system to restrict any unwanted, malicious behaviour of cloud-native workloads at runtime.",
-      "ai_related": false,
       "title": "Undocumented / Underdocumented CRD Features",
       "url": "https://github.com/kubearmor/KubeArmor/issues/2956",
       "labels": [
@@ -21067,22 +20990,6 @@
         "test"
       ],
       "created_at": "2026-11-26T21:24:59Z"
-    },
-    {
-      "repo": "CurvineIO/curvine",
-      "tier": "Sandbox",
-      "lang": "Rust",
-      "category": "Runtime",
-      "subcategory": "Cloud Native Storage",
-      "description": "Curvine is a high-performance distributed multi-tier caching system written in Rust (memory/SSD/HDD), providing POSIX (FUSE), S3, and HDFS access to cloud object storage, with Kubernetes CSI integration.",
-      "ai_related": false,
-      "title": "[TEST] Add unit tests for RaftPeer identity and formatting helpers",
-      "url": "https://github.com/CurvineIO/curvine/issues/2598",
-      "labels": [
-        "good first issue",
-        "test"
-      ],
-      "created_at": "2026-11-26T21:24:56Z"
     },
     {
       "repo": "CurvineIO/curvine",
@@ -33103,6 +33010,22 @@
       "subcategory": "Scheduling & Orchestration",
       "description": "A lightweight, open standard for multi-cluster Kubernetes management built on a hub-spoke architecture.",
       "ai_related": false,
+      "title": "🐛 gRPC registration mode: hub server-CA rotation never propagates to spokes — join-time caData is static",
+      "url": "https://github.com/open-cluster-management-io/ocm/issues/1849",
+      "labels": [
+        "bug",
+        "help wanted"
+      ],
+      "created_at": "2026-11-27T06:48:13Z"
+    },
+    {
+      "repo": "open-cluster-management-io/ocm",
+      "tier": "Incubating",
+      "lang": "Go",
+      "category": "Orchestration & Management",
+      "subcategory": "Scheduling & Orchestration",
+      "description": "A lightweight, open standard for multi-cluster Kubernetes management built on a hub-spoke architecture.",
+      "ai_related": false,
       "title": "ManifestWorkReplicaSet: status reports stale or premature results across generations",
       "url": "https://github.com/open-cluster-management-io/ocm/issues/1768",
       "labels": [
@@ -33190,24 +33113,6 @@
         "priority/high"
       ],
       "created_at": "2022-03-29T05:29:27Z"
-    },
-    {
-      "repo": "volcano-sh/volcano",
-      "tier": "Incubating",
-      "lang": "Go",
-      "category": "Orchestration & Management",
-      "subcategory": "Scheduling & Orchestration",
-      "description": "A Kubernetes native system for high-performance workloads",
-      "ai_related": true,
-      "title": "[Feature][#6081] Add configurable scheduling diagnostic verbosity",
-      "url": "https://github.com/volcano-sh/volcano/issues/6107",
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "kind/feature",
-        "area/performance"
-      ],
-      "created_at": "2026-10-19T09:21:37Z"
     },
     {
       "repo": "volcano-sh/volcano",
@@ -67863,13 +67768,13 @@
       "subcategory": "Application Definition & Image Build",
       "description": "ORAS is the tool for working with OCI Artifacts",
       "ai_related": false,
-      "title": "oras tag with --oci-layout-path stores tags without the repository prefix",
-      "url": "https://github.com/oras-project/oras/issues/2373",
+      "title": "refactor: use ClientBuilder debug logging for --debug",
+      "url": "https://github.com/oras-project/oras/issues/2389",
       "labels": [
-        "bug",
-        "help wanted"
+        "help wanted",
+        "logging"
       ],
-      "created_at": "2026-11-26T02:23:57Z"
+      "created_at": "2026-11-27T02:47:07Z"
     },
     {
       "repo": "oras-project/oras",
@@ -67879,14 +67784,12 @@
       "subcategory": "Application Definition & Image Build",
       "description": "ORAS is the tool for working with OCI Artifacts",
       "ai_related": false,
-      "title": "feat(restore): restore multi-repository backups to <registry>[/<namespace>]",
-      "url": "https://github.com/oras-project/oras/issues/2364",
+      "title": "feat(restore): warn when replacing a multi-arch tag with a single-platform manifest",
+      "url": "https://github.com/oras-project/oras/issues/2383",
       "labels": [
-        "enhancement",
-        "help wanted",
-        "experimental"
+        "help wanted"
       ],
-      "created_at": "2026-11-25T13:14:02Z"
+      "created_at": "2026-11-26T21:51:12Z"
     },
     {
       "repo": "oras-project/oras",
@@ -79886,15 +79789,63 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
-      "title": "[scanner] Colony: remove duplicated enrichment types and hub top-repo cache fields after json/shadow modes retire",
-      "url": "https://github.com/hivecommons/hive/issues/20118",
+      "title": "📝 RFC: v5 opt-in, v7 principals - GitHub App identities by role (author, reviewer, logistics)",
+      "url": "https://github.com/hivecommons/hive/issues/20153",
       "labels": [
-        "good first issue",
+        "help wanted",
+        "stage/045-needs-decision"
+      ],
+      "created_at": "2026-11-27T06:43:15Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "[scanner] Colony: retire the json and shadow customer-store modes",
+      "url": "https://github.com/hivecommons/hive/issues/20150",
+      "labels": [
         "help wanted",
         "agent/scanner",
-        "stage/010-actionable"
+        "stage/045-needs-decision"
       ],
-      "created_at": "2026-11-27T00:19:09Z"
+      "created_at": "2026-11-27T06:12:14Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "[selfreport] agent_login_required: watchdog: agent credential failure",
+      "url": "https://github.com/hivecommons/hive/issues/20145",
+      "labels": [
+        "help wanted",
+        "needs-human",
+        "stage/045-needs-decision"
+      ],
+      "created_at": "2026-11-27T04:20:05Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "✨ feature: per-repo setting to post a changes_requested verdict as a GitHub \"Request changes\" review",
+      "url": "https://github.com/hivecommons/hive/issues/20137",
+      "labels": [
+        "help wanted",
+        "stage/045-needs-decision"
+      ],
+      "created_at": "2026-11-27T01:45:55Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -79909,7 +79860,7 @@
       "labels": [
         "help wanted",
         "stage/040-covered-by-pr",
-        "hive/claimed-by-human"
+        "hive/partially-addressed"
       ],
       "created_at": "2026-11-27T01:16:53Z"
     },
@@ -79970,44 +79921,6 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
-      "title": "🌱 Colony: hub colony-only follow-ups",
-      "url": "https://github.com/hivecommons/hive/issues/20111",
-      "labels": [
-        "help wanted",
-        "triage/accepted",
-        "stage/010-actionable",
-        "hive/partially-addressed"
-      ],
-      "created_at": "2026-11-27T00:07:19Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "✨ feature: let a pod-run agent clone a private Forgejo repo",
-      "url": "https://github.com/hivecommons/hive/issues/19997",
-      "labels": [
-        "help wanted",
-        "triage/accepted",
-        "hive/verified-open",
-        "approved-direction",
-        "stage/040-covered-by-pr",
-        "hive/partially-addressed"
-      ],
-      "created_at": "2026-11-26T05:26:23Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
       "title": "🔒 Copy transport follow-ups: owner-ref the claim policy, and refuse copy mode when the admission policy is not enforced",
       "url": "https://github.com/hivecommons/hive/issues/19971",
       "labels": [
@@ -80018,23 +79931,6 @@
         "hive/claimed-by-human"
       ],
       "created_at": "2026-11-26T02:09:57Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
-      "title": "🐛 bug: translator-routed agents on local models compact at an assumed 1M window, because Hive does not pass the real context window to Claude Code",
-      "url": "https://github.com/hivecommons/hive/issues/19913",
-      "labels": [
-        "help wanted",
-        "triage/accepted",
-        "stage/020-claimed"
-      ],
-      "created_at": "2026-11-25T20:28:11Z"
     },
     {
       "repo": "hivecommons/hive",
@@ -80066,7 +79962,8 @@
       "labels": [
         "help wanted",
         "triage/accepted",
-        "stage/020-claimed"
+        "stage/020-claimed",
+        "stage/stalled"
       ],
       "created_at": "2026-11-25T17:59:41Z"
     },
@@ -80085,8 +79982,7 @@
         "triage/accepted",
         "kind/feature",
         "approved-direction",
-        "stage/020-claimed",
-        "stage/stalled"
+        "stage/020-claimed"
       ],
       "created_at": "2026-11-25T13:39:28Z"
     },
@@ -80297,6 +80193,22 @@
         "good first issue"
       ],
       "created_at": "2025-07-17T16:55:48Z"
+    },
+    {
+      "repo": "kserve/kserve",
+      "tier": "Incubating",
+      "lang": "Go",
+      "category": "Inference",
+      "subcategory": "Framework",
+      "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+      "ai_related": true,
+      "title": "Align llm-d component versions across KServe",
+      "url": "https://github.com/kserve/kserve/issues/6699",
+      "labels": [
+        "help wanted",
+        "good first issue"
+      ],
+      "created_at": "2026-11-27T15:04:27Z"
     },
     {
       "repo": "kserve/kserve",
