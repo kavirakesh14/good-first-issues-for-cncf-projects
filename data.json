@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T16:00:48.878959+00:00",
+  "last_updated": "2026-11-28T01:00:58.054694+00:00",
   "issues": [
     {
       "repo": "project-akri/akri",
@@ -10314,22 +10314,6 @@
       "subcategory": "Security & Compliance",
       "description": "Falco, the cloud-native runtime security project, is the de facto Kubernetes threat detection engine",
       "ai_related": false,
-      "title": "Offer Falco rules json schema to schemastore.org",
-      "url": "https://github.com/falcosecurity/falco/issues/3432",
-      "labels": [
-        "help wanted",
-        "kind/feature"
-      ],
-      "created_at": "2024-12-17T21:39:03Z"
-    },
-    {
-      "repo": "falcosecurity/falco",
-      "tier": "Graduated",
-      "lang": "C++",
-      "category": "Provisioning",
-      "subcategory": "Security & Compliance",
-      "description": "Falco, the cloud-native runtime security project, is the de facto Kubernetes threat detection engine",
-      "ai_related": false,
       "title": "build: syncing the repo metadata even when an RPM or DEB package is deleted afterword",
       "url": "https://github.com/falcosecurity/falco/issues/1674",
       "labels": [
@@ -16300,21 +16284,6 @@
       "subcategory": "Security & Compliance",
       "description": "Runtime protection for Kubernetes & other cloud Workloads. Kubearmor provides a observability and policy enforcement system to restrict any unwanted, malicious behaviour of cloud-native workloads at runtime.",
       "ai_related": false,
-      "title": "Remove `SELinuxType` and `MatchVolumeMountType`",
-      "url": "https://github.com/kubearmor/KubeArmor/issues/2965",
-      "labels": [
-        "good first issue"
-      ],
-      "created_at": "2026-10-28T22:17:03Z"
-    },
-    {
-      "repo": "kubearmor/kubearmor",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "Provisioning",
-      "subcategory": "Security & Compliance",
-      "description": "Runtime protection for Kubernetes & other cloud Workloads. Kubearmor provides a observability and policy enforcement system to restrict any unwanted, malicious behaviour of cloud-native workloads at runtime.",
-      "ai_related": false,
       "title": "Document Security Policy Presets",
       "url": "https://github.com/kubearmor/KubeArmor/issues/2964",
       "labels": [
@@ -20766,7 +20735,8 @@
       "url": "https://github.com/spiffe/spire/issues/1832",
       "labels": [
         "help wanted",
-        "priority/backlog"
+        "priority/backlog",
+        "stale"
       ],
       "created_at": "2020-09-10T16:40:28Z"
     },
@@ -26229,6 +26199,22 @@
         "question"
       ],
       "created_at": "2020-09-11T05:56:46Z"
+    },
+    {
+      "repo": "Project-HAMi/HAMi",
+      "tier": "Incubating",
+      "lang": "Go",
+      "category": "Orchestration & Management",
+      "subcategory": "Scheduling & Orchestration",
+      "description": "Heterogeneous AI Computing Virtualization Middleware",
+      "ai_related": false,
+      "title": "test(metax): fix MetaxSDevices AddResourceUsage test and add PatchAnnotations tests",
+      "url": "https://github.com/Project-HAMi/HAMi/issues/3562",
+      "labels": [
+        "good first issue",
+        "kind/feature"
+      ],
+      "created_at": "2026-11-27T19:14:58Z"
     },
     {
       "repo": "karmada-io/karmada",
@@ -73577,6 +73563,168 @@
       "subcategory": "Observability",
       "description": "Extensible open source multi-cluster Kubernetes user interface",
       "ai_related": false,
+      "title": "frontend: resourceMap: Add unit tests for GraphView and relations",
+      "url": "https://github.com/kubernetes-sigs/headlamp/issues/8804",
+      "labels": [
+        "kind/feature",
+        "good first issue",
+        "frontend",
+        "testing"
+      ],
+      "created_at": "2026-11-27T17:11:18Z"
+    },
+    {
+      "repo": "kubernetes-sigs/headlamp",
+      "tier": "Sandbox",
+      "lang": "TypeScript",
+      "category": "Observability and Analysis",
+      "subcategory": "Observability",
+      "description": "Extensible open source multi-cluster Kubernetes user interface",
+      "ai_related": false,
+      "title": "frontend: router: Add unit tests for router helpers",
+      "url": "https://github.com/kubernetes-sigs/headlamp/issues/8803",
+      "labels": [
+        "kind/feature",
+        "good first issue",
+        "frontend",
+        "testing"
+      ],
+      "created_at": "2026-11-27T17:11:15Z"
+    },
+    {
+      "repo": "kubernetes-sigs/headlamp",
+      "tier": "Sandbox",
+      "lang": "TypeScript",
+      "category": "Observability and Analysis",
+      "subcategory": "Observability",
+      "description": "Extensible open source multi-cluster Kubernetes user interface",
+      "ai_related": false,
+      "title": "frontend: project & settings: Add unit tests for ProjectDetails, projectsSlice, and pluginSettings",
+      "url": "https://github.com/kubernetes-sigs/headlamp/issues/8802",
+      "labels": [
+        "kind/feature",
+        "good first issue",
+        "frontend",
+        "testing"
+      ],
+      "created_at": "2026-11-27T17:11:13Z"
+    },
+    {
+      "repo": "kubernetes-sigs/headlamp",
+      "tier": "Sandbox",
+      "lang": "TypeScript",
+      "category": "Observability and Analysis",
+      "subcategory": "Observability",
+      "description": "Extensible open source multi-cluster Kubernetes user interface",
+      "ai_related": false,
+      "title": "frontend: common: Expand unit tests for LogViewer, ResourceTable, and PortForward",
+      "url": "https://github.com/kubernetes-sigs/headlamp/issues/8801",
+      "labels": [
+        "kind/feature",
+        "good first issue",
+        "frontend",
+        "testing"
+      ],
+      "created_at": "2026-11-27T17:11:11Z"
+    },
+    {
+      "repo": "kubernetes-sigs/headlamp",
+      "tier": "Sandbox",
+      "lang": "TypeScript",
+      "category": "Observability and Analysis",
+      "subcategory": "Observability",
+      "description": "Extensible open source multi-cluster Kubernetes user interface",
+      "ai_related": false,
+      "title": "frontend: Notifications & Settings: Add unit tests for Notification List, ClusterNameEditor, and PluginSettings",
+      "url": "https://github.com/kubernetes-sigs/headlamp/issues/8800",
+      "labels": [
+        "kind/feature",
+        "good first issue",
+        "frontend",
+        "testing"
+      ],
+      "created_at": "2026-11-27T17:11:08Z"
+    },
+    {
+      "repo": "kubernetes-sigs/headlamp",
+      "tier": "Sandbox",
+      "lang": "TypeScript",
+      "category": "Observability and Analysis",
+      "subcategory": "Observability",
+      "description": "Extensible open source multi-cluster Kubernetes user interface",
+      "ai_related": false,
+      "title": "frontend: Sidebar: Add unit tests for NavigationTabs and useSidebarItems",
+      "url": "https://github.com/kubernetes-sigs/headlamp/issues/8799",
+      "labels": [
+        "kind/feature",
+        "good first issue",
+        "frontend",
+        "testing"
+      ],
+      "created_at": "2026-11-27T17:11:06Z"
+    },
+    {
+      "repo": "kubernetes-sigs/headlamp",
+      "tier": "Sandbox",
+      "lang": "TypeScript",
+      "category": "Observability and Analysis",
+      "subcategory": "Observability",
+      "description": "Extensible open source multi-cluster Kubernetes user interface",
+      "ai_related": false,
+      "title": "frontend: plugin: Add unit tests for plugin loader and registry",
+      "url": "https://github.com/kubernetes-sigs/headlamp/issues/8798",
+      "labels": [
+        "kind/feature",
+        "good first issue",
+        "frontend",
+        "testing"
+      ],
+      "created_at": "2026-11-27T17:11:03Z"
+    },
+    {
+      "repo": "kubernetes-sigs/headlamp",
+      "tier": "Sandbox",
+      "lang": "TypeScript",
+      "category": "Observability and Analysis",
+      "subcategory": "Observability",
+      "description": "Extensible open source multi-cluster Kubernetes user interface",
+      "ai_related": false,
+      "title": "frontend: CreateResourceForm: Expand unit tests for form and workload fields",
+      "url": "https://github.com/kubernetes-sigs/headlamp/issues/8797",
+      "labels": [
+        "kind/feature",
+        "good first issue",
+        "frontend",
+        "testing"
+      ],
+      "created_at": "2026-11-27T17:11:00Z"
+    },
+    {
+      "repo": "kubernetes-sigs/headlamp",
+      "tier": "Sandbox",
+      "lang": "TypeScript",
+      "category": "Observability and Analysis",
+      "subcategory": "Observability",
+      "description": "Extensible open source multi-cluster Kubernetes user interface",
+      "ai_related": false,
+      "title": "frontend: activity: Add unit tests for Activity component",
+      "url": "https://github.com/kubernetes-sigs/headlamp/issues/8796",
+      "labels": [
+        "kind/feature",
+        "good first issue",
+        "frontend",
+        "testing"
+      ],
+      "created_at": "2026-11-27T17:10:58Z"
+    },
+    {
+      "repo": "kubernetes-sigs/headlamp",
+      "tier": "Sandbox",
+      "lang": "TypeScript",
+      "category": "Observability and Analysis",
+      "subcategory": "Observability",
+      "description": "Extensible open source multi-cluster Kubernetes user interface",
+      "ai_related": false,
       "title": "docs: Broken links and anchors reported by docusaurus",
       "url": "https://github.com/kubernetes-sigs/headlamp/issues/7640",
       "labels": [
@@ -74817,6 +74965,24 @@
         "help wanted"
       ],
       "created_at": "2026-09-04T11:02:14Z"
+    },
+    {
+      "repo": "jaegertracing/jaeger",
+      "tier": "Graduated",
+      "lang": "Go",
+      "category": "Observability and Analysis",
+      "subcategory": "Observability",
+      "description": "Jaeger: open source, end-to-end distributed tracing. Monitor and troubleshoot transactions in complex distributed systems",
+      "ai_related": false,
+      "title": "[Bug]: ClickHouse trace_id_timestamps_mv calculates trace end time as max(start_time) instead of start_time + duration",
+      "url": "https://github.com/jaegertracing/jaeger/issues/9278",
+      "labels": [
+        "bug",
+        "help wanted",
+        "area/storage",
+        "storage/clickhouse"
+      ],
+      "created_at": "2026-08-10T15:08:48Z"
     },
     {
       "repo": "jaegertracing/jaeger",
@@ -79789,6 +79955,176 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
+      "title": "[scanner] 🐛 backport resolving own non-blocking threads at human hand-off (#19826) to v5",
+      "url": "https://github.com/hivecommons/hive/issues/20211",
+      "labels": [
+        "good first issue",
+        "help wanted",
+        "agent/scanner",
+        "stage/010-actionable"
+      ],
+      "created_at": "2026-11-27T23:37:32Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "The action nudge says the agent executed nothing after a 29-minute turn with tool calls",
+      "url": "https://github.com/hivecommons/hive/issues/20214",
+      "labels": [
+        "help wanted",
+        "hive/claimed-by-scanner",
+        "stage/040-covered-by-pr"
+      ],
+      "created_at": "2026-11-27T23:47:26Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "busy-no-activity never reads transcripts for inference agents and restarts a working agent",
+      "url": "https://github.com/hivecommons/hive/issues/20213",
+      "labels": [
+        "help wanted",
+        "stage/040-covered-by-pr"
+      ],
+      "created_at": "2026-11-27T23:47:25Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "Forgejo AGit pull requests have no head branch, so the clone relay never delivers their commits",
+      "url": "https://github.com/hivecommons/hive/issues/20212",
+      "labels": [
+        "help wanted",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
+      ],
+      "created_at": "2026-11-27T23:43:56Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "[scanner] 🐛 backport the own-thread resolver on merge refusal (#19421) to v5",
+      "url": "https://github.com/hivecommons/hive/issues/20210",
+      "labels": [
+        "help wanted",
+        "agent/scanner",
+        "stage/020-claimed",
+        "hive/claimed-by-human"
+      ],
+      "created_at": "2026-11-27T23:37:12Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "A hub with release tracking disabled shows a permanent disabled Upgrade button and spinner",
+      "url": "https://github.com/hivecommons/hive/issues/20188",
+      "labels": [
+        "help wanted",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
+      ],
+      "created_at": "2026-11-27T21:32:11Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "The hub shows a Forgejo-only spoke as a GitHub hive and links to github.com",
+      "url": "https://github.com/hivecommons/hive/issues/20181",
+      "labels": [
+        "help wanted",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
+      ],
+      "created_at": "2026-11-27T21:17:22Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "forgejo.integration with serve_key_list cannot boot before its audiences exist",
+      "url": "https://github.com/hivecommons/hive/issues/20178",
+      "labels": [
+        "help wanted",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
+      ],
+      "created_at": "2026-11-27T21:17:18Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "🐛 bug: the hold guard counts the hive's own merge-from-main pushes as drift, and a dashboard \"Release\" can never lift the re-hold",
+      "url": "https://github.com/hivecommons/hive/issues/20164",
+      "labels": [
+        "help wanted",
+        "stage/040-covered-by-pr",
+        "hive/claimed-by-human"
+      ],
+      "created_at": "2026-11-27T18:12:05Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
+      "title": "🐛 bug: agent workdirs keep the pod fsGroup gid after a kubelet re-group, so every clone inherits it and the permissions watcher warns about it forever",
+      "url": "https://github.com/hivecommons/hive/issues/20162",
+      "labels": [
+        "help wanted",
+        "stage/040-covered-by-pr"
+      ],
+      "created_at": "2026-11-27T17:56:22Z"
+    },
+    {
+      "repo": "hivecommons/hive",
+      "tier": "Sandbox",
+      "lang": "Go",
+      "category": "AI Agent",
+      "subcategory": "Workflow Orchestration",
+      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
+      "ai_related": true,
       "title": "📝 RFC: v5 opt-in, v7 principals - GitHub App identities by role (author, reviewer, logistics)",
       "url": "https://github.com/hivecommons/hive/issues/20153",
       "labels": [
@@ -79957,24 +80293,6 @@
       "subcategory": "Workflow Orchestration",
       "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
       "ai_related": true,
-      "title": "✨ feature: let translator-routed agents run without interactive Claude Code, so subscriber API credits can pay for them",
-      "url": "https://github.com/hivecommons/hive/issues/19902",
-      "labels": [
-        "help wanted",
-        "triage/accepted",
-        "stage/020-claimed",
-        "stage/stalled"
-      ],
-      "created_at": "2026-11-25T17:59:41Z"
-    },
-    {
-      "repo": "hivecommons/hive",
-      "tier": "Sandbox",
-      "lang": "Go",
-      "category": "AI Agent",
-      "subcategory": "Workflow Orchestration",
-      "description": "Kubernetes-native orchestration for fleets of AI coding agents that autonomously maintain software repositories.",
-      "ai_related": true,
       "title": "✨ Colony P6: crowd.dev provider (blocked on colony#5)",
       "url": "https://github.com/hivecommons/hive/issues/19858",
       "labels": [
@@ -79982,7 +80300,8 @@
         "triage/accepted",
         "kind/feature",
         "approved-direction",
-        "stage/020-claimed"
+        "stage/020-claimed",
+        "stage/stalled"
       ],
       "created_at": "2026-11-25T13:39:28Z"
     },
